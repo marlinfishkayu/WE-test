@@ -1,0 +1,328 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "TrebuchetMS";
+  src: url("./fonts/TrebuchetMS.eot");
+  /* IE9 Compat Modes */
+  src: url("./fonts/TrebuchetMS.eot?#iefix") format("embedded-opentype"), url("./fonts/TrebuchetMS.otf") format("opentype"), url("./fonts/TrebuchetMS.svg") format("svg"), url("./fonts/TrebuchetMS.woff") format("woff");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 0;
+}
+
+html,
+body {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Barlow',Trebuchet MS,sans-serif, Arial, Helvetica;
+  color: #fff;
+  background-color: #233e97;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+h1 {
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+h3 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 15.4px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+a, li {
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#wrapper {
+  position: relative;
+}
+
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+#nav-area {
+  padding-left: calc(max(22px, env(safe-area-inset-left)));
+  padding-right: calc(max(22px, env(safe-area-inset-right)));
+  border: 1px solid red;
+  width: 100%;
+  max-width: 980px;
+  padding: 0 22px;
+  position: relative;
+  z-index: 2;
+}
+
+.nav_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav_links a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Barlow;
+  font-weight: 200;
+  font-size: 20px;
+  margin: 0 5px;
+}
+
+#wrapper #nav-area {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;
+  overflow: hidden;
+}
+
+.nav-logo {
+  width: 90px;
+  height: auto;
+}
+
+.nav_links {
+  display: none;
+}
+
+.menu-wrapper {
+  display: block;
+  position: absolute;
+  z-index: 3;
+  top: 9px;
+  right: 9px;
+  width: 30px;
+  height: 30px;
+}
+
+.hamburger-menu:after,
+.hamburger-menu:before {
+  width: 17px;
+  height: 1px;
+  border-radius: 0.5px;
+}
+
+.hamburger-menu {
+  position: relative;
+  -webkit-transform: translateY(8px);
+          transform: translateY(8px);
+  background: white;
+  -webkit-transition: all 0ms 300ms;
+  transition: all 0ms 300ms;
+}
+
+.hamburger-menu.animate {
+  background: rgba(255, 255, 255, 0);
+}
+
+.hamburger-menu:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 15px;
+  bottom: 8px;
+  background: white;
+  -webkit-transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.hamburger-menu:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 25px;
+  top: 8px;
+  background: white;
+  -webkit-transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.hamburger-menu.animate:after {
+  top: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.hamburger-menu.animate:before {
+  bottom: 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@media (min-width: 768px) {
+  .nav_links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #wrapper #nav-area {
+    top: 5%;
+    left: 50%;
+    text-align: center;
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+  }
+}
+
+#slider-area .slide {
+  background-color: red;
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider-text {
+  position: absolute;
+  left: 50%;
+  z-index: 2;
+  top: 40%;
+  width: 100%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  text-align: center;
+}
+
+.slider-text h2 {
+  font-size: 60px;
+  color: #fff;
+}
+
+.slider-text p {
+  font-size: 18px;
+  color: #fff;
+}
+
+.slider-text a {
+  text-decoration: none;
+  background-color: blue;
+  padding: 15px 25px;
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .slider-text {
+    width: 500px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #slider-area .slide {
+    height: 880px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
