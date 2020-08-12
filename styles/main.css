@@ -476,7 +476,7 @@ a, li {
   height: 46px;
   z-index: 1;
   background-repeat: no-repeat;
-  background-image: url(/images/icon/button_1.svg);
+  background-image: url(/images/icon/button.svg);
 }
 
 #wrapper .slider-text button:focus {
