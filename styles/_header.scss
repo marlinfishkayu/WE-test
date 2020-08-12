@@ -38,6 +38,7 @@ a, li{
 	transform: translate(-50%);
 	text-align: center;
 	padding: 0;
+	transition: 0.5s all;
 	a{
 		text-decoration: none;
 		color: $primaryNav;
@@ -73,7 +74,7 @@ a, li{
 	height: 15px;
 }
 .search-wrapper{
-	border-left: 1px solid;
+	border-left: 0.5px solid rgb(216,216,216);
     padding-left: 15px;
 }
 .icon-search{
@@ -81,7 +82,6 @@ a, li{
 }
 .icon-lang{
 	margin-left: 0.5rem;
-	border-left: 0.5px solid rgb(216,216,216);
 }
 .icon-search h6{
 	text-decoration: none;
@@ -190,7 +190,8 @@ a, li{
 @media (min-width: 992px) {
 	.nav-logo {
 		width: 160px;
-    	height: 56px;
+		height: 56px;
+		
 	}
 	.menu-wrapper{
 		display: block;
@@ -213,11 +214,13 @@ a, li{
 		width: 700px;
 		justify-content: center;
 	}
+	.nav-scroll .navbar-brand{
+		padding-top: 0;
+	}
 	.nav-scroll .nav-logo{
 		width: 128px;
-		
 	}
-	#wrapper .nav-scroll {
+	#wrapper .nav-scroll  .nav_links{
 		top: 0%;
 	}
  }
