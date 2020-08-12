@@ -4,7 +4,27 @@
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-	background-position: 50% 50%;
+    background-position: 50% 50%;
+    position: relative;
+}
+#slider-area .owl-dots{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+     button{
+        width: 63px;
+        height: 1.5px;
+        transform: skew(-20deg);
+        background: #979797;
+        margin: 0 0.2rem;
+    }
+}
+#slider-area .owl-dots .active button{
+    width: 63px;
+    height: 1.5px;
+    transform: skew(-20deg);
+    background: red;
 }
 .slider-text{
 	position: absolute;
@@ -80,6 +100,7 @@
         }
     }
 }
+
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
