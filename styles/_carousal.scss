@@ -20,9 +20,9 @@
         margin: 0 0.2rem;
     }
 }
-#slider-area .owl-dots .active button{
-    transform: skew(-20deg);
-    background: red;
+#slider-area .owl-dots.active button{
+    background-color: red;
+    height: 10px;
 }
 .slider-text{
 	position: absolute;
@@ -84,23 +84,23 @@
             background-repeat: no-repeat;
             background-image: url(/images/icon/button_1.svg);
         }
-        &:after {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: -25%;
-            width: 200px;
-            height: 46px;
-            z-index: -1;
-            background-color: linear-gradient(134deg, rgba(0,67,131,0.30) 0%, rgba(0,32,76,0.80) 38%, rgba(0,32,76,0.80) 75%, rgba(0,32,76,0.30) 100%);
-            transform: rotate(-180deg);
+        // &:after {
+        //     content: "";
+        //     position: absolute;
+        //     top: 0;
+        //     left: -25%;
+        //     width: 200px;
+        //     height: 46px;
+        //     z-index: -1;
+        //     background-color: linear-gradient(134deg, rgba(0,67,131,0.30) 0%, rgba(0,32,76,0.80) 38%, rgba(0,32,76,0.80) 75%, rgba(0,32,76,0.30) 100%);
+        //     transform: rotate(-180deg);
             
-        }
+        // }
         
     }
 }
 #wrapper .slider-text button:focus {
-    outline: transparent!important;
+    outline: none;
 }
 
 // Small devices (landscape phones, 576px and up)

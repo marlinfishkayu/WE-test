@@ -22,6 +22,7 @@ $('#slider-area').owlCarousel({
     }
 })
 
+//with page indicator carousal
 $('.slider').on('initialized.owl.carousel changed.owl.carousel', function(e) {
     if (!e.namespace)  {
       return;

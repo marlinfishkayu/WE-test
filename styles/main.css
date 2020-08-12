@@ -233,6 +233,11 @@ a, li {
   margin: 0 5px;
 }
 
+.icon-search h6:hover {
+  text-decoration: none;
+  color: white;
+}
+
 .menu-wrapper {
   display: block;
   position: absolute;
@@ -394,7 +399,7 @@ a, li {
 }
 
 #slider-area .owl-dots button {
-  width: 63px;
+  width: 20px;
   height: 1.5px;
   -webkit-transform: skew(-20deg);
           transform: skew(-20deg);
@@ -403,11 +408,8 @@ a, li {
 }
 
 #slider-area .owl-dots.active button {
-  width: 63px;
-  height: 1.5px;
-  -webkit-transform: skew(-20deg);
-          transform: skew(-20deg);
-  background: red;
+  background-color: red;
+  height: 10px;
 }
 
 .slider-text {
@@ -458,8 +460,8 @@ a, li {
   background: linear-gradient(138deg, rgba(0, 67, 131, 0.3) 0%, rgba(0, 32, 76, 0.8) 34%, rgba(0, 32, 76, 0.8) 71%, rgba(0, 32, 76, 0.3) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004383",endColorstr="#00204c",GradientType=1);
   border: 1px solid #caac85;
-  border: 1px solid -moz-linear-gradient(138deg, #caac85 0%, rgba(137, 102, 61, 0.6) 34%, #89663d 71%, #89663d 100%);
-  border: 1px solid -webkit-linear-gradient(138deg, #caac85 0%, rgba(137, 102, 61, 0.6) 34%, #89663d 71%, #89663d 100%);
+  -moz-linear-border: 1px solid gradient(138deg, #caac85 0%, rgba(137, 102, 61, 0.6) 34%, #89663d 71%, #89663d 100%);
+  -webkit-linear-border: 1px solid gradient(138deg, #caac85 0%, rgba(137, 102, 61, 0.6) 34%, #89663d 71%, #89663d 100%);
   border: 1px solid linear-gradient(138deg, #caac85 0%, rgba(137, 102, 61, 0.6) 34%, #89663d 71%, #89663d 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#caac85",endColorstr="#89663d",GradientType=1);
   cursor: pointer;
@@ -477,17 +479,8 @@ a, li {
   background-image: url(/images/icon/button_1.svg);
 }
 
-.slider-text button:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -25%;
-  width: 200px;
-  height: 46px;
-  z-index: -1;
-  background-color: linear-gradient(134deg, rgba(0, 67, 131, 0.3) 0%, rgba(0, 32, 76, 0.8) 38%, rgba(0, 32, 76, 0.8) 75%, rgba(0, 32, 76, 0.3) 100%);
-  -webkit-transform: rotate(-180deg);
-          transform: rotate(-180deg);
+#wrapper .slider-text button:focus {
+  outline: none;
 }
 
 @media (min-width: 768px) {
@@ -499,6 +492,9 @@ a, li {
 @media (min-width: 992px) {
   #slider-area .slide {
     height: 600px;
+  }
+  #slider-area .owl-dots button {
+    width: 33px;
   }
 }
 
@@ -515,6 +511,9 @@ a, li {
   .slider-text p {
     font-size: 26px;
     padding: 3rem 0;
+  }
+  #slider-area .owl-dots button {
+    width: 63px;
   }
 }
 /*# sourceMappingURL=main.css.map */
