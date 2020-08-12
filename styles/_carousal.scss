@@ -96,6 +96,9 @@
             transform: rotate(-180deg);
             
         }
+        &:focus {
+            outline: transparent;
+        }
     }
 }
 
