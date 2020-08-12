@@ -40,7 +40,13 @@ a, li{
 		color: $mainText;
 	}
 }
-
+.nav-icon-wrapper,
+.icon-search{
+	display: flex;
+}
+.icon-search h6{
+	
+}
 #wrapper #nav-area{
 	position: absolute;
 	z-index: 5;
@@ -57,6 +63,10 @@ a, li{
 .nav_links{
 	display: none;
 	margin: 0 auto;
+}
+.icon-search{
+	width: 30px;
+	height: 30px;
 }
 .menu-wrapper{
 	display: block;
@@ -137,7 +147,9 @@ a, li{
 		text-align: center;
 		transform: translate(-50%);
 	}
-	
+	.menu-wrapper{
+		top: 14px;
+	}
 }
 
 // Large devices (desktops, 992px and up)

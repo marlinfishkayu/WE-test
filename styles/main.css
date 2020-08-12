@@ -171,6 +171,13 @@ a, li {
   color: white;
 }
 
+.nav-icon-wrapper,
+.icon-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 #wrapper #nav-area {
   position: absolute;
   z-index: 5;
@@ -189,6 +196,11 @@ a, li {
 .nav_links {
   display: none;
   margin: 0 auto;
+}
+
+.icon-search {
+  width: 30px;
+  height: 30px;
 }
 
 .menu-wrapper {
@@ -278,6 +290,9 @@ a, li {
     text-align: center;
     -webkit-transform: translate(-50%);
             transform: translate(-50%);
+  }
+  .menu-wrapper {
+    top: 14px;
   }
 }
 
