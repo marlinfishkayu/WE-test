@@ -1,5 +1,4 @@
 #slider-area .slide{
-    background-color: red;
 	height: 300px;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -18,7 +17,7 @@
     h2{
         font-size: 30px;
         color: $mainText;
-        font-family: 'futura';
+        font-family: Futura,Trebuchet MS,Arial,sans-serif; 
     }
     p{
         font-size: 16px;

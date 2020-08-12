@@ -305,7 +305,6 @@ a, li {
 }
 
 #slider-area .slide {
-  background-color: red;
   height: 300px;
   width: 100%;
   background-repeat: no-repeat;
@@ -326,7 +325,7 @@ a, li {
 .slider-text h2 {
   font-size: 30px;
   color: white;
-  font-family: 'futura';
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
 
 .slider-text p {
