@@ -21,8 +21,11 @@
     }
 }
 #slider-area .owl-dots.active button{
-    background-color: red;
-    height: 10px;
+    background-color: $secondaryColor;
+    width: 20px;
+    height: 3.5px;
+    transform: skew(-20deg);
+    margin: 0 0.2rem;
 }
 .slider-text{
 	position: absolute;
@@ -102,6 +105,9 @@
 #wrapper .slider-text button:focus {
     outline: none;
 }
+button.owl-dot.active {
+    border: 1px solid;
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
@@ -144,6 +150,10 @@
     }
     #slider-area .owl-dots button{
         width: 63px;
+    }
+    #slider-area .owl-dots.active button{
+        width: 20px;
+        height: 3.5px;
     }
     
 
