@@ -14,7 +14,8 @@ a, li{
     flex-wrap: wrap;
     padding-left: 0;
     margin-bottom: 0;
-    list-style: none;
+	list-style: none;
+	position: relative;
 }
 #nav-area{
 	padding-left: calc(max(22px, env(safe-area-inset-left)));
@@ -31,16 +32,18 @@ a, li{
     overflow: hidden;
 }
 .nav_links{
-	padding: 1rem 0;
 	display: none;
-	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+    text-align: center;
 	a{
 		text-decoration: none;
 		color: $primaryNav;
 		font-family: Barlow;
 		font-weight: 200;
 		font-size: 16px;
-		margin: 0 5px;
+		margin: 13px 0px;
 	}
 	a:hover{
 		color: $mainText;
@@ -53,6 +56,11 @@ a, li{
 
 .nav-icon-wrapper{
 	padding: 1rem 0;
+	display: flex;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    right: 85px;
 }
 .nav-icon-wrapper,
 .icon-search{
@@ -159,6 +167,7 @@ a, li{
 		left: 50%;
 		text-align: center;
 		transform: translate(-50%);
+		justify-content: space-between;
 	}
 	.menu-wrapper{
 		top: 14px;
@@ -175,6 +184,10 @@ a, li{
 	}
 	.menu-wrapper{
 		display: none;
+	}
+	.nav-links{
+		width: 700px;
+		justify-content: center;
 	}
 	
  }

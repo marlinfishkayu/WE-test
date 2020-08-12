@@ -139,6 +139,7 @@ a, li {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  position: relative;
 }
 
 #nav-area {
@@ -157,9 +158,12 @@ a, li {
 }
 
 .nav_links {
-  padding: 1rem 0;
   display: none;
-  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  text-align: center;
 }
 
 .nav_links a {
@@ -168,7 +172,7 @@ a, li {
   font-family: Barlow;
   font-weight: 200;
   font-size: 16px;
-  margin: 0 5px;
+  margin: 13px 0px;
 }
 
 .nav_links a:hover {
@@ -182,6 +186,13 @@ a, li {
 
 .nav-icon-wrapper {
   padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  right: 85px;
 }
 
 .nav-icon-wrapper,
@@ -302,6 +313,9 @@ a, li {
     text-align: center;
     -webkit-transform: translate(-50%);
             transform: translate(-50%);
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .menu-wrapper {
     top: 14px;
@@ -320,6 +334,12 @@ a, li {
   .menu-wrapper {
     display: none;
   }
+  .nav-links {
+    width: 700px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -336,6 +356,7 @@ a, li {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 50%;
 }
 
 .slider-text {
@@ -370,6 +391,12 @@ a, li {
 @media (min-width: 768px) {
   .slider-text {
     width: 500px;
+  }
+}
+
+@media (min-width: 992px) {
+  #slider-area .slide {
+    height: 600px;
   }
 }
 
