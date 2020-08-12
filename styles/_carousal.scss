@@ -106,7 +106,9 @@
     outline: none;
 }
 button.owl-dot.active {
-    border: 1px solid;
+    border: rgb(176,147,109);
+    width: 20px;
+    height: 3.5px;
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -152,7 +154,7 @@ button.owl-dot.active {
         width: 63px;
     }
     #slider-area .owl-dots.active button{
-        width: 20px;
+        width: 63px;
         height: 3.5px;
     }
     

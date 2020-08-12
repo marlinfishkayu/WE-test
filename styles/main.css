@@ -488,7 +488,9 @@ a, li {
 }
 
 button.owl-dot.active {
-  border: 1px solid;
+  border: #b0936d;
+  width: 20px;
+  height: 3.5px;
 }
 
 @media (min-width: 768px) {
@@ -524,7 +526,7 @@ button.owl-dot.active {
     width: 63px;
   }
   #slider-area .owl-dots.active button {
-    width: 20px;
+    width: 63px;
     height: 3.5px;
   }
 }
