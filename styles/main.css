@@ -183,7 +183,9 @@ a, li {
 
 .nav-logo {
   width: 90px;
-  height: auto;
+  height: 56px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
 }
 
 .nav-icon-wrapper {
@@ -246,11 +248,6 @@ a, li {
   right: 0;
   width: 30px;
   height: 30px;
-}
-
-.main-nav.nav-scroll {
-  height: 60px;
-  background-color: red;
 }
 
 .hamburger-menu:after,
@@ -342,6 +339,7 @@ a, li {
 @media (min-width: 992px) {
   .nav-logo {
     width: 160px;
+    height: 56px;
   }
   .menu-wrapper {
     display: block;
@@ -371,6 +369,12 @@ a, li {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .nav-scroll .nav-logo {
+    width: 128px;
+  }
+  #wrapper .nav-scroll {
+    top: 0%;
   }
 }
 

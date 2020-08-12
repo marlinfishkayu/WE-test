@@ -8,10 +8,10 @@
 //navbar scroll add class
 $(window).on('scroll', function(){
     if($(window).scrollTop()){
-        $('.main-nav').addClass('nav-scroll');
+        $('#nav-area').addClass('nav-scroll');
     }
     else{
-        $('.main-nav').removeClass('nav-scroll');
+        $('#nav-area').removeClass('nav-scroll');
     }
 })
 

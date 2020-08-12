@@ -52,7 +52,8 @@ a, li{
 }
 .nav-logo{
 	width: 90px;
-    height: auto;
+	height: 56px;
+	transition: 0.5s all;
 }
 .nav-icon-wrapper{
 	padding: 1rem 0;
@@ -103,10 +104,7 @@ a, li{
     width: 30px;
     height: 30px;
 }
-.main-nav.nav-scroll{
-	height: 60px;
-	background-color: red;
-}
+
 
 //hamburger
 .hamburger-menu:after,
@@ -192,6 +190,7 @@ a, li{
 @media (min-width: 992px) {
 	.nav-logo {
 		width: 160px;
+    	height: 56px;
 	}
 	.menu-wrapper{
 		display: block;
@@ -214,7 +213,13 @@ a, li{
 		width: 700px;
 		justify-content: center;
 	}
-	
+	.nav-scroll .nav-logo{
+		width: 128px;
+		
+	}
+	#wrapper .nav-scroll {
+		top: 0%;
+	}
  }
 
 // Extra large devices (large desktops, 1200px and up)
