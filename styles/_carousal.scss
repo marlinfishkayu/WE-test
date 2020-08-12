@@ -14,6 +14,7 @@
     width: 100%;
 	transform: translate(-50%);
     text-align: center;
+    background-color: transparent;
     h2{
         font-size: 30px;
         color: $mainText;
@@ -28,6 +29,54 @@
         text-decoration: none;
         padding: 15px 25px;
         display: inline-block;
+    }
+    button{
+        font-size: 13px;
+        font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+        letter-spacing: 3px;
+        text-align: center;
+        text-shadow: 0 1px 1px #00204C;
+        text-decoration: none;
+        color: white;
+        width: 200px;
+        height: 46px;
+        padding: 15px 32px;
+        display: inline-block;
+        margin: 4px 2px;
+        position: relative;
+        background: rgb(0,67,131);
+        background: -moz-linear-gradient(138deg, rgba(0,67,131,0.3) 0%, rgba(0,32,76,0.8) 34%, rgba(0,32,76,0.8) 71%, rgba(0,32,76,0.3) 100%);
+        background: -webkit-linear-gradient(138deg, rgba(0,67,131,0.3) 0%, rgba(0,32,76,0.8) 34%, rgba(0,32,76,0.8) 71%, rgba(0,32,76,0.3) 100%);
+        background: linear-gradient(138deg, rgba(0,67,131,0.3) 0%, rgba(0,32,76,0.8) 34%, rgba(0,32,76,0.8) 71%, rgba(0,32,76,0.3) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004383",endColorstr="#00204c",GradientType=1);
+        border: 1px solid rgb(202,172,133);
+        border: 1px solid -moz-linear-gradient(138deg, rgba(202,172,133,1) 0%, rgba(137,102,61,0.6) 34%, rgba(137,102,61,1) 71%, rgba(137,102,61,1) 100%);
+        border: 1px solid -webkit-linear-gradient(138deg, rgba(202,172,133,1) 0%, rgba(137,102,61,0.6) 34%, rgba(137,102,61,1) 71%, rgba(137,102,61,1) 100%);
+        border: 1px solid linear-gradient(138deg, rgba(202,172,133,1) 0%, rgba(137,102,61,0.6) 34%, rgba(137,102,61,1) 71%, rgba(137,102,61,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#caac85",endColorstr="#89663d",GradientType=1);
+        cursor: pointer;
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -25%;
+            width: 200px;
+            height: 46px;
+            z-index: 1;
+            background-image: url(/images/icon/button.svg);
+        }
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -25%;
+            width: 200px;
+            height: 46px;
+            z-index: -1;
+            background-color: linear-gradient(134deg, rgba(0,67,131,0.30) 0%, rgba(0,32,76,0.80) 38%, rgba(0,32,76,0.80) 75%, rgba(0,32,76,0.30) 100%);
+            transform: rotate(-180deg);
+            
+        }
     }
 }
 
