@@ -442,12 +442,13 @@ a, li {
 .slider-text button:before {
   content: "";
   position: absolute;
-  top: 0;
-  left: -25%;
-  width: 200px;
+  top: -1px;
+  left: 0%;
+  width: 198px;
   height: 46px;
   z-index: 1;
-  background-image: url(/images/icon/button.svg);
+  background-repeat: no-repeat;
+  background-image: url(/images/icon/button_1.svg);
 }
 
 .slider-text button:after {
