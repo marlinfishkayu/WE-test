@@ -68,8 +68,8 @@
         background: linear-gradient(138deg, rgba(0,67,131,0.3) 0%, rgba(0,32,76,0.8) 34%, rgba(0,32,76,0.8) 71%, rgba(0,32,76,0.3) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004383",endColorstr="#00204c",GradientType=1);
         border: 1px solid rgb(202,172,133);
-        border: 1px solid -moz-linear-gradient(138deg, rgba(202,172,133,1) 0%, rgba(137,102,61,0.6) 34%, rgba(137,102,61,1) 71%, rgba(137,102,61,1) 100%);
-        border: 1px solid -webkit-linear-gradient(138deg, rgba(202,172,133,1) 0%, rgba(137,102,61,0.6) 34%, rgba(137,102,61,1) 71%, rgba(137,102,61,1) 100%);
+        -moz-linear-border: 1px solid gradient(138deg, rgba(202,172,133,1) 0%, rgba(137,102,61,0.6) 34%, rgba(137,102,61,1) 71%, rgba(137,102,61,1) 100%);
+        -webkit-linear-border: 1px solid gradient(138deg, rgba(202,172,133,1) 0%, rgba(137,102,61,0.6) 34%, rgba(137,102,61,1) 71%, rgba(137,102,61,1) 100%);
         border: 1px solid linear-gradient(138deg, rgba(202,172,133,1) 0%, rgba(137,102,61,0.6) 34%, rgba(137,102,61,1) 71%, rgba(137,102,61,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#caac85",endColorstr="#89663d",GradientType=1);
         cursor: pointer;
@@ -96,12 +96,12 @@
             transform: rotate(-180deg);
             
         }
-        &:focus {
-            outline: transparent;
-        }
+        
     }
 }
-
+#wrapper .slider-text button:focus {
+    outline: transparent!important;
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
