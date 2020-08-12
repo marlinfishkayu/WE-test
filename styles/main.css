@@ -488,7 +488,7 @@ a, li {
 }
 
 button.owl-dot.active {
-  border: #b0936d;
+  border: 1px solid #b0936d;
   width: 20px;
   height: 3.5px;
 }
