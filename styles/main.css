@@ -147,7 +147,7 @@ a, li {
   padding-left: calc(max(22px, env(safe-area-inset-left)));
   padding-right: calc(max(22px, env(safe-area-inset-right)));
   padding: 0 22px;
-  position: absolute;
+  position: fixed;
   max-width: 1300px;
   z-index: 5;
   top: 2%;
@@ -246,6 +246,11 @@ a, li {
   right: 0;
   width: 30px;
   height: 30px;
+}
+
+.main-nav.nav-scroll {
+  height: 60px;
+  background-color: red;
 }
 
 .hamburger-menu:after,
@@ -387,7 +392,6 @@ a, li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  position: relative;
 }
 
 #slider-area .owl-dots {
@@ -420,7 +424,7 @@ a, li {
   position: absolute;
   left: 50%;
   z-index: 2;
-  top: 40%;
+  top: 15%;
   width: 100%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
@@ -505,6 +509,9 @@ button.owl-dot.active {
   }
   #slider-area .owl-dots button {
     width: 33px;
+  }
+  .slider-text {
+    top: 40%;
   }
 }
 

@@ -21,7 +21,7 @@ a, li{
 	padding-left: calc(max(22px, env(safe-area-inset-left)));
 	padding-right: calc(max(22px, env(safe-area-inset-right)));
     padding: 0 22px;
-	position: absolute;
+	position: fixed;
 	max-width: 1300px;
 	z-index: 5;
 	top: 2%;
@@ -54,7 +54,6 @@ a, li{
 	width: 90px;
     height: auto;
 }
-
 .nav-icon-wrapper{
 	padding: 1rem 0;
 	display: flex;
@@ -104,9 +103,12 @@ a, li{
     width: 30px;
     height: 30px;
 }
+.main-nav.nav-scroll{
+	height: 60px;
+	background-color: red;
+}
 
-
-
+//hamburger
 .hamburger-menu:after,
 .hamburger-menu:before {
   width: $bar-width;

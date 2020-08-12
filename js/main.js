@@ -1,8 +1,21 @@
-(function () {
-	$('.menu-wrapper').on('click', function() {
-		$('.hamburger-menu').toggleClass('animate');
-	})
-})();
+// (function () {
+// 	$('.menu-wrapper').on('click', function() {
+// 		$('.hamburger-menu').toggleClass('animate');
+// 	})
+// })();
+
+
+//navbar scroll add class
+$(window).on('scroll', function(){
+    if($(window).scrollTop()){
+        $('.main-nav').addClass('nav-scroll');
+    }
+    else{
+        $('.main-nav').removeClass('nav-scroll');
+    }
+})
+
+
 
 //Hero carousal
 $('#slider-area').owlCarousel({
