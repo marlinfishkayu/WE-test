@@ -13,7 +13,7 @@
     left: 50%;
     transform: translate(-50%);
      button{
-        width: 63px;
+        width: 20px;
         height: 1.5px;
         transform: skew(-20deg);
         background: #979797;
@@ -21,8 +21,6 @@
     }
 }
 #slider-area .owl-dots .active button{
-    width: 63px;
-    height: 1.5px;
     transform: skew(-20deg);
     background: red;
 }
@@ -119,6 +117,9 @@
     #slider-area .slide {
         height: 600px;
     }
+    #slider-area .owl-dots button{
+        width: 33px;
+    }
  }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -138,10 +139,13 @@
             padding: 3rem 0;
         }
     }
- }
+    #slider-area .owl-dots button{
+        width: 63px;
+    }
+    
 
 
-
+}
 
 
 // Carousal with indicator
