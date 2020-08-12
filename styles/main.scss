@@ -49,8 +49,9 @@ img{
   width: 100%;
   height: 100%;
 }
-.wrapper{
+#wrapper{
   width:100%;
+  min-width: 300px;
   height: auto;
   overflow: hidden;
 }

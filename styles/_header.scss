@@ -20,10 +20,9 @@ a, li{
 #nav-area{
 	padding-left: calc(max(22px, env(safe-area-inset-left)));
 	padding-right: calc(max(22px, env(safe-area-inset-right)));
-	width: 100%;
-    max-width: 980px;
     padding: 0 22px;
-    position: absolute;
+	position: absolute;
+	max-width: 1300px;
 	z-index: 5;
     top: 0;
     left: 0;
@@ -31,12 +30,14 @@ a, li{
     height: 60px;
     overflow: hidden;
 }
-.nav_links{
+#wrapper .nav_links{
 	display: none;
 	position: absolute;
 	left: 50%;
+	top: 5%;
 	transform: translate(-50%);
-    text-align: center;
+	text-align: center;
+	padding: 0;
 	a{
 		text-decoration: none;
 		color: $primaryNav;
@@ -71,8 +72,12 @@ a, li{
 	width: 15px;
 	height: 15px;
 }
+.search-wrapper{
+	border-left: 1px solid;
+    padding-left: 15px;
+}
 .icon-search{
-	margin-right: 0.5rem;
+	margin-right: 1rem;
 }
 .icon-lang{
 	margin-left: 0.5rem;
@@ -90,8 +95,8 @@ a, li{
 	display: block;
 	position: absolute;
     z-index: 3;
-    top: 9px;
-    right: 9px;
+    top: 12px;
+    right: 0;
     width: 30px;
     height: 30px;
 }
@@ -160,7 +165,7 @@ a, li{
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
 	.nav-logo {
-		width: 130px;
+		width: 110px;
 	}
 	#wrapper #nav-area{
 		top: 5%;
@@ -169,23 +174,37 @@ a, li{
 		transform: translate(-50%);
 		justify-content: space-between;
 	}
-	.menu-wrapper{
-		top: 14px;
+	
+	#wrapper .nav-link {
+		padding: .5rem 1rem;
 	}
+	
+	
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-	.nav_links{
-		display: flex;
+	.nav-logo {
+		width: 160px;
 	}
-	#nav-area{
-		max-width: 980px;
+	.menu-wrapper{
+		display: block;
+		top: 14px;
+	}
+	#wrapper .nav_links{
+		display: flex;
+		width: 700px;
+		justify-content: center;
+	}
+	.nav-icon-wrapper {
+		right: 3%;
+   		top: 10%;
 	}
 	.menu-wrapper{
 		display: none;
 	}
-	.nav-links{
+	#wrapper .nav-links{
+		display: flex;
 		width: 700px;
 		justify-content: center;
 	}
@@ -197,8 +216,11 @@ a, li{
 	.nav-logo{
 		width: 160px;
 	}
-	#nav-area{
-		max-width: 1300px;
+	#wrapper .nav_links {
+		width: 900px;
+	}
+	#wrapper .nav-link {
+		padding: .5rem 1.8rem;
 	}
 }
 
