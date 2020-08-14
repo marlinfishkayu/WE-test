@@ -23,11 +23,13 @@ $(document).ready(function(){
         $('.menu-item').addClass('hide-item')
         $('#searchForm').addClass('active')
         $('.closeBtn').addClass('active')
+        $('.nav-wrap').addClass('search-black');
     })
     $('.closeBtn').click(function(){
         $('.menu-item').removeClass('hide-item')
         $('#searchForm').removeClass('active')
         $('.closeBtn').removeClass('active')
+        $('.nav-wrap').removeClass('search-black');
     })
 })
 
