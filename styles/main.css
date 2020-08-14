@@ -116,7 +116,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Barlow Regular", Trebuchet MS, sans-serif, Arial, Helvetica;
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   font-size: 18px;
   font-style: normal;
   font-variant: normal;
@@ -337,7 +337,7 @@ img {
   border: none;
   outline: none;
   font-size: 24px;
-  font-family: "Barlow Thin", Trebuchet MS, sans-serif, Arial, Helvetica;
+  font-family: "Barlow Thin", sans-serif, Arial, Helvetica;
   font-weight: 200;
 }
 
@@ -722,7 +722,7 @@ img {
 }
 
 .deco-cat {
-  font-family: "Barlow Thin", Trebuchet MS, sans-serif, Arial, Helvetica;
+  font-family: "Barlow Thin", sans-serif, Arial, Helvetica;
   font-size: 18px;
   font-weight: 100;
   color: #E1E1E1;
@@ -763,7 +763,7 @@ img {
 }
 
 .deco-content {
-  font-family: "Barlow Thin", Trebuchet MS, sans-serif, Arial, Helvetica;
+  font-family: "Barlow Thin", sans-serif, Arial, Helvetica;
   font-size: 18px;
   color: #A1A1A1;
   max-width: 300px;
