@@ -161,13 +161,14 @@
 	border: none;
 	outline: none;
 	font-size: 24px;
-	font-family: $fontBarlowThin;
+	font-family: 'Barlow', sans-serif;
 	font-weight: 200;
 }
 #nav-area .closeBtn{
 	cursor: pointer;
 	position: absolute;
-	top:22px;
+	z-index: 3;
+	top: 22px;
 	right: 0%;
 	width: 18px;
 	height: 16px;
