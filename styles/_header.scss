@@ -103,7 +103,7 @@
 	font-family: Barlow;
 	font-weight: 200;
 	font-size: 16px;
-	margin: 0 5px;
+	margin: -6px 5px
 }
 .icon-search h6:hover{
 	text-decoration: none;
@@ -174,7 +174,7 @@
 	top:22px;
 	right: 25%;
 	transform: translateX(-50%);
-	width: 16px;
+	width: 18px;
 	height: 16px;
 	background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMThweCIgaGVpZ2h0PSIxNnB4IiB2aWV3Qm94PSIwIDAgMTggMTYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDY0ICg5MzUzNykgLSBodHRwczovL3NrZXRjaC5jb20gLS0+CiAgICA8dGl0bGU+Y2xvc2VfaWNvbjwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJIb21lIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgICAgIDxnIGlkPSJXRV9zZWFyY2giIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDUzLjAwMDAwMCwgLTQ2LjAwMDAwMCkiIHN0cm9rZT0iI0ZGRkZGRiI+CiAgICAgICAgICAgIDxnIGlkPSJzZWFyY2giPgogICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTU0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzNTAuMDAwMDAwLCAzNC4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iY2xvc2VfaWNvbiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNzA0LjAwMDAwMCwgMTIuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC01NSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGluZSB4MT0iMC41MzMzMzMzMzMiIHkxPSIwLjUiIHgyPSIxNS45NDYzOTczIiB5Mj0iMTUuOTQ5NzQ3NSIgaWQ9IkxpbmUtQ29weS0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4LjAwMDAwMCwgOC4wMDAwMDApIHNjYWxlKC0xLCAxKSB0cmFuc2xhdGUoLTguMDAwMDAwLCAtOC4wMDAwMDApICI+PC9saW5lPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpbmUgeDE9IjAuNTMzMzMzMzMzIiB5MT0iMC41IiB4Mj0iMTUuOTQ2Mzk3MyIgeTI9IjE1Ljk0OTc0NzUiIGlkPSJMaW5lLUNvcHktMyI+PC9saW5lPgogICAgICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=");
 	opacity: 0;
@@ -185,10 +185,6 @@
 		transition-delay: 0.5s;
 	}
 }
-
-// #nav-area .menu-about{
-// 	transition-delay: 0.6s;
-// }
 
 //hamburger
 .hamburger-menu:after,
@@ -264,11 +260,9 @@
 		transform: translate(-50%);
 		justify-content: space-between;
 	}
-	
 	#wrapper .nav-link {
 		padding: .5rem 1rem;
 	}
-	
 	
 }
 
