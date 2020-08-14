@@ -64,9 +64,9 @@ table {
 
 @font-face {
   font-family: "Barlow-Thin";
-  src: url("./fonts/Barlow/Barlow-Thin.eot");
+  src: url("./fonts/Barlow-Thin.eot");
   /* IE9 Compat Modes */
-  src: url("./fonts/Barlow/Barlow-Thin.eot?#iefix") format("embedded-opentype"), url("./fonts/Barlow/Barlow-Thin.otf") format("opentype"), url("./fonts/Barlow/Barlow-Thin.svg") format("svg"), url("./fonts/Barlow/Barlow-Thin.woff") format("woff");
+  src: url("./fonts/Barlow-Thin.eot?#iefix") format("embedded-opentype"), url("./fonts/Barlow-Thin.otf") format("opentype"), url("./fonts/Barlow-Thin.svg") format("svg"), url("./fonts/Barlow-Thin.woff") format("woff");
   /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
@@ -347,7 +347,7 @@ img {
   border: none;
   outline: none;
   font-size: 24px;
-  font-family: Barlow-Thin, sans-serif, Arial, Helvetica;
+  font-family: "Barlow-Thin", sans-serif, Arial, Helvetica;
   font-weight: 200;
 }
 
@@ -732,7 +732,7 @@ img {
 }
 
 .deco-cat {
-  font-family: Barlow-Thin, sans-serif, Arial, Helvetica;
+  font-family: "Barlow-Thin", sans-serif, Arial, Helvetica;
   font-size: 18px;
   font-weight: 100;
   color: #E1E1E1;
@@ -773,7 +773,7 @@ img {
 }
 
 .deco-content {
-  font-family: Barlow-Thin, sans-serif, Arial, Helvetica;
+  font-family: Barlow;
   font-size: 18px;
   color: #A1A1A1;
   max-width: 300px;
