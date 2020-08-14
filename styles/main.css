@@ -89,7 +89,7 @@ body {
 }
 
 h1 {
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: Futura-pt, "Trebuchet MS", Arial, sans-serif;
   font-size: 60px;
   font-style: normal;
   font-variant: normal;
@@ -98,7 +98,7 @@ h1 {
 }
 
 h2 {
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: Futura-pt, "Trebuchet MS", Arial, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-variant: normal;
@@ -107,7 +107,7 @@ h2 {
 }
 
 h3 {
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: Futura-pt, "Trebuchet MS", Arial, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-variant: normal;
@@ -312,6 +312,18 @@ img {
   transition: 0.5s;
 }
 
+#nav-area .search-form:before {
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: -26px;
+  width: 16px;
+  height: 16px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-image: url(/images/icon/search.svg);
+}
+
 #nav-area .search-form.active {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -319,16 +331,6 @@ img {
   visibility: visible;
   -webkit-transition-delay: 0.5s;
           transition-delay: 0.5s;
-}
-
-#nav-area .search-form:before {
-  content: '';
-  position: absolute;
-  top: 16px;
-  left: -26px;
-  width: 16px;
-  height: 16px;
-  background-image: url(/images/icon/search.svg);
 }
 
 #nav-area .search-form input {
@@ -673,7 +675,7 @@ img {
 }
 
 .deco-header {
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: Futura-pt, "Trebuchet MS", Arial, sans-serif;
   font-size: 44px;
   color: #DDDDDD;
   padding-bottom: 1.25rem;
