@@ -80,15 +80,34 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-family: 'Barlow',Trebuchet MS,sans-serif, Arial, Helvetica;
+  font-family: "Barlow", Trebuchet MS, sans-serif, Arial, Helvetica;
   color: #fff;
   background-color: #060B1A;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  line-height: 1.6;
 }
 
 h1 {
-  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+h2 {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+}
+
+h3 {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-variant: normal;
@@ -96,15 +115,13 @@ h1 {
   line-height: 26.4px;
 }
 
-h3 {
-  font-family: futura-pt, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  font-size: 14px;
+h4 {
+  font-family: "Barlow Regular", Trebuchet MS, sans-serif, Arial, Helvetica;
+  font-size: 18px;
   font-style: normal;
   font-variant: normal;
-  line-height: 15.4px;
+  font-weight: 700;
+  line-height: 26.4px;
 }
 
 img {
@@ -596,7 +613,7 @@ img {
 }
 
 #slider-area button.owl-dot.active {
-  border: 1px solid #b0936d;
+  background-color: #b0936d;
   width: 20px;
   height: 3.5px;
 }
@@ -644,5 +661,29 @@ img {
     width: 63px;
     height: 3.5px;
   }
+}
+
+.deco-cat {
+  font-family: "Barlow Thin", Trebuchet MS, sans-serif, Arial, Helvetica;
+  font-size: 24px;
+  font-weight: 100;
+  color: #E1E1E1;
+  padding-top: 3.8rem;
+  padding-bottom: 2.8rem;
+}
+
+.deco-header {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 44px;
+  color: #DDDDDD;
+  padding-bottom: 1.25rem;
+}
+
+.deco-content {
+  font-family: "Barlow Thin", Trebuchet MS, sans-serif, Arial, Helvetica;
+  font-size: 24px;
+  color: #A1A1A1;
+  max-width: 590px;
+  margin: auto;
 }
 /*# sourceMappingURL=main.css.map */

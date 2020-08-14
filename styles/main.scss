@@ -22,28 +22,43 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    font-family: 'Barlow',Trebuchet MS,sans-serif, Arial, Helvetica;
+    font-family: $fontBarlow;
     color: #fff;
     background-color: #060B1A;
     transition: all 0.5s ease;
+    line-height: 1.6;
 }
 h1 { 
-  font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+  font-family: $fontFutura; 
+  font-size: 60px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px; 
+} 
+h2 { 
+  font-family: $fontFutura; 
+  font-size: 30px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 500; 
+  line-height: 26.4px; 
+} 
+h3 { 
+  font-family: $fontFutura; 
   font-size: 24px; 
   font-style: normal; 
   font-variant: normal; 
   font-weight: 700; 
   line-height: 26.4px; 
 } 
-h3 { 
-  font-family: futura-pt, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
-  font-size: 14px; 
+h4 { 
+  font-family: $fontBarlowRegular; 
+  font-size: 18px; 
   font-style: normal; 
   font-variant: normal; 
-  line-height: 15.4px; 
+  font-weight: 700; 
+  line-height: 26.4px; 
 } 
 img{
   width: 100%;
@@ -57,24 +72,27 @@ img{
 }
 
 
-// p { 
-//   font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
-//   font-size: 14px; 
-//   font-style: normal; 
-//   font-variant: normal; 
-//   font-weight: 400; 
-//   line-height: 20px; 
-// }
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+ }
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  
+}
 
 
-
-// header button {
-//     background: $primaryBtn ;
-// }
-// .main button {
-//     background: red;
-// }
 
 
 @import "./header";
 @import "./carousal";
+@import "./sectionCard";

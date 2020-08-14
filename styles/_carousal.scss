@@ -93,7 +93,7 @@
     outline: none;
 }
 #slider-area button.owl-dot.active {
-    border: 1px solid rgb(176,147,109);
+    background-color: $secondaryColor;
     width: 20px;
     height: 3.5px;
 }
