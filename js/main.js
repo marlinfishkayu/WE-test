@@ -9,12 +9,27 @@
 $(window).on('scroll', function(){
     if($(window).scrollTop()){
         $('#nav-area').addClass('nav-scroll');
+        $('.nav-wrap').addClass('nav-black');
     }
     else{
         $('#nav-area').removeClass('nav-scroll');
+        $('.nav-wrap').removeClass('nav-black');
     }
 })
 
+//hide nav menu for search
+$(document).ready(function(){
+    $('.search').click(function(){
+        $('.menu-item').addClass('hide-item')
+        $('#searchForm').addClass('active')
+        $('.closeBtn').addClass('active')
+    })
+    $('.closeBtn').click(function(){
+        $('.menu-item').removeClass('hide-item')
+        $('#searchForm').removeClass('active')
+        $('.closeBtn').removeClass('active')
+    })
+})
 
 
 //Hero carousal

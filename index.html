@@ -10,14 +10,17 @@
         <!-- external font-->
         <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://use.typekit.net/mlx7mqk.css" />
-
+        <!-- <script src="./js/jquery.min.js"></script> -->
+        
+        <!-- Outdated Browser v1.1.5 -->
+        <link rel="stylesheet" href="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.css">
         <!-- Owl CSS -->
         <link rel="stylesheet" href="OwlCarousel2/owl.carousel.min.css" />
         <link rel="stylesheet" href="OwlCarousel2/owl.theme.default.min.css" />
         <!-- main CSS -->
         <link rel="stylesheet" href="./styles/main.css" />
-        <title>Document</title>
-        <!-- <link rel="shortcut icon" type="image/svg" href="images/favicon.svg"> -->
+        <title>World Entertainment</title>
+        <link rel="shortcut icon" type="image/svg" href="./images/icon/favicon.svg">
     </head>
     <body>
         <div id="wrapper">
@@ -29,51 +32,59 @@
                         <div class="slide" style="background-image: url(./images/hero_1.jpg);"></div>
                         <div class="slide" style="background-image: url(./images/hero_1.jpg);"></div>
                     </div>
-                    <div id="nav-area">
-                        <div class="main-nav">
-                            <!-- nav links -->
-                            <a class="navbar-brand" href="#">
-                                <div class="nav-logo"><img src="./images/icon/logo.svg" alt="" loading="lazy" /></div>
-                            </a>
-                            <ul class="nav_links">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#AboutWE">About WE</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#Games">Games</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#LiveStudio">Live Studio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#Services">Services</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#WhatsNew">What's New</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#ContactUs">Contact Us</a>
-                                </li>
-                            </ul>
-                            <li class="nav-item nav-icon">
-                                <div class="nav-icon-wrapper">
-                                    <div>
-                                        <a class="icon-search" href="#search">
-                                            <img src="images/icon/search.svg"/>
-                                        </a>
+                    <div class="nav-wrap">
+                        <div id="nav-area">
+                            <div class="main-nav">
+                                <!-- nav links -->
+                                <a class="navbar-brand menu-item menu-logo" href="#">
+                                    <div class="nav-logo"><img src="./images/icon/logo.svg" alt="" loading="lazy" /></div>
+                                </a>
+                                <ul class="nav_links">
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-about" href="#AboutWE">About WE</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-games" href="#Games">Games</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-liveStudio" href="#LiveStudio">Live Studio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-services" href="#Services">Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-whatsNew" href="#WhatsNew">What's New</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-contactUs" href="#ContactUs">Contact Us</a>
+                                    </li>
+                                </ul>
+                                <li class="nav-item nav-icon">
+                                    <div class="nav-icon-wrapper ">
+                                        <div> 
+                                            <a class="icon-search menu-item search" id="navSearch" href="#search">
+                                                <img src="images/icon/search.svg"/>
+                                            </a>
+                                        </div>
+                                        <div class="search-wrapper menu-item">
+                                            <a class="icon-search" href="#search">
+                                                <img src="images/icon/lang.svg"/>
+                                                <h6>En</h6>
+                                            </a>
+                                            
+                                        </div>
                                     </div>
-                                    <div class="search-wrapper">
-                                        <a class="icon-search" href="#search">
-                                            <img src="images/icon/lang.svg"/>
-                                            <h6>En</h6>
-                                        </a>
-                                        
+                                    <div class="menu-wrapper">
+                                        <div class="hamburger-menu"></div>
                                     </div>
+                                </li>
+                                <div class="search-form" id="searchForm">
+                                    <form>
+                                        <input type="text" name="" placeholder="Search our website">
+                                    </form>
                                 </div>
-                                <div class="menu-wrapper">
-                                    <div class="hamburger-menu"></div>
-                                </div>
-                            </li>
+                                <a class="closeBtn"></a>
+                            </div>
                         </div>
                     </div>
                     <div class="slider-text">
@@ -102,7 +113,7 @@
                 </div>
             </section>
             <section>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quis ratione est, eligendi id, culpa suscipit, provident odio animi molestias rem eos sed? Veritatis sunt, cupiditate vel rerum labore culpa!
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quis ratione est, eligendi id, culpa suscipit, provident odio animi molestias rem eos sed? Veritatis sunt, cupiditate vel rerum labore culpa!
                 Exercitationem dignissimos ut architecto at eligendi? Asperiores eveniet rem dolorem corporis accusamus quia nesciunt voluptates delectus, est, quasi, neque cumque fuga saepe sunt id dolorum dolor aperiam sed unde. Tenetur?
                 Corporis veritatis accusamus culpa alias consequuntur impedit, suscipit aperiam officia modi rem asperiores, natus aut pariatur magni. Illo perferendis sint sapiente voluptatibus voluptas ducimus placeat, corporis ullam ipsam! Corrupti, error.
                 Laudantium impedit consectetur odio, nihil recusandae quaerat aut porro minus error perspiciatis id illum eum rem sit officia optio quam similique repudiandae corrupti expedita! A distinctio facilis fugit nulla deleniti.
@@ -111,17 +122,63 @@
                 Quo, id corporis! Nisi, odio obcaecati fugit ad atque tempora quos voluptatem maiores aspernatur, aliquam deserunt! Fugit aut, et magni, quas quam sed laboriosam quod nihil suscipit ullam quis ipsum!
                 Quae culpa consequuntur ad facilis! Deleniti blanditiis repellat vero architecto labore rerum inventore debitis ad eaque est explicabo, et suscipit dolores vitae distinctio quasi dolorum, in laudantium quo optio autem.
                 Nihil accusamus, porro totam quibusdam exercitationem cum veniam dolorem eum architecto vero earum est explicabo vitae suscipit quo dolor dolorum mollitia maxime temporibus nisi! Vero, recusandae. Voluptas earum deleniti placeat.
-                Dolore, iusto? Explicabo laboriosam molestias soluta assumenda dicta architecto ipsum, vitae quis facere fugiat hic sequi nobis voluptate magni nisi earum, sed enim tempora. Officiis, magni. Numquam animi ducimus debitis.</p>
+                Dolore, iusto? Explicabo laboriosam molestias soluta assumenda dicta architecto ipsum, vitae quis facere fugiat hic sequi nobis voluptate magni nisi earum, sed enim tempora. Officiis, magni. Numquam animi ducimus debitis.</p> -->
             </section>
         </div>
+        <!-- ============= Outdated Browser ============= -->
+        <div id="outdated"></div>
+         <!-- Outdated javascript includes -->
+         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+         <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
 
+        <!-- Outdated plugin call -->
+        <script>
+            
+            // Plain Javascript
+            //event listener: DOM ready
+            function addLoadEvent(func) {
+                var oldonload = window.onload;
+                if (typeof window.onload != 'function') {
+                    window.onload = func;
+                } else {
+                    window.onload = function() {
+                        if (oldonload) {
+                            oldonload();
+                        }
+                        func();
+                    }
+                }
+            }
+            //call plugin function after DOM ready
+            addLoadEvent(function(){
+                outdatedBrowser({
+                    bgColor: '#f25648',
+                    color: '#ffffff',
+                    lowerThan: 'transform',
+                    languagePath: 'your_path/outdatedbrowser/lang/en.html'
+                })
+            });
+            // Using jQuery (version that supports IE < 9)
+            $( document ).ready(function() {
+                outdatedBrowser({
+                    bgColor: '#f25648',
+                    color: '#ffffff',
+                    lowerThan: 'transform',
+                    languagePath: 'your_path/outdatedbrowser/lang/en.html'
+                })
+            })
+            
+        </script>
+       
         <!-- Main JS  -->
-        <script src="./js/jquery.min.js"></script>
+       
         <script src="OwlCarousel2/owl.carousel.min.js"></script>
+        <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <!-- Main JS  -->
         <script src="./js/main.js" type="text/javascript"></script>
+        
     </body>
 </html>
