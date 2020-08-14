@@ -792,4 +792,23 @@ img {
     height: 800px;
   }
 }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #nav-area .search-form {
+    top: -5px;
+  }
+  #nav-ara .closeBtn {
+    top: 10px;
+  }
+  #searchForm input::-ms-clear {
+    width: 0;
+    height: 0;
+  }
+}
+
+@media all and (-ms-high-contrast: none) and (min-width: 768px), (-ms-high-contrast: active) and (min-width: 768px) {
+  #nav-ara .closeBtn {
+    top: 10px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

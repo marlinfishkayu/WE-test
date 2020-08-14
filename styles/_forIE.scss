@@ -1,14 +1,23 @@
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    
-    
-    
+    #nav-area .search-form{
+        top: -5px;
+    }
+    #nav-ara .closeBtn{
+        top: 10px;
+    }
+    #searchForm input::-ms-clear {
+        width : 0;
+        height: 0;
+    }
     // Small devices (landscape phones, 576px and up)
     @media (min-width: 576px) { 
 
     }
     // Medium devices (tablets, 768px and up)
     @media (min-width: 768px) {
-
+        #nav-ara .closeBtn{
+            top: 10px;
+        }
     }
     // Large devices (desktops, 992px and up)
     @media (min-width: 992px) {
