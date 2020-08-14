@@ -60,7 +60,7 @@
 		font-family: Barlow;
 		font-weight: 200;
 		font-size: 16px;
-		margin: 13px 0px;
+		margin: 8px 0px;
 	}
 	a:hover{
 		color: $mainText;
@@ -68,7 +68,6 @@
 }
 .nav-logo{
 	width: 90px;
-	height: 56px;
 	transition: 0.5s all;
 }
 .nav-icon-wrapper{
@@ -114,7 +113,7 @@
 	display: block;
 	position: absolute;
     z-index: 3;
-    top: 12px;
+    top: 8px;
     right: 0;
     width: 30px;
     height: 30px;
@@ -154,8 +153,6 @@
 		transition-delay: 0.5s;
 	}
 }
-
-
 #nav-area .search-form input{
 	width: 215px;
 	height: 44px;
@@ -183,63 +180,54 @@
 		transition-delay: 0.5s;
 	}
 }
-
-//hamburger
-.hamburger-menu:after,
-.hamburger-menu:before {
-  width: $bar-width;
-	height: $bar-height;
-    border-radius: 0.5px;
-}
-
-.hamburger-menu {
+//new hamburger
+.menu-btn {
+	width: 30px;
+	height: 30px;
 	position: relative;
-	transform: translateY($bar-spacing);
-	background: rgba(255, 255, 255, 1);
-	transition: all 0ms 300ms;
-  
-  &.animate {
-    background: rgba(255, 255, 255, 0); 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
   }
   
-}
-
-.hamburger-menu:before {
-	content: "";
-	position: absolute;
+  .menu-btn__burger,
+  .menu-btn__burger::before,
+  .menu-btn__burger::after {
+	width: 30px;
+	height: 1px;
 	left: 0px;
-  	top: 0px;
- 	 bottom: 15px;
-	bottom: $bar-spacing;
-	background: rgba(255, 255, 255, 1);
-	transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), 
-	transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
-}
-
-.hamburger-menu:after {
+	border-radius: 5px;
+	background-color: #fff;
+	transition: all 0.5s ease-in-out;
+  }
+  .menu-btn__burger::before,
+  .menu-btn__burger::after {
 	content: "";
 	position: absolute;
-	left: 0;
-  	top: 25px;
-	top: $bar-spacing;
-	background: rgba(255, 255, 255, 1);
-	transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), 
-	transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
-}
+  }
+  .menu-btn__burger::before {
+	transform: translateY(-8px);
+  }
+  .menu-btn__burger::after {
+	transform: translateY(8px);
+  }
+  
+  /* ANIMATION */
+  .menu-btn.open .menu-btn__burger {
+	transform: translateX(-50px);
+	background-color: transparent;
+	box-shadow: none;
+  }
+  .menu-btn.open .menu-btn__burger::before {
+	transform: rotate(45deg) translate(35px, -35px);
+  }
+  .menu-btn.open .menu-btn__burger::after {
+	transform: rotate(-45deg) translate(35px, 35px);
+  }
 
-.hamburger-menu.animate:after {
-	top: 0;
-	transform: rotate(45deg);
-	transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), 
-	transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);;
-}
 
-.hamburger-menu.animate:before {
-	bottom: 0;
-	transform: rotate(-45deg);
-	transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), 
-	transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);;
-}
 
 
 
