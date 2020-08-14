@@ -458,24 +458,7 @@ img {
     position: absolute;
     top: 5px;
     left: 50%;
-    width: 600px;
-    height: 44px;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
     text-align: left;
-  }
-  #nav-area .search-form:before {
-    content: "";
-    position: absolute;
-    top: 16px;
-    left: -26px;
-    width: 16px;
-    height: 16px;
-    z-index: 1;
-    background-repeat: no-repeat;
-    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDE4IDE4Ij4KICA8ZyBmaWxsPSIjOTc5Nzk3Ij4KICAgIDxwYXRoIGQ9Ik03LjUsMCBDMTEuNjQyMTM1NiwwIDE1LDMuMzU3ODY0MzggMTUsNy41IEMxNSwxMS42NDIxMzU2IDExLjY0MjEzNTYsMTUgNy41LDE1IEMzLjM1Nzg2NDM4LDE1IDAsMTEuNjQyMTM1NiAwLDcuNSBDMCwzLjM1Nzg2NDM4IDMuMzU3ODY0MzgsMCA3LjUsMCBaIE03LjUsMSBDMy45MTAxNDkxMywxIDEsMy45MTAxNDkxMyAxLDcuNSBDMSwxMS4wODk4NTA5IDMuOTEwMTQ5MTMsMTQgNy41LDE0IEMxMS4wODk4NTA5LDE0IDE0LDExLjA4OTg1MDkgMTQsNy41IEMxNCwzLjkxMDE0OTEzIDExLjA4OTg1MDksMSA3LjUsMSBaIi8+CiAgICA8cGF0aCBkPSJNMTIuMTQ2NDQ2NiwxMi4xNDY0NDY2IEMxMi4zMjAwMTMsMTEuOTcyODgwMyAxMi41ODk0Mzc0LDExLjk1MzU5NTEgMTIuNzg0MzA1NSwxMi4wODg1OTEyIEwxMi44NTM1NTM0LDEyLjE0NjQ0NjYgTDE3Ljg1MzU1MzQsMTcuMTQ2NDQ2NiBDMTguMDQ4ODE1NSwxNy4zNDE3MDg4IDE4LjA0ODgxNTUsMTcuNjU4MjkxMiAxNy44NTM1NTM0LDE3Ljg1MzU1MzQgQzE3LjY3OTk4NywxOC4wMjcxMTk3IDE3LjQxMDU2MjYsMTguMDQ2NDA0OSAxNy4yMTU2OTQ1LDE3LjkxMTQwODggTDE3LjE0NjQ0NjYsMTcuODUzNTUzNCBMMTIuMTQ2NDQ2NiwxMi44NTM1NTM0IEMxMS45NTExODQ1LDEyLjY1ODI5MTIgMTEuOTUxMTg0NSwxMi4zNDE3MDg4IDEyLjE0NjQ0NjYsMTIuMTQ2NDQ2NiBaIi8+CiAgPC9nPgo8L3N2Zz4K");
   }
   #nav-area .search-form.active {
     opacity: 1;
@@ -484,15 +467,7 @@ img {
             transition-delay: 0.5s;
   }
   #nav-area .search-form input {
-    width: 250px;
-    height: 44px;
-    background: transparent;
-    color: #fff;
-    border: none;
-    outline: none;
-    font-size: 24px;
-    font-family: "Barlow Thin", Trebuchet MS, sans-serif, Arial, Helvetica;
-    font-weight: 200;
+    width: 500px;
   }
   #nav-area .closeBtn {
     cursor: pointer;
@@ -547,6 +522,9 @@ img {
   #wrapper .nav-scroll .nav_links {
     top: 0%;
   }
+  #nav-area .search-form input {
+    width: 700px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -558,6 +536,9 @@ img {
   }
   #wrapper .nav-link {
     padding: .5rem 1.8rem;
+  }
+  #nav-area .search-form input {
+    width: 900px;
   }
 }
 

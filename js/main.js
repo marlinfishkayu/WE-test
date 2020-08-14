@@ -19,20 +19,30 @@ $(window).on('scroll', function(){
 
 //hide nav menu for search
 $(document).ready(function(){
+    var open = false;
     $('.search').click(function(){
         $('.menu-item').addClass('hide-item')
         $('#searchForm').addClass('active')
         $('.closeBtn').addClass('active')
         $('.nav-wrap').addClass('search-black');
+        open = true;
     })
     $('.closeBtn').click(function(){
         $('.menu-item').removeClass('hide-item')
         $('#searchForm').removeClass('active')
         $('.closeBtn').removeClass('active')
         $('.nav-wrap').removeClass('search-black');
+        open = false;
     })
+    
 })
 
+
+$('.closeBtn').click( function(event) {
+    event.closeBtn();
+    var toggle = open ? closeSidebar : openSidebar;
+    toggle();
+});
 
 //Hero carousal
 $('#slider-area').owlCarousel({
