@@ -41,6 +41,13 @@
     max-width: 300px;
     margin: auto;
 }
+#intdexOurGames{
+    height: 300px;
+}
+#intdexHotPick{
+    height: 300px;
+}
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
 
@@ -65,6 +72,9 @@
     .deco-content{
         font-size: 24px;
         max-width: 590px;
+    }
+    #intdexOurGames{
+        height: 800px;
     }
     #intdexHotPick{
         height: 800px;

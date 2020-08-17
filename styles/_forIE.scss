@@ -10,7 +10,10 @@
         height: 0;
     }
     // Small devices (landscape phones, 576px and up)
-    @media (min-width: 576px) { 
+    @media (min-width: 576px) {     
+        #nav-ara .closeBtn{
+            top: 10px;
+        }
 
     }
     // Medium devices (tablets, 768px and up)

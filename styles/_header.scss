@@ -19,25 +19,27 @@
 	height: 60px;
 	transition: 0.5s all;
 }
-.games-menu{
-	position: fixed;
-    top: 0px;
-    z-index: 4;
-    left: 50%;
-    transform: translate(-50%);
-	width: 100%;
-	height: 500px;
-	background-color: #011D3A;
-}
 
-.subnav-arrow {
-    border-top: 12px solid transparent;
-    border-left: 12px solid transparent;
-    border-right: 17px solid #fff;
-    position: absolute;
-    top: -9px;
-    left: -6px;
-}
+//hover game
+// .games-menu{
+// 	position: fixed;
+//     top: 0px;
+//     z-index: 4;
+//     left: 50%;
+//     transform: translate(-50%);
+// 	width: 100%;
+// 	height: 500px;
+// 	background-color: #011D3A;
+// }
+
+// .subnav-arrow {
+//     border-top: 12px solid transparent;
+//     border-left: 12px solid transparent;
+//     border-right: 17px solid #fff;
+//     position: absolute;
+//     top: -9px;
+//     left: -6px;
+// }
 .nav-black,
 .search-black{
 	background-color: #060B1A;

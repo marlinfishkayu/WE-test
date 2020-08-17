@@ -37,6 +37,10 @@ body {
     transition: all 0.5s ease;
     line-height: 1.6;
 }
+img{
+  width: 100%;
+  height: 100%;
+}
 h1 { 
   font-family: $fontFutura; 
   font-size: 60px; 
@@ -105,4 +109,5 @@ img{
 @import "./header";
 @import "./carousal";
 @import "./sectionCard";
+@import "./index";
 @import "./forIE";
