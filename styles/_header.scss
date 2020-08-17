@@ -35,44 +35,104 @@
 
 
 //Game Menu
-.games-menu{
-	display: none;
+// .game-menu{
+// 	display: none;
+// 	opacity: 0.3;
+// 	position: fixed;
+//     top: 60px;
+//     z-index: 4;
+//     left: 50%;
+//     transform: translate(-50%);
+// 	width: 100%;
+// 	height: 500px;
+// 	border: 1px solid red;
+// 	visibility: hidden;
+// }
+.nav-wrap li.dropdown .game-menu{
+	// display: none;
 	position: fixed;
-    top: 0px;
+    top: 10px;
     z-index: 4;
     left: 50%;
     transform: translate(-50%);
 	width: 100%;
 	height: 500px;
-	background-color: #011D3A;
-}
-.games-menu .game-menu-wrap{
-	position: fixed;
-    top: 100px;
-    z-index: 4;
-    left: 50%;
-    transform: translate(-50%);
-}
-.games-menu .nav-game-link{
+	border: 1px solid red;
+	margin-top: 27px;
+	padding: 5rem 0;
 	font-family: Futura Medium,Trebuchet MS,Arial,sans-serif;
 	letter-spacing: 3px;
 	font-weight: 100;
 	font-size: 16px;
 	color: #979797;
 	text-decoration: none;
-	margin: 0px 15px;
 	padding-bottom: 5px;
-
 }
-.games-menu .nav-game-link:hover{
-	color: #D8D8D8;
-	border-bottom: 1px solid #B0936D;
+.nav-wrap li.dropdown .game-menu::after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 600px;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background-color:black;
+}
+.nav-wrap .dropdown:hover .game-menu{
+	display: flex;
+}
+.nav-wrap .dropdown:hover .nav-fixed::after{
+	content: '';
+	position: fixed;
+	width: 100%;
+	height: 600px;
+	top: 0;
+	left: 0;
+	background-color:black;
+}
+.nav-game-item{
+	padding: 0px 20px;
+}
+
+.game-menu-row1{
+	border: 1px solid blue;
+	width: 100%;
+	padding:0 5rem;
+}
+
+
+
+
+// .game-menu-wrap{
+// 	position: fixed;
+//     top: 80px;
+//     z-index: 4;
+//     left: 50%;
+//     transform: translate(-50%);
+// }
+// .games-menu .nav-game-link{
+// 	font-family: Futura Medium,Trebuchet MS,Arial,sans-serif;
+// 	letter-spacing: 3px;
+// 	font-weight: 100;
+// 	font-size: 16px;
+// 	color: #979797;
+// 	text-decoration: none;
+// 	margin: 0px 15px;
+// 	padding-bottom: 5px;
+
+// }
+
+// .games-menu .nav-game-link:hover{
+// 	color: #D8D8D8;
+// 	border-bottom: 1px solid #B0936D;
 	
-}
-#gamesHover:hover .games-menu{
-	display: block;
+// }
 
-}
+//  .showDropdown {
+// 	visibility: visible;
+// 	display: block;
+// 	opacity: 1;
+// }
 
 // .subnav-arrow {
 //     border-top: 12px solid transparent;
@@ -320,7 +380,7 @@
 		transform: translate(-50%);
 		justify-content: space-between;
 		padding-top: 5px;
-		height: 70px;
+		height: 1000px;
 	}
 	#wrapper .nav-link {
 		padding: .5rem 1rem;

@@ -39,11 +39,6 @@
 //         });
 
 /*--  hover games menu to open submenu --*/
-// $('#gamesHover, .games-menu').hover(function() {
-//     $('.games-menu').show();
-// }, function() {
-//     $('.games-menu').hide();
-// });
 
 
 //hover games menu bar
