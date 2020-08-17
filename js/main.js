@@ -9,11 +9,11 @@
 $("#gamesHover").hover(
 function () {
         $('.games-menu').addClass('games-hover');
-
+        $('#nav-area').removeClass('nav-scroll');
+        $('.nav-wrap').addClass('nav-black');
 }, 
 function () {
     $('.games-menu').removeClass('games-hover');
-
 }
 );
 
