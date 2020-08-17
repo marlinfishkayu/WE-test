@@ -51,8 +51,8 @@
 .nav-wrap li.dropdown .game-menu{
 	// display: none;
 	position: fixed;
-    top: 10px;
-    z-index: 4;
+    top: 36px;
+    z-index: -1;
     left: 50%;
     transform: translate(-50%);
 	width: 100%;
@@ -185,6 +185,7 @@
 		font-weight: 200;
 		font-size: 16px;
 		margin: 8px 0px;
+		white-space: nowrap;
 	}
 	a:hover{
 		color: $mainText;
