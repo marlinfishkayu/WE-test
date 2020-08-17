@@ -19,18 +19,60 @@
 	height: 60px;
 	transition: 0.5s all;
 }
+//scrollup hide menu
+.scrolling_up{
+	display: block;
+}
+.scrolling_down{
+	display: none;
+}
+.nav-fixed{
+	background-color: black;
+}
+.nav-fixed .nav-item{
+	display: block;
+}
 
-//hover game
-// .games-menu{
-// 	position: fixed;
-//     top: 0px;
-//     z-index: 4;
-//     left: 50%;
-//     transform: translate(-50%);
-// 	width: 100%;
-// 	height: 500px;
-// 	background-color: #011D3A;
-// }
+
+//Game Menu
+.games-menu{
+	display: none;
+	position: fixed;
+    top: 0px;
+    z-index: 4;
+    left: 50%;
+    transform: translate(-50%);
+	width: 100%;
+	height: 500px;
+	background-color: #011D3A;
+}
+.games-menu .game-menu-wrap{
+	position: fixed;
+    top: 100px;
+    z-index: 4;
+    left: 50%;
+    transform: translate(-50%);
+}
+.games-menu .nav-game-link{
+	font-family: Futura Medium,Trebuchet MS,Arial,sans-serif;
+	letter-spacing: 3px;
+	font-weight: 100;
+	font-size: 16px;
+	color: #979797;
+	text-decoration: none;
+	margin: 0px 15px;
+	padding-bottom: 5px;
+
+}
+.games-menu .nav-game-link:hover{
+	color: #D8D8D8;
+	border-bottom: 1px solid #B0936D;
+	
+}
+#gamesHover:hover .games-menu{
+	display: block;
+
+}
 
 // .subnav-arrow {
 //     border-top: 12px solid transparent;
@@ -43,7 +85,6 @@
 .nav-black,
 .search-black{
 	background-color: #060B1A;
-	top: 0px;
 }
 .main-nav{
 	display: flex;
@@ -268,12 +309,18 @@
 	.nav-logo {
 		width: 110px;
 	}
+	.nav-wrap{
+		top: 0;
+		height: 75px;
+	}
 	#wrapper #nav-area{
-		top: 2%;
+		top: 0%;
 		left: 50%;
 		text-align: center;
 		transform: translate(-50%);
 		justify-content: space-between;
+		padding-top: 5px;
+		height: 70px;
 	}
 	#wrapper .nav-link {
 		padding: .5rem 1rem;
@@ -325,7 +372,7 @@
 	}
 	.nav-icon-wrapper {
 		right: 1%;
-   		top: 10%;
+   		top: 15%;
 	}
 	.menu-wrapper{
 		display: none;
@@ -334,15 +381,6 @@
 		display: flex;
 		width: 700px;
 		justify-content: center;
-	}
-	.nav-scroll .navbar-brand{
-		padding-top: 0;
-	}
-	.nav-scroll .nav-logo{
-		width: 128px;
-	}
-	#wrapper .nav-scroll  .nav_links{
-		top: 0%;
 	}
 	#nav-area .search-form input {
 		width: 700px;
