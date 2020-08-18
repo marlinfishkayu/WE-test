@@ -1017,14 +1017,19 @@ section {
   }
 }
 
+#intdexOurGames {
+  height: inherit;
+}
+
 .our-gamaes {
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
 .ourgames-img {
   width: 206px;
   height: 192px;
   margin: auto;
+  margin-bottom: 3rem;
 }
 
 #intdexHotPick {
@@ -1045,6 +1050,7 @@ section {
 @media (min-width: 1200px) {
   .our-gamaes {
     margin-top: 7rem;
+    margin-bottom: 7rem;
   }
 }
 
