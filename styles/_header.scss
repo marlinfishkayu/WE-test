@@ -19,13 +19,7 @@
 	height: 60px;
 	transition: 0.5s all;
 }
-//scrollup hide menu
-// .scrolling_up{
-// 	display: block;
-// }
-// .scrolling_down{
-// 	display: none;
-// }
+
 .nav-fixed{
 	background-color: black;
 }
@@ -40,23 +34,6 @@
 }
 
 //Game Menu
-// .games-menu{
-// 	position: absolute;
-//     top: -34px;
-//     left: 0;
-//     width: 100%;
-//     z-index: 5;
-//     margin-top: 5rem;
-//     padding: 10px;
-//     border: 1px solid red;
-// 	display: none;
-// }
-// .showDropdown{
-// 	display: block;
-// }
-// .unshowDropdown{
-// 	display: none;
-// }
 
 .nav-wrap li.dropdown .game-menu{
 	// display: none;
@@ -81,29 +58,21 @@
 .nav-wrap li.dropdown .game-menu::after{
 	content: '';
 	position: absolute;
-	width: 100%;
 	height: 600px;
-	top: 0;
+	top: 28px;
 	left: 0;
 	z-index: -1;
-	background-color:black;
+	background-color:red;
+	width: 100vw ;
+	left: calc(-1 * ((100vw - 100%) / 2));
 }
 .nav-wrap .dropdown:hover .game-menu{
 	display: flex;
 }
-.nav-wrap .dropdown:hover .nav-fixed::after{
-	content: '';
-	position: fixed;
-	width: 100%;
-	height: 600px;
-	top: 0;
-	left: 0;
-	background-color:black;
-}
+
 .nav-game-item{
 	padding: 0px 20px;
 }
-
 .game-menu-row1{
 	border: 1px solid blue;
 	width: 100%;
@@ -144,14 +113,14 @@
 // 	opacity: 1;
 // }
 
-// .subnav-arrow {
-//     border-top: 12px solid transparent;
-//     border-left: 12px solid transparent;
-//     border-right: 17px solid #fff;
-//     position: absolute;
-//     top: -9px;
-//     left: -6px;
-// }
+.subnav-arrow {
+    border-top: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-right: 17px solid #fff;
+    position: absolute;
+    top: -9px;
+    left: -6px;
+}
 .nav-black,
 .search-black{
 	background-color: #060B1A;
@@ -171,7 +140,6 @@
 	padding-right: calc(max(22px, env(safe-area-inset-right)));
     padding: 0 22px;
 	position: fixed;
-	max-width: 1300px;
 	z-index: 5;
 	top: 2%;
     left: 0;
@@ -438,7 +406,7 @@
 	}
 	#wrapper .nav_links{
 		display: flex;
-		width: 700px;
+		// width: 700px;
 		justify-content: center;
 	}
 	.nav-icon-wrapper {
@@ -447,11 +415,6 @@
 	}
 	.menu-wrapper{
 		display: none;
-	}
-	#wrapper .nav-links{
-		display: flex;
-		width: 700px;
-		justify-content: center;
 	}
 	#nav-area .search-form input {
 		width: 700px;
@@ -462,9 +425,6 @@
 @media (min-width: 1200px) { 
 	.nav-logo{
 		width: 160px;
-	}
-	#wrapper .nav_links {
-		width: 900px;
 	}
 	#wrapper .nav-link {
 		padding: .5rem 1.8rem;

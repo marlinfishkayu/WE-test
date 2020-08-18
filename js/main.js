@@ -53,10 +53,8 @@ function hasScrolled() {
 $(document).ready(function(){
     $('.main-nav').mouseover(function(){
         $('.is_hover').removeClass("is_hover");
-        $('.nav-item').addClass('scrolling_down');
         $('.main-nav').addClass("is_hover");
         $('.nav-wrap').addClass("nav-fixed")
-        console.log("is_hover")
         return false;
     });
     $('.main-nav').mouseleave(function(){
