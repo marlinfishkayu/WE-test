@@ -186,6 +186,7 @@ img {
 }
 
 .nav-wrap li.dropdown .game-menu {
+  display: none;
   position: fixed;
   top: 36px;
   z-index: -1;
@@ -232,15 +233,6 @@ img {
   border: 1px solid blue;
   width: 100%;
   padding: 0 5rem;
-}
-
-.subnav-arrow {
-  border-top: 12px solid transparent;
-  border-left: 12px solid transparent;
-  border-right: 17px solid #fff;
-  position: absolute;
-  top: -9px;
-  left: -6px;
 }
 
 .nav-black,
@@ -591,6 +583,21 @@ img {
   #nav-area .search-form input {
     width: 700px;
   }
+  .subnav-arrow {
+    display: none;
+    border-top: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-right: 12px solid #fff;
+    position: absolute;
+    -webkit-transform: rotate(225deg);
+            transform: rotate(225deg);
+    top: 64px;
+    left: 33px;
+    z-index: 5;
+  }
+  .is_hover .subnav-arrow {
+    display: block;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -602,6 +609,9 @@ img {
   }
   #nav-area .search-form input {
     width: 900px;
+  }
+  .subnav-arrow {
+    left: 44px;
   }
 }
 

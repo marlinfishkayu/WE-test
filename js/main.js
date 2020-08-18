@@ -54,7 +54,7 @@ $(document).ready(function(){
     $('.main-nav').mouseover(function(){
         $('.is_hover').removeClass("is_hover");
         $('.main-nav').addClass("is_hover");
-        $('.nav-wrap').addClass("nav-fixed")
+        $('.nav-wrap').addClass("nav-fixed");
         return false;
     });
     $('.main-nav').mouseleave(function(){
