@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="78" viewBox="0 0 75 78">
+  <defs>
+    <linearGradient id="gamemenu_icon2_roulette_front-a" x1="50%" x2="50%" y1="3.41%" y2="100%">
+      <stop offset="0%" stop-color="#000F24" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#011B3E"/>
+    </linearGradient>
+    <linearGradient id="gamemenu_icon2_roulette_front-b" x1="50%" x2="50%" y1="3.41%" y2="100%">
+      <stop offset="0%" stop-color="#000F24" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#011B3E"/>
+    </linearGradient>
+    <linearGradient id="gamemenu_icon2_roulette_front-c" x1="50%" x2="50%" y1="3.41%" y2="100%">
+      <stop offset="0%" stop-color="#000F24" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#011B3E"/>
+    </linearGradient>
+    <linearGradient id="gamemenu_icon2_roulette_front-d" x1="50%" x2="50%" y1="3.41%" y2="100%">
+      <stop offset="0%" stop-color="#000F24" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#011B3E"/>
+    </linearGradient>
+    <linearGradient id="gamemenu_icon2_roulette_front-e" x1="7.122%" x2="89.8%" y1="245.957%" y2="245.957%">
+      <stop offset="0%" stop-color="#A78C68"/>
+      <stop offset="52.444%" stop-color="#7C6341"/>
+      <stop offset="100%" stop-color="#AFA286"/>
+    </linearGradient>
+    <linearGradient id="gamemenu_icon2_roulette_front-f" x1="50%" x2="50%" y1="3.41%" y2="100%">
+      <stop offset="0%" stop-color="#000F24" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#011B3E"/>
+    </linearGradient>
+    <linearGradient id="gamemenu_icon2_roulette_front-g" x1="-42.73%" x2="89.8%" y1="74.259%" y2="245.867%">
+      <stop offset="0%" stop-color="#A78C68"/>
+      <stop offset="52.444%" stop-color="#7C6341"/>
+      <stop offset="100%" stop-color="#AFA286"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-9.4 .6)">
+    <path fill="url(#gamemenu_icon2_roulette_front-a)" stroke="#B0936D" stroke-width="1.4" d="M65.078784,23.8544384 C72.815616,25.8888704 80.338176,28.5983744 87.533568,31.9737344 L87.533568,31.9737344 L69.0048,71.1071744 C65.3184,69.3860864 61.502976,67.9322624 57.6,66.7272704 L57.6,66.7272704 L60.11,52.3364384 L63.7761024,31.3154816 C63.7764363,31.3155711 63.7767702,31.3156605 63.7771041,31.31575 L60.11,52.3364384 L58.9077504,59.2353536 C61.0458624,59.8735616 63.1724544,60.5601536 65.2667904,61.3458176 L77.3627904,35.7990656 C72.9163931,34.0343297 68.3778492,32.5483373 63.7771041,31.31575 Z" transform="rotate(-15 72.567 47.48)"/>
+    <path fill="url(#gamemenu_icon2_roulette_front-b)" stroke="#B0936D" stroke-width="1.4" d="M28.81408,23.674496 L35.912704,66.662528 C32.207872,67.851392 28.613632,69.266048 25.153024,70.906496 L25.153024,70.906496 L6.403072,31.883648 C13.517824,28.499072 21.017344,25.752704 28.81408,23.674496 L28.81408,23.674496 Z M30.0492544,31.155584 C25.4827264,32.402048 20.9899264,33.890432 16.5985024,35.655296 L28.8373504,61.12832 C30.7588864,60.395648 32.7080704,59.752832 34.6710784,59.14688 L30.0492544,31.155584 Z" transform="rotate(15 21.158 47.29)"/>
+    <path fill="url(#gamemenu_icon2_roulette_front-c)" stroke="#B0936D" stroke-width="1.4" d="M69.3170432,12.8237568 L70.9667072,2.0894208 C58.8684032,-0.0694272 35.8399232,-0.2284032 23.0319872,1.9004928 L24.5687552,12.6002688 C21.6564992,12.9435648 18.7373312,13.3421568 15.8135552,13.8283008 L25.9718912,75.7897728 C40.0308992,73.4811648 53.9378432,73.6700928 67.2411392,76.0293888 L78.1068032,14.1485568 C75.1991552,13.6301568 72.2638592,13.2016128 69.3170432,12.8237568 Z"/>
+    <path fill="url(#gamemenu_icon2_roulette_front-d)" stroke="url(#gamemenu_icon2_roulette_front-e)" stroke-width="1.4" d="M69.2854784,12.8011776 L61.1201024,67.4912256 C56.0812544,66.8990976 50.9986304,66.6018816 45.9413504,66.6018816 C41.3748224,66.6018816 36.7737344,66.8461056 32.1933824,67.3299456 L24.5602304,12.8011776 L69.2854784,12.8011776 Z M46.8611072,40.1828352 C42.3890432,40.1828352 38.7625472,43.8116352 38.7625472,48.2836992 C38.7625472,52.7580672 42.3890432,56.3868672 46.8611072,56.3868672 C51.3377792,56.3868672 54.9642752,52.7580672 54.9642752,48.2836992 C54.9642752,43.8116352 51.3377792,40.1828352 46.8611072,40.1828352 Z"/>
+    <path fill="url(#gamemenu_icon2_roulette_front-f)" stroke="#B0936D" stroke-width="1.4" d="M66.6372608,30.2544384 L70.9664768,2.0880384 C58.8681728,-0.0685056 35.8396928,-0.2274816 23.0317568,1.8991104 L27.0867968,30.1185024 C37.8280448,28.0932864 55.8338048,28.1877504 66.6372608,30.2544384 Z M35.6636672,28.9920768 L31.3044992,0.8556288 M58.2108416,28.9920768 L62.5700096,0.8556288"/>
+    <polygon stroke="url(#gamemenu_icon2_roulette_front-g)" stroke-width="1.4" points="46.862 19.27 41.825 14.233 46.862 9.197 51.901 14.233"/>
+  </g>
+</svg>

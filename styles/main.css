@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -233,10 +234,8 @@ img {
   width: 100%;
 }
 
-.game-menu-row1,
-.game-menu-row2 {
-  width: 100%;
-  padding: 0 3rem;
+.game-menu-row1 {
+  margin-bottom: 25px;
 }
 
 .game-icon-wrap {
@@ -244,6 +243,52 @@ img {
   min-width: 200px;
   height: 174px;
   border: 1px solid red;
+}
+
+.game-icon-container {
+  border-radius: 5px;
+  position: relative;
+}
+
+.game-icon-container:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 7px;
+  left: 0;
+  z-index: -1;
+  margin: -1px;
+  border-radius: inherit;
+  /* !importanté */
+  background: -webkit-gradient(linear, left top, right top, from(#caac85), color-stop(#89663d), to(#89663d));
+  background: linear-gradient(to right, #caac85, #89663d, #89663d);
+}
+
+.game-icon-front {
+  content: '';
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  bottom: 7px;
+  width: 96px;
+  height: 96px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+}
+
+.game-icon-container h4 {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #DDDDDD;
+  font-family: Futura Medium,Trebuchet MS,Arial,sans-serif;
+  letter-spacing: 3px;
+  font-weight: 100;
+  font-size: 16px;
 }
 
 #wrapper .nav_links .nav-game-link {

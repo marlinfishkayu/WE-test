@@ -82,7 +82,7 @@
                                             <div  class="game-menu" style="margin:0; width: 100%;">
                                                 <div class="subnav-arrow"></div>
                                                 <div class="game-menu-wrapper">
-                                                <ul class="game-menu-row1 d-flex justify-content-center">
+                                                <!-- <ul class="game-menu-row1 d-flex justify-content-center">
                                                     <li class="nav-game-item">
                                                         <a href="#liveGame" class="nav-game-link">LIVE GAME</a>
                                                     </li>
@@ -96,13 +96,62 @@
                                                         <a href="#liveGame" class="nav-game-link">SLOTS</a>
                                                     </li>
                                                 </ul>
-                                                <div class="d-flex justify-content-center">
-                                                    <div class="game-icon-wrap p-2">1</div>
-                                                    <div class="game-icon-wrap p-2">1</div>
-                                                    <div class="game-icon-wrap p-2">1</div>
-                                                    <div class="game-icon-wrap p-2">1</div>
-                                                    <div class="game-icon-wrap p-2">1</div>
-                                                </div>
+                                                 -->
+                                                <ul class="nav justify-content-center" id="pills-tab" role="tablist">
+                                                    <li class="nav-game-item">
+                                                      <a class="nav-game-link active" id="pills-livegame-tab" data-toggle="pill" href="#pills-livegame" role="tab" aria-controls="pills-livegame" aria-selected="true">LIVE GAME</a>
+                                                    </li>
+                                                    <li class="nav-game-item">
+                                                      <a class="nav-game-link" id="pills-lottery-tab" data-toggle="pill" href="#pills-lottery" role="tab" aria-controls="pills-lottery" aria-selected="false">LOTTERY</a>
+                                                    </li>
+                                                    <li class="nav-game-item">
+                                                      <a class="nav-game-link" id="pills-sportsbook-tab" data-toggle="pill" href="#pills-sportsbook" role="tab" aria-controls="pills-sportsbook" aria-selected="false">SPORTSBOOK</a>
+                                                    </li>
+                                                    <li class="nav-game-item">
+                                                      <a class="nav-game-link" id="pills-slots-tab" data-toggle="pill" href="#pills-slots" role="tab" aria-controls="pills-slots" aria-selected="false">SLOTS</a>
+                                                    </li>
+                                                  </ul>
+                                                  <div class="tab-content" id="pills-tabContent">
+                                                    <div class="tab-pane fade show active" id="pills-livegame" role="tabpanel" aria-labelledby="pills-livegame-tab">
+                                                        <div class="d-flex justify-content-center">
+                                                            <div class="game-icon-wrap p-2">
+                                                                <div class="game-icon-container">
+                                                                    <h4>BACCARAT</h4>
+                                                                    <img class="game-icon-front" src="images/icon/gameMenu_icon1_Baccarat_front.svg"/>
+                                                                    <img src="images/icon/gameMenu_icon1_Baccarat_1x.png" style="
+                                                                    width: 100%;
+                                                                    background-position: 50% 10%;
+                                                                    background-size: cover;
+                                                                    height: 100%;
+                                                                    object-fit: cover;" 
+                                                                    srcset="images/images/icon/gameMenu_icon1_Baccarat_1x.png 500w, images/icon/gameMenu_icon1_Baccarat_2x.png 1000w" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2">
+                                                                <div class="game-icon-container">
+                                                                    <h4>ROULETTE</h4>
+                                                                    <img class="game-icon-front" src="images/icon/gameMenu_icon2_Roulette_front.svg"/>
+                                                                    <img src="images/icon/gameMenu_icon2_Roulette_1x.png" style="
+                                                                    width: 100%;
+                                                                    background-position: 50% 10%;
+                                                                    background-size: cover;
+                                                                    height: 100%;
+                                                                    object-fit: cover;" 
+                                                                    srcset="images/images/icon/gameMenu_icon2_Roulette_1x.png 500w, images/icon/gameMenu_icon2_Roulette_2x.png 1000w" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2">1</div>
+                                                            <div class="game-icon-wrap p-2">1</div>
+                                                            <div class="game-icon-wrap p-2">1</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="pills-lottery" role="tabpanel" aria-labelledby="pills-lottery-tab">2</div>
+                                                    <div class="tab-pane fade" id="pills-sportsbook" role="tabpanel" aria-labelledby="pills-sportsbook-tab">3</div>
+                                                    <div class="tab-pane fade" id="pills-slots" role="tabpanel" aria-labelledby="pills-slots-tab">4</div>
+                                                  </div>
+
+
+                                                
                                             </div>
                                         </div>
                                     </li>
