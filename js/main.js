@@ -80,16 +80,14 @@ $(document).ready(function(){
 
 //hover games menu bar
 
-// $("#gamesHover").hover(
-// function () {
-//         $('.games-menu').addClass('games-hover');
-//         $('#nav-area').removeClass('nav-scroll');
-//         $('.nav-wrap').addClass('nav-black');
-// }, 
-// function () {
-//     $('.games-menu').removeClass('games-hover');
-// }
-// );
+$("#gamesHover").hover(
+    function () {
+            $('.game-menu').addClass('show');
+    }, 
+    function () {
+        $('.game-menu').removeClass('show');
+    }
+);
 
 
 
