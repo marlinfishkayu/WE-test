@@ -6,40 +6,79 @@
 
 
 
-/*-- Scroll Up/Down add class --*/
-// var lastScrollTop = 0;
-// $(window).scroll(function(event){
-//    var st = $(this).scrollTop();
-//    if (st > lastScrollTop){
-// 	   $('.nav-item').addClass('scrolling_down');
-//        $('.nav-item').removeClass('scrolling_up');
-//        $('.nav-wrap').removeClass("nav-fixed");
-//    } else {
-// 	   $('.nav-item').addClass('scrolling_up');
-//        $('.nav-item').removeClass('scrolling_down');
-//        $('.nav-wrap').addClass("nav-fixed")
-//    }
-//    lastScrollTop = st;
-// });	
+/*--  Hide Header on on scroll down --*/
+
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('.nav-item').outerHeight();
+
+$(window).scroll(function(event){
+    didScroll = true;
+});
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
+
+function hasScrolled() {
+    var st = $(this).scrollTop();
+    
+    // Make sure they scroll more than delta
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        $('.nav-item').removeClass('show').addClass('hidden');
+        $('.nav-wrap').removeClass("nav-fixed")
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $('.nav-item').removeClass('hidden').addClass('show');
+            $('.nav-wrap').addClass("nav-fixed")
+        }
+    }
+    
+    lastScrollTop = st;
+}
+
 
 /*-- hover games menu --*/
-// $(document).ready(function(){
-//     $('.main-nav').mouseover(function(){
-//         $('.is_hover').removeClass("is_hover");
-//         $('.nav-item').addClass('scrolling_down');
-//         $('.main-nav').addClass("is_hover");
-//         $('.nav-wrap').addClass("nav-fixed")
-//         console.log("is_hover")
-//         return false;
-//     });
-//     $('.main-nav').mouseleave(function(){
-//         $('.main-nav').removeClass("is_hover");
-//         $('.nav-wrap').removeClass("nav-fixed");
-//     });
-//         });
+$(document).ready(function(){
+    $('.main-nav').mouseover(function(){
+        $('.is_hover').removeClass("is_hover");
+        $('.nav-item').addClass('scrolling_down');
+        $('.main-nav').addClass("is_hover");
+        $('.nav-wrap').addClass("nav-fixed")
+        console.log("is_hover")
+        return false;
+    });
+    $('.main-nav').mouseleave(function(){
+        $('.main-nav').removeClass("is_hover");
+        $('.nav-wrap').removeClass("nav-fixed");
+    });
+        });
 
 /*--  hover games menu to open submenu --*/
-
+// $(document).ready(function(){
+//     $('#gamesHover, .games-menu').mouseover(function(){
+//         $('.games-menu').addClass("showDropdown");
+//         $('.games-menu').removeClass("unshowDropdown");
+//         console.log("display")
+//         return false;
+//     });
+//     $('#gamesHover, .games-menu').mouseleave(function(){
+//         $('#gamesHover').removeClass("showDropdown");
+//          $('.games-menu').addClass("unshowDropdown");
+//             console.log("not display")
+//     });
+//         });
 
 //hover games menu bar
 

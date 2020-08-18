@@ -166,19 +166,19 @@ img {
   transition: 0.5s all;
 }
 
-.scrolling_up {
-  display: block;
-}
-
-.scrolling_down {
-  display: none;
-}
-
 .nav-fixed {
   background-color: black;
 }
 
 .nav-fixed .nav-item {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
   display: block;
 }
 

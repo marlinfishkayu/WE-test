@@ -20,34 +20,44 @@
 	transition: 0.5s all;
 }
 //scrollup hide menu
-.scrolling_up{
-	display: block;
-}
-.scrolling_down{
-	display: none;
-}
+// .scrolling_up{
+// 	display: block;
+// }
+// .scrolling_down{
+// 	display: none;
+// }
 .nav-fixed{
 	background-color: black;
 }
 .nav-fixed .nav-item{
 	display: block;
 }
-
+.hidden{
+	display: none;
+}
+.show{
+	display: block;
+}
 
 //Game Menu
-// .game-menu{
+// .games-menu{
+// 	position: absolute;
+//     top: -34px;
+//     left: 0;
+//     width: 100%;
+//     z-index: 5;
+//     margin-top: 5rem;
+//     padding: 10px;
+//     border: 1px solid red;
 // 	display: none;
-// 	opacity: 0.3;
-// 	position: fixed;
-//     top: 60px;
-//     z-index: 4;
-//     left: 50%;
-//     transform: translate(-50%);
-// 	width: 100%;
-// 	height: 500px;
-// 	border: 1px solid red;
-// 	visibility: hidden;
 // }
+// .showDropdown{
+// 	display: block;
+// }
+// .unshowDropdown{
+// 	display: none;
+// }
+
 .nav-wrap li.dropdown .game-menu{
 	// display: none;
 	position: fixed;
