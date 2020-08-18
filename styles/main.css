@@ -241,7 +241,7 @@ img {
 
 .game-icon-wrap {
   width: 20%;
-  min-width: 260px;
+  min-width: 200px;
   height: 174px;
   border: 1px solid red;
 }
@@ -641,6 +641,9 @@ img {
   }
   .subnav-arrow {
     left: 169px;
+  }
+  .game-icon-wrap {
+    min-width: 260px;
   }
 }
 
