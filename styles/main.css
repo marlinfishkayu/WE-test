@@ -145,6 +145,10 @@ img {
   overflow: hidden;
 }
 
+section {
+  margin: 2rem 0rem;
+}
+
 #nav-area a, li {
   font-family: Futura,Trebuchet MS,Arial,sans-serif;
   font-weight: 500;
@@ -187,6 +191,7 @@ img {
 }
 
 .nav-wrap li.dropdown .game-menu {
+  display: none;
   position: fixed;
   top: 36px;
   z-index: -1;
@@ -355,6 +360,7 @@ img {
 }
 
 #wrapper .nav_links {
+  display: none;
   position: absolute;
   left: 50%;
   top: 5%;

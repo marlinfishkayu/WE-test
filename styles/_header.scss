@@ -34,7 +34,7 @@
 
 //Game Menu
 .nav-wrap li.dropdown .game-menu{
-	// display: none;
+	display: none;
 	position: fixed;
     top: 36px;
     z-index: -1;
@@ -180,7 +180,7 @@
     overflow: hidden;
 }
 #wrapper .nav_links{
-	// display: none;
+	display: none;
 	position: absolute;
 	left: 50%;
 	top: 5%;
