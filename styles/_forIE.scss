@@ -24,10 +24,14 @@
     }
     // Large devices (desktops, 992px and up)
     @media (min-width: 992px) {
-
+        .subnav-arrow{
+            left: 39.5%;
+        }
     }
     // Extra large devices (large desktops, 1200px and up)
     @media (min-width: 1200px) {
-    
+        .subnav-arrow{
+            left: 38.5%;
+        }
     }
 }

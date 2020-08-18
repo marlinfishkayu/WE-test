@@ -69,14 +69,8 @@
 .game-menu-wrapper{
 	margin: 0 auto;
 	width: 100%;
-	position: relative;
 }
-.all-games .secondaryBtn{
-	position: absolute;
-	bottom: -95px;
-	left: 50%;
-	transform: translateX(-50%);
-}
+
 .game-menu-row1{
 	margin-bottom: 25px;
 }
@@ -137,7 +131,9 @@
     left: 50%;
     transform: translateX(-50%);
 }
-
+.all-games .secondaryBtn{
+	padding-top: 10px;
+}
 #wrapper .nav_links  .nav-game-link{
 	font-family: Futura Medium,Trebuchet MS,Arial,sans-serif;
 	letter-spacing: 3px;
