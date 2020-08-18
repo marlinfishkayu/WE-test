@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="100" viewBox="0 0 91 100">
+  <defs>
+    <linearGradient id="gamemenu_icon3_sicbo_front-a" x1="50%" x2="50%" y1="3.41%" y2="100%">
+      <stop offset="0%" stop-color="#000F24" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#011B3E"/>
+    </linearGradient>
+    <linearGradient id="gamemenu_icon3_sicbo_front-b" x1="50%" x2="50%" y1="3.41%" y2="100%">
+      <stop offset="0%" stop-color="#000F24" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#011B3E"/>
+    </linearGradient>
+    <linearGradient id="gamemenu_icon3_sicbo_front-c" x1="50%" x2="50%" y1="3.41%" y2="100%">
+      <stop offset="0%" stop-color="#000F24" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#011B3E"/>
+    </linearGradient>
+    <linearGradient id="gamemenu_icon3_sicbo_front-d" x1="50%" x2="50%" y1="3.41%" y2="100%">
+      <stop offset="0%" stop-color="#000F24" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#011B3E"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" stroke="#B0936D" transform="translate(1 1)">
+    <path fill="url(#gamemenu_icon3_sicbo_front-a)" d="M46,11.5 L42,11.5 C36.3390813,11.5 31.2140813,13.7945407 27.504311,17.504311 C23.7945407,21.2140813 21.5,26.3390813 21.5,32 L21.5,86.5 L66.5,86.5 L66.5,32 C66.5,26.3390813 64.2054593,21.2140813 60.495689,17.504311 C56.7859187,13.7945407 51.6609187,11.5 46,11.5 Z"/>
+    <path fill="url(#gamemenu_icon3_sicbo_front-b)" stroke-width="1.75" d="M44.76942,0.44946 C63.40752,0.44946 78.51942,14.00886 78.51942,30.74076 L78.51942,30.74076 L78.51942,86.84946 L67.71942,86.84846 L67.71942,86.84946 L21.81942,86.84946 L21.81942,86.84846 L67.71942,86.84846 L67.71942,30.74076 C67.71942,20.099547 57.6291925,11.4245126 45.1483511,11.252076 L44.76942,11.24946 C32.11452,11.24946 21.81942,19.99206 21.81942,30.74076 L21.81942,30.74076 L21.81942,86.84846 L11.01942,86.84946 L11.01942,30.74076 C11.01942,14.00886 26.12862,0.44946 44.76942,0.44946 Z"/>
+    <path fill="url(#gamemenu_icon3_sicbo_front-c)" stroke-width="1.75" d="M32.61942,76.04946 L32.61942,30.74076 C32.61942,26.11026 38.29752,22.04946 44.76942,22.04946 C51.24132,22.04946 56.91942,26.11026 56.91942,30.74076 L56.91942,76.04946 L32.61942,76.04946 Z"/>
+    <polygon fill="url(#gamemenu_icon3_sicbo_front-d)" stroke-width="1.75" points="86.024 98.087 3.512 98.087 .812 86.85 88.724 86.85"/>
+    <polygon stroke-width="1.75" points="44.769 39.127 39.369 33.727 44.769 28.328 50.169 33.727"/>
+    <polygon stroke-width="1.75" points="44.769 54.6 39.369 49.2 44.769 43.8 50.169 49.2"/>
+    <polygon stroke-width="1.75" points="44.769 70.075 39.369 64.675 44.769 59.275 50.169 64.675"/>
+  </g>
+</svg>

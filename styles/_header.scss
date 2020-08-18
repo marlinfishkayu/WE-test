@@ -41,8 +41,6 @@
     left: 50%;
     transform: translate(-50%);
 	width: 100%;
-	height: 500px;
-	border: 1px solid red;
 	margin-top: 27px;
 	padding: 5rem 0;
 	font-family: Futura Medium,Trebuchet MS,Arial,sans-serif;
@@ -56,7 +54,7 @@
 .nav-wrap li.dropdown .game-menu::after{
 	content: '';
 	position: absolute;
-	height: 600px;
+	height: 415px;
 	top: 28px;
 	left: 0;
 	z-index: -1;
@@ -67,9 +65,7 @@
 .nav-wrap .dropdown:hover .game-menu{
 	display: flex;
 }
-.nav-game-item{
-	padding: 0px 20px;
-}
+
 .game-menu-wrapper{
 	margin: 0 auto;
 	width: 100%;
@@ -108,6 +104,7 @@
 		bottom: 7px;
 		width: 96px;
 		height: 96px;
+		padding: 15px;
 		transform: translate(-50%, -50%);
 		background-repeat: no-repeat;
 }
@@ -115,15 +112,26 @@
 	position: absolute;
 	bottom: 10%;
 	left: 50%;
+	letter-spacing: 1;
 	transform: translateX(-50%);
 	color: #DDDDDD;
 	font-family: Futura Medium,Trebuchet MS,Arial,sans-serif;
-	letter-spacing: 3px;
 	font-weight: 100;
-	font-size: 16px;
+	font-size: 10px;
+	white-space: nowrap;
 }
-
-
+#gameSubtab{
+	padding-bottom: 25px;
+}
+.game-tab-content .tab-pane{
+	position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.game-tab-content .all-games{
+	position: absolute;
+	bottom: 0;
+}
 #wrapper .nav_links  .nav-game-link{
 	font-family: Futura Medium,Trebuchet MS,Arial,sans-serif;
 	letter-spacing: 3px;
@@ -132,17 +140,16 @@
 	color: #979797;
 	text-decoration: none;
 	margin: 0px 15px;
-	padding-bottom: 5px;
 	text-decoration: none;
 	white-space: nowrap;
+	
 }
-#wrapper .nav_links  .nav-game-link:hover{
+#wrapper .nav_links #gameSubtab .nav-game-link:hover,
+#wrapper .nav_links #gameSubtab .nav-game-item .active{
 	color: #D8D8D8;
+	padding-bottom: 10px;
 	border-bottom: 1px solid #B0936D;
 }
-
-
-
 .nav-black,
 .search-black{
 	background-color: #060B1A;
@@ -472,6 +479,12 @@
 	}
 	.game-icon-wrap{
 		min-width: 260px;
+	}
+	.nav-game-item{
+		padding: 0px 20px;
+	}
+	.game-icon-container h4{
+		font-size: 16px;
 	}
 }
 
