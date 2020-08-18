@@ -1017,12 +1017,17 @@ section {
   }
 }
 
-#intdexOurGames {
-  height: 300px;
+.our-gamaes {
+  margin-top: 1rem;
+}
+
+.ourgames-img {
+  width: 206px;
+  height: 192px;
+  margin: auto;
 }
 
 #intdexHotPick {
-  height: 300px;
   position: relative;
 }
 
@@ -1037,12 +1042,9 @@ section {
   background-image: url(/images/bkg/HotPicks-bkg.svg);
 }
 
-@media (min-width: 992px) {
-  #intdexOurGames {
-    height: 800px;
-  }
-  #intdexHotPick {
-    height: 800px;
+@media (min-width: 1200px) {
+  .our-gamaes {
+    margin-top: 7rem;
   }
 }
 

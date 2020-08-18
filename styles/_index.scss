@@ -1,8 +1,16 @@
-#intdexOurGames{
-    height: 300px;
+
+.our-gamaes{
+    margin-top: 1rem;
 }
+
+.ourgames-img{
+    width: 206px;
+    height: 192px;
+    margin: auto;
+}
+
 #intdexHotPick{
-    height: 300px;
+    // height: 300px;
     position: relative;
 }
 #intdexHotPick::after{
@@ -16,6 +24,8 @@
     background-image: url(/images/bkg/HotPicks-bkg.svg);
 }
 
+
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
 
@@ -27,14 +37,14 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-    #intdexOurGames{
-        height: 800px;
-    }
-    #intdexHotPick{
-        height: 800px;
-    }
+
+    // #intdexHotPick{
+    //     height: 800px;
+    // }
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  
+    .our-gamaes{
+        margin-top: 7rem;
+    }
 }
