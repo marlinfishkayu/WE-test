@@ -105,11 +105,12 @@
     position: relative;
     cursor: pointer;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
-  border: solid 3px transparent;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
-  box-shadow: 2px 1000px 1px #fff inset;
+    border: solid 1px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(130deg, #CAAC85, #89663D, #89663D, #89663D);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    -webkit-box-shadow: 2px 1000px 1px #00172D inset;
+    box-shadow: 1px 1000px 1px rgb(1,26,59,80) inset;
 }
 .header-wrapper .slider-text .mainBtn:focus {
     outline: none;
@@ -178,7 +179,7 @@
         width: 200px;
         height: 46px;
         font-size: 13px;
-        padding: 15px 32px;
+        padding: 12px 19px
     }
     
 }
