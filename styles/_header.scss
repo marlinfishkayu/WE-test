@@ -80,6 +80,11 @@
 	height: 174px;
 	
 }
+.tab-pane{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
 #nav-area .game-icon-wrap  a{
 	font-family: inherit;
 }
@@ -124,10 +129,10 @@
 	white-space: nowrap;
 }
 #gameSubtab{
-	padding-bottom: 25px;
+	padding-bottom: 35px;
 }
-#sec{
-	margin-top: 44px;
+#allGameBtn{
+	margin-top: 50px;
 }
 
 #wrapper .nav_links  .nav-game-link{

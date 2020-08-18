@@ -110,7 +110,7 @@
     background-origin: border-box;
     background-clip: content-box, border-box;
     -webkit-box-shadow: 2px 1000px 1px #00172D inset;
-    box-shadow: 1px 1000px 1px rgb(1,26,59,80) inset;
+    box-shadow: 1px 1000px 1px #011A3B inset;
 }
 .header-wrapper .slider-text .mainBtn:focus {
     outline: none;
@@ -169,7 +169,7 @@
         width: 200px;
         height: 46px;
         font-size: 13px;
-        padding: 15px 32px;
+        padding: 12px 32px;
         &:before {
             width: 198px;
             height: 46px;

@@ -195,7 +195,7 @@ img {
           transform: translate(-50%);
   width: 100%;
   margin-top: 27px;
-  padding: 5rem 0;
+  padding: 3rem 0;
   font-family: Futura Medium,Trebuchet MS,Arial,sans-serif;
   letter-spacing: 3px;
   font-weight: 100;
@@ -226,15 +226,6 @@ img {
 .game-menu-wrapper {
   margin: 0 auto;
   width: 100%;
-  position: relative;
-}
-
-.all-games .secondaryBtn {
-  position: absolute;
-  bottom: -270px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
 }
 
 .game-menu-row1 {
@@ -245,6 +236,13 @@ img {
   width: 20%;
   min-width: 200px;
   height: 174px;
+}
+
+.tab-pane {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 #nav-area .game-icon-wrap a {
@@ -300,14 +298,11 @@ img {
 }
 
 #gameSubtab {
-  padding-bottom: 25px;
+  padding-bottom: 35px;
 }
 
-.game-tab-content .tab-pane {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+#allGameBtn {
+  margin-top: 50px;
 }
 
 #wrapper .nav_links .nav-game-link {
@@ -840,7 +835,7 @@ img {
   background-origin: border-box;
   background-clip: content-box, border-box;
   -webkit-box-shadow: 2px 1000px 1px #00172D inset;
-  box-shadow: 1px 1000px 1px #00172D inset;
+  box-shadow: 1px 1000px 1px #011A3B inset;
 }
 
 .header-wrapper .slider-text .mainBtn:focus {
@@ -897,7 +892,7 @@ img {
     width: 200px;
     height: 46px;
     font-size: 13px;
-    padding: 15px 32px;
+    padding: 12px 32px;
   }
   .mainBtn:before {
     width: 198px;
@@ -907,7 +902,7 @@ img {
     width: 200px;
     height: 46px;
     font-size: 13px;
-    padding: 15px 32px;
+    padding: 12px 19px;
   }
 }
 
@@ -1067,6 +1062,18 @@ img {
 @media all and (-ms-high-contrast: none) and (min-width: 768px), (-ms-high-contrast: active) and (min-width: 768px) {
   #nav-ara .closeBtn {
     top: 10px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) and (min-width: 992px), (-ms-high-contrast: active) and (min-width: 992px) {
+  .subnav-arrow {
+    left: 39.5%;
+  }
+}
+
+@media all and (-ms-high-contrast: none) and (min-width: 1200px), (-ms-high-contrast: active) and (min-width: 1200px) {
+  .subnav-arrow {
+    left: 38.5%;
   }
 }
 /*# sourceMappingURL=main.css.map */
