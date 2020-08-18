@@ -34,7 +34,7 @@
 
 //Game Menu
 .nav-wrap li.dropdown .game-menu{
-	// display: none;
+	display: none;
 	position: fixed;
     top: 36px;
     z-index: -1;
@@ -69,6 +69,13 @@
 .game-menu-wrapper{
 	margin: 0 auto;
 	width: 100%;
+	position: relative;
+}
+.all-games .secondaryBtn{
+	position: absolute;
+	bottom: -270px;
+	left: 50%;
+	transform: translateX(-50%);
 }
 .game-menu-row1{
 	margin-bottom: 25px;
@@ -77,8 +84,10 @@
 	width: 20%;
 	min-width: 200px;
 	height: 174px;
-	border: 1px solid red;
 	
+}
+#nav-area .game-icon-wrap  a{
+	font-family: inherit;
 }
 .game-icon-container{
 	border-radius: 5px;
@@ -128,10 +137,7 @@
     left: 50%;
     transform: translateX(-50%);
 }
-.game-tab-content .all-games{
-	position: absolute;
-	bottom: 0;
-}
+
 #wrapper .nav_links  .nav-game-link{
 	font-family: Futura Medium,Trebuchet MS,Arial,sans-serif;
 	letter-spacing: 3px;
@@ -177,7 +183,7 @@
     overflow: hidden;
 }
 #wrapper .nav_links{
-	display: none;
+	// display: none;
 	position: absolute;
 	left: 50%;
 	top: 5%;
