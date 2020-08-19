@@ -67,8 +67,8 @@ table {
   font-family: "Futura-Medium";
   src: url("./fonts/FuturaMedium.eot");
   /* IE9 Compat Modes */
-  src: url("./fonts/FuturaMedium.eot?#iefix") format("embedded-opentype"), url("./fonts/FuturaMedium.svg") format("svg"), url("./fonts/FuturaMedium.ttf") format("truetype"), url("./fonts/FuturaMedium.woff") format("woff");
-  /* Modern Browsers */
+  src: url("./fonts/FuturaMedium.eot?#iefix") format("embedded-opentype"), url("./fonts/FuturaMedium.svg") format("svg");
+  /* Legacy iOS */
   font-weight: normal;
   font-style: normal;
 }
@@ -1254,7 +1254,7 @@ img {
 }
 
 .live-game-main .feature-row {
-  max-width: 400px;
+  max-width: 1200px;
   margin: 0 auto;
   margin-top: 3rem;
 }
@@ -1266,8 +1266,44 @@ img {
 }
 
 .live-game-main .feature-flexbox img {
-  width: 483px;
-  height: 351px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  padding: 3rem;
+  position: relative;
+}
+
+.live-game-main .feature-flexbox img:before {
+  content: "";
+  position: absolute;
+  top: 18%;
+  width: 103px;
+  height: 14px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMTIiIGhlaWdodD0iMTciIHZpZXdCb3g9IjAgMCAxMTIgMTciPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaXZlZ2FtZV9oZWFkZXJfZGVjby1hIiB4MT0iMy4xNzMlIiB4Mj0iOTguOTQ3JSIgeTE9IjQ5Ljk5NSUiIHkyPSI1MC4wMDUlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwNDM4MyIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMjEuODk2JSIgc3RvcC1jb2xvcj0iIzA2MUMzNiIgc3RvcC1vcGFjaXR5PSIuMyIvPgogICAgICA8c3RvcCBvZmZzZXQ9Ijc0LjA5NSUiIHN0b3AtY29sb3I9IiMwQTFFM0EiIHN0b3Atb3BhY2l0eT0iLjMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAyMDRDIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlPSIjQjA5MzZEIj4KICAgIDxsaW5lIHgxPSIxMTEuNSIgeDI9IjEyLjUiIHkxPSI2LjUiIHkyPSI2LjUiIGZpbGw9InVybCgjbGl2ZWdhbWVfaGVhZGVyX2RlY28tYSkiLz4KICAgIDxwb2x5bGluZSBwb2ludHM9IjExMS41IDE2IDQ3LjUgMTYuNSAzOC41IDYuNSIvPgogICAgPHJlY3Qgd2lkdGg9IjgiIGhlaWdodD0iOCIgeD0iMi41IiB5PSIyLjUiIHRyYW5zZm9ybT0icm90YXRlKC00NSA2LjUgNi41KSIvPgogIDwvZz4KPC9zdmc+Cg==");
+}
+
+.feature-flexbox .feature-flexbox-h2 {
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-size: 36px;
+  letter-spacing: 1.5;
+  line-height: 1.5;
+  color: #E1E1E1;
+  padding: 0 20px;
+  padding-top: 40px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.feature-flexbox .feature-flexbox-h2,
+.feature-flexbox .hero-intro2 {
+  text-align: left;
+}
+
+.live-game-main .feature-flexbox .hero-intro2 {
+  margin-top: 1rem;
 }
 
 @media (min-width: 992px) {
@@ -1304,6 +1340,15 @@ img {
   .live-game-main .feature-header {
     font-size: 26px;
     margin-top: 6rem;
+  }
+  .live-game-main .feature-flexbox img {
+    width: 483px;
+  }
+  .live-game-main .feature-flexbox .hero-intro2 {
+    margin-top: 0rem;
+  }
+  .feature-flexbox .feature-flexbox-h2 {
+    margin: inherit;
   }
 }
 

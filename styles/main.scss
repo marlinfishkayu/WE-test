@@ -14,9 +14,8 @@
   font-family: "Futura-Medium";
   src: url("./fonts/FuturaMedium.eot"); /* IE9 Compat Modes */
   src: url("./fonts/FuturaMedium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("./fonts/FuturaMedium.svg") format("svg"), /* Legacy iOS */
-    url("./fonts/FuturaMedium.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("./fonts/FuturaMedium.woff") format("woff"); /* Modern Browsers */
+    url("./fonts/FuturaMedium.svg") format("svg"); /* Legacy iOS */
+    // url("./fonts/FuturaMedium.woff") format("woff"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
