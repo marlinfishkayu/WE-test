@@ -49,7 +49,7 @@ h1 {
   font-style: normal; 
   font-variant: normal; 
   font-weight: 700; 
-  line-height: 26.4px; 
+  line-height: 70px; 
 } 
 h2 { 
   font-family: $fontFutura; 
@@ -75,7 +75,6 @@ h4 {
   font-weight: 700; 
   line-height: 26.4px; 
 } 
-
 img{
   width: 100%;
   height: 100%;
@@ -87,7 +86,19 @@ img{
   overflow: hidden;
 }
 
-
+.hero-intro1{
+  font-family: $fontBarlowRegular; 
+  font-size: 26px; 
+  color: #D8D8D8;
+  letter-spacing: 0;
+}
+.hero-intro2{
+  font-family: $fontBarlowLight; 
+  font-size: 20px; 
+  color: #979797;
+  letter-spacing: 1;
+  line-height: 30px;
+}
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
 

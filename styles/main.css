@@ -103,7 +103,7 @@ h1 {
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
-  line-height: 26.4px;
+  line-height: 70px;
 }
 
 h2 {
@@ -143,6 +143,21 @@ img {
   min-width: 300px;
   height: auto;
   overflow: hidden;
+}
+
+.hero-intro1 {
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
+  font-size: 26px;
+  color: #D8D8D8;
+  letter-spacing: 0;
+}
+
+.hero-intro2 {
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
+  font-size: 20px;
+  color: #979797;
+  letter-spacing: 1;
+  line-height: 30px;
 }
 
 #nav-area a, li {
