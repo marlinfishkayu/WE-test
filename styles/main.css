@@ -1065,6 +1065,46 @@ img {
   }
 }
 
+.hero-header {
+  height: 300px;
+}
+
+#liveGame .hero-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+
+#liveGame .hero-header {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#roulette .hero-header {
+  background-image: url(/images/game/banner/hero_livegame_banner_roulette.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  #roulette .hero-header {
+    background-image: url(/images/game/banner/hero_livegame_banner_roulette@2x.jpg);
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-header {
+    height: 500px;
+  }
+  #liveGame .hero-icon {
+    width: 169px;
+    height: 169px;
+    margin: 0 auto;
+    padding-top: 13rem;
+  }
+}
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   #nav-area .search-form {
     top: -5px;

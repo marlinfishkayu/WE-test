@@ -63,20 +63,6 @@ $(document).ready(function(){
     });
         });
 
-/*--  hover games menu to open submenu --*/
-// $(document).ready(function(){
-//     $('#gamesHover, .games-menu').mouseover(function(){
-//         $('.games-menu').addClass("showDropdown");
-//         $('.games-menu').removeClass("unshowDropdown");
-//         console.log("display")
-//         return false;
-//     });
-//     $('#gamesHover, .games-menu').mouseleave(function(){
-//         $('#gamesHover').removeClass("showDropdown");
-//          $('.games-menu').addClass("unshowDropdown");
-//             console.log("not display")
-//     });
-//         });
 
 //hover games menu bar
 
@@ -88,11 +74,6 @@ $("#gamesHover").hover(
         $('.game-menu').removeClass('show');
     }
 );
-
-
-
-
-
 
 
 //hide nav menu for search
