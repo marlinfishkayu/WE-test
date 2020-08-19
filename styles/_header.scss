@@ -96,7 +96,7 @@
 		position: absolute;
 		top: 0;
 		right: 0;
-		bottom: 7px;
+		bottom: 6px;
 		left: 0;
 		z-index: -1;
 		margin: -1px;
@@ -111,26 +111,33 @@
 		left: 50%;
 		bottom: 7px;
 		width: 96px;
-		height: 96px;
+		height: 100px;
 		padding: 15px;
 		transform: translate(-50%, -50%);
-		background-repeat: no-repeat;
+}
+.game-icon-front .icon-img{
 		width: 100%;
+		height: 100%;
 		background-repeat: no-repeat;
 		background-position: center center;
-		background-size: cover;
+		background-size: contain;
+}
+#pills-tabContent #gameMenu-baccarat .game-icon-front .icon-img{
+	background-image: url(/images/icon/gameMenu_icon1_Baccarat_front.svg); 
+}
+#pills-tabContent #gameMenu-roulette .game-icon-front .icon-img{
+	background-image: url(/images/icon/gameMenu_icon2_Roulette_front.svg); 
+}
+#pills-tabContent #gameMenu-SicBo .game-icon-front .icon-img{
+	background-image: url(/images/icon/gameMenu_icon3_SicBo_front.svg); 
+}
+#pills-tabContent #gameMenu-Dragon .game-icon-front .icon-img{
+	background-image: url(/images/icon/gameMenu_icon4_Dragon_front.svg); 
+}
+#pills-tabContent #gameMenu-Mahjong .game-icon-front .icon-img{
+	background-image: url(/images/icon/gameMenu_icon5_Mahjong_front.svg); 
 }
 
-// #pills-tabContent #baccarat{
-// 	background-image: url(images/icon/gameMenu_icon1_Baccarat_1x.png); 
-// }
-// @media 
-//     (-webkit-min-device-pixel-ratio: 2), 
-//     (min-resolution: 192dpi) { 
-//     #roulette .hero-header  {
-//       background-image: url(/images/icon/gameMenu_icon1_Baccarat_2x.png);
-//     }
-//   }
 
 .game-icon-container h4{
 	position: absolute;
