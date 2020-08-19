@@ -1195,7 +1195,8 @@ img {
 }
 
 #liveGame .hero-header,
-.live-game-main {
+.live-game-main,
+.live-game-main .feature-flexbox img {
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1237,6 +1238,7 @@ img {
 }
 
 .live-game-main .hero-intro2 {
+  padding: 0 20px;
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
@@ -1249,6 +1251,23 @@ img {
   font-size: 16px;
   letter-spacing: 1;
   margin-top: 3rem;
+}
+
+.live-game-main .feature-row {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.live-game-main .feature-flexbox {
+  padding: 5px;
+  border: 1px solid red;
+  width: 100%;
+}
+
+.live-game-main .feature-flexbox img {
+  width: 483px;
+  height: 351px;
 }
 
 @media (min-width: 992px) {

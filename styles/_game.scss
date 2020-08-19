@@ -43,7 +43,8 @@
 }
 
 #liveGame .hero-header ,
-.live-game-main {
+.live-game-main,
+.live-game-main .feature-flexbox img{
     width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -80,6 +81,7 @@
     margin-top: 1rem;
 }
 .live-game-main .hero-intro2{
+    padding: 0 20px;
     max-width: 400px;
     margin: 0 auto;
     text-align: center;
@@ -92,6 +94,21 @@
     letter-spacing: 1;
     margin-top: 3rem;
 }
+.live-game-main .feature-row{
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.live-game-main .feature-flexbox{
+    padding: 5px;
+    border: 1px solid red;
+    width: 100%;
+}
+.live-game-main .feature-flexbox img{
+    width: 483px;
+    height: 351px;
+}
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
 
