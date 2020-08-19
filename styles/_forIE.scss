@@ -2,6 +2,9 @@
     #nav-area .search-form{
         top: -5px;
     }
+    #nav-area{
+        top: 0;
+    }
     #nav-ara .closeBtn{
         top: 10px;
     }
@@ -14,12 +17,20 @@
         #nav-ara .closeBtn{
             top: 10px;
         }
-
+        #slider-area .slide{
+            height: auto;
+        }
     }
     // Medium devices (tablets, 768px and up)
     @media (min-width: 768px) {
         #nav-ara .closeBtn{
             top: 10px;
+        }
+        #wrapper #nav-area{
+            top:0;
+        }
+        .deco-cat{
+            width: 230px;
         }
     }
     // Large devices (desktops, 992px and up)
@@ -27,11 +38,17 @@
         .subnav-arrow{
             left: 39.5%;
         }
+        #allGameBtn {
+            margin-top: 35px;
+        }
     }
     // Extra large devices (large desktops, 1200px and up)
     @media (min-width: 1200px) {
         .subnav-arrow{
             left: 38.5%;
+        }
+        #slider-area .slide{
+            height: 100%;
         }
     }
 }
