@@ -207,7 +207,7 @@
         margin-top: 6rem;
     }
     .live-game-main .feature-flexbox{
-        padding: 5px;
+        padding: 0 40px;
         img{
             width: 483px;
         }
@@ -225,8 +225,8 @@
     .feature-photo {
         max-width: inherit;
         &:before {
-            top: -11px;
-            left: 48px;
+            top: -9px;
+            left: 38px;
             width: 510px;
             z-index: 10;
             height: 348px;
