@@ -10,16 +10,16 @@
   font-weight: normal;
   font-style: normal;
 }
-// @font-face {
-//   font-family: "Barlow-Thin";
-//   src: url("./fonts/Barlow-Thin.eot"); /* IE9 Compat Modes */
-//   src: url("./fonts/Barlow-Thin.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-//     url("./fonts/Barlow-Thin.otf") format("opentype"), /* Open Type Font */
-//     url("./fonts/Barlow-Thin.svg") format("svg"), /* Legacy iOS */
-//     url("./fonts/Barlow-Thin.woff") format("woff"); /* Modern Browsers */
-//   font-weight: normal;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: "Futura-Medium";
+  src: url("./fonts/FuturaMedium.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/FuturaMedium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/FuturaMedium.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/FuturaMedium.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/FuturaMedium.woff") format("woff"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
 * {
     margin: 0;
     padding: 0;
@@ -88,13 +88,15 @@ img{
 
 .hero-intro1{
   font-family: $fontBarlowRegular; 
-  font-size: 26px; 
+  font-size: 16px; 
+  font-weight: 100;
   color: #D8D8D8;
   letter-spacing: 0;
 }
 .hero-intro2{
   font-family: $fontBarlowLight; 
-  font-size: 20px; 
+  font-size: 10px; 
+  font-weight: 100;
   color: #979797;
   letter-spacing: 1;
   line-height: 30px;
@@ -110,7 +112,12 @@ img{
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-
+  .hero-intro1{
+    font-size: 26px; 
+  }
+  .hero-intro2{
+    font-size: 20px; 
+  }
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
