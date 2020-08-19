@@ -115,7 +115,23 @@
 		padding: 15px;
 		transform: translate(-50%, -50%);
 		background-repeat: no-repeat;
+		width: 100%;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
 }
+
+// #pills-tabContent #baccarat{
+// 	background-image: url(images/icon/gameMenu_icon1_Baccarat_1x.png); 
+// }
+// @media 
+//     (-webkit-min-device-pixel-ratio: 2), 
+//     (min-resolution: 192dpi) { 
+//     #roulette .hero-header  {
+//       background-image: url(/images/icon/gameMenu_icon1_Baccarat_2x.png);
+//     }
+//   }
+
 .game-icon-container h4{
 	position: absolute;
 	bottom: 10%;
