@@ -95,12 +95,15 @@ img{
 }
 .hero-intro2{
   font-family: $fontBarlowLight; 
-  font-size: 10px; 
+  font-size: 15px; 
   font-weight: 100;
   color: #979797;
   letter-spacing: 1;
-  line-height: 30px;
+  line-height: 1.5;
 }
+
+
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
 

@@ -165,11 +165,11 @@ img {
 
 .hero-intro2 {
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 100;
   color: #979797;
   letter-spacing: 1;
-  line-height: 30px;
+  line-height: 1.5;
 }
 
 @media (min-width: 992px) {
@@ -1149,9 +1149,13 @@ img {
   height: 400px;
 }
 
+#roulette .live-game-main {
+  height: 2000px;
+}
+
 #liveGame .hero-icon {
   width: 80px;
-  height: 80px;
+  height: 60px;
   margin: 0 auto;
   padding-top: 8rem;
 }
@@ -1173,8 +1177,8 @@ img {
   content: "";
   position: absolute;
   top: 18%;
-  width: 90px;
-  height: 20px;
+  width: 103px;
+  height: 14px;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMTIiIGhlaWdodD0iMTciIHZpZXdCb3g9IjAgMCAxMTIgMTciPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaXZlZ2FtZV9oZWFkZXJfZGVjby1hIiB4MT0iMy4xNzMlIiB4Mj0iOTguOTQ3JSIgeTE9IjQ5Ljk5NSUiIHkyPSI1MC4wMDUlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwNDM4MyIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMjEuODk2JSIgc3RvcC1jb2xvcj0iIzA2MUMzNiIgc3RvcC1vcGFjaXR5PSIuMyIvPgogICAgICA8c3RvcCBvZmZzZXQ9Ijc0LjA5NSUiIHN0b3AtY29sb3I9IiMwQTFFM0EiIHN0b3Atb3BhY2l0eT0iLjMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAyMDRDIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlPSIjQjA5MzZEIj4KICAgIDxsaW5lIHgxPSIxMTEuNSIgeDI9IjEyLjUiIHkxPSI2LjUiIHkyPSI2LjUiIGZpbGw9InVybCgjbGl2ZWdhbWVfaGVhZGVyX2RlY28tYSkiLz4KICAgIDxwb2x5bGluZSBwb2ludHM9IjExMS41IDE2IDQ3LjUgMTYuNSAzOC41IDYuNSIvPgogICAgPHJlY3Qgd2lkdGg9IjgiIGhlaWdodD0iOCIgeD0iMi41IiB5PSIyLjUiIHRyYW5zZm9ybT0icm90YXRlKC00NSA2LjUgNi41KSIvPgogIDwvZz4KPC9zdmc+Cg==");
@@ -1190,7 +1194,8 @@ img {
   transform: scaleX(-1);
 }
 
-#liveGame .hero-header {
+#liveGame .hero-header,
+.live-game-main {
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1201,9 +1206,16 @@ img {
   background-image: url(/images/game/banner/hero_livegame_banner_roulette.jpg);
 }
 
+.live-game-main {
+  background-image: url(/images/game/livegame_bkg_top.jpg);
+}
+
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #roulette .hero-header {
     background-image: url(/images/game/banner/hero_livegame_banner_roulette@2x.jpg);
+  }
+  #liveGame .live-game-main {
+    background-image: url(/images/game/livegame__bkg_top@2x.jpg);
   }
 }
 
@@ -1213,6 +1225,30 @@ img {
   font-size: 60px;
   padding-top: 10px;
   font-weight: 100;
+  margin-top: 1rem;
+}
+
+#liveGame .hero-intro1 {
+  margin-top: -1rem;
+}
+
+.live-game-main .mainBtn {
+  margin-top: 1rem;
+}
+
+.live-game-main .hero-intro2 {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.live-game-main .feature-header {
+  color: #E1E1E1;
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 1;
+  margin-top: 3rem;
 }
 
 @media (min-width: 992px) {
@@ -1225,8 +1261,30 @@ img {
     margin: 0 auto;
     padding-top: 13rem;
   }
+  #liveGame .hero-header h1 {
+    font-size: 80px;
+  }
   #liveGame .header-deco {
-    margin-top: 12rem;
+    margin-top: 13rem;
+  }
+  #liveGame .hero-header h1 {
+    margin-top: 1.5rem;
+  }
+  #liveGame .hero-intro1 {
+    margin-top: 0rem;
+  }
+  .live-game-main .mainBtn {
+    margin-top: 2.5rem;
+  }
+  .live-game-main .hero-intro2 {
+    max-width: 700px;
+  }
+  .live-game-main .hero-intro2 {
+    margin-top: 3.5rem;
+  }
+  .live-game-main .feature-header {
+    font-size: 26px;
+    margin-top: 6rem;
   }
 }
 
