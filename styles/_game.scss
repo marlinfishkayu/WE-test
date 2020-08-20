@@ -1,5 +1,10 @@
 .hero-header{
-    height: 400px;
+    position: relative;
+}
+.hero-header-bkg {
+    position: absolute;
+    top: 0;
+    z-index: -1;
 }
 #roulette .live-game-main {
     height: 2000px;
@@ -42,7 +47,6 @@
     }
 }
 
-#liveGame .hero-header ,
 .live-game-main,
 .live-game-main .feature-flexbox img{
     width: 100%;
@@ -50,18 +54,14 @@
     background-position: center center;
     background-size: cover;
 }
-#roulette .hero-header {
-    background-image: url(/images/game/banner/hero_livegame_banner_roulette.jpg); 
-}
+
 .live-game-main {
     background-image: url(/images/game/livegame_bkg_top.jpg); 
 }
 @media 
 (-webkit-min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi) { 
-    #roulette .hero-header  {
-        background-image: url(/images/game/banner/hero_livegame_banner_roulette@2x.jpg);
-    }
+
     #liveGame .live-game-main {
         background-image: url(/images/game/livegame__bkg_top@2x.jpg); 
     }
@@ -172,7 +172,7 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-    .hero-header{
+    .hero-header .hero-header-bkg{
         height: 600px;
     }
     #liveGame .hero-icon{
