@@ -12,6 +12,13 @@
         width : 0;
         height: 0;
     }
+    #liveGame .hero-header h1{
+        font-weight: 500;
+    }
+    #liveGame .hero-deco{
+        width: 220px;
+    }
+    
     // Small devices (landscape phones, 576px and up)
     @media (min-width: 576px) {     
         #nav-ara .closeBtn{
