@@ -305,7 +305,7 @@ img {
   background: linear-gradient(to right, #caac85, #89663d, #89663d);
 }
 
-.game-icon-container img {
+.game-icon-container .game-icon-bkg-wrap img {
   width: 100%;
   background-position: 50% 10%;
   background-size: cover;
