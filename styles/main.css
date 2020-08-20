@@ -1272,7 +1272,7 @@ img {
 .feature-photo:before {
   content: "";
   position: absolute;
-  top: -15px;
+  top: -12px;
   left: 0px;
   width: 351px;
   z-index: 10;
@@ -1300,7 +1300,7 @@ img {
   content: "";
   position: absolute;
   top: 16px;
-  left: 40%;
+  left: 13%;
   width: 41px;
   height: 150px;
   z-index: -1;
