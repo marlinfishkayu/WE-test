@@ -1,7 +1,12 @@
 .hero-header{
+    height: 400px;
+}
+.hero-header,
+.live-game-main{
     position: relative;
 }
-.hero-header-bkg {
+.hero-header-bkg,
+.live-game-main-bkg {
     position: absolute;
     top: 0;
     z-index: -1;
@@ -55,17 +60,7 @@
     background-size: cover;
 }
 
-.live-game-main {
-    background-image: url(/images/game/livegame_bkg_top.jpg); 
-}
-@media 
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
 
-    #liveGame .live-game-main {
-        background-image: url(/images/game/livegame__bkg_top@2x.jpg); 
-    }
-}
 #liveGame .hero-header h1{
     color: $primaryText;
     font-family: $fontFuturaMedium;
@@ -172,7 +167,7 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-    .hero-header .hero-header-bkg{
+    .hero-header {
         height: 600px;
     }
     #liveGame .hero-icon{
