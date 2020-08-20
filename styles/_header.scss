@@ -193,7 +193,6 @@
 	list-style: none;
 	position: relative;
 }
-
 #nav-area{
 	padding-left: calc(max(22px, env(safe-area-inset-left)));
 	padding-right: calc(max(22px, env(safe-area-inset-right)));
@@ -205,6 +204,12 @@
     width: 100%;
     height: 60px;
     overflow: hidden;
+}
+#wrapper .nav-wrap{
+	pointer-events: none;
+}
+#wrapper .nav-fixed{
+	pointer-events: inherit;
 }
 #wrapper .nav_links{
 	display: none;
@@ -417,11 +422,9 @@
 		transform: translate(-50%);
 		justify-content: space-between;
 		padding-top: 5px;
-		height: 500px;
+		height: 480px;
 	}
-	// .nav-fixed #wrapper #nav-area{
-	// 	height: 1000px;
-	// }
+
 	.menu-logo {
 		margin-top: -3px;
 	}
