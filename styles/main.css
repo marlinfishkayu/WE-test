@@ -501,14 +501,6 @@ img {
   overflow: hidden;
 }
 
-#wrapper .nav-wrap {
-  pointer-events: none;
-}
-
-#wrapper .nav-fixed {
-  pointer-events: inherit;
-}
-
 #wrapper .nav_links {
   display: none;
   position: absolute;
@@ -761,7 +753,7 @@ img {
     top: 0;
     height: 75px;
   }
-  #wrapper #nav-area {
+  #nav-area {
     top: 14%;
     left: 50%;
     text-align: center;
@@ -771,7 +763,10 @@ img {
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding-top: 5px;
-    height: 480px;
+    height: 100px;
+  }
+  .nav-fixed #nav-area {
+    height: 500px;
   }
   .menu-logo {
     margin-top: -3px;
@@ -1254,6 +1249,10 @@ img {
   margin-bottom: 5rem;
 }
 
+.live-game-main .feature-text {
+  margin-top: 10rem;
+}
+
 .live-game-main .feature-flexbox img {
   width: 100%;
   height: inherit;
@@ -1271,7 +1270,11 @@ img {
   position: relative;
 }
 
-.feature-photo:before {
+.feature-photo img {
+  position: relative;
+}
+
+.feature-photo img:before {
   content: "";
   position: absolute;
   top: -12px;
@@ -1281,7 +1284,7 @@ img {
   height: 300px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjIuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0ODMgMzE1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0ODMgMzE1OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2NsaXAtcGF0aDp1cmwoI1NWR0lEXzJfKTtlbmFibGUtYmFja2dyb3VuZDpuZXcgICAgO30KCS5zdDF7Y2xpcC1wYXRoOnVybCgjU1ZHSURfNF8pO30KCS5zdDJ7Y2xpcC1wYXRoOnVybCgjU1ZHSURfNl8pO2ZpbGw6bm9uZTtzdHJva2U6I0IwOTM2RDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9Cjwvc3R5bGU+CjxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgo8Zz4KCTxnPgoJCTxkZWZzPgoJCQk8cG9seWdvbiBpZD0iU1ZHSURfMV8iIHBvaW50cz0iNDgzLDAgNDgyLjksMjU2LjYgNDgyLjksMjU2LjYgNDI0LjUsMzE1IDAsMzE1IDAuMSw1OC40IDAuMSw1OC40IDEyLjgsNDUuNyA0Ni44LDExLjcgNDcuNSwxMSAKCQkJCTU4LjUsMCAJCQkiLz4KCQk8L2RlZnM+CgkJPGNsaXBQYXRoIGlkPSJTVkdJRF8yXyI+CgkJCTx1c2UgeGxpbms6aHJlZj0iI1NWR0lEXzFfIiAgc3R5bGU9Im92ZXJmbG93OnZpc2libGU7Ii8+CgkJPC9jbGlwUGF0aD4KCQk8ZyBjbGFzcz0ic3QwIj4KCQkJPGc+CgkJCQk8Zz4KCQkJCQk8ZGVmcz4KCQkJCQkJPHJlY3QgaWQ9IlNWR0lEXzNfIiB4PSItMTAiIHk9Ii0xMCIgd2lkdGg9IjUwMyIgaGVpZ2h0PSIzMzUiLz4KCQkJCQk8L2RlZnM+CgkJCQkJPGNsaXBQYXRoIGlkPSJTVkdJRF80XyI+CgkJCQkJCTx1c2UgeGxpbms6aHJlZj0iI1NWR0lEXzNfIiAgc3R5bGU9Im92ZXJmbG93OnZpc2libGU7Ii8+CgkJCQkJPC9jbGlwUGF0aD4KCQkJCQk8ZyBjbGFzcz0ic3QxIj4KCQkJCQkJPGc+CgkJCQkJCQk8ZGVmcz4KCQkJCQkJCQk8cmVjdCBpZD0iU1ZHSURfNV8iIHdpZHRoPSI0ODMiIGhlaWdodD0iMzE1Ii8+CgkJCQkJCQk8L2RlZnM+CgkJCQkJCQk8Y2xpcFBhdGggaWQ9IlNWR0lEXzZfIj4KCQkJCQkJCQk8dXNlIHhsaW5rOmhyZWY9IiNTVkdJRF81XyIgIHN0eWxlPSJvdmVyZmxvdzp2aXNpYmxlOyIvPgoJCQkJCQkJPC9jbGlwUGF0aD4KCQkJCQkJCTxwb2x5Z29uIGNsYXNzPSJzdDIiIHBvaW50cz0iNDgzLDAgNDgyLjksMjU2LjYgNDgyLjksMjU2LjYgNDI0LjUsMzE1IDAsMzE1IDAuMSw1OC40IDAuMSw1OC40IDEyLjgsNDUuNyA0Ni44LDExLjcgNDcuNSwxMSAKCQkJCQkJCQk1OC41LDAgCQkJCQkJCSIvPgoJCQkJCQk8L2c+CgkJCQkJPC9nPgoJCQkJPC9nPgoJCQk8L2c+CgkJPC9nPgoJPC9nPgo8L2c+Cjwvc3ZnPgo=");
+  background-color: red;
 }
 
 .feature-flexbox .feature-flexbox-h2 {
@@ -1396,15 +1399,44 @@ img {
     max-width: inherit;
   }
   .feature-photo:before {
-    top: -9px;
-    left: 38px;
-    width: 510px;
+    top: 26px;
+    left: 16px;
+    width: 412px;
     z-index: 10;
     height: 348px;
   }
   .live-game-main .feature-text {
     padding-left: 5rem;
     padding-top: 100px;
+    margin-top: 0rem;
+  }
+  .live-game-main .feature-flexitem {
+    padding: 0rem 5rem;
+    padding-bottom: 10rem;
+  }
+  .live-game-main .feature-flexbox img {
+    width: 400px;
+    padding: 2rem 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .live-game-main .feature-flexitem {
+    padding: 0;
+    padding-bottom: 10rem;
+  }
+  .live-game-main .feature-flexbox img {
+    width: 483px;
+  }
+  .feature-photo {
+    max-width: inherit;
+  }
+  .feature-photo:before {
+    top: -9px;
+    left: 38px;
+    width: 510px;
+    z-index: 10;
+    height: 348px;
   }
 }
 
