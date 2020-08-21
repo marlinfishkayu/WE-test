@@ -883,12 +883,16 @@ img {
   }
 }
 
-#slider-area .slide {
-  height: 300px;
+#slider-area .slide,
+#intdexWhatsNews .news-item-img {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+}
+
+#slider-area .slide {
+  height: 300px;
 }
 
 #slider-area .owl-dots {
@@ -961,9 +965,32 @@ img {
   height: auto;
 }
 
+#intdexWhatsNews .news-slider {
+  width: 100%;
+  border: 1px solid red;
+}
+
+#intdexWhatsNews .news-slider .news-item {
+  width: 90vw;
+  border: 1px solid green;
+  padding: 3rem;
+}
+
+#intdexWhatsNews .pagedot-counter {
+  text-align: center;
+}
+
+#intdexWhatsNews .news-item-img {
+  height: 300px;
+  width: 300px;
+}
+
 @media (min-width: 576px) {
   #slider-area .slide {
     height: 400px;
+  }
+  #intdexWhatsNews .news-slider .news-item {
+    width: 600px;
   }
 }
 
@@ -997,11 +1024,14 @@ img {
     font-size: 20px;
     padding: 1rem 0;
   }
+  #intdexWhatsNews .news-slider .news-item {
+    width: 770px;
+  }
 }
 
 @media (min-width: 1200px) {
   #slider-area .slide {
-    height: 880px;
+    height: inherit;
   }
   .header-wrapper .slider-text {
     width: 700px;
@@ -1020,6 +1050,39 @@ img {
     width: 63px;
     height: 3.5px;
   }
+  #intdexWhatsNews .news-slider .news-item {
+    width: 50vh;
+  }
+}
+
+#intdexOurGames {
+  height: inherit;
+}
+
+#intdexHotPick {
+  height: 300px;
+}
+
+.our-gamaes {
+  margin-top: 3rem;
+}
+
+.ourgames-img {
+  width: 206px;
+  height: 192px;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+#intdexHotPick, #intdexWhatsNews {
+  position: relative;
+}
+
+.intdexHotPick-bkg, .intdexWhatsNews-bkg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .deco-cat {
@@ -1027,6 +1090,7 @@ img {
   font-size: 18px;
   font-weight: 100;
   color: #E1E1E1;
+  text-align: center;
   padding-top: 1.8rem;
   padding-bottom: 0.8rem;
   width: 200px;
@@ -1072,12 +1136,8 @@ img {
   margin: auto;
 }
 
-#intdexOurGames {
-  height: 300px;
-}
-
-#intdexHotPick {
-  height: 300px;
+#intdexWhatsNews .deco-cat {
+  width: 222px;
 }
 
 @media (min-width: 768px) {
@@ -1088,6 +1148,12 @@ img {
 }
 
 @media (min-width: 992px) {
+  #intdexOurGames {
+    height: 800px;
+  }
+  #intdexHotPick {
+    height: 800px;
+  }
   .deco-header {
     font-size: 44px;
     padding-bottom: 1.25rem;
@@ -1096,38 +1162,6 @@ img {
     font-size: 24px;
     max-width: 590px;
   }
-  #intdexOurGames {
-    height: 800px;
-  }
-  #intdexHotPick {
-    height: 800px;
-  }
-}
-
-#intdexOurGames {
-  height: inherit;
-}
-
-.our-gamaes {
-  margin-top: 3rem;
-}
-
-.ourgames-img {
-  width: 206px;
-  height: 192px;
-  margin: auto;
-  margin-bottom: 3rem;
-}
-
-#intdexHotPick {
-  position: relative;
-}
-
-.intdexHotPick-bkg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
 }
 
 @media (min-width: 1200px) {
@@ -1406,7 +1440,7 @@ img {
     height: 300px;
   }
   .live-game-main .feature-text {
-    padding-left: 1rem;
+    padding-left: 3rem;
     padding-top: 100px;
     margin-top: 0rem;
   }
@@ -1423,7 +1457,10 @@ img {
 @media (min-width: 992px) {
   .live-game-main .feature-flexitem {
     padding: 0rem 5rem;
-    padding-bottom: 10rem;
+    padding-bottom: 2rem;
+  }
+  .live-game-main .feature-text {
+    padding-left: 1rem;
   }
   .live-game-main .feature-flexbox img {
     width: 400px;
@@ -1463,8 +1500,8 @@ img {
     height: 340px;
   }
   .feature-flexbox .feature-flexbox-h2:before {
-    top: 16px;
-    left: 50%;
+    top: 54px;
+    left: 26%;
     width: 100px;
     height: 150px;
   }

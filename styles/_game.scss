@@ -253,9 +253,8 @@
             height: 300px;
         }
     }
-
     .live-game-main .feature-text{
-        padding-left: 1rem;
+        padding-left: 3rem;
         padding-top: 100px;
         margin-top: 0rem;
     }
@@ -274,7 +273,10 @@
 @media (min-width: 992px) {
     .live-game-main .feature-flexitem{
         padding: 0rem 5rem;
-        padding-bottom: 10rem;
+        padding-bottom: 2rem;
+    }
+    .live-game-main .feature-text{
+        padding-left: 1rem;
     }
     .live-game-main .feature-flexbox img {
         width: 400px;
@@ -317,8 +319,8 @@
     }
     .feature-flexbox .feature-flexbox-h2{
         &:before {
-            top: 16px;
-            left: 50%;
+            top: 54px;
+            left: 26%;
             width: 100px;
             height: 150px;
         }
