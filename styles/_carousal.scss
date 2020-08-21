@@ -72,7 +72,7 @@
     width: 100%;
     border: 1px solid red;
 }
-#intdexWhatsNews .news-slider .news-item{
+#intdexWhatsNews .news-item{
     width: 90vw;
     border: 1px solid green;
     padding: 3rem;
@@ -80,18 +80,73 @@
 #intdexWhatsNews .pagedot-counter{
     text-align: center;
 }
-#intdexWhatsNews .news-item-img{
-    height: 300px;
-    width: 300px;
+#intdexWhatsNews  .news-item-img{
+    height: 270px;
+    width: 270px;
+    margin: 0 auto;
 }
-
+#intdexWhatsNews  .news-item-img picture{
+    position: relative;
+}
+#intdexWhatsNews .news-item-img picture:after{
+    content: "";
+        position: absolute;
+        top: 3px;
+        left: 9px;
+        width: 229px;
+        z-index: 10;
+        height: 229px;
+        pointer-events: none;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzODMiIGhlaWdodD0iMzgzIiB2aWV3Qm94PSIwIDAgMzgzIDM4MyI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImluZGV4X3doYXRzbmV3c19mcmFtZS1hIiB4MT0iMCUiIHgyPSIxMDAlIiB5MT0iMCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0E3OEM2OCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjUyLjQ0NCUiIHN0b3AtY29sb3I9IiM3QzYzNDEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjQUZBMjg2Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cGF0aCBmaWxsPSJub25lIiBzdHJva2U9InVybCgjaW5kZXhfd2hhdHNuZXdzX2ZyYW1lLWEpIiBkPSJNMzgyLjUsMC41IEw1OC42MzUxNTQ2LDAuNSBMMC41LDU4LjYzNTE1NDYgTDAuNSwzODIuNSBMMzI0LjM2NDg0NSwzODIuNSBMMzgyLjUsMzI0LjM2NDg0NSBMMzgyLjUsMC41IFoiLz4KPC9zdmc+Cg==");
+}
+#intdexWhatsNews .news-item-text{
+    width: 200px;
+    margin: auto;
+    text-transform: uppercase;
+}
+#intdexWhatsNews .news-item-text .text-gold{
+    font-family: $fontFuturaMedium;
+    font-size: 14px;
+    color: #89663D;
+    letter-spacing: 2px;
+}
+#intdexWhatsNews .text-gold-btn{
+    font-family: $fontBarlowMedium;
+    font-size: 15px;
+    color: #89663D;
+    letter-spacing: 2px;
+}
+#intdexWhatsNews .news-item-header{
+    font-family: $fontFuturaMedium;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.3;
+    padding: 1rem 0;
+}
+#intdexWhatsNews .text-gold-btn{
+    display: none;
+}
+// #intdexWhatsNews .text-gold-btn::after{
+//     position: absolute;
+//     right: 0;
+//     top: 0;
+//     width: 258px;
+//     z-index: 10;
+//     height: 258px;
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzODMiIGhlaWdodD0iMzgzIiB2aWV3Qm94PSIwIDAgMzgzIDM4MyI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImluZGV4X3doYXRzbmV3c19mcmFtZS1hIiB4MT0iMCUiIHgyPSIxMDAlIiB5MT0iMCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0E3OEM2OCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjUyLjQ0NCUiIHN0b3AtY29sb3I9IiM3QzYzNDEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjQUZBMjg2Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cGF0aCBmaWxsPSJub25lIiBzdHJva2U9InVybCgjaW5kZXhfd2hhdHNuZXdzX2ZyYW1lLWEpIiBkPSJNMzgyLjUsMC41IEw1OC42MzUxNTQ2LDAuNSBMMC41LDU4LjYzNTE1NDYgTDAuNSwzODIuNSBMMzI0LjM2NDg0NSwzODIuNSBMMzgyLjUsMzI0LjM2NDg0NSBMMzgyLjUsMC41IFoiLz4KPC9zdmc+Cg==");
+// }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
     #slider-area .slide{
         height: 400px;
     }
-    #intdexWhatsNews .news-slider .news-item{
+    #intdexWhatsNews .news-item{
         width: 600px;
     }
 
@@ -105,7 +160,19 @@
             padding:  0px;
         }
     }
+    #intdexWhatsNews .news-item-text{
+        text-align: left;
+        width: inherit;
+        padding-top: 2rem;
+        padding-left: 2rem;
+    }
     
+    #intdexWhatsNews .news-item-header{
+        font-size: 26px;
+    }
+    #intdexWhatsNews .text-gold-btn{
+        display: block;
+    }
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
@@ -119,6 +186,16 @@
         width: 63px;
         height: 3.5px;
     }
+    #intdexWhatsNews .news-item-img{
+        width: 358px;
+        height: inherit;
+    }
+    #intdexWhatsNews .news-item-img picture:after {
+        width: 307px;
+        height: 307px;
+        top: 4px;
+        left: 10px;
+    }
     .header-wrapper .slider-text{
         top: 320px;
         h2{
@@ -129,8 +206,11 @@
             padding: 1rem 0;
         }
     }
-    #intdexWhatsNews .news-slider .news-item{
+    #intdexWhatsNews  .news-item{
         width: 770px;
+    }
+    #intdexWhatsNews .news-item-text{
+        padding-top: 6rem;
     }
 }
 

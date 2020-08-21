@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="383" height="383" viewBox="0 0 383 383">
+  <defs>
+    <linearGradient id="index_whatsnews_frame-a" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#A78C68"/>
+      <stop offset="52.444%" stop-color="#7C6341"/>
+      <stop offset="100%" stop-color="#AFA286"/>
+    </linearGradient>
+  </defs>
+  <path fill="none" stroke="url(#index_whatsnews_frame-a)" d="M382.5,0.5 L58.6351546,0.5 L0.5,58.6351546 L0.5,382.5 L324.364845,382.5 L382.5,324.364845 L382.5,0.5 Z"/>
+</svg>
