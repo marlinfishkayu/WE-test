@@ -90,18 +90,18 @@
 .game-icon-container{
 	border-radius: 5px;
 	position: relative;
-	&:before {
-		content: '';
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 6.5px;
-		left: 0;
-		z-index: -1;
-		margin: -1px;
-		border-radius: inherit; /* !importanté */
-		background: linear-gradient(to right, rgba(202,172,133,30), rgba(137,102,61,60), rgba(137,102,61,60));
-	  }
+	// &:before {
+	// 	content: '';
+	// 	position: absolute;
+	// 	top: 0;
+	// 	right: 0;
+	// 	bottom: 6.5px;
+	// 	left: 0;
+	// 	z-index: -1;
+	// 	margin: -1px;
+	// 	border-radius: inherit; /* !importanté */
+	// 	background: linear-gradient(to right, rgba(202,172,133,30), rgba(137,102,61,60), rgba(137,102,61,60));
+	//   }
 }
 .game-icon-container .game-icon-bkg-wrap img{
 	width: 100%; 
