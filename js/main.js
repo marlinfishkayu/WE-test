@@ -70,7 +70,7 @@ $("#gamesHover").hover(
     function () {
             $('.game-menu').addClass('show');
             $('.nav-wrap').addClass("pointer");
-            $('.is_hover').removeClass("is_hover");
+
             
     }, 
     function () {
