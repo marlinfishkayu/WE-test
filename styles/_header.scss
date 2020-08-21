@@ -193,7 +193,6 @@
 	list-style: none;
 	position: relative;
 }
-
 #nav-area{
 	padding-left: calc(max(22px, env(safe-area-inset-left)));
 	padding-right: calc(max(22px, env(safe-area-inset-right)));
@@ -206,6 +205,7 @@
     height: 60px;
     overflow: hidden;
 }
+
 #wrapper .nav_links{
 	display: none;
 	position: absolute;
@@ -410,14 +410,18 @@
 		top: 0;
 		height: 75px;
 	}
-	#wrapper #nav-area{
+	#nav-area{
 		top: 14%;
 		left: 50%;
 		text-align: center;
 		transform: translate(-50%);
 		justify-content: space-between;
 		padding-top: 5px;
-		height: 1000px;
+		height: 100px;
+	}
+	.pointer #nav-area{
+		height: 500px;
+
 	}
 	.menu-logo {
 		margin-top: -3px;
