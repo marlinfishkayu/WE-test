@@ -992,22 +992,10 @@ img {
   margin: 0 auto;
 }
 
-#intdexWhatsNews .news-item-img picture {
+.news-item-img picture {
   position: relative;
-}
-
-#intdexWhatsNews .news-item-img picture:after {
-  content: "";
-  position: absolute;
-  top: 3px;
-  left: 9px;
-  width: 229px;
-  z-index: 10;
-  height: 229px;
-  pointer-events: none;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzODMiIGhlaWdodD0iMzgzIiB2aWV3Qm94PSIwIDAgMzgzIDM4MyI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImluZGV4X3doYXRzbmV3c19mcmFtZS1hIiB4MT0iMCUiIHgyPSIxMDAlIiB5MT0iMCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0E3OEM2OCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjUyLjQ0NCUiIHN0b3AtY29sb3I9IiM3QzYzNDEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjQUZBMjg2Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cGF0aCBmaWxsPSJub25lIiBzdHJva2U9InVybCgjaW5kZXhfd2hhdHNuZXdzX2ZyYW1lLWEpIiBkPSJNMzgyLjUsMC41IEw1OC42MzUxNTQ2LDAuNSBMMC41LDU4LjYzNTE1NDYgTDAuNSwzODIuNSBMMzI0LjM2NDg0NSwzODIuNSBMMzgyLjUsMzI0LjM2NDg0NSBMMzgyLjUsMC41IFoiLz4KPC9zdmc+Cg==");
+  width: 300px;
+  height: 300px;
 }
 
 #intdexWhatsNews .news-item-text {
@@ -1086,7 +1074,7 @@ img {
   width: 34px;
   height: 34px;
   left: -55px;
-  margin: 5px 40px;
+  margin: 5px 28px;
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOSIgaGVpZ2h0PSIzNSIgdmlld0JveD0iMCAwIDI5IDM1Ij4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZT0iIzg5NjYzRCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMSAxKSI+CiAgICA8cG9seWxpbmUgcG9pbnRzPSIwIDEzLjMwNCAyOCAxMy4zMDQgMTQgMCIvPgogICAgPHBvbHlsaW5lIHBvaW50cz0iMCAzNCAyOCAzNCAxNCAxOS4yMTciIHRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0xIDAgNTMuMjE3KSIvPgogIDwvZz4KPC9zdmc+Cg==");
@@ -1141,12 +1129,6 @@ img {
   #intdexWhatsNews .news-item-img {
     width: 358px;
     height: inherit;
-  }
-  #intdexWhatsNews .news-item-img picture:after {
-    width: 307px;
-    height: 307px;
-    top: 4px;
-    left: 10px;
   }
   .header-wrapper .slider-text {
     top: 320px;

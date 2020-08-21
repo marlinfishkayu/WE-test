@@ -141,3 +141,4 @@ $('.news-slider').on('initialized.owl.carousel changed.owl.carousel', function(e
         }
     }
   });
+
