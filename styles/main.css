@@ -1261,14 +1261,12 @@ img {
 
 #intdexWhatsNews .text-gold-btn {
   text-decoration: none;
+  color: #89663D;
 }
 
 #intdexWhatsNews .news-item-text a:hover {
-  font-family: "Barlow Medium", sans-serif, Arial, Helvetica;
-  font-size: 15px;
   color: #89663D;
-  letter-spacing: 2px;
-  display: none;
+  text-decoration: none;
 }
 
 #intdexWhatsNews .news-item-header {
