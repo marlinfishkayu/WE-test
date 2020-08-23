@@ -883,6 +883,11 @@ img {
   }
 }
 
+footer {
+  background-color: #000000;
+  position: relative;
+}
+
 .footer-break,
 .footer-logo {
   display: none;
