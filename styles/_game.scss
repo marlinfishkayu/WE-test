@@ -4,6 +4,7 @@
 .hero-header,
 .live-game-main{
     position: relative;
+    padding-bottom: 5rem;
 }
 .hero-header-bkg,
 .live-game-main-bkg {
@@ -216,6 +217,34 @@
     }
 }
 .live-game-bottom{
+    border-top: 1px solid #89663D;
+    border-bottom: 1px solid #89663D;
+    background: rgb(0,15,36);
+    background: -moz-linear-gradient(180deg, rgba(0,15,36,0.9) 0%, rgba(1,27,62,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0,15,36,0.9) 0%, rgba(1,27,62,1) 100%);
+    background: linear-gradient(180deg, rgba(0,15,36,0.9) 0%, rgba(1,27,62,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000f24",endColorstr="#011b3e",GradientType=1);
+    position: relative;
+    .live-game-bottom-bkg{
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        width: 789px;
+        overflow: hidden;
+        background-size: cover;
+        height: auto;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-position: 50% 50%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;
+    }
+    .bottom-container{
+        padding: 5rem 0;
+    }
     .bottom-icon-left, 
     .bottom-icon-right{
         text-align: center;

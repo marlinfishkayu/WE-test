@@ -122,16 +122,6 @@ img{
   background-clip: content-box, border-box;
   -webkit-box-shadow: 2px 1000px 1px #00172D inset;
   box-shadow: 1px 1000px 1px #011A3B inset;
-  // background: rgb(0,67,131);
-  // background: -moz-linear-gradient(138deg, rgba(0,67,131,0.3) 0%, rgba(0,32,76,0.8) 34%, rgba(0,32,76,0.8) 71%, rgba(0,32,76,0.3) 100%);
-  // background: -webkit-linear-gradient(138deg, rgba(0,67,131,0.3) 0%, rgba(0,32,76,0.8) 34%, rgba(0,32,76,0.8) 71%, rgba(0,32,76,0.3) 100%);
-  // background: linear-gradient(138deg, rgba(0,67,131,0.3) 0%, rgba(0,32,76,0.8) 34%, rgba(0,32,76,0.8) 71%, rgba(0,32,76,0.3) 100%);
-  // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004383",endColorstr="#00204c",GradientType=1);
-  // border: 1px solid rgb(202,172,133);
-  // -moz-linear-border: 1px solid gradient(138deg, rgba(202,172,133,1) 0%, rgba(137,102,61,0.6) 34%, rgba(137,102,61,1) 71%, rgba(137,102,61,1) 100%);
-  // -webkit-linear-border: 1px solid gradient(138deg, rgba(202,172,133,1) 0%, rgba(137,102,61,0.6) 34%, rgba(137,102,61,1) 71%, rgba(137,102,61,1) 100%);
-  // border: 1px solid linear-gradient(138deg, rgba(202,172,133,1) 0%, rgba(137,102,61,0.6) 34%, rgba(137,102,61,1) 71%, rgba(137,102,61,1) 100%);
-  // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#caac85",endColorstr="#89663d",GradientType=1);
   cursor: pointer;
   &:before {
       content: "";
@@ -219,6 +209,7 @@ img{
 
 
 @import "./header";
+@import "./footer";
 @import "./carousal";
 @import "./index";
 @import "./game";
