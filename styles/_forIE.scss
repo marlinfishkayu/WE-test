@@ -2,8 +2,8 @@
     #nav-area .search-form{
         top: -5px;
     }
-    #nav-area{
-        top: 0;
+    #wrapper #nav-area{
+        top: 5px;
     }
     #nav-ara .closeBtn{
         top: 10px;
@@ -17,6 +17,9 @@
     }
     #liveGame .hero-deco{
         width: 220px;
+    }
+    .feature-photo picture{
+        padding-top: 43px;
     }
     
     // Small devices (landscape phones, 576px and up)
@@ -34,19 +37,28 @@
             top: 10px;
         }
         #wrapper #nav-area{
-            top:0;
+            top: 10px;
         }
         .deco-cat{
             width: 230px;
         }
+        .feature-photo picture{
+            padding-top: 13px;
+        }
     }
     // Large devices (desktops, 992px and up)
     @media (min-width: 992px) {
+        #wrapper #nav-area{
+            top: 0px;
+        }
         .subnav-arrow{
             left: 39.5%;
         }
         #allGameBtn {
             margin-top: 35px;
+        }
+        .feature-photo picture{
+            padding-top: 0px;
         }
     }
     // Extra large devices (large desktops, 1200px and up)

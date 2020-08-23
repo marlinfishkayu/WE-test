@@ -110,6 +110,9 @@
     letter-spacing: 2px;
 }
 #intdexWhatsNews .text-gold-btn{
+    text-decoration: none;
+}
+#intdexWhatsNews .news-item-text a:hover{
     font-family: $fontBarlowMedium;
     font-size: 15px;
     color: #89663D;
