@@ -220,28 +220,49 @@
     .bottom-icon-right{
         text-align: center;
     }
-    .game-icon{
-        width: 130px;
-        height: 130px;
-        margin: 0 auto;
-    }
-    h6{
-        font-family: $fontBarlowMedium;
-        font-size: 16;
-        letter-spacing: 2px;
-        padding: 15px 0;
-    }
-    .line-icon-img{
-        width: 62px;
-        margin: 0 auto;
-        img{
-            width: 100%;
-            background-repeat: no-repeat;
-            -webkit-background-size: cover;
-            background-size: cover;
-            background-position: 50% 50%;
+    .bottom-icon-left{
+        .game-icon{
+            width: 130px;
+            height: 130px;
+            margin: 0 auto;
+        }
+        h6{
+            font-family: $fontBarlowMedium;
+            font-size: 16;
+            letter-spacing: 2px;
+            padding: 15px 0;
+        }
+        .line-icon-img{
+            width: 62px;
+            margin: 0 auto;
+            img{
+                width: 100%;
+                background-repeat: no-repeat;
+                -webkit-background-size: cover;
+                background-size: cover;
+                background-position: 50% 50%;
+            }
+        }
+        h3{
+            font-family: $fontFuturaMedium;
+            font-size: 36px;
+            letter-spacing: 3px;
+            font-weight: 100;
+            text-transform: uppercase;
+            padding-top: 10px;
         }
     }
+    .bottom-icon-right {
+        margin: 3rem 0;
+        h4{
+            font-family: $fontFuturaMedium;
+            font-size: 13px;
+            letter-spacing: 3px;
+            font-weight: 100;
+            padding: 1rem 0rem; 
+        }
+    }
+    
     
 
 }
