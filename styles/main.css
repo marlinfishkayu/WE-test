@@ -1012,6 +1012,10 @@ img {
 }
 
 #intdexWhatsNews .text-gold-btn {
+  text-decoration: none;
+}
+
+#intdexWhatsNews .news-item-text a:hover {
   font-family: "Barlow Medium", sans-serif, Arial, Helvetica;
   font-size: 15px;
   color: #89663D;
@@ -1310,10 +1314,6 @@ img {
   z-index: -1;
 }
 
-#roulette .live-game-main {
-  height: 2000px;
-}
-
 #liveGame .hero-icon {
   width: 80px;
   height: 60px;
@@ -1477,7 +1477,7 @@ img {
 }
 
 #feature4 .feature-flexbox .feature-flexbox-h2::before {
-  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNjhweCIgaGVpZ2h0PSIxNTNweCIgdmlld0JveD0iMCAwIDY4IDE1MyIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNjQgKDkzNTM3KSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4KICAgIDx0aXRsZT4yPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IHgxPSI0NS40OTUzMjM2JSIgeTE9IjAlIiB4Mj0iNjMuMzA4NzAwOCUiIHkyPSI5OS4yOTAwMTI3JSIgaWQ9ImxpbmVhckdyYWRpZW50LTEiPgogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjODk2NjNEIiBvZmZzZXQ9IjAlIj48L3N0b3A+CiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiM0QTNEMkIiIG9mZnNldD0iMzguNjQyODQyMSUiPjwvc3RvcD4KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzA2MEIxQSIgb2Zmc2V0PSIxMDAlIj48L3N0b3A+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGlkPSJHYW1lIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iV0VfZ2FtZXNfc2IiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMDEuMDAwMDAwLCAtMTQzMS4wMDAwMDApIiBmaWxsPSJ1cmwoI2xpbmVhckdyYWRpZW50LTEpIiBmaWxsLXJ1bGU9Im5vbnplcm8iPgogICAgICAgICAgICA8ZyBpZD0idGV4dC0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNTAuMDAwMDAwLCAxNDMxLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPHBhdGggZD0iTTExNy4yMTA5MzgsMTUzIEwxMTcuMjEwOTM4LDEzNS42MTcxODggTDc5LjkwNjI1LDEzNS42MTcxODggQzgwLjQ5MjE4NzUsMTM0LjM4MDIwOCA4MC45NDc5MTY3LDEzMy40MzYxOTggODEuMjczNDM3NSwxMzIuNzg1MTU2IEM4MS41OTg5NTgzLDEzMi4xMzQxMTUgODEuNzk0MjcwOCwxMzEuNzQzNDkgODEuODU5Mzc1LDEzMS42MTMyODEgTDkzLjg3MTA5MzgsMTA5LjA1NDY4OCBDMTEwLjQ3MjY1Niw3Ny44MDQ2ODc1IDExOC43NzM0MzgsNTMuODc4OTA2MiAxMTguNzczNDM4LDM3LjI3NzM0MzggQzExOC43NzM0MzgsMTIuNjY3OTY4OCAxMDcuNjczMTc3LDAuMzYzMjgxMjUgODUuNDcyNjU2MiwwLjM2MzI4MTI1IEM3My42ODg4MDIxLDAuMzYzMjgxMjUgNjUuMjkwMzY0NiwzLjc0ODY5NzkyIDYwLjI3NzM0MzgsMTAuNTE5NTMxMiBDNTUuMzI5NDI3MSwxNy4yMjUyNjA0IDUyLjg1NTQ2ODgsMjguODEzODAyMSA1Mi44NTU0Njg4LDQ1LjI4NTE1NjIgTDUzLjA1MDc4MTIsNTEuMjQyMTg3NSBMNzIuOTcyNjU2Miw1MS4yNDIxODc1IEw3Mi44NzUsNDkuNjc5Njg3NSBMNzIuNzc3MzQzOCw0MS4wODU5Mzc1IEM3Mi43NzczNDM4LDI1LjU5MTE0NTggNzYuOTQ0MDEwNCwxNy44NDM3NSA4NS4yNzczNDM4LDE3Ljg0Mzc1IEM5My45MzYxOTc5LDE3Ljg0Mzc1IDk4LjI2NTYyNSwyNC4wOTM3NSA5OC4yNjU2MjUsMzYuNTkzNzUgQzk4LjI2NTYyNSw0My42OTAxMDQyIDk2LjUwNzgxMjUsNTIuMTIxMDkzNyA5Mi45OTIxODc1LDYxLjg4NjcxODcgQzkxLjIzNDM3NSw2Ni43Njk1MzEyIDg4LjYzMDIwODMsNzMuMDE5NTMxMiA4NS4xNzk2ODc1LDgwLjYzNjcxODggQzgxLjcyOTE2NjcsODguMjUzOTA2MiA3Ny40MzIyOTE3LDk3LjUzMTI1IDcyLjI4OTA2MjUsMTA4LjQ2ODc1IEM2Ni4yMzQzNzUsMTIwLjk2ODc1IDYxLjQ0OTIxODgsMTMwLjg5NzEzNSA1Ny45MzM1OTM4LDEzOC4yNTM5MDYgQzU0LjQxNzk2ODgsMTQ1LjYxMDY3NyA1Mi4xMDY3NzA4LDE1MC41MjYwNDIgNTEsMTUzIEwxMTcuMjEwOTM4LDE1MyBaIiBpZD0iMiI+PC9wYXRoPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=");
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzBweCIgaGVpZ2h0PSIxNTFweCIgdmlld0JveD0iMCAwIDcwIDE1MSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNjEuMiAoODk2NTMpIC0gaHR0cHM6Ly9za2V0Y2guY29tIC0tPgogICAgPHRpdGxlPmdhbWVzX2ZlYXR1cmVfNDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCB4MT0iNDUuMTAwMTgwMiUiIHkxPSIwJSIgeDI9IjY0LjQ3NjExOTclIiB5Mj0iOTkuMjkwMDEyNyUiIGlkPSJsaW5lYXJHcmFkaWVudC0xIj4KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzg5NjYzRCIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNEEzRDJCIiBvZmZzZXQ9IjM4LjY0Mjg0MjElIj48L3N0b3A+CiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiMwNjBCMUEiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8L2RlZnM+CiAgICA8ZyBpZD0iR2FtZSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IldFX2dhbWVzX3JvdWxldHRlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjg5LjAwMDAwMCwgLTIzNjIuMDAwMDAwKSIgZmlsbD0idXJsKCNsaW5lYXJHcmFkaWVudC0xKSIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICAgICAgPGcgaWQ9InRleHQtMi1jb3B5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNTAuMDAwMDAwLCAyMzYyLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPHBhdGggZD0iTTgwLjMwODU5MzgsMCBMOTkuMTU2MjUsMCBMOTkuMTU2MjUsOTMuOTQ1MzEyNSBMMTA4LjgyNDIxOSw5My45NDUzMTI1IEwxMDguODI0MjE5LDEwOS40NzI2NTYgTDk5LjE1NjI1LDEwOS40NzI2NTYgTDk5LjE1NjI1LDE1MC43ODEyNSBMODAuMzA4NTkzOCwxNTAuNzgxMjUgTDgwLjMwODU5MzgsMTA5LjQ3MjY1NiBMMzksMTA5LjQ3MjY1NiBMMzksOTIuMTg3NSBMODAuMzA4NTkzOCwwIFogTTgwLjMwODU5MzgsOTMuOTQ1MzEyNSBMODAuMzA4NTkzOCwzMC42NjQwNjI1IEw1NC45MTc5Njg4LDkzLjk0NTMxMjUgTDgwLjMwODU5MzgsOTMuOTQ1MzEyNSBaIiBpZD0iZ2FtZXNfZmVhdHVyZV80Ij48L3BhdGg+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==");
 }
 
 .feature-flexbox .feature-flexbox-h2,
@@ -1487,6 +1487,53 @@ img {
 
 .live-game-main .feature-flexbox .hero-intro2 {
   margin-top: 1rem;
+}
+
+.game-platform {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.game-platform h3 {
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: 1;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.game-platform .game-platforom-inner {
+  padding: 5rem 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 350px;
+  margin: auto;
+}
+
+.game-platform .game-platforom-icon {
+  margin: auto;
+}
+
+.game-platform .game-platforom-icon .platforom-icon-img {
+  width: 36px;
+  height: 45px;
+  margin: 0 auto;
+}
+
+.game-platform .game-platforom-icon img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.game-platform .game-platforom-icon h6 {
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 20px;
 }
 
 @media (min-width: 768px) {
@@ -1575,6 +1622,19 @@ img {
     width: 300px;
     padding: 2rem 0;
   }
+  .game-platform h3 {
+    font-size: 26px;
+  }
+  .game-platform {
+    text-align: center;
+    padding-top: 6rem;
+  }
+  .game-platform h3 {
+    font-size: 26px;
+  }
+  .game-platform .game-platforom-inner {
+    width: 430px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -1634,8 +1694,8 @@ img {
   #nav-area .search-form {
     top: -5px;
   }
-  #nav-area {
-    top: 0;
+  #wrapper #nav-area {
+    top: 5px;
   }
   #nav-ara .closeBtn {
     top: 10px;
@@ -1649,6 +1709,9 @@ img {
   }
   #liveGame .hero-deco {
     width: 220px;
+  }
+  .feature-photo picture {
+    padding-top: 43px;
   }
 }
 
@@ -1666,19 +1729,28 @@ img {
     top: 10px;
   }
   #wrapper #nav-area {
-    top: 0;
+    top: 10px;
   }
   .deco-cat {
     width: 230px;
   }
+  .feature-photo picture {
+    padding-top: 13px;
+  }
 }
 
 @media all and (-ms-high-contrast: none) and (min-width: 992px), (-ms-high-contrast: active) and (min-width: 992px) {
+  #wrapper #nav-area {
+    top: 0px;
+  }
   .subnav-arrow {
     left: 39.5%;
   }
   #allGameBtn {
     margin-top: 35px;
+  }
+  .feature-photo picture {
+    padding-top: 0px;
   }
 }
 
