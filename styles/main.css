@@ -1053,6 +1053,7 @@ img {
 
 .main-footer .underline .footer-social {
   margin: 0 auto;
+  padding-top: 20px;
 }
 
 .main-footer .underline .footer-social .footer-icon {
@@ -1095,6 +1096,7 @@ img {
   }
   .main-footer .underline .footer-social {
     margin: inherit;
+    padding-top: 10px;
   }
 }
 
