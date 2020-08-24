@@ -69,9 +69,13 @@ $(document).ready(function(){
 $("#gamesHover").hover(
     function () {
             $('.game-menu').addClass('show');
+            $('.nav-wrap').addClass("pointer");
+
+            
     }, 
     function () {
         $('.game-menu').removeClass('show');
+        $('.nav-wrap').removeClass("pointer");
     }
 );
 
@@ -113,25 +117,28 @@ $('#slider-area').owlCarousel({
 })
 
 //with page indicator carousal
-$('.slider').on('initialized.owl.carousel changed.owl.carousel', function(e) {
+$('.news-slider').on('initialized.owl.carousel changed.owl.carousel', function(e) {
     if (!e.namespace)  {
       return;
     }
     var carousel = e.relatedTarget;
-    $('.slider-counter').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
+    $('.pagedot-counter').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
   }).owlCarousel({
-    loop:true,
+    loop:false,
+    // center: true,
+    autoWidth:true,
     margin:10,
     nav:true,
     responsive:{
         0:{
-            items:1
+            items:2
         },
         600:{
-            items:3
+            items:2
         },
         1000:{
-            items:3
+            items:2
         }
     }
   });
+

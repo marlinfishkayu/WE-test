@@ -1,0 +1,221 @@
+footer{
+    background-color: #000000;
+    position: relative;
+}
+.footer-break, 
+.footer-logo{
+    display: none;
+}
+.main-footer{
+    
+    padding: 3rem 2rem;
+    .footer-subscribe{
+        text-align: center;
+        .tag-left{
+            padding-bottom: 2rem;
+        }
+        h6{
+            font-family: $fontFuturaMedium;
+            font-size: 14px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            line-height: 1;
+            text-transform: uppercase;
+            text-align: left;
+            color: #D8D8D8;
+        }
+        p{
+            font-family: $fontBarlowRegular; 
+            font-size: 14px;
+            font-weight: 100;
+            text-align: left;
+            letter-spacing: 1px;
+            line-height: 20px;
+            color: #979797;
+        }
+        .subscribe-form{
+            padding: 1rem 0rem;
+            input{
+                font-family: $fontBarlowRegular; 
+                font-size: 14px;
+                background-color: transparent;
+                border: 1px solid #545454;
+                border-radius: 0;
+                color: #fff;
+            }
+            ::placeholder {
+                color: #434343;
+                opacity: 1; /* Firefox */
+              }
+              
+              :-ms-input-placeholder { /* Internet Explorer 10-11 */
+               color: #434343;
+              }
+              
+              ::-ms-input-placeholder { /* Microsoft Edge */
+               color: #434343;
+              }
+        }
+        .btn{
+            background-color: #052749;
+            color: #fff;
+            width: 100%;
+            height: 40px;
+            font-family: $fontFuturaMedium;
+            font-size: 13px;
+            font-weight: 100;
+            letter-spacing: 3px;
+            border-radius: 0;
+            &:focus{
+                box-shadow: transparent;
+            }
+            
+        } 
+    }
+    .footer-licens{
+        .licens-list{
+            padding: 2rem 0;
+            
+        }
+        .footer-logo{
+            width: 160px;
+            img{
+                width: 100%;
+                height: 100%;
+                background-repeat: no-repeat;
+                -webkit-background-size: cover;
+                background-size: cover;
+                background-position: 50% 50%;
+            }
+        }
+        h6{
+            font-family: $fontBarlowRegular; 
+            font-size: 12px;
+            background-color: transparent;
+            border-radius: 0;
+            color: #545454;
+            text-transform: inherit;
+        }
+        .licens-icon{
+            width: 150px;
+            margin: 0 auto;
+            img{
+                width: 100%;
+                height: 100%;
+                background-repeat: no-repeat;
+                -webkit-background-size: cover;
+                background-size: cover;
+                background-position: 50% 50%;
+            }
+        }
+        #licensIcon2{
+            width: 30px;
+        }
+    }
+    .underline{
+        border-top: 1px solid #545454;
+        padding-top: 20px;
+        .footer-logo{
+            display: block;
+            width: 150px;
+            margin: 0 auto;
+            padding-top: 2rem;
+        }
+        .footer-TC{
+            h6{
+                color: #545454;
+                font-size: 12px;
+                text-align: center;
+                padding: 10px 0;
+            }
+            .TC h6{
+                color: #D8D8D8;
+                padding: 10px 0;
+            }
+        }
+        .footer-social{
+            margin: 0 auto;
+            padding-top: 20px;
+            .footer-icon{
+                width: 32px;
+                height: 32px;
+                margin:0  10px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    background-repeat: no-repeat;
+                    -webkit-background-size: cover;
+                    background-size: cover;
+                    background-position: 50% 50%;
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    .main-footer .footer-subscribe .btn {
+        width: 120px;
+        margin: 15px 2rem;
+    }
+    .main-footer .footer-subscribe .subscribe-form input{
+        width: 211px;
+    }
+    .main-footer .footer-licens .licens-icon{
+        width: 112px;
+    }
+    .main-footer .footer-licens #licensIcon2{
+        margin-left: 2rem;
+    }
+    .main-footer .underline .footer-logo{
+        display: none;
+    }
+    .main-footer .underline .footer-TC h6{
+        text-align: left;
+        padding-right: 20px;
+    }
+    .main-footer .underline .footer-TC .TC h6 {
+        padding-right: 20px;
+    }
+    .main-footer .underline .footer-social{
+        margin: inherit;
+        padding-top: 10px;
+    }
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .main-footer .footer-subscribe .subscribe-form input{
+        width: 120px;
+    }
+    .subsrcibe-wrap{
+        width: 346px;
+        
+    }
+    .main-footer .underline .footer-social .footer-icon {
+        margin-left: 22px;
+    }
+        
+    
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    
+    .footer-break, .footer-logo{
+        display: block;
+    }
+    .main-footer .footer-subscribe .tag-left{
+        padding-right: 2rem;
+    }
+    .main-footer .footer-licens h6{
+        padding-top: 1rem;
+        padding-right: 2rem;
+    }
+ }
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .main-footer .footer-subscribe .subscribe-form input{
+        width: 300px;
+    }
+}

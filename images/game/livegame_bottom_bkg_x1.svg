@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1808" height="981" viewBox="0 0 1808 981">
+  <defs>
+    <linearGradient id="livegame_bottom_bkg_x1-a" x1="17.675%" x2="89.8%" y1="245.957%" y2="245.957%">
+      <stop offset="0%" stop-color="#7C6341" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#A78C68" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="livegame_bottom_bkg_x1-b" x1="7.122%" x2="89.8%" y1="245.957%" y2="245.957%">
+      <stop offset="0%" stop-color="#7C6341"/>
+      <stop offset="100%" stop-color="#A78C68" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="livegame_bottom_bkg_x1-c" x1="49.733%" x2="60.893%" y1="63.562%" y2="99.046%">
+      <stop offset="0%" stop-color="#89663D" stop-opacity=".5"/>
+      <stop offset="100%" stop-color="#A78C68" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="livegame_bottom_bkg_x1-d" x1="39.6%" x2="59.57%" y1="21.425%" y2="88.571%">
+      <stop offset="0%" stop-color="#89663D" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#A78C68" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="livegame_bottom_bkg_x1-e" x1="7.122%" x2="89.8%" y1="245.957%" y2="245.957%">
+      <stop offset="0%" stop-color="#A78C68" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#7C6341"/>
+    </linearGradient>
+    <linearGradient id="livegame_bottom_bkg_x1-f" x1="26.482%" x2="43.677%" y1="245.957%" y2="245.957%">
+      <stop offset="0%" stop-color="#A78C68" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#7C6341"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <line x1="554" y1="979" stroke="url(#livegame_bottom_bkg_x1-a)"/>
+    <g transform="matrix(-1 0 0 1 1806 0)">
+      <line x1="554" y1="979" stroke="url(#livegame_bottom_bkg_x1-b)"/>
+      <line x1="850" x2="296" y1="979" stroke="url(#livegame_bottom_bkg_x1-c)"/>
+      <line x1="1153" x2="599" y1="979" stroke="url(#livegame_bottom_bkg_x1-d)"/>
+    </g>
+    <g opacity=".5" transform="translate(304)">
+      <line x1="554" y1="979" stroke="url(#livegame_bottom_bkg_x1-e)"/>
+      <line x1="857" x2="303" y1="979" stroke="url(#livegame_bottom_bkg_x1-f)"/>
+    </g>
+  </g>
+</svg>
