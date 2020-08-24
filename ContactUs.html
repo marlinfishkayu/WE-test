@@ -210,20 +210,114 @@
             </section>
             <!-- Contact Us Start -->
             <div id="ContactUs">
-                <div>
-                    <div class="hero-header text-center">
-                        <div class="hero-header-bkg">
-                            <img src="images/game/banner/hero_livegame_roulette_x1.jpg" style="width: 100%; background-position: 50% 10%; background-size: cover; height: 100%; object-fit: cover;" srcset="images/game/banner/hero_livegame_roulette_x1.jpg 500w, images/game/banner/hero_livegame_roulette_x2.jpg 1000w" alt="" />
-                        </div>
-                        
-                        <h1>ROULETTE</h1>
+                <div class="hero-header text-center">
+                    <div class="hero-header-bkg">
+                        <img src="images/contact/hero_contact_x1.png" style="width: 100%; background-position: 50% 10%; background-size: cover; height: 100%; object-fit: cover;" srcset="images/contact/hero_contact_x1.png 500w, images/contact/hero_contact_x2.png 1000w" alt="" />
                     </div>
-                    <div class="ContactUs-main text-center">
-                        <div class="live-game-main-bkg">
-                        </div>
-                       
+                    <div class="hero-float">
+                        <h1 class="hero-title">Contact Us</h1>
+                        <h3 class="hero-intro1">Welcome to contact us to discuss cooperation opportunities.</h3>
+                        <p class="hero-intro2">Leave us your message by filling the contact form below and WE’ll be in touch with you soon.</p>
+                        <p class="hero-intro2">By filling up this form, you are agree and are willing to allow us to collect your contact details and other information that may be required to enable us to effectively and efficiently reply to all your enquiries.</p>
                     </div>
                 </div>
+                 <!-- Start Content Section -->
+                 <div class="contact-main">
+                        <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                            <!-- Start Contact Form -->
+                            <form role="form" id="contactForm" class="contact-form" data-toggle="validator" class="shake">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="form-group">
+                                        <div class="controls">
+                                        <input type="text" id="firstname" class="form-control" placeholder="First name" required data-error="Please enter your first name">
+                                        <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="form-group">
+                                        <div class="controls">
+                                        <input type="text" id="lastname" class="form-control" placeholder="Last name" required data-error="Please enter your last name">
+                                        <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="form-group">
+                                        <div class="controls">
+                                        <input type="text" id="PhoneNumber" class="form-control" placeholder="Phone number" required data-error="Please enter your phone number">
+                                        <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="form-group">
+                                        <div class="controls">
+                                        <select class="form-control" id="country" required data-error="Please select your country">
+                                            <option selected>Country</option>
+                                            <option>Hong Kong</option>
+                                            <option>China</option>
+                                            <option>Thailand</option>
+                                            <option>Singapore</option>
+                                            <option>Philippines</option>
+                                          </select>
+                                        <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-8">
+                                    <div class="form-group">
+                                        <div class="controls">
+                                        <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+                                        <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <div class="form-group">
+                                        <div class="controls">
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option selected>Enquiry type</option>
+                                            <option>Job Opportunity</option>
+                                            <option>Question</option>
+                                          </select>
+                                        <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="controls">
+                                <textarea id="message" rows="7" placeholder="Your message here" class="form-control" required data-error="Write your message"></textarea>
+                                <div class="help-block with-errors"></div>
+                                </div>  
+                            </div>
+                            <div class="enquiry-button">
+                                <button type="submit" id="submit" class="enquiryBtn btn" type="button">
+                                    <img src="./images/icon/enquiryBtn_1x.png" srcset="./images/icon/enquiryBtn_1x.png 500w, ./images/icon/enquiryBtn_2x.png 1000w" alt="" />
+                                </button>
+                                <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                                <div class="clearfix"></div>   
+                            </div>
+                            </form>     
+                            <!-- End Contact Form -->
+                            </div>
+                            <div class="contact-bottom text-center">
+                                <h2 class="bottom-deco">GET IN TOUCH</h2>
+                                <p class="hero-intro2">We’re keen on talking anything with you.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+      <!-- End Content Section  -->   
+                
             </div>
             <!-- Contact Us End -->
 
