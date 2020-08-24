@@ -27,7 +27,7 @@ select.form-control::-ms-expand {
   }
 .enquiry-button{
     margin: 0 auto;
-    width: 200px;
+    width: 100%;
     padding: 2rem 0;
     .enquiryBtn{
         width: 100%;
@@ -35,6 +35,7 @@ select.form-control::-ms-expand {
         background-color: #00204C;
         color: #fff;
         letter-spacing: 3px;
+        border-radius: 0;
     }
 }
 .contact-bottom{
@@ -174,9 +175,12 @@ select.form-control::-ms-expand {
     .contact-bottom .float-md-right{
         padding-top: 3rem;
     }
+    .enquiry-button{
+        text-align: center;
+    }
     .enquiry-button .enquiryBtn{
         width: 200px;
-        
+        margin: 0 auto;
     }
 }
 
