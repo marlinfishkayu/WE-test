@@ -4,8 +4,6 @@
 	})
 })();
 
-
-
 /*--  Hide Header on on scroll down --*/
 
 var didScroll;
@@ -142,3 +140,36 @@ $('.news-slider').on('initialized.owl.carousel changed.owl.carousel', function(e
     }
   });
 
+// diamond carousel
+// $('.diamond-carousel').owlCarousel({
+//     loop:false,
+//     center: true,
+//     items:2,
+//     margin:10,
+//     nav:true,
+//     responsive:{
+//         0:{
+//             items:1
+//         },
+//         600:{
+//             items:3
+//         },
+//         1000:{
+//             items:3
+//         }
+//     }
+// })
+$('.nonloop').owlCarousel({
+    center: true,
+    items:2,
+    loop:false,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    responsive:{
+        600:{
+            items:4
+        }
+    }
+});
