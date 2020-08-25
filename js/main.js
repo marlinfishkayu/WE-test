@@ -169,7 +169,7 @@ $('.nonloop').owlCarousel({
     autoplayHoverPause:true,
     responsive:{
         600:{
-            items:4
+            items:3
         }
     }
 });
