@@ -77,6 +77,17 @@ $("#gamesHover").hover(
     }
 );
 
+// diamond slider effect
+
+$(".diamond-wrap").hover(
+    function () {
+        $(this).addClass('hovering-slide');
+    }, 
+    function () {
+        $(this).removeClass("hovering-slide");
+    }
+);
+
 
 //hide nav menu for search
 $(document).ready(function(){
