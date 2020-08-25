@@ -162,9 +162,9 @@ $('.news-slider').on('initialized.owl.carousel changed.owl.carousel', function(e
 $('.nonloop').owlCarousel({
     center: true,
     items:2,
-    loop:false,
+    loop: false,
     margin:10,
-    autoplay:true,
+    autoplay: false,
     autoplayTimeout:2000,
     autoplayHoverPause:true,
     responsive:{
