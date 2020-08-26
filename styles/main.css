@@ -2565,6 +2565,9 @@ select.form-control::-ms-expand {
   .feature-photo picture {
     padding-top: 43px;
   }
+  .intdexHotPick-bkg, .intdexWhatsNews-bkg {
+    width: 100%;
+  }
 }
 
 @media all and (-ms-high-contrast: none) and (min-width: 576px), (-ms-high-contrast: active) and (min-width: 576px) {
