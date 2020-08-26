@@ -1,6 +1,7 @@
 (function () {
 	$('.menu-btn').on('click', function() {
 		$('.menu-btn').toggleClass('open');
+		$('.sidebar').toggleClass('open');
 	})
 })();
 
@@ -66,8 +67,8 @@ $(document).ready(function(){
 
 $("#gamesHover").hover(
     function () {
-            $('.game-menu').addClass('show');
-            $('.nav-wrap').addClass("pointer");
+        $('.game-menu').addClass('show');
+        $('.nav-wrap').addClass("pointer");
 
             
     }, 
@@ -76,6 +77,16 @@ $("#gamesHover").hover(
         $('.nav-wrap').removeClass("pointer");
     }
 );
+
+/*-- side menu open sub menu --*/
+$('.game-btn').click(function(){
+    $('.game-show').toggleClass("show");
+})
+$('.livegame-btn').click(function(){
+    $('.livegame-show').toggleClass("show");
+})
+
+
 
 // diamond slider effect
 
