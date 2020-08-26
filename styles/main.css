@@ -178,7 +178,7 @@ img {
 .main-button {
   margin: 0 auto;
   width: 230px;
-  padding: 2rem 0;
+  padding: 0.5rem 0;
 }
 
 .main-button .mainBtn {
@@ -241,6 +241,9 @@ img {
   }
   .hero-header-bkg {
     height: inherit;
+  }
+  .main-button {
+    padding: 2rem 0;
   }
 }
 
@@ -800,6 +803,8 @@ img {
 }
 
 .sidebar.open {
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
   right: 0;
 }
 
@@ -1720,7 +1725,7 @@ footer {
 
 @media (min-width: 1200px) {
   #slider-area .slide {
-    height: 1000px;
+    height: 700px;
     overflow: hidden;
   }
   .header-wrapper .slider-text {
@@ -1742,6 +1747,12 @@ footer {
   }
   #intdexWhatsNews .news-slider .news-item {
     width: 800px;
+  }
+}
+
+@media (min-width: 1500px) {
+  #slider-area .slide {
+    height: 880px;
   }
 }
 

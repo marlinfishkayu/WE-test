@@ -460,6 +460,7 @@
 	}
 }
 .sidebar.open{
+	transition: 0.4s all;
 	right: 0;
 }
 .game-show, .livegame-show{

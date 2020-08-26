@@ -451,7 +451,7 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
     #slider-area .slide {
-        height: 1000px;
+        height: 700px;
         overflow: hidden;
     }
     .header-wrapper .slider-text {
@@ -473,5 +473,10 @@
     }
     #intdexWhatsNews .news-slider .news-item {
         width: 800px;
+    }
+}
+@media (min-width: 1500px) {
+    #slider-area .slide {
+        height: 880px;
     }
 }
