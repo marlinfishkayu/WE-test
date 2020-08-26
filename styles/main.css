@@ -2565,7 +2565,8 @@ select.form-control::-ms-expand {
   .feature-photo picture {
     padding-top: 43px;
   }
-  .intdexHotPick-bkg, .intdexWhatsNews-bkg {
+  .intdexHotPick-bkg, .intdexWhatsNews-bkg,
+  .hero-header-bkg, .live-game-main-bkg {
     width: 100%;
   }
 }
