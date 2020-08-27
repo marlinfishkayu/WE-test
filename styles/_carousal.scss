@@ -10,11 +10,14 @@
 #slider-area .slide {
     height: 300px;
     img{
-        width: 100%; 
-        height: 100%; 
-        background-position: 50% 10%; 
-        background-size: contain; 
-        object-fit: contain;
+        background-size: cover;
+        -o-object-fit: cover;
+        object-fit: cover;
+        position: absolute;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
     }
 }
 
@@ -71,9 +74,9 @@
     width: 20px;
     height: 3.5px;
 }
-#wrapper .owl-carousel .owl-item img {
-    height: auto;
-}
+// #wrapper .owl-carousel .owl-item img {
+//     height: auto;
+// }
 // What's News carousel
 #intdexWhatsNews .news-slider {
     width: 100%;
@@ -208,7 +211,7 @@
         top: 50px;
         left: 50%;
         transform: translateX(-50%);
-        opacity: 1;
+        opacity: 0;
         transition: 0.3s all;
         img {
             width: 100%;
@@ -220,11 +223,11 @@
         }
     }
     .inactive-img {
-        width: 434px;
+        width: 380px;
         height: auto;
         position: absolute;
         z-index: -1;
-        top: 50px;
+        top: 87px;
         left: 54%;
         transform: translate(-51%, -8%);
         opacity: 0;
@@ -239,8 +242,8 @@
         }
     }
     .dia-icon {
-        width: 117px;
-        height: 117px;
+        width: 80px;
+        height: 80px;
         margin: 0 auto;
         .dia-icon-img {
             width: 100%;
@@ -274,7 +277,7 @@
         }
     }
     h2 {
-        font-size: 36px;
+        font-size: 26px;
         letter-spacing: 3px;
         font-family: $fontFuturaMedium;
         padding-top: 1rem;
@@ -346,6 +349,18 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+    #slider-area .slide {
+        img{
+            width: 100%; 
+            height: 100%; 
+            background-position: 50% 10%; 
+            background-size: contain; 
+            object-fit: contain;
+        }
+    }
+    #wrapper .owl-carousel .owl-item img {
+        height: auto;
+    }
     .header-wrapper .slider-text {
         width: 500px;
         a {
@@ -412,6 +427,10 @@
     #diamondCarousel .hovering-slide .inactive-img{
         transform: translate(-51%, -8%);
     }
+    #diamondCarousel .dia-icon{
+        width: 117px;
+        height: 117px;
+    }
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
@@ -473,6 +492,16 @@
     }
     #intdexWhatsNews .news-slider .news-item {
         width: 800px;
+    }
+    #diamondCarousel .active-img {
+            opacity: 1;
+    }
+    #diamondCarousel .inactive-img {
+        width: 434px;
+        top: 50px;
+    }
+    #diamondCarousel .h2 {
+            font-size: 36px;
     }
 }
 @media (min-width: 1500px) {
