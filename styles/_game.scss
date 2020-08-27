@@ -359,43 +359,17 @@
     .live-game-main .feature-flexbox .hero-intro2{
         margin-top: 1rem;
     }
-    // .feature-flexbox .feature-flexbox-h2 {
-    //     margin: inherit;
-    //     font-size: 30px;
-    //     padding-left: 20px;
-    //     &:before {
-    //         top: 35px;
-    //         left: 21%;
-    //         width: 54px;
-    //         width: 54px;
-    //         height: 100px;
-    //         background-size: contain;
-    //     }
-    // }
-    .feature-flexbox .feature-flexbox-h2{
-        font-family: $fontFuturaMedium;
+    .feature-flexbox .feature-flexbox-h2 {
+        margin: inherit;
         font-size: 30px;
-        letter-spacing: 1.5;
-        line-height: 1.5;
-        color: #E1E1E1;
-        padding: 0 20px;
-        padding-top: 40px;
-        max-width: 400px;
-        margin: 0 auto;
-        text-transform: uppercase;
-        background-repeat: no-repeat;
-        position: relative;
+        padding-left: 20px;
         &:before {
-            content: "";
-            position: absolute;
-            top: 16px;
-            left: 50%;
-            width: 100px;
-            height: 150px;
-            transform: translate(-50%, -50%);
-            z-index: -1;
-            background-repeat: no-repeat;
-    
+            top: 35px;
+            left: 21%;
+            width: 54px;
+            width: 54px;
+            height: 100px;
+            background-size: contain;
         }
     }
     .feature-flexbox .feature-flexbox-h2,
