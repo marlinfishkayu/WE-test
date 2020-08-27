@@ -165,30 +165,13 @@ $('.news-slider').on('initialized.owl.carousel changed.owl.carousel', function(e
     }
   });
 
-// diamond carousel
-// $('.diamond-carousel').owlCarousel({
-//     loop:false,
-//     center: true,
-//     items:2,
-//     margin:10,
-//     nav:true,
-//     responsive:{
-//         0:{
-//             items:1
-//         },
-//         600:{
-//             items:3
-//         },
-//         1000:{
-//             items:3
-//         }
-//     }
-// })
+//Diamond carousal
 $('#diamondCarousel').owlCarousel({
     center: true,
     items:2,
     loop: true,
     margin:10,
+    slideBy: 3,
     autoplay: true,
     autoplayTimeout:2000,
     autoplayHoverPause:true,
