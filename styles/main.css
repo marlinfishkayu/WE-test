@@ -1359,6 +1359,10 @@ footer {
   height: 3.5px;
 }
 
+#wrapper .owl-carousel .owl-item img {
+  height: auto;
+}
+
 #intdexWhatsNews .news-slider {
   width: 100%;
 }
@@ -2725,6 +2729,9 @@ select.form-control::-ms-expand {
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   #nav-area .search-form {
     top: -5px;
+  }
+  #wrapper .owl-carousel .owl-item img {
+    height: auto;
   }
   #wrapper #nav-area {
     top: 5px;
