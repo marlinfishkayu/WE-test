@@ -2755,6 +2755,15 @@ select.form-control::-ms-expand {
   .owl-carousel.owl-drag .owl-item {
     height: 400px;
   }
+  #slider-area .owl-carousel .owl-stage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #slider-area .owl-carousel .owl-item img {
+    width: auto;
+    height: 100%;
+  }
 }
 
 @media all and (-ms-high-contrast: none) and (min-width: 576px), (-ms-high-contrast: active) and (min-width: 576px) {

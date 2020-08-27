@@ -31,6 +31,14 @@
     .owl-carousel.owl-drag .owl-item{
         height: 400px;
     }
+    #slider-area .owl-carousel .owl-stage {
+        display: flex;
+    }
+    
+    #slider-area .owl-carousel .owl-item img {
+        width: auto;
+        height: 100%;
+    }
     // Small devices (landscape phones, 576px and up)
     @media (min-width: 576px) {     
         #nav-ara .closeBtn{
