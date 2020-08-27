@@ -110,6 +110,7 @@
     width: 200px;
     margin: auto;
     text-transform: uppercase;
+    padding-bottom: 3rem;
 }
 #intdexWhatsNews .news-item-text .text-gold {
     font-family: $fontFuturaMedium;
@@ -277,7 +278,7 @@
         }
     }
     h2 {
-        font-size: 26px;
+        font-size: 20px;
         letter-spacing: 3px;
         font-family: $fontFuturaMedium;
         padding-top: 1rem;

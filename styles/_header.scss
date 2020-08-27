@@ -404,6 +404,7 @@
 	.side-item{
 		border-bottom: 0.5px solid #B0936D;
 		position: relative;
+		padding: 0.2rem;
 		a{
 			font-family: $fontBarlowRegular;
 			font-size: 16px;
@@ -466,15 +467,18 @@
 }
 .sidebar .fa-arrow{
 	position: absolute;
-	top: 15px;
-    right: 30px;
+	top: 17px;
+    right: 24px;
     transform: rotate(-90deg);
     height: 30px;
 	width: 30px;
 	transition: 0.4s all;
+	transition-timing-function: ease-in-out;
+	// border: 1px solid red;
 	img{
 		height: 30px;
 		width: 30px;
+		padding: 3px;
 		background-repeat: no-repeat;
 		background-size: contain;
 		object-fit: contain;
@@ -482,6 +486,10 @@
 }
 .sidebar .rotate .fa-arrow{
 	transform: rotate(0deg);
+}
+.sidebar .livegame-btn  .fa-arrow{
+	top: 10px;
+    right: 21px;
 }
 .sidebar.open{
 	transition: 0.4s all;
