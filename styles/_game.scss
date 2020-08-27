@@ -16,10 +16,11 @@
 //     height: 2000px;
 // }
 #liveGame .hero-icon{
-    width: 80px;
+    width: 120px;
     height: 60px;
     margin: 0 auto;
     padding-top: 8rem;
+    padding-bottom: 2rem;
 }
 #liveGame .header-deco h4{
     margin-top: 7rem;
@@ -58,13 +59,14 @@
 #liveGame .hero-header h1{
     color: $primaryText;
     font-family: $fontFuturaMedium;
-    font-size: 60px;
+    font-size: 40px;
     padding-top: 10px;
     font-weight: 100;
     margin-top: 1rem;
 }
 #liveGame .hero-intro1{
     margin-top: -1rem;
+    padding-bottom: 0;
 }
 .live-game-main .mainBtn{
     margin-top: 1rem;
@@ -147,7 +149,7 @@
         content: "";
         position: absolute;
         top: 16px;
-        left: 50%;
+        left: 58%;
         width: 100px;
         height: 150px;
         transform: translate(-50%, -50%);
@@ -171,7 +173,7 @@
 }
 .feature-flexbox .feature-flexbox-h2,
 .feature-flexbox .hero-intro2{
-    text-align: left;
+    text-align: center;
 }
 .live-game-main .feature-flexbox .hero-intro2{
     margin-top: 1rem;
@@ -310,6 +312,7 @@
         height: 169px;
         margin: 0 auto;
         padding-top: 13rem;
+        padding-bottom: 0rem;
     }
     #liveGame .hero-header h1{
         font-size: 80px;
@@ -322,6 +325,7 @@
     }
     #liveGame .hero-intro1{
         margin-top: 0rem;
+        padding-bottom: 3rem;
     }
     .live-game-main .mainBtn{
         margin-top: 2.5rem;
@@ -355,18 +359,48 @@
     .live-game-main .feature-flexbox .hero-intro2{
         margin-top: 1rem;
     }
-    .feature-flexbox .feature-flexbox-h2 {
-        margin: inherit;
+    // .feature-flexbox .feature-flexbox-h2 {
+    //     margin: inherit;
+    //     font-size: 30px;
+    //     padding-left: 20px;
+    //     &:before {
+    //         top: 35px;
+    //         left: 21%;
+    //         width: 54px;
+    //         width: 54px;
+    //         height: 100px;
+    //         background-size: contain;
+    //     }
+    // }
+    .feature-flexbox .feature-flexbox-h2{
+        font-family: $fontFuturaMedium;
         font-size: 30px;
-        padding-left: 20px;
+        letter-spacing: 1.5;
+        line-height: 1.5;
+        color: #E1E1E1;
+        padding: 0 20px;
+        padding-top: 40px;
+        max-width: 400px;
+        margin: 0 auto;
+        text-transform: uppercase;
+        background-repeat: no-repeat;
+        position: relative;
         &:before {
-            top: 35px;
-            left: 21%;
-            width: 54px;
-            width: 54px;
-            height: 100px;
-            background-size: contain;
+            content: "";
+            position: absolute;
+            top: 16px;
+            left: 50%;
+            width: 100px;
+            height: 150px;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+            background-repeat: no-repeat;
+    
         }
+    }
+    .feature-flexbox .feature-flexbox-h2,
+    .feature-flexbox .hero-intro2{
+        text-align: left;
     }
     .feature-photo {
         max-width: inherit;
