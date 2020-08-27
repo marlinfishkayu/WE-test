@@ -392,6 +392,7 @@
 	height: 100%;
 	right: -100%;
 	z-index: 5;
+	overflow-y: scroll;
 	background: #060B1A;
 	a{
 		font-family: $fontBarlowRegular;
