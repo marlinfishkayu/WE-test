@@ -81,9 +81,12 @@ $("#gamesHover").hover(
 /*-- side menu open sub menu --*/
 $('.game-btn').click(function(){
     $('.game-show').toggleClass("show");
+    $('.game-btn').toggleClass("rotate");
+    
 })
 $('.livegame-btn').click(function(){
     $('.livegame-show').toggleClass("show");
+    $('.livegame-btn').toggleClass("rotate");
 })
 
 
@@ -181,12 +184,12 @@ $('.news-slider').on('initialized.owl.carousel changed.owl.carousel', function(e
 //         }
 //     }
 // })
-$('.nonloop').owlCarousel({
+$('#diamondCarousel').owlCarousel({
     center: true,
     items:2,
-    loop: false,
+    loop: true,
     margin:10,
-    autoplay: false,
+    autoplay: true,
     autoplayTimeout:2000,
     autoplayHoverPause:true,
     responsive:{

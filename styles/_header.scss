@@ -459,14 +459,38 @@
     	top: 15px;
 	}
 }
+//font arrow
+
+.sidebar .game-item{
+	position: relative;
+}
+.sidebar .fa-arrow{
+	position: absolute;
+	top: 15px;
+    right: 30px;
+    transform: rotate(-90deg);
+    height: 30px;
+	width: 30px;
+	transition: 0.4s all;
+	img{
+		height: 30px;
+		width: 30px;
+		background-repeat: no-repeat;
+		background-size: contain;
+		object-fit: contain;
+	}
+}
+.sidebar .rotate .fa-arrow{
+	transform: rotate(0deg);
+}
 .sidebar.open{
 	transition: 0.4s all;
 	right: 0;
 }
-.game-show, .livegame-show{
+.sidebar .game-show, .livegame-show{
 	display: none;
 }
-.game-show.show, .livegame-show.show{
+.sidebar .game-show.show, .livegame-show.show{
 	display: block;
 }
 
