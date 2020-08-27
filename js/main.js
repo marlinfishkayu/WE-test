@@ -171,7 +171,6 @@ $('#diamondCarousel').owlCarousel({
     items:2,
     loop: true,
     margin:10,
-    slideBy: 3,
     autoplay: true,
     autoplayTimeout:2000,
     autoplayHoverPause:true,
