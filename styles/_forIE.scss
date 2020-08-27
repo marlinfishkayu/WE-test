@@ -28,6 +28,9 @@
     .hero-header-bkg, .live-game-main-bkg{
         width: 100%;
     }
+    .owl-carousel.owl-drag .owl-item{
+        height: 400px;
+    }
     // Small devices (landscape phones, 576px and up)
     @media (min-width: 576px) {     
         #nav-ara .closeBtn{
@@ -51,6 +54,9 @@
         .feature-photo picture{
             padding-top: 13px;
         }
+        .owl-carousel.owl-drag .owl-item{
+            height: 500px;
+        }
     }
     // Large devices (desktops, 992px and up)
     @media (min-width: 992px) {
@@ -66,6 +72,9 @@
         .feature-photo picture{
             padding-top: 0px;
         }
+        .owl-carousel.owl-drag .owl-item{
+            height: 600px;
+        }
     }
     // Extra large devices (large desktops, 1200px and up)
     @media (min-width: 1200px) {
@@ -74,6 +83,9 @@
         }
         #slider-area .slide{
             height: 100%;
+        }
+        .owl-carousel.owl-drag .owl-item{
+            height: 880px;
         }
     }
 }
