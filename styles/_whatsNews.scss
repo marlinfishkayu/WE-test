@@ -53,6 +53,7 @@
             height: auto;
             max-width: 800px;
             position: relative;
+            
         }
         .timelinne ul{
             list-style: none;
@@ -81,17 +82,69 @@
         width: 50%;
         margin-bottom: 50px;
         position: relative;
+        &:after{
+            content:'';
+            position: absolute;
+            bottom: 0;
+            height: 20px;
+            width: 20px;
+            background-color: #89663D;
+        }
     }
     #newsFeed .timeline-wrap .timeline ul li:nth-child(odd){
         float: left;
         clear: right;
+        transform: translateX(-50px);
+        &:after{
+            right: -50px;
+            transform: translate(50%, -50%);
+        }
     }
     #newsFeed .timeline-wrap .timeline ul li:nth-child(even){
         float: right;
         clear: left;
+        transform: translateX(50px);
+        &:after{
+            left: -50px;
+            transform: translate(-50%, -50%);
+        }
+    }
+    #newsFeed .timeline-wrap .timeline::before{
+        content:'';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 100%;
+        width: 1px;
+        background-color: #89663D;
+        
     }
 }
-
+#newsFeed .event-photo{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+#newsFeed .event-photo picture{
+    position: relative;
+}
+#newsFeed .event-photo picture:after{
+    content: "";
+        position: absolute;
+        top: -229px;
+        left: 4px;
+        z-index: 1;
+        height: 229px;
+        width: 229px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzODMiIGhlaWdodD0iMzgzIiB2aWV3Qm94PSIwIDAgMzgzIDM4MyI+CiAgPHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjODk2NjNEIiBzdHJva2Utd2lkdGg9IjEuNSIgZD0iTTM4Mi4yNSwwLjc1IEw1OC43Mzg3MDgsMC43NSBMMC43NSw1OC43Mzg3MDggTDAuNzUsMzgyLjI1IEwzMjQuMjYxMjkyLDM4Mi4yNSBMMzgyLjI1LDMyNC4yNjEyOTIgTDM4Mi4yNSwwLjc1IFoiLz4KPC9zdmc+Cg==");
+}
+#newsFeed .frame-detail{
+    max-width: 250px;
+    margin: auto;
+}
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
     #slider-area .news-slide{
@@ -99,6 +152,11 @@
     }
     #newsFeed .filter-item{
         font-size: 24px;
+    }
+    #newsFeed .event-photo{
+        width: 250px;
+        height: 250px;
+        margin: inherit;
     }
  }
 // Extra large devices (large desktops, 1200px and up)
