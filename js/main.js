@@ -147,44 +147,76 @@ $('.news-slider').on('initialized.owl.carousel changed.owl.carousel', function(e
     var carousel = e.relatedTarget;
     $('.pagedot-counter').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
   }).owlCarousel({
-    loop:false,
-    // center: true,
-    autoWidth:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:2
-        },
-        600:{
-            items:2
-        },
-        1000:{
-            items:2
-        }
-    }
+    center: true,
+    loop: false,
+    margin: 20,
+    items: 2,
+    responsive: {
+      0: {
+        items: 1,
+        navigation: true,
+        nav: true,
+        slideBy: 1 // <!-- HERE
+      },
+     1400: {
+        items: 2,
+        navigation: true,
+        nav: true,
+        slideBy: 2 // <!-- HERE
+      },
+    2100: {
+        items: 3,
+        navigation: true,
+        nav: true,
+        slideBy: 3 // <!-- HERE
+      }
+    },
+    scrollPerPage: true,
+    navigation: true
   });
+// $('.news-slider').on('initialized.owl.carousel changed.owl.carousel', function(e) {
+//     if (!e.namespace)  {
+//       return;
+//     }
+//     var carousel = e.relatedTarget;
+//     $('.pagedot-counter').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
+//   }).owlCarousel({
+//     loop:false,
+//     center: true,
+//     autoWidth:true,
+//     margin:10,
+//     nav:true,
+//     responsive:{
+//         0:{
+//             items:2
+//         },
+//         600:{
+//             items:2
+//         },
+//         1000:{
+//             items:3
+//         }
+//     }
+//   });
 
 //Diamond carousal
 $('#diamondCarousel').owlCarousel({
     center: true,
-    items:2,
+    items:1,
     loop: true,
     margin:10,
     autoplay: true,
     autoplayTimeout:2000,
     autoplayHoverPause:true,
     responsive:{
-        600:{
-
-            items:2,
-            slideBy: 2
+        300:{
+            items:1
         },
-        1000:{
-            items:3,
-            slideBy: 3,
+        600:{
             items:3
-
+        },
+        1750:{
+            items:4
         }
     }
 });
