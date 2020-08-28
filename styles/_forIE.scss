@@ -41,6 +41,15 @@
     #slider-area .news-slide{
         height: 300px;
     }
+    #indexWhatsNews{
+        height: 650px;
+    }
+    #indexWhatsNews{
+        bottom: -90px;
+    }
+    #indexWhatsNews .owl-carousel.owl-drag .owl-item{
+        height: 492px;
+    }
     // Small devices (landscape phones, 576px and up)
     @media (min-width: 576px) {     
         #nav-ara .closeBtn{
