@@ -1,0 +1,73 @@
+#slider-area .news-slide{
+    height: 300px;
+}
+#newsFeed .news-filter-wrap{
+    height: calc(100% - 3em);
+    width: 100%;
+    background: rgb(2,48,91);
+    background: rgb(2,48,91);
+    background: -moz-linear-gradient(0deg, rgba(2,48,91,0) 0%, rgba(0,25,59,1) 37%, rgba(6,11,26,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(2,48,91,0) 0%, rgba(0,25,59,1) 37%, rgba(6,11,26,1) 100%);
+    background: linear-gradient(0deg, rgba(2,48,91,0) 0%, rgba(0,25,59,1) 37%, rgba(6,11,26,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#02305b",endColorstr="#060b1a",GradientType=1);
+}
+#newsFeed {
+    .news-filter-wrap{
+        margin: auto;
+        padding: 3rem 2rem;
+        .news-filter{
+            text-transform: uppercase;
+            font-family: $fontFuturaMedium;
+            font-size: 16px;
+            font-weight: 100;
+            color: #FFFFFF;
+            letter-spacing: 1px;
+            padding: 1rem 0rem;
+            padding-left: 1rem;
+            border-top: 1px solid rgba(137, 102, 61, 0.5);
+            border-bottom: 1px solid rgba(137, 102, 61, 0.5);
+            .filter-item{
+                text-transform: uppercase;
+                font-family: $fontFuturaMedium;
+                font-size: 16px;
+                font-weight: 100;
+                color: rgba(216, 216, 216, 0.4);
+                letter-spacing: 1px;
+                padding-right: 2rem;
+                cursor: pointer;
+            }
+            .active{
+                color: #FFFFFF;
+            }
+        }
+        
+    }
+    
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    #slider-area .news-slide{
+        height: 350px;
+    }
+    #newsFeed .news-filter-wrap{
+        padding: 3rem 5rem;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    #slider-area .news-slide{
+        height: 450px;
+    }
+    #newsFeed .filter-item{
+        font-size: 24px;
+    }
+ }
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  
+}
