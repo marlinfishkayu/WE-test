@@ -2,6 +2,9 @@
     #nav-area .search-form{
         top: -5px;
     }
+    #wrapper .owl-carousel .owl-item img {
+        height: auto;
+    }
     #wrapper #nav-area{
         top: 5px;
     }
@@ -21,7 +24,22 @@
     .feature-photo picture{
         padding-top: 43px;
     }
+    .intdexHotPick-bkg, .intdexWhatsNews-bkg, 
+    .hero-header-bkg, .live-game-main-bkg{
+        width: 100%;
+    }
+    .owl-carousel.owl-drag .owl-item{
+        height: 400px;
+    }
+    #slider-area .owl-carousel .owl-stage {
+        display: flex;
+        
+    }
     
+    #slider-area .owl-carousel .owl-item img {
+        width: auto;
+        height: 100%;
+    }
     // Small devices (landscape phones, 576px and up)
     @media (min-width: 576px) {     
         #nav-ara .closeBtn{
@@ -45,6 +63,9 @@
         .feature-photo picture{
             padding-top: 13px;
         }
+        .owl-carousel.owl-drag .owl-item{
+            height: 500px;
+        }
     }
     // Large devices (desktops, 992px and up)
     @media (min-width: 992px) {
@@ -60,6 +81,9 @@
         .feature-photo picture{
             padding-top: 0px;
         }
+        .owl-carousel.owl-drag .owl-item{
+            height: 600px;
+        }
     }
     // Extra large devices (large desktops, 1200px and up)
     @media (min-width: 1200px) {
@@ -68,6 +92,9 @@
         }
         #slider-area .slide{
             height: 100%;
+        }
+        .owl-carousel.owl-drag .owl-item{
+            height: 880px;
         }
     }
 }

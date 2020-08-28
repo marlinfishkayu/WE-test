@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <!-- external font-->
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.typekit.net/mlx7mqk.css" />
+
+        <!-- Outdated Browser v1.1.5 -->
+        <link rel="stylesheet" href="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.css" />
+        <!-- Owl CSS -->
+        <link rel="stylesheet" href="OwlCarousel2/owl.carousel.min.css" />
+        <link rel="stylesheet" href="OwlCarousel2/owl.theme.default.min.css" />
+        <!-- main CSS -->
+        <link rel="stylesheet" href="./styles/main.css" />
+        <title>World Entertainment</title>
+        <link rel="shortcut icon" type="image/svg" href="./images/icon/favicon.svg" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <section class="section-header" id="nav">
+                <div class="header-wrapper">
+                    <!-- navigation bar -->
+                    <div class="nav-wrap nav-fixed">
+                        <div id="nav-area">
+                            <div class="main-nav">
+                                <!-- nav links -->
+                                <a class="navbar-brand menu-item menu-logo" href="index.html">
+                                    <div class="nav-logo"><img src="./images/icon/logo.svg" alt="" loading="lazy" /></div>
+                                </a>
+                                <ul class="nav_links">
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-about" href="#AboutWE">About WE</a>
+                                    </li>
+                                    <li class="nav-item dropdown" id="gamesHover">
+                                        <a class="nav-link menu-item menu-games" href="#Games">Games</a>
+                                        <div class="game-menu" style="margin: 0; width: 100%;">
+                                            <div class="subnav-arrow"></div>
+                                            <div class="game-menu-wrapper">
+                                                <!-- game menu tab -->
+                                                <ul class="nav justify-content-center" id="gameSubtab" role="tablist">
+                                                    <li class="nav-game-item">
+                                                        <a class="nav-game-link active" id="pills-livegame-tab" data-toggle="pill" href="#pills-livegame" role="tab" aria-controls="pills-livegame" aria-selected="true">LIVE GAME</a>
+                                                    </li>
+                                                    <li class="nav-game-item">
+                                                        <a class="nav-game-link" id="pills-lottery-tab" data-toggle="pill" href="#pills-lottery" role="tab" aria-controls="pills-lottery" aria-selected="false">LOTTERY</a>
+                                                    </li>
+                                                    <li class="nav-game-item">
+                                                        <a class="nav-game-link" id="pills-sportsbook-tab" data-toggle="pill" href="#pills-sportsbook" role="tab" aria-controls="pills-sportsbook" aria-selected="false">SPORTSBOOK</a>
+                                                    </li>
+                                                    <li class="nav-game-item">
+                                                        <a class="nav-game-link" id="pills-slots-tab" data-toggle="pill" href="#pills-slots" role="tab" aria-controls="pills-slots" aria-selected="false">SLOTS</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="game-tab-content" id="pills-tabContent">
+                                                    <!-- Live game tab -->
+                                                    <div class="tab-pane fade show active" id="pills-livegame" role="tabpanel" aria-labelledby="pills-livegame-tab">
+                                                        <div class="d-flex justify-content-center">
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-baccarat">
+                                                                <a href="#Game_LiveGame_Baccarat.html">
+                                                                    <div class="game-icon-container">
+                                                                        <h4>BACCARAT</h4>
+                                                                        <div class="game-icon-front">
+                                                                            <div class="icon-img"></div>
+                                                                        </div>
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img
+                                                                                src="images/icon/gameMenu_icon1_Baccarat_1x.png"
+                                                                                srcset="images/icon/gameMenu_icon1_Baccarat_1x.png 500w, images/icon/gameMenu_icon1_Baccarat_2x.png 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-roulette">
+                                                                <a href="Game_LiveGame_Roulette.html">
+                                                                    <div class="game-icon-container">
+                                                                        <h4>ROULETTE</h4>
+                                                                        <div class="game-icon-front">
+                                                                            <div class="icon-img"></div>
+                                                                        </div>
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img
+                                                                                src="images/icon/gameMenu_icon2_Roulette_1x.png"
+                                                                                srcset="images/icon/gameMenu_icon2_Roulette_1x.png 500w, images/icon/gameMenu_icon2_Roulette_2x.png 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-SicBo">
+                                                                <a href="#Game_LiveGame_SicBo.html">
+                                                                    <div class="game-icon-container">
+                                                                        <h4>SIC BO</h4>
+                                                                        <div class="game-icon-front">
+                                                                            <div class="icon-img"></div>
+                                                                        </div>
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img src="images/icon/gameMenu_icon3_SicBo_1x.png" srcset="images/icon/gameMenu_icon3_SicBo_1x.png 500w, images/icon/gameMenu_icon3_SicBo_2x.png 1000w" alt="" />
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-Dragon">
+                                                                <a href="#Game_LiveGame_DragonTiger.html">
+                                                                    <div class="game-icon-container">
+                                                                        <h4>DRAGON TIGER</h4>
+                                                                        <div class="game-icon-front">
+                                                                            <div class="icon-img"></div>
+                                                                        </div>
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img src="images/icon/gameMenu_icon4_Dragon_1x.png" srcset="images/icon/gameMenu_icon4_Dragon_1x.png 500w, images/icon/gameMenu_icon4_Dragon_2x.png 1000w" alt="" />
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-Mahjong">
+                                                                <a href="#Game_LiveGame_MahjongLuckyWheel.html">
+                                                                    <div class="game-icon-container">
+                                                                        <h4>MAHJONG LUCKY WHEEL</h4>
+                                                                        <div class="game-icon-front">
+                                                                            <div class="icon-img"></div>
+                                                                        </div>
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img
+                                                                                src="images/icon/gameMenu_icon5_Mahjong_1x.png"
+                                                                                srcset="images/icon/gameMenu_icon5_Mahjong_1x.png 500w, images/icon/gameMenu_icon5_Mahjong_2x.png 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="all-games" id="allGameBtn">
+                                                            <a href="#"><button class="secondaryBtn" type="button">ALL LIVE GAME</button></a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Live game tab -->
+                                                    <div class="tab-pane fade" id="pills-lottery" role="tabpanel" aria-labelledby="pills-lottery-tab">lottery</div>
+                                                    <div class="tab-pane fade" id="pills-sportsbook" role="tabpanel" aria-labelledby="pills-sportsbook-tab">sportsbook</div>
+                                                    <div class="tab-pane fade" id="pills-slots" role="tabpanel" aria-labelledby="pills-slots-tab">slots</div>
+                                                </div>
+                                                <!-- game menu tab -->
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-liveStudio" href="#LiveStudio">Live Studio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-services" href="#Services">Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-whatsNew" href="#WhatsNew">What's New</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-contactUs" href="ContactUs.html">Contact Us</a>
+                                    </li>
+                                </ul>
+                                <li class="nav-item nav-icon">
+                                    <div class="nav-icon-wrapper">
+                                        <div>
+                                            <a class="icon-search menu-item search" id="navSearch" href="#search">
+                                                <img src="images/icon/search.svg" />
+                                            </a>
+                                        </div>
+                                        <div class="search-wrapper menu-item">
+                                            <a class="icon-search" href="#search">
+                                                <img src="images/icon/lang.svg" />
+                                                <h6>En</h6>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="menu-wrapper menu-item">
+                                        <!-- <div class="hamburger-menu"></div> -->
+                                        <div class="menu-btn">
+                                            <div class="menu-btn__burger"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <div class="search-container">
+                                    <div class="search-form" id="searchForm">
+                                        <form>
+                                            <input type="text" name="" placeholder="Search our website" />
+                                        </form>
+                                    </div>
+                                </div>
+                                <a class="closeBtn"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- side menu start  -->
+                    <nav class="sidebar">
+                        <a class="navbar-brand menu-item menu-logo" href="index.html" id="logoMobile">
+                            <div class="nav-logo"><img src="./images/icon/logo.svg" alt="" loading="lazy" /></div>
+                        </a>
+                        <div class="menu-wrapper menu-item" id="menuMobile">
+                            <!-- <div class="hamburger-menu"></div> -->
+                            <div class="menu-btn">
+                                <div class="menu-btn__burger"></div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li class="side-item">
+                                <a href="#">About WE</a>
+                            </li>
+                            <li class="side-item">
+                                <a href="#" class="game-btn">Games
+                                    <span class="fa-arrow">
+                                        <img src="./images/icon/dropdown.svg"/>
+                                    </span>
+                                </a>
+                                <ul class="game-show">
+                                    <li class="game-item">
+                                        <a href="#" class="livegame-btn">LIVE GAME
+                                            <span class="fa-arrow">
+                                                <img src="./images/icon/dropdown.svg"/>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <ul class="game-sub-item livegame-show">
+                                        <li><a href="#">ALL LIVE GAME</a></li>
+                                        <li><a href="#">BACCARAT</a></li>
+                                        <li><a href="Game_LiveGame_Roulette.html">ROULETTE</a></li>
+                                        <li><a href="#">SIC BO</a></li>
+                                        <li><a href="#">DRAGON TIGER</a></li>
+                                        <li><a href="#">MAHJONG LUCKY WHEEL</a></li>
+                                    </ul>
+                                    <li class="game-item"><a href="#">LOTTERY</a></li>
+                                    <li class="game-item"><a href="#">SPORTSBOOK</a></li>
+                                </ul>
+                            </li>
+                            <li class="side-item">
+                                <a href="#">Live Studio</a>
+                            </li>
+                            <li class="side-item">
+                                <a href="#">Services</a>
+                            </li>
+                            <li class="side-item">
+                                <a href="#">What’s New</a>
+                            </li>
+                            <li class="side-item">
+                                <a href="ContactUs.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- side menu end  -->
+
+                    <!-- navigation bar end -->
+                </div>
+            </section>
+            <!-- Contact Us Start -->
+            <div id="ContactUs">
+                <div class="hero-header text-center">
+                    <div class="hero-header-bkg">
+                        <img src="images/contact/hero_contact_x1.png" style="width: 100%; background-position: 50% 10%; background-size: cover; height: 100%; object-fit: cover;" srcset="images/contact/hero_contact_x1.png 500w, images/contact/hero_contact_x2.png 1000w" alt="" />
+                    </div>
+                    <div class="hero-float">
+                        <h1 class="hero-title">Contact Us</h1>
+                        <h3 class="hero-intro1">Welcome to contact us to discuss cooperation opportunities.</h3>
+                        <p class="hero-intro2">Leave us your message by filling the contact form below and WE’ll be in touch with you soon.</p>
+                        <p class="hero-intro2 md-block">By filling up this form, you are agree and are willing to allow us to collect your contact details and other information that may be required to enable us to effectively and efficiently reply to all your enquiries.</p>
+                    </div>
+                </div>
+                 <!-- Start Content Section -->
+                 <div class="contact-main">
+                        <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                            <!-- Start Contact Form -->
+                            <form role="form" id="contactForm" class="contact-form" data-toggle="validator" class="shake">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="form-group">
+                                        <div class="controls">
+                                        <input type="text" id="firstname" class="form-control" placeholder="First name" required data-error="Please enter your first name">
+                                        <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="form-group">
+                                        <div class="controls">
+                                        <input type="text" id="lastname" class="form-control" placeholder="Last name" required data-error="Please enter your last name">
+                                        <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="form-group">
+                                        <div class="controls">
+                                        <input type="text" id="PhoneNumber" class="form-control" placeholder="Phone number" required data-error="Please enter your phone number">
+                                        <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="form-group">
+                                        <div class="controls">
+                                        <select class="form-control" id="country" required data-error="Please select your country">
+                                            <option selected>Country</option>
+                                            <option>Hong Kong</option>
+                                            <option>China</option>
+                                            <option>Thailand</option>
+                                            <option>Singapore</option>
+                                            <option>Philippines</option>
+                                          </select>
+                                        <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-8">
+                                    <div class="form-group">
+                                        <div class="controls">
+                                        <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+                                        <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <div class="form-group">
+                                        <div class="controls">
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option selected>Enquiry type</option>
+                                            <option>Job Opportunity</option>
+                                            <option>Question</option>
+                                          </select>
+                                        <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="controls">
+                                <textarea id="message" rows="7" placeholder="Your message here" class="form-control" required data-error="Write your message"></textarea>
+                                <div class="help-block with-errors"></div>
+                                </div>  
+                            </div>
+                            <div class="enquiry-button">
+                                <button type="submit" id="submit" class="enquiryBtn btn" type="button">
+                                    SUBMIT ENQUIRY
+                                </button>
+                                <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                                <div class="clearfix"></div>   
+                            </div>
+                            </form>     
+                            <!-- End Contact Form -->
+                            </div>
+                            
+                        </div>
+                        <div class="contact-bottom">
+                            <h2 class="bottom-deco">GET IN TOUCH</h2>
+                            <p class="hero-intro2">We’re keen on talking anything with you.</p>
+                            <div class="float-md-left">
+                                <div class="d-flex contact-icon-list">
+                                    <div class="contact-icon-wrap">
+                                        <div class="contact-skype contact-icon"></div>
+                                    </div>
+                                    <p class="hero-intro2 custom-intro2">Chat with WE Business</p>
+                                </div>
+                                <div class="d-flex contact-icon-list">
+                                    <div class="contact-icon-wrap">
+                                        <div class="contact-email contact-icon"></div>
+                                    </div>
+                                    <p class="hero-intro2 custom-intro2">hello@wordent.com</p>
+                                </div>
+                            </div>
+                            <div class="float-md-right">
+                                <p class="hero-intro2">Follow us:</p>
+                                <div class="follow-icon-wrap">
+                                    <div class="contact-icon-wrap">
+                                        <div class="contact-fb contact-icon"></div>
+                                    </div>
+                                    <div class="contact-icon-wrap">
+                                        <div class="contact-yt contact-icon"></div>
+                                    </div>
+                                    <div class="contact-icon-wrap">
+                                        <div class="contact-ig contact-icon"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+      <!-- End Content Section  -->   
+                
+            </div>
+            <!-- Contact Us End -->
+
+            <!-- Footer start -->
+            <footer>
+                <div class="main-footer">
+                    <div class="footer-subscribe">
+                        <div class="d-lg-flex justify-content-md-between flex-lg-row-reverse">
+                            <div class="d-md-flex flex-column">
+                                <h6>Subscribe</h6><br>
+                                <p>Be the first to know about the latest news and <br class="footer-break"> exclusive offers from WE.</p>
+                                <div class="d-sm-flex">
+                                    <form class="subscribe-form">
+                                        <div class="form-group">
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Please enter your email here">
+                                        </div>
+                                    </form>
+                                    <button type="button" class="btn">SIGN UP</button>
+                                </div>
+                              </div>
+                              <div class="footer-licens">
+                                <div class="footer-logo">
+                                    <img alt="" src="images/icon/logo.svg" />
+                                </div>
+                                <div class="d-sm-flex flex-sm-row licens-list">
+                                    <div class="d-sm-flex flex-sm-row tag-left">
+                                        <h6>Licensing</h6>
+                                        <div class="d-flex flex-row">
+                                            <div class="licens-icon">
+                                                <img alt="" src="images/icon/license.svg" />
+                                            </div>
+                                            <div class="licens-icon" id="licensIcon2">
+                                                <img alt="" src="images/icon/license2.svg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-sm-flex flex-sm-row tag-left">
+                                        <h6>Certification</h6>
+                                        <div class="d-flex flex-row">
+                                            <div class="licens-icon">
+                                                <img alt="" src="images/icon/license3.svg" />
+                                            </div>
+                                            <div class="licens-icon" id="licensIcon2">
+                                                <img alt="" src="images/icon/license4.svg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                            </div>
+                          </div>
+                    </div>
+                    
+                    <div class="underline">
+                        <div class="footer-logo">
+                            <img alt="" src="images/icon/logo.svg" />
+                        </div>
+                        <div class="d-sm-flex justify-content-md-between">
+                            <div class="d-sm-flex flex-sm-row footer-TC">
+                                <h6>©2020 WORLD ENTERTAINMENT.</h6>
+                                <div class="d-sm-flex flex-sm-row TC">
+                                    <h6>Terms & Conditions</h6>  
+                                    <h6>Privacy</h6>  
+                                    <h6>Cookies</h6>
+                                </div>
+                            </div>
+                            <div class="footer-social">
+                                <div class="d-flex  justify-content-sm-end justify-content-center">
+                                    <a href="#" class="footer-icon">
+                                        <img alt="" src="images/icon/fb_f.svg" />
+                                    </a>
+                                    <a href="#" class="footer-icon">
+                                        <img alt="" src="images/icon/yt_f.svg" />
+                                    </a>
+                                    <a href="#" class="footer-icon">
+                                        <img alt="" src="images/icon/ig_f.svg" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer end -->
+        </div>
+        <!-- ============= Outdated Browser ============= -->
+        <div id="outdated"></div>
+        <!-- Outdated javascript includes -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
+
+        <!-- Outdated plugin call -->
+        <script>
+            // Plain Javascript
+            //event listener: DOM ready
+            function addLoadEvent(func) {
+                var oldonload = window.onload;
+                if (typeof window.onload != "function") {
+                    window.onload = func;
+                } else {
+                    window.onload = function () {
+                        if (oldonload) {
+                            oldonload();
+                        }
+                        func();
+                    };
+                }
+            }
+            //call plugin function after DOM ready
+            addLoadEvent(function () {
+                outdatedBrowser({
+                    bgColor: "#f25648",
+                    color: "#ffffff",
+                    lowerThan: "transform",
+                    languagePath: "your_path/outdatedbrowser/lang/en.html",
+                });
+            });
+            // Using jQuery (version that supports IE < 9)
+            $(document).ready(function () {
+                outdatedBrowser({
+                    bgColor: "#f25648",
+                    color: "#ffffff",
+                    lowerThan: "transform",
+                    languagePath: "your_path/outdatedbrowser/lang/en.html",
+                });
+            });
+        </script>
+
+        <!-- Main JS  -->
+
+        <script src="OwlCarousel2/owl.carousel.min.js"></script>
+        <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <!-- Main JS  -->
+        <script src="./js/main.js" type="text/javascript"></script>
+    </body>
+</html>

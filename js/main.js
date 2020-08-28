@@ -1,10 +1,9 @@
 (function () {
 	$('.menu-btn').on('click', function() {
 		$('.menu-btn').toggleClass('open');
+		$('.sidebar').toggleClass('open');
 	})
 })();
-
-
 
 /*--  Hide Header on on scroll down --*/
 
@@ -68,14 +67,38 @@ $(document).ready(function(){
 
 $("#gamesHover").hover(
     function () {
-            $('.game-menu').addClass('show');
-            $('.nav-wrap').addClass("pointer");
+        $('.game-menu').addClass('show');
+        $('.nav-wrap').addClass("pointer");
 
             
     }, 
     function () {
         $('.game-menu').removeClass('show');
         $('.nav-wrap').removeClass("pointer");
+    }
+);
+
+/*-- side menu open sub menu --*/
+$('.game-btn').click(function(){
+    $('.game-show').toggleClass("show");
+    $('.game-btn').toggleClass("rotate");
+    
+})
+$('.livegame-btn').click(function(){
+    $('.livegame-show').toggleClass("show");
+    $('.livegame-btn').toggleClass("rotate");
+})
+
+
+
+// diamond slider effect
+
+$(".diamond-wrap").hover(
+    function () {
+        $(this).addClass('hovering-slide');
+    }, 
+    function () {
+        $(this).removeClass("hovering-slide");
     }
 );
 
@@ -142,3 +165,23 @@ $('.news-slider').on('initialized.owl.carousel changed.owl.carousel', function(e
     }
   });
 
+//Diamond carousal
+$('#diamondCarousel').owlCarousel({
+    center: true,
+    items:2,
+    loop: true,
+    margin:10,
+    autoplay: true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    responsive:{
+        600:{
+            items:2,
+            slideBy: 2
+        },
+        1000:{
+            items:3,
+            slideBy: 3
+        }
+    }
+});
