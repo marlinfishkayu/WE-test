@@ -3149,6 +3149,9 @@ select.form-control::-ms-expand {
   #slider-area .news-slide {
     height: 350px;
   }
+  .news-carousel .owl-item {
+    height: 450px;
+  }
 }
 
 @media all and (-ms-high-contrast: none) and (min-width: 992px), (-ms-high-contrast: active) and (min-width: 992px) {
