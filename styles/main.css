@@ -3166,7 +3166,7 @@ select.form-control::-ms-expand {
   #slider-area .news-slide {
     height: 350px;
   }
-  #news-carousel.owl-drag .owl-item {
+  #news-carousel .owl-carousel.owl-drag .owl-item {
     height: 250px;
   }
 }
@@ -3190,7 +3190,7 @@ select.form-control::-ms-expand {
   #slider-area .news-slide {
     height: 450px;
   }
-  #news-carousel.owl-drag .owl-item {
+  #news-carousel .owl-carousel.owl-drag .owl-item {
     height: 450px;
   }
 }
