@@ -118,6 +118,17 @@
             right: -104px;
         }
     }
+    #newsFeed .timeline-wrap .timeline ul li .left-frame .frame-right{
+        position: absolute;
+        right: -74px;
+        top: 150px;
+    }
+    #newsFeed .timeline-wrap .timeline ul li .right-frame .frame-right{
+        position: absolute;
+        left: -95px;
+        top: 150px;
+    }
+
     #newsFeed .timeline-wrap .timeline ul li:nth-child(even){
         float: right;
         clear: left;
@@ -272,6 +283,13 @@
     }
     #newsFeed .timeline-wrap .timeline ul li:after {
         bottom: 133px;
+    }
+    #newsFeed .timeline-wrap .timeline ul li .left-frame .frame-right{
+        top: 236px;
+    }
+    #newsFeed .timeline-wrap .timeline ul li .right-frame .frame-right{
+        left: -23px;
+        top: 220px;
     }
  }
 // Extra large devices (large desktops, 1200px and up)
