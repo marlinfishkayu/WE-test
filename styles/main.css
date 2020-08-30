@@ -2829,6 +2829,10 @@ select.form-control::-ms-expand {
   margin-bottom: 20px;
 }
 
+#newsFeed .timeline-content {
+  padding-top: 30px;
+}
+
 @media (min-width: 768px) {
   #slider-area .news-slide {
     height: 350px;
