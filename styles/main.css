@@ -578,6 +578,7 @@ img {
   font-weight: 200;
   font-size: 16px;
   margin: -6px 5px;
+  line-height: inherit;
 }
 
 .icon-search h6:hover {
@@ -2987,7 +2988,9 @@ select.form-control::-ms-expand {
   background: #89663d;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #89663d), color-stop(48%, #4a3d2b), to(#060b1a));
   background: linear-gradient(180deg, #89663d 15%, #4a3d2b 48%, #060b1a 100%);
+  background-clip: text;
   -webkit-background-clip: text;
+  color: transparent;
   -webkit-text-fill-color: transparent;
 }
 
@@ -3031,6 +3034,23 @@ select.form-control::-ms-expand {
   }
   #newsFeed .frame-detail .frame-right {
     width: 0%;
+  }
+  #newsFeed .timeline-wrap .timeline ul li:nth-child(odd):before {
+    bottom: 133px;
+    width: 170px;
+  }
+  #newsFeed .timeline-wrap .timeline ul li:nth-child(even):before {
+    bottom: 134px;
+    width: 154px;
+  }
+  #newsFeed .timeline-wrap .timeline ul li:after {
+    bottom: 133px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #newsFeed .timeline-wrap .timeline ul li:nth-child(odd):before {
+    width: 190px;
   }
 }
 
