@@ -3108,6 +3108,13 @@ select.form-control::-ms-expand {
   #indexWhatsNews .owl-carousel.owl-drag .owl-item {
     height: 492px;
   }
+  #newsFeed .frame-detail .frame-right::after {
+    background: transparent;
+    color: #89663d;
+  }
+  #newsFeed .timeline-wrap .timeline::before {
+    width: 2px;
+  }
 }
 
 @media all and (-ms-high-contrast: none) and (min-width: 576px), (-ms-high-contrast: active) and (min-width: 576px) {
