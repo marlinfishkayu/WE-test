@@ -67,14 +67,10 @@
     .timeline-content{
         padding-top: 30px;
     }
-<<<<<<< HEAD
-
+    
 }
 .timeline-detail{
     display: none;
-=======
-    
->>>>>>> fd3a6b749c0d94b102340639b3660bc34029cee7
 }
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
@@ -82,15 +78,12 @@
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-<<<<<<< HEAD
     #newsFeed .timeline-detail{
         display: block;
         position: absolute;
         bottom: -65px;
         left: 10px;
     }
-=======
->>>>>>> fd3a6b749c0d94b102340639b3660bc34029cee7
     #slider-area .news-slide{
         height: 350px;
     }
@@ -136,11 +129,7 @@
     }
     #newsFeed .timeline-wrap .timeline ul li .left-frame .frame-right{
         position: absolute;
-<<<<<<< HEAD
         right: -70px;
-=======
-        right: -74px;
->>>>>>> fd3a6b749c0d94b102340639b3660bc34029cee7
         top: 150px;
     }
     #newsFeed .timeline-wrap .timeline ul li .right-frame .frame-right{
@@ -148,10 +137,7 @@
         left: -95px;
         top: 150px;
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> fd3a6b749c0d94b102340639b3660bc34029cee7
     #newsFeed .timeline-wrap .timeline ul li:nth-child(even){
         float: right;
         clear: left;
@@ -167,21 +153,14 @@
     }
     #newsFeed .timeline-wrap .timeline ul li .right-frame{
         padding-left: 1.5rem;
-<<<<<<< HEAD
         .frame-detail{
             margin-left: 36px;
         }
-=======
->>>>>>> fd3a6b749c0d94b102340639b3660bc34029cee7
     }
     #newsFeed .timeline-wrap .timeline::before{
         content:'';
         position: absolute;
-<<<<<<< HEAD
         top: 240px;
-=======
-        top: 0;
->>>>>>> fd3a6b749c0d94b102340639b3660bc34029cee7
         left: 50%;
         transform: translateX(-50%);
         height: 100%;
@@ -245,22 +224,13 @@
         &:after{
             content:'07';
             position: absolute;
-<<<<<<< HEAD
-            top: -73px;
+            top: -77px;
             right: -23px;
-=======
-            top: -63px;
-            right: -13px;
->>>>>>> fd3a6b749c0d94b102340639b3660bc34029cee7
             z-index: -1;
             width: 85px;
             height: 88px;
             font-family: $fontBarlowLight;
-<<<<<<< HEAD
             font-size: 70px;
-=======
-            font-size: 60px;
->>>>>>> fd3a6b749c0d94b102340639b3660bc34029cee7
             background: rgb(137,102,61);
             background: -moz-linear-gradient(180deg, rgba(137,102,61,1) 15%, rgba(74,61,43,1) 48%, rgba(6,11,26,1) 100%);
             background: -webkit-linear-gradient(180deg, rgba(137,102,61,1) 15%, rgba(74,61,43,1) 48%, rgba(6,11,26,1) 100%);
@@ -271,23 +241,11 @@
             -webkit-text-fill-color: transparent;
         }
     }
-<<<<<<< HEAD
-
-
-=======
->>>>>>> fd3a6b749c0d94b102340639b3660bc34029cee7
     
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-<<<<<<< HEAD
-    #newsFeed .timeline-wrap .timeline .right-frame .timeline-detail{
-        left: 10px;
-    }
-    #news-carousel .owl-carousel .owl-item{
-=======
     #slider-area .news-slide{
->>>>>>> fd3a6b749c0d94b102340639b3660bc34029cee7
         height: 450px;
     }
     #newsFeed .filter-item{
@@ -318,23 +276,15 @@
             line-height: 1.3;
         }
         .frame-date{
-<<<<<<< HEAD
             font-size: 36px;
             letter-spacing: 2px;
-=======
-            font-size: 18px;
->>>>>>> fd3a6b749c0d94b102340639b3660bc34029cee7
         }
         .frame-left{
             width: 100%;
         }
-<<<<<<< HEAD
-        
-=======
         .frame-right{
             width: 0%;
         }
->>>>>>> fd3a6b749c0d94b102340639b3660bc34029cee7
     }
     #newsFeed .timeline-wrap .timeline ul li:nth-child(odd):before {
         bottom: 133px;
@@ -342,8 +292,10 @@
     }
     #newsFeed .timeline-wrap .timeline ul li:nth-child(even):before {
         bottom: 134px;
-<<<<<<< HEAD
         width: 190px;
+    }
+    #newsFeed .timeline-wrap .timeline .right-frame .timeline-detail{
+        left: 10px;
     }
     #newsFeed .timeline-wrap .timeline ul li .right-frame{
         padding-left: 4rem;
@@ -352,50 +304,22 @@
         font-size: 120px;
         width: 140px;
         height: 156px;
-        top: -128px;
-        right: -27px;
+        top: -119px;
+        right: -95px;
     }
-    #newsFeed .timeline-wrap .timeline ul li .left-frame .frame-right{
-        position: absolute;
-        right: -90px;
-        top: 212px;
-    }
-    #newsFeed .timeline-wrap .timeline ul li .right-frame .frame-right{
-        position: absolute;
-        left: -95px;
-        top: 212px;
-    }
+    
     #newsFeed .timeline-wrap .timeline ul li:after{
         width: 30px;
         height: 30px;
-        bottom: 123px;
+        bottom: 133px;
     }
     #newsFeed .timeline-wrap .timeline::before{
         top: 340px;
     }
     #newsFeed .right-frame .timeline-detail{
         left: 57px;
-=======
         width: 154px;
     }
-    #newsFeed .timeline-wrap .timeline ul li:after {
-        bottom: 133px;
-    }
-    #newsFeed .timeline-wrap .timeline ul li .left-frame .frame-right{
-        top: 236px;
-    }
-    #newsFeed .timeline-wrap .timeline ul li .right-frame .frame-right{
-        left: -23px;
-        top: 220px;
->>>>>>> fd3a6b749c0d94b102340639b3660bc34029cee7
-    }
- }
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-    #newsFeed .timeline-wrap .timeline ul li:nth-child(odd):before {
-        width: 190px;
-    }
-<<<<<<< HEAD
     #news-carousel #slider-area .news-slide{
         height: inherit;
     }
@@ -403,7 +327,19 @@
         height: 500px;
     }
     #newsFeed .timeline-wrap .timeline ul li .left-frame .frame-right {
-        right: -78px;
+        right: -17px;
+        top: 208px;
+    }
+    #newsFeed .timeline-wrap .timeline ul li .right-frame .frame-right{
+        left: -23px;
+        top: 220px
+    }
+    
+ }
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    #newsFeed .timeline-wrap .timeline ul li:nth-child(odd):before {
+        width: 190px;
     }
 }
 @media (min-width: 1500px) {
@@ -414,7 +350,6 @@
 @media (min-width: 2000px) {
     #news-carousel .owl-carousel .owl-item{
         height: 800px;
-    }
-=======
->>>>>>> fd3a6b749c0d94b102340639b3660bc34029cee7
+    
+ }
 }
