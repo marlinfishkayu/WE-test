@@ -81,7 +81,8 @@
     #newsFeed .timeline-detail{
         display: block;
         position: absolute;
-        bottom: -80px;
+        bottom: -65px;
+        left: 10px;
     }
     #slider-area .news-slide{
         height: 350px;
@@ -151,6 +152,9 @@
     }
     #newsFeed .timeline-wrap .timeline ul li .right-frame{
         padding-left: 1.5rem;
+        .frame-detail{
+            margin-left: 36px;
+        }
     }
     #newsFeed .timeline-wrap .timeline::before{
         content:'';
@@ -236,12 +240,15 @@
             -webkit-text-fill-color: transparent;
         }
     }
-    
+
 
     
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+    #newsFeed .timeline-wrap .timeline .right-frame .timeline-detail{
+        left: 10px;
+    }
     #news-carousel .owl-carousel .owl-item{
         height: 450px;
     }
@@ -279,6 +286,7 @@
         .frame-left{
             width: 100%;
         }
+        
     }
     #newsFeed .timeline-wrap .timeline ul li:nth-child(odd):before {
         bottom: 133px;
@@ -316,7 +324,9 @@
     #newsFeed .timeline-wrap .timeline::before{
         top: 340px;
     }
-    
+    #newsFeed .right-frame .timeline-detail{
+        left: 57px;
+    }
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
