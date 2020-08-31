@@ -2922,7 +2922,7 @@ select.form-control::-ms-expand {
 }
 
 #newsFeed .showmore-deco-wrap {
-  display: none;
+  display: block;
   width: 200px;
   height: 51px;
   cursor: pointer;
