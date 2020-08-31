@@ -75,6 +75,14 @@ h4 {
   font-weight: 700; 
   line-height: 26.4px; 
 } 
+h6 { 
+  font-family: $fontFuturaMedium; 
+  font-size: 16px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 100; 
+  line-height: 1px; 
+} 
 img{
   width: 100%;
   height: 100%;
@@ -120,7 +128,6 @@ img{
   font-family: Futura,Trebuchet MS,Arial,sans-serif; 
   letter-spacing: 3px;
   text-align: center;
-  text-shadow: 0 1px 1px #00204C;
   text-decoration: none;
   color: white;
   width: 200px;
@@ -131,12 +138,11 @@ img{
   position: relative;
   cursor: pointer;
   box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
-  border: solid 1px transparent;
+  border:  transparent;
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(130deg, #CAAC85, #89663D, #89663D, #89663D);
   background-origin: border-box;
   background-clip: content-box, border-box;
-  -webkit-box-shadow: 2px 1000px 1px #00172D inset;
-  box-shadow: 1px 1000px 1px #011A3B inset;
+  box-shadow: 1px 1000px 1px #906c4d inset;
 }
 .hero-title{
   font-weight: 100;
@@ -203,4 +209,5 @@ img{
 @import "./index";
 @import "./game";
 @import "./contact";
+@import "./whatsNews";
 @import "./forIE";

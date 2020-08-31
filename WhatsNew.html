@@ -16,8 +16,10 @@
         <!-- Owl CSS -->
         <link rel="stylesheet" href="OwlCarousel2/owl.carousel.min.css" />
         <link rel="stylesheet" href="OwlCarousel2/owl.theme.default.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
         <!-- main CSS -->
         <link rel="stylesheet" href="./styles/main.css" />
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <title>World Entertainment</title>
         <link rel="shortcut icon" type="image/svg" href="./images/icon/favicon.svg" />
     </head>
@@ -253,150 +255,146 @@
                     <!-- side menu end  -->
 
                     <!-- navigation bar end -->
-                </div>
-            </section>
-            <!-- Contact Us Start -->
-            <div id="ContactUs">
-                <div class="hero-header text-center">
-                    <div class="hero-header-bkg">
-                        <img src="images/contact/hero_contact_x1.png" style="width: 100%; background-position: 50% 10%; background-size: cover; height: 100%; object-fit: cover;" srcset="images/contact/hero_contact_x1.png 500w, images/contact/hero_contact_x2.png 1000w" alt="" />
-                    </div>
-                    <div class="hero-float">
-                        <h1 class="hero-title">Contact Us</h1>
-                        <h3 class="hero-intro1">Welcome to contact us to discuss cooperation opportunities.</h3>
-                        <p class="hero-intro2">Leave us your message by filling the contact form below and WE’ll be in touch with you soon.</p>
-                        <p class="hero-intro2 md-block">By filling up this form, you are agree and are willing to allow us to collect your contact details and other information that may be required to enable us to effectively and efficiently reply to all your enquiries.</p>
-                    </div>
-                </div>
-                 <!-- Start Content Section -->
-                 <div class="contact-main">
-                        <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                            <!-- Start Contact Form -->
-                            <form role="form" id="contactForm" class="contact-form" data-toggle="validator" class="shake">
-                            <div class="row">
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group">
-                                        <div class="controls">
-                                        <input type="text" id="firstname" class="form-control" placeholder="First name" required data-error="Please enter your first name">
-                                        <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group">
-                                        <div class="controls">
-                                        <input type="text" id="lastname" class="form-control" placeholder="Last name" required data-error="Please enter your last name">
-                                        <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                </div>
+                    <!-- Slider start -->
+                    <div id="news-carousel">
+                        <div id="slider-area" class="owl-carousel">
+                            <div class="slide news-slide">
+                                <img src="images/news/hero_news_1_x1.png" srcset="images/news/hero_news_1_x1.png 500w, images/news/hero_news_1_x2.png 1000w" alt="" />
                             </div>
-                            <div class="row">
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group">
-                                        <div class="controls">
-                                        <input type="text" id="PhoneNumber" class="form-control" placeholder="Phone number" required data-error="Please enter your phone number">
-                                        <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="form-group">
-                                        <div class="controls">
-                                        <select class="form-control" id="country" required data-error="Please select your country">
-                                            <option selected>Country</option>
-                                            <option>Hong Kong</option>
-                                            <option>China</option>
-                                            <option>Thailand</option>
-                                            <option>Singapore</option>
-                                            <option>Philippines</option>
-                                          </select>
-                                        <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="slide news-slide">
+                                <img src="images/news/hero_news_1_x1.png" srcset="images/news/hero_news_1_x1.png 500w, images/news/hero_news_1_x2.png 1000w" alt="" />
                             </div>
-                            <div class="row">
-                                <div class="col-12 col-md-8">
-                                    <div class="form-group">
-                                        <div class="controls">
-                                        <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
-                                        <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-4">
-                                    <div class="form-group">
-                                        <div class="controls">
-                                        <select class="form-control" id="exampleFormControlSelect1">
-                                            <option selected>Enquiry type</option>
-                                            <option>Job Opportunity</option>
-                                            <option>Question</option>
-                                          </select>
-                                        <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="slide news-slide">
+                                <img src="images/news/hero_news_1_x1.png" srcset="images/news/hero_news_1_x1.png 500w, images/news/hero_news_1_x2.png 1000w" alt="" />
                             </div>
-                            <div class="form-group">
-                                <div class="controls">
-                                <textarea id="message" rows="7" placeholder="Your message here" class="form-control" required data-error="Write your message"></textarea>
-                                <div class="help-block with-errors"></div>
-                                </div>  
-                            </div>
-                            <div class="enquiry-button">
-                                <button type="submit" id="submit" class="enquiryBtn btn" type="button">
-                                    SUBMIT ENQUIRY
-                                </button>
-                                <div id="msgSubmit" class="h3 text-center hidden"></div> 
-                                <div class="clearfix"></div>   
-                            </div>
-                            </form>     
-                            <!-- End Contact Form -->
+                            <div class="slide news-slide">
+                                <img src="images/news/hero_news_1_x1.png" srcset="images/news/hero_news_1_x1.png 500w, images/news/hero_news_1_x2.png 1000w" alt="" />
                             </div>
                             
                         </div>
-                        <div class="contact-bottom">
-                            <h2 class="bottom-deco">GET IN TOUCH</h2>
-                            <p class="hero-intro2">We’re keen on talking anything with you.</p>
-                            <div class="float-md-left">
-                                <div class="d-flex contact-icon-list">
-                                    <div class="contact-icon-wrap">
-                                        <div class="contact-skype contact-icon"></div>
-                                    </div>
-                                    <p class="hero-intro2 custom-intro2">Chat with WE Business</p>
-                                </div>
-                                <div class="d-flex contact-icon-list">
-                                    <div class="contact-icon-wrap">
-                                        <div class="contact-email contact-icon"></div>
-                                    </div>
-                                    <p class="hero-intro2 custom-intro2">hello@wordent.com</p>
-                                </div>
-                            </div>
-                            <div class="float-md-right">
-                                <p class="hero-intro2">Follow us:</p>
-                                <div class="follow-icon-wrap">
-                                    <div class="contact-icon-wrap">
-                                        <div class="contact-fb contact-icon"></div>
-                                    </div>
-                                    <div class="contact-icon-wrap">
-                                        <div class="contact-yt contact-icon"></div>
-                                    </div>
-                                    <div class="contact-icon-wrap">
-                                        <div class="contact-ig contact-icon"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        
                     </div>
-      <!-- End Content Section  -->   
-                
-            </div>
-            <!-- Contact Us End -->
+                    
+                    <!-- Slider end -->
+                </div>
+            </section>
+            
+            <!-- whats'new start-->
+            <section id="newsFeed">
+                <div class="news-filter-wrap">
+                    <div class="news-filter d-flex">
+                        <div class="filter-item active">ALL</div>
+                        <div class="filter-item">GAME RELEASE</div>
+                        <div class="filter-item">EVENT</div>
+                    </div>
+                </div>
+                <div class="timeline-wrap container">
+                    <div class="timeline">
+                        <ul>
+                            <li>
+                                <div class="timeline-content left-frame">
+                                    <div class="event-photo ">
+                                        <picture>
+                                            <img 
+                                                src="images/news/timeline_event1_x1.png"
+                                                srcset="images/news/timeline_event1_x1.png 500w, images/news/timeline_event1_x2.png 1000w"
+                                                alt=""
+                                            />
+                                        </picture>
+                                    </div>
+                                    <div class="frame-detail">
+                                        <div class="frame-left">
+                                            <h6>EVENT</h6>
+                                            <h2>The Phil-Asia Gaming <br/>Expo (PAGE)</h3>
+                                        </div>
+                                        <div class="frame-right">
+                                            <h2 class="frame-date">FEB</h2>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-detail">
+                                        <a href="#"><button class="secondaryBtn" type="button">DETAILS</button></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-content right-frame">
+                                    <div class="event-photo">
+                                        <picture>
+                                            <img 
+                                                src="images/news/timeline_event1_x1.png"
+                                                srcset="images/news/timeline_event1_x1.png 500w, images/news/timeline_event1_x2.png 1000w"
+                                                alt=""
+                                            />
+                                        </picture>
+                                    </div>
+                                    <div class="frame-detail">
+                                        <div class="frame-left">
+                                            <h6>EVENT</h6>
+                                            <h2>The Phil-Asia Gaming <br/>Expo (PAGE)</h3>
+                                        </div>
+                                        <div class="frame-right">
+                                            <h2 class="frame-date">FEB</h2>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-detail">
+                                        <a href="#"><button class="secondaryBtn" type="button">DETAILS</button></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-content left-frame">
+                                    <div class="event-photo ">
+                                        <picture>
+                                            <img 
+                                                src="images/news/timeline_event1_x1.png"
+                                                srcset="images/news/timeline_event1_x1.png 500w, images/news/timeline_event1_x2.png 1000w"
+                                                alt=""
+                                            />
+                                        </picture>
+                                    </div>
+                                    <div class="frame-detail">
+                                        <div class="frame-left">
+                                            <h6>EVENT</h6>
+                                            <h2>The Phil-Asia Gaming <br/>Expo (PAGE)</h3>
+                                        </div>
+                                        <div class="frame-right">
+                                            <h2 class="frame-date">FEB</h2>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-detail">
+                                        <a href="#"><button class="secondaryBtn" type="button">DETAILS</button></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-content right-frame">
+                                    <div class="event-photo">
+                                        <picture>
+                                            <img 
+                                                src="images/news/timeline_event1_x1.png"
+                                                srcset="images/news/timeline_event1_x1.png 500w, images/news/timeline_event1_x2.png 1000w"
+                                                alt=""
+                                            />
+                                        </picture>
+                                    </div>
+                                    <div class="frame-detail">
+                                        <div class="frame-left">
+                                            <h6>EVENT</h6>
+                                            <h2>The Phil-Asia Gaming <br/>Expo (PAGE)</h3>
+                                        </div>
+                                        <div class="frame-right">
+                                            <h2 class="frame-date">FEB</h2>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-detail">
+                                        <a href="#"><button class="secondaryBtn" type="button">DETAILS</button></a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- whats'new end-->
 
             <!-- Footer start -->
             <footer>
@@ -404,18 +402,22 @@
                     <div class="footer-subscribe">
                         <div class="d-lg-flex justify-content-md-between flex-lg-row-reverse">
                             <div class="d-md-flex flex-column">
-                                <h6>Subscribe</h6><br>
-                                <p>Be the first to know about the latest news and <br class="footer-break"> exclusive offers from WE.</p>
+                                <h6>Subscribe</h6>
+                                <br />
+                                <p>
+                                    Be the first to know about the latest news and <br class="footer-break" />
+                                    exclusive offers from WE.
+                                </p>
                                 <div class="d-sm-flex">
                                     <form class="subscribe-form">
                                         <div class="form-group">
-                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Please enter your email here">
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Please enter your email here" />
                                         </div>
                                     </form>
                                     <button type="button" class="btn">SIGN UP</button>
                                 </div>
-                              </div>
-                              <div class="footer-licens">
+                            </div>
+                            <div class="footer-licens">
                                 <div class="footer-logo">
                                     <img alt="" src="images/icon/logo.svg" />
                                 </div>
@@ -442,11 +444,11 @@
                                             </div>
                                         </div>
                                     </div>
-                                  </div>
+                                </div>
                             </div>
-                          </div>
+                        </div>
                     </div>
-                    
+
                     <div class="underline">
                         <div class="footer-logo">
                             <img alt="" src="images/icon/logo.svg" />
@@ -455,13 +457,13 @@
                             <div class="d-sm-flex flex-sm-row footer-TC">
                                 <h6>©2020 WORLD ENTERTAINMENT.</h6>
                                 <div class="d-sm-flex flex-sm-row TC">
-                                    <h6>Terms & Conditions</h6>  
-                                    <h6>Privacy</h6>  
+                                    <h6>Terms & Conditions</h6>
+                                    <h6>Privacy</h6>
                                     <h6>Cookies</h6>
                                 </div>
                             </div>
                             <div class="footer-social">
-                                <div class="d-flex  justify-content-sm-end justify-content-center">
+                                <div class="d-flex justify-content-sm-end justify-content-center">
                                     <a href="#" class="footer-icon">
                                         <img alt="" src="images/icon/fb_f.svg" />
                                     </a>
