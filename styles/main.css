@@ -2842,7 +2842,7 @@ select.form-control::-ms-expand {
     display: block;
     position: absolute;
     bottom: -65px;
-    left: 10px;
+    left: 0px;
   }
   #slider-area .news-slide {
     height: 350px;
@@ -3071,9 +3071,6 @@ select.form-control::-ms-expand {
     bottom: 134px;
     width: 190px;
   }
-  #newsFeed .timeline-wrap .timeline .right-frame .timeline-detail {
-    left: 10px;
-  }
   #newsFeed .timeline-wrap .timeline ul li .right-frame {
     padding-left: 4rem;
   }
@@ -3087,7 +3084,7 @@ select.form-control::-ms-expand {
   #newsFeed .timeline-wrap .timeline ul li:after {
     width: 30px;
     height: 30px;
-    bottom: 133px;
+    bottom: 123px;
   }
   #newsFeed .timeline-wrap .timeline::before {
     top: 340px;
@@ -3109,6 +3106,9 @@ select.form-control::-ms-expand {
   #newsFeed .timeline-wrap .timeline ul li .right-frame .frame-right {
     left: -39px;
     top: 220px;
+  }
+  #newsFeed .right-frame .detail-r {
+    left: 97px;
   }
 }
 
