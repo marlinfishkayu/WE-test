@@ -17,6 +17,13 @@
 #liveStudio .studio-slide-bkg-2{
     height: 300px;
 }
+#liveStudio .studio-img-wrap{
+    width: 100%;
+    background-position: 50% 10%; 
+    background-size: cover; 
+    height: 100%; 
+    object-fit: cover;
+}
 #liveStudio .hero-header::after{
     background: rgb(6,11,26);
     background: linear-gradient(180deg, rgba(6,11,26,0) 0%, rgba(6,11,26,1) 92%, rgba(9,17,41,1) 100%);    

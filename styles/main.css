@@ -3419,6 +3419,15 @@ select.form-control::-ms-expand {
   height: 300px;
 }
 
+#liveStudio .studio-img-wrap {
+  width: 100%;
+  background-position: 50% 10%;
+  background-size: cover;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 #liveStudio .hero-header::after {
   background: #060b1a;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(6, 11, 26, 0)), color-stop(92%, #060b1a), to(#091129));
