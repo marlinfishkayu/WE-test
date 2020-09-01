@@ -246,3 +246,12 @@ $(".img-hover").mousemove(function(event){
   $(".img-hover").mouseout(function(){
     $(this).css("transform", "translate(0px,0px)");
   });
+
+  $(".img-hover").hover(
+    function () {
+        $('.studio-slide-text').addClass('hide-slide');
+    }, 
+    function () {
+        $('.studio-slide-text').removeClass("hide-slide");
+    }
+);

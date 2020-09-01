@@ -3425,6 +3425,13 @@ select.form-control::-ms-expand {
   background: linear-gradient(180deg, rgba(6, 11, 26, 0) 0%, #060b1a 92%, #091129 100%);
 }
 
+.studio-card .studio-slide-text {
+  padding: 2rem;
+  opacity: 1;
+  position: absolute;
+  display: block;
+}
+
 .studio-card {
   overflow: hidden;
   position: relative;
@@ -3467,6 +3474,10 @@ select.form-control::-ms-expand {
 
 .studio-card img:hover {
   opacity: 1;
+}
+
+#liveStudio .hide-slide {
+  display: none;
 }
 
 @media (min-width: 768px) {

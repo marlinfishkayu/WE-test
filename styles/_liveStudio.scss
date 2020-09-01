@@ -24,6 +24,12 @@
     background: rgb(6,11,26);
     background: linear-gradient(180deg, rgba(6,11,26,0) 0%, rgba(6,11,26,1) 92%, rgba(9,17,41,1) 100%);    
 }
+.studio-card .studio-slide-text{
+    padding: 2rem;
+    opacity: 1;
+    position: absolute;
+    display: block;
+}
 .studio-card {
     overflow: hidden;
     position: relative;
@@ -37,18 +43,15 @@
     Each "card" is set to 600x400px because that is the size of  the image, adjust as needed. Make sure the overflow is set to hidden or else when the img scales it will clip with the other images.
     */
   }
-
   .studio-img-container {
     transition: transform .1s ease;
   }
-
   .studio-img-container:hover {
     transform: scale(1.1);
     /*
     Change the scale value as much as you want to change the amount of zoom on hover.
     */
   }
-
   .studio-card img {
     opacity: .5;
     transform: translate(0,0);
@@ -57,9 +60,11 @@
     */
     transition: opacity .25s ease-in-out;
   }
-
   .studio-card img:hover {
     opacity: 1;
+  }
+  #liveStudio .hide-slide{
+    display: none;
   }
 
 // Small devices (landscape phones, 576px and up)
