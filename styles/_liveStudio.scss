@@ -41,6 +41,25 @@
     letter-spacing: 3px;
     padding-top: 1rem;
 }
+#liveStudio .room-des{
+    color:#979797;
+    font-family: $fontBarlowLight;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding-top: 5rem;
+    position: relative;
+}
+#liveStudio .room-des::before{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    color: red;
+    top: 0;
+    left: 0;
+}
 .studio-card {
     overflow: hidden;
     position: relative;
