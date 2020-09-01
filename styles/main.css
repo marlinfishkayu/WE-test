@@ -3305,7 +3305,6 @@ select.form-control::-ms-expand {
 
 #services .services-main {
   padding-top: 300px;
-  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -3317,28 +3316,79 @@ select.form-control::-ms-expand {
   height: 400px;
 }
 
+#services .hero-intro2 {
+  padding: 0 3rem;
+}
+
 .services-row {
   width: 100%;
-  max-width: 400px;
   margin: 0 auto;
 }
 
 .service-item {
   text-align: center;
   width: 100%;
-  padding: 5px 0;
+  padding: 5px 3rem;
 }
 
 .service-img {
   width: 132px;
   height: 132px;
   margin: 0 auto;
-  border: 1px solid green;
+}
+
+.service-title {
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  color: #d8d8d8;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+.services-detail {
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #979797;
+  padding-bottom: 3rem;
 }
 
 @media (min-width: 768px) {
-  .service-item {
-    width: 33%;
+  #services .services-main {
+    padding-top: 200px;
+  }
+  #services .services-main {
+    max-width: 800px;
+  }
+  .services-row {
+    padding-bottom: 2rem;
+  }
+  .services-wrap {
+    padding-bottom: 3rem;
+  }
+  .service-img {
+    width: 165px;
+    height: 165px;
+  }
+}
+
+@media (min-width: 992px) {
+  #services .services-main {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #services .services-main {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 2000px) {
+  #services .services-main {
+    max-width: 1600px;
   }
 }
 

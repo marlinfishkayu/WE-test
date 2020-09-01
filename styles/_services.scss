@@ -1,6 +1,5 @@
 #services .services-main{
     padding-top: 300px;
-    max-width: 700px;
     margin: 0 auto;
 }
 #services .hero-header {
@@ -9,25 +8,41 @@
 #services .hero-header-bkg {
     height: 400px;
 }
+
+#services .hero-intro2{
+    padding: 0 3rem
+}
 .services-row{
     width: 100%;
-    max-width: 400px;
     margin: 0 auto ;
 }
-
 .service-item{
     text-align: center;
     width: 100%;
-    padding: 5px 0;
+    padding: 5px 3rem;
     
 }
 .service-img{
     width: 132px;
     height: 132px;
     margin: 0 auto;
-    border: 1px solid green;
 }
-
+.service-title{
+    font-family: $fontFuturaMedium;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    color: $primaryText;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+.services-detail{
+    font-family: $fontBarlowLight;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #979797;
+    padding-bottom: 3rem;
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
@@ -35,16 +50,39 @@
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    .service-item{
-        width: 33%;
+    #services .services-main {
+        padding-top: 200px;
+    }
+    #services .services-main{
+        max-width: 800px;
+    }
+    .services-row{
+        padding-bottom: 2rem;
+    }
+    .services-wrap{
+        padding-bottom: 3rem;
+    }
+    .service-img{
+        width: 165px;
+        height: 165px;
     }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-
+    #services .services-main{
+        max-width: 900px;
+    }
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  
+    #services .services-main{
+        max-width: 1200px;
+    }
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 2000px) {
+    #services .services-main{
+        max-width: 1600px;
+    }
 }
