@@ -3635,6 +3635,33 @@ select.form-control::-ms-expand {
   padding-top: 2rem;
 }
 
+#liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item {
+  margin: 3rem 0;
+}
+
+#liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item .cert-img-wrap {
+  width: 250px;
+  height: 100px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+#liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item .cert-img-wrap img {
+  width: 100%;
+  height: 100%;
+  background-position: 50% 10%;
+  background-size: contain;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+#liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item p {
+  padding: 1rem;
+}
+
 @media (min-width: 768px) {
   #liveStudio .hero-header-bkg {
     height: 600px;
