@@ -3303,6 +3303,45 @@ select.form-control::-ms-expand {
   }
 }
 
+#services .services-main {
+  padding-top: 300px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#services .hero-header {
+  height: 400px;
+}
+
+#services .hero-header-bkg {
+  height: 400px;
+}
+
+.services-row {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.service-item {
+  text-align: center;
+  width: 100%;
+  padding: 5px 0;
+}
+
+.service-img {
+  width: 132px;
+  height: 132px;
+  margin: 0 auto;
+  border: 1px solid green;
+}
+
+@media (min-width: 768px) {
+  .service-item {
+    width: 33%;
+  }
+}
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   #nav-area .search-form {
     top: -5px;
