@@ -17,9 +17,6 @@
 #liveStudio .studio-slide-bkg-2{
     height: 300px;
 }
-#liveStudio .live-slide-wrap{
-    margin: 8rem 0;
-}
 #liveStudio .studio-img-wrap{
     width: 100%;
     background-position: 50% 10%; 
@@ -154,14 +151,21 @@
         height: 600px;
     }
     #liveStudio .studio-slide-bkg{
-        height: 700px;
+        height: 820px;
+    }
+    #liveStudio .studio-slide-bkg-2{
+        height: 2000px;
     }
     #liveStudio .studio-img-container{
         height: 550px;
     }
     #liveStudio .livestudio-sec1{
+        margin: auto;
+    }
+    #liveStudio .live-slide-wrap{
         width: 1200px;
         margin: auto;
+        padding: 8rem 0;
     }
 }
 
