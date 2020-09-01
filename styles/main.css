@@ -3432,6 +3432,22 @@ select.form-control::-ms-expand {
   display: block;
 }
 
+#liveStudio .room-num {
+  color: #89663D;
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+#liveStudio .room-name {
+  color: #D8D8D8;
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  padding-top: 1rem;
+}
+
 .studio-card {
   overflow: hidden;
   position: relative;
