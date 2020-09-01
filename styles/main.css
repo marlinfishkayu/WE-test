@@ -3569,6 +3569,10 @@ select.form-control::-ms-expand {
   display: none;
 }
 
+#liveStudio .studio-slide-bkg-2 {
+  position: relative;
+}
+
 @media (min-width: 768px) {
   #liveStudio .hero-header-bkg {
     height: 600px;

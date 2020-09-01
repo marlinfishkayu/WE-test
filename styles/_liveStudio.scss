@@ -140,6 +140,9 @@
 .hovering-slide .studio-slide-text{
     display: none;
 }
+#liveStudio .studio-slide-bkg-2{
+    position: relative;
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
