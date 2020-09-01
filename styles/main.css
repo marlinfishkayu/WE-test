@@ -3426,6 +3426,22 @@ select.form-control::-ms-expand {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  position: absolute;
+}
+
+#liveStudio .studio-img-wrap picture::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #060B1A;
+  opacity: .8;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
 }
 
 #liveStudio .hero-header::after {
@@ -3463,7 +3479,7 @@ select.form-control::-ms-expand {
   font-size: 20px;
   font-weight: 100;
   letter-spacing: 1px;
-  padding-top: 5rem;
+  padding-top: 20rem;
   position: relative;
 }
 
@@ -3523,6 +3539,14 @@ select.form-control::-ms-expand {
 }
 
 #liveStudio .hide-slide {
+  display: none;
+}
+
+#liveStudio .hovering-slide .studio-img-wrap picture::after {
+  display: none;
+}
+
+.hovering-slide .studio-slide-text {
   display: none;
 }
 

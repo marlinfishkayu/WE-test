@@ -247,11 +247,11 @@ $(".img-hover").mousemove(function(event){
     $(this).css("transform", "translate(0px,0px)");
   });
 
-  $(".img-hover").hover(
+  $(".studio-card").hover(
     function () {
-        $('.studio-slide-text').addClass('hide-slide');
+        $(this).addClass('hovering-slide');
     }, 
     function () {
-        $('.studio-slide-text').removeClass("hide-slide");
+        $(this).removeClass("hovering-slide");
     }
 );
