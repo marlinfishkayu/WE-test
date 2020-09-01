@@ -79,6 +79,9 @@
     #services .services-main{
         max-width: 1200px;
     }
+    .service-item {
+        padding: 5px 4rem;
+    }
 }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 2000px) {

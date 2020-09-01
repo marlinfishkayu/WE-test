@@ -1,0 +1,97 @@
+#liveStudio .hero-header-bkg{
+    height: 300px;
+}
+#liveStudio .livestudio-sec1{
+    position: relative;
+}
+#liveStudio .studio-slide-bkg{
+    height: 300px;
+    position: absolute;
+    top: 0;
+
+}
+
+#liveStudio .img-hover{
+    height: 300px;
+    position: absolute;
+    top: 0;
+}
+
+#liveStudio .studio-slide-bkg-2{
+    height: 300px;
+}
+#liveStudio .hero-header::after{
+    background: rgb(6,11,26);
+    background: linear-gradient(180deg, rgba(6,11,26,0) 0%, rgba(6,11,26,1) 92%, rgba(9,17,41,1) 100%);    
+}
+.studio-card {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    height: 550px;
+    width: 295px;
+    cursor: pointer;
+    position: relavtive;
+    /*
+    Each "card" is set to 600x400px because that is the size of  the image, adjust as needed. Make sure the overflow is set to hidden or else when the img scales it will clip with the other images.
+    */
+  }
+
+  .studio-img-container {
+    transition: transform .1s ease;
+  }
+
+  .studio-img-container:hover {
+    transform: scale(1.1);
+    /*
+    Change the scale value as much as you want to change the amount of zoom on hover.
+    */
+  }
+
+  .studio-card img {
+    opacity: .5;
+    transform: translate(0,0);
+    /*
+    Change the opacity value to change how "faded" you want the image to appear when it is not hovered.
+    */
+    transition: opacity .25s ease-in-out;
+  }
+
+  .studio-card img:hover {
+    opacity: 1;
+  }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    #liveStudio .hero-header-bkg{
+        height: 600px;
+    }
+    #liveStudio .studio-slide-bkg{
+        height: 700px;
+    }
+    #liveStudio .studio-img-container{
+        height: 550px;
+    }
+    #liveStudio .livestudio-sec1{
+        width: 1200px;
+        margin: auto;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+ }
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 2000px) {
+
+}
