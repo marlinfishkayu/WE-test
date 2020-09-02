@@ -243,7 +243,7 @@
         height: 820px;
     }
     #liveStudio .studio-slide-bkg-2{
-        height: 2000px;
+        height: 2500px;
     }
     #liveStudio .studio-img-container{
         height: 550px;
@@ -264,25 +264,23 @@
     }
     #liveStudio .livestudio-hightlight-wrap .large-text{
         text-align: left;
-    }
-    #liveStudio .livestudio-hightlight-wrap .large-text h1{
-         font-size: 120px;
-    }
-    #liveStudio .livestudio-hightlight-wrap .large-text h6 {
-        padding-top: 7.5rem;
+        h1{
+            font-size: 120px;
+        }
+        h6 {
+            padding-top: 7.5rem;
+        }
     }
     #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item {
         padding-top: 4rem;
         padding: 2rem;
-    }
-    #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item .cert-img-wrap{
-        padding:0;
-    }
-    #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item .cert-img-wrap #iso-1,
-    #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item .cert-img-wrap #iso-2,
-    #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item .cert-img-wrap #iso-3{
-        height: 64px;
-        width: inherit;
+        .cert-img-wrap{
+            padding:0;
+            #iso-1, #iso-2, #iso-3{
+                height: 64px;
+                width: inherit;
+            }
+        }
     }
 }   
 
