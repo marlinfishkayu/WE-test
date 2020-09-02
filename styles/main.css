@@ -3410,6 +3410,10 @@ select.form-control::-ms-expand {
   top: 0;
 }
 
+#liveStudio .studio-slide-bkg-2 {
+  height: 300px;
+}
+
 #liveStudio .livestudio-sec3 .studio-bottom-bkg {
   height: 500px;
   position: absolute;
@@ -3421,10 +3425,6 @@ select.form-control::-ms-expand {
   height: 300px;
   position: absolute;
   top: 0;
-}
-
-#liveStudio .studio-slide-bkg-2 {
-  height: 300px;
 }
 
 #liveStudio .studio-img-wrap {
@@ -3861,6 +3861,9 @@ select.form-control::-ms-expand {
   }
   #news-carousel .owl-carousel.owl-drag .owl-item {
     height: 350px;
+  }
+  #liveStudio .studio-slide-bkg-2 {
+    height: 2500px;
   }
 }
 
