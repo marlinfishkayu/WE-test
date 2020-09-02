@@ -3399,7 +3399,8 @@ select.form-control::-ms-expand {
   height: 300px;
 }
 
-#liveStudio .livestudio-sec1 {
+#liveStudio .livestudio-sec1,
+#liveStudio .livestudio-sec3 {
   position: relative;
 }
 
@@ -3417,6 +3418,13 @@ select.form-control::-ms-expand {
 
 #liveStudio .studio-slide-bkg-2 {
   height: 300px;
+}
+
+#liveStudio .livestudio-sec3 .studio-bottom-bkg {
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 #liveStudio .studio-img-wrap {
@@ -3682,7 +3690,7 @@ select.form-control::-ms-expand {
     height: 820px;
   }
   #liveStudio .studio-slide-bkg-2 {
-    height: 2000px;
+    height: 2020px;
   }
   #liveStudio .studio-img-container {
     height: 550px;
@@ -3717,9 +3725,7 @@ select.form-control::-ms-expand {
   #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item .cert-img-wrap {
     padding: 0;
   }
-  #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item .cert-img-wrap #iso-1,
-  #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item .cert-img-wrap #iso-2,
-  #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item .cert-img-wrap #iso-3 {
+  #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item .cert-img-wrap #iso-1, #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item .cert-img-wrap #iso-2, #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item .cert-img-wrap #iso-3 {
     height: 64px;
     width: inherit;
   }

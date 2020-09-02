@@ -1,7 +1,8 @@
 #liveStudio .hero-header-bkg{
     height: 300px;
 }
-#liveStudio .livestudio-sec1{
+#liveStudio .livestudio-sec1,
+#liveStudio .livestudio-sec3{
     position: relative;
 }
 #liveStudio .studio-slide-bkg{
@@ -17,6 +18,13 @@
 #liveStudio .studio-slide-bkg-2{
     height: 300px;
 }
+#liveStudio .livestudio-sec3 .studio-bottom-bkg{
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 #liveStudio .studio-img-wrap{
     width: 100%;
     background-position: 50% 10%; 
@@ -243,7 +251,7 @@
         height: 820px;
     }
     #liveStudio .studio-slide-bkg-2{
-        height: 2500px;
+        height: 2020px;
     }
     #liveStudio .studio-img-container{
         height: 550px;
