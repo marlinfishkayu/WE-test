@@ -21,7 +21,7 @@
     }
 }
 #liveStudio .livestudio-sec3 .studio-bottom-bkg{
-    height: 500px;
+    height: 600px;
     position: absolute;
     top: 0;
     left: 0;
@@ -275,7 +275,7 @@
 .live-room{
     width: 100%;
 }
-    
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
 
@@ -339,6 +339,9 @@
     }
     #liveStudio .studio-bottom-main .hero-intro2{
         font-size: 20px;
+    }
+    #liveStudio .studio-bottom-main{
+        padding-bottom: 5rem;
     }
 }   
 
