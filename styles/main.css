@@ -3598,7 +3598,7 @@ select.form-control::-ms-expand {
 }
 
 #liveStudio .livestudio-hightlight-wrap .large-text {
-  padding: 3rem 4rem;
+  padding: 1rem 4rem;
   text-align: center;
 }
 
@@ -3622,6 +3622,8 @@ select.form-control::-ms-expand {
   color: #979797;
   letter-spacing: 1px;
   padding-top: 3rem;
+  width: 300px;
+  margin: auto;
 }
 
 #liveStudio .livestudio-hightlight-wrap .Highlights-container {
@@ -3632,6 +3634,7 @@ select.form-control::-ms-expand {
   position: relative;
   text-align: center;
   margin: auto;
+  width: 500px;
 }
 
 #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-bottom {
@@ -3640,6 +3643,9 @@ select.form-control::-ms-expand {
 
 #liveStudio .livestudio-hightlight-wrap .cert-wrap .hero-intro2 {
   padding-top: 2rem;
+  font-size: 16px;
+  padding: 3rem 2rem;
+  max-width: 700px;
 }
 
 #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item {
@@ -3731,14 +3737,9 @@ select.form-control::-ms-expand {
   #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-bottom {
     width: 361px;
   }
-  #liveStudio .livestudio-hightlight-wrap .large-text {
-    text-align: left;
-  }
-  #liveStudio .livestudio-hightlight-wrap .large-text h1 {
-    font-size: 120px;
-  }
-  #liveStudio .livestudio-hightlight-wrap .large-text h6 {
-    padding-top: 7.5rem;
+  #liveStudio .livestudio-hightlight-wrap .cert-wrap .hero-intro2 {
+    font-size: 20px;
+    padding: 3rem 2rem;
   }
   #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item {
     padding-top: 4rem;
@@ -3750,6 +3751,23 @@ select.form-control::-ms-expand {
   #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item .cert-img-wrap #iso-1, #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item .cert-img-wrap #iso-2, #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-item .cert-img-wrap #iso-3 {
     height: 64px;
     width: inherit;
+  }
+  #liveStudio .livestudio-hightlight-wrap .large-text {
+    text-align: left;
+    padding: 3rem 4rem;
+  }
+  #liveStudio .livestudio-hightlight-wrap .large-text h1 {
+    font-size: 120px;
+  }
+  #liveStudio .livestudio-hightlight-wrap .large-text h6 {
+    padding-top: 7.5rem;
+  }
+  #liveStudio .livestudio-hightlight-wrap .large-text p {
+    width: inherit;
+    margin: inherit;
+  }
+  #liveStudio .studio-bottom-main .hero-intro2 {
+    font-size: 20px;
   }
 }
 
