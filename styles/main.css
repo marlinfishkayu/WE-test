@@ -3682,6 +3682,28 @@ select.form-control::-ms-expand {
   letter-spacing: 1px;
 }
 
+#liveStudio .studio-bottom-main {
+  padding: 3rem 2rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+#liveStudio .studio-bottom-main .bottom-deco {
+  text-transform: uppercase;
+}
+
+#liveStudio .studio-bottom-main .hero-intro2 {
+  position: relative;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 16px;
+}
+
+#liveStudio .studio-bottom-main .studio-bottom-btn-wrap {
+  text-align: center;
+  padding-top: 2rem;
+}
+
 @media (min-width: 768px) {
   #liveStudio .hero-header-bkg {
     height: 600px;
