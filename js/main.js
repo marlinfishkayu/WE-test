@@ -248,7 +248,7 @@ $(document).ready(function() {
     $('#studio-gallery').lightSlider({
         gallery:true,
         item:1,
-        thumbItem:9,
+        thumbItem:5,
         slideMargin: 0,
         speed:500,
         auto:true,

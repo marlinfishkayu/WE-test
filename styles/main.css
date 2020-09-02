@@ -3719,31 +3719,6 @@ select.form-control::-ms-expand {
   padding-top: 2rem;
 }
 
-ul {
-  list-style: none outside none;
-  padding-left: 0;
-  margin: 0;
-}
-
-.demo .item {
-  margin-bottom: 60px;
-}
-
-.content-slider li {
-  background-color: #ed3020;
-  text-align: center;
-  color: #FFF;
-}
-
-.content-slider h3 {
-  margin: 0;
-  padding: 70px 0;
-}
-
-.demo {
-  width: 800px;
-}
-
 @media (min-width: 768px) {
   #liveStudio .hero-header-bkg {
     height: 600px;
