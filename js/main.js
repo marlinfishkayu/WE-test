@@ -251,7 +251,7 @@ $(document).ready(function() {
         thumbItem:5,
         slideMargin: 0,
         speed:500,
-        auto:true,
+        auto:false,
         loop:true,
         onSliderLoad: function() {
             $('#studio-gallery').removeClass('cS-hidden');

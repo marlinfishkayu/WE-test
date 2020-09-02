@@ -3719,6 +3719,10 @@ select.form-control::-ms-expand {
   padding-top: 2rem;
 }
 
+.live-room {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   #liveStudio .hero-header-bkg {
     height: 600px;
