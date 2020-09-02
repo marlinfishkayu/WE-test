@@ -3410,6 +3410,13 @@ select.form-control::-ms-expand {
   top: 0;
 }
 
+#liveStudio .livestudio-sec3 .studio-bottom-bkg {
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 #liveStudio .img-hover {
   height: 300px;
   position: absolute;
@@ -3418,13 +3425,6 @@ select.form-control::-ms-expand {
 
 #liveStudio .studio-slide-bkg-2 {
   height: 300px;
-}
-
-#liveStudio .livestudio-sec3 .studio-bottom-bkg {
-  height: 300px;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 #liveStudio .studio-img-wrap {
