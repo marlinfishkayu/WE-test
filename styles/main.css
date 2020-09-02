@@ -3411,7 +3411,7 @@ select.form-control::-ms-expand {
 }
 
 #liveStudio .studio-slide-bkg-2 {
-  height: 300px;
+  height: 3600px;
 }
 
 #liveStudio .livestudio-sec3 .studio-bottom-bkg {
@@ -3712,7 +3712,7 @@ select.form-control::-ms-expand {
     height: 820px;
   }
   #liveStudio .studio-slide-bkg-2 {
-    height: 2020px;
+    height: 2300px;
   }
   #liveStudio .studio-img-container {
     height: 550px;
@@ -3756,7 +3756,7 @@ select.form-control::-ms-expand {
 @media (min-width: 992px) {
   #liveStudio .livestudio-hightlight-wrap {
     padding-top: 3rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
   }
   #liveStudio .livestudio-hightlight-wrap .bottom-deco {
     line-height: 130%;
