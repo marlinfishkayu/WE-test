@@ -237,3 +237,6 @@ $('#diamondCarousel').owlCarousel({
         $(this).removeClass("hovering-slide");
     }
 );
+
+
+/*--  light slider --*/

@@ -16,6 +16,10 @@
         <!-- Owl CSS -->
         <link rel="stylesheet" href="OwlCarousel2/owl.carousel.min.css" />
         <link rel="stylesheet" href="OwlCarousel2/owl.theme.default.min.css" />
+        <!-- lightslider -->
+        <link type="text/css" rel="stylesheet" href="./styles/lightslider.css" />                  
+        <script src="https://code.jquery.com/jquery-1.11.0.js" integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw=" crossorigin="anonymous"></script>
+       
         <!-- main CSS -->
         <link rel="stylesheet" href="./styles/main.css" />
         <title>World Entertainment</title>
@@ -526,6 +530,45 @@
                         </div>
                         
                     </div>
+                    <div class="demo">
+        <div class="item">            
+            <div class="clearfix" style="max-width:474px;">
+                <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+                    <li data-thumb="http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg"> 
+                        <img src="http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg" />
+                         </li>
+                    <li data-thumb="http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg"> 
+                        <img src="http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg" />
+                         </li>
+                    <li data-thumb="http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg"> 
+                        <img src="http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg" />
+                         </li>
+                    <li data-thumb="img/thumb/cS-4.jpg"> 
+                        <img src="http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg" />
+                         </li>
+                    <li data-thumb="img/thumb/cS-5.jpg"> 
+                        <img src="http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg" />
+                         </li>
+                    <li data-thumb="img/thumb/cS-6.jpg"> 
+                        <img src="http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg" />
+                         </li>
+                    <li data-thumb="img/thumb/cS-7.jpg"> 
+                        <img src="http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpgg" />
+                         </li>
+                    <li data-thumb="img/thumb/cS-8.jpg"> 
+                        <img src="http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg" />
+                         </li>
+                    <li data-thumb="img/thumb/cS-9.jpg"> 
+                        <img src="http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg" />
+                         </li>
+                    <li data-thumb="http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg"> 
+                        <img src="http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg" />
+                         </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>		
                 </div>
             
                 <!-- End LiveStudio Section  -->   
@@ -658,7 +701,27 @@
         </script>
 
         <!-- Main JS  -->
-
+        <script src="./js/lightslider.js"></script>
+        <script type="text/javascript">
+           $(document).ready(function() {
+			$("#content-slider").lightSlider({
+                loop:true,
+                keyPress:true
+            });
+            $('#image-gallery').lightSlider({
+                gallery:true,
+                item:1,
+                thumbItem:9,
+                slideMargin: 0,
+                speed:500,
+                auto:true,
+                loop:true,
+                onSliderLoad: function() {
+                    $('#image-gallery').removeClass('cS-hidden');
+                }  
+            });
+		});
+          </script>
         <script src="OwlCarousel2/owl.carousel.min.js"></script>
         <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
