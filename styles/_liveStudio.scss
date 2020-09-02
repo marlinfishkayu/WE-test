@@ -12,6 +12,13 @@
 }
 #liveStudio .studio-slide-bkg-2{
     height: 3600px;
+    img{
+        width: 100%; 
+        background-position: 50% 10%; 
+        background-size: cover; 
+        height: 100%; 
+        object-fit: cover;
+    }
 }
 #liveStudio .livestudio-sec3 .studio-bottom-bkg{
     height: 500px;

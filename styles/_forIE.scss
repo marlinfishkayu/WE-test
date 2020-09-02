@@ -57,6 +57,10 @@
     #newsFeed .timeline-wrap .timeline::before{
         width: 2px;
     }
+    #liveStudio .studio-slide-bkg-2 img{
+        height: auto; 
+        
+    }
     // Small devices (landscape phones, 576px and up)
     @media (min-width: 576px) {     
         #nav-ara .closeBtn{

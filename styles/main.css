@@ -3414,6 +3414,15 @@ select.form-control::-ms-expand {
   height: 3600px;
 }
 
+#liveStudio .studio-slide-bkg-2 img {
+  width: 100%;
+  background-position: 50% 10%;
+  background-size: cover;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 #liveStudio .livestudio-sec3 .studio-bottom-bkg {
   height: 500px;
   position: absolute;
@@ -3846,6 +3855,9 @@ select.form-control::-ms-expand {
   }
   #newsFeed .timeline-wrap .timeline::before {
     width: 2px;
+  }
+  #liveStudio .studio-slide-bkg-2 img {
+    height: auto;
   }
 }
 
