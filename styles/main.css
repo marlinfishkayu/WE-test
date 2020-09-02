@@ -3396,7 +3396,7 @@ select.form-control::-ms-expand {
 }
 
 #liveStudio .hero-header-bkg {
-  height: 300px;
+  height: 380px;
 }
 
 #liveStudio .livestudio-sec1,
@@ -3888,6 +3888,9 @@ select.form-control::-ms-expand {
   }
   #news-carousel .owl-carousel.owl-drag .owl-item {
     height: 500px;
+  }
+  #liveStudio .livestudio-hightlight-wrap {
+    padding-bottom: 0;
   }
 }
 
