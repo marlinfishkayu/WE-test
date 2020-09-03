@@ -497,6 +497,10 @@ img {
   overflow: hidden;
 }
 
+.search-black #nav-area {
+  top: 2%;
+}
+
 #wrapper .nav_links {
   display: none;
   position: absolute;
@@ -796,6 +800,7 @@ img {
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: 100;
+  color: #B4B4B4;
 }
 
 .sidebar #logoMobile {
@@ -997,8 +1002,8 @@ img {
   .nav-logo {
     width: 160px;
   }
-  #wrapper #nav-area {
-    top: 0%;
+  #wrapper .search-black #nav-area {
+    top: 7%;
   }
   #wrapper .nav-link {
     padding: .5rem 1.8rem;
@@ -2368,6 +2373,10 @@ footer {
   letter-spacing: 3px;
   font-weight: 100;
   padding: 1rem 0rem;
+}
+
+#liveGame .main-button {
+  padding: 0;
 }
 
 @media (min-width: 768px) {
