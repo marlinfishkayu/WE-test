@@ -240,26 +240,7 @@ $('#diamondCarousel').owlCarousel({
 
 
 /*--  light slider --*/
-$(document).ready(function() {
-    $("#studio-gallery").lightSlider({
-        loop:true,
-        keyPress:true
-    });
-    $('#studio-gallery').lightSlider({
-        gallery:true,
-        item:1,
-        thumbItem:5,
-        slideMargin: 0,
-        speed:500,
-        auto:false,
-        loop:true,
-        onSliderLoad: function() {
-            $('#studio-gallery').removeClass('cS-hidden');
-        }  
-    });
-});
 
-//test
 $('#StudioSlider').lightSlider({
     gallery: true,
     item: 1,

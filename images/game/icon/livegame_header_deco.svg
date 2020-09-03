@@ -1,15 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="112" height="17" viewBox="0 0 112 17">
-  <defs>
-    <linearGradient id="livegame_header_deco-a" x1="3.173%" x2="98.947%" y1="49.995%" y2="50.005%">
-      <stop offset="0%" stop-color="#004383" stop-opacity="0"/>
-      <stop offset="21.896%" stop-color="#061C36" stop-opacity=".3"/>
-      <stop offset="74.095%" stop-color="#0A1E3A" stop-opacity=".3"/>
-      <stop offset="100%" stop-color="#00204C" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-  <g fill="none" fill-rule="evenodd" stroke="#B0936D">
-    <line x1="111.5" x2="12.5" y1="6.5" y2="6.5" fill="url(#livegame_header_deco-a)"/>
-    <polyline points="111.5 16 47.5 16.5 38.5 6.5"/>
-    <rect width="8" height="8" x="2.5" y="2.5" transform="rotate(-45 6.5 6.5)"/>
-  </g>
-</svg>
+<svg height="17" viewBox="0 0 112 17" width="112" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" x1="3.173%" x2="98.947%" y1="49.995%" y2="50.005%"><stop offset="0" stop-color="#004383" stop-opacity="0"/><stop offset=".21896" stop-color="#061c36" stop-opacity=".3"/><stop offset=".74095" stop-color="#0a1e3a" stop-opacity=".3"/><stop offset="1" stop-color="#00204c" stop-opacity="0"/></linearGradient><g fill="none" fill-rule="evenodd" stroke="#b0936d"><path d="m111.5 6.5h-99" fill="url(#a)"/><path d="m111.5 16-64 .5-9-10"/><path d="m2.5 2.5h8v8h-8z" transform="matrix(.70710678 -.70710678 .70710678 .70710678 -2.692388 6.5)"/></g></svg>
