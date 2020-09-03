@@ -246,5 +246,18 @@ $('#StudioSlider').lightSlider({
     item: 1,
     loop:true,
     slideMargin: 0,
-    thumbItem: 10
+    thumbItem: 10,
+    // onSliderLoad: function() {
+    //     $("img").addClass("preferredHeight");
+    //   },
+    responsive : [ 
+        {
+            breakpoint: 768,
+            settings: {
+                thumbItem: 5,
+                slideMove: 1 
+            }
+        }
+    ]
 });
+
