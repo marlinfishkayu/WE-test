@@ -3956,6 +3956,54 @@ select.form-control::-ms-expand {
   }
 }
 
+#allLiveGame .hero-header {
+  height: 430px;
+}
+
+#allLiveGame .hero-header-bkg {
+  height: 430px;
+}
+
+#allLiveGame .hero-float {
+  padding-top: 10rem;
+}
+
+#allLiveGame .ALG-logo-wrap {
+  width: 206px;
+  height: 192px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#allLiveGame .ALG-logo-wrap .ALG-logo {
+  width: 100%;
+  height: 100%;
+  background-position: 50% 10%;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#allLiveGame .allLiveGame-main {
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+#allLiveGame .allLiveGame-main .hero-intro2 {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+#allLiveGame .allLiveGame-main .livegame-scroll-title {
+  padding-top: 5rem;
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-size: 26px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  line-height: 1.3;
+  text-align: left;
+}
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   #nav-area .search-form {
     top: -5px;
