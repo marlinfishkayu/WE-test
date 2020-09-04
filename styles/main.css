@@ -4004,6 +4004,10 @@ select.form-control::-ms-expand {
   text-align: left;
 }
 
+#allLiveGame .allLiveGame-main .owl-carousel {
+  display: block;
+}
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   #nav-area .search-form {
     top: -5px;
