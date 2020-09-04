@@ -14,6 +14,7 @@
   </head>
   <body>
 <style>
+<<<<<<< HEAD
 .carousel {
   position: relative;
 }
@@ -153,6 +154,241 @@
     
     </div> <!-- /row -->
     </div> <!-- /container -->
+=======
+    /* Add to Current */
+#travel-card-current-img{
+  cursor: zoom-in;
+}
+
+
+
+.lightbox-container{
+  box-sizing: border-box;
+}
+/* The Modal (background) */
+.lightbox-modal {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  padding-top: 25px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #ffffff;
+}
+/* Modal Content */
+.lightbox-modal-content {
+  margin: 0 auto;
+  padding: 0;
+}
+/* The Close Button */
+.close-lightbox {
+  color: #d3d3d3;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 75px;
+  transition: 0.6s ease;
+}
+@media only screen and (max-width: 991px) {
+  .close-lightbox{
+    position: absolute;
+    top: -10px;
+    right: 15px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .close-lightbox{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 44px;
+  }
+}
+.close-lightbox:hover,
+.close-lightbox:focus {
+  color: #00c853;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Lightbox slides */
+[class^="lightbox-slides"] {
+  display: none;
+}
+[class^="lightbox-slides"] > img {
+  height: 60vh;
+}
+@media only screen and (max-width: 991px) {
+  [class^="lightbox-slides"] > img{
+    width: 100%;
+    height: auto;
+  }
+}
+/* Next & lightbox-previous buttons */
+.lightbox-prev,
+.lightbox-next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  color: #d3d3d3;
+  font-size: 20px;
+  transition: 0.6s ease;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.lightbox-next {
+  right: 20%;
+  top: 35%;
+}
+.lightbox-prev{
+  left: 20%;
+  top: 35%;
+}
+.lightbox-next:hover,.lightbox-prev:hover{
+  color: #00c853;
+}
+@media only screen and (max-width: 991px) {
+  .lightbox-next{
+    top: 60%;
+    right: 0;
+  }
+  .lightbox-prev{
+    top: 60%;
+    left: 0;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .lightbox-next{
+    right: 0;
+    top: 23%;
+  }
+  .lightbox-prev{
+    left: 0;
+    top: 23%;
+  }
+}
+/* Number text (1/3 etc) */
+.lightbox-slide-number {
+  color: #000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 50px;
+}
+@media only screen and (max-width: 991px) {
+  .lightbox-slide-number{
+    position: absolute;
+    top: 20px;
+    left: 7px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .lightbox-slide-number{
+    position: absolute;
+    top: 20px;
+    left:-2px;
+  }
+}
+.caption-container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 2px 16px;
+  color: #000;
+}
+.lightbox-slide-thumbnail {
+  display: inline-block;
+  height: 150px;
+  width: auto;
+  opacity: 0.6;
+}
+.active,
+.lightbox-slide-thumbnail:hover {
+  opacity: 1;
+}
+/* Lightbox thumbnails */
+.lightbox-thumbnails{
+  white-space: nowrap;
+  overflow: auto;
+  background-color: #ffffff;
+  margin:1em;
+}
+.lightbox-thumbnails > img {
+  padding: 0 .5em;
+  cursor: pointer;
+}
+
+</style>
+  <div class="lightbox-container">
+    <h4 class="center">Card Lightbox Image Gallery</h4>
+    <div class="row">
+      <div class="col l6 offset-l3">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="open-lightbox" id="travel-card-current-img" src="https://lh3.googleusercontent.com/D6hYRepOD-WFC47IBcP39nm2Ew9jTo6dOnDEDnYABiVVw-AmQKZ_s3oBXUn0LUfZJrvAlBSfx4cr4ch4MCMN6cUzmEwASJfvxdFt4pygnFFWml67Ly-DYrh89UO6ivEmC_DT0QsyXOST7m0iGdXUNr4jFb7f4egLlhASi7FgcfxpBnu-slIxcgE5fQX3KH4jF5SnpBgVQEVKRbyhexy5I8G2LGR5KtoS78HkKV1oiYREShu_tDs0PENlpoE8UKmgBJpGtRJkGej7PM9NY7s_OOPneGqBH7ZdC7u9GG76hQTRM_izj7hHQNETTpC3A-sr9TbNXSs-oBESeyl2G99vUEezDKFLZ_c6O7zUz1tNhjf2BBck0et3mNMEwZdDU6W1qEFJC6ajdHVTA5zi54uWBycsLmjul3S8sksHw0Iz7hWQG1cVMdPUw4DaQn-xC5nFfLdhR6A_yGEdw2bD5To8QlBMGirOkfhz-Yb7052Ce4Xkc1EV4Pkav9OTo876MxnL5KM3bj4bPhmB2r76j1CC4Z6hcjU-g3TNu6EQ3kPuhxwB9GOwxFdf8fhtJuTIpxp6CZHOMYG4DnIx2hzEcTRqVkwWr2tqoFwE47G0vBQ=w968-h725-no" target="1">
+          </div>
+          <div class="card-content">
+            <span class="card-title grey-text text-darken-4">Summer 17 Road Trip</span>
+            <p>
+              <a class="travel-card-link" href="https://www.google.com/maps/place/Grand+Canyon+National+Park/@36.1069652,-112.1129972,9z/data=!4m5!3m4!1s0x0:0x1f38a9bec9912029!8m2!3d36.1069652!4d-112.1129972?sa=X&ved=0ahUKEwiBpdfg-ovWAhWO-lQKHcL3AAAQ_BIIowEwEw" target="_blank">Grand Canyon National Park</a>
+              <span>August 2017</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="my-lightbox-modal1" class="row lightbox-modal">
+      <span class="close-lightbox">&times;</span>
+      <div class="lightbox-modal-content col s10 offset-s1 center">
+        <h3>Summer 17 Road Trip</h3>
+        <h6>Trip Description</h6>
+        <div class="lightbox-slides">
+          <div class="lightbox-slide-number">1 / 6</div>
+          <img src="https://lh3.googleusercontent.com/oZgzTOv9wVIdjhgV-qGwcOfw447ATyajuZYNJU7A7MHPrQ2mxI-dKRi23QH4aBkJPeMPnKUWeXRQE91T_QV_7xShye7mJCCMn3BztdAK6vR0JNwf7WngCxKo8A0Dvas4_hNn1dKaWZks6uEzZT-7KF9kgQUEB_eOAFl1hgdS88OtWgYOP3KZEvWwIrdebK4tJ8lRL7Tt5f4_cAO-OUQ2n1Prk7jkaWGJrIbrZX1P9-w15bUxAA4_SrxlOGDBbGVd65eiL-K6spKJ2ObdG4jiWdSP6a2lkGkd_J4mP0CB8Hru0R1TUGpL7387-boRNxP4FXw7YRVkCKmoYqSz9Tb927axbmRDcZGWuR62reSWf92hl0EiXfCjYY8DQD_GHz_rFIYqlGZwgJdQlTYXlLFKQIL0SN_mfigCnYV8FjEKf1ICLpRArh5BCh0TVKPS7PcDzeYWvo8IeJBBbjwdb2V6fqwlwmu_6L1BImfTW9zuIIh_7_o1Ys5tcQbdEqX6tScgeJJP6LZ7akBC2xcnpRKOijGWFm9tKgwD8VRml-uKoahEnMet-vh6tEp5DrgvHHAuNZSIAqvZZk40-BNQ1dsf8BvMXb2t16i0eksBMko=w967-h725-no">
+        </div>
+        <div class="lightbox-slides">
+          <div class="lightbox-slide-number">2 / 6</div>
+          <img src="https://lh3.googleusercontent.com/kJuO8BOYmYvjzWNxSWKWAit-NbyUkM60dtLlfk0NXO5robvNrIOLWzO0xtbOsK5XcCMmESaAFTEezzvAdA2G73M2h5bE5DR2_nOyWujQWIkqqiqC-_eUJQDs5rqvoFI4IIXg8yVH2gVMfrlmuQOJ0NU-GlZ_0AXnkLOraPkjW1hN0xAUxZ6I8X8rjM2OM5wyV-Hlx1c5vW7JeXbHkxtRByagge0M1wQQ_7QtQZPWTZHaiH_jiOh0ALS_zYgZ6drRFzeOXFv-36MezKUKLjKQqHs9Y1CpJBCdkkz0P2BoP09xhQJjvUVqFU4x7WaOJLVcfvsdKqqCLIAzDv84tYvrKTcNiJ1cYv11H_N-B3tqaisA4m3iDBmtHc48sjCENCM_O6J3h2-0KD6O6WtzSsUpUCBWczSaeUGL0e4VWWxDv7IxnZYOeYRx9gVQ1EUCP7sr4qJpx-Xgr0NXEP9XGZRUDagR4bDNIOIccSJEdsVc2QiFUoalAms_KNs6ICDBRXsy1h05kFPFnQGzxX3QTDFfr6lPSm3-Xu8WJTSzl4vOkZeiJCVCLFRdcKP-cF2RytIJfmEX5SD7dqRldqPM_MHg3Gyq_KrtTgL4Qgxdp9E=s725-no">
+        </div>
+        <div class="lightbox-slides">
+          <div class="lightbox-slide-number">3 / 6</div>
+          <img src="https://lh3.googleusercontent.com/ddPY5zYlEkhVISI5wTQjDgzuiadGHK86L2Pbj0Oz5g7DkyQv7i8NZpSjVWJKNiZr-YiX_yMBdUGAhhhdLMDWGi2wdvU7pUAsxc_x305GAvI0Us-BvwKD23mZcUcDtwYnzAh7WZtoA31CpsqY8ylQLv7JrM_fOwIxlMFXo6gtQhVBVRw4RaBL68c4KX864gNGcG2CxWthx5pTze-kQygxOuCljQdYPTQleoR_bJUQ-MjmCHFpEIt091q4sYAWqA4WMDePHAxNAhnqdPAvE4YPJcCshUXa7PVrqmgUXa4UNxqH0hpNHczYQGuUKrsrJPsZz5nb773JPgnqBXRX_ceMJ-e6fMfjXEDljbrmWVdF75IxpVwT6j5LcDYZWqXfNm0NvO4NB-fyzm2S1-egz1CVhOiYvPtoAd-rYRe7W48eL4jobF0QR0W8vOyC4bv6S4KcEKUni_LrELT_fJWI6rnWTrkKzG2zqBdZ90XaJNGf2f48F4QR4n3K9VM2BgibQ5v_jQg5RRJeXVQxZTDwqLrSU7K0yWQ_csLza-QqCmySHUwrCl4ribQZXW0nLZgIzdcS4FayanDEzz_pfQ3VpatsqlgU0aO5SN_Fc2eS2LQ=w1239-h725-no">
+        </div>
+        <div class="lightbox-slides">
+          <div class="lightbox-slide-number">4 / 6</div>
+          <img src="https://lh3.googleusercontent.com/kZRgY4Y-L51VRbPpX42dO1XKLU26ruhTITa8-C5IEFgZnHVsclcgPZKX9MuPGAsBKzNJO5QrAJxEg8lliBC44U_bGTysKlYERfl6i3MnRfyLvNM0Dkb4IQa1akyR3UUg_hZHR-E_Qg-M16IZBa0iVlAYTjQkNaeEADlPHI69fCbqyN839T37cB6jTVD8g9Jj1A6SKah9rSv8XLnhjDkCTBnBawcx8QUrxJbeG_XCSYgGgJw0dCFhKWCGED4ueEFyPVF80GOSxoyXBdDNNf9Xc6PRr-J-P63s8YdRqDyznAv2KouQkVJkviB0xkUAi26I_NO0V1Zdwn8iCF98sWBA7DojIOAtkG1xB_ez9-e4dHvH4PMBZaKi_fqL3dvGQDeTXtEFYpKe5E-HDJNGKgUlIwMrQM21ocHv17WUD14kb0gat41hhjO7c9KSUAodH2JJGce3Ht8e3iLt2V3CO-5EEhU7-OR4A5Vlcgo3dqveGGzvHSfGj15vn7gMUsIdcu3B2rPOGglQ1UH7aWkGbzqnwJGPh0oUFQVh62J0R1hriIj-6oc7v2PgWW5RhVvpu5-XANegTe44DFif5XR9GAAG5jn8cqpD9Vpn2KsXVWE=w967-h725-no">
+        </div>
+        <div class="lightbox-slides">
+          <div class="lightbox-slide-number">5 / 6</div>
+          <img src="https://lh3.googleusercontent.com/ScrEtnif2ViEjqq91PHyRZUtdZaaRETbs8A0VWu1jRHsoBRoKjPncm1rTRPCNE_7EGrCQ_-Osxs5gu-5Qh9NGRUD-vWlp_Q1mx6ytunZ3Qa0I5TqIRMQFq8K4A10sQP3YBDo2fKfXjAtq17qIW4UOLfzD3qctvx1ACKv-YRN6cUEYF0MZQQqWmduKzNfajAOH4j_fRw3Ue2P2IUsF2TMVEhhINIOxvoX6Tb37KDnbVzevjED0Zo62juzSVVYmMONL4zd3KeNP2DmyaH3uojfX_UMJVyvOrnUAAl_SR7wGX6u6Ec7cEJpwEISt0-7xeg6w7RsXnSECCZLMKGRmHktLeSJMaCEIfPqxYSNhER_4u9WyoE5H-rxbQuG7DyD80_eZS4uXS0DDp060i-0IuSn6a6f9-FxjUd8ZSJHkxnAaK4JG5E8nejXgf9PARqrZx5SxT6KqoOH-VRSWoaSgCLfRZaI9Da_Q45GC6feiG2DMGELNryAELlLriCR7kdJJGgbjn3M00agX7XfRTYMoyz_htBDblXTOCfo-o29YnpXvNE6xEr9lt6u4ACQOI2XYsMjcEYuY5SkOo7Jzvq6Q6_0yeVh5yBbswDcyFt0oBw=w967-h725-no">
+        </div>
+        <div class="lightbox-slides">
+          <div class="lightbox-slide-number">6 / 6</div>
+          <img src="https://lh3.googleusercontent.com/gofQBijg3-nWx7PhBmPzEgkKSjkyUEVH7-2sUbkp70KGUhhY-WJ6ddClvN_HVm_5aS9tw1Ii00LfUJr4uIoT3tcVso1oFWJlbiNDbRe5dxuP7GsWuGvOlVWL9pOQHcwc0PkIDYNNTCIOjrh5kRS9FqCHswiFduJ6QKMJyjvwa69O9E_o97EDtEFU0Pu4ozwQczlRpFOSZwsoP-Z9iHKs54l8NGvLbNf4vom3VrT3-x2D_5Ul3BgE22tLkEMgt-zAI9pBLuw_NaX4eCV1uWwJ7Ln1ZAB2vk3Ei3s1mDLTl-KvCi7-QtaGSG6qaOJnniC-LaFrHtM34UUyO6ed7i5zyrQxyLQ6tmPqAI067_jEf1KDJL2oIhQyOUoVzlm96CDK5zFyKTXowxvdjZuF_BFnhOphZq7meIIxd3jMa1J65DCEm0ZVAXJ4m1-Ni_aiI2RkWyMEdOg1pBrbe2jaal1oDdo2FjnHTHz7RFKyezjdkX_UD3TqVron_XLxmobumbfw3flkcLDIPDOqMLiKhw8s8G6eRlfNG1O01D1PW73rVHDgkngGrzaBElZX4Qu0Ap8WIBh0sJ8ehF1IZeERnyqebGTi3h-JKHNjYDGH438=w967-h725-no">
+        </div>
+        <a class="lightbox-prev" onclick="plusSlides(-1)"><i class="fa fa-chevron-circle-left fa-2x" aria-hidden="true"></i></a>
+        <a class="lightbox-next" onclick="plusSlides(1)"><i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i></a>
+        <!-- JS populates lightbhox-thumbnails alt tags to id="caption"-->
+        <div class="caption-container">
+          <p class="caption-text"></p>
+        </div>
+
+        <div class="lightbox-thumbnails">
+          <img class="lightbox-slide-thumbnail" src="https://lh3.googleusercontent.com/oZgzTOv9wVIdjhgV-qGwcOfw447ATyajuZYNJU7A7MHPrQ2mxI-dKRi23QH4aBkJPeMPnKUWeXRQE91T_QV_7xShye7mJCCMn3BztdAK6vR0JNwf7WngCxKo8A0Dvas4_hNn1dKaWZks6uEzZT-7KF9kgQUEB_eOAFl1hgdS88OtWgYOP3KZEvWwIrdebK4tJ8lRL7Tt5f4_cAO-OUQ2n1Prk7jkaWGJrIbrZX1P9-w15bUxAA4_SrxlOGDBbGVd65eiL-K6spKJ2ObdG4jiWdSP6a2lkGkd_J4mP0CB8Hru0R1TUGpL7387-boRNxP4FXw7YRVkCKmoYqSz9Tb927axbmRDcZGWuR62reSWf92hl0EiXfCjYY8DQD_GHz_rFIYqlGZwgJdQlTYXlLFKQIL0SN_mfigCnYV8FjEKf1ICLpRArh5BCh0TVKPS7PcDzeYWvo8IeJBBbjwdb2V6fqwlwmu_6L1BImfTW9zuIIh_7_o1Ys5tcQbdEqX6tScgeJJP6LZ7akBC2xcnpRKOijGWFm9tKgwD8VRml-uKoahEnMet-vh6tEp5DrgvHHAuNZSIAqvZZk40-BNQ1dsf8BvMXb2t16i0eksBMko=w967-h725-no" onclick="currentSlide(1)" alt="Lightbox1 #1">
+          <img class="lightbox-slide-thumbnail" src="https://lh3.googleusercontent.com/kJuO8BOYmYvjzWNxSWKWAit-NbyUkM60dtLlfk0NXO5robvNrIOLWzO0xtbOsK5XcCMmESaAFTEezzvAdA2G73M2h5bE5DR2_nOyWujQWIkqqiqC-_eUJQDs5rqvoFI4IIXg8yVH2gVMfrlmuQOJ0NU-GlZ_0AXnkLOraPkjW1hN0xAUxZ6I8X8rjM2OM5wyV-Hlx1c5vW7JeXbHkxtRByagge0M1wQQ_7QtQZPWTZHaiH_jiOh0ALS_zYgZ6drRFzeOXFv-36MezKUKLjKQqHs9Y1CpJBCdkkz0P2BoP09xhQJjvUVqFU4x7WaOJLVcfvsdKqqCLIAzDv84tYvrKTcNiJ1cYv11H_N-B3tqaisA4m3iDBmtHc48sjCENCM_O6J3h2-0KD6O6WtzSsUpUCBWczSaeUGL0e4VWWxDv7IxnZYOeYRx9gVQ1EUCP7sr4qJpx-Xgr0NXEP9XGZRUDagR4bDNIOIccSJEdsVc2QiFUoalAms_KNs6ICDBRXsy1h05kFPFnQGzxX3QTDFfr6lPSm3-Xu8WJTSzl4vOkZeiJCVCLFRdcKP-cF2RytIJfmEX5SD7dqRldqPM_MHg3Gyq_KrtTgL4Qgxdp9E=s725-no" onclick="currentSlide(2)" alt="Lightbox1 #2">
+          <img class="lightbox-slide-thumbnail" src="https://lh3.googleusercontent.com/ddPY5zYlEkhVISI5wTQjDgzuiadGHK86L2Pbj0Oz5g7DkyQv7i8NZpSjVWJKNiZr-YiX_yMBdUGAhhhdLMDWGi2wdvU7pUAsxc_x305GAvI0Us-BvwKD23mZcUcDtwYnzAh7WZtoA31CpsqY8ylQLv7JrM_fOwIxlMFXo6gtQhVBVRw4RaBL68c4KX864gNGcG2CxWthx5pTze-kQygxOuCljQdYPTQleoR_bJUQ-MjmCHFpEIt091q4sYAWqA4WMDePHAxNAhnqdPAvE4YPJcCshUXa7PVrqmgUXa4UNxqH0hpNHczYQGuUKrsrJPsZz5nb773JPgnqBXRX_ceMJ-e6fMfjXEDljbrmWVdF75IxpVwT6j5LcDYZWqXfNm0NvO4NB-fyzm2S1-egz1CVhOiYvPtoAd-rYRe7W48eL4jobF0QR0W8vOyC4bv6S4KcEKUni_LrELT_fJWI6rnWTrkKzG2zqBdZ90XaJNGf2f48F4QR4n3K9VM2BgibQ5v_jQg5RRJeXVQxZTDwqLrSU7K0yWQ_csLza-QqCmySHUwrCl4ribQZXW0nLZgIzdcS4FayanDEzz_pfQ3VpatsqlgU0aO5SN_Fc2eS2LQ=w1239-h725-no" onclick="currentSlide(3)" alt="Lightbox1 #3">
+          <img class="lightbox-slide-thumbnail" src="https://lh3.googleusercontent.com/kZRgY4Y-L51VRbPpX42dO1XKLU26ruhTITa8-C5IEFgZnHVsclcgPZKX9MuPGAsBKzNJO5QrAJxEg8lliBC44U_bGTysKlYERfl6i3MnRfyLvNM0Dkb4IQa1akyR3UUg_hZHR-E_Qg-M16IZBa0iVlAYTjQkNaeEADlPHI69fCbqyN839T37cB6jTVD8g9Jj1A6SKah9rSv8XLnhjDkCTBnBawcx8QUrxJbeG_XCSYgGgJw0dCFhKWCGED4ueEFyPVF80GOSxoyXBdDNNf9Xc6PRr-J-P63s8YdRqDyznAv2KouQkVJkviB0xkUAi26I_NO0V1Zdwn8iCF98sWBA7DojIOAtkG1xB_ez9-e4dHvH4PMBZaKi_fqL3dvGQDeTXtEFYpKe5E-HDJNGKgUlIwMrQM21ocHv17WUD14kb0gat41hhjO7c9KSUAodH2JJGce3Ht8e3iLt2V3CO-5EEhU7-OR4A5Vlcgo3dqveGGzvHSfGj15vn7gMUsIdcu3B2rPOGglQ1UH7aWkGbzqnwJGPh0oUFQVh62J0R1hriIj-6oc7v2PgWW5RhVvpu5-XANegTe44DFif5XR9GAAG5jn8cqpD9Vpn2KsXVWE=w967-h725-no" onclick="currentSlide(4)" alt="Lightbox1 #4">
+          <img class="lightbox-slide-thumbnail" src="https://lh3.googleusercontent.com/ScrEtnif2ViEjqq91PHyRZUtdZaaRETbs8A0VWu1jRHsoBRoKjPncm1rTRPCNE_7EGrCQ_-Osxs5gu-5Qh9NGRUD-vWlp_Q1mx6ytunZ3Qa0I5TqIRMQFq8K4A10sQP3YBDo2fKfXjAtq17qIW4UOLfzD3qctvx1ACKv-YRN6cUEYF0MZQQqWmduKzNfajAOH4j_fRw3Ue2P2IUsF2TMVEhhINIOxvoX6Tb37KDnbVzevjED0Zo62juzSVVYmMONL4zd3KeNP2DmyaH3uojfX_UMJVyvOrnUAAl_SR7wGX6u6Ec7cEJpwEISt0-7xeg6w7RsXnSECCZLMKGRmHktLeSJMaCEIfPqxYSNhER_4u9WyoE5H-rxbQuG7DyD80_eZS4uXS0DDp060i-0IuSn6a6f9-FxjUd8ZSJHkxnAaK4JG5E8nejXgf9PARqrZx5SxT6KqoOH-VRSWoaSgCLfRZaI9Da_Q45GC6feiG2DMGELNryAELlLriCR7kdJJGgbjn3M00agX7XfRTYMoyz_htBDblXTOCfo-o29YnpXvNE6xEr9lt6u4ACQOI2XYsMjcEYuY5SkOo7Jzvq6Q6_0yeVh5yBbswDcyFt0oBw=w967-h725-no" onclick="currentSlide(5)" alt="Lightbox1 #5">
+          <img class="lightbox-slide-thumbnail" src="https://lh3.googleusercontent.com/gofQBijg3-nWx7PhBmPzEgkKSjkyUEVH7-2sUbkp70KGUhhY-WJ6ddClvN_HVm_5aS9tw1Ii00LfUJr4uIoT3tcVso1oFWJlbiNDbRe5dxuP7GsWuGvOlVWL9pOQHcwc0PkIDYNNTCIOjrh5kRS9FqCHswiFduJ6QKMJyjvwa69O9E_o97EDtEFU0Pu4ozwQczlRpFOSZwsoP-Z9iHKs54l8NGvLbNf4vom3VrT3-x2D_5Ul3BgE22tLkEMgt-zAI9pBLuw_NaX4eCV1uWwJ7Ln1ZAB2vk3Ei3s1mDLTl-KvCi7-QtaGSG6qaOJnniC-LaFrHtM34UUyO6ed7i5zyrQxyLQ6tmPqAI067_jEf1KDJL2oIhQyOUoVzlm96CDK5zFyKTXowxvdjZuF_BFnhOphZq7meIIxd3jMa1J65DCEm0ZVAXJ4m1-Ni_aiI2RkWyMEdOg1pBrbe2jaal1oDdo2FjnHTHz7RFKyezjdkX_UD3TqVron_XLxmobumbfw3flkcLDIPDOqMLiKhw8s8G6eRlfNG1O01D1PW73rVHDgkngGrzaBElZX4Qu0Ap8WIBh0sJ8ehF1IZeERnyqebGTi3h-JKHNjYDGH438=w967-h725-no" onclick="currentSlide(6)" alt="Lightbox1 #6">
+        </div>
+        <p style="font-weight:300;float:right;color:black;margin-top:0;padding-right:1em;">scroll for more photos</p>
+      </div>
+    </div>
+  </div>
+
+>>>>>>> 063913b431d550399bbb6c6caf38f92bc2918b82
   <!-- <div class="lightbox-container">
     <div class="row">
       <div class="col l6 offset-l3">
@@ -226,6 +462,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <script type="text/javascript" src="lightbox.js"></script>
   <script>
+<<<<<<< HEAD
 $('#myCarousel').carousel({
   interval: false
 });
@@ -286,6 +523,55 @@ $('#myCarousel .carousel-item img').on('click', function(e) {
   var src = $(e.target).attr('data-remote');
   if (src) $(this).ekkoLightbox();
 });
+=======
+    $(function(){
+// Opens Lightboxes by the my-lightbox-modal id + number
+$('.open-lightbox').click(function(){
+  $('#my-lightbox-modal'+$(this).attr('target')).show();
+  $('#my-lightbox-modal'+$(this).attr('target')).find('.lightbox-slides').addClass('lightbox-slides-active');
+  $('#my-lightbox-modal'+$(this).attr('target')).find('.lightbox-slides').first().css('display' , 'block');
+  $('.card').hide();
+});
+// Closes Lightboxes on X click ***Look into esc key and clicking out of the image to close too***
+$('.close-lightbox').click(function(){
+  $('.lightbox-modal').hide();
+  $('.card').show();
+});
+});
+
+
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+function showSlides(n) {
+var i;
+var slides = $(".lightbox-slides-active");
+console.log(slides);
+var dots = $(".lightbox-slide-thumbnail");
+var captionText = $(".caption-text");
+
+if (n > slides.length) {
+  slideIndex = 1;
+}
+if (n < 1) {
+  slideIndex = slides.length;
+}
+for (i = 0; i < slides.length; i++) {
+  slides[i].style.display = "none";
+}
+for (i = 0; i < dots.length; i++) {
+  dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+$(".caption-text").html(dots[slideIndex-1].alt);
+}
+>>>>>>> 063913b431d550399bbb6c6caf38f92bc2918b82
 </script>
   </body>
 </html>
