@@ -60,7 +60,7 @@ $(document).ready(function(){
         $('.main-nav').removeClass("is_hover");
         $('.nav-wrap').removeClass("nav-fixed");
     });
-        });
+ });
 
 
 //hover games menu bar
@@ -93,12 +93,12 @@ $('.livegame-btn').click(function(){
 
 // diamond slider effect
 
-$(".diamond-wrap").hover(
+$(".diamond-item").hover(
     function () {
-        $(this).addClass('hovering-slide');
+        $(this).addClass('hovering');
     }, 
     function () {
-        $(this).removeClass("hovering-slide");
+        $(this).removeClass("hovering");
     }
 );
 
@@ -174,40 +174,17 @@ $('.news-slider').on('initialized.owl.carousel changed.owl.carousel', function(e
     scrollPerPage: true,
     navigation: true
   });
-// $('.news-slider').on('initialized.owl.carousel changed.owl.carousel', function(e) {
-//     if (!e.namespace)  {
-//       return;
-//     }
-//     var carousel = e.relatedTarget;
-//     $('.pagedot-counter').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
-//   }).owlCarousel({
-//     loop:false,
-//     center: true,
-//     autoWidth:true,
-//     margin:10,
-//     nav:true,
-//     responsive:{
-//         0:{
-//             items:2
-//         },
-//         600:{
-//             items:2
-//         },
-//         1000:{
-//             items:3
-//         }
-//     }
-//   });
 
-//Diamond carousal
+
+/*--  Diamond carousal --*/
 $('#diamondCarousel').owlCarousel({
     center: true,
     items:1,
     loop: true,
     margin:10,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout:2000,
-    autoplayHoverPause:true,
+    // autoplayHoverPause:true,
     responsive:{
         300:{
             items:1
@@ -220,6 +197,17 @@ $('#diamondCarousel').owlCarousel({
         }
     }
 });
+
+/*--  tilt.js for diamond carousal --*/
+$(document).ready(function(){
+    $('.diamond-item').tilt({
+        maxTilt: 20,
+        easing: "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
+        transition: true,   // Set a transition on enter/exit.
+        glare: false,  // Enables glare effect
+        
+    })
+})
 
 
 /*--  live studio hover scale --*/
