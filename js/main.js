@@ -176,26 +176,60 @@ $('.news-slider').on('initialized.owl.carousel changed.owl.carousel', function(e
 
 
 /*--  Diamond carousal --*/
-$('#diamondCarousel').owlCarousel({
+// $('#diamondCarousel').owlCarousel({
+//     center: true,
+//     items:1,
+//     loop: true,
+//     margin:10,
+//     autoplay: false,
+//     autoplayTimeout:2000,
+//     // autoplayHoverPause:true,
+//     responsive:{
+//         300:{
+//             navigation: true,
+//             nav: true,
+//             items:1
+//         },
+//         600:{
+//             navigation: true,
+//             nav: true,
+//             items:3
+//         },
+//         1750:{
+//             navigation: true,
+//             nav: true,
+//             items:4
+//         }
+//     }
+// });
+$('#diamondCarousel').on('initialized.owl.carousel changed.owl.carousel', function(e) {
+    if (!e.namespace)  {
+      return;
+    }
+    var carousel = e.relatedTarget;
+    $('.dia-pagedot-counter').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
+  }).owlCarousel({
     center: true,
     items:1,
     loop: true,
     margin:10,
     autoplay: false,
     autoplayTimeout:2000,
-    // autoplayHoverPause:true,
     responsive:{
         300:{
+            nav: true,
             items:1
         },
         600:{
+            nav: true,
             items:3
         },
         1750:{
+            nav: true,
             items:4
         }
     }
-});
+  });
 
 /*--  tilt.js for diamond carousal --*/
 $(document).ready(function(){
@@ -204,7 +238,7 @@ $(document).ready(function(){
         easing: "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
         transition: true,   // Set a transition on enter/exit.
         glare: false,  // Enables glare effect
-        
+        axis: x
     })
 })
 
