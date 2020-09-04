@@ -220,3 +220,44 @@ $('#diamondCarousel').owlCarousel({
         }
     }
 });
+
+
+/*--  live studio hover scale --*/
+
+  //This function will fire every time the user mouses off of the image. It resets the translation back to 0.
+  $(".img-hover").mouseout(function(){
+    $(this).css("transform", "translate(0px,0px)");
+  });
+
+  $(".studio-card").hover(
+    function () {
+        $(this).addClass('hovering-slide');
+    }, 
+    function () {
+        $(this).removeClass("hovering-slide");
+    }
+);
+
+
+/*--  light slider --*/
+
+$('#StudioSlider').lightSlider({
+    gallery: true,
+    item: 1,
+    loop:true,
+    slideMargin: 0,
+    thumbItem: 10,
+    // onSliderLoad: function() {
+    //     $("img").addClass("preferredHeight");
+    //   },
+    responsive : [ 
+        {
+            breakpoint: 768,
+            settings: {
+                thumbItem: 5,
+                slideMove: 1 
+            }
+        }
+    ]
+});
+
