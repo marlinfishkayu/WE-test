@@ -238,9 +238,10 @@ $(document).ready(function(){
         easing: "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
         transition: true,   // Set a transition on enter/exit.
         glare: false,  // Enables glare effect
-        axis: x
+        gyroscopeMaxAngleY:     45    
     })
 })
+
 
 
 /*--  live studio hover scale --*/
