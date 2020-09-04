@@ -213,7 +213,8 @@ $('#diamondCarousel').on('initialized.owl.carousel changed.owl.carousel', functi
     items:1,
     loop: true,
     margin:10,
-    autoplay: false,
+    autoplay: true,
+    autoplayHoverPause:true,
     autoplayTimeout:2000,
     responsive:{
         300:{
@@ -238,7 +239,7 @@ $(document).ready(function(){
         easing: "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
         transition: true,   // Set a transition on enter/exit.
         glare: false,  // Enables glare effect
-        gyroscopeMaxAngleY:     45    
+        gyroscopeMaxAngleY:  35    
     })
 })
 
