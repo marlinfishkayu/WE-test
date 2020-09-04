@@ -225,10 +225,10 @@
     .diamond-item:hover::after{
         content:"";
         position: absolute;
-        top: -15px;
-        left: 58px;
-        width: 107%;
-        height: 110%;
+        top: -5px;
+        left: -5px;
+        width: 105%;
+        height: 105%;
         z-index: -2;
         transform: translateZ(-33px);
         background-repeat: no-repeat;

@@ -87,21 +87,20 @@ $('.game-btn').click(function(){
 $('.livegame-btn').click(function(){
     $('.livegame-show').toggleClass("show");
     $('.livegame-btn').toggleClass("rotate");
-})
+});
 
 
 
 // diamond slider effect
-
+$(document).ready(function(){
 $(".diamond-item").hover(
     function () {
         $(this).addClass('hovering');
     }, 
     function () {
         $(this).removeClass("hovering");
-    }
-);
-
+    });
+});
 
 //hide nav menu for search
 $(document).ready(function(){
