@@ -41,6 +41,40 @@
             display: block;
         }
     }
+    .popular-game-carousel-container{
+        width: 100%;
+        height: 100%;
+    }
+    .popular-game-carousel{
+        // text-align: center;
+        font-size: 18px;
+        // display: -webkit-box;
+        // display: -ms-flexbox;
+        // display: -webkit-flex;
+        // display: flex;
+        // -webkit-box-pack: center;
+        // -ms-flex-pack: center;
+        // -webkit-justify-content: center;
+        // justify-content: center;
+        // -webkit-box-align: center;
+        // -ms-flex-align: center;
+        // -webkit-align-item: center;
+        // align-items: center;
+    }
+    .game-icon-bkg-wrap{
+        width: 177px;
+        height: 330px;
+        margin: 0 auto;
+        margin-top: 2rem;
+        img{
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover;
+            background-position: 50% 50%;
+        }
+    }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -49,6 +83,21 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+    #allLiveGame .allLiveGame-main .hero-intro2{ 
+        font-size: 26px;
+        max-width: 712px;
+        margin: 0 auto;
+        line-height: inherit;
+    }
+    #allLiveGame .allLiveGame-main{
+        padding: inherit;
+    }
+    #allLiveGame .allLiveGame-main .livegame-scroll-title{
+        padding-left: 5vw;
+    }
+    #allLiveGame .popular-game-carousel-container{
+        padding-left: 5vw;
+    }
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
@@ -56,5 +105,16 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+    #allLiveGame .allLiveGame-main .hero-intro2{ 
+        max-width: 900px;
+    }
+    // #allLiveGame .game-icon-bkg-wrap {
+    //     width: 100%;
+    //     height: 100%;
+    // }
+    #allLiveGame .game-icon-bkg-wrap{
+        width: 295px;
+        height: 550px;
+    }
 }
 

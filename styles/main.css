@@ -4008,6 +4008,58 @@ select.form-control::-ms-expand {
   display: block;
 }
 
+#allLiveGame .popular-game-carousel-container {
+  width: 100%;
+  height: 100%;
+}
+
+#allLiveGame .popular-game-carousel {
+  font-size: 18px;
+}
+
+#allLiveGame .game-icon-bkg-wrap {
+  width: 177px;
+  height: 330px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+#allLiveGame .game-icon-bkg-wrap img {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+@media (min-width: 768px) {
+  #allLiveGame .allLiveGame-main .hero-intro2 {
+    font-size: 26px;
+    max-width: 712px;
+    margin: 0 auto;
+    line-height: inherit;
+  }
+  #allLiveGame .allLiveGame-main {
+    padding: inherit;
+  }
+  #allLiveGame .allLiveGame-main .livegame-scroll-title {
+    padding-left: 5vw;
+  }
+  #allLiveGame .popular-game-carousel-container {
+    padding-left: 5vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  #allLiveGame .allLiveGame-main .hero-intro2 {
+    max-width: 900px;
+  }
+  #allLiveGame .game-icon-bkg-wrap {
+    width: 295px;
+    height: 550px;
+  }
+}
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   #nav-area .search-form {
     top: -5px;

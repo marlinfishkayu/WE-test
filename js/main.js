@@ -264,41 +264,47 @@ $(document).ready(function(){
 
 /*--  light slider --*/
 
-$('#StudioSlider').lightSlider({
-    gallery: true,
-    item: 1,
-    loop:true,
-    slideMargin: 0,
-    thumbItem: 10,
-    // onSliderLoad: function() {
-    //     $("img").addClass("preferredHeight");
-    //   },
-    responsive : [ 
-        {
-            breakpoint: 768,
-            settings: {
-                thumbItem: 5,
-                slideMove: 1 
-            }
-        }
-    ]
-});
+// $('#StudioSlider').lightSlider({
+//     gallery: true,
+//     item: 1,
+//     loop:true,
+//     slideMargin: 0,
+//     thumbItem: 10,
+//     // onSliderLoad: function() {
+//     //     $("img").addClass("preferredHeight");
+//     //   },
+//     responsive : [ 
+//         {
+//             breakpoint: 768,
+//             settings: {
+//                 thumbItem: 5,
+//                 slideMove: 1 
+//             }
+//         }
+//     ]
+// });
 
 
 /*-- All Live Game popular game slider--*/
-$('.popular-game-carousel').owlCarousel({
+$('#popularCarousel').owlCarousel({
     loop:true,
+    lazyLoad: true,
     margin:10,
     nav:true,
+    autoplay: true,
+    autoWidth:true,
+    items:1,    
+    // autoplayHoverPause:true,
     responsive:{
         0:{
-            items:1
+            items:1,
+            center: true
         },
-        600:{
-            items:3
+        768:{
+            center: false
         },
-        1000:{
-            items:5
+        1024:{
+            lazyLoadEager:3
         }
     }
 })
