@@ -4103,9 +4103,59 @@ select.form-control::-ms-expand {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#011b3e",endColorstr="#000916",GradientType=1);
 }
 
+#allLiveGame .game-icon-bkg-wrap .float-card {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 2;
+  width: 100%;
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+
+#allLiveGame .game-icon-bkg-wrap .float-card .float-icon-wrap {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+}
+
+#allLiveGame .game-icon-bkg-wrap .float-card .float-icon-wrap img {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+#allLiveGame .game-icon-bkg-wrap .float-card .float-game-til {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  color: #D8D8D8;
+  padding-top: 30px;
+  font-weight: 100;
+}
+
+#allLiveGame .game-icon-bkg-wrap .float-card .float-game-des {
+  display: none;
+  font-size: 16px;
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
+  font-weight: 100;
+  color: #D8D8D8;
+  letter-spacing: 1px;
+  padding-top: 20px;
+}
+
+#allLiveGame .game-icon-bkg-wrap .float-card .main-button {
+  display: none;
+  width: 150px;
+}
+
 #allLiveGame .pg-slide {
-  -webkit-transition: 250ms all;
-  transition: 250ms all;
+  -webkit-transition: 550ms all;
+  transition: 550ms all;
 }
 
 #allLiveGame .pg-slide:hover {
@@ -4116,8 +4166,20 @@ select.form-control::-ms-expand {
   margin-left: 30px;
 }
 
+#allLiveGame .hovering .float-card {
+  top: 35%;
+}
+
+#allLiveGame .hovering .float-icon-wrap {
+  display: none;
+}
+
 #allLiveGame .game-icon-bkg-wrap:hover::after {
   opacity: 0;
+}
+
+#allLiveGame .hovering .game-icon-bkg-wrap .float-card .main-button {
+  display: block;
 }
 
 @media (min-width: 768px) {
@@ -4152,6 +4214,19 @@ select.form-control::-ms-expand {
   }
   #allLiveGame .popular-game-carousel {
     height: 800px;
+  }
+  #allLiveGame .game-icon-bkg-wrap .float-card .float-game-til {
+    font-size: 26px;
+  }
+  #allLiveGame .game-icon-bkg-wrap .float-card .float-game-des {
+    display: block;
+  }
+  #allLiveGame .game-icon-bkg-wrap .float-card .float-icon-wrap {
+    width: 110px;
+    height: 110px;
+  }
+  #allLiveGame .game-icon-bkg-wrap .float-card .main-button {
+    width: 230px;
   }
 }
 

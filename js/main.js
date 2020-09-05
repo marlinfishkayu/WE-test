@@ -176,32 +176,7 @@ $('.news-slider').on('initialized.owl.carousel changed.owl.carousel', function(e
 
 
 /*--  Diamond carousal --*/
-// $('#diamondCarousel').owlCarousel({
-//     center: true,
-//     items:1,
-//     loop: true,
-//     margin:10,
-//     autoplay: false,
-//     autoplayTimeout:2000,
-//     // autoplayHoverPause:true,
-//     responsive:{
-//         300:{
-//             navigation: true,
-//             nav: true,
-//             items:1
-//         },
-//         600:{
-//             navigation: true,
-//             nav: true,
-//             items:3
-//         },
-//         1750:{
-//             navigation: true,
-//             nav: true,
-//             items:4
-//         }
-//     }
-// });
+
 $('#diamondCarousel').on('initialized.owl.carousel changed.owl.carousel', function(e) {
     if (!e.namespace)  {
       return;
@@ -321,3 +296,16 @@ $('#popularCarousel').owlCarousel({
     scrollPerPage: true,
     navigation: true
 })
+
+/*-- Add class to popular-game-carousel slider when hover --*/
+
+$(document).ready(function(){
+    $(".pg-slide").hover(
+        function () {
+            $(this).addClass('hovering');
+        }, 
+        function () {
+            $(this).removeClass("hovering");
+        });
+    });
+    
