@@ -287,9 +287,9 @@ $(document).ready(function(){
 
 /*-- All Live Game popular game slider--*/
 $('#popularCarousel').owlCarousel({
-    loop:true,
+    loop: true,
     lazyLoad: true,
-    margin:10,
+    // margin:10,
     nav:true,
     autoplay: false,
     autoWidth:true,
@@ -298,7 +298,7 @@ $('#popularCarousel').owlCarousel({
     // autoplayHoverPause:true,
     responsive: {
       0: {
-        center: true,
+          center: true,
         items: 1,
         navigation: true,
         nav: true,

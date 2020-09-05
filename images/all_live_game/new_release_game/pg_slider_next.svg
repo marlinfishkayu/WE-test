@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="74" viewBox="0 0 74 74">
+  <defs>
+    <linearGradient id="pg_slider_next-a" x1="8.24%" x2="86.567%" y1="16.39%" y2="90.668%">
+      <stop offset="0%" stop-color="#000F24" stop-opacity=".8"/>
+      <stop offset="100%" stop-color="#011B3E" stop-opacity=".6"/>
+    </linearGradient>
+    <linearGradient id="pg_slider_next-b" x1="7.122%" x2="89.8%" y1="245.957%" y2="245.957%">
+      <stop offset="0%" stop-color="#A78C68"/>
+      <stop offset="52.444%" stop-color="#7C6341"/>
+      <stop offset="100%" stop-color="#AFA286"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <rect width="72" height="72" fill="url(#pg_slider_next-a)" stroke="url(#pg_slider_next-b)" stroke-width=".9" rx="35.463"/>
+    <polygon fill="#B0936D" fill-rule="nonzero" points="35.699 24.666 36.301 25.334 28.173 32.649 45 32.65 45 33.55 25.827 33.55" transform="matrix(-1 0 0 1 70.827 0)"/>
+    <polygon fill="#B0936D" fill-rule="nonzero" points="35.682 37.282 36.318 37.918 28.087 46.149 45 46.15 45 47.05 25.914 47.05" transform="rotate(180 35.457 42.166)"/>
+  </g>
+</svg>
