@@ -291,20 +291,33 @@ $('#popularCarousel').owlCarousel({
     lazyLoad: true,
     margin:10,
     nav:true,
-    autoplay: true,
+    autoplay: false,
     autoWidth:true,
     items:1,    
+    nav: true,
     // autoplayHoverPause:true,
-    responsive:{
-        0:{
-            items:1,
-            center: true
-        },
-        768:{
-            center: false
-        },
-        1024:{
-            lazyLoadEager:3
-        }
-    }
+    responsive: {
+      0: {
+        center: true,
+        items: 1,
+        navigation: true,
+        nav: true,
+        slideBy: 1 // <!-- HERE
+      },
+     768: {
+        items: 2,
+        navigation: true,
+        nav: true,
+        slideBy: 2 // <!-- HERE
+      },
+     1280: {
+        items: 3,
+        navigation: true,
+        nav: true,
+        slideBy: 3 ,// <!-- HERE
+        lazyLoadEager:3
+      }
+    },
+    scrollPerPage: true,
+    navigation: true
 })
