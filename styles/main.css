@@ -4360,6 +4360,75 @@ select.form-control::-ms-expand {
   }
 }
 
+#AboutWE .hero-header {
+  height: 400px;
+}
+
+#AboutWE .hero-header .hero-header-bkg {
+  height: 400px;
+}
+
+#AboutWE .hero-header .hero-title {
+  line-height: 1;
+  font-size: 40px;
+  padding: 0 2rem;
+}
+
+#AboutWE .about-main {
+  padding: 0 3rem;
+  padding-bottom: 3rem;
+}
+
+#AboutWE .about-main .hero-intro2 {
+  font-size: 20px;
+  text-align: center;
+  max-width: 712px;
+  margin: 0 auto;
+}
+
+#AboutWE .about-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#AboutWE .about-wrap .about-list-wrap {
+  width: 100%;
+  display: none;
+}
+
+#AboutWE .about-wrap .about-nav a {
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-size: 16px;
+  color: #545454;
+  text-transform: uppercase;
+}
+
+#AboutWE .about-wrap .about-content-wrap {
+  width: 100%;
+}
+
+[aria-expanded="false"] .collapsed {
+  display: block;
+  height: 0px !important;
+  overflow: hidden;
+}
+
+[aria-expanded="true"] .collapsed {
+  height: 40px !important;
+}
+
+@media (min-width: 992px) {
+  #AboutWE .about-wrap .about-list-wrap {
+    width: 50%;
+    display: block;
+  }
+  #AboutWE .about-wrap .about-content-wrap {
+    width: 50%;
+  }
+}
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   #nav-area .search-form {
     top: -5px;
