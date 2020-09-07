@@ -50,24 +50,24 @@
         font-size: 18px;
         padding: 40px 0;
         height: 500px;
+        position: relative;
         .owl-dots{
             display: none;
         }
         .owl-nav{
-            position: absolute;
-            top: 50%;
-            right: 0;
-            transform: translateX(-50%);
+            display: none;
+            width:100%;
         }
         .owl-nav span{
             display: none;
         }
         .owl-nav .owl-prev ,
         .owl-nav .owl-next {
+            position: absolute;
             opacity: 0.5;
             width: 72px;
             height: 72px;
-            left: -55px;
+            top: 40%;
             margin: 5px 28px;
             transition: 250ms all;
             background-repeat: no-repeat;
@@ -80,6 +80,10 @@
         }
         .owl-nav .owl-prev {
             transform: scaleX(-1);
+            left: 0;
+        }
+        .owl-nav .owl-next {
+            right: 0;
         }
         button:focus {
             outline: transparent;
@@ -245,6 +249,9 @@
     }
     #allLiveGame .game-icon-bkg-wrap .float-card .main-button {
         width: 230px;
+    }
+    #allLiveGame .popular-game-carousel .owl-nav{
+        display: block;
     }
 }
 

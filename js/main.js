@@ -284,13 +284,6 @@ $('#popularCarousel').owlCarousel({
         navigation: true,
         nav: true,
         slideBy: 2 // <!-- HERE
-      },
-     1280: {
-        items: 3,
-        navigation: true,
-        nav: true,
-        slideBy: 3 ,// <!-- HERE
-        lazyLoadEager:3
       }
     },
     scrollPerPage: true,

@@ -4018,6 +4018,7 @@ select.form-control::-ms-expand {
   font-size: 18px;
   padding: 40px 0;
   height: 500px;
+  position: relative;
 }
 
 #allLiveGame .popular-game-carousel .owl-dots {
@@ -4025,11 +4026,8 @@ select.form-control::-ms-expand {
 }
 
 #allLiveGame .popular-game-carousel .owl-nav {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  display: none;
+  width: 100%;
 }
 
 #allLiveGame .popular-game-carousel .owl-nav span {
@@ -4038,10 +4036,11 @@ select.form-control::-ms-expand {
 
 #allLiveGame .popular-game-carousel .owl-nav .owl-prev,
 #allLiveGame .popular-game-carousel .owl-nav .owl-next {
+  position: absolute;
   opacity: 0.5;
   width: 72px;
   height: 72px;
-  left: -55px;
+  top: 40%;
   margin: 5px 28px;
   -webkit-transition: 250ms all;
   transition: 250ms all;
@@ -4059,6 +4058,11 @@ select.form-control::-ms-expand {
 #allLiveGame .popular-game-carousel .owl-nav .owl-prev {
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
+  left: 0;
+}
+
+#allLiveGame .popular-game-carousel .owl-nav .owl-next {
+  right: 0;
 }
 
 #allLiveGame .popular-game-carousel button:focus {
@@ -4227,6 +4231,9 @@ select.form-control::-ms-expand {
   }
   #allLiveGame .game-icon-bkg-wrap .float-card .main-button {
     width: 230px;
+  }
+  #allLiveGame .popular-game-carousel .owl-nav {
+    display: block;
   }
 }
 
