@@ -4017,8 +4017,14 @@ select.form-control::-ms-expand {
 #allLiveGame .popular-game-carousel {
   font-size: 18px;
   padding: 40px 0;
-  height: 500px;
+  height: 400px;
   position: relative;
+}
+
+#allLiveGame .popular-game-carousel .center {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  z-index: 1;
 }
 
 #allLiveGame .popular-game-carousel .owl-dots {
@@ -4244,7 +4250,7 @@ select.form-control::-ms-expand {
 }
 
 #allLiveGame #newReleaseCarousel .game-icon-bkg-wrap .float-card {
-  top: 51%;
+  top: 80%;
 }
 
 #allLiveGame #newReleaseCarousel .game-icon-bkg-wrap .float-card h3 {
@@ -4288,6 +4294,11 @@ select.form-control::-ms-expand {
   #allLiveGame .popular-game-carousel-container {
     padding-left: 5vw;
   }
+  #allLiveGame .popular-game-carousel .center {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    z-index: 1;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -4323,6 +4334,9 @@ select.form-control::-ms-expand {
   }
   #allLiveGame #newReleaseCarousel .owl-nav {
     display: block;
+  }
+  #allLiveGame #newReleaseCarousel .game-icon-bkg-wrap .float-card {
+    top: 50%;
   }
 }
 

@@ -313,10 +313,10 @@ $('#newReleaseCarousel').owlCarousel({
         slideBy: 1 // <!-- HERE
       },
      768: {
-        items: 2,
+        items: 3,
         navigation: true,
         nav: true,
-        slideBy: 2 // <!-- HERE
+        slideBy: 3 // <!-- HERE
       }
     },
     scrollPerPage: true,

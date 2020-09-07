@@ -49,8 +49,12 @@
     .popular-game-carousel{
         font-size: 18px;
         padding: 40px 0;
-        height: 500px;
+        height: 400px;
         position: relative;
+        .center{
+            transform: scale(1.2);
+            z-index: 1;
+        }
         .owl-dots{
             display: none;
         }
@@ -238,7 +242,7 @@
     .game-icon-bkg-wrap{
         padding-top: 5rem;
         .float-card {
-            top: 51%;
+            top: 80%;
             h3{
                 font-size: 16px;
             }
@@ -282,7 +286,10 @@
     #allLiveGame .popular-game-carousel-container{
         padding-left: 5vw;
     }
-    
+    #allLiveGame .popular-game-carousel .center{
+        transform: scale(1);
+        z-index: 1;
+    }
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
@@ -322,6 +329,9 @@
     }
     #allLiveGame #newReleaseCarousel .owl-nav{
         display: block;
+    }
+    #allLiveGame #newReleaseCarousel .game-icon-bkg-wrap .float-card{
+        top: 50%;
     }
 }
 
