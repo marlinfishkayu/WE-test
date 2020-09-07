@@ -4109,7 +4109,7 @@ select.form-control::-ms-expand {
 
 #allLiveGame .game-icon-bkg-wrap .float-card {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -4186,6 +4186,91 @@ select.form-control::-ms-expand {
   display: block;
 }
 
+#allLiveGame #newReleaseCarousel {
+  height: 600px;
+  position: relative;
+}
+
+#allLiveGame #newReleaseCarousel .owl-dots {
+  display: none;
+}
+
+#allLiveGame #newReleaseCarousel .owl-nav {
+  display: none;
+  width: 100%;
+}
+
+#allLiveGame #newReleaseCarousel .owl-nav span {
+  display: none;
+}
+
+#allLiveGame #newReleaseCarousel .owl-nav .owl-prev,
+#allLiveGame #newReleaseCarousel .owl-nav .owl-next {
+  position: absolute;
+  opacity: 0.5;
+  width: 72px;
+  height: 72px;
+  top: 40%;
+  margin: 5px 28px;
+  -webkit-transition: 250ms all;
+  transition: 250ms all;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NCIgaGVpZ2h0PSI3NCIgdmlld0JveD0iMCAwIDc0IDc0Ij4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icGdfc2xpZGVyX25leHQtYSIgeDE9IjguMjQlIiB4Mj0iODYuNTY3JSIgeTE9IjE2LjM5JSIgeTI9IjkwLjY2OCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDAwRjI0IiBzdG9wLW9wYWNpdHk9Ii44Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAxMUIzRSIgc3RvcC1vcGFjaXR5PSIuNiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icGdfc2xpZGVyX25leHQtYiIgeDE9IjcuMTIyJSIgeDI9Ijg5LjglIiB5MT0iMjQ1Ljk1NyUiIHkyPSIyNDUuOTU3JSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNBNzhDNjgiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSI1Mi40NDQlIiBzdG9wLWNvbG9yPSIjN0M2MzQxIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0FGQTI4NiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxIDEpIj4KICAgIDxyZWN0IHdpZHRoPSI3MiIgaGVpZ2h0PSI3MiIgZmlsbD0idXJsKCNwZ19zbGlkZXJfbmV4dC1hKSIgc3Ryb2tlPSJ1cmwoI3BnX3NsaWRlcl9uZXh0LWIpIiBzdHJva2Utd2lkdGg9Ii45IiByeD0iMzUuNDYzIi8+CiAgICA8cG9seWdvbiBmaWxsPSIjQjA5MzZEIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHBvaW50cz0iMzUuNjk5IDI0LjY2NiAzNi4zMDEgMjUuMzM0IDI4LjE3MyAzMi42NDkgNDUgMzIuNjUgNDUgMzMuNTUgMjUuODI3IDMzLjU1IiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSA3MC44MjcgMCkiLz4KICAgIDxwb2x5Z29uIGZpbGw9IiNCMDkzNkQiIGZpbGwtcnVsZT0ibm9uemVybyIgcG9pbnRzPSIzNS42ODIgMzcuMjgyIDM2LjMxOCAzNy45MTggMjguMDg3IDQ2LjE0OSA0NSA0Ni4xNSA0NSA0Ny4wNSAyNS45MTQgNDcuMDUiIHRyYW5zZm9ybT0icm90YXRlKDE4MCAzNS40NTcgNDIuMTY2KSIvPgogIDwvZz4KPC9zdmc+Cg==");
+}
+
+#allLiveGame #newReleaseCarousel .owl-nav .owl-prev:hover,
+#allLiveGame #newReleaseCarousel .owl-nav .owl-next:hover {
+  background-color: transparent;
+  opacity: 1;
+}
+
+#allLiveGame #newReleaseCarousel .owl-nav .owl-prev {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  left: 0;
+}
+
+#allLiveGame #newReleaseCarousel .owl-nav .owl-next {
+  right: 0;
+}
+
+#allLiveGame #newReleaseCarousel button:focus {
+  outline: transparent;
+}
+
+#allLiveGame #newReleaseCarousel .game-icon-bkg-wrap {
+  padding-top: 5rem;
+}
+
+#allLiveGame #newReleaseCarousel .game-icon-bkg-wrap .float-card {
+  top: 51%;
+}
+
+#allLiveGame #newReleaseCarousel .game-icon-bkg-wrap .float-card h3 {
+  font-size: 16px;
+}
+
+#allLiveGame #newReleaseCarousel .game-icon-bkg-wrap picture {
+  width: 100%;
+  /* width of container */
+  height: 188px;
+  /* height of container */
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#allLiveGame #newReleaseCarousel .game-icon-bkg-wrap picture img {
+  width: 295px;
+  height: 188px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#allLiveGame #newReleaseCarousel .game-icon-bkg-wrap:after {
+  display: none;
+}
+
 @media (min-width: 768px) {
   #allLiveGame .allLiveGame-main .hero-intro2 {
     font-size: 26px;
@@ -4199,6 +4284,7 @@ select.form-control::-ms-expand {
   #allLiveGame .allLiveGame-main .livegame-scroll-title {
     padding-left: 5vw;
   }
+  #allLiveGame .NewReleasesGame-carousel-container,
   #allLiveGame .popular-game-carousel-container {
     padding-left: 5vw;
   }
@@ -4217,7 +4303,7 @@ select.form-control::-ms-expand {
     height: 540px;
   }
   #allLiveGame .popular-game-carousel {
-    height: 800px;
+    height: 700px;
   }
   #allLiveGame .game-icon-bkg-wrap .float-card .float-game-til {
     font-size: 26px;
@@ -4233,6 +4319,9 @@ select.form-control::-ms-expand {
     width: 230px;
   }
   #allLiveGame .popular-game-carousel .owl-nav {
+    display: block;
+  }
+  #allLiveGame #newReleaseCarousel .owl-nav {
     display: block;
   }
 }

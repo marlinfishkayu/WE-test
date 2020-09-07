@@ -270,7 +270,40 @@ $('#popularCarousel').owlCarousel({
     autoWidth:true,
     items:1,    
     nav: true,
-    // autoplayHoverPause:true,
+    lazyLoadEager:4,
+    autoplayHoverPause:true,
+    responsive: {
+      0: {
+          center: true,
+        items: 1,
+        navigation: true,
+        nav: true,
+        slideBy: 1 // <!-- HERE
+      },
+     768: {
+        items: 2,
+        navigation: true,
+        nav: true,
+        slideBy: 2 // <!-- HERE
+      }
+    },
+    scrollPerPage: true,
+    navigation: true
+})
+
+/*-- All Live Game new release game slider--*/
+
+$('#newReleaseCarousel').owlCarousel({
+    loop: true,
+    lazyLoad: true,
+    // margin:10,
+    nav:true,
+    autoplay: false,
+    autoWidth:true,
+    items:1,    
+    nav: true,
+    lazyLoadEager:4,
+    autoplayHoverPause:true,
     responsive: {
       0: {
           center: true,
@@ -295,10 +328,7 @@ $('#popularCarousel').owlCarousel({
 $(document).ready(function(){
     $(".pg-slide").hover(
         function () {
-            $(this).addClass('hovering');
-        }, 
-        function () {
-            $(this).removeClass("hovering");
+            $(this).toggleClass('hovering');
         });
     });
     
