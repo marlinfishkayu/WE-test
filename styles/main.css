@@ -4398,28 +4398,117 @@ select.form-control::-ms-expand {
   display: none;
 }
 
-#AboutWE .about-wrap .about-nav a {
+#AboutWE .about-wrap .about-guide li {
+  padding-bottom: 5px;
+  position: relative;
+}
+
+#AboutWE .about-wrap .about-guide li a {
   font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
   font-size: 16px;
   color: #545454;
   text-transform: uppercase;
+  -webkit-transition: 200ms all;
+  transition: 200ms all;
+}
+
+#AboutWE .about-wrap .about-guide li a:hover {
+  color: #D8D8D8;
+  text-decoration: none;
+}
+
+#AboutWE .about-wrap .about-guide li:after {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: -18px;
+  top: 30%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTNweCIgaGVpZ2h0PSIxM3B4IiB2aWV3Qm94PSIwIDAgMTMgMTMiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDY0ICg5MzUzNykgLSBodHRwczovL3NrZXRjaC5jb20gLS0+CiAgICA8dGl0bGU+UmVjdGFuZ2xlIENvcHkgOTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCB4MT0iNy4xMjE5Njg5MiUiIHkxPSIyNDUuOTU2NzE3JSIgeDI9Ijg5LjgwMDExODklIiB5Mj0iMjQ1Ljk1NjcxNyUiIGlkPSJsaW5lYXJHcmFkaWVudC0xIj4KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI0E3OEM2OCIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjN0M2MzQxIiBvZmZzZXQ9IjUyLjQ0NDA0NTYlIj48L3N0b3A+CiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNBRkEyODYiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8L2RlZnM+CiAgICA8ZyBpZD0iQWJvdXQtV0UiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJXRV9hYm91dHVzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTgxLjAwMDAwMCwgLTc5NC4wMDAwMDApIiBzdHJva2U9InVybCgjbGluZWFyR3JhZGllbnQtMSkiPgogICAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlLUNvcHktOSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTg3LjUwMDAwMCwgODAwLjUwMDAwMCkgcm90YXRlKC00NS4wMDAwMDApIHRyYW5zbGF0ZSgtMTg3LjUwMDAwMCwgLTgwMC41MDAwMDApICIgeD0iMTgzLjUiIHk9Ijc5Ni41IiB3aWR0aD0iOCIgaGVpZ2h0PSI4Ij48L3JlY3Q+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=");
 }
 
 #AboutWE .about-wrap .about-content-wrap {
   width: 100%;
 }
 
-[aria-expanded="false"] .collapsed {
-  display: block;
-  height: 0px !important;
-  overflow: hidden;
+#AboutWE .about-wrap .about-guide li:hover::after {
+  opacity: 1;
 }
 
-[aria-expanded="true"] .collapsed {
-  height: 40px !important;
+.about-content-wrap {
+  padding-left: 3rem;
+}
+
+.about-content-wrap .expand-wrap .feature-header {
+  position: relative;
+}
+
+.about-content-wrap .expand-wrap .feature-header:after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 1px;
+  left: -30px;
+  top: 14px;
+  background: #C5955E;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.about-content-wrap .expand-wrap .feature-header:before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 1px;
+  left: -30px;
+  top: 14px;
+  background: #C5955E;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: 200ms all;
+  transition: 200ms all;
+}
+
+.about-content-wrap .feature-header {
+  color: #D8D8D8;
+  font-size: 20px;
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  color: #D8D8D8;
+  text-transform: uppercase;
+  -webkit-transition: 200ms all;
+  transition: 200ms all;
+  letter-spacing: 1px;
+}
+
+.about-content-wrap .feature-header:hover {
+  color: #D8D8D8;
+  text-decoration: none;
+}
+
+.about-content-wrap .card {
+  background: transparent;
+}
+
+.about-content-wrap .card p {
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
+  color: #979797;
+}
+
+.about-content-wrap .expand-wrap .collapsed::before {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  content: "";
 }
 
 @media (min-width: 992px) {
+  #AboutWE .about-wrap {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
   #AboutWE .about-wrap .about-list-wrap {
     width: 50%;
     display: block;
