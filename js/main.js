@@ -60,7 +60,7 @@ $(document).ready(function(){
         $('.main-nav').removeClass("is_hover");
         $('.nav-wrap').removeClass("nav-fixed");
     });
-        });
+ });
 
 
 //hover games menu bar
@@ -87,21 +87,20 @@ $('.game-btn').click(function(){
 $('.livegame-btn').click(function(){
     $('.livegame-show').toggleClass("show");
     $('.livegame-btn').toggleClass("rotate");
-})
+});
 
 
 
 // diamond slider effect
-
-$(".diamond-wrap").hover(
+$(document).ready(function(){
+$(".diamond-item").hover(
     function () {
-        $(this).addClass('hovering-slide');
+        $(this).addClass('hovering');
     }, 
     function () {
-        $(this).removeClass("hovering-slide");
-    }
-);
-
+        $(this).removeClass("hovering");
+    });
+});
 
 //hide nav menu for search
 $(document).ready(function(){
@@ -174,52 +173,51 @@ $('.news-slider').on('initialized.owl.carousel changed.owl.carousel', function(e
     scrollPerPage: true,
     navigation: true
   });
-// $('.news-slider').on('initialized.owl.carousel changed.owl.carousel', function(e) {
-//     if (!e.namespace)  {
-//       return;
-//     }
-//     var carousel = e.relatedTarget;
-//     $('.pagedot-counter').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
-//   }).owlCarousel({
-//     loop:false,
-//     center: true,
-//     autoWidth:true,
-//     margin:10,
-//     nav:true,
-//     responsive:{
-//         0:{
-//             items:2
-//         },
-//         600:{
-//             items:2
-//         },
-//         1000:{
-//             items:3
-//         }
-//     }
-//   });
 
-//Diamond carousal
-$('#diamondCarousel').owlCarousel({
+
+/*--  Diamond carousal --*/
+
+$('#diamondCarousel').on('initialized.owl.carousel changed.owl.carousel', function(e) {
+    if (!e.namespace)  {
+      return;
+    }
+    var carousel = e.relatedTarget;
+    $('.dia-pagedot-counter').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
+  }).owlCarousel({
     center: true,
     items:1,
     loop: true,
     margin:10,
     autoplay: true,
-    autoplayTimeout:2000,
     autoplayHoverPause:true,
+    autoplayTimeout:2000,
     responsive:{
         300:{
+            nav: true,
             items:1
         },
         600:{
+            nav: true,
             items:3
         },
         1750:{
+            nav: true,
             items:4
         }
     }
-});
+  });
+
+/*--  tilt.js for diamond carousal --*/
+$(document).ready(function(){
+    $('.diamond-item').tilt({
+        maxTilt: 20,
+        easing: "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
+        transition: true,   // Set a transition on enter/exit.
+        glare: false,  // Enables glare effect
+        gyroscopeMaxAngleY:  35    
+    })
+})
+
 
 
 /*--  live studio hover scale --*/
@@ -241,23 +239,73 @@ $('#diamondCarousel').owlCarousel({
 
 /*--  light slider --*/
 
-$('#StudioSlider').lightSlider({
-    gallery: true,
-    item: 1,
-    loop:true,
-    slideMargin: 0,
-    thumbItem: 10,
-    // onSliderLoad: function() {
-    //     $("img").addClass("preferredHeight");
-    //   },
-    responsive : [ 
-        {
-            breakpoint: 768,
-            settings: {
-                thumbItem: 5,
-                slideMove: 1 
-            }
-        }
-    ]
-});
+// $('#StudioSlider').lightSlider({
+//     gallery: true,
+//     item: 1,
+//     loop:true,
+//     slideMargin: 0,
+//     thumbItem: 10,
+//     // onSliderLoad: function() {
+//     //     $("img").addClass("preferredHeight");
+//     //   },
+//     responsive : [ 
+//         {
+//             breakpoint: 768,
+//             settings: {
+//                 thumbItem: 5,
+//                 slideMove: 1 
+//             }
+//         }
+//     ]
+// });
 
+
+/*-- All Live Game popular game slider--*/
+$('#popularCarousel').owlCarousel({
+    loop: true,
+    lazyLoad: true,
+    // margin:10,
+    nav:true,
+    autoplay: false,
+    autoWidth:true,
+    items:1,    
+    nav: true,
+    // autoplayHoverPause:true,
+    responsive: {
+      0: {
+          center: true,
+        items: 1,
+        navigation: true,
+        nav: true,
+        slideBy: 1 // <!-- HERE
+      },
+     768: {
+        items: 2,
+        navigation: true,
+        nav: true,
+        slideBy: 2 // <!-- HERE
+      },
+     1280: {
+        items: 3,
+        navigation: true,
+        nav: true,
+        slideBy: 3 ,// <!-- HERE
+        lazyLoadEager:3
+      }
+    },
+    scrollPerPage: true,
+    navigation: true
+})
+
+/*-- Add class to popular-game-carousel slider when hover --*/
+
+$(document).ready(function(){
+    $(".pg-slide").hover(
+        function () {
+            $(this).addClass('hovering');
+        }, 
+        function () {
+            $(this).removeClass("hovering");
+        });
+    });
+    
