@@ -48,7 +48,6 @@
     }
     .popular-game-carousel{
         font-size: 18px;
-        padding: 40px 0;
         height: 400px;
         position: relative;
         .center{
@@ -218,7 +217,7 @@
             opacity: 0.5;
             width: 72px;
             height: 72px;
-            top: 40%;
+            top: 20%;
             margin: 5px 28px;
             transition: 250ms all;
             background-repeat: no-repeat;
@@ -241,21 +240,24 @@
             outline: transparent;
         }
     .game-icon-bkg-wrap{
-        padding-top: 5rem;
-        width: 295px;
-        height: 320px;
+        width: 235px;
+        height: 280px;
+        padding: 3px;
         .float-card {
-            top: 80%;
+            top: 75%;
             h3{
                 font-size: 16px;
             }
+        }
+        .float-game-til{
+            padding-top: 0;
         }
         picture{
             width: 100%; /* width of container */
             object-fit: cover;
             img{
-                width: 295px;
-                height: 188px;
+                width: 235px;
+                height: 150px;
                 object-fit: cover;
             }
         }
@@ -273,10 +275,11 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     #allLiveGame .allLiveGame-main .hero-intro2{ 
-        font-size: 26px;
+        font-size: 20px;
         max-width: 712px;
         margin: 0 auto;
         line-height: inherit;
+        margin-bottom: 4rem;
     }
     #allLiveGame .allLiveGame-main{
         padding: inherit;
@@ -292,6 +295,17 @@
         transform: scale(1);
         z-index: 1;
     }
+    #allLiveGame #newReleaseCarousel .game-icon-bkg-wrap{
+            width: 295px;
+            height: 320px;
+            padding: 10px;
+            picture{
+                img{
+                    width: 295px;
+                    height: 188px;
+                }
+            }
+        } 
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
@@ -311,7 +325,7 @@
         }
     }
     #allLiveGame .popular-game-carousel{
-        height: 700px;
+        height: 620px;
     }
     #allLiveGame .game-icon-bkg-wrap .float-card .float-game-til{
         font-size: 26px;
@@ -333,7 +347,7 @@
         display: block;
     }
     #allLiveGame #newReleaseCarousel .game-icon-bkg-wrap .float-card{
-        top: 85%;
+        top: 75%;
     }
 }
 
