@@ -308,7 +308,7 @@ $('#newReleaseCarousel').owlCarousel({
     autoplayHoverPause:true,
     responsive: {
       0: {
-          center: true,
+        center: true,
         items: 1,
         navigation: true,
         nav: true,
@@ -317,6 +317,7 @@ $('#newReleaseCarousel').owlCarousel({
      768: {
         items: 3,
         navigation: true,
+        autoWidth:true,
         nav: true,
         slideBy: 3 // <!-- HERE
       }

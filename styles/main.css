@@ -4239,13 +4239,13 @@ select.form-control::-ms-expand {
 }
 
 #allLiveGame #newReleaseCarousel .owl-nav .owl-prev {
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-  left: 0;
+  right: 0;
 }
 
 #allLiveGame #newReleaseCarousel .owl-nav .owl-next {
-  right: 0;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  left: 0;
 }
 
 #allLiveGame #newReleaseCarousel button:focus {
@@ -4254,6 +4254,8 @@ select.form-control::-ms-expand {
 
 #allLiveGame #newReleaseCarousel .game-icon-bkg-wrap {
   padding-top: 5rem;
+  width: 295px;
+  height: 320px;
 }
 
 #allLiveGame #newReleaseCarousel .game-icon-bkg-wrap .float-card {
@@ -4267,8 +4269,6 @@ select.form-control::-ms-expand {
 #allLiveGame #newReleaseCarousel .game-icon-bkg-wrap picture {
   width: 100%;
   /* width of container */
-  height: 188px;
-  /* height of container */
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -4343,7 +4343,7 @@ select.form-control::-ms-expand {
     display: block;
   }
   #allLiveGame #newReleaseCarousel .game-icon-bkg-wrap .float-card {
-    top: 50%;
+    top: 85%;
   }
 }
 

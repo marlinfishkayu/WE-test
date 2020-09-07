@@ -230,17 +230,20 @@
             }
         }
         .owl-nav .owl-prev {
-            transform: scaleX(-1);
-            left: 0;
+            
+            right: 0;
         }
         .owl-nav .owl-next {
-            right: 0;
+            transform: scaleX(-1);
+            left: 0;
         }
         button:focus {
             outline: transparent;
         }
     .game-icon-bkg-wrap{
         padding-top: 5rem;
+        width: 295px;
+        height: 320px;
         .float-card {
             top: 80%;
             h3{
@@ -249,7 +252,6 @@
         }
         picture{
             width: 100%; /* width of container */
-            height: 188px; /* height of container */
             object-fit: cover;
             img{
                 width: 295px;
@@ -331,7 +333,7 @@
         display: block;
     }
     #allLiveGame #newReleaseCarousel .game-icon-bkg-wrap .float-card{
-        top: 50%;
+        top: 85%;
     }
 }
 
