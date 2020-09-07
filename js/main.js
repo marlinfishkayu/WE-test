@@ -188,7 +188,7 @@ $('#diamondCarousel').on('initialized.owl.carousel changed.owl.carousel', functi
     items:1,
     loop: true,
     margin:10,
-    autoplay: true,
+    autoplay: false,
     autoplayHoverPause:true,
     autoplayTimeout:2000,
     responsive:{
@@ -266,11 +266,13 @@ $('#popularCarousel').owlCarousel({
     lazyLoad: true,
     // margin:10,
     nav:true,
-    autoplay: false,
     autoWidth:true,
     items:1,    
     nav: true,
     lazyLoadEager:4,
+    autoplayHoverPause:true,
+    autoplay:true,
+    autoplayTimeout:3000,
     autoplayHoverPause:true,
     responsive: {
       0: {
@@ -281,10 +283,10 @@ $('#popularCarousel').owlCarousel({
         slideBy: 1 // <!-- HERE
       },
      768: {
-        items: 2,
+        items: 1,
         navigation: true,
         nav: true,
-        slideBy: 2 // <!-- HERE
+        slideBy: 1 // <!-- HERE
       }
     },
     scrollPerPage: true,
