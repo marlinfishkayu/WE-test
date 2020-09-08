@@ -238,25 +238,25 @@ $(document).ready(function(){
 
 /*--  light slider --*/
 
-$('#StudioSlider').lightSlider({
-    gallery: true,
-    item: 1,
-    loop:true,
-    slideMargin: 0,
-    thumbItem: 10,
-    // onSliderLoad: function() {
-    //     $("img").addClass("preferredHeight");
-    //   },
-    responsive : [ 
-        {
-            breakpoint: 768,
-            settings: {
-                thumbItem: 5,
-                slideMove: 1 
-            }
-        }
-    ]
-});
+// $('#StudioSlider').lightSlider({
+//     gallery: true,
+//     item: 1,
+//     loop:true,
+//     slideMargin: 0,
+//     thumbItem: 10,
+//     // onSliderLoad: function() {
+//     //     $("img").addClass("preferredHeight");
+//     //   },
+//     responsive : [ 
+//         {
+//             breakpoint: 768,
+//             settings: {
+//                 thumbItem: 5,
+//                 slideMove: 1 
+//             }
+//         }
+//     ]
+// });
 
 
 /*-- All Live Game popular game slider--*/

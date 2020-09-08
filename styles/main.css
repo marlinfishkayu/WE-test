@@ -4601,6 +4601,44 @@ select.form-control::-ms-expand {
   }
 }
 
+#EventDetail .event-info h5 {
+  color: #C5955E;
+  font-size: 16;
+  letter-spacing: 1px;
+  font-family: "Barlow Medium", sans-serif, Arial, Helvetica;
+}
+
+#EventDetail .event-info h6 {
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
+  padding-top: 15px;
+}
+
+#EventDetail .hero-title {
+  padding-top: 30px;
+}
+
+#EventDetail .icon-link {
+  margin-right: 20px;
+}
+
+#EventDetail img {
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+#EventDetail .Event-Detail-main {
+  padding-top: 10rem;
+}
+
+@media (min-width: 768px) {
+  #EventDetail .hero-float {
+    text-align: left;
+  }
+}
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   #nav-area .search-form {
     top: -5px;
