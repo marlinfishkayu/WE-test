@@ -43,18 +43,59 @@
         } 
         
     }
-    
+    #Event-slider{
+        position: relative;
+    }
+    .event-item{
+        max-width: 600px;
+        margin: 0 auto;
+        height: 300px;
+    }
+    .owl-nav {
+        position: absolute;
+        left: 50%;
+        bottom: -16%;
+        transform: translateX(-50%);
+    }
+    #evnet-page{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-top: 20px;
+    }
+     .owl-prev,  .owl-next {
+        width: 34px;
+        height: 34px;
+        left: -55px;
+        margin: 5px 28px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOSIgaGVpZ2h0PSIzNSIgdmlld0JveD0iMCAwIDI5IDM1Ij4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZT0iIzg5NjYzRCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMSAxKSI+CiAgICA8cG9seWxpbmUgcG9pbnRzPSIwIDEzLjMwNCAyOCAxMy4zMDQgMTQgMCIvPgogICAgPHBvbHlsaW5lIHBvaW50cz0iMCAzNCAyOCAzNCAxNCAxOS4yMTciIHRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0xIDAgNTMuMjE3KSIvPgogIDwvZz4KPC9zdmc+Cg==);
+    }
+    .owl-dot,
+    .owl-prev span,
+    .owl-next span {
+        display: none;
+    }
+    .owl-prev:hover,
+    .owl-next:hover,
+    .owl-prev button:focus,
+    .owl-next button:focus {
+        background-color: transparent;
+        outline: transparent;
+    }
+    .owl-prev {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
     .Event-Detail-main{
         padding-top: 20rem;
         padding:  2rem ;
         margin-top: 8rem;
+        margin-bottom: 8rem;
     }
    
 }
-// #Event-slider .item{
-//     height: 100px;
-// }
-
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
     
@@ -64,14 +105,30 @@
     #EventDetail .hero-header-bkg {
         height: 600px;
     }
-    #EventDetail .hero-float{
-        padding-top: 15rem;
-    }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-
+    #EventDetail .hero-header-bkg {
+        height: 600px;
+    }
+    #EventDetail .hero-float{
+        padding-top: 15rem;
+    }
+    #EventDetail .owl-item{
+        width: 1000px;
+        height: 600px;
+    }
+    #EventDetail .event-item{
+        max-width: 1000px;
+    }
+    #EventDetail .Event-Detail-main {
+        padding-top: 0rem;
+        margin-top: 5rem;
+    }
+    #EventDetail #evnet-page{
+        padding-top: 60px;
+    }
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {

@@ -365,32 +365,42 @@ $('#Event-slider').owlCarousel({
       navigation: true
 })
 
-$('#Event-slider').on('initialized.owl.carousel changed.owl.carousel', function(e) {
-    if (!e.namespace)  {
-      return;
-    }
-    var carousel = e.relatedTarget;
-    $('.event-pagedot-counter').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
-  }).owlCarousel({
-    center: true,
-    items:1,
-    loop: true,
-    margin:10,
-    autoplay: false,
-    autoplayHoverPause:true,
-    autoplayTimeout:2000,
-    responsive:{
-        300:{
-            nav: true,
-            items:1
+// event slider
+
+$(function(){
+    var owl = $('#EventSlider');
+    owl.owlCarousel({
+      items:1,
+      loop: false,
+      responsive: {
+        0: {
+          items: 1,
+          navigation: true,
+          nav: true,
+          slideBy: 1 // <!-- HERE
         },
-        600:{
-            nav: true,
-            items:3
-        },
-        1750:{
-            nav: true,
-            items:4
+       768: {
+        items: 1,
+        navigation: true,
+        nav: true,
+        slideBy: 1 // <!-- HEREE
         }
+      },
+      scrollPerPage: true,
+      navigation: true,
+      onInitialized  : counter, //When the plugin has initialized.
+      onTranslated : counter //When the translation of the stage has finished.
+    });
+    
+    function counter(event) {
+       var element   = event.target;         // DOM element, in this example .owl-carousel
+        var items     = event.item.count;     // Number of items
+        var item      = event.item.index + 1;     // Position of the current item
+      
+      // it loop is true then reset counter from 1
+      if(item > items) {
+        item = item - items
+      }
+      $('#evnet-page').html(item+" / "+items)
     }
-  });
+    });
