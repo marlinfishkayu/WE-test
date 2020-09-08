@@ -176,6 +176,9 @@ img{
 .hero-intro2{
   padding-top: 1rem;
 }
+.md-break{
+  display: block;
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
@@ -194,6 +197,9 @@ img{
   }
   .main-button{
     padding: 2rem 0;
+  }
+  .md-break{
+    display: none;
   }
 }
 

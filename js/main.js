@@ -69,8 +69,6 @@ $("#gamesHover").hover(
     function () {
         $('.game-menu').addClass('show');
         $('.nav-wrap').addClass("pointer");
-
-            
     }, 
     function () {
         $('.game-menu').removeClass('show');
@@ -209,12 +207,13 @@ $('#diamondCarousel').on('initialized.owl.carousel changed.owl.carousel', functi
 
 /*--  tilt.js for diamond carousal --*/
 $(document).ready(function(){
-    $('.diamond-item').tilt({
-        maxTilt: 20,
+    $('.diamond-wrap').tilt({
+        maxTilt: 10,
         easing: "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
         transition: true,   // Set a transition on enter/exit.
         glare: false,  // Enables glare effect
-        gyroscopeMaxAngleY:  35    
+        gyroscopeMaxAngleY:  5,
+       
     })
 })
 
@@ -239,25 +238,25 @@ $(document).ready(function(){
 
 /*--  light slider --*/
 
-// $('#StudioSlider').lightSlider({
-//     gallery: true,
-//     item: 1,
-//     loop:true,
-//     slideMargin: 0,
-//     thumbItem: 10,
-//     // onSliderLoad: function() {
-//     //     $("img").addClass("preferredHeight");
-//     //   },
-//     responsive : [ 
-//         {
-//             breakpoint: 768,
-//             settings: {
-//                 thumbItem: 5,
-//                 slideMove: 1 
-//             }
-//         }
-//     ]
-// });
+$('#StudioSlider').lightSlider({
+    gallery: true,
+    item: 1,
+    loop:true,
+    slideMargin: 0,
+    thumbItem: 10,
+    // onSliderLoad: function() {
+    //     $("img").addClass("preferredHeight");
+    //   },
+    responsive : [ 
+        {
+            breakpoint: 768,
+            settings: {
+                thumbItem: 5,
+                slideMove: 1 
+            }
+        }
+    ]
+});
 
 
 /*-- All Live Game popular game slider--*/
@@ -335,3 +334,8 @@ $(document).ready(function(){
         });
     });
     
+/*-- Add class to about content list --*/
+$('.about-list-wrap a').click(function(){
+    $('.about-list-wrap a').removeClass('selected');
+    $(this).addClass('selected');
+ });
