@@ -339,3 +339,58 @@ $('.about-list-wrap a').click(function(){
     $('.about-list-wrap a').removeClass('selected');
     $(this).addClass('selected');
  });
+
+/*-- Add class to about content list --*/
+$('#Event-slider').owlCarousel({
+    loop:true,
+    nav:true,
+    item:1,
+    center:true,
+    margin:30,
+    responsive: {
+        0: {
+          items: 1,
+          navigation: true,
+          nav: true,
+          slideBy: 1 // <!-- HERE
+        },
+       768: {
+        items: 1,
+        navigation: true,
+        nav: true,
+        slideBy: 1 // <!-- HEREE
+        }
+      },
+      scrollPerPage: true,
+      navigation: true
+})
+
+$('#Event-slider').on('initialized.owl.carousel changed.owl.carousel', function(e) {
+    if (!e.namespace)  {
+      return;
+    }
+    var carousel = e.relatedTarget;
+    $('.event-pagedot-counter').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
+  }).owlCarousel({
+    center: true,
+    items:1,
+    loop: true,
+    margin:10,
+    autoplay: false,
+    autoplayHoverPause:true,
+    autoplayTimeout:2000,
+    responsive:{
+        300:{
+            nav: true,
+            items:1
+        },
+        600:{
+            nav: true,
+            items:3
+        },
+        1750:{
+            nav: true,
+            items:4
+        }
+    }
+  });

@@ -1,4 +1,18 @@
 #EventDetail{
+    .hero-float{
+        text-align: left;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 8rem;
+    }
+    .hero-title{
+        font-size: 40px;
+        font-family: $fontFuturaMedium;
+        line-height: 1.3;
+    }
+    .hero-header-bkg {
+        height: 400px;
+    }
     .event-info{
         h5{
             color: #C5955E;
@@ -9,35 +23,49 @@
         h6{
             font-family: $fontBarlowLight;
             padding-top: 15px;
+            letter-spacing: 1px;
         }
     }
     .hero-title{
         padding-top: 30px;
     }
-    .icon-link{
-        margin-right: 20px;
-    } img{ 
-        width: 30px;
-        height: 30px;
+    .hero-icon{
+        padding-top: 2rem;
+        .icon-link{
+            margin-right: 20px;
+            img{ 
+                width: 30px;
+                height: 30px;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: contain;
+            }
+        } 
         
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: contain;
     }
+    
     .Event-Detail-main{
-        padding-top: 10rem;
+        padding-top: 20rem;
+        padding:  2rem ;
+        margin-top: 8rem;
     }
+   
 }
-
+// #Event-slider .item{
+//     height: 100px;
+// }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
-
+    
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+    #EventDetail .hero-header-bkg {
+        height: 600px;
+    }
     #EventDetail .hero-float{
-        text-align: left;
+        padding-top: 15rem;
     }
 }
 
