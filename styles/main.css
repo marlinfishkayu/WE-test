@@ -4732,6 +4732,7 @@ select.form-control::-ms-expand {
   }
   #EventDetail .event-item {
     max-width: 1000px;
+    height: 600px;
   }
   #EventDetail .Event-Detail-main {
     padding-top: 0rem;
