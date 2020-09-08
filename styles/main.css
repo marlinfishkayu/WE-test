@@ -4718,6 +4718,7 @@ select.form-control::-ms-expand {
   margin-top: 5rem;
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   font-size: 20px;
+  letter-spacing: 1px;
 }
 
 #EventDetail .detail-content-wrap p {
