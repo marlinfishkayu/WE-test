@@ -75,6 +75,16 @@ $("#gamesHover").hover(
         $('.nav-wrap').removeClass("pointer");
     }
 );
+$(".game-icon-wrap").hover(
+    function () {
+        $(this).addClass('hover');
+    }, 
+    function () {
+        $(this).removeClass('hover');
+    }
+);
+
+
 
 /*-- side menu open sub menu --*/
 $('.game-btn').click(function(){

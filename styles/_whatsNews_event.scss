@@ -39,14 +39,16 @@
         padding-top: 2rem;
         .icon-link{
             margin-right: 20px;
-            img{ 
+            #hero-fb{
                 width: 30px;
-                height: 30px;
-                background-repeat: no-repeat;
-                background-position: center center;
-                background-size: contain;
+                    height: 30px;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: contain;
+                background-image: url(/images/news/icon/icon-fb.svg);
             }
         } 
+        
         
     }
     #Event-slider{
@@ -127,8 +129,9 @@
            font-family: $fontFuturaMedium;
            font-weight: 100;
        }
-       .back-btn{
+       .event-back-btn{
            text-align: center;
+           padding-top: 8rem;
        }
    }
 }

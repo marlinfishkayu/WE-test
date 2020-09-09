@@ -417,6 +417,9 @@ img {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 5px;
+  border: transparent;
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
 }
 
 .game-icon-front {
@@ -432,12 +435,25 @@ img {
           transform: translate(-50%, -50%);
 }
 
+.hover .game-icon-front .icon-img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.hover .game-icon-bkg-wrap img {
+  border: 1px solid #A78C68;
+}
+
 .game-icon-front .icon-img {
   width: 100%;
   height: 100%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
 }
 
 #pills-tabContent #gameMenu-baccarat .game-icon-front .icon-img {
@@ -968,7 +984,9 @@ img {
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding-top: 5px;
-    height: 100px;
+    height: 70px;
+    -webkit-transition: all 300ms ease-in;
+    transition: all 300ms ease-in;
   }
   .pointer #nav-area {
     height: 500px;
@@ -4062,7 +4080,7 @@ select.form-control::-ms-expand {
 }
 
 #allLiveGame .popular-game-carousel .owl-nav {
-  display: none;
+  display: block;
   width: 100%;
 }
 
@@ -4650,12 +4668,13 @@ select.form-control::-ms-expand {
   margin-right: 20px;
 }
 
-#EventDetail .hero-icon .icon-link img {
+#EventDetail .hero-icon .icon-link #hero-fb {
   width: 30px;
   height: 30px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
+  background-image: url(/images/news/icon/icon-fb.svg);
 }
 
 #EventDetail #Event-slider {
@@ -4754,8 +4773,9 @@ select.form-control::-ms-expand {
   font-weight: 100;
 }
 
-#EventDetail .detail-content-wrap .back-btn {
+#EventDetail .detail-content-wrap .event-back-btn {
   text-align: center;
+  padding-top: 8rem;
 }
 
 @media (min-width: 768px) {
