@@ -4621,7 +4621,7 @@ select.form-control::-ms-expand {
 
 #EventDetail .event-info h5 {
   color: #C5955E;
-  font-size: 16;
+  font-size: 16px;
   letter-spacing: 1px;
   font-family: "Barlow Medium", sans-serif, Arial, Helvetica;
 }
@@ -4629,11 +4629,17 @@ select.form-control::-ms-expand {
 #EventDetail .event-info h6 {
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   padding-top: 15px;
+  font-size: 16px;
   letter-spacing: 1px;
 }
 
 #EventDetail .hero-title {
   padding-top: 30px;
+}
+
+#EventDetail .hero-intro2 {
+  color: #D2D2D2;
+  font-size: 16px;
 }
 
 #EventDetail .hero-icon {
@@ -4715,8 +4721,7 @@ select.form-control::-ms-expand {
 
 #EventDetail .detail-content-wrap {
   max-width: 770px;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 0;
   margin: 0 auto;
   margin-top: 8rem;
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
@@ -4726,6 +4731,31 @@ select.form-control::-ms-expand {
 
 #EventDetail .detail-content-wrap p {
   color: #979797;
+  font-size: 20px;
+}
+
+#EventDetail .detail-content-wrap .event-main {
+  padding-top: 4rem;
+}
+
+#EventDetail .detail-content-wrap .detail-item {
+  padding-bottom: 4rem;
+}
+
+#EventDetail .detail-content-wrap .detail-item p {
+  font-size: 16px;
+}
+
+#EventDetail .detail-content-wrap .sm-tilte {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-weight: 100;
+}
+
+#EventDetail .detail-content-wrap .back-btn {
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -4738,6 +4768,10 @@ select.form-control::-ms-expand {
   #EventDetail .Event-Detail-main {
     margin-top: 1rem;
   }
+  #EventDetail .detail-content-wrap {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -4746,9 +4780,15 @@ select.form-control::-ms-expand {
   }
   #EventDetail .hero-float {
     padding-top: 20rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #EventDetail .hero-title {
+    font-size: 60px;
   }
   #EventDetail .hero-intro2 {
     padding-top: 2rem;
+    font-size: 26px;
   }
   #EventDetail .owl-item {
     width: 1000px;
@@ -4766,7 +4806,7 @@ select.form-control::-ms-expand {
   }
   #EventDetail .Event-Detail-main {
     padding-top: 0rem;
-    margin-top: 7rem;
+    margin-top: 15rem;
   }
   #EventDetail #EventSlider {
     position: relative;
@@ -4785,6 +4825,8 @@ select.form-control::-ms-expand {
   }
   #EventDetail .detail-content-wrap {
     margin-top: 12rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
 }
 

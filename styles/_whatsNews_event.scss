@@ -17,18 +17,23 @@
     .event-info{
         h5{
             color: #C5955E;
-            font-size: 16;
+            font-size: 16px;
             letter-spacing: 1px;
             font-family: $fontBarlowMedium;
         }
         h6{
             font-family: $fontBarlowLight;
             padding-top: 15px;
+            font-size: 16px;
             letter-spacing: 1px;
         }
     }
     .hero-title{
         padding-top: 30px;
+    }
+    .hero-intro2{
+        color: #D2D2D2;
+        font-size: 16px;
     }
     .hero-icon{
         padding-top: 2rem;
@@ -96,8 +101,7 @@
     }
    .detail-content-wrap{
        max-width: 770px;
-       padding-left: 2rem;
-        padding-right: 2rem;
+       padding: 0;
        margin: 0 auto;
        margin-top: 8rem;
        font-family: $fontBarlowLight;
@@ -105,7 +109,26 @@
        letter-spacing: 1px;
        p{
            color: #979797;
-
+           font-size: 20px;
+       }
+       .event-main{
+           padding-top: 4rem;
+       }
+       .detail-item{
+           padding-bottom: 4rem;
+           p{
+                font-size: 16px;
+           }
+       }
+       .sm-tilte{
+           text-transform: uppercase;
+           color: #FFFFFF;
+           font-size: 16px;
+           font-family: $fontFuturaMedium;
+           font-weight: 100;
+       }
+       .back-btn{
+           text-align: center;
        }
    }
 }
@@ -124,7 +147,10 @@
     #EventDetail .Event-Detail-main {
         margin-top: 1rem;
     }
-
+    #EventDetail .detail-content-wrap {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    } 
 }
 
 // Large devices (desktops, 992px and up)
@@ -135,9 +161,15 @@
         }
         .hero-float{
             padding-top: 20rem;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .hero-title {
+            font-size: 60px;
         }
         .hero-intro2 {
             padding-top: 2rem;
+            font-size: 26px;
         }
         .owl-item{
             width: 1000px;
@@ -155,7 +187,7 @@
         }
         .Event-Detail-main {
             padding-top: 0rem;
-            margin-top: 7rem;
+            margin-top: 15rem;
         }
         #EventSlider{
             position: relative;
@@ -174,6 +206,8 @@
         }
         .detail-content-wrap {
             margin-top: 12rem;
+            padding-left: 0rem;
+            padding-right: 0rem;
         } 
     }
  }
