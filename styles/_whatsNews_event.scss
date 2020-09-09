@@ -1,4 +1,4 @@
-#EventDetail{
+#NewsDetail{
     .hero-float{
         text-align: left;
         padding-left: 2rem;
@@ -38,17 +38,11 @@
     .hero-icon{
         padding-top: 2rem;
         .icon-link{
+            width: 30px;
+            height: 30px;
             margin-right: 20px;
-            #hero-fb{
-                width: 30px;
-                    height: 30px;
-                    background-repeat: no-repeat;
-                    background-position: center center;
-                    background-size: contain;
-                background-image: url(/images/news/icon/icon-fb.svg);
-            }
+            
         } 
-        
         
     }
     #Event-slider{
@@ -109,6 +103,10 @@
        font-family: $fontBarlowLight;
        font-size: 20px;
        letter-spacing: 1px;
+       h2{
+           font-size: 20px;
+           font-family: $fontBarlowRegular;
+       }
        p{
            color: #979797;
            font-size: 20px;
@@ -141,16 +139,16 @@
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    #EventDetail .hero-header-bkg {
+    #NewsDetail .hero-header-bkg {
         height: 600px;
     }
-    #EventDetail .hero-float {
+    #NewsDetail .hero-float {
         padding-top: 18rem;
     }
-    #EventDetail .Event-Detail-main {
+    #NewsDetail .Event-Detail-main {
         margin-top: 1rem;
     }
-    #EventDetail .detail-content-wrap {
+    #NewsDetail .detail-content-wrap {
         padding-left: 2rem;
         padding-right: 2rem;
     } 
@@ -158,7 +156,7 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-    #EventDetail{
+    #NewsDetail{
         .hero-header-bkg {
             height: 600px;
         }
@@ -211,6 +209,9 @@
             margin-top: 12rem;
             padding-left: 0rem;
             padding-right: 0rem;
+            h2 {
+                font-size: 26px;
+            }
         } 
     }
  }
