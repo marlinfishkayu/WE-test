@@ -4659,6 +4659,7 @@ select.form-control::-ms-expand {
   max-width: 600px;
   margin: 0 auto;
   height: 270px;
+  background-color: red;
 }
 
 #EventDetail .owl-nav {
@@ -4768,10 +4769,10 @@ select.form-control::-ms-expand {
   #EventDetail #EventSlider:after {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: -7.5%;
+    left: -7.5%;
+    width: 115%;
+    height: 115%;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
