@@ -161,6 +161,9 @@ img{
 .secondaryBtn:hover::after{
   transform: scaleX(1);
 }
+button:focus {
+  outline: transparent;
+}
 .hero-title{
   font-weight: 100;
 }
