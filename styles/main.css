@@ -1645,8 +1645,10 @@ footer {
   height: 100%;
   z-index: -2;
   opacity: 1;
-  -webkit-transition: 3ms all;
-  transition: 3ms all;
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
   -webkit-transition-timing-function: cubic-bezier(0.05, 0.77, 0.32, 1);
           transition-timing-function: cubic-bezier(0.05, 0.77, 0.32, 1);
   background-repeat: no-repeat;
@@ -1801,6 +1803,13 @@ footer {
   color: #979797;
 }
 
+#diamondCarousel .diamond-item .dia-btn {
+  -webkit-transform: translate3d(-50%, 100%, 100px);
+          transform: translate3d(-50%, 100%, 100px);
+  opacity: 0;
+  visibility: hidden;
+}
+
 #diamondCarousel .hovering .dia-btn {
   -webkit-transform: scaleY(1);
           transform: scaleY(1);
@@ -1812,8 +1821,12 @@ footer {
   z-index: 100;
   -webkit-transform: translate3d(-50%, 0, 100px);
           transform: translate3d(-50%, 0, 100px);
-  -webkit-transition: all 200ms;
-  transition: all 200ms;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  -webkit-transition-delay: 500ms;
+  transition-delay: 300ms;
   -webkit-transition-timing-function: cubic-bezier(0.76, 0.14, 0.32, 1);
           transition-timing-function: cubic-bezier(0.76, 0.14, 0.32, 1);
 }
@@ -4744,6 +4757,8 @@ select.form-control::-ms-expand {
 #NewsDetail .detail-content-wrap h2 {
   font-size: 20px;
   font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
+  padding-bottom: 2rem;
+  line-height: 1.5;
 }
 
 #NewsDetail .detail-content-wrap p {
@@ -4848,6 +4863,7 @@ select.form-control::-ms-expand {
   }
   #NewsDetail .detail-content-wrap h2 {
     font-size: 26px;
+    padding-bottom: 3rem;
   }
 }
 

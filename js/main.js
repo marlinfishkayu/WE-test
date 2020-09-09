@@ -196,7 +196,7 @@ $('#diamondCarousel').on('initialized.owl.carousel changed.owl.carousel', functi
     items:1,
     loop: true,
     margin:10,
-    autoplay: false,
+    autoplay: true,
     autoplayHoverPause:true,
     autoplayTimeout:2000,
     responsive:{

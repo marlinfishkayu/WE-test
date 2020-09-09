@@ -236,7 +236,8 @@
         height: 100%;
         z-index: -2;
         opacity: 1;
-        transition: 3ms all;
+        transition: 300ms all;
+        transition-delay: 0.25s;
         transition-timing-function: cubic-bezier(.05,.77,.32,1);
         background-repeat: no-repeat;
         -webkit-background-size: contain;
@@ -365,6 +366,11 @@
     font-size: 14px;
     color: #979797;
 }
+#diamondCarousel .diamond-item .dia-btn {
+    transform: translate3d(-50%,100%,100px);
+    opacity: 0;
+    visibility: hidden;
+}
 #diamondCarousel .hovering .dia-btn {
     transform: scaleY(1);
     opacity: 1;
@@ -374,7 +380,13 @@
     left: 50%;
     z-index: 100;
     transform: translate3d(-50%,0,100px);
-    transition: all 200ms;
+    opacity: 1;
+    visibility: visible;
+    transition: all 400ms ease-out;
+    -webkit-transition-delay: 500ms;
+    -moz-transition-delay: 300ms;
+    -o-transition-delay: 300ms;
+    transition-delay: 300ms;
     transition-timing-function: cubic-bezier(.76,.14,.32,1);
 }
 #diamondCarousel #diaDragonTiger .dia-icon .dia-icon-img{
