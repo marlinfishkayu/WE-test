@@ -10,7 +10,6 @@
         <!-- external font-->
         <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://use.typekit.net/mlx7mqk.css" />
-
         <!-- Outdated Browser v1.1.5 -->
         <link rel="stylesheet" href="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.css" />
         <!-- Owl CSS -->
@@ -18,10 +17,14 @@
         <link rel="stylesheet" href="OwlCarousel2/owl.theme.default.min.css" />
         <!-- Sal CSS -->
         <link rel="stylesheet" href="./styles/sal.css" />
+        <!-- light slider gallery (lg)-->
+        <link type="text/css" rel="stylesheet" href="./styles/lightgallery.css" /> 
         <!-- main CSS -->
         <link rel="stylesheet" href="./styles/main.css" />
         <title>World Entertainment</title>
         <link rel="shortcut icon" type="image/svg" href="./images/icon/favicon.svg" />
+        <!-- jQuery JS (lg)-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     </head> 
     <body>
         <div id="wrapper">
@@ -296,13 +299,24 @@
                             />
                         </div>
                         <div class="live-slide-wrap">
-                            <div class="studio-card">
-                                <a href="#">
-                                    <div class="studio-img-container">
+                            <div class="studio-card" id="lightgallery" >
+                                <li style="display: none;" data-responsive="images/livestudio/room/livestudio_1-375.png 375, images/livestudio/room/livestudio_1-480.png 480, images/livestudio/room/livestudio_1-800.png 800" data-src="images/livestudio/room/livestudio_1-1600.png" data-sub-html="">
+                                    <a href="">
+                                        <img class="img-responsive" src="images/livestudio/room/livestudio_1.png">
+                                    </a>
+                                </li>
+                                <li style="display: none;" data-responsive="images/livestudio/room/livestudio_1-375.png 375, images/livestudio/room/livestudio_1-480.png 480, images/livestudio/room/livestudio_1-800.png 800" data-src="images/livestudio/room/livestudio_1-1600.png" data-sub-html="">
+                                    <a href="">
+                                        <img class="img-responsive" src="images/livestudio/room/livestudio_1.png">
+                                    </a>
+                                </li>
+                                
+                                <a href="./images/livestudio/live-slide_1_x1.png">
+                                    <div class="studio-img-container" >
                                         <div class="studio-img-wrap">
                                             <picture>
-                                                <img
-                                                id="sutdio-1"
+                                                <img 
+                                                id="studio-1"
                                                 class="img-hover"
                                                 src="./images/livestudio/live-slide_1_x1.png"
                                                 srcset="./images/livestudio/live-slide_1_x1.png 500w, ./images/livestudio/live-slide_1_x2.png 1000w"
@@ -325,7 +339,7 @@
                                         <div class="studio-img-wrap">
                                             <picture>
                                                 <img
-                                                id="sutdio-2"
+                                                id="studio-2"
                                                 class="img-hover"
                                                 src="./images/livestudio/live-slide_2_x1.png"
                                                 srcset="./images/livestudio/live-slide_2_x1.png 500w, ./images/livestudio/live-slide_2_x2.png 1000w"
@@ -348,7 +362,7 @@
                                         <div class="studio-img-wrap">
                                             <picture>
                                                 <img
-                                                id="sutdio-3"
+                                                id="studio-3"
                                                 class="img-hover"
                                                 src="./images/livestudio/live-slide_3_x1.png"
                                                 srcset="./images/livestudio/live-slide_3_x1.png 500w, ./images/livestudio/live-slide_3_x2.png 1000w"
@@ -370,7 +384,7 @@
                                         <div class="studio-img-wrap">
                                             <picture>
                                                 <img
-                                                id="sutdio-4"
+                                                id="studio-4"
                                                 class="img-hover"
                                                 src="./images/livestudio/live-slide_4_x1.png"
                                                 srcset="./images/livestudio/live-slide_4_x1.png 500w, ./images/livestudio/live-slide_4_x2.png 1000w"
@@ -757,6 +771,15 @@
         <script>
             sal();
         </script>
+        <!-- light slider gallery (lg)-->
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#lightgallery').lightGallery();
+            });
+        </script>
+        <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+        <script src="./js/lightgallery-all.min.js" type="text/javascript"></script>
+        <script src="./js/jquery.mousewheel.min.js" type="text/javascript"></script>
         <!-- External JS  -->
         <script src="OwlCarousel2/owl.carousel.min.js"></script>
         <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
