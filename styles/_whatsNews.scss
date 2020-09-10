@@ -53,7 +53,6 @@
             margin-right: 18px;
             position: relative;
             &:after {
-                content: '07';
                 position: absolute;
                 top: -63px;
                 right: -13px;
@@ -205,6 +204,103 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+#day01::after{
+    content: '01';
+}
+#day02::after{
+    content: '02';
+}
+#day03::after{
+    content: '03';
+}
+#day04::after{
+    content: '04';
+}
+#day05::after{
+    content: '05';
+}
+#day06::after{
+    content: '06';
+}
+#day07::after{
+    content: '07';
+}
+#day08::after{
+    content: '08';
+}
+#day09::after{
+    content: '09';
+}
+#day10::after{
+    content: '10';
+}
+#day11::after{
+    content: '11';
+}
+#day12::after{
+    content: '12';
+}
+#day13::after{
+    content: '13';
+}
+#day14::after{
+    content: '14';
+}
+#day15::after{
+    content: '15';
+}
+#day16::after{
+    content: '16';
+}
+#day17::after{
+    content: '17';
+}
+#day18::after{
+    content: '18';
+}
+#day19::after{
+    content: '19';
+}
+#day20::after{
+    content: '20';
+}
+#day20::after{
+    content: '20';
+}
+#day21::after{
+    content: '21';
+}
+#day22::after{
+    content: '22';
+}
+#day23::after{
+    content: '23';
+}
+#day24::after{
+    content: '24';
+}
+#day25::after{
+    content: '25';
+}
+#day26::after{
+    content: '26';
+}
+#day27::after{
+    content: '27';
+}
+#day28::after{
+    content: '28';
+}
+#day29::after{
+    content: '29';
+}
+#day30::after{
+    content: '30';
+}
+#day31::after{
+    content: '31';
+}
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
 }
@@ -372,7 +468,7 @@
             margin-right: 18px;
             position: relative;
             &:after {
-                content: "07";
+                // content: "07";
                 position: absolute;
                 top: -77px;
                 right: -23px;
