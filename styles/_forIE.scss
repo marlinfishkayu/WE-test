@@ -125,6 +125,12 @@
         #liveStudio .livestudio-hightlight-wrap{
             padding-bottom: 0;
         }
+        #diamondCarousel .dia-pagedot-counter{
+            bottom: 2%;
+        }
+        #newsFeed .loadmore-deco-wrap .more-round-btn{
+            width: 101%;
+        }
     }
     // Extra large devices (large desktops, 1200px and up)
     @media (min-width: 1200px) {

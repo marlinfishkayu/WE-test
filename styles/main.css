@@ -2715,7 +2715,7 @@ footer {
   .feature-photo picture:after {
     top: -336px;
     left: -11px;
-    width: 507px;
+    width: 506px;
     height: 340px;
   }
   .feature-flexbox .feature-flexbox-h2:before {
@@ -4967,6 +4967,12 @@ select.form-control::-ms-expand {
   }
   #liveStudio .livestudio-hightlight-wrap {
     padding-bottom: 0;
+  }
+  #diamondCarousel .dia-pagedot-counter {
+    bottom: 2%;
+  }
+  #newsFeed .loadmore-deco-wrap .more-round-btn {
+    width: 101%;
   }
 }
 
