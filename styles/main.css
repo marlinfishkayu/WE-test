@@ -324,9 +324,9 @@ button:focus {
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   width: 100%;
-  height: 60px;
-  -webkit-transition: 0.5s all;
-  transition: 0.5s all;
+  height: 500px;
+  -webkit-transition: 0.5s all ease-out;
+  transition: 0.5s all ease-out;
 }
 
 .nav-fixed {
@@ -346,13 +346,12 @@ button:focus {
 }
 
 .nav-wrap li.dropdown .game-menu {
-  display: none;
   position: fixed;
   top: 36px;
   z-index: -1;
   left: 50%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
   width: 100%;
   margin-top: 27px;
   padding: 3rem 0;
