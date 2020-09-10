@@ -192,27 +192,29 @@ $('#diamondCarousel').on('initialized.owl.carousel changed.owl.carousel', functi
     var carousel = e.relatedTarget;
     $('.dia-pagedot-counter').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
   }).owlCarousel({
-    center: true,
+    center: false,
     items:1,
-    loop: true,
+    loop: false,
     margin:10,
-    autoplay: true,
-    autoplayHoverPause:true,
+    autoplay: false,
     autoplayTimeout:2000,
-    responsive:{
-        300:{
-            nav: true,
-            items:1
+    responsive: {
+        0: {
+            center: true,
+          items: 1,
+          navigation: true,
+          nav: true,
+          slideBy: 1 // <!-- HERE
         },
-        600:{
-            nav: true,
-            items:3
-        },
-        1750:{
-            nav: true,
-            items:4
+       768: {
+          items: 3,
+          navigation: true,
+          nav: true,
+          slideBy: 3 // <!-- HERE
         }
-    }
+      },
+      scrollPerPage: true,
+      navigation: true
   });
 
 /*--  tilt.js for diamond carousal --*/
@@ -246,27 +248,6 @@ $(document).ready(function(){
 );
 
 
-/*--  light slider --*/
-
-// $('#StudioSlider').lightSlider({
-//     gallery: true,
-//     item: 1,
-//     loop:true,
-//     slideMargin: 0,
-//     thumbItem: 10,
-//     // onSliderLoad: function() {
-//     //     $("img").addClass("preferredHeight");
-//     //   },
-//     responsive : [ 
-//         {
-//             breakpoint: 768,
-//             settings: {
-//                 thumbItem: 5,
-//                 slideMove: 1 
-//             }
-//         }
-//     ]
-// });
 
 
 /*-- All Live Game popular game slider--*/
