@@ -272,10 +272,36 @@
     }
 }
 
-// light gallery
-
-
-
+// light gallery reset style
+.lg-rotate-right,
+.lg-rotate-left,
+.lg-flip-ver,
+.lg-flip-hor,
+.lg-dropdown,
+.lg-share,
+.lg-actual-size,
+.lg-outer #lg-share,
+#lg-actual-size,
+#lg-zoom-out,
+#lg-zoom-in,
+.lg-fullscreen,
+.lg-autoplay-button,
+.lg-download{
+    display: none;
+}
+.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover{
+    border-color: #A78C68;
+}
+.lg-outer .lg-thumb{
+    margin: 0 auto;
+}
+.lg-outer .lg-thumb-outer{
+    background: rgb(6,11,26);
+    background: linear-gradient(180deg, rgba(6,11,26,0) 0%, rgba(0,0,0,1) 100%);
+}
+.lg-actions .lg-next, .lg-actions .lg-prev{
+    color: #A78C68;
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 

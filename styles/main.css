@@ -1064,7 +1064,10 @@ button:focus {
     width: 700px;
   }
   .subnav-arrow {
-    display: none;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
     border-top: 12px solid transparent;
     border-left: 12px solid transparent;
     border-right: 12px solid #011D3A;
@@ -1076,7 +1079,8 @@ button:focus {
     z-index: 5;
   }
   .show .subnav-arrow {
-    display: block;
+    opacity: 1;
+    visibility: visible;
   }
   .nav-wrap li.dropdown .game-menu::after {
     height: 370px;
@@ -4090,6 +4094,41 @@ select.form-control::-ms-expand {
 #liveStudio .studio-bottom-main .studio-bottom-btn-wrap {
   text-align: center;
   padding-top: 2rem;
+}
+
+.lg-rotate-right,
+.lg-rotate-left,
+.lg-flip-ver,
+.lg-flip-hor,
+.lg-dropdown,
+.lg-share,
+.lg-actual-size,
+.lg-outer #lg-share,
+#lg-actual-size,
+#lg-zoom-out,
+#lg-zoom-in,
+.lg-fullscreen,
+.lg-autoplay-button,
+.lg-download {
+  display: none;
+}
+
+.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
+  border-color: #A78C68;
+}
+
+.lg-outer .lg-thumb {
+  margin: 0 auto;
+}
+
+.lg-outer .lg-thumb-outer {
+  background: #060b1a;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(6, 11, 26, 0)), to(black));
+  background: linear-gradient(180deg, rgba(6, 11, 26, 0) 0%, black 100%);
+}
+
+.lg-actions .lg-next, .lg-actions .lg-prev {
+  color: #A78C68;
 }
 
 @media (min-width: 768px) {
