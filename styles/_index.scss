@@ -37,11 +37,15 @@
             letter-spacing: 2px;
             color: #FFFFFF;
             padding-bottom: 5px;
+            transition: all 200ms ease-out;
         }
         .more-deco-wrap{
             width: 200px;
             height: 21px;
             margin: 0 auto;
+            position: relative;
+            transition: all 200ms ease-out;
+            top: 0px;
             .more-deco{
                 width: 100%; 
                 height: 100%; 
@@ -64,7 +68,14 @@
         transform: translateX(-50%);
     }
 }
-
+.our-gamaes .expand-deco:hover h4{
+    color: #89663D;
+}
+.our-gamaes .expand-deco:hover .more-deco-wrap{
+    position: relative;
+    top: 5px;
+    
+}
 #intdexHotPick, #intdexWhatsNews{
     position: relative;
 }
