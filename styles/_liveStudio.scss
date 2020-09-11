@@ -305,12 +305,11 @@
 .lg-actions .lg-next, .lg-actions .lg-prev{
     color: #B0936D;
 }
-.lg-toolbar .lg-close:after{
-    content: url(/images/livestudio/icon/close.svg);
-    margin-right: 10px;
+.lg-actions .lg-next, .lg-actions .lg-prev{
+    border-radius: 50px;
 }
-.lg-actions .lg-prev:after{
-
+.lg-actions .lg-next:before{
+    content: url(/images/livestudio/icon/lg-arrow.svg);
 }
 
 // Small devices (landscape phones, 576px and up)
