@@ -289,6 +289,9 @@
 .lg-download{
     display: none;
 }
+.lg-outer .lg-thumb-item{
+    border-radius: 0px;
+}
 .lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover{
     border-color: #A78C68;
 }
@@ -300,7 +303,14 @@
     background: linear-gradient(180deg, rgba(6,11,26,0) 0%, rgba(0,0,0,1) 100%);
 }
 .lg-actions .lg-next, .lg-actions .lg-prev{
-    color: #A78C68;
+    color: #B0936D;
+}
+.lg-toolbar .lg-close:after{
+    content: url(/images/livestudio/icon/close.svg);
+    margin-right: 10px;
+}
+.lg-actions .lg-prev:after{
+
 }
 
 // Small devices (landscape phones, 576px and up)
