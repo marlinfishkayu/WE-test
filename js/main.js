@@ -417,3 +417,13 @@ $(function(){
 
 //   updateCount();
 // })
+
+
+//selcet form 
+$('select').on('change', function() {
+  if ($(this).val()) {
+return $(this).css('color', '#fff');
+  } else {
+return $(this).css('color', '#434343');
+  }
+});

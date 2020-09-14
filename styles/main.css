@@ -1064,6 +1064,7 @@ button:focus {
     width: 700px;
   }
   .subnav-arrow {
+    display: none;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: all 200ms ease-out;
@@ -1078,7 +1079,8 @@ button:focus {
     top: 27px;
     z-index: 5;
   }
-  .show .subnav-arrow {
+  .pointer .subnav-arrow {
+    display: block;
     opacity: 1;
     visibility: visible;
   }
@@ -2798,6 +2800,29 @@ footer {
   display: none;
 }
 
+#ContactUs .controls select {
+  color: #434343;
+}
+
+#ContactUs select option {
+  color: #fff;
+}
+
+#ContactUs .with-errors {
+  background-color: red;
+}
+
+#ContactUs .form-control:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(167, 140, 104, 0.15);
+          box-shadow: 0 0 0 0.2rem rgba(167, 140, 104, 0.15);
+  border: 1px solid #B0936D;
+}
+
+#ContactUs .controls textarea,
+#ContactUs .controls input {
+  color: #fff;
+}
+
 #ContactUs .form-control {
   background-color: #060B1A;
   border-radius: 0;
@@ -4137,10 +4162,6 @@ select.form-control::-ms-expand {
 
 .lg-actions .lg-next, .lg-actions .lg-prev {
   border-radius: 50px;
-}
-
-.lg-actions .lg-next:before {
-  content: url(/images/livestudio/icon/lg-arrow.svg);
 }
 
 @media (min-width: 768px) {
