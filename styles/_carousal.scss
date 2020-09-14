@@ -19,6 +19,14 @@
         height: 100%;
         width: 100%;
     }
+    .slider-text .main-button img{
+        width: 200px;
+        height: 46px;
+    }
+    .slider-text .btn.focus, .btn:focus {
+        outline: 0;
+        box-shadow: transparent !important;
+    }
 }
 
 #slider-area .owl-dots {

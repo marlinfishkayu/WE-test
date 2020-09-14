@@ -97,6 +97,49 @@ $('.livegame-btn').click(function(){
     $('.livegame-btn').toggleClass("rotate");
 });
 
+/*-- hover language menu arrow icon --*/
+
+  $('.language-tap').mouseover(function(){
+      $('.language-tap').removeClass("active");
+      $(this).addClass("active");
+      return false;
+  });
+  $('.language-tap').mouseleave(function(){
+      $(this).removeClass("active");
+  });
+
+
+/*-- hover display language menu --*/
+// $(".menu-lang").hover(
+//   function () {
+//       $('#languageDropdown').addClass('lang-show');
+//       $('.nav-wrap').addClass("lang_hover");
+//   }, 
+//   function () {
+//       $('#languageDropdown').removeClass('lang-show');
+//       $('.nav-wrap').removeClass("lang_hover");
+//   }
+// );
+/*-- hover display language menu --*/
+
+$(document).ready(function(){
+  $('.menu-lang').mouseover(function(){
+    $("#nav-area").css('height', '400px');
+      return false;
+  });
+  // $('.menu-lang').mouseleave(function(){
+  //     $("#nav-area").css('height', '70px');
+  // });
+});
+// $(document).ready(function(){
+//   $('#languageDropdown').mouseover(function(){
+//       $('#languageDropdown').addClass("show");
+//       return false;
+//   });
+//   $('#languageDropdown').mouseleave(function(){
+//       $('#languageDropdown').removeClass("show");
+//   });
+// });
 
 
 // diamond slider effect
@@ -427,3 +470,4 @@ return $(this).css('color', '#fff');
 return $(this).css('color', '#434343');
   }
 });
+
