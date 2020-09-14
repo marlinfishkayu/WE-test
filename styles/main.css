@@ -343,15 +343,11 @@ button:focus {
 
 .show {
   opacity: 1;
-  -webkit-transform: translateY(0px);
-          transform: translateY(0px);
 }
 
 .nav-wrap li.dropdown .game-menu {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  -webkit-transform: translateY(-100px);
-          transform: translateY(-100px);
   opacity: 0;
   position: fixed;
   top: 36px;
@@ -700,6 +696,26 @@ button:focus {
 .lang-dropdown .language-tap a:hover {
   text-decoration: none;
   color: #FFFFFF;
+}
+
+.menu-lang button {
+  display: inline-block;
+  border: none;
+  padding: 0.5rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.menu-lang button h6 {
+  font-size: 16px;
+  font-weight: 100;
+  font-family: Barlow;
 }
 
 .menu-lang button:hover + ul,

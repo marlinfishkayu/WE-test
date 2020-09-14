@@ -124,7 +124,7 @@ $('.livegame-btn').click(function(){
 
 $(document).ready(function(){
   $('.menu-lang').mouseover(function(){
-    $("#nav-area").css('height', '400px');
+    $("#nav-area").css('height', '500px');
       return false;
   });
   // $('.menu-lang').mouseleave(function(){
