@@ -631,7 +631,7 @@ button:focus {
 }
 
 .nav-icon-wrapper {
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -665,7 +665,7 @@ button:focus {
   position: absolute;
   width: 200px;
   height: 140px;
-  top: -30px;
+  top: -20px;
   right: -10px;
   z-index: 10;
   border: 1px solid #B0936D;
@@ -698,7 +698,40 @@ button:focus {
   color: #FFFFFF;
 }
 
-.menu-lang button {
+#navSearch {
+  width: 20px;
+  height: 20px;
+  margin: 0.2rem 1.5rem;
+  background-repeat: no-repeat;
+  background-image: url(images/icon/search.svg);
+}
+
+.menu-lang h6 {
+  font-size: 16px;
+  font-weight: 100;
+  font-family: Barlow;
+  position: relative;
+  color: #979797;
+  -webkit-transition: 200ms all ease;
+  transition: 200ms all ease;
+}
+
+.menu-lang h6:hover {
+  color: #D8D8D8;
+}
+
+.menu-lang h6:before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: -8px;
+  left: -27px;
+  background-repeat: no-repeat;
+  background-image: url(/images/icon/lang.svg);
+}
+
+.nav-item button {
   display: inline-block;
   border: none;
   padding: 0.5rem 2rem;
@@ -710,12 +743,6 @@ button:focus {
   text-align: center;
   -webkit-appearance: none;
   -moz-appearance: none;
-}
-
-.menu-lang button h6 {
-  font-size: 16px;
-  font-weight: 100;
-  font-family: Barlow;
 }
 
 .menu-lang button:hover + ul,

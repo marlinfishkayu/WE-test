@@ -79,8 +79,7 @@
 .game-icon-wrap{
 	width: 20%;
 	min-width: 200px;
-	height: 174px;
-	
+	height: 174px;	
 }
 .tab-pane{
 	position: absolute;
@@ -93,7 +92,6 @@
 .game-icon-container{
 	border-radius: 5px;
 	position: relative;
-
 }
 .game-icon-container .game-icon-bkg-wrap img{
 	width: 100%; 
@@ -105,7 +103,6 @@
 	border: transparent;
 	transition: all 200ms ease-out;
 }
-
 .game-icon-front{
 	content: '';
 	position: absolute;
@@ -116,11 +113,9 @@
 	height: 100px;
 	padding: 15px;
 	transform: translate(-50%, -50%);
-	
 }
 .hover .game-icon-front .icon-img{
 	transform: scale(1.2);
-	
 }
 .hover .game-icon-bkg-wrap img{
 	border: 1px solid #A78C68;
@@ -166,7 +161,6 @@
 #gameSubtab{
 	padding-bottom: 35px;
 }
-
 #wrapper .nav_links  .nav-game-link{
 	font-family: Futura Medium,Trebuchet MS,Arial,sans-serif;
 	letter-spacing: 3px;
@@ -193,7 +187,6 @@
 	background: #B0936D;
 	transform: scaleX(1);
 }
-
 .fancy-link{
 	text-decoration: none;
 	color: #D8D8D8;
@@ -209,14 +202,12 @@
 	width: 100%;
 	height: 1px;
 	background: #B0936D;
-
 	transform: scaleX(0);
 	transition: transform 250ms ease-in-out;
 }
 .fancy-link:hover::after{
 	transform: scaleX(1);
 }
-
 .nav-black,
 .search-black{
 	background-color: #060B1A;
@@ -275,7 +266,7 @@
 	margin-top: 2px;
 }
 .nav-icon-wrapper{
-	padding: 1rem 0;
+	padding: 0.5rem 0;
 	display: flex;
     position: absolute;
     z-index: 3;
@@ -301,7 +292,7 @@
 	position: absolute;
 	width: 200px;
 	height: 140px;
-	top: -30px;
+	top: -20px;
 	right: -10px;
 	z-index: 10;
 	border: 1px solid #B0936D;
@@ -324,10 +315,40 @@
 				color: #FFFFFF;
 			}
 		}
-	}
-	
+	}	
 }
-.menu-lang button{
+#navSearch {
+	width: 20px;
+	height: 20px;
+	margin: 0.2rem 1.5rem;
+	background-repeat: no-repeat;
+	background-image: url(images/icon/search.svg);
+}
+.menu-lang{
+	h6{
+		font-size: 16px;
+		font-weight: 100;
+		font-family: Barlow;
+		position: relative;
+		color: #979797;
+		transition: 200ms all ease;
+		&:hover{
+			color: #D8D8D8;
+		}
+		&:before{
+			content: '';
+			position: absolute;
+			width: 30px;
+			height: 30px;
+			top: -8px;
+    		left: -27px;
+			background-repeat: no-repeat;
+			background-image: url(/images/icon/lang.svg);
+
+		}
+	}
+} 
+.nav-item button{
 	display: inline-block;
     border: none;
     padding: 0.5rem 2rem;
@@ -335,17 +356,11 @@
     text-decoration: none;
     background: transparent;
     color: #ffffff;
-    
-	
     cursor: pointer;
     text-align: center;
     -webkit-appearance: none;
 	-moz-appearance: none;
-	h6{
-		font-size: 16px;
-		font-weight: 100;
-		font-family: Barlow;
-	}
+	
 }
 .menu-lang button:hover + ul,
 .lang-dropdown:hover{

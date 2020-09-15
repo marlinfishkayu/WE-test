@@ -124,12 +124,15 @@ $('.livegame-btn').click(function(){
 
 $(document).ready(function(){
   $('.menu-lang').mouseover(function(){
-    $("#nav-area").css('height', '500px');
+    // $("#nav-area").css('height', '500px');
+    $('.nav-wrap').addClass("pointer");
       return false;
   });
-  // $('.menu-lang').mouseleave(function(){
-  //     $("#nav-area").css('height', '70px');
-  // });
+  $('.menu-lang').mouseleave(function(){
+      // $("#nav-area").css('height', '70px');
+      $('.game-menu').removeClass('show');
+        $('.nav-wrap').removeClass("pointer");
+  });
 });
 // $(document).ready(function(){
 //   $('#languageDropdown').mouseover(function(){
