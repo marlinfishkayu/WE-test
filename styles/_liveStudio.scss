@@ -95,11 +95,12 @@
         font-weight: 100;
         letter-spacing: 3px;
         padding-top: 1rem;
+        text-transform: uppercase;
     }
     .room-des{
         color:#979797;
         font-family: $fontBarlowLight;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 100;
         letter-spacing: 1px;
         padding-top: 16rem;
@@ -342,6 +343,7 @@
         width: 700px;
         .cert-bottom {
             width: 361px;
+            line-height: 120%;
         }
         .hero-intro2{
             font-size: 20px;
@@ -387,11 +389,11 @@
         padding-top: 3rem;
         padding-bottom: 3rem;
         .bottom-deco{
-            line-height: 130%;
+            line-height: 120%;
             width: 391px;
         }
         .cert-bottom{
-            line-height: 90%;
+            line-height: 120%;
             width: 361px;
         }
     }

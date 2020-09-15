@@ -2774,7 +2774,8 @@ footer {
   }
   #liveGame .hero-intro1 {
     margin-top: 0rem;
-    padding-bottom: 3rem;
+    padding-top: 0;
+    padding-bottom: 0rem;
   }
   .live-game-main .mainBtn {
     margin-top: 2.5rem;
@@ -2927,6 +2928,17 @@ footer {
 
 .md-block {
   display: none;
+}
+
+#ContactUs .hyperlink {
+  color: #A78C68;
+  text-decoration: none;
+  -webkit-transition: 200ms all ease;
+  transition: 200ms all ease;
+}
+
+#ContactUs .hyperlink:hover {
+  color: #89663D;
 }
 
 #ContactUs .default {
@@ -4074,12 +4086,13 @@ select.form-control::-ms-expand {
   font-weight: 100;
   letter-spacing: 3px;
   padding-top: 1rem;
+  text-transform: uppercase;
 }
 
 #liveStudio .room-des {
   color: #979797;
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 100;
   letter-spacing: 1px;
   padding-top: 16rem;
@@ -4354,6 +4367,7 @@ select.form-control::-ms-expand {
   }
   #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-bottom {
     width: 361px;
+    line-height: 120%;
   }
   #liveStudio .livestudio-hightlight-wrap .cert-wrap .hero-intro2 {
     font-size: 20px;
@@ -4398,11 +4412,11 @@ select.form-control::-ms-expand {
     padding-bottom: 3rem;
   }
   #liveStudio .livestudio-hightlight-wrap .bottom-deco {
-    line-height: 130%;
+    line-height: 120%;
     width: 391px;
   }
   #liveStudio .livestudio-hightlight-wrap .cert-bottom {
-    line-height: 90%;
+    line-height: 120%;
     width: 361px;
   }
 }
