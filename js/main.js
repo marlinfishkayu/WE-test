@@ -454,3 +454,73 @@ return $(this).css('color', '#434343');
   }
 });
 
+
+
+//contact form custom error
+// var email = document.getElementById("mail");
+
+//   if (email.validity.valueMissing) {
+//     email.setCustomValidity("Don't be shy !");
+//     console.log("error!!");
+//   }
+
+// email.addEventListener("input", function (event) {
+
+//   if (email.validity.valueMissing) {
+//     email.setCustomValidity("Don't be shy !");
+//     // $('#mail').addClass("custom-error");
+
+//   }  
+
+// if (email.validity.typeMismatch) {
+//     email.setCustomValidity("Doesn't look like an e-mail ^^");
+//   }
+
+// if (email.validity.tooLong) {
+//     email.setCustomValidity("Too loooooooong e-mail address :(");
+//   }
+// });
+
+// $("#contactForm").validate({
+//   errorPlacement: function(error, element) {
+//      error.appendTo('#errordiv');
+//    }
+// });
+
+
+// $(document).ready(function(){
+//   $('.menu-lang').mouseover(function(){
+//     $('.nav-wrap').addClass("pointer");
+//       return false;
+//   });
+//   $('.menu-lang').mouseleave(function(){
+//       $('.game-menu').removeClass('show');
+//         $('.nav-wrap').removeClass("pointer");
+//   });
+// });
+
+
+$(document).ready(function(){
+  $("#contactForm").validate({
+      rules: {
+          "elem.1": {
+              required: true,
+              digits: true
+          },
+          "elem.2": {
+              required: true
+          }
+      },
+      errorElement: "div",
+      wrapper: "div",  // a wrapper around the error message
+      errorPlacement: function(error, element) {
+          offset = element.offset();
+          error.insertBefore(element)
+          error.addClass('message');  // add a class to the wrapper
+          error.css('position', 'absolute');
+          error.css('left', offset.left + element.outerWidth());
+          error.css('top', offset.top);
+      }
+
+  });
+});
