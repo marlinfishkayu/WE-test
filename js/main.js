@@ -109,40 +109,20 @@ $('.livegame-btn').click(function(){
   });
 
 
-/*-- hover display language menu --*/
-// $(".menu-lang").hover(
-//   function () {
-//       $('#languageDropdown').addClass('lang-show');
-//       $('.nav-wrap').addClass("lang_hover");
-//   }, 
-//   function () {
-//       $('#languageDropdown').removeClass('lang-show');
-//       $('.nav-wrap').removeClass("lang_hover");
-//   }
-// );
+
 /*-- hover display language menu --*/
 
 $(document).ready(function(){
   $('.menu-lang').mouseover(function(){
-    // $("#nav-area").css('height', '500px');
     $('.nav-wrap').addClass("pointer");
       return false;
   });
   $('.menu-lang').mouseleave(function(){
-      // $("#nav-area").css('height', '70px');
       $('.game-menu').removeClass('show');
         $('.nav-wrap').removeClass("pointer");
   });
 });
-// $(document).ready(function(){
-//   $('#languageDropdown').mouseover(function(){
-//       $('#languageDropdown').addClass("show");
-//       return false;
-//   });
-//   $('#languageDropdown').mouseleave(function(){
-//       $('#languageDropdown').removeClass("show");
-//   });
-// });
+
 
 
 // diamond slider effect

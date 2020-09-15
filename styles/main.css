@@ -672,7 +672,7 @@ button:focus {
   background: #000f24;
   background: -webkit-gradient(linear, left top, left bottom, from(#000f24), to(#011b3e));
   background: linear-gradient(180deg, #000f24 0%, #011b3e 100%);
-  margin-top: 50px;
+  margin-top: 54px;
   opacity: 0;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -685,16 +685,21 @@ button:focus {
   padding: 10px 0;
 }
 
-.lang-dropdown .language-tap a {
+#languageDropdown a {
   color: #979797;
   font-size: 16px;
+  font-weight: 100;
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   -webkit-transition: 200ms all ease-in-out;
   transition: 200ms all ease-in-out;
 }
 
-.lang-dropdown .language-tap a:hover {
+#languageDropdown a:hover {
   text-decoration: none;
+  color: #FFFFFF;
+}
+
+#languageDropdown .active a {
   color: #FFFFFF;
 }
 
@@ -703,7 +708,6 @@ button:focus {
   height: 20px;
   margin: 0.2rem 1.5rem;
   background-repeat: no-repeat;
-  background-image: url(images/icon/search.svg);
 }
 
 .menu-lang h6 {

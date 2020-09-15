@@ -298,31 +298,34 @@
 	border: 1px solid #B0936D;
 	background: rgb(0,15,36);
 	background: linear-gradient(180deg, rgba(0,15,36,1) 0%, rgba(1,27,62,1) 100%);
-	margin-top: 50px;
+	margin-top: 54px;
 	opacity: 0;
 	transition: all 0.4s ease;
 	transform: translateY(10px);
 	.language-tap {
 		text-align: center;
 		padding: 10px 0;
-		a{
-			color:#979797;
-			font-size: 16px;
-			font-family: $fontBarlowLight;
-			transition: 200ms all ease-in-out;
-			&:hover{
-				text-decoration: none;
-				color: #FFFFFF;
-			}
-		}
 	}	
+}
+#languageDropdown a{
+	color:#979797;
+	font-size: 16px;
+	font-weight: 100;
+	font-family: $fontBarlowLight;
+	transition: 200ms all ease-in-out;
+	&:hover{
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+}
+#languageDropdown .active a{
+	color: #FFFFFF;
 }
 #navSearch {
 	width: 20px;
 	height: 20px;
 	margin: 0.2rem 1.5rem;
 	background-repeat: no-repeat;
-	background-image: url(images/icon/search.svg);
 }
 .menu-lang{
 	h6{
