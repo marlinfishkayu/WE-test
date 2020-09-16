@@ -12,6 +12,9 @@
     top: 0;
     z-index: -1;
 }
+#liveGame .hero-header-bkg{
+    width: 100%;
+}
 .hero-header::after{
     content: '';
     position: absolute;
@@ -22,6 +25,21 @@
     height: 100%;
     background: rgb(6,11,26);
     background: linear-gradient(180deg, rgba(6,11,26,0.3) 0%, rgba(7,10,27,1) 100%);
+}
+.game-hero-M,
+.game-hero-D{
+    width: 100%; 
+    background-position: 50% 10%;
+    background-size: cover; 
+    height: 100%; 
+    object-fit: cover;
+    display: none;
+}
+.game-hero-M{
+    display: block;
+}
+.game-hero-D{
+    display: none;
 }
 #liveGame .hero-icon{
     width: 120px;
@@ -308,6 +326,12 @@
 @media (min-width: 768px) {
     .hero-header {
         height: 600px;
+    }
+    .game-hero-M{
+        display: none
+    }
+    .game-hero-D{
+        display: block;
     }
     #liveGame .hero-icon{
         width: 169px;
