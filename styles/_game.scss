@@ -317,14 +317,23 @@
 #liveGame .main-button{
     padding: 0;
 }
-// #MahjongLuckyWheel .hero-header, .live-game-main {
-//     margin-bottom: 3rem;
-// }
+
 #MahjongLuckyWheel .hero-header {
     height: 444px;
 }
+
 #MahjongLuckyWheel  .hero-header h1 {
     line-height: 50px;
+}
+#SqueezeBaccarat .hero-header {
+    height: 440px;
+}
+#SqueezeBaccarat  .hero-header h1 {
+    line-height: 50px;
+}
+#liveGame #SqueezeBaccarat .game-icon {
+    width: 120px;
+    height: 100px;
 }
 .live-game-bottom .bottom-icon-left h3{
     line-height: 45px;
@@ -449,14 +458,28 @@
             width: 450px;
         }
     }
+    #GodofFortuneRoulette .hero-header h1,
     #MahjongLuckyWheel  .hero-header h1 {
         line-height: 80px;
     }
+    #GodofFortuneRoulette  .hero-header, .live-game-main,
     #MahjongLuckyWheel .hero-header, .live-game-main {
         margin-bottom: 5rem;
     }
+    #SqueezeBaccarat .hero-header, .live-game-main {
+        margin-bottom: 5rem;
+    }
+    #SqueezeBaccarat  .hero-header h1 {
+        line-height: 90px;
+    }
+    #GodofFortuneRoulette .hero-header ,
+    #SqueezeBaccarat .hero-header ,
     #MahjongLuckyWheel .hero-header {
         height: 600px;
+    }
+    #liveGame #SqueezeBaccarat .game-icon {
+        width: 169px;
+        height: 169px;
     }
 }
 
@@ -489,7 +512,9 @@
     .live-game-main .feature-text{
         padding-left: 5rem;
     }
-
+    #SqueezeBaccarat .hero-header, .live-game-main {
+        margin-bottom: 1rem;
+    }
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {

@@ -271,6 +271,10 @@ button:focus {
   display: block;
 }
 
+.lg-break {
+  display: block;
+}
+
 @media (min-width: 768px) {
   .hero-intro1 {
     font-size: 22px;
@@ -301,6 +305,9 @@ button:focus {
     height: 46px;
     font-size: 13px;
     padding: 12px 19px;
+  }
+  .lg-break {
+    display: none;
   }
 }
 
@@ -2784,6 +2791,19 @@ footer {
   line-height: 50px;
 }
 
+#SqueezeBaccarat .hero-header {
+  height: 440px;
+}
+
+#SqueezeBaccarat .hero-header h1 {
+  line-height: 50px;
+}
+
+#liveGame #SqueezeBaccarat .game-icon {
+  width: 120px;
+  height: 100px;
+}
+
 .live-game-bottom .bottom-icon-left h3 {
   line-height: 45px;
 }
@@ -2903,14 +2923,28 @@ footer {
   .game-platform .game-platforom-inner {
     width: 450px;
   }
+  #GodofFortuneRoulette .hero-header h1,
   #MahjongLuckyWheel .hero-header h1 {
     line-height: 80px;
   }
+  #GodofFortuneRoulette .hero-header, .live-game-main,
   #MahjongLuckyWheel .hero-header, .live-game-main {
     margin-bottom: 5rem;
   }
+  #SqueezeBaccarat .hero-header, .live-game-main {
+    margin-bottom: 5rem;
+  }
+  #SqueezeBaccarat .hero-header h1 {
+    line-height: 90px;
+  }
+  #GodofFortuneRoulette .hero-header,
+  #SqueezeBaccarat .hero-header,
   #MahjongLuckyWheel .hero-header {
     height: 600px;
+  }
+  #liveGame #SqueezeBaccarat .game-icon {
+    width: 169px;
+    height: 169px;
   }
 }
 
@@ -2941,6 +2975,9 @@ footer {
   }
   .live-game-main .feature-text {
     padding-left: 5rem;
+  }
+  #SqueezeBaccarat .hero-header, .live-game-main {
+    margin-bottom: 1rem;
   }
 }
 

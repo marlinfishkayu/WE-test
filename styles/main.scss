@@ -182,6 +182,10 @@ button:focus {
 .md-break{
   display: block;
 }
+.lg-break{
+  display: block;
+}
+
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
@@ -204,6 +208,7 @@ button:focus {
   .md-break{
     display: none;
   }
+
 }
 
 // Large devices (desktops, 992px and up)
@@ -219,6 +224,9 @@ button:focus {
       height: 46px;
       font-size: 13px;
       padding: 12px 19px
+  }
+  .lg-break{
+    display: none;
   }
  }
 // Extra large devices (large desktops, 1200px and up)
