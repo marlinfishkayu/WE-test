@@ -317,8 +317,18 @@
 #liveGame .main-button{
     padding: 0;
 }
-
-
+// #MahjongLuckyWheel .hero-header, .live-game-main {
+//     margin-bottom: 3rem;
+// }
+#MahjongLuckyWheel .hero-header {
+    height: 444px;
+}
+#MahjongLuckyWheel  .hero-header h1 {
+    line-height: 50px;
+}
+.live-game-bottom .bottom-icon-left h3{
+    line-height: 45px;
+}
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
 
@@ -438,6 +448,15 @@
         .game-platforom-inner{
             width: 450px;
         }
+    }
+    #MahjongLuckyWheel  .hero-header h1 {
+        line-height: 80px;
+    }
+    #MahjongLuckyWheel .hero-header, .live-game-main {
+        margin-bottom: 5rem;
+    }
+    #MahjongLuckyWheel .hero-header {
+        height: 600px;
     }
 }
 

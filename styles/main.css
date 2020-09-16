@@ -2776,6 +2776,18 @@ footer {
   padding: 0;
 }
 
+#MahjongLuckyWheel .hero-header {
+  height: 444px;
+}
+
+#MahjongLuckyWheel .hero-header h1 {
+  line-height: 50px;
+}
+
+.live-game-bottom .bottom-icon-left h3 {
+  line-height: 45px;
+}
+
 @media (min-width: 768px) {
   .hero-header {
     height: 600px;
@@ -2890,6 +2902,15 @@ footer {
   }
   .game-platform .game-platforom-inner {
     width: 450px;
+  }
+  #MahjongLuckyWheel .hero-header h1 {
+    line-height: 80px;
+  }
+  #MahjongLuckyWheel .hero-header, .live-game-main {
+    margin-bottom: 5rem;
+  }
+  #MahjongLuckyWheel .hero-header {
+    height: 600px;
   }
 }
 

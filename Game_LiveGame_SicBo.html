@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <!-- external font-->
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.typekit.net/mlx7mqk.css" />
+
+        <!-- Outdated Browser v1.1.5 -->
+        <link rel="stylesheet" href="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.css" />
+        <!-- Owl CSS -->
+        <link rel="stylesheet" href="OwlCarousel2/owl.carousel.min.css" />
+        <link rel="stylesheet" href="OwlCarousel2/owl.theme.default.min.css" />
+        <!-- Sal CSS -->
+        <link rel="stylesheet" href="./styles/sal.css" />
+        <!-- main CSS -->
+        <link rel="stylesheet" href="./styles/main.css" />
+        <title>World Entertainment</title>
+        <link rel="shortcut icon" type="image/svg" href="./images/icon/favicon.svg" />
+    </head> 
+    <body>
+        <div id="wrapper">
+            <section class="section-header" id="nav">
+                <div class="header-wrapper">
+                    <!-- navigation bar -->
+                    <div class="nav-wrap nav-fixed">
+                        <div id="nav-area">
+                            <div class="main-nav">
+                                <!-- nav links -->
+                                <a class="navbar-brand menu-item menu-logo" href="index.html">
+                                    <div class="nav-logo"><img src="./images/icon/logo.svg" alt="" loading="lazy" /></div>
+                                </a>
+                                <ul class="nav_links">
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-about" href="AboutWE.html">About WE</a>
+                                    </li>
+                                    <li class="nav-item dropdown" id="gamesHover">
+                                        <a class="nav-link menu-item menu-games" href="All_Live_Game.html">Games</a>
+                                        <div class="game-menu" style="margin: 0; width: 100%;">
+                                            <div class="subnav-arrow"></div>
+                                            <div class="game-menu-wrapper">
+                                                <!-- game menu tab -->
+                                                <ul class="nav justify-content-center" id="gameSubtab" role="tablist">
+                                                    <li class="nav-game-item">
+                                                        <a class="nav-game-link fancy-link active" id="pills-livegame-tab" data-toggle="pill" href="#pills-livegame" role="tab" aria-controls="pills-livegame" aria-selected="true">LIVE GAME</a>
+                                                    </li>
+                                                    <li class="nav-game-item">
+                                                        <a class="nav-game-link fancy-link" id="pills-lottery-tab" data-toggle="pill" href="#pills-lottery" role="tab" aria-controls="pills-lottery" aria-selected="false">LOTTERY</a>
+                                                    </li>
+                                                    <li class="nav-game-item">
+                                                        <a class="nav-game-link fancy-link" id="pills-sportsbook-tab" data-toggle="pill" href="#pills-sportsbook" role="tab" aria-controls="pills-sportsbook" aria-selected="false">SPORTSBOOK</a>
+                                                    </li>
+                                                    <li class="nav-game-item">
+                                                        <a class="nav-game-link fancy-link" id="pills-slots-tab" data-toggle="pill" href="#pills-slots" role="tab" aria-controls="pills-slots" aria-selected="false">SLOTS</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="game-tab-content" id="pills-tabContent">
+                                                    <!-- Live game tab -->
+                                                    <div class="tab-pane fade show active" id="pills-livegame" role="tabpanel" aria-labelledby="pills-livegame-tab">
+                                                        <div class="d-flex justify-content-center">
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-baccarat">
+                                                                <a href="Game_LiveGame_Baccarat.html">
+                                                                    <div class="game-icon-container">
+                                                                        <h4>BACCARAT</h4>
+                                                                        <div class="game-icon-front">
+                                                                            <div class="icon-img"></div>
+                                                                        </div>
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img
+                                                                                src="images/icon/gameMenu_icon1_Baccarat_1x.png"
+                                                                                srcset="images/icon/gameMenu_icon1_Baccarat_1x.png 500w, images/icon/gameMenu_icon1_Baccarat_2x.png 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-roulette">
+                                                                <a href="Game_LiveGame_Roulette.html">
+                                                                    <div class="game-icon-container">
+                                                                        <h4>ROULETTE</h4>
+                                                                        <div class="game-icon-front">
+                                                                            <div class="icon-img"></div>
+                                                                        </div>
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img
+                                                                                src="images/icon/gameMenu_icon2_Roulette_1x.png"
+                                                                                srcset="images/icon/gameMenu_icon2_Roulette_1x.png 500w, images/icon/gameMenu_icon2_Roulette_2x.png 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-SicBo">
+                                                                <a href="Game_LiveGame_SicBo.html">
+                                                                    <div class="game-icon-container">
+                                                                        <h4>SIC BO</h4>
+                                                                        <div class="game-icon-front">
+                                                                            <div class="icon-img"></div>
+                                                                        </div>
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img src="images/icon/gameMenu_icon3_SicBo_1x.png" srcset="images/icon/gameMenu_icon3_SicBo_1x.png 500w, images/icon/gameMenu_icon3_SicBo_2x.png 1000w" alt="" />
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-Dragon">
+                                                                <a href="Game_LiveGame_DragonTiger.html">
+                                                                    <div class="game-icon-container">
+                                                                        <h4>DRAGON TIGER</h4>
+                                                                        <div class="game-icon-front">
+                                                                            <div class="icon-img"></div>
+                                                                        </div>
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img src="images/icon/gameMenu_icon4_Dragon_1x.png" srcset="images/icon/gameMenu_icon4_Dragon_1x.png 500w, images/icon/gameMenu_icon4_Dragon_2x.png 1000w" alt="" />
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-Mahjong">
+                                                                <a href="Game_LiveGame_MahjongLuckyWheel.html">
+                                                                    <div class="game-icon-container">
+                                                                        <h4>MAHJONG LUCKY WHEEL</h4>
+                                                                        <div class="game-icon-front">
+                                                                            <div class="icon-img"></div>
+                                                                        </div>
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img
+                                                                                src="images/icon/gameMenu_icon5_Mahjong_1x.png"
+                                                                                srcset="images/icon/gameMenu_icon5_Mahjong_1x.png 500w, images/icon/gameMenu_icon5_Mahjong_2x.png 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="all-games" id="allGameBtn">
+                                                            <a href="All_Live_Game.html"><button class="secondaryBtn" type="button">ALL LIVE GAME</button></a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Live game tab -->
+                                                    <div class="tab-pane fade" id="pills-lottery" role="tabpanel" aria-labelledby="pills-lottery-tab">lottery</div>
+                                                    <div class="tab-pane fade" id="pills-sportsbook" role="tabpanel" aria-labelledby="pills-sportsbook-tab">sportsbook</div>
+                                                    <div class="tab-pane fade" id="pills-slots" role="tabpanel" aria-labelledby="pills-slots-tab">slots</div>
+                                                </div>
+                                                <!-- game menu tab -->
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-liveStudio" href="LiveStudio.html">Live Studio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-services" href="Services.html">Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-whatsNew" href="WhatsNew.html">What's New</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-contactUs" href="ContactUs.html">Contact Us</a>
+                                    </li>
+                                </ul>
+                                <li class="nav-item nav-icon">
+                                    <div class="nav-icon-wrapper">
+                                        <div>
+                                            <a class="icon-search menu-item search" id="navSearch" href="#search">
+                                                <img src="images/icon/search.svg" />
+                                            </a>
+                                        </div>
+                                        <div class="search-wrapper menu-item menu-lang">
+                                            <button class="icon-lang">
+                                                <h6>En</h6>
+                                            </button>
+                                            <ul  class="lang-dropdown" id="languageDropdown">
+                                                <li class="language-tap active"><a href="#">English</a></li>
+                                                <li class="language-tap"><a href="#">繁體中文</a></li>
+                                                <li class="language-tap"><a href="#">简体中文</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-wrapper menu-item">
+                                        <div class="menu-btn">
+                                            <div class="menu-btn__burger"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <div class="search-container">
+                                    <div class="search-form" id="searchForm">
+                                        <form>
+                                            <input type="text" name="" placeholder="Search our website" />
+                                        </form>
+                                    </div>
+                                </div>
+                                <a class="closeBtn"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- side menu start  -->
+                    <nav class="sidebar">
+                        <a class="navbar-brand menu-item menu-logo" href="index.html" id="logoMobile">
+                            <div class="nav-logo"><img src="./images/icon/logo.svg" alt="" loading="lazy" /></div>
+                        </a>
+                        <div class="menu-wrapper menu-item" id="menuMobile">
+                            <div class="menu-btn">
+                                <div class="menu-btn__burger"></div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li class="side-item">
+                                <a href="AboutWE.html">About WE</a>
+                            </li>
+                            <li class="side-item">
+                                <a href="#" class="game-btn">Games
+                                    <span class="fa-arrow">
+                                        <img src="./images/icon/dropdown.svg"/>
+                                    </span>
+                                </a>
+                                <ul class="game-show">
+                                    <li class="game-item">
+                                        <a href="#" class="livegame-btn">LIVE GAME
+                                            <span class="fa-arrow">
+                                                <img src="./images/icon/dropdown.svg"/>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <ul class="game-sub-item livegame-show">
+                                        <li><a href="All_Live_Game.html">ALL LIVE GAME</a></li>
+                                        <li><a href="Game_LiveGame_Baccarat.html">BACCARAT</a></li>
+                                        <li><a href="Game_LiveGame_Roulette.html">ROULETTE</a></li>
+                                        <li><a href="Game_LiveGame_SicBo.html">SIC BO</a></li>
+                                        <li><a href="Game_LiveGame_DragonTiger.html">DRAGON TIGER</a></li>
+                                        <li><a href="Game_LiveGame_MahjongLuckyWheel.html">MAHJONG LUCKY WHEEL</a></li>
+                                    </ul>
+                                    <li class="game-item">
+                                        <a href="#">LOTTERY
+                                            <span class="fa-arrow">
+                                                <img src="./images/icon/dropdown.svg"/>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="game-item">
+                                        <a href="#">SPORTSBOOK
+                                            <span class="fa-arrow">
+                                                <img src="./images/icon/dropdown.svg"/>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="side-item">
+                                <a href="LiveStudio.html">Live Studio</a>
+                            </li>
+                            <li class="side-item">
+                                <a href="Services.html">Services</a>
+                            </li>
+                            <li class="side-item">
+                                <a href="WhatsNew.html">What’s New</a>
+                            </li>
+                            <li class="side-item">
+                                <a href="ContactUs.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- side menu end  -->
+
+                    <!-- navigation bar end -->
+                </div>
+            </section>
+            <div id="liveGame">
+                <div id="SicBo">
+                    <div class="hero-header text-center">
+                        <div class="hero-header-bkg">
+                            <img class="game-hero-M" src="images/game/game_sicbo/banner/hero_livegame_sicbo_M_x1.png" 
+                            srcset="images/game/game_sicbo/banner/hero_livegame_sicbo_M_x1.png 500w, images/game/game_sicbo/banner/hero_livegame_sicbo_M_x2.png 1000w" alt="" />
+                            <img class="game-hero-D" src="images/game/game_sicbo/banner/hero_livegame_sicbo_D_x1.png" 
+                            srcset="images/game/game_sicbo/banner/hero_livegame_sicbo_D_x1.png 500w, images/game/game_sicbo/banner/hero_livegame_sicbo_D_x2.png 1000w" alt="" />
+                        </div>
+                        <div class="hero-icon">
+                            <div class="game-icon">
+                                <img src="./images/game/game_sicbo/icon/game_icon_sicbo.svg"/>
+                            </div>
+                        </div>
+                        <div class="header-deco">
+                            <h4>LIVE GAME</h4>
+                        </div>
+                        <h1>Sic Bo</h1>
+                    </div>
+                    <div class="live-game-main text-center">
+                        <div class="live-game-main-bkg">
+                            <img src="images/game/livegame_main_bkg_x1.jpg" style="width: 100%; background-position: 50% 10%; background-size: cover; height: 100%; object-fit: cover;" srcset="images/game/livegame_main_bkg_x1.jpg 500w, images/game/livegame_main_bkg_x2.jpg 1000w" alt="" />
+                        </div>
+                        <h4 class="hero-intro1">An unparalleled game of chance</h4>
+                        <div class="main-button">
+                            <button type="submit" id="submit" class="mainBtn btn" type="button">
+                                <img src="./images/icon/mainBtn_1x.png" srcset="./images/icon/mainBtn_1x.png 500w, ./images/icon/mainBtn_2x.png 1000w" alt="" />
+                            </button>
+                        </div>
+                        <p class="hero-intro2">Sic Bo is a classic game that originated in ancient China and players have to predict the outcome of the shakes with three dice. It is also known as “big-small”, “hi-lo”, “tai-sai”, “dai-siu”. 
+                        </p>
+                        <h5 class="feature-header">FEATURE HIGHLIGHTS</h5>
+                        <!-- feature hightlight -->
+                        <div class="feature-row">
+                            <div class="d-md-flex flex-md-row-reverse feature-flexitem" id="feature1"
+                            data-sal="slide-up"
+                            data-sal-easing="easeInOutQuad"
+                            style="--sal-duration: 1s; --sal-delay: 0;">
+                                <div class="feature-flexbox feature-text">
+                                    <h2 class="feature-flexbox-h2">A wide variety <br/>of odds</h2>
+                                    <p class="hero-intro2">Sic Bo is very popular amongst bettors. As long as you go to any casino, you can see lots of players playing this game. The wide variety of odds and combinations are the features that attracted the players. This also helps players to increase their chances of getting a huge profit in this game. 
+                                    </p>
+                                </div>
+                                <div class="feature-flexbox feature-photo">
+                                    <picture>
+                                        <img 
+                                            src="images/game/game_sicbo/game_sicbo_feature1_1x.png"
+                                            srcset="images/game/game_sicbo/game_sicbo_feature1_1x.png 500w, images/game/game_sicbo/game_sicbo_feature1_2x.png 1000w"
+                                            alt=""
+                                        />
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="d-md-flex flex-md-row" id="feature2"
+                            data-sal="slide-up"
+                            data-sal-easing="easeInOutQuad"
+                            style="--sal-duration: 1s; --sal-delay: 0.15s;">
+                                <div class="feature-flexbox feature-text">
+                                    <h2 class="feature-flexbox-h2">Legible game <br/>record</h2>
+                                    <p class="hero-intro2">A series of detailed gaming indications allow players to access their gaming history more easily. WE understand the importance of having all-rounded Road Paper selections and the “Hot/ Cold” numbers will benefit our players’ from predicting the next move.
+                                    </p>
+                                </div>
+                                <div class="feature-flexbox feature-photo">
+                                    <picture>
+                                        <img 
+                                            src="images/game/game_sicbo/game_sicbo_feature2_1x.png"
+                                            srcset="images/game/game_sicbo/game_sicbo_feature2_1x.png 500w, images/game/game_sicbo/game_sicbo_feature2_2x.png 1000w"
+                                            alt=""
+                                        />
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="d-md-flex flex-md-row-reverse feature-flexitem" id="feature3"
+                            data-sal="slide-up"
+                            data-sal-easing="easeInOutQuad"
+                            style="--sal-duration: 1s; --sal-delay: 0.25s;">
+                                <div class="feature-flexbox feature-text">
+                                    <h2 class="feature-flexbox-h2">Good time for <br/>multi-betting</h2>
+                                    <p class="hero-intro2">Sic Bo is a fantastic pick for anyone who enjoys multi-betting. The players can place their bets anywhere and even add their bet anytime. 
+                                    </p>
+                                </div>
+                                <div class="feature-flexbox feature-photo">
+                                    <picture>
+                                        <img 
+                                            src="images/game/game_sicbo/game_sicbo_feature3_1x.png"
+                                            srcset="images/game/game_sicbo/game_sicbo_feature3_1x.png 500w, images/game/game_sicbo/game_sicbo_feature3_2x.png 1000w"
+                                            alt=""
+                                        />
+                                    </picture>
+                                </div>
+                            </div>
+                             
+                        </div>
+                        <!-- feature hightlight end-->
+                        <div class="game-platform" 
+                        data-sal="slide-up"
+                        data-sal-easing="easeInOutQuad"
+                        style="--sal-duration: 1s; --sal-delay: 0.35s;">
+                            <h3>Platforms</h3>
+                            <div class="game-platforom-inner">
+                                <div class="game-platforom-icon">
+                                    <div class="platforom-icon-img">
+                                        <img alt="" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMzZweCIgaGVpZ2h0PSIzNnB4IiB2aWV3Qm94PSIwIDAgMzYgMzYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDYxLjIgKDg5NjUzKSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4KICAgIDx0aXRsZT5nYW1lc19wbGF0Zm9ybXNfd2luZG93czwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJHYW1lIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iV0VfZ2FtZXNfcm91bGV0dGUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC01MjUuMDAwMDAwLCAtMjkzOS4wMDAwMDApIiBmaWxsPSIjODk2NjNEIj4KICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTIwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MDguMDAwMDAwLCAyODU3LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLCA3NS4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iZ2FtZXNfcGxhdGZvcm1zX3dpbmRvd3MiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE3LjAwMDAwMCwgNy4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHBvbHlnb24gaWQ9IlBhdGgiIHBvaW50cz0iMTMuNSAzMyAtMS44MTg5ODk0ZS0xMiAzMS4wNTQ5MjE1IC0xLjgxODk4OTRlLTEyIDE5LjUgMTMuNSAxOS41Ij48L3BvbHlnb24+CiAgICAgICAgICAgICAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJQYXRoIiBwb2ludHM9IjM2IDE5LjUgMzYgMzYgMTYuNSAzMy4zNDk5NDE0IDE2LjUgMTkuNSI+PC9wb2x5Z29uPgogICAgICAgICAgICAgICAgICAgICAgICA8cG9seWdvbiBpZD0iUGF0aCIgcG9pbnRzPSIxNi41IDIuNzQ2Nzc2MDggMzYgMCAzNiAxNi41IDE2LjUgMTYuNSI+PC9wb2x5Z29uPgogICAgICAgICAgICAgICAgICAgICAgICA8cG9seWdvbiBpZD0iUGF0aCIgcG9pbnRzPSItMS44MTg5ODk0ZS0xMiAxNi41IC0xLjgxODk4OTRlLTEyIDQuOTQ1MjQ0OTYgMTMuNSAzIDEzLjUgMTYuNSI+PC9wb2x5Z29uPgogICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+" />
+                                    </div>
+                                    <h6>Windows</h6>
+                                </div>
+                                <div class="game-platforom-icon">
+                                    <div class="platforom-icon-img">
+                                        <img alt="" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMzZweCIgaGVpZ2h0PSIzM3B4IiB2aWV3Qm94PSIwIDAgMzYgMzMiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDYxLjIgKDg5NjUzKSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4KICAgIDx0aXRsZT5nYW1lc19wbGF0Zm9ybXNfTWFjIE9TPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+CiAgICAgICAgPGZpbHRlciB4PSItMzMuMyUiIHk9Ii0zNi4xJSIgd2lkdGg9IjE2Ni43JSIgaGVpZ2h0PSIxNzIuMiUiIGZpbHRlclVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgaWQ9ImZpbHRlci0xIj4KICAgICAgICAgICAgPGZlT2Zmc2V0IGR4PSIwIiBkeT0iMiIgaW49IlNvdXJjZUFscGhhIiByZXN1bHQ9InNoYWRvd09mZnNldE91dGVyMSI+PC9mZU9mZnNldD4KICAgICAgICAgICAgPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMiIgaW49InNoYWRvd09mZnNldE91dGVyMSIgcmVzdWx0PSJzaGFkb3dCbHVyT3V0ZXIxIj48L2ZlR2F1c3NpYW5CbHVyPgogICAgICAgICAgICA8ZmVDb2xvck1hdHJpeCB2YWx1ZXM9IjAgMCAwIDAgMCAgIDAgMCAwIDAgMCAgIDAgMCAwIDAgMCAgMCAwIDAgMC41IDAiIHR5cGU9Im1hdHJpeCIgaW49InNoYWRvd0JsdXJPdXRlcjEiIHJlc3VsdD0ic2hhZG93TWF0cml4T3V0ZXIxIj48L2ZlQ29sb3JNYXRyaXg+CiAgICAgICAgICAgIDxmZU1lcmdlPgogICAgICAgICAgICAgICAgPGZlTWVyZ2VOb2RlIGluPSJzaGFkb3dNYXRyaXhPdXRlcjEiPjwvZmVNZXJnZU5vZGU+CiAgICAgICAgICAgICAgICA8ZmVNZXJnZU5vZGUgaW49IlNvdXJjZUdyYXBoaWMiPjwvZmVNZXJnZU5vZGU+CiAgICAgICAgICAgIDwvZmVNZXJnZT4KICAgICAgICA8L2ZpbHRlcj4KICAgIDwvZGVmcz4KICAgIDxnIGlkPSJHYW1lIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iV0VfZ2FtZXNfcm91bGV0dGUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC02NDkuMDAwMDAwLCAtMjk0MS4wMDAwMDApIj4KICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTIwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MDguMDAwMDAwLCAyODU3LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLCA3NS4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iZ2FtZXNfcGxhdGZvcm1zX01hYy1PUyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTQxLjAwMDAwMCwgOS4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTE0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC4wMDAwMDAsIDAuMDAwMDAwKSIgZmlsbD0iIzg5NjYzRCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTcuODAzNjI0MywyNS44MTMxODggQzEyLjgzNjgxMTEsMjUuODEzMTg4IDkuMDQ0OTQyOTQsMjQuNTQ5MjMxOSA2LjQ5OTIyODY1LDIxLjk4NTcxNTQgQzYuMjc2NjI0NzEsMjEuNzYzMTExNSA2LjE4OTY4Nzk3LDIxLjQzODY1OTIgNi4yNzExNjY2NywyMS4xMzQ1NzY1IEM2LjM1MjY0NTM3LDIwLjgzMDQ5MzkgNi41OTAxNjA5NSwyMC41OTI5NzgzIDYuODk0MjQzNiwyMC41MTE0OTk2IEM3LjE5ODMyNjI0LDIwLjQzMDAyMDkgNy41MjI3Nzg1NiwyMC41MTY5NTc2IDcuNzQ1MzgyNSwyMC43Mzk1NjE2IEM5Ljk0MDk4NjksMjIuOTM1MTY2IDEzLjI5MzczNDEsMjQuMDMyOTY4MiAxNy44MDM2MjQzLDI0LjAzMjk2ODIgTDE5Ljc5NzQ3MDQsMjQuMDMyOTY4MiBDMTkuNjE2NDI3NiwyMi4yNTg4NDA3IDE5LjU0NTA4MzEsMjAuNDc1MjI4NSAxOS41ODM4NDQsMTguNjkyMzA4OCBMMTcuMTI3MTQwNywxOC42OTIzMDg4IEMxNS4xMzMyOTQ2LDE4LjY5MjMwODggMTQuODMwNjU3MiwxNi41NzM4NDczIDE1LjUyNDk0MjksMTIuNzQ2Mzc0OCBDMTYuNDE3MDk4Myw4LjQyMDczMTUgMTcuNjA2NzM4Miw0LjE2MTgyMDY3IDE5LjA4NTM4MjUsNS42OTM3NjYyMWUtMDcgTDEuNzgxNjQ2MjQsNS42OTM3NjYyMWUtMDcgQzEuMjk2OTAxOSwtMC4wMDAzODY4MTY2MiAwLjgzMjk2MDgyMSwwLjE5NjkxNDY0NSAwLjQ5Njk4MDE4OCwwLjU0NjMzNDUwNCBDMC4xNjA5OTk1NTUsMC44OTU3NTQzNjMgLTAuMDE3OTYzNDc4MSwxLjM2NzA3MzE4IDAuMDAxNDI2NDU2ODYsMS44NTE0Mjk3MSBMMC4wMDE0MjY0NTY4NiwzMC4zMzQ5NDYyIEMwLjAwMTQyNjQ1Njg2LDMxLjMxODEzNDQgMC43OTg0NTgwMDEsMzIuMTE1MTY2IDEuNzgxNjQ2MjQsMzIuMTE1MTY2IEwyMS4wNjE0MjY1LDMyLjExNTE2NiBDMjAuNTgyODM4MywzMC4wMDYyOTk4IDIwLjIyMDMxNTQsMjcuODcyNzYzNyAxOS45NzU0OTI0LDI1LjcyNDE3NyBDMTkuMjU0MDI1MywyNS43OTgwNTkyIDE4LjUyODcxNzYsMjUuODI3Nzg1IDE3LjgwMzYyNDMsMjUuODEzMTg4IFogTTguOTAyNTI1MzYsOS43OTEyMDk5MyBDOC45MDI1MjUzNiw5LjI5OTYxNTgxIDkuMzAxMDQxMTMsOC45MDExMDAwNCA5Ljc5MjYzNTI1LDguOTAxMTAwMDQgQzEwLjI4NDIyOTQsOC45MDExMDAwNCAxMC42ODI3NDUxLDkuMjk5NjE1ODEgMTAuNjgyNzQ1MSw5Ljc5MTIwOTkzIEwxMC42ODI3NDUxLDEzLjM1MTY0OTUgQzEwLjY4Mjc0NTEsMTMuODQzMjQzNiAxMC4yODQyMjk0LDE0LjI0MTc1OTQgOS43OTI2MzUyNSwxNC4yNDE3NTk0IEM5LjMwMTA0MTEzLDE0LjI0MTc1OTQgOC45MDI1MjUzNiwxMy44NDMyNDM2IDguOTAyNTI1MzYsMTMuMzUxNjQ5NSBMOC45MDI1MjUzNiw5Ljc5MTIwOTkzIFoiIGlkPSJTaGFwZSI+PC9wYXRoPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTMzLjgyNTYwMjMsMC4wNzEyMDk5MzE2IEwyMC45NTQ2MTMzLDAuMDcxMjA5OTMxNiBDMTkuNDE0OTc3Niw0LjMxMzIxNjUxIDE4LjE2NTkzNTYsOC42NTUxMjQzNCAxNy4yMTYxNTE3LDEzLjA2NjgxNDMgQzE2LjcxNzY5MDIsMTUuNzcyNzQ4NCAxNi44OTU3MTIyLDE2LjkxMjA4OTEgMTcuMDczNzM0MSwxNi45MTIwODkxIEwyMS41MjQyODM2LDE2LjkxMjA4OTEgTDIxLjUyNDI4MzYsMTcuODczNDA3NyBDMjEuNTI0MjgzNiwxOS45MjA2NjA1IDIxLjUyNDI4MzYsMjEuODc4OTAyMiAyMS43Mzc5MSwyMy43NjU5MzUyIEMyNC4wMzI0NDAxLDIzLjQyNzE4MjMgMjYuMTY4OTMwNSwyMi4zOTYyMDE1IDI3Ljg2MTg2NiwyMC44MTA3NzA0IEMyOC4yMDU5ODE5LDIwLjQ2NjY1NDUgMjguNzYzOTA0LDIwLjQ2NjY1NDUgMjkuMTA4MDE5OSwyMC44MTA3NzA0IEMyOS40NTIxMzU3LDIxLjE1NDg4NjMgMjkuNDUyMTM1NywyMS43MTI4MDgzIDI5LjEwODAxOTksMjIuMDU2OTI0MiBDMjcuMTM2MTAzMSwyMy45Nzg0NTM2IDI0LjYwNTU0NDYsMjUuMjI1MDM0MSAyMS44ODAzMjc2LDI1LjYxNzM2MzggQzIyLjA5Mzk5OTUsMjcuODAyMDI5NiAyMi40Mzg3OTcxLDI5Ljk3MTg3NjYgMjIuOTEyODU1LDMyLjExNTE2NiBMMzMuODI1NjAyMywzMi4xMTUxNjYgQzM0LjgwODc5MDUsMzIuMTE1MTY2IDM1LjYwNTgyMjEsMzEuMzE4MTM0NCAzNS42MDU4MjIxLDMwLjMzNDk0NjIgTDM1LjYwNTgyMjEsMS44NTE0Mjk3MSBDMzUuNjA1ODIyMSwwLjg2ODI0MTQ3NiAzNC44MDg3OTA1LDAuMDcxMjA5OTMxNiAzMy44MjU2MDIzLDAuMDcxMjA5OTMxNiBaIE0yNi43MDQ3MjMyLDEzLjQyMjg1ODMgQzI2LjcwNDcyMzIsMTMuOTE0NDUyNCAyNi4zMDYyMDc0LDE0LjMxMjk2ODIgMjUuODE0NjEzMywxNC4zMTI5NjgyIEMyNS4zMjMwMTkyLDE0LjMxMjk2ODIgMjQuOTI0NTAzNCwxMy45MTQ0NTI0IDI0LjkyNDUwMzQsMTMuNDIyODU4MyBMMjQuOTI0NTAzNCw5Ljg2MjQxODcyIEMyNC45MjQ1MDM0LDkuMzcwODI0NiAyNS4zMjMwMTkyLDguOTcyMzA4ODMgMjUuODE0NjEzMyw4Ljk3MjMwODgzIEMyNi4zMDYyMDc0LDguOTcyMzA4ODMgMjYuNzA0NzIzMiw5LjM3MDgyNDYgMjYuNzA0NzIzMiw5Ljg2MjQxODcyIEwyNi43MDQ3MjMyLDEzLjQyMjg1ODMgWiIgaWQ9IlNoYXBlIj48L3BhdGg+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgICAgICAgICAgPGcgaWQ9ImRvd25sb2FkIiBmaWx0ZXI9InVybCgjZmlsdGVyLTEpIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC4wMDAwMDAsIDAuMDAwMDAwKSI+PC9nPgogICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+" />
+                                    </div>
+                                    <h6>Mac OS</h6>
+                                </div>
+                                <div class="game-platforom-icon">
+                                    <div class="platforom-icon-img">
+                                        <img alt="" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMzZweCIgaGVpZ2h0PSI0NXB4IiB2aWV3Qm94PSIwIDAgMzYgNDUiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDYxLjIgKDg5NjUzKSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4KICAgIDx0aXRsZT5nYW1lc19wbGF0Zm9ybXNfSU9TPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGcgaWQ9IkdhbWUiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJXRV9nYW1lc19yb3VsZXR0ZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTc2OC4wMDAwMDAsIC0yOTMyLjAwMDAwMCkiIGZpbGw9IiM4OTY2M0QiPgogICAgICAgICAgICA8ZyBpZD0iR3JvdXAtMjAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUwOC4wMDAwMDAsIDI4NTcuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAtNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsIDc1LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgIDxnIGlkPSJnYW1lc19wbGF0Zm9ybXNfSU9TIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNjAuMDAwMDAwLCAwLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMzMuMDQ3NzE1MywzMS4yMTgzNzc0IEMzMy44OTM2MTkzLDMyLjA2MjQ2NDYgMzQuODk1NzgwOSwzMi43Mzg5OTE3IDM2LDMzLjIxMTM3MDEgQzM1Ljc1NzM0NjUsMzMuOTA4OTE3NiAzNS41MTQ2OTI5LDM0LjU2NjYwNTEgMzUuMjUxODE4MywzNS4yMDQzNjI4IEMzNC42MzgyNDM5LDM2LjY1MTk0MDggMzMuODY1MjA1OSwzOC4wMjg3MTc1IDMyLjk0NjYwOTcsMzkuMzA5OTI3OCBDMzIuMTA4MjY2Miw0MC42MDMzMDg2IDMxLjExNzI1MDUsNDEuNzk0MTMzOCAyOS45OTQzMjUsNDIuODU3NDU0OCBDMjguOTkxMjY0Niw0My44NzQ1MTM2IDI3LjYzMDY0NzEsNDQuNDczNjk0NCAyNi4xOTI3NTI5LDQ0LjUzMTU2ODcgQzI0Ljk3NTQ4NDEsNDQuNDgzMzQ3NSAyMy43Nzk4MjgsNDQuMTk4ODk3MSAyMi42NzQyNzY2LDQzLjY5NDUxMTggQzIxLjQ5MDcyNzcsNDMuMTY1NTczOSAyMC4yMTIxNTA2LDQyLjg3NDI0NTUgMTguOTEzMTQ2OCw0Mi44Mzc1MjQ5IEMxNy41NjczNDMzLDQyLjg2NDI4NzMgMTYuMjQwNTEsNDMuMTU1NjQ1OSAxNS4wMTA0NjkxLDQzLjY5NDUxMTggQzEzLjk0NDE4MTMsNDQuMTU1NzgyMyAxMi44MTE4NzIxLDQ0LjQ1MTU5MDMgMTEuNjUzNzYxOSw0NC41NzE0Mjg2IEMxMC4xNjg1NjM4LDQ0LjU1NTY4MzMgOC43NTYwNzc2Nyw0My45MzUzNDkyIDcuNzUxMDg0MTYsNDIuODU3NDU0OCBDNi41NjY0NzQ5Niw0MS43MTc0MDE5IDUuNTI3NTExODksNDAuNDM5MDczNyA0LjY1NzI1MTU4LDM5LjA1MDgzODggQzMuMjYxMzY1NjMsMzcuMDU0NTI4NCAyLjE1ODUzNDIyLDM0Ljg3MzkxOTQgMS4zODE0Mjg4NCwzMi41NzM2MTI0IEMwLjQ5NjIyNzEwNywzMC4wOTQ1NzcxIDAuMDMxNjU0OTgwOSwyNy40ODg2OTA0IDAuMDA2MzkyMTMyODcsMjQuODYwNzMwNiBDLTAuMDcxMTM3NTkwMywyMi4yOTg3NjMyIDAuNTU3ODI0ODcyLDE5Ljc2NDA0MSAxLjgyNjI5MzY1LDE3LjUyNjUxNzQgQzMuNjk5Mzc3MDIsMTQuMjM3OTQyIDcuMjAxMTI3NDUsMTIuMTc0NzMzOSAxMS4wMjY5MDY5LDEyLjEwNTU3NzMgQzEyLjQxOTU5NzMsMTIuMTg2MzIyNyAxMy43ODc3MjQ4LDEyLjUwMzIwMjYgMTUuMDcxMTMyNSwxMy4wNDIyODM4IEMxNi4xMDQ5MjIsMTMuNDg4NDkyNyAxNy4xOTIxMTEsMTMuODAzMjU1NCAxOC4zMDY1MTMsMTMuOTc4OTkwNCBDMTkuNTQwNDIxNCwxMy43MjM3ODU1IDIwLjc0NTk3MzcsMTMuMzQ5OTcyNCAyMS45MDU4NzM4LDEyLjg2MjkxNDUgQzIzLjQ1MTk4MDIsMTIuMjQ1NzIzMSAyNS4xMTE4OTYsMTEuOTUzODIwNiAyNi43NzkxNjU2LDEyLjAwNTkyNzYgQzMwLjAwMDk3NDIsMTIuMDk0NzA3NyAzMi45OTQ1NTc2LDEzLjY2NTgzNDggMzQuODY3NjE2OCwxNi4yNTEwMDIxIEMzMS44NzExOTE3LDE3Ljg4NTUzNjggMzAuMDQ3MDA1OCwyMS4wMjgwNDgyIDMwLjEzNTg3MjksMjQuNDAyMzQyMyBDMzAuMDU4NTk3NSwyNi45ODI4NjQ4IDMxLjEyMDkxMSwyOS40Njk1MjYxIDMzLjA0NzcxNTMsMzEuMjE4Mzc3NCBMMzMuMDQ3NzE1MywzMS4yMTgzNzc0IFoiIGlkPSJQYXRoIj48L3BhdGg+CiAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0yNS4xNTc1MDg3LDcuMTEyOTg3NjUgQzI2LjU3MTE4NTYsNS4zODc2MTgwNSAyNy4zNjg3NjMzLDMuMTg0MTk3NTMgMjcuNDA5NDM4MiwwLjg5MTcxNTY1MyBDMjcuNDM0OTQ5MiwwLjU5NTEwMTcxMyAyNy40MzQ5NDkyLDAuMjk2NjEzOTQgMjcuNDA5NDM4MiwwIEMyNi4yNDA3MjIyLDAuMDkyMDI2NTE0OCAyNS4xMDMxMzY2LDAuNDQ1MjgwMjQxIDI0LjA3MDM3MDMsMS4wMzY4Nzg2NyBDMjIuOTYwNTY4MiwxLjYwNzM2NzgxIDIxLjk3MDA5NjYsMi40MTE0ODAxNCAyMS4xNTgzOTI0LDMuNDAwOTYyMDMgQzE5LjcyNDExNjIsNS4wMzM0ODgwMSAxOC45MDc4NTg5LDcuMTc2Mzk5MjMgMTguODY3NjM2NSw5LjQxNDg1ODI5IEMxOC44NTM2NDUsOS42OTgwNzQ3NSAxOC44NTM2NDUsOS45ODE4ODIzNSAxOC44Njc2MzY1LDEwLjI2NTA5ODggQzIxLjMzNTY5ODcsMTAuNDU5ODIwMyAyMy43MjAwNDE4LDkuMjY0OTI4ODkgMjUuMTU3NTA4Nyw3LjExMjk4NzY1IFoiIGlkPSJQYXRoIj48L3BhdGg+CiAgICAgICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=" />
+                                    </div>
+                                    <h6>IOS</h6>
+                                </div>
+                                <div class="game-platforom-icon">
+                                    <div class="platforom-icon-img">
+                                        <img alt="" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNDBweCIgaGVpZ2h0PSIyN3B4IiB2aWV3Qm94PSIwIDAgNDAgMjciIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDYxLjIgKDg5NjUzKSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4KICAgIDx0aXRsZT5nYW1lc19wbGF0Zm9ybXNfQW5kcm9pZDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJHYW1lIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iV0VfZ2FtZXNfcm91bGV0dGUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC04ODUuMDAwMDAwLCAtMjk0Ni4wMDAwMDApIiBmaWxsPSIjODk2NjNEIj4KICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTIwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MDguMDAwMDAwLCAyODU3LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLCA3NS4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iZ2FtZXNfcGxhdGZvcm1zX0FuZHJvaWQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDM3Ny4wMDAwMDAsIDE0LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlIiB4PSItMS44MTg5ODk0ZS0xMiIgeT0iMTguNzMyNzgyNCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjcuOTMzODg0MyI+PC9yZWN0PgogICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNNDAsMjIuMjE0ODc2IEw0MCwyMC4xNzQ0NjUgQzM5Ljk0MjMwNjUsMTkuNTkxODQzMyAzOS44NTA5MzUxLDE5LjAxMjgxNzEgMzkuNzI2MzE2NSwxOC40NDAxMTU3IEMzOC41MzA3MjY1LDEzLjI0NDg1OTggMzQuOTY5Mjc1Myw4Ljg1NTEzMzc0IDMwLjA0MjEzMDcsNi41MDM3MTEyMyBMMzMuMDk0NzU0NSwxLjAzNTQwOTcxIEMzMy4yMTg4NTY5LDAuODE2NzE5MTE3IDMzLjIxMzE1NDQsMC41NTA0NzIxNCAzMy4wNzk3OTQ5LDAuMzM2OTYxNDQ2IEMzMi45NDY0MzU1LDAuMTIzNDUwNzUzIDMyLjcwNTY3OTUsLTAuMDA0ODg2MzAwNDUgMzIuNDQ4MjE3NiwwLjAwMDE0MjU0MTk2MSBDMzIuMTkwNzU1NiwwLjAwNTQ3MzUzMzUgMzEuOTU1NzAyMiwwLjE0MzM4MzQ2OCAzMS44MzE1OTk4LDAuMzYyMDc0MDc4IEwyOC43MzY4NzA4LDUuOTkzNjA4NDggQzIzLjE1NTgyMjcsMy43MDU2OTk0NSAxNi44NTM4NzY4LDMuNzIwNDM0ODcgMTEuMjg0MjgzOCw2LjAzNDQxNjcgTDguMTY4NTAyMjcsMC4zODI0NzgxODggQzguMDQ0Mzk5OCwwLjE2Mzc4NzU5NSA3LjgwOTM0NjQzLDAuMDI1ODc3Njc2NiA3LjU1MTg4NDQ5LDAuMDIwNjk3NzY1MSBDNy4yOTQ0MjI1NSwwLjAxNTUxNzg1MzYgNy4wNTM2NjY2MywwLjE0Mzg1NDkgNi45MjAzMDcxNiwwLjM1NzM2NTU4MiBDNi43ODY5NDc2OCwwLjU3MDg3NjI2NCA2Ljc4MTI0NTEzLDAuODM3MTIzMjI5IDYuOTA1MzQ3NiwxLjA1NTgxMzgyIEw5Ljk3OTAyMzk3LDYuNTY0OTIzNTYgQzUuMzE1OTAyNTYsOC44MDE3NDUxNiAxLjg2MTAxNDcyLDEyLjg2Mjk3MDggMC40ODQzMTEzNTEsMTcuNzI1OTcxOCBDMC4xNTkzNjgxNTUsMTguOTgwMjE0NCAtMC4wMDMyODQ1MDU4MiwyMC4yNjg3NzEyIDUuMDI1MTI1MDRlLTA1LDIxLjU2MTk0NDUgQzUuMDI1MTI1MDRlLTA1LDIxLjc2NTk4NTYgNS4wMjUxMjUwNGUtMDUsMjEuOTQ5NjIyNiA1LjAyNTEyNTA0ZS0wNSwyMi4xNTM2NjM3IEw0MCwyMi4yMTQ4NzYgWiBNMjkuMTE1ODE3MiwxMC4wNzQ0MzA1IEMyOS44ODQwMjMsMTAuMDY2MTU3MyAzMC41ODEzNDYsMTAuNTA4MjkwOSAzMC44ODEyNTkzLDExLjE5Mzc5ODcgQzMxLjE4MTE3MjYsMTEuODc5MzA2NSAzMS4wMjQzMDUyLDEyLjY3MjQ4NTEgMzAuNDg0MTExNCwxMy4yMDE5MjIzIEMyOS45NDM5MTc3LDEzLjczMTM1OTUgMjkuMTI3MzM0NywxMy44OTIyNDc2IDI4LjQxNjczMzgsMTMuNjA5MjQ5NSBDMjcuNzA2MTMzLDEzLjMyNjI1MTQgMjcuMjQyMTg1MiwxMi42NTUzODk2IDI3LjI0MjEzNzgsMTEuOTEwODAwNCBDMjcuMjQyMDczNywxMC45MDQ1MTY1IDI4LjA3NzYxNjUsMTAuMDg1NjExNCAyOS4xMTU4MTcyLDEwLjA3NDQzMDUgWiBNMTAuNDAwMDc1NSwxMC4wNzQ0MzA1IEMxMS4xNjgyODEzLDEwLjA2NjE1NzMgMTEuODY1NjA0MywxMC41MDgyOTA5IDEyLjE2NTUxNzYsMTEuMTkzNzk4NyBDMTIuNDY1NDMwOSwxMS44NzkzMDY1IDEyLjMwODU2MzUsMTIuNjcyNDg1MSAxMS43NjgzNjk3LDEzLjIwMTkyMjMgQzExLjIyODE3NiwxMy43MzEzNTk1IDEwLjQxMTU5MjksMTMuODkyMjQ3NiA5LjcwMDk5MjA5LDEzLjYwOTI0OTUgQzguOTkwMzkxMjUsMTMuMzI2MjUxNCA4LjUyNjQ0MzUyLDEyLjY1NTM4OTYgOC41MjYzOTYwOSwxMS45MTA4MDA0IEM4LjUyNjMzMiwxMC45MDQ1MTY1IDkuMzYxODc0NzMsMTAuMDg1NjExNCAxMC40MDAwNzU1LDEwLjA3NDQzMDUgTDEwLjQwMDA3NTUsMTAuMDc0NDMwNSBaIiBpZD0iU2hhcGUiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==" />
+                                    </div>
+                                    <h6>Androids</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="live-game-bottom">
+                        <div class="live-game-bottom-bkg">
+                            <img alt="" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxODA4IiBoZWlnaHQ9Ijk4MSIgdmlld0JveD0iMCAwIDE4MDggOTgxIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGl2ZWdhbWVfYm90dG9tX2JrZ194MS1hIiB4MT0iMTcuNjc1JSIgeDI9Ijg5LjglIiB5MT0iMjQ1Ljk1NyUiIHkyPSIyNDUuOTU3JSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM3QzYzNDEiIHN0b3Atb3BhY2l0eT0iLjYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjQTc4QzY4IiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpdmVnYW1lX2JvdHRvbV9ia2dfeDEtYiIgeDE9IjcuMTIyJSIgeDI9Ijg5LjglIiB5MT0iMjQ1Ljk1NyUiIHkyPSIyNDUuOTU3JSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM3QzYzNDEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjQTc4QzY4IiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpdmVnYW1lX2JvdHRvbV9ia2dfeDEtYyIgeDE9IjQ5LjczMyUiIHgyPSI2MC44OTMlIiB5MT0iNjMuNTYyJSIgeTI9Ijk5LjA0NiUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjODk2NjNEIiBzdG9wLW9wYWNpdHk9Ii41Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0E3OEM2OCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaXZlZ2FtZV9ib3R0b21fYmtnX3gxLWQiIHgxPSIzOS42JSIgeDI9IjU5LjU3JSIgeTE9IjIxLjQyNSUiIHkyPSI4OC41NzElIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzg5NjYzRCIgc3RvcC1vcGFjaXR5PSIuNiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNBNzhDNjgiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGl2ZWdhbWVfYm90dG9tX2JrZ194MS1lIiB4MT0iNy4xMjIlIiB4Mj0iODkuOCUiIHkxPSIyNDUuOTU3JSIgeTI9IjI0NS45NTclIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0E3OEM2OCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzdDNjM0MSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGl2ZWdhbWVfYm90dG9tX2JrZ194MS1mIiB4MT0iMjYuNDgyJSIgeDI9IjQzLjY3NyUiIHkxPSIyNDUuOTU3JSIgeTI9IjI0NS45NTclIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0E3OEM2OCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzdDNjM0MSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxIDEpIj4KICAgIDxsaW5lIHgxPSI1NTQiIHkxPSI5NzkiIHN0cm9rZT0idXJsKCNsaXZlZ2FtZV9ib3R0b21fYmtnX3gxLWEpIi8+CiAgICA8ZyB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSAxODA2IDApIj4KICAgICAgPGxpbmUgeDE9IjU1NCIgeTE9Ijk3OSIgc3Ryb2tlPSJ1cmwoI2xpdmVnYW1lX2JvdHRvbV9ia2dfeDEtYikiLz4KICAgICAgPGxpbmUgeDE9Ijg1MCIgeDI9IjI5NiIgeTE9Ijk3OSIgc3Ryb2tlPSJ1cmwoI2xpdmVnYW1lX2JvdHRvbV9ia2dfeDEtYykiLz4KICAgICAgPGxpbmUgeDE9IjExNTMiIHgyPSI1OTkiIHkxPSI5NzkiIHN0cm9rZT0idXJsKCNsaXZlZ2FtZV9ib3R0b21fYmtnX3gxLWQpIi8+CiAgICA8L2c+CiAgICA8ZyBvcGFjaXR5PSIuNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzA0KSI+CiAgICAgIDxsaW5lIHgxPSI1NTQiIHkxPSI5NzkiIHN0cm9rZT0idXJsKCNsaXZlZ2FtZV9ib3R0b21fYmtnX3gxLWUpIi8+CiAgICAgIDxsaW5lIHgxPSI4NTciIHgyPSIzMDMiIHkxPSI5NzkiIHN0cm9rZT0idXJsKCNsaXZlZ2FtZV9ib3R0b21fYmtnX3gxLWYpIi8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K" />
+                        </div>
+                        <div class="container bottom-container" 
+                        data-sal="slide-up"
+                        data-sal-easing="easeInOutQuad"
+                        style="--sal-duration: 1s; --sal-delay: 0.3s;">
+                            <div class="row">
+                                <div class="bottom-icon-left col-12 col-md-6">
+                                    <div class="game-icon">
+                                        <img src="./images/game/game_sicbo/icon/game_icon_sicbo.svg"/>
+                                    </div>
+                                    <h6>Live Game</h6>
+                                    <div class="line-icon-img">
+                                        <img alt="" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjIuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA2MiAxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNjIgMTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojODk2NjNEO30KPC9zdHlsZT4KPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CjxnIGlkPSJHYW1lIj4KCTxnIGlkPSJXRV9nYW1lc19yb3VsZXR0ZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTQ0OS4wMDAwMDAsIC0zNDYwLjAwMDAwMCkiPgoJCTxnIGlkPSJHcm91cC0xNiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsIDMyMDIuMDAwMDAwKSI+CgkJCTxnIGlkPSJHcm91cC0xMCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIwNS4wMDAwMDAsIC0yNy4wMDAwMDApIj4KCQkJCTxnIGlkPSJHcm91cC03IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MjAuMDAwMDAwLCAxMTYuMDAwMDAwKSI+CgkJCQkJPGcgaWQ9ImdhbWVzX3RpdGxlX3BhdHRlcm5fYm90dG9tIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMzQuMDAwMDAwLCAxNjkuMDAwMDAwKSI+CgkJCQkJCTxnIGlkPSJSZWN0YW5nbGUiPgoJCQkJCQkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTUuNiwxMC43TDAuNSw1LjZsNS4xLTUuMWw1LjEsNS4xTDUuNiwxMC43eiBNMS42LDUuNmw0LDRsNC00bC00LTRMMS42LDUuNnoiLz4KCQkJCQkJPC9nPgoJCQkJCQk8ZyBpZD0iUmVjdGFuZ2xlLUNvcHktOSI+CgkJCQkJCQk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNTYuMiwxMS4xbC01LjEtNS4xTDU2LjIsMWw1LjEsNS4xTDU2LjIsMTEuMXogTTUyLjMsNi4xbDQsNGw0LTRsLTQtNEw1Mi4zLDYuMXoiLz4KCQkJCQkJPC9nPgoJCQkJCQk8ZyBpZD0iTGluZS01Ij4KCQkJCQkJCTxyZWN0IHg9IjkuNyIgeT0iNS40IiBjbGFzcz0ic3QwIiB3aWR0aD0iNDIiIGhlaWdodD0iMSIvPgoJCQkJCQk8L2c+CgkJCQkJPC9nPgoJCQkJPC9nPgoJCQk8L2c+CgkJPC9nPgoJPC9nPgo8L2c+Cjwvc3ZnPgo=" />
+                                    </div>
+                                    <h3>Sic Bo</h3>
+                                </div>
+                                <div class="bottom-icon-right col-12 col-md-6">
+                                    <div class="main-button">
+                                        <button type="submit" id="submit" class="mainBtn btn" type="button">
+                                            <img src="./images/icon/mainBtn_1x.png" srcset="./images/icon/mainBtn_1x.png 500w, ./images/icon/mainBtn_2x.png 1000w" alt="" />
+                                        </button>
+                                    </div>
+                                    <h4>OR</h4>
+                                    <a href="#"><button class="secondaryBtn" type="button">VIEW ALL</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer start -->
+            <footer>
+                <div class="main-footer">
+                    <div class="footer-subscribe">
+                        <div class="d-lg-flex justify-content-md-between flex-lg-row-reverse">
+                            <div class="d-md-flex flex-column">
+                                <h6>Subscribe</h6><br>
+                                <p>Be the first to know about the latest news and <br class="footer-break"> exclusive offers from WE.</p>
+                                <div class="d-sm-flex">
+                                    <form class="subscribe-form">
+                                        <div class="form-group">
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Please enter your email here">
+                                        </div>
+                                    </form>
+                                    <button type="button" class="btn">SIGN UP</button>
+                                </div>
+                              </div>
+                              <div class="footer-licens">
+                                <div class="footer-logo">
+                                    <img alt="" src="images/icon/logo.svg" />
+                                </div>
+                                <div class="d-sm-flex flex-sm-row licens-list">
+                                    <div class="d-sm-flex flex-sm-row tag-left">
+                                        <h6>Licensing</h6>
+                                        <div class="d-flex flex-row">
+                                            <div class="licens-icon">
+                                                <img alt="" src="images/icon/license.svg" />
+                                            </div>
+                                            <div class="licens-icon" id="licensIcon2">
+                                                <img alt="" src="images/icon/license2.svg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-sm-flex flex-sm-row tag-left">
+                                        <h6>Certification</h6>
+                                        <div class="d-flex flex-row">
+                                            <div class="licens-icon">
+                                                <img alt="" src="images/icon/license3.svg" />
+                                            </div>
+                                            <div class="licens-icon" id="licensIcon2">
+                                                <img alt="" src="images/icon/license4.svg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                            </div>
+                          </div>
+                    </div>
+                    
+                    <div class="underline">
+                        <div class="footer-logo">
+                            <img alt="" src="images/icon/logo.svg" />
+                        </div>
+                        <div class="d-sm-flex justify-content-md-between">
+                            <div class="d-sm-flex flex-sm-row footer-TC">
+                                <h6>©2020 WORLD ENTERTAINMENT.</h6>
+                                <div class="d-sm-flex flex-sm-row TC">
+                                    <h6>Terms & Conditions</h6>  
+                                    <h6>Privacy</h6>  
+                                    <h6>Cookies</h6>
+                                </div>
+                            </div>
+                            <div class="footer-social">
+                                <div class="d-flex  justify-content-sm-end justify-content-center">
+                                    <a href="#" class="footer-icon">
+                                        <img alt="" src="images/icon/fb_f.svg" />
+                                    </a>
+                                    <a href="#" class="footer-icon">
+                                        <img alt="" src="images/icon/yt_f.svg" />
+                                    </a>
+                                    <a href="#" class="footer-icon">
+                                        <img alt="" src="images/icon/ig_f.svg" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer end -->
+        </div>
+        <!-- ============= Outdated Browser ============= -->
+        <div id="outdated"></div>
+        <!-- Outdated javascript includes -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
+
+        <!-- Outdated plugin call -->
+        <script>
+            // Plain Javascript
+            //event listener: DOM ready
+            function addLoadEvent(func) {
+                var oldonload = window.onload;
+                if (typeof window.onload != "function") {
+                    window.onload = func;
+                } else {
+                    window.onload = function () {
+                        if (oldonload) {
+                            oldonload();
+                        }
+                        func();
+                    };
+                }
+            }
+            //call plugin function after DOM ready
+            addLoadEvent(function () {
+                outdatedBrowser({
+                    bgColor: "#f25648",
+                    color: "#ffffff",
+                    lowerThan: "transform",
+                    languagePath: "your_path/outdatedbrowser/lang/en.html",
+                });
+            });
+            // Using jQuery (version that supports IE < 9)
+            $(document).ready(function () {
+                outdatedBrowser({
+                    bgColor: "#f25648",
+                    color: "#ffffff",
+                    lowerThan: "transform",
+                    languagePath: "your_path/outdatedbrowser/lang/en.html",
+                });
+            });
+        </script>
+
+        <!-- Sal JS  -->
+        <script src="./js/sal.js"></script>
+        <script>
+            sal();
+        </script>
+        <!-- External JS  -->
+        <script src="OwlCarousel2/owl.carousel.min.js"></script>
+        <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <!-- Main JS  -->
+        <script src="./js/tilt.jquery.js" type="text/javascript"></script>
+        <script src="./js/main.js" type="text/javascript"></script>
+    </body>
+</html>
