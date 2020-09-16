@@ -24,7 +24,7 @@
     width: 100%;
     height: 100%;
     background: rgb(6,11,26);
-    background: linear-gradient(180deg, rgba(6,11,26,0.3) 0%, rgba(7,10,27,1) 100%);
+    background: linear-gradient(180deg, rgba(6,11,26,0.65) 0%, rgba(7,10,27,1) 100%);
 }
 .game-hero-M,
 .game-hero-D{
@@ -82,6 +82,7 @@
 #liveGame .hero-header h1{
     color: $primaryText;
     font-family: $fontFuturaMedium;
+    text-transform: uppercase;
     font-size: 40px;
     padding-top: 10px;
     font-weight: 100;
