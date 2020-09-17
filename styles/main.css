@@ -2924,11 +2924,13 @@ footer {
   .game-platform .game-platforom-inner {
     width: 450px;
   }
+  #GodofFortuneSicBo .hero-header h1,
   #GodofFortuneRoulette .hero-header h1,
   #MahjongLuckyWheel .hero-header h1 {
     line-height: 80px;
   }
-  #GodofFortuneRoulette .hero-header, .live-game-main,
+  #GodofFortuneSicBo .hero-header,
+  #GodofFortuneRoulette .hero-header,
   #MahjongLuckyWheel .hero-header, .live-game-main {
     margin-bottom: 5rem;
   }
@@ -2938,6 +2940,7 @@ footer {
   #SqueezeBaccarat .hero-header h1 {
     line-height: 90px;
   }
+  #GodofFortuneSicBo .hero-header,
   #GodofFortuneRoulette .hero-header,
   #SqueezeBaccarat .hero-header,
   #MahjongLuckyWheel .hero-header {
