@@ -1,11 +1,17 @@
 #liveStudio .hero-header-bkg{
     height: 380px;
 }
+#liveStudio .showless_btn,
 #liveStudio .livestudio-sec1,
 #liveStudio .livestudio-sec3{
     position: relative;
 }
-
+#liveStudio .showless-wrap{
+    height: 700px;
+}
+#liveStudio .showless_btn .active{
+    height: auto;
+}
 #liveStudio .studio-slide-bkg{
     height: 300px;
     position: absolute;
@@ -273,6 +279,7 @@
     }
 }
 
+
 // light gallery reset style
 .lg-rotate-right,
 .lg-rotate-left,
@@ -381,6 +388,8 @@
     #liveStudio .studio-bottom-main{
         padding-bottom: 5rem;
     }
+    
+    
 }   
 
 // Large devices (desktops, 992px and up)

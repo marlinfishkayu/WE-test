@@ -185,8 +185,13 @@ button:focus {
 .lg-break{
   display: block;
 }
-
-
+.showless-wrap {
+  height: 0px;
+  overflow: hidden;
+}
+.showless_btn{
+  display: block;
+}
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
 
@@ -208,7 +213,12 @@ button:focus {
   .md-break{
     display: none;
   }
-
+  .showless-wrap {
+    height: auto;
+  }
+  .showless_btn{
+    display: none;
+  }
 }
 
 // Large devices (desktops, 992px and up)
