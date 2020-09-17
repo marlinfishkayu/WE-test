@@ -2950,6 +2950,10 @@ footer {
     width: 169px;
     height: 169px;
   }
+  #WinThreeCards .hero-header::after {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(6, 11, 26, 0.35)), to(#070a1b));
+    background: linear-gradient(180deg, rgba(6, 11, 26, 0.35) 0%, #070a1b 100%);
+  }
 }
 
 @media (min-width: 992px) {
@@ -5120,6 +5124,7 @@ select.form-control::-ms-expand {
   #about-Desktop .expand-wrap h2 {
     font-size: 36px;
     letter-spacing: 1.5px;
+    line-height: 1.2;
     text-transform: uppercase;
   }
   #about-Desktop .about-content-item {

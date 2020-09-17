@@ -475,8 +475,8 @@
     #SqueezeBaccarat  .hero-header h1 {
         line-height: 90px;
     }
-    #GodofFortuneSicBo .hero-header ,
-    #GodofFortuneRoulette .hero-header ,
+    #GodofFortuneSicBo .hero-header,
+    #GodofFortuneRoulette .hero-header,
     #SqueezeBaccarat .hero-header ,
     #MahjongLuckyWheel .hero-header {
         height: 600px;
@@ -484,6 +484,9 @@
     #liveGame #SqueezeBaccarat .hero-header .game-icon {
         width: 169px;
         height: 169px;
+    }
+    #WinThreeCards .hero-header::after {
+        background: linear-gradient(180deg, rgba(6, 11, 26, 0.35) 0%, #070a1b 100%);
     }
 }
 
