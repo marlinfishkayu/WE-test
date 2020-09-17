@@ -289,6 +289,7 @@
 	z-index: 0;
 }
 .lang-dropdown{
+	display: none;
 	position: absolute;
 	width: 200px;
 	height: 140px;
@@ -710,6 +711,7 @@
 	.sidebar #logoMobile .nav-logo {
 		top: -39px;
 	}
+	
 }
 
 // Large devices (desktops, 992px and up)
@@ -769,6 +771,9 @@
 	}
 	.sidebar{
 		display: none;
+	}
+	.lang-dropdown{
+		display: block;
 	}
  }
 

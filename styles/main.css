@@ -684,6 +684,7 @@ button:focus {
 }
 
 .lang-dropdown {
+  display: none;
   position: absolute;
   width: 200px;
   height: 140px;
@@ -1232,6 +1233,9 @@ button:focus {
   }
   .sidebar {
     display: none;
+  }
+  .lang-dropdown {
+    display: block;
   }
 }
 
