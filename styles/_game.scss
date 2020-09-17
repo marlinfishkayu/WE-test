@@ -273,8 +273,9 @@
     }
     .bottom-icon-left{
         .game-icon{
-            width: 130px;
-            height: 130px;
+            width: 120px;
+            height: 120px;
+            padding-bottom: 11px;
             margin: 0 auto;
         }
         h6{
@@ -477,7 +478,7 @@
     #MahjongLuckyWheel .hero-header {
         height: 600px;
     }
-    #liveGame #SqueezeBaccarat .game-icon {
+    #liveGame #SqueezeBaccarat .hero-header .game-icon {
         width: 169px;
         height: 169px;
     }
