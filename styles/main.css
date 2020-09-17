@@ -4285,6 +4285,8 @@ select.form-control::-ms-expand {
 .studio-img-container:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  -webkit-transition: 200ms all ease-out;
+  transition: 200ms all ease-out;
   /*
     Change the scale value as much as you want to change the amount of zoom on hover.
     */
