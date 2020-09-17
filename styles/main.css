@@ -5371,6 +5371,35 @@ select.form-control::-ms-expand {
   }
 }
 
+/* Safari 10.1+ (alternate method) */
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    .about-content-item .expand-wrap .feature-header:before,
+    .about-content-item .expand-wrap .feature-header:after {
+      top: 19px;
+    }
+    .about-content-item .expand-wrap .feature-header::after {
+      top: -20px;
+    }
+    .about-content-item .expand-wrap #MVV-expand::after {
+      top: -59px;
+    }
+    .about-content-item .expand-wrap #RRC-expand::after {
+      top: -99px;
+    }
+    @media (min-width: 532px) {
+      .about-content-item .expand-wrap #MVV-expand::after {
+        top: -20px;
+      }
+    }
+    @media (min-width: 768px) {
+      .about-content-item .expand-wrap #RRC-expand::after {
+        top: -20px;
+      }
+    }
+  }
+}
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   #nav-area .search-form {
     top: -5px;
