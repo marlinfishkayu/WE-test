@@ -6,9 +6,7 @@
 #liveStudio .livestudio-sec3{
     position: relative;
 }
-#liveStudio .showless-wrap{
-    height: 700px;
-}
+
 #liveStudio .showless_btn .active{
     height: auto;
 }
@@ -390,7 +388,9 @@
     #liveStudio .studio-bottom-main{
         padding-bottom: 5rem;
     }
-    
+    #liveStudio .showless-wrap{
+        height: 700px;
+    }
     
 }   
 
