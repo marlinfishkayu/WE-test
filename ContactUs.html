@@ -348,14 +348,34 @@
                                         <div class="col-12 col-md-6">
                                             <div class="form-group">
                                                 <div class="controls">
-                                                    <select class="form-control" id="country" required data-error="Please select your country">
-                                                        <option value="1" selected>Country</option>
+                                                    <!-- <select required class="select-type">
+                                                        <option value="" disabled selected>Country...</option>
                                                         <option>Hong Kong</option>
                                                         <option>China</option>
                                                         <option>Thailand</option>
                                                         <option>Singapore</option>
                                                         <option>Philippines</option>
-                                                    </select>
+                                                    </select> -->
+                                                    <select required  id="myselect">
+                                                        <option value="" disabled selected >Choose Item
+                                                        </option>
+                                                        <option>Hong Kong</option>
+                                                        <option>China</option>
+                                                        <option>Thailand</option>
+                                                        <option>Singapore</option>
+                                                        <option>Philippines</option>
+                                                      </select>
+                                                      <script>
+                                                        // add event listener to change color in the first click  
+                                                        document.getElementById("myselect").addEventListener("click",setColor)
+                                                        function setColor()
+                                                        {
+                                                          var combo = document.getElementById("myselect");
+                                                          combo.style.color = '#fff';
+                                                          // remove Event Listener after the color is changed at the first click
+                                                          combo.removeEventListener("click", setColor);
+                                                        }
+                                                      </script>
                                                     <div class="help-block with-errors"></div>
                                                 </div>
                                             </div>

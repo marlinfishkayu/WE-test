@@ -3335,6 +3335,26 @@ select.form-control::-ms-expand {
   transform: scaleX(-1);
 }
 
+#ContactUs #myselect {
+  background-color: #060B1A;
+  border-radius: 0;
+  color: #495057;
+  border: 1px solid #545454;
+  width: 100%;
+  height: 38px;
+  padding-left: 8px;
+}
+
+#ContactUs #myselect option {
+  padding-left: 8px;
+}
+
+#ContactUs #myselect:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(167, 140, 104, 0.15);
+          box-shadow: 0 0 0 0.2rem rgba(167, 140, 104, 0.15);
+  border: 1px solid #B0936D;
+}
+
 @media (min-width: 576px) {
   #ContactUs .contact-main {
     padding-top: 150px;
