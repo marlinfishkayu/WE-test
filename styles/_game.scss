@@ -92,8 +92,9 @@
     margin-top: -1rem;
     padding-bottom: 0;
 }
-.live-game-main .mainBtn{
+.live-game-main .main-button{
     margin-top: 1rem;
+    
 }
 .live-game-main .hero-intro2{
     padding: 0 20px;
@@ -316,7 +317,8 @@
     }
 }
 #liveGame .main-button{
-    padding: 0;
+    padding-bottom: 10px;
+
 }
 
 #MahjongLuckyWheel .hero-header {
@@ -375,7 +377,7 @@
         padding-top: 0;
         padding-bottom: 0rem;
     }
-    .live-game-main .mainBtn{
+    .live-game-main .main-button{
         margin-top: 2.5rem;
     }
     .live-game-main .hero-intro2{
