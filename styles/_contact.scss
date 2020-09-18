@@ -196,22 +196,7 @@ select.form-control::-ms-expand {
 
 
 #ContactUs{
-    // select:required:invalid {
-    //     color: gray;
-    // }
-    // option[value=""][disabled] {
-    //     display: none;
-    // }
-    // option {
-    //     color: black;
-    // }
-    // .select-type{
-    //     width: 100%;
-        
-    //     border-radius: 0;
-    //     border: 1px solid #545454;
-    //     height: 100%;
-    // }
+    #myselectT,
     #myselect{
         background-color: #060B1A;
         border-radius: 0;
@@ -219,37 +204,51 @@ select.form-control::-ms-expand {
         border: 1px solid #545454;
         width: 100%;
         height: 38px;
-        padding-left: 8px;
+        padding-left: 10px;
+        background:
+        linear-gradient(45deg, transparent 50%, #979797 50%),
+        linear-gradient(135deg, #979797 50%, transparent 50%);
+      background-position:
+        calc(100% - 21px) calc(1em + 2px),
+        calc(100% - 16px) calc(1em + 2px),
+        100% 0;
+      background-size:
+        5px 5px,
+        5px 5px,
+        2.5em 2.5em;
+      background-repeat: no-repeat;
+    
+      /* styling and reset */
+    
+    
+      /* reset */
+    
+      border-radius: 0;
+      margin: 0;      
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-appearance:none;
+      -moz-appearance:none;
         option {
             padding-left: 8px;
-            
         }
-        &:focus{
+         &:focus{
             box-shadow: 0 0 0 0.2rem rgba(167,140,104,.15);
-            border: 1px solid #B0936D;
+            border: 1px solid #B0936D!important;
+            outline-width: 0;
+            outline: none;
+        }
+        &:visited{
+            box-shadow: 0 0 0 0.2rem rgba(167,140,104,.15);
+            border: 1px solid #B0936D!important;
+        }
+        option:disabled {
+            color: -internal-light-dark(graytext, #495057);
         }
     }
 }
 
-// .bootstrap-select>.dropdown-toggle.bs-placeholder,
-//  .bootstrap-select>.dropdown-toggle.bs-placeholder:active, 
-//  .bootstrap-select>.dropdown-toggle.bs-placeholder:focus, 
-//  .bootstrap-select>.dropdown-toggle.bs-placeholder:hover{
-//     background-color: #060B1A;
-//     border-radius: 0;
-//     color: #434343;
-//     border: 1px solid #545454;
-// }
-// .selectpicker{
-//     background: #FFF;
-//     color: #000;
-     
-// }
-// .bootstrap-select > .dropdown-toggle.bs-placeholder:active {
-//     background: #FFF;
-//     color: #000;
-//     border-color: #999;
-//   }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
