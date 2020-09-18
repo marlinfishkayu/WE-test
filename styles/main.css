@@ -3722,6 +3722,10 @@ select.form-control::-ms-expand {
   background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMzgzcHgiIGhlaWdodD0iMzgzcHgiIHZpZXdCb3g9IjAgMCAzODMgMzgzIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA2NCAoOTM1MzcpIC0gaHR0cHM6Ly9za2V0Y2guY29tIC0tPgogICAgPHRpdGxlPkNvbWJpbmVkIFNoYXBlIENvcHkgNDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJXaGF0J3MtTmV3IiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0id2hhdCdzLS1uZXdfMiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTkyMy4wMDAwMDAsIC0xNDIyLjAwMDAwMCkiIHN0cm9rZT0iIzg5NjYzRCIgc3Ryb2tlLXdpZHRoPSIxLjMwNTQ4MzAzIj4KICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTE0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMzQuMDAwMDAwLCA5NDguMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDc4OS4wMDAwMDAsIDQ3NC4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMzgyLjM0NzI1OCwwLjY1Mjc0MTUxNCBMNTguNjk4NDIyMiwwLjY1Mjc0MTUxNCBMMC42NTI3NDE1MTQsNTguNjk4NDIyMiBMMC42NTI3NDE1MTQsMzgyLjM0NzI1OCBMMzI0LjMwMTU3OCwzODIuMzQ3MjU4IEwzODIuMzQ3MjU4LDMyNC4zMDE2MjUgTDM4Mi4zNDcyNTgsMC42NTI3NDE1MTQgWiIgaWQ9IkNvbWJpbmVkLVNoYXBlLUNvcHktNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTkxLjUwMDAwMCwgMTkxLjUwMDAwMCkgc2NhbGUoMSwgLTEpIHRyYW5zbGF0ZSgtMTkxLjUwMDAwMCwgLTE5MS41MDAwMDApICI+PC9wYXRoPgogICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=");
 }
 
+#newsFeed .right-frame {
+  padding-left: 4.5rem;
+}
+
 #newsFeed .loadmore-deco-wrap {
   display: none;
 }
@@ -3960,9 +3964,6 @@ select.form-control::-ms-expand {
     left: -100px;
     bottom: 121px;
   }
-  #newsFeed .timeline-wrap .timeline ul li .right-frame {
-    margin-left: 1.5rem;
-  }
   #newsFeed .timeline-wrap .timeline ul li .right-frame .frame-detail {
     margin-left: 36px;
   }
@@ -4101,9 +4102,6 @@ select.form-control::-ms-expand {
   #newsFeed .timeline-wrap .timeline ul li:nth-child(even):before {
     bottom: 120px;
     width: 180px;
-  }
-  #newsFeed .timeline-wrap .timeline ul li .right-frame {
-    padding-left: 1.5rem;
   }
   #newsFeed .frame-detail .frame-right:after {
     font-size: 100px;
@@ -4639,6 +4637,12 @@ select.form-control::-ms-expand {
 
 .lg-actions .lg-next, .lg-actions .lg-prev {
   border-radius: 50px;
+}
+
+.lg-toolbar .lg-icon,
+.lg-actions .lg-next,
+.lg-actions .lg-prev {
+  font-size: 40px;
 }
 
 @media (min-width: 768px) {

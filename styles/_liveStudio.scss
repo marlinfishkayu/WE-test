@@ -316,9 +316,11 @@
 .lg-actions .lg-next, .lg-actions .lg-prev{
     border-radius: 50px;
 }
-// .lg-actions .lg-next:before{
-//     content: url(/images/livestudio/icon/lg-arrow.svg);
-// }
+.lg-toolbar .lg-icon,
+.lg-actions .lg-next, 
+.lg-actions .lg-prev{
+    font-size: 40px;
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
