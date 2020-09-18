@@ -19,10 +19,6 @@
         height: 100%;
         width: 100%;
     }
-    .slider-text .main-button img{
-        width: 200px;
-        height: 46px;
-    }
     .slider-text .btn.focus, .btn:focus {
         outline: 0;
         box-shadow: transparent !important;
@@ -74,7 +70,7 @@
         display: inline-block;
     }
 }
-.header-wrapper .slider-text .mainBtn:focus {
+.header-wrapper .slider-text .main-button:focus {
     outline: none;
 }
 #slider-area button.owl-dot.active {
@@ -222,7 +218,7 @@
         transform-style: preserve-3d;
     }
     .diamond-wrap {
-        padding-top: 16rem;
+        padding-top: 14rem;
         height: inherit;
         position: relative;
     }
@@ -413,7 +409,7 @@
     opacity: 1;
     position: absolute;
     z-index: 10;
-    top: 62%;
+    top: 67%;
     left: 50%;
     z-index: 100;
     transform: translate3d(-50%,0,100px);

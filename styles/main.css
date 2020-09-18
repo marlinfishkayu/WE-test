@@ -351,7 +351,7 @@ button:focus {
   height: 100%;
   position: absolute;
   left: 50%;
-  top: 8%;
+  top: 9%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   -o-object-fit: contain;
@@ -1673,11 +1673,6 @@ footer {
   width: 100%;
 }
 
-#slider-area .slide .slider-text .main-button img {
-  width: 200px;
-  height: 46px;
-}
-
 #slider-area .slide .slider-text .btn.focus, #slider-area .slide .btn:focus {
   outline: 0;
   -webkit-box-shadow: transparent !important;
@@ -1740,7 +1735,7 @@ footer {
   display: inline-block;
 }
 
-.header-wrapper .slider-text .mainBtn:focus {
+.header-wrapper .slider-text .main-button:focus {
   outline: none;
 }
 
@@ -1913,7 +1908,7 @@ footer {
 }
 
 #diamondCarousel .diamond-wrap {
-  padding-top: 16rem;
+  padding-top: 14rem;
   height: inherit;
   position: relative;
 }
@@ -2146,7 +2141,7 @@ footer {
   opacity: 1;
   position: absolute;
   z-index: 10;
-  top: 62%;
+  top: 67%;
   left: 50%;
   z-index: 100;
   -webkit-transform: translate3d(-50%, 0, 100px);
@@ -4057,8 +4052,8 @@ select.form-control::-ms-expand {
     position: relative;
   }
   #newsFeed .event-photo picture:hover {
-    -webkit-filter: brightness(1.3);
-            filter: brightness(1.3);
+    -webkit-filter: grayscale(70%);
+            filter: grayscale(70%);
   }
   #newsFeed .left-frame picture:after {
     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzODMiIGhlaWdodD0iMzgzIiB2aWV3Qm94PSIwIDAgMzgzIDM4MyI+CiAgPHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjODk2NjNEIiBzdHJva2Utd2lkdGg9IjEuNSIgZD0iTTM4Mi4yNSwwLjc1IEw1OC43Mzg3MDgsMC43NSBMMC43NSw1OC43Mzg3MDggTDAuNzUsMzgyLjI1IEwzMjQuMjYxMjkyLDM4Mi4yNSBMMzgyLjI1LDMyNC4yNjEyOTIgTDM4Mi4yNSwwLjc1IFoiLz4KPC9zdmc+Cg==");
