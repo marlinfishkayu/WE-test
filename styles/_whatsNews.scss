@@ -4,12 +4,6 @@
 #newsFeed .news-filter-wrap {
     height: calc(100% - 3em);
     width: 100%;
-    background: rgb(2, 48, 91);
-    background: rgb(2, 48, 91);
-    background: -moz-linear-gradient(0deg, rgba(2, 48, 91, 0) 0%, rgba(0, 25, 59, 1) 37%, rgba(6, 11, 26, 1) 100%);
-    background: -webkit-linear-gradient(0deg, rgba(2, 48, 91, 0) 0%, rgba(0, 25, 59, 1) 37%, rgba(6, 11, 26, 1) 100%);
-    background: linear-gradient(0deg, rgba(2, 48, 91, 0) 0%, rgba(0, 25, 59, 1) 37%, rgba(6, 11, 26, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#02305b",endColorstr="#060b1a",GradientType=1);
 }
 #newsFeed {
     .event-photo {
@@ -314,6 +308,12 @@
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+    #newsFeed .timeline-wrap .timeline ul li{
+        margin-top: -230px;
+    }
+    #newsFeed .timeline-wrap .timeline ul li:first-child{
+        margin-top: 0px;
+    }
     #newsFeed .showmore-deco-wrap {
         display: none;
     }
@@ -502,20 +502,8 @@
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-    // #newsFeed .timeframe-r {
-    //     border: 1px solid red;
-    //     top: -300px;
-    // }
-    // #newsFeed .timeframe-l {
-    //     border: 1px solid yellow;
-    //     top: -500px;
-    // }
-    #newsFeed .timeline-wrap .timeline ul li{
-        margin-top: -100px;
-    }
-    #newsFeed .timeline-wrap .timeline ul li:first-child{
-        margin-top: 0px;
-    }
+    
+    
     #newsFeed .filter-item {
         font-size: 24px;
     }

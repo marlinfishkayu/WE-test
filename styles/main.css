@@ -3550,11 +3550,6 @@ select.form-control::-ms-expand {
 #newsFeed .news-filter-wrap {
   height: calc(100% - 3em);
   width: 100%;
-  background: #02305b;
-  background: #02305b;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(2, 48, 91, 0)), color-stop(37%, #00193b), to(#060b1a));
-  background: linear-gradient(0deg, rgba(2, 48, 91, 0) 0%, #00193b 37%, #060b1a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#02305b",endColorstr="#060b1a",GradientType=1);
 }
 
 #newsFeed .event-photo {
@@ -3925,6 +3920,12 @@ select.form-control::-ms-expand {
 }
 
 @media (min-width: 768px) {
+  #newsFeed .timeline-wrap .timeline ul li {
+    margin-top: -230px;
+  }
+  #newsFeed .timeline-wrap .timeline ul li:first-child {
+    margin-top: 0px;
+  }
   #newsFeed .showmore-deco-wrap {
     display: none;
   }
@@ -4115,12 +4116,6 @@ select.form-control::-ms-expand {
 }
 
 @media (min-width: 992px) {
-  #newsFeed .timeline-wrap .timeline ul li {
-    margin-top: -100px;
-  }
-  #newsFeed .timeline-wrap .timeline ul li:first-child {
-    margin-top: 0px;
-  }
   #newsFeed .filter-item {
     font-size: 24px;
   }
