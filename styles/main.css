@@ -5248,6 +5248,24 @@ select.form-control::-ms-expand {
   width: 100%;
 }
 
+#AboutWE .about-nav-wrap {
+  padding: 3rem 5rem;
+  display: none;
+}
+
+#AboutWE .about-nav-wrap .about-filter {
+  text-transform: uppercase;
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  color: #ffffff;
+  letter-spacing: 1px;
+  padding: 1rem 0rem;
+  padding-left: 1rem;
+  border-top: 1px solid rgba(137, 102, 61, 0.5);
+  border-bottom: 1px solid rgba(137, 102, 61, 0.5);
+}
+
 #AboutWE .about-wrap .about-guide li:hover::after {
   opacity: 1;
 }
@@ -5347,19 +5365,20 @@ select.form-control::-ms-expand {
   #AboutWE .about-wrap {
     padding-top: 9rem;
     padding-bottom: 9rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
   }
   #AboutWE .about-wrap .about-list-wrap {
-    width: 50%;
+    width: 100%;
     display: block;
   }
   #AboutWE .about-wrap .about-list-wrap .selected {
     color: #D8D8D8;
   }
+  #AboutWE .about-wrap .about-nav-wrap {
+    padding: 3rem 5rem;
+    display: block;
+  }
   #AboutWE .about-wrap .about-container {
-    width: 50%;
+    width: 100%;
     padding-top: 2rem;
   }
   #AboutWE .about-wrap .about-guide li .selected::after {
@@ -5668,10 +5687,6 @@ select.form-control::-ms-expand {
   }
 }
 
-#searchResult .reasult-wrap {
-  background-color: #fff;
-}
-
 #searchResult .result-header {
   margin: 0 auto;
   padding-top: 10rem;
@@ -5699,6 +5714,45 @@ select.form-control::-ms-expand {
 
 #searchResult .result-header .result-num {
   color: #D8D8D8;
+}
+
+#searchResult .reasult-wrap {
+  background-color: #fff;
+  padding: 0 3rem;
+  padding-top: 3rem;
+  padding-bottom: 10rem;
+}
+
+#searchResult .result-item {
+  max-width: 712px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #D8D8D8;
+}
+
+#searchResult .result-item h4 {
+  color: #052749;
+  font-family: "Barlow", sans-serif, Arial, Helvetica;
+}
+
+#searchResult .result-item .date {
+  text-align: right;
+}
+
+#searchResult .result-item p {
+  color: #979797;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+#searchResult .result-item p .key-word {
+  color: #00274C;
+  font-weight: 500;
+}
+
+#searchResult .result-item a {
+  color: #979797;
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {

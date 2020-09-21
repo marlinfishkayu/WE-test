@@ -1,12 +1,4 @@
-// #searchResult .hero-header {
-//     height: 250px;
-//     border: 1px solid red;
-// }
-
 #searchResult {
-    .reasult-wrap{
-        background-color: #fff;
-    }
     .result-header{
         margin: 0 auto;
         padding-top: 10rem;
@@ -32,6 +24,41 @@
             color: #D8D8D8;
         }
     }
+    .reasult-wrap{
+        background-color: #fff;
+        padding: 0 3rem;
+        padding-top: 3rem;
+        padding-bottom: 10rem;
+    }
+    .result-item {
+        max-width: 712px;
+        margin: 0 auto;
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid #D8D8D8;
+        
+        h4{
+            color: #052749;
+            font-family: $fontBarlow;
+        }
+        .date{
+            text-align: right;
+        }
+        p{
+            color: #979797;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            .key-word{
+                color: #00274C;
+                font-weight: 500;
+            }
+        }
+        a{
+            color: #979797;
+            
+        }
+    }
+    
 }
 
 // Small devices (landscape phones, 576px and up)

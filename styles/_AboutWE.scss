@@ -50,6 +50,22 @@
             width: 100%;
         }
     }
+    .about-nav-wrap{
+        padding: 3rem 5rem;
+        display: none;
+        .about-filter{
+            text-transform: uppercase;
+            font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 100;
+            color: #ffffff;
+            letter-spacing: 1px;
+            padding: 1rem 0rem;
+            padding-left: 1rem;
+            border-top: 1px solid rgba(137, 102, 61, 0.5);
+            border-bottom: 1px solid rgba(137, 102, 61, 0.5);
+        }
+    }
 }
 #AboutWE .about-wrap .about-guide li:hover::after{
     opacity: 1;
@@ -157,16 +173,19 @@
     #AboutWE .about-wrap {
         padding-top: 9rem;
         padding-bottom: 9rem;   
-        display: flex;
         .about-list-wrap {
-            width: 50%;
+            width: 100%;
             display: block;
             .selected{
                 color: #D8D8D8;
             }
         }
+        .about-nav-wrap{
+            padding: 3rem 5rem;
+            display: block;
+        }
         .about-container{
-            width: 50%;
+            width: 100%;
             padding-top: 2rem;
         }
     }
