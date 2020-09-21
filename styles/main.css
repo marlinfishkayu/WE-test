@@ -4115,6 +4115,12 @@ select.form-control::-ms-expand {
 }
 
 @media (min-width: 992px) {
+  #newsFeed .timeline-wrap .timeline ul li {
+    margin-top: -100px;
+  }
+  #newsFeed .timeline-wrap .timeline ul li:first-child {
+    margin-top: 0px;
+  }
   #newsFeed .filter-item {
     font-size: 24px;
   }
