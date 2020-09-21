@@ -99,6 +99,7 @@ body {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   line-height: 1.6;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -5241,8 +5242,10 @@ select.form-control::-ms-expand {
   letter-spacing: 1px;
   padding: 1rem 0rem;
   padding-left: 1rem;
-  border-top: 1px solid rgba(137, 102, 61, 0.5);
-  border-bottom: 1px solid rgba(137, 102, 61, 0.5);
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-image-source: linear-gradient(84deg, rgba(167, 140, 104, 0) 0%, #907654 29%, #7c6341 70%, rgba(175, 162, 134, 0) 100%);
+  border-image-slice: 1;
   background-color: #060B1A;
 }
 
@@ -5255,7 +5258,6 @@ select.form-control::-ms-expand {
   font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
   font-size: 16px;
   color: #545454;
-  text-transform: uppercase;
   -webkit-transition: 200ms all;
   transition: 200ms all;
 }
@@ -5367,7 +5369,7 @@ select.form-control::-ms-expand {
   }
   #AboutWE .about-wrap .about-container {
     width: 100%;
-    padding-top: 2rem;
+    padding-top: 5rem;
   }
   .about-section {
     text-align: center;
