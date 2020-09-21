@@ -150,6 +150,9 @@
     }
     // Extra large devices (large desktops, 1200px and up)
     @media (min-width: 1200px) {
+        #wrapper .search-black #nav-area{
+            top: 1%;
+        }
         .subnav-arrow{
             left: 38.5%;
         }
