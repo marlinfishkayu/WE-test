@@ -5223,6 +5223,10 @@ select.form-control::-ms-expand {
   width: 100%;
 }
 
+#AboutWE .about-section {
+  max-width: 712px;
+}
+
 #AboutWE .about-nav-wrap {
   padding: 3rem 5rem;
   display: none;
@@ -5239,6 +5243,7 @@ select.form-control::-ms-expand {
   padding-left: 1rem;
   border-top: 1px solid rgba(137, 102, 61, 0.5);
   border-bottom: 1px solid rgba(137, 102, 61, 0.5);
+  background-color: #060B1A;
 }
 
 #AboutWE .about-nav-wrap .filter-item {
@@ -5305,12 +5310,12 @@ select.form-control::-ms-expand {
   text-decoration: none;
 }
 
-.about-content-item .card {
+.about-content-item .content {
   background: transparent;
   padding: 0;
 }
 
-.about-content-item .card .about-deco {
+.about-content-item .content .about-deco {
   padding-top: 4rem;
   width: 75px;
   height: 14px;
@@ -5320,19 +5325,19 @@ select.form-control::-ms-expand {
   background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzVweCIgaGVpZ2h0PSIxNHB4IiB2aWV3Qm94PSIwIDAgNzUgMTQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDY0ICg5MzUzNykgLSBodHRwczovL3NrZXRjaC5jb20gLS0+CiAgICA8dGl0bGU+R3JvdXAgMzggQ29weSA3PC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGcgaWQ9Ii0iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJXRV9tb2JpbGVfQWJvdXQtVXMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC02Ni4wMDAwMDAsIC0xMjA4LjAwMDAwMCkiIHN0cm9rZT0iIzg5NjYzRCI+CiAgICAgICAgICAgIDxnIGlkPSJHcm91cCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjAuMDAwMDAwLCAxMTI2LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTM4LUNvcHktNyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoODMuNTAwMDAwLCA4OS4wMDAwMDApIHJvdGF0ZSgtMzYwLjAwMDAwMCkgdHJhbnNsYXRlKC04My41MDAwMDAsIC04OS4wMDAwMDApIHRyYW5zbGF0ZSg0Ni4wMDAwMDAsIDgyLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgIDxsaW5lIHgxPSIzNyIgeTE9IjMzIiB4Mj0iMzcuNSIgeTI9Ii0xOCIgaWQ9IlBhdGgtNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzcuNTAwMDAwLCA3LjUwMDAwMCkgcm90YXRlKC0yNzAuMDAwMDAwKSB0cmFuc2xhdGUoLTM3LjUwMDAwMCwgLTcuNTAwMDAwKSAiPjwvbGluZT4KICAgICAgICAgICAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2LjUwMDAwMCwgNy4wMDAwMDApIHJvdGF0ZSgtMzE1LjAwMDAwMCkgdHJhbnNsYXRlKC02LjUwMDAwMCwgLTcuMDAwMDAwKSAiIHg9IjIuNSIgeT0iMyIgd2lkdGg9IjgiIGhlaWdodD0iOCI+PC9yZWN0PgogICAgICAgICAgICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUtQ29weS05IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2OC4wMDAwMDAsIDcuMDAwMDAwKSByb3RhdGUoLTMxNS4wMDAwMDApIHRyYW5zbGF0ZSgtNjguMDAwMDAwLCAtNy4wMDAwMDApICIgeD0iNjQiIHk9IjMiIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPjwvcmVjdD4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+");
 }
 
-.about-content-item .card p, .about-content-item .card h4 {
+.about-content-item .content p, .about-content-item .content h4 {
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   font-size: 16px;
   letter-spacing: 1px;
   line-height: 1.8;
 }
 
-.about-content-item .card h4 {
+.about-content-item .content h4 {
   color: #89663D;
   text-transform: uppercase;
 }
 
-.about-content-item .card p {
+.about-content-item .content p {
   padding-top: 1rem;
   color: #979797;
 }
@@ -5364,6 +5369,13 @@ select.form-control::-ms-expand {
     width: 100%;
     padding-top: 2rem;
   }
+  .about-section {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .about-content-item .content .about-deco {
+    margin: 0 auto;
+  }
   .about-content-item {
     border: transparent;
   }
@@ -5383,7 +5395,7 @@ select.form-control::-ms-expand {
     padding-top: 0rem;
     padding-bottom: 6rem;
   }
-  #about-Desktop .about-content-item .card p {
+  #about-Desktop .about-content-item .content p {
     padding-top: 0rem;
   }
 }
