@@ -1,12 +1,18 @@
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     #nav-area .search-form{
-        top: -5px;
+        top: 0px;
+    }
+    #nav-area .closeBtn{
+        top: 17px;
     }
     .nav-item button{
         padding: 0.5rem 1em;
     }
     .nav-icon-wrapper{
         top: 3px;
+    }
+    .nav-wrap {
+        height: 60px;
     }
     #wrapper .owl-carousel .owl-item img {
         height: auto;
@@ -81,7 +87,7 @@
     // Medium devices (tablets, 768px and up)
     @media (min-width: 768px) {
         #nav-ara .closeBtn{
-            top: 10px;
+            top: 18px;
         }
         #wrapper #nav-area{
             top: 10px;
@@ -137,6 +143,9 @@
         }
         #newsFeed .loadmore-deco-wrap .more-round-btn{
             width: 101%;
+        }
+        .nav-icon-wrapper{
+            top: 10px;
         }
     }
     // Extra large devices (large desktops, 1200px and up)
