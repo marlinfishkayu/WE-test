@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="156px" height="154px" viewBox="0 0 156 154" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>game_icon</title>
+    <defs>
+        <linearGradient x1="50%" y1="3.41005068%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#000F24" stop-opacity="0.9" offset="0%"></stop>
+            <stop stop-color="#011B3E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="3.41005068%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#000F24" stop-opacity="0.9" offset="0%"></stop>
+            <stop stop-color="#011B3E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="3.41005068%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#000F24" stop-opacity="0.9" offset="0%"></stop>
+            <stop stop-color="#011B3E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="51.4640965%" y1="-3.5437228%" x2="50%" y2="80.5979115%" id="linearGradient-4">
+            <stop stop-color="#000F24" stop-opacity="0.9" offset="0%"></stop>
+            <stop stop-color="#011B3E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="7.12196892%" y1="245.956717%" x2="89.8001189%" y2="245.956717%" id="linearGradient-5">
+            <stop stop-color="#A78C68" offset="0%"></stop>
+            <stop stop-color="#7C6341" offset="52.4440456%"></stop>
+            <stop stop-color="#AFA286" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="3.41005068%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#000F24" stop-opacity="0.9" offset="0%"></stop>
+            <stop stop-color="#011B3E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="7.12196892%" y1="245.956717%" x2="89.8001189%" y2="245.956717%" id="linearGradient-7">
+            <stop stop-color="#A78C68" offset="0%"></stop>
+            <stop stop-color="#7C6341" offset="52.4440456%"></stop>
+            <stop stop-color="#AFA286" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="3.41005068%" x2="50%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#000F24" stop-opacity="0.9" offset="0%"></stop>
+            <stop stop-color="#011B3E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="24.1327751%" y1="0%" x2="349.232604%" y2="179.944345%" id="linearGradient-9">
+            <stop stop-color="#C8AA82" offset="0%"></stop>
+            <stop stop-color="#7C6341" offset="91.3405231%"></stop>
+            <stop stop-color="#AFA286" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Game" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="WE_games_win-3-cards" transform="translate(-643.000000, -389.000000)">
+            <g id="Group" transform="translate(635.000000, 381.000000)">
+                <g id="Group" transform="translate(6.538462, 6.538462)">
+                    <g id="Group-46" transform="translate(5.230769, 3.923077)">
+                        <path d="M15.157,56.129 L19.038,70.615 L0,70.6153846 L15.157,56.129 Z M132.287,55.818 L147.769231,70.6153846 L128.323,70.615 L132.287,55.818 Z M73.8846154,0 L95.365,20.53 L52.404,20.53 L73.8846154,0 Z" id="Combined-Shape" stroke="#B0936D" stroke-width="2.99260355" fill="url(#linearGradient-1)"></path>
+                        <path d="M18.1052308,64.6132308 L19.4912308,70.6152308 L11.7692308,70.6153846 L18.1052308,64.6132308 Z M129.330231,64.2972308 L136,70.6153846 L127.871231,70.6152308 L129.330231,64.2972308 Z M73.8846154,11.7692308 L83.1322308,20.5302308 L64.6362308,20.5302308 L73.8846154,11.7692308 Z" id="Combined-Shape" stroke="#B0936D" stroke-width="2.99260355" fill="url(#linearGradient-2)"></path>
+                        <path d="M73.6806308,117.648769 L99.522,124.572995 L73.8846154,149.076923 L48.157,124.487995 L73.6806308,117.648769 Z M147.769231,78.4615385 L118.802,106.145995 L126.22,78.4609955 L147.769231,78.4615385 Z M21.141,78.4609955 L28.418,105.621995 L0,78.4615385 L21.141,78.4609955 Z" id="Combined-Shape" stroke="#B0936D" stroke-width="2.99260355" fill="url(#linearGradient-3)"></path>
+                        <path d="M73.6806308,117.648769 L90.0152308,122.025538 L73.8846154,137.307692 L57.6632308,121.940538 L73.6806308,117.648769 Z M126.220231,78.4615385 L136,78.4626282 L123.277231,90.5145385 L125.062231,82.7835385 L126.220231,78.4615385 Z M21.1412308,78.4615385 L22.3012308,82.7915385 L23.9702308,90.0205385 L11.7692308,78.4626282 L21.1412308,78.4615385 Z" id="Combined-Shape" stroke="#B0936D" stroke-width="2.99260355" fill="url(#linearGradient-2)"></path>
+                        <path d="M108.987868,30.8709231 L135.627321,37.0217002 L114.741481,127.488213 L98.933868,123.837923 L108.988787,123.838462 L108.987868,30.8709231 Z M39.680868,30.5699231 L39.6810947,123.838462 L48.427868,123.837923 L32.6207082,127.488213 L11.734868,37.0217002 L39.680868,30.5699231 Z" id="Combined-Shape" stroke="url(#linearGradient-5)" stroke-width="2.56508876" fill="url(#linearGradient-4)"></path>
+                        <rect id="Rectangle-Copy-36" stroke="url(#linearGradient-7)" stroke-width="2.42345482" fill="url(#linearGradient-6)" x="39.6810947" y="20.5307692" width="69.3076923" height="103.307692"></rect>
+                        <polygon id="Rectangle-Copy-56" stroke="url(#linearGradient-9)" stroke-width="2.49203512" fill="url(#linearGradient-8)" transform="translate(75.192308, 72.576923) rotate(-315.000000) translate(-75.192308, -72.576923) " points="68 65.3846154 82.3846154 65.3846154 82.3846154 79.7692308 68 79.7692308"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
