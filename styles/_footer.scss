@@ -140,6 +140,12 @@ footer{
                 width: 32px;
                 height: 32px;
                 margin:0  10px;
+                transform: scale(1);
+                transition: all 150ms;
+                transition-timing-function: cubic-bezier(.76,.14,.32,1);
+                &:hover{
+                    transform: scale(1.2);
+                }
                 img{
                     width: 100%;
                     height: 100%;

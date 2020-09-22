@@ -86,8 +86,10 @@
             letter-spacing: 1px;
             padding: 1rem 0rem;
             padding-left: 1rem;
-            border-top: 1px solid rgba(137, 102, 61, 0.5);
-            border-bottom: 1px solid rgba(137, 102, 61, 0.5);
+            border-top: 1px solid;
+            border-bottom: 1px solid;
+            border-image-source: linear-gradient(84deg, rgba(167, 140, 104, 0) 0%, #907654 29%, #7c6341 70%, rgba(175, 162, 134, 0) 100%);
+            border-image-slice: 1;
             .filter-item a{
                 text-transform: uppercase;
                 font-family: $fontFuturaMedium;
@@ -106,6 +108,19 @@
             .active a{
                 color: #ffffff;
             }
+        }
+        .news-filter .active{
+            position: relative;
+            // &:after{
+            //     content: "";
+            //     position: absolute;
+            //     bottom: 0;
+            //     left: 0;
+            //     width: 13px;
+            //     height: 26px;
+            //     background-repeat: no-repeat;
+            //     background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTRweCIgaGVpZ2h0PSIyNnB4IiB2aWV3Qm94PSIwIDAgMTQgMjYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+UGF0aCAyPC90aXRsZT4KICAgIDxnIGlkPSJIb21lIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iV0VfaW5kZXgtMDEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMTg1LjAwMDAwMCwgLTkzLjAwMDAwMCkiIGZpbGw9IiNCMDkzNkQiIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgIDxnIGlkPSJHcm91cC03IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMTg1LjAwMDAwMCwgNzYuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMC4xNDEyOTUxODEsMjMuNiBMLTUuOTY1Njg1NDIsMjMuNiBMNywzNi41NjU2ODU0IEwxOS45NjU2ODU0LDIzLjYgTDEzLjU2NDg3ODYsMjMuNiBMNi44NTMsMzAuMzEyIEwwLjE0MTI5NTE4MSwyMy42IFogTTE4LjAzNCwyNC40IEw3LDM1LjQzNCBMLTQuMDM0LDI0LjQgTC0wLjE4OSwyNC40IEw2Ljg1MzA4Njg5LDMxLjQ0MzE2MjYgTDEzLjg5NSwyNC40IEwxOC4wMzQsMjQuNCBaIiBpZD0iUGF0aC0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3LjAwMDAwMCwgMzAuMDgyODQzKSBzY2FsZSgxLCAtMSkgcm90YXRlKC05MC4wMDAwMDApIHRyYW5zbGF0ZSgtNy4wMDAwMDAsIC0zMC4wODI4NDMpICI+PC9wYXRoPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=");
+            // }
         }
     }
     .timeline-wrap {
