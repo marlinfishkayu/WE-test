@@ -458,11 +458,13 @@ return $(this).css('color', '#434343');
 
 /*--  show less button --*/
 
-
-
 (function () {
 	$(".showless_btn").on('click', function() {
 		$(this).toggleClass("active");
 		$(".showless-wrap").toggleClass('open');
 	})
 })();
+
+
+
+/*--  select placeholder --*/

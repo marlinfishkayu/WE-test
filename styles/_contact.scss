@@ -50,7 +50,7 @@
 #ContactUs .form-control{
     background-color: #060B1A;
     border-radius: 0;
-    color: #434343;
+    color: #494949;
     border: 1px solid #545454;
 }
 select.form-control{
@@ -213,9 +213,61 @@ select.form-control::-ms-expand {
 #ContactUs{
     #myselectT,
     #myselect{
+    //     background-color: #060B1A;
+    //     border-radius: 0;
+    //     color: #434343;
+    //     border: 1px solid #545454;
+    //     width: 100%;
+    //     height: 38px;
+    //     padding-left: 10px;
+    //     background:
+    //     linear-gradient(45deg, transparent 50%, #979797 50%),
+    //     linear-gradient(135deg, #979797 50%, transparent 50%);
+    //   background-position:
+    //     calc(100% - 21px) calc(1em + 2px),
+    //     calc(100% - 16px) calc(1em + 2px),
+    //     100% 0;
+    //   background-size:
+    //     5px 5px,
+    //     5px 5px,
+    //     2.5em 2.5em;
+    //   background-repeat: no-repeat;
+    
+    //   /* styling and reset */
+    
+    
+    //   /* reset */
+    
+    //   border-radius: 0;
+    //   margin: 0;      
+    //   -webkit-box-sizing: border-box;
+    //   -moz-box-sizing: border-box;
+    //   box-sizing: border-box;
+    //   -webkit-appearance:none;
+    //   -moz-appearance:none;
+
+    //     option {
+    //         padding-left: 8px;
+    //     }
+    //      &:focus{
+    //         box-shadow: 0 0 0 0.2rem rgba(167,140,104,.15);
+    //         border: 1px solid #B0936D!important;
+    //         outline-width: 0;
+    //         outline: none;
+    //     }
+    //     &:visited{
+    //         box-shadow: 0 0 0 0.2rem rgba(167,140,104,.15);
+    //         border: 1px solid #B0936D!important;
+    //     }
+    //     option:disabled {
+    //         color: -internal-light-dark(graytext, #495057);
+    //     }
+    }
+    select {
+        -webkit-appearance: menulist-button;
+        color: #fff;
         background-color: #060B1A;
         border-radius: 0;
-        color: #757577;
         border: 1px solid #545454;
         width: 100%;
         height: 38px;
@@ -232,11 +284,7 @@ select.form-control::-ms-expand {
         5px 5px,
         2.5em 2.5em;
       background-repeat: no-repeat;
-    
-      /* styling and reset */
-    
-    
-      /* reset */
+       /* reset */
     
       border-radius: 0;
       margin: 0;      
@@ -245,6 +293,7 @@ select.form-control::-ms-expand {
       box-sizing: border-box;
       -webkit-appearance:none;
       -moz-appearance:none;
+
         option {
             padding-left: 8px;
         }
@@ -258,10 +307,13 @@ select.form-control::-ms-expand {
             box-shadow: 0 0 0 0.2rem rgba(167,140,104,.15);
             border: 1px solid #B0936D!important;
         }
-        option:disabled {
-            color: -internal-light-dark(graytext, #495057);
-        }
-    }
+        
+      }
+      
+      
+      select:invalid {
+        color: #76787d;
+      }
 }
 
 

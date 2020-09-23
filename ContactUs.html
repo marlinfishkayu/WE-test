@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie-edge" />
-
+        
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css" rel="stylesheet" />
@@ -23,8 +23,10 @@
         <link rel="stylesheet" type="text/css" href="assets/css/animate.css" media="screen" />
         <!-- main CSS -->
         <link rel="stylesheet" href="./styles/main.css" />
+        
         <title>World Entertainment</title>
         <link rel="shortcut icon" type="image/svg" href="./images/icon/favicon.svg" />
+       
     </head>
     <body>
         <div id="wrapper">
@@ -309,10 +311,12 @@
                             By filling up this form, you agree and are willing to allow us to collect your contact details and other information that may be required to enable us to effectively and efficiently reply to all your enquiries.
                             For more details, please check out our <a href="#" class="hyperlink">privacy policy</a>.
                         </p>
+                        
                     </div>
                 </div>
                 <!-- Start Content Section -->
                 <div class="contact-main">
+                    
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
@@ -346,31 +350,23 @@
                                             </div>
                                         </div>
                                         <div class="col-12 col-md-6">
+                                            
                                             <div class="form-group">
                                                 <div class="controls" >
-                                                    <select required  id="myselect" data-error="Country is required." >
-                                                        <option value="" disabled selected>Country</option>
+                                                    <select required class="first-select"  data-error="Country is required." >
+                                                        <option value="" selected >Country</option>
                                                         <option>Hong Kong</option>
                                                         <option>China</option>
                                                         <option>Thailand</option>
                                                         <option>Singapore</option>
                                                         <option>Philippines</option>
                                                       </select>
-                                                      <script>
-                                                        // add event listener to change color in the first click  
-                                                        document.getElementById("myselect").addEventListener("click",setColor)
-                                                        function setColor()
-                                                        {
-                                                          var combo = document.getElementById("myselect");
-                                                          combo.style.color = '#fff';
-                                                          // remove Event Listener after the color is changed at the first click
-                                                          combo.removeEventListener("click", setColor);
-                                                        }
-                                                      </script>
-                                                    <div class="help-block with-errors"></div>
+                                                      <div class="help-block with-errors"></div>
                                                 </div>
                                             </div>
+                                            
                                         </div>
+                                        
                                     </div>
                                     <div class="row">
                                         <div class="col-12 col-md-8">
@@ -390,17 +386,6 @@
                                                         <option>Career</option>
                                                         <option>Other</option>
                                                       </select>
-                                                      <script>
-                                                        // add event listener to change color in the first click  
-                                                        document.getElementById("myselectT").addEventListener("click",setColor)
-                                                        function setColor()
-                                                        {
-                                                          var combo = document.getElementById("myselectT");
-                                                          combo.style.color = '#fff';
-                                                          // remove Event Listener after the color is changed at the first click
-                                                          combo.removeEventListener("click", setColor);
-                                                        }
-                                                      </script>
                                                     <div class="help-block with-errors"></div>
                                                 </div>
                                             </div>
@@ -557,7 +542,7 @@
         <!-- Outdated javascript includes -->
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
         <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
-
+        
         <!-- Outdated plugin call -->
         <script>
             // Plain Javascript
@@ -594,7 +579,7 @@
                 });
             });
         </script>
-
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <!-- Sal JS  -->
         <script src="./js/sal.js"></script>
         <script>
