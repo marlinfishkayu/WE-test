@@ -7,8 +7,9 @@ footer{
     display: none;
 }
 .main-footer{
-    
-    padding: 3rem 2rem;
+    padding: 0 2rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
     .footer-subscribe{
         text-align: center;
         .tag-left{
@@ -215,7 +216,7 @@ transform: scaleX(1);
     }
     .main-footer .underline .footer-social{
         margin: inherit;
-        padding-top: 10px;
+        padding-top: 0px;
     }
     .main-footer .footer-licens h6{
         padding-right: 20px;

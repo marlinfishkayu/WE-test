@@ -20,136 +20,16 @@
             margin: 0 auto;
         }
     }
-    .about-wrap{
-        max-width: 1200px;
-        margin: 0 auto;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-        .about-content-wrap{
-            width: 100%;
-        }
-    }
+    
     .about-section{
         max-width: 712px;
+        clip-path: polygon(10% 0, 100% 0, 100% 85%, 91% 100%, 0 100%, 0 16%);
+        background:red;
     }
-    .about-nav-wrap{
-        padding: 3rem 5rem;
-        // position: -webkit-sticky;
-        // position: sticky;
-        // top: 30px;
-        display: none;
-        .about-filter{
-            text-transform: uppercase;
-            font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
-            font-size: 16px;
-            font-weight: 100;
-            color: #ffffff;
-            letter-spacing: 1px;
-            padding: 1rem 0rem;
-            padding-left: 1rem;
-            border-top: 1px solid;
-            border-bottom: 1px solid;
-            border-image-source: linear-gradient(84deg, rgba(167,140,104,0) 0%, rgba(144,118,84,1) 29%, rgba(124,99,65,1) 70%, rgba(175,162,134,0) 100%);
-            border-image-slice: 1;
-
-            background-color: #060B1A;  
-        }
-        .filter-item{
-            position: relative;
-            padding: 0 22px;
-            a{
-                font-family: $fontFuturaMedium;
-                font-size: 16px;
-                color: #545454;
-                transition: 200ms all;
-                &:hover{
-                    color: #D8D8D8;
-                    text-decoration: none;
-                }
-            }
-        }
-    }
+    
 }
 
 //expand style
-.about-content-item{
-    padding-left: 3rem;
-    border-bottom: 1px solid #89663D;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-    .expand-wrap{
-        .feature-header {
-            position: relative;
-            &:before, &:after{
-                position: absolute;
-                content:"";
-                width: 20px;
-                height: 2px;
-                top: 17px;
-                background: #C5955E;
-                transition: 200ms all;
-                left: -40px;
-                transform: rotate(0deg);
-            }
-        }
-    }
-    
-    .feature-header {
-        color: #D8D8D8;
-        font-size: 20px;
-        font-family: $fontFuturaMedium;
-        color: #D8D8D8;
-        text-transform: uppercase;
-        transition: 200ms all;
-        letter-spacing: 1px;
-        h2{
-            line-height: 1.3;
-        }
-        &:hover{
-            color: #D8D8D8;
-            text-decoration: none;
-        }
-    }
-    .content{
-        background: transparent;
-        padding: 0;
-        .about-deco{
-            padding-top: 4rem;
-            width: 75px;
-            height: 14px;
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: contain;
-            background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzVweCIgaGVpZ2h0PSIxNHB4IiB2aWV3Qm94PSIwIDAgNzUgMTQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDY0ICg5MzUzNykgLSBodHRwczovL3NrZXRjaC5jb20gLS0+CiAgICA8dGl0bGU+R3JvdXAgMzggQ29weSA3PC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGcgaWQ9Ii0iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJXRV9tb2JpbGVfQWJvdXQtVXMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC02Ni4wMDAwMDAsIC0xMjA4LjAwMDAwMCkiIHN0cm9rZT0iIzg5NjYzRCI+CiAgICAgICAgICAgIDxnIGlkPSJHcm91cCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjAuMDAwMDAwLCAxMTI2LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTM4LUNvcHktNyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoODMuNTAwMDAwLCA4OS4wMDAwMDApIHJvdGF0ZSgtMzYwLjAwMDAwMCkgdHJhbnNsYXRlKC04My41MDAwMDAsIC04OS4wMDAwMDApIHRyYW5zbGF0ZSg0Ni4wMDAwMDAsIDgyLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgIDxsaW5lIHgxPSIzNyIgeTE9IjMzIiB4Mj0iMzcuNSIgeTI9Ii0xOCIgaWQ9IlBhdGgtNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzcuNTAwMDAwLCA3LjUwMDAwMCkgcm90YXRlKC0yNzAuMDAwMDAwKSB0cmFuc2xhdGUoLTM3LjUwMDAwMCwgLTcuNTAwMDAwKSAiPjwvbGluZT4KICAgICAgICAgICAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2LjUwMDAwMCwgNy4wMDAwMDApIHJvdGF0ZSgtMzE1LjAwMDAwMCkgdHJhbnNsYXRlKC02LjUwMDAwMCwgLTcuMDAwMDAwKSAiIHg9IjIuNSIgeT0iMyIgd2lkdGg9IjgiIGhlaWdodD0iOCI+PC9yZWN0PgogICAgICAgICAgICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUtQ29weS05IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2OC4wMDAwMDAsIDcuMDAwMDAwKSByb3RhdGUoLTMxNS4wMDAwMDApIHRyYW5zbGF0ZSgtNjguMDAwMDAwLCAtNy4wMDAwMDApICIgeD0iNjQiIHk9IjMiIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPjwvcmVjdD4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+");
-        }
-        p, h4{
-            font-family: $fontBarlowLight;
-            font-size: 16px;
-            letter-spacing: 1px;
-            line-height: 1.8;
-        }
-        h4{
-            color: #89663D;
-            text-transform: uppercase;
-        }
-        p{
-            padding-top: 1rem;
-            color: #979797;
-            
-        }
-    }
-}
-.about-content-item .expand-wrap .collapsed::before{
-    transform: rotate(90deg);
-    content:"";
-}
-#about-Mobile{
-    display: block;
-}
-#about-Desktop{
-    display: none;
-}
-
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
@@ -165,45 +45,7 @@
     #AboutWE .about-wrap {
         padding-top: 2rem;
         padding-bottom: 9rem;   
-        .about-nav-wrap{
-            padding: 3rem 0rem;
-            display: block;
-        }
-        .about-container{
-            width: 100%;
-            padding-top: 5rem;
-        }
-    }
-    .about-section{
-        text-align: center;
-        margin: 0 auto;
-    }
-    .about-content-item .content .about-deco {
-        margin: 0 auto;
-    }
-    .about-content-item{
-        border: transparent;
-    }
-    #about-Mobile{
-        display: none;
-    }
-    #about-Desktop{
-        display: block;
-    }
-    #about-Desktop {
-        .expand-wrap h2{
-            font-size: 36px;
-            letter-spacing: 1.5px;
-            line-height: 1.2;
-            text-transform: uppercase;
-        }
-        .about-content-item {
-            padding-top: 0rem;
-            padding-bottom: 6rem;
-        }
-        .about-content-item .content p {
-            padding-top: 0rem;
-        }
+        
     }
  }
 // Extra large devices (large desktops, 1200px and up)
