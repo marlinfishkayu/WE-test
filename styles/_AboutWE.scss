@@ -11,7 +11,7 @@
             padding: 0 2rem;
         }
     }
-    .about-mission,
+    
     .about-slogan,
     .about-brandStory{
         max-width: 712px;
@@ -42,7 +42,7 @@
     }
     .about-bkg{
         position: absolute;
-        top: 50%;
+        top: 20%;
         left: 0;
         z-index: -1;
         img{
@@ -97,12 +97,22 @@
             object-fit: cover;
         }
     }
+    .about-mission{
+        max-width: 930px;
+        padding: 3rem 0;
+        
+        .line-deco{
+            text-align: left;
+            margin: inherit;
+            padding-bottom: 2rem;
+        }
+        .about-p{
+            padding-top: 20px;
+        }
+    }
     .about-slogan{
         text-align: center;
         padding-top: 5rem;
-        padding: 3rem 0;
-    }
-    .about-mission{
         padding: 3rem 0;
     }
     // .about-section{
@@ -134,7 +144,12 @@
     #AboutWE .about-h2{
         font-size: 36px;
     }
-
+    #AboutWE .about-mission .about-h2 {
+        padding-left: 5rem;
+    }
+    #AboutWE .about-mission .upper .about-p{
+        padding:0;
+    }
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {

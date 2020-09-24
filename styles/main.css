@@ -5240,7 +5240,6 @@ select.form-control::-ms-expand {
   padding: 0 2rem;
 }
 
-#AboutWE .about-mission,
 #AboutWE .about-slogan,
 #AboutWE .about-brandStory {
   max-width: 712px;
@@ -5276,7 +5275,7 @@ select.form-control::-ms-expand {
 
 #AboutWE .about-bkg {
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 0;
   z-index: -1;
 }
@@ -5336,13 +5335,24 @@ select.form-control::-ms-expand {
      object-fit: cover;
 }
 
-#AboutWE .about-slogan {
-  text-align: center;
-  padding-top: 5rem;
+#AboutWE .about-mission {
+  max-width: 930px;
   padding: 3rem 0;
 }
 
-#AboutWE .about-mission {
+#AboutWE .about-mission .line-deco {
+  text-align: left;
+  margin: inherit;
+  padding-bottom: 2rem;
+}
+
+#AboutWE .about-mission .about-p {
+  padding-top: 20px;
+}
+
+#AboutWE .about-slogan {
+  text-align: center;
+  padding-top: 5rem;
   padding: 3rem 0;
 }
 
@@ -5353,6 +5363,12 @@ select.form-control::-ms-expand {
   }
   #AboutWE .about-h2 {
     font-size: 36px;
+  }
+  #AboutWE .about-mission .about-h2 {
+    padding-left: 5rem;
+  }
+  #AboutWE .about-mission .upper .about-p {
+    padding: 0;
   }
 }
 
