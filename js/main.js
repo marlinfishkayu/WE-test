@@ -476,23 +476,21 @@ setTimeout(() => {
 
 
 /*-- Add live game column when hover in All Live Game page --*/
-$(document).ready(function(){
-  $(".game-item-wrap").hover(
-      function () {
-          $(this).toggleClass('hovering');
-      });
-  });
-
 // $(document).ready(function(){
-//   $('.game-item').mouseover(function(){
-    
-//       $('.is_hover').removeClass("is_hover");
-//       $('.main-nav').addClass("is_hover");
-//       $('.nav-wrap').addClass("nav-fixed");
-//       console.log("hover");
+//   $(".game-item-wrap").hover(
+//       function () {
+//           $(this).toggleClass('hovering');
+//       });
 //   });
-//   $('.main-nav').mouseleave(function(){
-//       $('.main-nav').removeClass("is_hover");
-//       $('.nav-wrap').removeClass("nav-fixed");
-//   });
-// });
+
+  $(document).ready(function(){
+    $(".game-item-wrap").mouseover(function(){
+      $(".game-item-wrap").removeClass('hovering');
+      $(this).addClass("hovering");
+        return false;
+    });
+    $(".game-item-wrap").mouseleave(function(){
+      $(".game-item-wrap").removeClass('hovering');
+    });
+  });
+  

@@ -352,7 +352,7 @@ button:focus {
   height: 100%;
   position: absolute;
   left: 50%;
-  top: 8%;
+  top: 9%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   -o-object-fit: contain;
@@ -4956,9 +4956,24 @@ select.form-control::-ms-expand {
 #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text .main-button {
   opacity: 0;
   margin-top: 1.5rem;
-  cursor: pointer;
+  pointer-events: none;
   -webkit-transition: 250ms all ease-in;
   transition: 250ms all ease-in;
+}
+
+#allLiveGame .allLiveGame-main .game-item-wrap .inner-stroke {
+  outline: 1px solid #B0936D;
+  outline-offset: -10px;
+  position: absolute;
+  top: -1px;
+  left: -3px;
+  width: 279px;
+  height: 381px;
+  z-index: 1;
+  opacity: 1;
+  -webkit-transition: 200ms all ease-out;
+  transition: 200ms all ease-out;
+  pointer-events: none;
 }
 
 #allLiveGame .allLiveGame-main .game-item-wrap .outline-stroke {
@@ -4972,6 +4987,24 @@ select.form-control::-ms-expand {
   -webkit-transition: 200ms all ease-out;
   transition: 200ms all ease-out;
   pointer-events: none;
+}
+
+#allLiveGame .allLiveGame-main .game-item-wrap picture {
+  position: relative;
+}
+
+#allLiveGame .allLiveGame-main .game-item-wrap picture:before {
+  content: '';
+  position: absolute;
+  left: -4px;
+  width: 280px;
+  height: 380px;
+  opacity: 0;
+  -webkit-transition: 200ms all ease-out;
+  transition: 200ms all ease-out;
+  background: #052749;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 39, 73, 0.8)), to(#060b1a));
+  background: linear-gradient(180deg, rgba(5, 39, 73, 0.8) 0%, #060b1a 100%);
 }
 
 #allLiveGame .allLiveGame-main .hovering::after {
@@ -4993,15 +5026,16 @@ select.form-control::-ms-expand {
 }
 
 #allLiveGame .allLiveGame-main .game-column {
-  padding: 5rem 0;
+  overflow: hidden;
+  padding-top: 38px;
+  padding-left: 10px;
+  padding-bottom: 38px;
+  height: 458px;
 }
 
 #allLiveGame .allLiveGame-main .game-item {
   width: 274px;
   height: 380px;
-  border: 1px solid black;
-  outline: 1px solid #B0936D;
-  outline-offset: -10px;
   -webkit-transition: 200ms all ease-out;
   transition: 200ms all ease-out;
   position: relative;
@@ -5019,7 +5053,6 @@ select.form-control::-ms-expand {
   width: 12px;
   height: 12px;
   border: 1px solid #B0936D;
-  z-index: 1;
 }
 
 #allLiveGame .allLiveGame-main .game-item:before {
@@ -5032,11 +5065,6 @@ select.form-control::-ms-expand {
   width: 12px;
   height: 12px;
   border: 1px solid #B0936D;
-  z-index: 1;
-}
-
-#allLiveGame .allLiveGame-main .game-item:hover {
-  outline-offset: 0px;
 }
 
 #allLiveGame .allLiveGame-main .hovering .game-item-text {
@@ -5046,12 +5074,22 @@ select.form-control::-ms-expand {
 
 #allLiveGame .allLiveGame-main .hovering .game-item-text .main-button {
   opacity: 1;
+  pointer-events: inherit;
+  cursor: pointer;
 }
 
 #allLiveGame .allLiveGame-main .hovering .outline-stroke {
   opacity: 0;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+#allLiveGame .allLiveGame-main .hovering .inner-stroke {
+  outline-offset: 0px;
+}
+
+#allLiveGame .allLiveGame-main .hovering picture:before {
+  opacity: 1;
 }
 
 @media (min-width: 768px) {
