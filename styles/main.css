@@ -4824,12 +4824,32 @@ select.form-control::-ms-expand {
   }
 }
 
+#allLiveGame {
+  position: relative;
+}
+
+#allLiveGame .allLiveGame-bkg {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  z-index: -1;
+}
+
+#allLiveGame .allLiveGame-bkg img {
+  width: 100%;
+  background-position: 50% 10%;
+  background-size: cover;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 #allLiveGame .hero-header {
-  height: 430px;
+  height: 586px;
 }
 
 #allLiveGame .hero-header-bkg {
-  height: 430px;
+  height: 586px;
 }
 
 #allLiveGame .hero-float {
@@ -4857,11 +4877,6 @@ select.form-control::-ms-expand {
   text-align: center;
 }
 
-#allLiveGame .allLiveGame-main .hero-intro2 {
-  font-size: 16px;
-  line-height: 1.7;
-}
-
 #allLiveGame .allLiveGame-main .livegame-scroll-title {
   padding-top: 5rem;
   font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
@@ -4872,353 +4887,86 @@ select.form-control::-ms-expand {
   text-align: left;
 }
 
-#allLiveGame .allLiveGame-main .owl-carousel {
-  display: block;
-}
-
-#allLiveGame .popular-game-carousel-container {
-  width: 100%;
-  height: 100%;
+#allLiveGame .allLiveGame-main .game-item-wrap {
   position: relative;
 }
 
-#allLiveGame .popular-game-carousel {
-  font-size: 18px;
-  height: 400px;
-  position: relative;
-}
-
-#allLiveGame .popular-game-carousel .center {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  z-index: 1;
-}
-
-#allLiveGame .popular-game-carousel .owl-dots {
-  display: none;
-}
-
-#allLiveGame .popular-game-carousel .owl-nav {
-  display: block;
-  width: 100%;
-}
-
-#allLiveGame .popular-game-carousel .owl-nav span {
-  display: none;
-}
-
-#allLiveGame .popular-game-carousel .owl-nav .owl-prev,
-#allLiveGame .popular-game-carousel .owl-nav .owl-next {
-  position: absolute;
-  opacity: 0.5;
-  width: 72px;
-  height: 72px;
-  top: 40%;
-  margin: 5px 28px;
-  -webkit-transition: 250ms all;
-  transition: 250ms all;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NCIgaGVpZ2h0PSI3NCIgdmlld0JveD0iMCAwIDc0IDc0Ij4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icGdfc2xpZGVyX25leHQtYSIgeDE9IjguMjQlIiB4Mj0iODYuNTY3JSIgeTE9IjE2LjM5JSIgeTI9IjkwLjY2OCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDAwRjI0IiBzdG9wLW9wYWNpdHk9Ii44Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAxMUIzRSIgc3RvcC1vcGFjaXR5PSIuNiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icGdfc2xpZGVyX25leHQtYiIgeDE9IjcuMTIyJSIgeDI9Ijg5LjglIiB5MT0iMjQ1Ljk1NyUiIHkyPSIyNDUuOTU3JSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNBNzhDNjgiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSI1Mi40NDQlIiBzdG9wLWNvbG9yPSIjN0M2MzQxIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0FGQTI4NiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxIDEpIj4KICAgIDxyZWN0IHdpZHRoPSI3MiIgaGVpZ2h0PSI3MiIgZmlsbD0idXJsKCNwZ19zbGlkZXJfbmV4dC1hKSIgc3Ryb2tlPSJ1cmwoI3BnX3NsaWRlcl9uZXh0LWIpIiBzdHJva2Utd2lkdGg9Ii45IiByeD0iMzUuNDYzIi8+CiAgICA8cG9seWdvbiBmaWxsPSIjQjA5MzZEIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHBvaW50cz0iMzUuNjk5IDI0LjY2NiAzNi4zMDEgMjUuMzM0IDI4LjE3MyAzMi42NDkgNDUgMzIuNjUgNDUgMzMuNTUgMjUuODI3IDMzLjU1IiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSA3MC44MjcgMCkiLz4KICAgIDxwb2x5Z29uIGZpbGw9IiNCMDkzNkQiIGZpbGwtcnVsZT0ibm9uemVybyIgcG9pbnRzPSIzNS42ODIgMzcuMjgyIDM2LjMxOCAzNy45MTggMjguMDg3IDQ2LjE0OSA0NSA0Ni4xNSA0NSA0Ny4wNSAyNS45MTQgNDcuMDUiIHRyYW5zZm9ybT0icm90YXRlKDE4MCAzNS40NTcgNDIuMTY2KSIvPgogIDwvZz4KPC9zdmc+Cg==");
-}
-
-#allLiveGame .popular-game-carousel .owl-nav .owl-prev:hover,
-#allLiveGame .popular-game-carousel .owl-nav .owl-next:hover {
-  background-color: transparent;
-  opacity: 1;
-}
-
-#allLiveGame .popular-game-carousel .owl-nav .owl-prev {
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-  left: 0;
-}
-
-#allLiveGame .popular-game-carousel .owl-nav .owl-next {
-  right: 0;
-}
-
-#allLiveGame .popular-game-carousel button:focus {
-  outline: transparent;
-}
-
-#allLiveGame .game-icon-bkg-wrap {
-  width: 177px;
-  height: 330px;
-  margin: 0 auto;
-  margin-top: 3rem;
-  padding: 10px;
-}
-
-#allLiveGame .game-icon-bkg-wrap .wrap {
-  position: relative;
-}
-
-#allLiveGame .game-icon-bkg-wrap .wrap img {
-  width: 100%;
-  height: 100%;
-  max-width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-#allLiveGame .game-icon-bkg-wrap:after {
+#allLiveGame .allLiveGame-main .game-item-wrap:after {
   content: "";
   position: absolute;
-  bottom: 0;
-  left: 10px;
-  width: 157px;
-  height: 320px;
-  z-index: 1;
-  opacity: 1;
-  -webkit-transition: 250ms all;
-  transition: 250ms all;
-  background: #011b3e;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 27, 62, 0)), color-stop(46%, #011b3e), to(#000916));
-  background: linear-gradient(180deg, rgba(1, 27, 62, 0) 0%, #011b3e 46%, #000916 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#011b3e",endColorstr="#000916",GradientType=1);
-}
-
-#allLiveGame .game-icon-bkg-wrap .float-card {
-  position: absolute;
-  top: 45%;
+  top: -20px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  z-index: 2;
-  width: 100%;
-  -webkit-transition: all 200ms ease-out;
-  transition: all 200ms ease-out;
+  width: 1px;
+  height: 50px;
+  background-color: #B0936D;
+  z-index: 10;
 }
 
-#allLiveGame .game-icon-bkg-wrap .float-card .float-icon-wrap {
-  width: 90px;
-  height: 90px;
-  margin: 0 auto;
+#allLiveGame .allLiveGame-main .game-item {
+  width: 274px;
+  height: 380px;
+  border: 1px solid black;
+  outline: 1px solid #B0936D;
+  outline-offset: -10px;
+  -webkit-transition: 200ms all ease-out;
+  transition: 200ms all ease-out;
 }
 
-#allLiveGame .game-icon-bkg-wrap .float-card .float-icon-wrap img {
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
+#ff0000
+#allLiveGame .allLiveGame-main .game-item:hover {
+  outline-offset: 0px;
 }
 
-#allLiveGame .game-icon-bkg-wrap .float-card .float-game-til {
-  text-transform: uppercase;
-  font-size: 17px;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
-  color: #D8D8D8;
-  padding-top: 30px;
-  font-weight: 100;
-}
-
-#allLiveGame .game-icon-bkg-wrap .float-card .float-game-des {
-  display: none;
-  font-size: 16px;
-  padding: 0 1rem;
-  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
-  font-weight: 100;
-  color: #979797;
-  letter-spacing: 1px;
-  padding-top: 20px;
-}
-
-#allLiveGame .game-icon-bkg-wrap .float-card .main-button {
-  display: none;
-  width: 150px;
-}
-
-#allLiveGame .pg-slide {
-  -webkit-transition: 550ms all;
-  transition: 550ms all;
-}
-
-#allLiveGame .pg-slide:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  z-index: 1;
-  margin-right: 30px;
-  margin-left: 30px;
-}
-
-#allLiveGame .hovering .float-card {
-  top: 35%;
-}
-
-#allLiveGame .hovering .float-icon-wrap {
-  display: none;
-}
-
-#allLiveGame .game-icon-bkg-wrap:hover::after {
-  opacity: 0;
-}
-
-#allLiveGame .hovering .game-icon-bkg-wrap .float-card .main-button {
-  display: block;
-}
-
-#allLiveGame #newReleaseCarousel {
-  height: 600px;
-  position: relative;
-}
-
-#allLiveGame #newReleaseCarousel .owl-dots {
-  display: none;
-}
-
-#allLiveGame #newReleaseCarousel .owl-nav {
-  display: none;
-  width: 100%;
-}
-
-#allLiveGame #newReleaseCarousel .owl-nav span {
-  display: none;
-}
-
-#allLiveGame #newReleaseCarousel .owl-nav .owl-prev,
-#allLiveGame #newReleaseCarousel .owl-nav .owl-next {
+#allLiveGame .allLiveGame-main .outline-stroke {
   position: absolute;
-  opacity: 0.5;
-  width: 72px;
-  height: 72px;
-  top: 20%;
-  margin: 5px 28px;
-  -webkit-transition: 250ms all;
-  transition: 250ms all;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NCIgaGVpZ2h0PSI3NCIgdmlld0JveD0iMCAwIDc0IDc0Ij4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icGdfc2xpZGVyX25leHQtYSIgeDE9IjguMjQlIiB4Mj0iODYuNTY3JSIgeTE9IjE2LjM5JSIgeTI9IjkwLjY2OCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDAwRjI0IiBzdG9wLW9wYWNpdHk9Ii44Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAxMUIzRSIgc3RvcC1vcGFjaXR5PSIuNiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icGdfc2xpZGVyX25leHQtYiIgeDE9IjcuMTIyJSIgeDI9Ijg5LjglIiB5MT0iMjQ1Ljk1NyUiIHkyPSIyNDUuOTU3JSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNBNzhDNjgiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSI1Mi40NDQlIiBzdG9wLWNvbG9yPSIjN0M2MzQxIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0FGQTI4NiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxIDEpIj4KICAgIDxyZWN0IHdpZHRoPSI3MiIgaGVpZ2h0PSI3MiIgZmlsbD0idXJsKCNwZ19zbGlkZXJfbmV4dC1hKSIgc3Ryb2tlPSJ1cmwoI3BnX3NsaWRlcl9uZXh0LWIpIiBzdHJva2Utd2lkdGg9Ii45IiByeD0iMzUuNDYzIi8+CiAgICA8cG9seWdvbiBmaWxsPSIjQjA5MzZEIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHBvaW50cz0iMzUuNjk5IDI0LjY2NiAzNi4zMDEgMjUuMzM0IDI4LjE3MyAzMi42NDkgNDUgMzIuNjUgNDUgMzMuNTUgMjUuODI3IDMzLjU1IiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSA3MC44MjcgMCkiLz4KICAgIDxwb2x5Z29uIGZpbGw9IiNCMDkzNkQiIGZpbGwtcnVsZT0ibm9uemVybyIgcG9pbnRzPSIzNS42ODIgMzcuMjgyIDM2LjMxOCAzNy45MTggMjguMDg3IDQ2LjE0OSA0NSA0Ni4xNSA0NSA0Ny4wNSAyNS45MTQgNDcuMDUiIHRyYW5zZm9ybT0icm90YXRlKDE4MCAzNS40NTcgNDIuMTY2KSIvPgogIDwvZz4KPC9zdmc+Cg==");
+  top: -7px;
+  left: -6px;
+  z-index: 1;
 }
 
-#allLiveGame #newReleaseCarousel .owl-nav .owl-prev:hover,
-#allLiveGame #newReleaseCarousel .owl-nav .owl-next:hover {
-  background-color: transparent;
-  opacity: 1;
+#allLiveGame .allLiveGame-main .game-item-text {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 1;
 }
 
-#allLiveGame #newReleaseCarousel .owl-nav .owl-prev {
-  right: 0;
+#allLiveGame .allLiveGame-main .game-item-text h2 {
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-size: 26px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  line-height: 1.3;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-#allLiveGame #newReleaseCarousel .owl-nav .owl-next {
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-  left: 0;
+#allLiveGame .allLiveGame-main .game-item-text p {
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
+  font-size: 11px;
+  color: #979797;
+  padding-top: 10px;
 }
 
-#allLiveGame #newReleaseCarousel button:focus {
-  outline: transparent;
-}
-
-#allLiveGame #newReleaseCarousel .game-icon-bkg-wrap {
-  width: 235px;
-  height: 280px;
-  padding: 3px;
-}
-
-#allLiveGame #newReleaseCarousel .game-icon-bkg-wrap .float-card {
-  top: 75%;
-}
-
-#allLiveGame #newReleaseCarousel .game-icon-bkg-wrap .float-card h3 {
-  font-size: 16px;
-}
-
-#allLiveGame #newReleaseCarousel .game-icon-bkg-wrap .float-game-til {
-  padding-top: 0;
-}
-
-#allLiveGame #newReleaseCarousel .game-icon-bkg-wrap picture {
-  width: 100%;
-  /* width of container */
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-#allLiveGame #newReleaseCarousel .game-icon-bkg-wrap picture img {
-  width: 235px;
-  height: 150px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-#allLiveGame #newReleaseCarousel .game-icon-bkg-wrap:after {
+#allLiveGame .allLiveGame-main .game-item-text .main-button {
   display: none;
 }
 
 @media (min-width: 768px) {
-  #allLiveGame .allLiveGame-main .hero-intro2 {
+  #allLiveGame .hero-intro2 {
     font-size: 20px;
     max-width: 712px;
     margin: 0 auto;
     line-height: inherit;
+    margin-top: 2rem;
     margin-bottom: 4rem;
   }
-  #allLiveGame .allLiveGame-main {
-    padding: inherit;
-  }
-  #allLiveGame .allLiveGame-main .livegame-scroll-title {
-    padding-left: 5vw;
-  }
-  #allLiveGame .NewReleasesGame-carousel-container,
-  #allLiveGame .popular-game-carousel-container {
-    padding-left: 5vw;
-  }
-  #allLiveGame .popular-game-carousel .center {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    z-index: 1;
-  }
-  #allLiveGame #newReleaseCarousel .game-icon-bkg-wrap {
-    width: 295px;
-    height: 320px;
-    padding: 10px;
-  }
-  #allLiveGame #newReleaseCarousel .game-icon-bkg-wrap picture img {
-    width: 295px;
-    height: 188px;
-  }
-}
-
-@media (min-width: 1200px) {
-  #allLiveGame .allLiveGame-main .hero-intro2 {
-    max-width: 900px;
-  }
-  #allLiveGame .game-icon-bkg-wrap {
-    width: 295px;
-    height: 550px;
-  }
-  #allLiveGame .game-icon-bkg-wrap:after {
-    width: 275px;
-    height: 540px;
-  }
-  #allLiveGame .popular-game-carousel {
-    height: 620px;
-  }
-  #allLiveGame .game-icon-bkg-wrap .float-card .float-game-til {
-    font-size: 26px;
-  }
-  #allLiveGame .game-icon-bkg-wrap .float-card .float-game-des {
-    display: block;
-  }
-  #allLiveGame .game-icon-bkg-wrap .float-card .float-icon-wrap {
-    width: 110px;
-    height: 110px;
-  }
-  #allLiveGame .game-icon-bkg-wrap .float-card .main-button {
-    width: 230px;
-  }
-  #allLiveGame .popular-game-carousel .owl-nav {
-    display: block;
-  }
-  #allLiveGame #newReleaseCarousel .owl-nav {
-    display: block;
-  }
-  #allLiveGame #newReleaseCarousel .game-icon-bkg-wrap .float-card {
-    top: 75%;
+  #allLiveGame .bottom-deco {
+    margin-top: 100px;
   }
 }
 
@@ -5308,6 +5056,16 @@ select.form-control::-ms-expand {
   padding-bottom: 4rem;
 }
 
+#AboutWE .about-h4 {
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #D8D8D8;
+}
+
 #AboutWE .about-p {
   padding-top: 30px;
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
@@ -5356,6 +5114,15 @@ select.form-control::-ms-expand {
   padding: 3rem 0;
 }
 
+#AboutWE #block-header {
+  background: #060b1a;
+  background: linear-gradient(349deg, #060b1a 0%, #052749 100%);
+  opacity: 0.5;
+  min-height: 100px;
+  -webkit-clip-path: url(#myClip);
+  clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 99%, 0 100%, 0 18%);
+}
+
 @media (min-width: 992px) {
   #AboutWE .about-wrap {
     padding-top: 2rem;
@@ -5369,6 +5136,9 @@ select.form-control::-ms-expand {
   }
   #AboutWE .about-mission .upper .about-p {
     padding: 0;
+  }
+  #AboutWE .about-mission .lower {
+    padding-top: 5rem;
   }
 }
 

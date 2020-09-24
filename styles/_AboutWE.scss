@@ -11,7 +11,6 @@
             padding: 0 2rem;
         }
     }
-    
     .about-slogan,
     .about-brandStory{
         max-width: 712px;
@@ -20,7 +19,6 @@
     .about-main{
         padding: 0 3rem;
         padding-bottom: 3rem;
-        
         .hero-intro2{
             font-size: 20px;
             text-align: center;
@@ -74,6 +72,15 @@
         color: #D8D8D8;
         padding-bottom: 4rem;
     }
+    .about-h4{
+        font-family: $fontFuturaMedium;
+        font-size: 18px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: #D8D8D8;
+    }
     .about-p{
         padding-top: 30px;
         font-family: $fontBarlowLight;
@@ -115,6 +122,14 @@
         padding-top: 5rem;
         padding: 3rem 0;
     }
+    #block-header {
+        background: rgb(6,11,26);
+        background: linear-gradient(349deg, rgba(6,11,26,1) 0%, rgba(5,39,73,1) 100%);
+        opacity: 0.5;
+        min-height: 100px;
+        -webkit-clip-path: url(#myClip);
+        clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 99%, 0 100%, 0 18%);
+    }
     // .about-section{
     //     max-width: 712px;
     //     clip-path: polygon(10% 0, 100% 0, 100% 85%, 91% 100%, 0 100%, 0 16%);
@@ -149,6 +164,9 @@
     }
     #AboutWE .about-mission .upper .about-p{
         padding:0;
+    }
+    #AboutWE .about-mission .lower{
+        padding-top: 5rem;
     }
  }
 // Extra large devices (large desktops, 1200px and up)
