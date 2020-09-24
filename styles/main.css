@@ -352,7 +352,7 @@ button:focus {
   height: 100%;
   position: absolute;
   left: 50%;
-  top: 9%;
+  top: 8%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   -o-object-fit: contain;
@@ -4896,12 +4896,104 @@ select.form-control::-ms-expand {
   position: absolute;
   top: -20px;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  opacity: 1;
+  -webkit-transition: 200ms all ease-out;
+  transition: 200ms all ease-out;
   width: 1px;
   height: 50px;
   background-color: #B0936D;
-  z-index: 10;
+  z-index: 1;
+  pointer-events: none;
+}
+
+#allLiveGame .allLiveGame-main .game-item-wrap:before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%, 0);
+          transform: translateX(-50%, 0);
+  opacity: 1;
+  -webkit-transition: 200ms all ease-out;
+  transition: 200ms all ease-out;
+  width: 1px;
+  height: 50px;
+  background-color: #B0936D;
+  z-index: 1;
+  pointer-events: none;
+}
+
+#allLiveGame .allLiveGame-main .game-item-wrap .game-item-text {
+  position: absolute;
+  bottom: -7%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 20%);
+          transform: translate(-50%, 20%);
+  -webkit-transition: 400ms all ease-out;
+  transition: 400ms all ease-out;
+  z-index: 1;
+}
+
+#allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2 {
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-size: 26px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  line-height: 1.3;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p {
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
+  font-size: 11px;
+  color: #979797;
+  padding-top: 10px;
+}
+
+#allLiveGame .allLiveGame-main .game-item-wrap .game-item-text .main-button {
+  opacity: 0;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  -webkit-transition: 250ms all ease-in;
+  transition: 250ms all ease-in;
+}
+
+#allLiveGame .allLiveGame-main .game-item-wrap .outline-stroke {
+  position: absolute;
+  top: -7px;
+  left: -6px;
+  width: 283px;
+  height: 390px;
+  z-index: 1;
+  opacity: 1;
+  -webkit-transition: 200ms all ease-out;
+  transition: 200ms all ease-out;
+  pointer-events: none;
+}
+
+#allLiveGame .allLiveGame-main .hovering::after {
+  -webkit-transform: translate(-50%, -80%);
+          transform: translate(-50%, -80%);
+  height: 0px;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#allLiveGame .allLiveGame-main .hovering::before {
+  -webkit-transform: translate(-50%, 80%);
+          transform: translate(-50%, 80%);
+  height: 0px;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#allLiveGame .allLiveGame-main .game-column {
+  padding: 5rem 0;
 }
 
 #allLiveGame .allLiveGame-main .game-item {
@@ -4912,48 +5004,54 @@ select.form-control::-ms-expand {
   outline-offset: -10px;
   -webkit-transition: 200ms all ease-out;
   transition: 200ms all ease-out;
+  position: relative;
 }
 
-#ff0000
+#allLiveGame .allLiveGame-main .game-item:after {
+  content: "";
+  position: absolute;
+  top: -39px;
+  left: 50.5%;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: translateX(-42%) rotate(45deg);
+          transform: translateX(-42%) rotate(45deg);
+  width: 12px;
+  height: 12px;
+  border: 1px solid #B0936D;
+  z-index: 1;
+}
+
+#allLiveGame .allLiveGame-main .game-item:before {
+  content: "";
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  -webkit-transform: translateX(-50%) rotate(45deg);
+          transform: translateX(-50%) rotate(45deg);
+  width: 12px;
+  height: 12px;
+  border: 1px solid #B0936D;
+  z-index: 1;
+}
+
 #allLiveGame .allLiveGame-main .game-item:hover {
   outline-offset: 0px;
 }
 
-#allLiveGame .allLiveGame-main .outline-stroke {
-  position: absolute;
-  top: -7px;
-  left: -6px;
-  z-index: 1;
+#allLiveGame .allLiveGame-main .hovering .game-item-text {
+  -webkit-transform: translate(-50%, -20%);
+          transform: translate(-50%, -20%);
 }
 
-#allLiveGame .allLiveGame-main .game-item-text {
-  position: absolute;
-  bottom: 10%;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  z-index: 1;
+#allLiveGame .allLiveGame-main .hovering .game-item-text .main-button {
+  opacity: 1;
 }
 
-#allLiveGame .allLiveGame-main .game-item-text h2 {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
-  font-size: 26px;
-  letter-spacing: 1px;
-  font-weight: 100;
-  line-height: 1.3;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-#allLiveGame .allLiveGame-main .game-item-text p {
-  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
-  font-size: 11px;
-  color: #979797;
-  padding-top: 10px;
-}
-
-#allLiveGame .allLiveGame-main .game-item-text .main-button {
-  display: none;
+#allLiveGame .allLiveGame-main .hovering .outline-stroke {
+  opacity: 0;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 @media (min-width: 768px) {

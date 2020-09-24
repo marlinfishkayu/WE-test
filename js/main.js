@@ -343,7 +343,6 @@ $('#newReleaseCarousel').owlCarousel({
 })
 
 /*-- Add class to popular-game-carousel slider when hover --*/
-
 $(document).ready(function(){
     $(".pg-slide").hover(
         function () {
@@ -463,6 +462,7 @@ $(function(){
 const cookieContainer = document.querySelector(".cookie-container");
 const cookieButton = document.querySelector(".cookie-btn");
 
+
 cookieButton.addEventListener("click", () => {
   cookieContainer.classList.remove("active");
   localStorage.setItem("cookieBannerDisplayed", "true");
@@ -473,3 +473,26 @@ setTimeout(() => {
     cookieContainer.classList.add("active");
   }
 }, 2000);
+
+
+/*-- Add live game column when hover in All Live Game page --*/
+$(document).ready(function(){
+  $(".game-item-wrap").hover(
+      function () {
+          $(this).toggleClass('hovering');
+      });
+  });
+
+// $(document).ready(function(){
+//   $('.game-item').mouseover(function(){
+    
+//       $('.is_hover').removeClass("is_hover");
+//       $('.main-nav').addClass("is_hover");
+//       $('.nav-wrap').addClass("nav-fixed");
+//       console.log("hover");
+//   });
+//   $('.main-nav').mouseleave(function(){
+//       $('.main-nav').removeClass("is_hover");
+//       $('.nav-wrap').removeClass("nav-fixed");
+//   });
+// });
