@@ -1,5 +1,15 @@
 #allLiveGame {
     position: relative;
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .hero-intro2{
+        padding: 5rem 3rem;
+    }
+    .bottom-deco{
+        margin-top: 8rem;
+    }
     .allLiveGame-bkg{
         position: absolute;
         top: 80%;
@@ -12,7 +22,6 @@
             height: 100%; 
             object-fit: cover;
         }
-        
     }
     .hero-header {
         height: 586px;
@@ -37,7 +46,7 @@
         }
     }
     .allLiveGame-main{
-        padding: 1rem 2rem;
+        padding: 7rem 2rem;
         text-align: center;
         .livegame-scroll-title{
             padding-top: 5rem;
@@ -50,6 +59,44 @@
         } 
         .game-item-wrap{
             position: relative;
+            width: 274px;
+            margin: 0 auto;
+            .game-item-logo{
+                width: 100px;
+                height: 100px;
+                margin: 0 auto;
+                transform: translate(0,100%);
+                transition: 300ms all ease-in;
+                margin-bottom: 30px;
+                opacity: 0;
+            }
+            .mid-line{
+                transform-origin: left;
+                transform: translate(0,0) rotate(45deg) ;
+                transition: 400ms all ease-out;
+                transition-delay :0.1s;
+                width: 12px;
+                height: 12px;
+                margin: 0 auto;
+                margin-bottom: 36px;
+                border: 1px solid #B0936D;
+                position: relative;
+                opacity: 0;
+                &:after{
+                    content: "";
+                    position: absolute;
+                    left: 50%;
+                    transform: translate(-50%, -40%) rotate(45deg);
+                    opacity: 0;
+                    transition: 500ms all ;
+                    transition-timing-function: cubic-bezier(0.1, 0.4, 0.7, 0.8);
+                    width: 1px;
+                    height: 0px;
+                    background-color: #B0936D;
+                    z-index: 1;
+                    pointer-events: none;
+                }
+            }
             &:after{
                 content: "";
                 position: absolute;
@@ -80,10 +127,11 @@
             }
             .game-item-text{
                 position: absolute;
-                bottom: -7%;
+                bottom: 12%;
                 left: 50%;
                 transform: translate(-50%, 20%);
-                transition: 400ms all ease-out;
+                transition: 300ms all ;
+                transition-timing-function: cubic-bezier(0.1, 0.4, 0.7, 0.8);
                 z-index: 1;
                 h2{
                     font-family: $fontFuturaMedium;
@@ -145,6 +193,18 @@
                     background: rgb(5,39,73);
                     background: linear-gradient(180deg, rgba(5,39,73,0.8) 0%, rgba(6,11,26,1) 100%);
                 }
+                &:after{
+                    content: '';
+                    position: absolute;
+                    left: -4px;
+                    width: 280px;
+                    height: 380px;
+                    opacity: 1;
+                    z-index: 1;
+                    transition: 200ms all ease-out;
+                    background: rgb(0,15,36);
+                    background: linear-gradient(0deg, rgba(0,15,36,1) 0%, rgba(6,11,26,0) 54%);               
+                }
             }
         }
         .hovering::after{
@@ -159,20 +219,22 @@
             opacity: 1;
             transform: scale(1);
         }
-
         .game-column{
-            overflow: hidden;
-            padding-top: 38px;
-            padding-left: 10px;
-            padding-bottom: 38px;
-            height: 458px;
+            // overflow: hidden;
+            // padding-top: 38px;
+            // padding-left: 10px;
+            // padding-bottom: 38px;
+            // height: 458px;
+            .col-12{
+                margin-bottom: 8rem;
+            }
         }
         .game-item{
             width: 274px;
             height: 380px;
             transition: 200ms all ease-out;
             position: relative;
-            
+            margin: 0 auto;
             &:after{
                 content: "";
                 position: absolute;
@@ -203,7 +265,7 @@
     
 }
 #allLiveGame .allLiveGame-main .hovering .game-item-text{
-    transform: translate(-50%, -20%);
+    transform: translate(-50%, 4%);
 }
 #allLiveGame .allLiveGame-main .hovering .game-item-text .main-button{
     opacity: 1;
@@ -214,11 +276,22 @@
     opacity: 0;
     transform: scale(1.2);
 }
-#allLiveGame .allLiveGame-main .hovering .inner-stroke{
-    
+#allLiveGame .allLiveGame-main .hovering .inner-stroke{ 
     outline-offset: 0px;
 }
 #allLiveGame .allLiveGame-main .hovering picture:before{
+    opacity: 1;
+}
+#allLiveGame .allLiveGame-main .hovering .game-item-logo{ 
+    opacity: 1;
+    transform: translate(0,0%);
+}
+#allLiveGame .allLiveGame-main .hovering .mid-line::after{ 
+    height: 70px;
+    transform: translate(-50%, -43%) rotate(45deg);
+    opacity: 1;
+}
+#allLiveGame .allLiveGame-main .hovering .mid-line{ 
     opacity: 1;
 }
 // Small devices (landscape phones, 576px and up)
@@ -237,6 +310,13 @@
     }
     #allLiveGame .bottom-deco {
         margin-top: 100px;
+    }
+    #allLiveGame .allLiveGame-main .game-item-wrap {
+            position: relative;
+            margin-top: 2rem;
+    }
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text {
+        bottom: 0%;
     }
 }
 // Large devices (desktops, 992px and up)

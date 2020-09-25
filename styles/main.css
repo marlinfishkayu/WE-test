@@ -340,7 +340,7 @@ button:focus {
 
 .main-button a:after {
   content: '';
-  height: 46px;
+  height: 48px;
   border: 1px solid #caac85;
   border-image-source: linear-gradient(84deg, #caac85 1%, rgba(137, 102, 61, 0.6) 17%, #89663d 84%, #89663d 100%);
   border-image-slice: 1;
@@ -364,8 +364,8 @@ button:focus {
 
 .main-button a > span {
   display: block;
-  height: 125%;
-  margin-top: -5px;
+  height: 100%;
+  margin-top: 0;
   color: #fff;
   background: #004383;
   background: linear-gradient(333deg, rgba(0, 67, 131, 0.3) 1%, rgba(0, 32, 76, 0.8) 39%, rgba(0, 32, 76, 0.8) 72%, rgba(0, 32, 76, 0.3) 100%);
@@ -402,10 +402,6 @@ button:focus {
   .showless_btn {
     display: none;
   }
-  .main-button a > span {
-    height: 100%;
-    margin-top: 0;
-  }
 }
 
 @media (min-width: 992px) {
@@ -423,6 +419,10 @@ button:focus {
   }
   .lg-break {
     display: none;
+  }
+  .main-button a:after {
+    content: '';
+    height: 46px;
   }
 }
 
@@ -2575,10 +2575,25 @@ footer {
   letter-spacing: 3px;
 }
 
+#slider-area .main-button a > span {
+  display: block;
+  height: 130%;
+  margin-top: -5px;
+}
+
+#slider-area .main-button a:before {
+  top: 10%;
+}
+
 @media (min-width: 768px) {
   .deco-cat {
     padding-top: 2.8rem;
     padding-bottom: 1.8rem;
+  }
+  #slider-area .main-button a > span {
+    display: block;
+    height: 103%;
+    margin-top: 0;
   }
 }
 
@@ -2605,6 +2620,10 @@ footer {
   }
   .our-gamaes .expand-deco .more-deco-wrap {
     width: 231px;
+  }
+  .main-button a:after {
+    content: '';
+    height: 48px;
   }
 }
 
@@ -4828,6 +4847,19 @@ select.form-control::-ms-expand {
   position: relative;
 }
 
+#allLiveGame a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#allLiveGame .hero-intro2 {
+  padding: 5rem 3rem;
+}
+
+#allLiveGame .bottom-deco {
+  margin-top: 8rem;
+}
+
 #allLiveGame .allLiveGame-bkg {
   position: absolute;
   top: 80%;
@@ -4873,7 +4905,7 @@ select.form-control::-ms-expand {
 }
 
 #allLiveGame .allLiveGame-main {
-  padding: 1rem 2rem;
+  padding: 7rem 2rem;
   text-align: center;
 }
 
@@ -4889,6 +4921,56 @@ select.form-control::-ms-expand {
 
 #allLiveGame .allLiveGame-main .game-item-wrap {
   position: relative;
+  width: 274px;
+  margin: 0 auto;
+}
+
+#allLiveGame .allLiveGame-main .game-item-wrap .game-item-logo {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  -webkit-transform: translate(0, 100%);
+          transform: translate(0, 100%);
+  -webkit-transition: 300ms all ease-in;
+  transition: 300ms all ease-in;
+  margin-bottom: 30px;
+  opacity: 0;
+}
+
+#allLiveGame .allLiveGame-main .game-item-wrap .mid-line {
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: translate(0, 0) rotate(45deg);
+          transform: translate(0, 0) rotate(45deg);
+  -webkit-transition: 400ms all ease-out;
+  transition: 400ms all ease-out;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+  width: 12px;
+  height: 12px;
+  margin: 0 auto;
+  margin-bottom: 36px;
+  border: 1px solid #B0936D;
+  position: relative;
+  opacity: 0;
+}
+
+#allLiveGame .allLiveGame-main .game-item-wrap .mid-line:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -40%) rotate(45deg);
+          transform: translate(-50%, -40%) rotate(45deg);
+  opacity: 0;
+  -webkit-transition: 500ms all;
+  transition: 500ms all;
+  -webkit-transition-timing-function: cubic-bezier(0.1, 0.4, 0.7, 0.8);
+          transition-timing-function: cubic-bezier(0.1, 0.4, 0.7, 0.8);
+  width: 1px;
+  height: 0px;
+  background-color: #B0936D;
+  z-index: 1;
+  pointer-events: none;
 }
 
 #allLiveGame .allLiveGame-main .game-item-wrap:after {
@@ -4927,12 +5009,14 @@ select.form-control::-ms-expand {
 
 #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text {
   position: absolute;
-  bottom: -7%;
+  bottom: 12%;
   left: 50%;
   -webkit-transform: translate(-50%, 20%);
           transform: translate(-50%, 20%);
-  -webkit-transition: 400ms all ease-out;
-  transition: 400ms all ease-out;
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+  -webkit-transition-timing-function: cubic-bezier(0.1, 0.4, 0.7, 0.8);
+          transition-timing-function: cubic-bezier(0.1, 0.4, 0.7, 0.8);
   z-index: 1;
 }
 
@@ -5007,6 +5091,21 @@ select.form-control::-ms-expand {
   background: linear-gradient(180deg, rgba(5, 39, 73, 0.8) 0%, #060b1a 100%);
 }
 
+#allLiveGame .allLiveGame-main .game-item-wrap picture:after {
+  content: '';
+  position: absolute;
+  left: -4px;
+  width: 280px;
+  height: 380px;
+  opacity: 1;
+  z-index: 1;
+  -webkit-transition: 200ms all ease-out;
+  transition: 200ms all ease-out;
+  background: #000f24;
+  background: -webkit-gradient(linear, left bottom, left top, from(#000f24), color-stop(54%, rgba(6, 11, 26, 0)));
+  background: linear-gradient(0deg, #000f24 0%, rgba(6, 11, 26, 0) 54%);
+}
+
 #allLiveGame .allLiveGame-main .hovering::after {
   -webkit-transform: translate(-50%, -80%);
           transform: translate(-50%, -80%);
@@ -5025,12 +5124,8 @@ select.form-control::-ms-expand {
           transform: scale(1);
 }
 
-#allLiveGame .allLiveGame-main .game-column {
-  overflow: hidden;
-  padding-top: 38px;
-  padding-left: 10px;
-  padding-bottom: 38px;
-  height: 458px;
+#allLiveGame .allLiveGame-main .game-column .col-12 {
+  margin-bottom: 8rem;
 }
 
 #allLiveGame .allLiveGame-main .game-item {
@@ -5039,6 +5134,7 @@ select.form-control::-ms-expand {
   -webkit-transition: 200ms all ease-out;
   transition: 200ms all ease-out;
   position: relative;
+  margin: 0 auto;
 }
 
 #allLiveGame .allLiveGame-main .game-item:after {
@@ -5068,8 +5164,8 @@ select.form-control::-ms-expand {
 }
 
 #allLiveGame .allLiveGame-main .hovering .game-item-text {
-  -webkit-transform: translate(-50%, -20%);
-          transform: translate(-50%, -20%);
+  -webkit-transform: translate(-50%, 4%);
+          transform: translate(-50%, 4%);
 }
 
 #allLiveGame .allLiveGame-main .hovering .game-item-text .main-button {
@@ -5092,6 +5188,23 @@ select.form-control::-ms-expand {
   opacity: 1;
 }
 
+#allLiveGame .allLiveGame-main .hovering .game-item-logo {
+  opacity: 1;
+  -webkit-transform: translate(0, 0%);
+          transform: translate(0, 0%);
+}
+
+#allLiveGame .allLiveGame-main .hovering .mid-line::after {
+  height: 70px;
+  -webkit-transform: translate(-50%, -43%) rotate(45deg);
+          transform: translate(-50%, -43%) rotate(45deg);
+  opacity: 1;
+}
+
+#allLiveGame .allLiveGame-main .hovering .mid-line {
+  opacity: 1;
+}
+
 @media (min-width: 768px) {
   #allLiveGame .hero-intro2 {
     font-size: 20px;
@@ -5103,6 +5216,13 @@ select.form-control::-ms-expand {
   }
   #allLiveGame .bottom-deco {
     margin-top: 100px;
+  }
+  #allLiveGame .allLiveGame-main .game-item-wrap {
+    position: relative;
+    margin-top: 2rem;
+  }
+  #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text {
+    bottom: 0%;
   }
 }
 

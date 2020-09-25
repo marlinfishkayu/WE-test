@@ -234,7 +234,7 @@ button:focus {
   }
   a:after {
     content: '';
-    height: 46px;
+    height: 48px;
     border: 1px solid rgb(202,172,133);
     border-image-source: linear-gradient(84deg, rgba(202,172,133,1) 1%, rgba(137,102,61,0.6) 17%, rgba(137,102,61,1) 84%, rgba(137,102,61,1) 100%);
     border-image-slice: 1;
@@ -254,8 +254,8 @@ button:focus {
   }
   a>span {
     display: block;
-    height: 125%;
-    margin-top: -5px;
+    height: 100%;
+    margin-top: 0;
     color: #fff;
     background: rgb(0,67,131);
     background: linear-gradient(333deg, rgba(0,67,131,0.3) 1%, rgba(0,32,76,0.8) 39%, rgba(0,32,76,0.8) 72%, rgba(0,32,76,0.3) 100%);
@@ -335,10 +335,7 @@ button:focus {
   .showless_btn{
     display: none;
   }
-  .main-button a>span {
-    height: 100%;
-    margin-top: 0;
-  }
+
 }
 
 // Large devices (desktops, 992px and up)
@@ -358,10 +355,18 @@ button:focus {
   .lg-break{
     display: none;
   }
+  
+  .main-button a:after {
+    content: '';
+    height: 46px;
+  }
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  
+  // .main-button a>span {
+  //   height: 125%;
+  //   margin-top: -5px;
+  // }
 }
 
 
