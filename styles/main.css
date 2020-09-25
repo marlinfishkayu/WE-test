@@ -5035,6 +5035,7 @@ select.form-control::-ms-expand {
   font-size: 11px;
   color: #979797;
   padding-top: 10px;
+  opacity: 0;
 }
 
 #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text .main-button {
@@ -5172,6 +5173,10 @@ select.form-control::-ms-expand {
   opacity: 1;
   pointer-events: inherit;
   cursor: pointer;
+}
+
+#allLiveGame .allLiveGame-main .hovering .game-item-text p {
+  opacity: 1;
 }
 
 #allLiveGame .allLiveGame-main .hovering .outline-stroke {

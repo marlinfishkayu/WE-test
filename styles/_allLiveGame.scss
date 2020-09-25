@@ -147,6 +147,7 @@
                     font-size: 11px;
                     color: #979797;
                     padding-top: 10px;
+                    opacity: 0;
                 }
                 .main-button{
                     opacity: 0;
@@ -271,6 +272,9 @@
     opacity: 1;
     pointer-events: inherit;
     cursor: pointer;
+}
+#allLiveGame .allLiveGame-main .hovering .game-item-text p{
+    opacity: 1;
 }
 #allLiveGame .allLiveGame-main .hovering .outline-stroke{
     opacity: 0;
