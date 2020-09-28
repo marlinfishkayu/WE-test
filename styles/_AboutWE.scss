@@ -5,11 +5,9 @@
         .hero-header-bkg {
             height: 400px;
         }
-        .hero-title{
-            // line-height: 1;
-            // font-size: 40px;
-            // padding: 0 2rem;
-        }
+    }
+    .hero-header::after{
+        background: transparent;
     }
     .about-slogan,
     .about-brandStory{
@@ -20,6 +18,7 @@
     .about-main{
         padding: 0 3rem;
         padding-bottom: 3rem;
+        padding-top: 13rem;
         .hero-intro2{
             font-size: 20px;
             text-align: center;
@@ -227,7 +226,9 @@
     #AboutWE #mission-bkg::after{
         display: block;
     }
-    
+    #AboutWE .hero-header .hero-header-bkg {
+        height: 886px;
+    }
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {

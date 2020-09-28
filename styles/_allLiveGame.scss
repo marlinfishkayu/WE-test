@@ -146,12 +146,14 @@
                     line-height: 1.3;
                     text-transform: uppercase;
                     text-align: center;
+                    text-shadow: 1px 1px 0 rgba(0,0,0,0.80);
                 }
                 h4{
                     font-family: $fontBarlowCondensed;
                     font-size: 18px;
                     font-weight: 100;
                     text-transform: uppercase;
+                    text-shadow: 1px 1px 0 rgba(0,0,0,0.80);
                 }
                 p{
                     font-family: $fontBarlowRegular;
@@ -346,6 +348,7 @@
     #allLiveGame .allLiveGame-main .hero-intro2{
         padding-bottom: 20px;
     }
+    
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
