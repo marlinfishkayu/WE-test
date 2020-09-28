@@ -5153,6 +5153,13 @@ select.form-control::-ms-expand {
   text-align: center;
 }
 
+#allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4 {
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
 #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p {
   font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   font-size: 11px;
@@ -5377,12 +5384,6 @@ select.form-control::-ms-expand {
 
 #AboutWE .hero-header .hero-header-bkg {
   height: 400px;
-}
-
-#AboutWE .hero-header .hero-title {
-  line-height: 1;
-  font-size: 40px;
-  padding: 0 2rem;
 }
 
 #AboutWE .about-slogan,
