@@ -5032,6 +5032,11 @@ select.form-control::-ms-expand {
   text-align: center;
 }
 
+#allLiveGame .allLiveGame-main .hero-intro2 {
+  padding: 2rem 0.5rem;
+  padding-bottom: 80px;
+}
+
 #allLiveGame .allLiveGame-main .livegame-scroll-title {
   padding-top: 5rem;
   font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
@@ -5056,7 +5061,7 @@ select.form-control::-ms-expand {
           transform: translate(0, 100%);
   -webkit-transition: 300ms all ease-in;
   transition: 300ms all ease-in;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   opacity: 0;
 }
 
@@ -5134,6 +5139,7 @@ select.form-control::-ms-expand {
   position: absolute;
   bottom: 12%;
   left: 50%;
+  width: 100%;
   -webkit-transform: translate(-50%, 20%);
           transform: translate(-50%, 20%);
   -webkit-transition: 300ms all;
@@ -5371,6 +5377,9 @@ select.form-control::-ms-expand {
   }
   #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text {
     bottom: 0%;
+  }
+  #allLiveGame .allLiveGame-main .hero-intro2 {
+    padding-bottom: 20px;
   }
 }
 

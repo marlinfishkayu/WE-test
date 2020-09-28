@@ -48,6 +48,10 @@
     .allLiveGame-main{
         padding: 7rem 2rem;
         text-align: center;
+        .hero-intro2{
+            padding: 2rem 0.5rem;
+            padding-bottom: 80px;
+        }
         .livegame-scroll-title{
             padding-top: 5rem;
             font-family: $fontFuturaMedium;
@@ -67,7 +71,7 @@
                 margin: 0 auto;
                 transform: translate(0,100%);
                 transition: 300ms all ease-in;
-                margin-bottom: 30px;
+                margin-bottom: 20px;
                 opacity: 0;
             }
             .mid-line{
@@ -129,6 +133,7 @@
                 position: absolute;
                 bottom: 12%;
                 left: 50%;
+                width: 100%;
                 transform: translate(-50%, 20%);
                 transition: 300ms all ;
                 transition-timing-function: cubic-bezier(0.1, 0.4, 0.7, 0.8);
@@ -337,6 +342,9 @@
     }
     #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text {
         bottom: 0%;
+    }
+    #allLiveGame .allLiveGame-main .hero-intro2{
+        padding-bottom: 20px;
     }
 }
 // Large devices (desktops, 992px and up)
