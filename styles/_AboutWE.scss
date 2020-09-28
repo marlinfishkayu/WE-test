@@ -15,6 +15,7 @@
     .about-brandStory{
         max-width: 712px;
         margin: 0 auto;
+        position: relative;
     }
     .about-main{
         padding: 0 3rem;
@@ -58,9 +59,9 @@
         max-width: 712px;
         padding-top: 5rem;
         padding-bottom: 5rem;
-        
-        
-
+        .about-p{
+            padding: 13px 3rem;
+        }
     }
     .about-h2{
         font-family: $fontFuturaMedium;
@@ -70,7 +71,7 @@
         line-height: 50px;
         text-transform: uppercase;
         color: #D8D8D8;
-        padding-bottom: 4rem;
+        padding-bottom: 1rem;
     }
     .about-h4{
         font-family: $fontFuturaMedium;
@@ -80,7 +81,9 @@
         line-height: 50px;
         text-transform: uppercase;
         color: #D8D8D8;
+        text-align: center;
     }
+    
     .about-p{
         padding-top: 30px;
         font-family: $fontBarlowLight;
@@ -109,12 +112,12 @@
         padding: 3rem 0;
         
         .line-deco{
-            text-align: left;
-            margin: inherit;
-            padding-bottom: 2rem;
+            margin: 0 auto;
+            padding-bottom: 0.5rem;
         }
         .about-p{
             padding-top: 20px;
+            text-align: center;
         }
     }
     .about-slogan{
@@ -122,13 +125,50 @@
         padding-top: 5rem;
         padding: 3rem 0;
     }
+    #block-header-frame {
+        position: absolute;
+        top: 18%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 73vw;
+        height: 96vh;
+        z-index: -1;
+        border: 1px solid red;
+        opacity: 0.5;
+        min-height: 100px;
+        display: none;
+       
+    }
     #block-header {
+        position: absolute;
+        top: 16%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80vw;
+        height: 86vh;
+        z-index: -1;
         background: rgb(6,11,26);
         background: linear-gradient(349deg, rgba(6,11,26,1) 0%, rgba(5,39,73,1) 100%);
         opacity: 0.5;
         min-height: 100px;
         -webkit-clip-path: url(#myClip);
         clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 99%, 0 100%, 0 18%);
+       
+    }
+    #mission-bkg{
+        position: relative;
+    }
+    #mission-bkg::after{
+        content: '';
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        display: none;
+        background: blue;
     }
     // .about-section{
     //     max-width: 712px;
@@ -146,7 +186,14 @@
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-
+    #AboutWE .about-h2 {
+        padding-bottom: 4rem;
+    }
+    #AboutWE #block-header-frame{
+        display: block;
+        width: 75vw;
+        height: 66vh;
+    }
 }
 
 // Large devices (desktops, 992px and up)
@@ -154,7 +201,6 @@
     #AboutWE .about-wrap {
         padding-top: 2rem;
         padding-bottom: 2rem;   
-        
     }
     #AboutWE .about-h2{
         font-size: 36px;
@@ -164,10 +210,24 @@
     }
     #AboutWE .about-mission .upper .about-p{
         padding:0;
+        
     }
     #AboutWE .about-mission .lower{
         padding-top: 5rem;
     }
+    #AboutWE #block-header{
+        width: 60vw;
+        height: 72vh;
+    }
+    #AboutWE #block-header-frame {
+        width: 57vw;
+        height: 67vh;
+    
+    }
+    #AboutWE #mission-bkg::after{
+        display: block;
+    }
+    
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
