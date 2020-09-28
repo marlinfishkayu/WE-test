@@ -5160,7 +5160,7 @@ select.form-control::-ms-expand {
 }
 
 #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4 {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   font-size: 18px;
   font-weight: 100;
   text-transform: uppercase;
