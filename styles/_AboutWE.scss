@@ -3,7 +3,7 @@
     .hero-header{
         height: 400px;
         .hero-header-bkg {
-            height: 400px;
+            height: 600px;
         }
     }
     .hero-header::after{
@@ -18,13 +18,14 @@
     .about-main{
         padding: 0 3rem;
         padding-bottom: 3rem;
-        padding-top: 13rem;
-        .hero-intro2{
-            font-size: 20px;
-            text-align: center;
-            max-width: 712px;
-            margin: 0 auto;
-        }
+        padding-top: 18rem;
+    }
+    .hero-intro2{
+        font-size: 20px;
+        text-align: center;
+        max-width: 712px;
+        margin: 0 auto;
+        padding: 0 3rem;
     }
     .about-top-deco{
         padding-top: 5rem;
@@ -50,14 +51,13 @@
             height: 100%; 
             object-fit: cover;
         }
-        
     }
     .about-brandStory{
         margin: 0 auto;
         text-align: center;
         max-width: 712px;
         padding-top: 5rem;
-        padding-bottom: 5rem;
+        padding-bottom: 15rem;
         .about-p{
             padding: 13px 3rem;
         }
@@ -130,7 +130,7 @@
         left: 50%;
         transform: translateX(-50%);
         width: 73vw;
-        height: 96vh;
+        height: 50vh;
         z-index: -1;
         border: 1px solid red;
         opacity: 0.5;
@@ -154,29 +154,21 @@
         clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 99%, 0 100%, 0 18%);
        
     }
-    #mission-bkg{
-        position: relative;
+    .about-section{
+        max-width: 712px;
+        clip-path: polygon(10% 0, 100% 0, 100% 85%, 91% 100%, 0 100%, 0 16%);
+        background:red;
     }
-    #mission-bkg::after{
-        content: '';
-        position: absolute;
-        top: 0%;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-        display: none;
-        background: blue;
-    }
-    // .about-section{
-    //     max-width: 712px;
-    //     clip-path: polygon(10% 0, 100% 0, 100% 85%, 91% 100%, 0 100%, 0 16%);
-    //     background:red;
-    // }
     
 }
-
+#frame_svg {
+    position: absolute;
+        top: 16%;
+        left: 50%;
+        transform: translateX(-50%);
+    left: 10vw; top: 10vh;
+    width: 80vw; height: 80vh;
+  }
 //expand style
 
 // Small devices (landscape phones, 576px and up)
@@ -185,9 +177,6 @@
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    #AboutWE .about-h2 {
-        padding-bottom: 4rem;
-    }
     #AboutWE #block-header-frame{
         display: block;
         width: 75vw;
@@ -204,30 +193,34 @@
     #AboutWE .about-h2{
         font-size: 36px;
     }
+    #AboutWE .about-mission {
+        padding-top: 13rem;  
+    }
     #AboutWE .about-mission .about-h2 {
         padding-left: 5rem;
     }
     #AboutWE .about-mission .upper .about-p{
         padding:0;
-        
     }
     #AboutWE .about-mission .lower{
         padding-top: 5rem;
     }
     #AboutWE #block-header{
         width: 60vw;
-        height: 72vh;
+        height: 44vh;
     }
     #AboutWE #block-header-frame {
         width: 57vw;
-        height: 67vh;
-    
+        height: 50vh;
     }
     #AboutWE #mission-bkg::after{
         display: block;
     }
     #AboutWE .hero-header .hero-header-bkg {
         height: 886px;
+    }
+    #AboutWE .about-main {
+        padding-top: 13rem;
     }
  }
 // Extra large devices (large desktops, 1200px and up)
