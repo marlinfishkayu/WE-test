@@ -308,7 +308,7 @@ button:focus {
   // }
 }
 
-.md-break-only{
+.lg-break-only{
   display: none;
 }
 .md-break{
@@ -472,9 +472,7 @@ button:focus {
   .showless_btn{
     display: none;
   }
-  .md-break-only{
-    display: block;
-  }
+  
 }
 
 // Large devices (desktops, 992px and up)
@@ -498,6 +496,9 @@ button:focus {
   .main-button a:after {
     content: '';
     height: 46px;
+  }
+  .lg-break-only{
+    display: block;
   }
  }
 // Extra large devices (large desktops, 1200px and up)

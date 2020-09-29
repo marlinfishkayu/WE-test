@@ -61,6 +61,15 @@
         .about-p{
             padding: 13px 3rem;
         }
+        .line-deco-vertical{
+            position: absolute;
+            bottom: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 18px;
+            height: 80px;
+            pointer-events: none;
+        }
     }
     .about-h2{
         font-family: $fontFuturaMedium;
@@ -88,8 +97,7 @@
         font-family: $fontBarlowLight;
         font-size: 16px;
         font-weight: 100;
-        letter-spacing: 1px;
-        line-height: 1.8;
+        line-height: 1.5;
         color: #979797;
         max-width: 712px;
         margin: 0 auto;
@@ -109,7 +117,13 @@
     .about-mission{
         max-width: 930px;
         padding: 3rem 0;
-        
+        position: relative;
+        .upper{
+            position: relative;
+        }
+        #upper-frame{
+            display: none;
+        }
         .line-deco{
             margin: 0 auto;
             padding-bottom: 0.5rem;
@@ -124,35 +138,31 @@
         padding-top: 5rem;
         padding: 3rem 0;
     }
-    #block-header-frame {
-        position: absolute;
-        top: 18%;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 73vw;
-        height: 50vh;
-        z-index: -1;
-        border: 1px solid red;
-        opacity: 0.5;
-        min-height: 100px;
-        display: none;
-       
-    }
-    #block-header {
+    #Dynamic-frame {
         position: absolute;
         top: 16%;
         left: 50%;
         transform: translateX(-50%);
-        width: 80vw;
-        height: 86vh;
         z-index: -1;
-        background: rgb(6,11,26);
-        background: linear-gradient(349deg, rgba(6,11,26,1) 0%, rgba(5,39,73,1) 100%);
-        opacity: 0.5;
-        min-height: 100px;
-        -webkit-clip-path: url(#myClip);
-        clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 99%, 0 100%, 0 18%);
-       
+    }
+    #Dynamic-frame-2 {
+        position: absolute;
+        top: 18%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 939px;
+        height: 597px;
+        z-index: -1;
+        display: none;
+    }
+    #Dynamic-frame-outer{
+        position: absolute;
+        top: 12%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 939px;
+        height: 572px;
+        pointer-events: none;
     }
     .about-section{
         max-width: 712px;
@@ -177,11 +187,7 @@
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    #AboutWE #block-header-frame{
-        display: block;
-        width: 75vw;
-        height: 66vh;
-    }
+
 }
 
 // Large devices (desktops, 992px and up)
@@ -197,21 +203,26 @@
         padding-top: 13rem;  
     }
     #AboutWE .about-mission .about-h2 {
-        padding-left: 5rem;
+        padding-left: 10rem;
     }
     #AboutWE .about-mission .upper .about-p{
         padding:0;
+        text-align: left;
+        width: 375px;
     }
     #AboutWE .about-mission .lower{
-        padding-top: 5rem;
+        padding: 3rem 1rem;
     }
-    #AboutWE #block-header{
-        width: 60vw;
-        height: 44vh;
+    #AboutWE #Dynamic-frame{
+        width: 911px;
+        height: 531px;
     }
-    #AboutWE #block-header-frame {
-        width: 57vw;
-        height: 50vh;
+    #AboutWE .about-brandStory .about-h2{
+        padding-top: 13px;
+        margin-bottom: 40px;
+    }
+    #AboutWE .about-brandStory .line-deco{
+        margin-bottom: 10px;
     }
     #AboutWE #mission-bkg::after{
         display: block;
@@ -221,6 +232,18 @@
     }
     #AboutWE .about-main {
         padding-top: 13rem;
+    }
+    #AboutWE .about-mission .line-deco {
+        padding: 0;
+    }
+    #AboutWE #Dynamic-frame-2{
+        display: block;
+    }
+    #AboutWE .about-mission #upper-frame {
+        position: absolute;
+        top: -59%;
+        right: 48px;
+        display: block;
     }
  }
 // Extra large devices (large desktops, 1200px and up)
