@@ -292,7 +292,7 @@
                             alt=""
                         />
                     </div>
-                    <div class="hero-float">
+                    <div class="hero-float" >
                         <h1 class="hero-title sal-animate" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0s;">
                             About WE
                         </h1>
@@ -302,21 +302,25 @@
                         <p class="hero-intro2 sal-animate" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.25s;">
                             World Entertainment (WE) started as a global online gaming platform and developer providing a full spectrum of services and support to our players and clients. Getting into the spirit of “more than fun.” WE, aim to inspire more excitement and new elements into games. 
                         </p>
-                        <div class="about-top-deco">
-                            <img src="./images/about/about-hero-deco.svg" alt="" />
-                        </div>
+                        
                     </div>
                 </div>
 
                 <!-- Start About Section -->
                 <div class="about-main">
-                    <div class="about-wrap"></div>
+                    <div class="about-top-deco">
+                        <img id="about-top-deco-w" src="./images/about/about-hero-deco.svg" alt="" />
+                        <img id="about-top-deco-m" src="./images/about/about-top-deco-m.svg" alt="" />
+                    </div>
                     <div class="about-brandStory">
-                        <div id="Dynamic-frame">
-                            <img src="./images/about/Dynamic-frame.svg" alt=""/>
+                        <div class="Dynamic-frame" id="Dynamic-frame-w">
+                            <img id="Dynamic-frame-w" src="./images/about/Dynamic-frame.svg" alt=""/>
+                        </div>
+                        <div class="Dynamic-frame" id="Dynamic-frame-m">
+                            <img src="./images/about/Dynamic-frame-m.svg" alt=""/>
                         </div>
                         <div id="Dynamic-frame-outer">
-                            <img src="./images/about/Dynamic-frame-outer.svg" alt=""/>
+                            <img id="Dynamic-frame-outer-w" src="./images/about/Dynamic-frame-outer.svg" alt=""/>
                         </div>
                         <h2 class="about-h2">Brand Story</h2>
                         <div class="line-deco">
@@ -335,9 +339,8 @@
                         </p>
                     </div>
                     <div class="about-slogan">
-                        <h2 class="about-h2">
-                            “WE are more than fun” is the <br class="lg-break-only" />
-                            spirit of World Entertainment.
+                        <h2 class="about-h2 ">
+                            “WE are more than fun”
                         </h2>
                         <div class="line-deco">
                             <img src="./images/about/small-line-deco.svg" alt="" />
@@ -345,7 +348,7 @@
                         <p class="about-p">Encountering the sparkle of joy, WE link you up with our fascinated gaming platform and show you unexpected excellence.</p>
                     </div>
                     <div class="about-mission container">
-                        <div id="Dynamic-frame-2">
+                        <div class="Dynamic-frame-2">
                             <img src="./images/about/Dynamic-frame-2.svg" alt=""/>
                         </div>
                         <div class="row upper">
@@ -361,7 +364,11 @@
                                     Vision & <br class="lg-break-only"/>
                                     Values
                                 </h2>
+                                <div class="line-deco">
+                                    <img src="./images/about/small-line-deco.svg" alt="" />
+                                </div>
                             </div>
+                            
                             <div class="col-12 col-md-12 col-lg-7">
                                 <p class="about-p">
                                     Our mission is to further evolve a wide variety of online gaming products and services, and to enhance the gaming experience of online platforms. Our vision is to grow our position as one of the world’s
@@ -375,6 +382,9 @@
                                 <div class="line-deco">
                                     <img src="./images/about/small-line-deco.svg" alt="" />
                                 </div>
+                                <div class="square-deco-m">
+                                    <img src="./images/about/square.svg" alt="" />
+                                </div>
                                 <p class="about-p">
                                     WE are utterly committed to doing something new as WE believe creativity has no boundary. From idea, product design, development and marketing, WE turn an imagination into a practical solution by
                                     cutting-edge technology.
@@ -385,6 +395,9 @@
                                 <div class="line-deco">
                                     <img src="./images/about/small-line-deco.svg" alt="" />
                                 </div>
+                                <div class="square-deco-m">
+                                    <img src="./images/about/square.svg" alt="" />
+                                </div>
                                 <p class="about-p">
                                     Develop a high-quality user experience through practices, WE assure to give out the best effort and present the ultimate version of our platform with an extraordinary interaction.
                                 </p>
@@ -394,13 +407,17 @@
                                 <div class="line-deco">
                                     <img src="./images/about/small-line-deco.svg" alt="" />
                                 </div>
+                                <div class="square-deco-m">
+                                    <img src="./images/about/square.svg" alt="" />
+                                </div>
                                 <p class="about-p">
                                     Recognised diversification is a key to run an entertainment complex. WE develop multiple-choice games to fulfill various players in all parts of the world, so as to achieve higher levels of excitement.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="about-cert">
+                    
+                    <!-- <div class="about-cert">
                         <div class="cert-diamond">
                             <img src="./images/about/cert-diamond.svg" alt="" />
                         </div>
@@ -433,7 +450,7 @@
                         <div class="about-bottom-deco">
                             <img src="./images/about/about-hero-deco.svg" alt="" />
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="about-bkg">
                     <img src="images/about/bkg_x1.png" srcset="images/about/bkg_x1.png 500w, images/about/bkg_x2.png 1000w" alt="" />
@@ -569,7 +586,20 @@
                 });
             });
         </script>
+        <!-- Lax JS  -->
+        <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+        <script>
+            window.onload = function() {
+            lax.setup() // init
 
+            const updateLax = () => {
+                lax.update(window.scrollY)
+                window.requestAnimationFrame(updateLax)
+            }
+
+            window.requestAnimationFrame(updateLax)
+        }
+        </script>
         <!-- Sal JS  -->
         <script src="./js/sal.js"></script>
         <script>

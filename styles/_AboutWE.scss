@@ -15,9 +15,9 @@
         max-width: 712px;
         margin: 0 auto;
         position: relative;
+        
     }
     .about-main{
-        padding: 0 3rem;
         padding-bottom: 3rem;
         padding-top: 18rem;
     }
@@ -30,8 +30,8 @@
     }
     .about-top-deco{
         padding-top: 5rem;
-        max-width: 900px;
         margin: 0 auto;
+        width: 321px;
         img{
             width: 100%; 
             background-position: 50% 10%; 
@@ -57,11 +57,11 @@
         margin: 0 auto;
         text-align: center;
         max-width: 712px;
-        padding-top: 5rem;
-        padding-bottom: 15rem;
-        .about-p{
-            padding: 13px 3rem;
-        }
+        padding-top: 12rem;
+        padding-bottom: 3rem;
+        padding: 20px 1.5rem;
+        margin-top:5rem;
+        border-bottom: 0.5px solid #B0936D;
         .line-deco-vertical{
             position: absolute;
             bottom: 7%;
@@ -70,17 +70,19 @@
             width: 18px;
             height: 80px;
             pointer-events: none;
+            display: none;
         }
     }
     .about-h2{
         font-family: $fontFuturaMedium;
-        font-size: 26px;
+        font-size: 20px;
         font-weight: 100;
         letter-spacing: 1px;
         line-height: 50px;
         text-transform: uppercase;
         color: #D8D8D8;
         padding-bottom: 1rem;
+        text-align: center;
     }
     .about-h4{
         font-family: $fontFuturaMedium;
@@ -95,17 +97,18 @@
     .about-p{
         padding-top: 30px;
         font-family: $fontBarlowLight;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 100;
         line-height: 1.5;
         color: #979797;
         max-width: 712px;
         margin: 0 auto;
+        padding: 13px 1.5rem;
     }
     .line-deco{
         width: 80px;
         margin: 0 auto;
-        padding-top: 1rem;
+        padding-top: 0rem;
         img{
             width: 100%; 
             background-position: 50% 10%; 
@@ -116,8 +119,9 @@
     }
     .about-mission{
         max-width: 930px;
-        padding: 3rem 0;
         position: relative;
+        padding: 20px 1.5rem;
+        border-bottom: 0.5px solid #B0936D;
         .upper{
             position: relative;
         }
@@ -134,21 +138,34 @@
         .about-p{
             padding-top: 12px;
             text-align: center;
+            padding: 13px 1.5rem;
+        }
+        .square-deco-m{
+            width: 14px;
+            height: 14px;
+            margin: 0 auto;
+            display: block;
+        }
+        .lower .line-deco{
+            display: none;
         }
     }
+
     .about-slogan{
         text-align: center;
         padding-top: 5rem;
-        padding: 3rem 0;
+        padding: 20px 1.5rem;
+        border-bottom: 0.5px solid #B0936D;
     }
-    #Dynamic-frame {
+    .Dynamic-frame {
         position: absolute;
         top: 16%;
         left: 50%;
         transform: translateX(-50%);
         z-index: -1;
+        display: none;
     }
-    #Dynamic-frame-2 {
+    .Dynamic-frame-2 {
         position: absolute;
         top: 18%;
         left: 50%;
@@ -166,6 +183,7 @@
         width: 939px;
         height: 572px;
         pointer-events: none;
+        display: none;
     }
     .about-section{
         max-width: 712px;
@@ -219,8 +237,18 @@
             margin-top: 10rem;
         }
     }
-    
+    #Dynamic-frame-outer-w,
+    #about-top-deco-w,
+    #Dynamic-frame-w,
+    #Dynamic-frame-m,
+    #Dynamic-frame-outer-m{
+        display: none;
+    }
+    #about-top-deco-m{
+        display: block;
+    }
 }
+
 #frame_svg {
     position: absolute;
     top: 16%;
@@ -233,11 +261,52 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
-
+    #AboutWE .about-mission .square-deco-m{
+        display: none;
+    }
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-
+    #AboutWE .about-top-deco{
+        width: 100%;
+        max-width: 900px;
+    }
+    #AboutWE .line-deco {
+        padding-top: 1rem;
+    }
+    #AboutWE {
+        #about-top-deco-m,
+        #Dynamic-frame-outer-w,
+        #Dynamic-frame-w{
+            display: none;
+        }
+        #about-top-deco-w,
+        #Dynamic-frame-m,
+        #Dynamic-frame-outer-m{
+            display: block;
+        }
+    }
+    #AboutWE .about-brandStory .about-p {
+        padding: 13px 3rem;
+    }
+    #AboutWE #Dynamic-frame-m{
+        width: 911px;
+        height: 531px;
+    }
+    #AboutWE .about-brandStory .about-p {
+        max-width: 600px;
+    }
+    #AboutWE .about-h2{
+        font-size: 36px;
+    }
+    #AboutWE .about-brandStory{
+        border-bottom: none;
+    }
+    #AboutWE .about-brandStory,
+    #AboutWE .about-mission,
+    #AboutWE .about-slogan{
+        border: none;
+    }
 }
 
 // Large devices (desktops, 992px and up)
@@ -245,6 +314,10 @@
     #AboutWE .about-wrap {
         padding-top: 2rem;
         padding-bottom: 2rem;   
+    }
+    #AboutWE .about-brandStory {
+        padding-top: 5rem;
+        padding-bottom: 15rem;
     }
     #AboutWE .about-h2{
         font-size: 36px;
@@ -263,7 +336,7 @@
     #AboutWE .about-mission .lower{
         padding: 4rem 1rem;
     }
-    #AboutWE #Dynamic-frame{
+    #AboutWE .Dynamic-frame{
         width: 911px;
         height: 531px;
     }
@@ -273,18 +346,19 @@
     }
     #AboutWE .about-brandStory .line-deco{
         margin-bottom: 10px;
+        display: block;
     }
-   
     #AboutWE .hero-header .hero-header-bkg {
         height: 886px;
     }
     #AboutWE .about-main {
         padding-top: 13rem;
+        padding: 0 3rem;
     }
     #AboutWE .about-mission .line-deco {
         padding: 0;
     }
-    #AboutWE #Dynamic-frame-2{
+    #AboutWE .Dynamic-frame-2{
         display: block;
     }
     #AboutWE .about-mission #upper-frame {
@@ -313,9 +387,30 @@
         width: 351px;
         height: 635px;
     }
-    AboutWE .about-cert .about-cert-icon {
+    #AboutWE .about-cert .about-cert-icon {
         margin: 20px 50px;
     }
+    #AboutWE .about-cert .about-bottom-deco {
+        margin-top: 15rem;
+    }
+    #AboutWE .Dynamic-frame{
+        display: block;
+    }
+    #AboutWE #Dynamic-frame-outer{
+        display: block;
+    }
+    #AboutWE .about-brandStory .line-deco-vertical{
+        display: block;
+    }
+    #AboutWE #Dynamic-frame-outer-m,
+    #AboutWE  #Dynamic-frame-m{
+        display: none;
+    }
+    #AboutWE #Dynamic-frame-outer-w,
+    #AboutWE #Dynamic-frame-w{
+        display: block;
+    }
+    
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
