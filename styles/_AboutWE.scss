@@ -242,6 +242,7 @@
             width: 321px;
         }
     }
+    #about-top-deco-lg,
     #Dynamic-frame-outer-w,
     #about-top-deco-w,
     #about-bottom-deco-w,
@@ -396,6 +397,7 @@
     }
 }
 
+
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
     #AboutWE .about-main{
@@ -415,27 +417,28 @@
         padding-top: 13rem;  
     }
     #AboutWE .about-mission .about-h2 {
-        padding-left: 10rem;
+        padding-left: 0rem;
+        line-height: 48px;
+        padding-top: 0;
     }
-    #AboutWE .about-mission .upper .about-p{
-        padding:0;
-        text-align: left;
-        width: 375px;
-    }
+    
     #AboutWE .about-mission .lower{
-        padding: 4rem 1rem;
+        padding: 0;
+        margin-top: -36px;
     }
     #AboutWE .Dynamic-frame{
         width: 911px;
         height: 531px;
     }
     #AboutWE .about-brandStory .about-h2{
-        padding-top: 13px;
-        margin-bottom: 40px;
+        padding-top: 70px;
+        margin-bottom: 0;
     }
     #AboutWE .about-brandStory .line-deco{
         margin-bottom: 10px;
+        padding-top: 0;
         display: block;
+        margin-left: -24px;
     }
     #AboutWE .hero-header .hero-header-bkg {
         height: 886px;
@@ -445,19 +448,18 @@
         padding: 0 3rem;
     }
     #AboutWE .about-p {
-        font-size: 18px;
+        font-size: 24px;
+    }
+    #AboutWE .about-brandStory .about-p{
+        padding: 0;
+        max-width: inherit;
+    }
+    #AboutWE  .lower .about-p {
+        font-size: 16px;
+        padding:0;
     }
     #AboutWE .about-mission .line-deco {
-        padding: 0;
-    }
-    #AboutWE .Dynamic-frame {
-        top: 16%;
-    }
-    #AboutWE #Dynamic-frame-outer {
-        top: 12%;
-    }
-    #AboutWE .Dynamic-frame-2{
-        display: block;
+        padding: 10px 0;
     }
     #AboutWE #Dynamic-frame-2-m{
         display: none;
@@ -480,9 +482,19 @@
     }
     #AboutWE .about-mission #upper-frame {
         position: absolute;
-        top: -59%;
-        right: 48px;
+        top: -49%;
+        right: 3%;
+        width: 844px;
+        height: 291px;
         display: block;
+    }
+    #AboutWE .about-mission .upper .about-p{
+        padding:0;
+        text-align: left;
+        width: 492px;
+        margin-top: -50px;
+        margin-left: -30px;
+        line-height: 30px;
     }
     #AboutWE .about-mission .line-deco-vertical{
         top: -81%;
@@ -490,7 +502,7 @@
     }
     #AboutWE .about-cert{
         height: 900px;
-        margin-top: 5rem;
+        margin-top: 10rem;
         padding-top: 14rem;
     }
     #AboutWE .about-cert .cert-diamond {
@@ -501,17 +513,27 @@
         width: 351px;
         height: 635px;
     }
-    
     #AboutWE .about-cert .about-bottom-deco {
-        margin-top: 10rem;
+        margin-top: 7rem;
     }
     #AboutWE .Dynamic-frame{
         display: block;
+        top: 19%;
+        width: 943px;
+        height: 553px;
     }
-    #AboutWE #Dynamic-frame-outer{
+    #AboutWE #Dynamic-frame-outer {
+        top: 16%;
+        width: 965px;
+        height: 588px;
         display: block;
     }
-    
+    #AboutWE .about-brandStory .line-deco-vertical {
+        bottom: 14%;
+    }
+    #AboutWE .about-brandStory, #AboutWE .about-mission, #AboutWE .about-slogan {
+        margin-top: 2rem;
+    }
     #AboutWE #Dynamic-frame-outer-m,
     #AboutWE  #Dynamic-frame-m{
         display: none;
@@ -520,7 +542,9 @@
     #AboutWE #Dynamic-frame-w{
         display: block;
     }
-    
+    #AboutWE #about-top-deco-lg{
+        display: block;
+    }
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
