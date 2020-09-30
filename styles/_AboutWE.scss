@@ -29,7 +29,7 @@
         padding: 0 3rem;
     }
     .about-top-deco{
-        padding-top: 5rem;
+        
         margin: 0 auto;
         width: 321px;
         img{
@@ -59,7 +59,7 @@
         max-width: 712px;
         padding-top: 12rem;
         padding-bottom: 3rem;
-        padding: 20px 1.5rem;
+        padding: 40px 1.5rem;
         margin-top:5rem;
         border-bottom: 0.5px solid #B0936D;
         .line-deco-vertical{
@@ -78,7 +78,7 @@
         font-size: 20px;
         font-weight: 100;
         letter-spacing: 1px;
-        line-height: 50px;
+        line-height: 30px;
         text-transform: uppercase;
         color: #D8D8D8;
         padding-bottom: 1rem;
@@ -120,7 +120,7 @@
     .about-mission{
         max-width: 930px;
         position: relative;
-        padding: 20px 1.5rem;
+        padding: 40px 1.5rem;
         border-bottom: 0.5px solid #B0936D;
         .upper{
             position: relative;
@@ -145,6 +145,7 @@
             height: 14px;
             margin: 0 auto;
             display: block;
+            margin-top: 2rem;
         }
         .lower .line-deco{
             display: none;
@@ -154,7 +155,7 @@
     .about-slogan{
         text-align: center;
         padding-top: 5rem;
-        padding: 20px 1.5rem;
+        padding: 40px 1.5rem;
         border-bottom: 0.5px solid #B0936D;
     }
     .Dynamic-frame {
@@ -191,7 +192,7 @@
         background:red;
     }
     .about-cert{
-        height: 600px;
+        height: 800px;
         text-align: center;
         margin-top: 3rem;
         padding-top: 5rem;
@@ -202,8 +203,8 @@
             top: 0;
             left: 50%;
             transform: translateX(-50%);
-            width: 542px;
-            height: 650px;
+            width: 262px;
+            height: 467px;
         }
         .cert-diamond-stroke-2,
         .cert-diamond-stroke{
@@ -212,17 +213,19 @@
             top: 0;
             left: 35%;
             transform: translateX(-50%);
-            width: 351px;
-            height: 400px;
+            width: 173px;
+            height: 307px;
         }
         .cert-diamond-stroke-2{
             left: 65%;
         }
         .cert-wrap{
             margin-top: 3rem;
+            width: 100%;
         }
         .about-cert-icon{
-            margin: 20px 30px;
+            margin: 0 auto;
+            margin-top: 3rem;
         }
         #iconGLC{
             margin-top: 40px;
@@ -239,11 +242,13 @@
     }
     #Dynamic-frame-outer-w,
     #about-top-deco-w,
+    #about-bottom-deco-w,
     #Dynamic-frame-w,
     #Dynamic-frame-m,
     #Dynamic-frame-outer-m{
         display: none;
     }
+    #about-bottom-deco-m,
     #about-top-deco-m{
         display: block;
     }
@@ -276,11 +281,13 @@
     }
     #AboutWE {
         #about-top-deco-m,
+        #about-bottom-deco-m,
         #Dynamic-frame-outer-w,
         #Dynamic-frame-w{
             display: none;
         }
         #about-top-deco-w,
+        #about-bottom-deco-w,
         #Dynamic-frame-m,
         #Dynamic-frame-outer-m{
             display: block;
@@ -306,6 +313,9 @@
     #AboutWE .about-mission,
     #AboutWE .about-slogan{
         border: none;
+    }
+    #AboutWE .about-cert .about-cert-icon {
+        margin: 20px 30px;
     }
 }
 
@@ -387,9 +397,7 @@
         width: 351px;
         height: 635px;
     }
-    #AboutWE .about-cert .about-cert-icon {
-        margin: 20px 50px;
-    }
+    
     #AboutWE .about-cert .about-bottom-deco {
         margin-top: 15rem;
     }
