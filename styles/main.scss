@@ -503,10 +503,6 @@ button:focus {
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  // .main-button a>span {
-  //   height: 125%;
-  //   margin-top: -5px;
-  // }
 }
 
 
@@ -527,5 +523,6 @@ button:focus {
 @import "./forSafari";
 @import "./searchResult";
 @import "./cookie";
+@import "./thankyouPopup";
 
 @import "./forIE";

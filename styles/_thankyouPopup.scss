@@ -1,0 +1,119 @@
+
+#thankyou-popup{
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+    transition: all 1s;
+    transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
+    z-index: 10;
+    width: 90vw;
+    height: auto;
+    text-align: center;
+    h1{
+        font-family: $fontFuturaMedium;
+        font-size: 24px;
+        font-weight: 100;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 1rem
+    }
+    .wrap{
+        padding: 2rem 3rem;
+    }
+    .thankyou-deco{
+        width: 165px;
+        height: 16px;
+        
+        margin: 0 auto;
+    }
+    p{
+        font-family: $fontBarlowRegular;
+        color: #A1A1A1;
+        padding-top: 20px;
+        margin: 0 auto;
+        max-width: 300px;
+        margin-top: 1rem
+    }
+    .back-btn{
+        padding: 2rem 0;
+        text-transform: uppercase;
+    }
+    #thankyou-bkg-d,
+    #thankyou-bkg-m{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 400px;
+        z-index: -1;
+    }
+    #thankyou-bkg-d{
+        display: none;
+    }
+    #thankyou-bkg-m{
+        display: block;
+    }
+    .close-btn{
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        padding: 20px;
+        z-index: 1;
+        cursor: pointer;
+    }
+}
+
+#thankyou-popup.show{
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    #thankyou-popup{
+        width: 729px;
+        height: 425px;
+        h1{
+            font-size: 36px;
+        }
+        .thankyou-deco{
+            width: 165px;
+            height: 16px;
+            margin-top: 1rem;
+        }
+        p{
+            font-size: 24px;
+            font-weight: 100;
+            max-width: 500px;
+        }
+        .wrap{
+            padding: 2rem 3rem;
+        }
+        .back-btn{
+            padding: 1.5rem 0;
+        }
+        #thankyou-bkg-d{
+            display: block;
+            width: 729px;
+            height: 425px;
+        }
+        #thankyou-bkg-m{
+            display: none;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+ }
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}

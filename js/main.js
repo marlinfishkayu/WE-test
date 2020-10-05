@@ -112,15 +112,14 @@ $('.livegame-btn').click(function(){
 
 /*-- hover display language menu --*/
 
-$(document).ready(function(){
-  $('.menu-lang').mouseover(function(){
+$('.menu-lang').click(function(){
+    $('.lang-dropdown').toggleClass("show");
+    $('.game-show').addClass("show");
     $('.nav-wrap').addClass("pointer");
-      return false;
-  });
-  $('.menu-lang').mouseleave(function(){
-      $('.game-menu').removeClass('show');
-        $('.nav-wrap').removeClass("pointer");
-  });
+        return false;
+})
+$(document).on("click", function(event){
+   $('.lang-dropdown').removeClass("show");
 });
 
 
@@ -156,7 +155,7 @@ $(document).ready(function(){
 
 //Hero carousal
 $('#slider-area').owlCarousel({
-	loop:true,
+	loop:false,
 	autoplay:true,
 	margin:10,
     responsive:{
@@ -164,7 +163,7 @@ $('#slider-area').owlCarousel({
             items:1
         },
         600:{
-            items:1
+            items:2
         },
         1000:{
             items:1
@@ -443,8 +442,37 @@ $(function(){
 //   updateCount();
 // })
 
-
-
+ /*-- studioCarousel --*/
+ 
+$('#studioCarousel').owlCarousel({
+  loop:false,
+  margin:10,
+  nav:true,
+  center: true,
+  navigation : true,
+  responsive:{
+      0:{
+        items:2,
+        navigation: true,
+        nav: true,
+        slideBy: 1 // <!-- HERE
+      },
+      600:{
+        items:3,
+        navigation: true,
+        nav: true,
+        slideBy: 1 // <!-- HERE
+      },
+      1000:{
+        center: false,
+        items:4,
+        navigation:false,
+        nav: false,
+        autoWidth:true,
+        slideBy: 1 // <!-- HERE
+      }
+  },navigation : true
+});
 
 
 /*--  show less button --*/
@@ -476,12 +504,7 @@ setTimeout(() => {
 
 
 /*-- Add live game column when hover in All Live Game page --*/
-// $(document).ready(function(){
-//   $(".game-item-wrap").hover(
-//       function () {
-//           $(this).toggleClass('hovering');
-//       });
-//   });
+
 
   $(document).ready(function(){
     $(".game-item-wrap").mouseover(function(){
@@ -494,3 +517,19 @@ setTimeout(() => {
     });
   });
   
+
+
+/*-- Thank you for subscribe popup  --*/
+
+
+$('#signUp').click(function(){
+  $('#thankyou-popup').addClass("show");
+  })
+  $('.thanyou-close-btn').click(function(){
+    $('#thankyou-popup').removeClass("show");
+  })
+  $('.thanyou-close-btn').click(function(){
+    $('#thankyou-popup').removeClass("show");
+  }
+
+);

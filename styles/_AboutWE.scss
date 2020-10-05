@@ -341,6 +341,7 @@
     #AboutWE .about-brandStory .line-deco-vertical{
         display: block;
         bottom: -6%;
+        margin: 0 auto;
     }
     #AboutWE #Dynamic-frame-2-w{
         display: none;
@@ -395,6 +396,13 @@
     #AboutWE .about-cert {
         padding-top: 12rem;
     }
+    #AboutWE .about-slogan .line-deco{
+        display: block;
+        padding-top: 0;
+    }
+    #AboutWE .about-main .about-h2 {
+        padding-bottom: 2rem;
+    }
 }
 
 
@@ -402,6 +410,9 @@
 @media (min-width: 992px) {
     #AboutWE .about-main{
         margin-top: 5rem;
+    }
+    #AboutWE .about-p {
+        font-size: 16px;
     }
     #AboutWE .about-top-deco {
         margin-top: 7rem;
@@ -421,7 +432,6 @@
         line-height: 48px;
         padding-top: 0;
     }
-    
     #AboutWE .about-mission .lower{
         padding: 0;
         margin-top: -36px;
@@ -431,14 +441,16 @@
         height: 531px;
     }
     #AboutWE .about-brandStory .about-h2{
-        padding-top: 70px;
+        padding-top: 33px;
         margin-bottom: 0;
     }
     #AboutWE .about-brandStory .line-deco{
         margin-bottom: 10px;
-        padding-top: 0;
+        padding-top: 3rem;
         display: block;
-        margin-left: -24px;
+    }
+    #brandstory-about{
+        padding-top: 2rem;
     }
     #AboutWE .hero-header .hero-header-bkg {
         height: 886px;
@@ -446,9 +458,6 @@
     #AboutWE .about-main {
         padding-top: 13rem;
         padding: 0 3rem;
-    }
-    #AboutWE .about-p {
-        font-size: 24px;
     }
     #AboutWE .about-brandStory .about-p{
         padding: 0;
@@ -529,10 +538,11 @@
         display: block;
     }
     #AboutWE .about-brandStory .line-deco-vertical {
-        bottom: 14%;
+        bottom: 0;
     }
+    
     #AboutWE .about-brandStory, #AboutWE .about-mission, #AboutWE .about-slogan {
-        margin-top: 2rem;
+        margin-top: 8rem;
     }
     #AboutWE #Dynamic-frame-outer-m,
     #AboutWE  #Dynamic-frame-m{

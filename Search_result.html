@@ -32,9 +32,11 @@
                         <div id="nav-area">
                             <div class="main-nav">
                                 <!-- nav links -->
-                                <a class="navbar-brand menu-item menu-logo" href="index.html">
-                                    <div class="nav-logo"><img src="./images/icon/logo.svg" alt="" loading="lazy" /></div>
-                                </a>
+                                <li class="nav-item logo-wrap">
+                                    <a class="navbar-brand menu-item menu-logo" href="index.html">
+                                        <div class="nav-logo"><img src="./images/icon/logo.svg" alt="" loading="lazy" /></div>
+                                    </a>
+                                </li>
                                 <ul class="nav_links">
                                     <li class="nav-item">
                                         <a class="nav-link menu-item menu-about" href="AboutWE.html">About WE</a>
@@ -325,6 +327,16 @@
             <!-- search result end-->
             
 
+            <!-- Cookie popup start-->
+            <div class="cookie-container">
+                <p>WE use cookies to ensure you get the best experience on our website.WE will assume you have agreed to our <a href="PrivacyTerms.html">Privacy Policy</a> by continuing to use our website henceforth.
+                </p>
+                <button class="cookie-btn">
+                    Okay
+                </button>
+            </div>
+            <!-- Cookie popup end-->
+
             <!-- Footer start -->
             <footer>
                 <div class="main-footer">
@@ -343,7 +355,7 @@
                                             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Please enter your email here" />
                                         </div>
                                     </form>
-                                    <button type="button" class="btn">SIGN UP</button>
+                                    <button type="button" class="btn" id="signUp">SIGN UP</button>
                                 </div>
                             </div>
                             <div class="footer-licens">
@@ -352,24 +364,13 @@
                                 </div>
                                 <div class="d-sm-flex flex-sm-row licens-list">
                                     <div class="d-sm-flex flex-sm-row tag-left">
-                                        <h6>Licensing</h6>
+                                        <h6>Licences & Certifications</h6>
                                         <div class="d-flex flex-row">
                                             <div class="licens-icon">
-                                                <img alt="" src="images/icon/license.svg" />
+                                                <img id="iso-2" src="./images/icon/GLC.svg" alt="" />
                                             </div>
                                             <div class="licens-icon" id="licensIcon2">
-                                                <img alt="" src="images/icon/license2.svg" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="d-sm-flex flex-sm-row tag-left">
-                                        <h6>Certification</h6>
-                                        <div class="d-flex flex-row">
-                                            <div class="licens-icon">
-                                                <img alt="" src="images/icon/license3.svg" />
-                                            </div>
-                                            <div class="licens-icon" id="licensIcon2">
-                                                <img alt="" src="images/icon/license4.svg" />
+                                                <img id="iso-3" src="./images/icon/pagcor_1.svg"  alt="" />
                                             </div>
                                         </div>
                                     </div>
@@ -377,7 +378,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="underline">
                         <div class="footer-logo">
                             <img alt="" src="images/icon/logo.svg" />
@@ -386,20 +386,18 @@
                             <div class="d-sm-flex flex-sm-row footer-TC">
                                 <h6>©2020 WORLD ENTERTAINMENT.</h6>
                                 <div class="d-sm-flex flex-sm-row TC">
-                                    <h6>Terms & Conditions</h6>
-                                    <h6>Privacy</h6>
-                                    <h6>Cookies</h6>
+                                    <a href="PrivacyTerms.html"><h6>Privacy</h6></a>
                                 </div>
                             </div>
                             <div class="footer-social">
                                 <div class="d-flex justify-content-sm-end justify-content-center">
-                                    <a href="#" class="footer-icon">
+                                    <a href="https://www.facebook.com/World-Entertainment-103485598040783" class="footer-icon">
                                         <img alt="" src="images/icon/fb_f.svg" />
                                     </a>
-                                    <a href="#" class="footer-icon">
-                                        <img alt="" src="images/icon/yt_f.svg" />
+                                    <a href="mailto:hello@wordent.com" class="footer-icon">
+                                        <img alt="" src="images/icon/mail_f.svg" />
                                     </a>
-                                    <a href="#" class="footer-icon">
+                                    <a href="https://www.instagram.com/worldent.official/?hl=zh-hk" class="footer-icon">
                                         <img alt="" src="images/icon/ig_f.svg" />
                                     </a>
                                 </div>
@@ -409,6 +407,43 @@
                 </div>
             </footer>
             <!-- Footer end -->
+            
+            <!-- Thank you for subscribe popup start-->
+            <div id="thankyou-popup">
+                <div class="thankyou-bkg">
+                    <div id="thankyou-bkg-m">
+                        <img
+                            src="./images/thankyou/thankyou_bkg_m_x1.png"
+                            srcset="./images/thankyou/thankyou_bkg_m_x1.png 500w, ./images/thankyou/thankyou_bkg_m_x2.png 1000w"
+                            alt=""
+                        />
+                    </div>
+                    <div id="thankyou-bkg-d">
+                        <img
+                            src="./images/thankyou/thankyou-bkg_x1.png"
+                            srcset="./images/thankyou/thankyou-bkg_x1.png 500w, ./images/thankyou/thankyou-bkg_x2.png 1000w"
+                            alt=""
+                        />
+                    </div>
+                </div>
+                <div class="wrap">
+                    <h1>Hello There! </h1>
+                    <div class="thankyou-deco">
+                        <img src="./images/icon/thankyou-deco.svg"  alt="" />
+                    </div>
+                    
+                    <p class="hero-intro">You’re on our mailing list now and will be among the first to hear about the latest news and exclusive offers from WE.</p>
+                    <div class="back-btn">
+                        <button class="secondaryBtn thanyou-close-btn" type="button">BACK TO HOME</button>
+                    </div>
+                </div>
+                <div class="close-btn thanyou-close-btn" >
+                    <div class="closeBtn" type="button">
+                        <img src="images/thankyou/close_icon.svg" alt="" />
+                    </div>
+                </div>
+            </div>
+            <!-- Thank you for subscribe popup end-->
         </div>
         <!-- ============= Outdated Browser ============= -->
         <div id="outdated"></div>

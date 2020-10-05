@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="165" height="15" viewBox="0 0 165 15">
+  <defs>
+    <linearGradient id="-thxdeco-a" x1="0%" x2="129.153%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#D8C5A6"/>
+      <stop offset="100%" stop-color="#B0936D" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="-thxdeco-b" x1="0%" x2="129.153%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#B0936D" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#D8C5A6"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g stroke="#B0936D" transform="translate(68.02)">
+      <path d="M12.3850175,2.700791 L2.8213588,2.74555072 L2.77659908,12.3092094 L12.3402578,12.2644497 L12.3850175,2.700791 Z" transform="rotate(45 7.58 7.505)"/>
+      <path d="M19.8023253,2.700791 L10.2386666,2.74555072 L10.1939069,12.3092094 L19.7575656,12.2644497 L19.8023253,2.700791 Z" transform="rotate(45 14.998 7.505)"/>
+      <path d="M27.2196332,2.700791 L17.6559745,2.74555072 L17.6112148,12.3092094 L27.1748735,12.2644497 L27.2196332,2.700791 Z" transform="rotate(45 22.415 7.505)"/>
+    </g>
+    <rect width="65" height="1" x="99.5" y="7.5" stroke="url(#-thxdeco-a)"/>
+    <rect width="65" height="1" x=".5" y="7.5" stroke="url(#-thxdeco-b)"/>
+  </g>
+</svg>

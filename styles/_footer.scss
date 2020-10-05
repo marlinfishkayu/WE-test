@@ -185,6 +185,11 @@ footer{
     transition: all 200ms ease-out;
   }
 }
+.footer-TC h6{
+    font-family: $fontBarlowRegular;
+    font-size: 12px;
+    font-weight: 100;
+}
 .btn:hover::after{
 transform: scaleX(1);
 }

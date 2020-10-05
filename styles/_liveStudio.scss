@@ -1,12 +1,12 @@
 #liveStudio .hero-header-bkg{
     height: 380px;
 }
+
 #liveStudio .showless_btn,
 #liveStudio .livestudio-sec1,
 #liveStudio .livestudio-sec3{
     position: relative;
 }
-
 #liveStudio .showless_btn .active{
     height: auto;
 }
@@ -47,7 +47,8 @@
 }
 #liveStudio .studio-img-wrap picture::after{
     content: '';
-    display: block;
+    // display: block;
+    opacity: 1;
     position: absolute;
     background-color: #060B1A;
     opacity: .8;
@@ -56,7 +57,8 @@
     z-index: 1;
     width: 100%;
     height: 100%;
-    transition: 0.3s all;
+    transition: all 500ms;
+    transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
 }
 #liveStudio .hovering-slide .studio-img-container{
     position: relative;
@@ -81,10 +83,11 @@
 }
 .studio-card .studio-slide-text{
     padding: 2rem;
-    opacity: 1;
     position: absolute;
-    display: block;
-    
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 600ms;
+    transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
 }
 #liveStudio {
     .room-num{
@@ -131,6 +134,7 @@
     width: 295px;
     cursor: pointer;
     position: relative;
+    margin: 0 auto;
     /*
     Each "card" is set to 600x400px because that is the size of  the image, adjust as needed. Make sure the overflow is set to hidden or else when the img scales it will clip with the other images.
     */
@@ -140,7 +144,8 @@
   }
   .studio-img-container:hover {
     transform: scale(1.1);
-    transition: 200ms all ease-out;
+    transition: all 1s;
+    transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
     /*
     Change the scale value as much as you want to change the amount of zoom on hover.
     */
@@ -157,13 +162,17 @@
     opacity: 1;
   }
   #liveStudio .hide-slide{
-    display: none;
+    // display: none;
+    opacity: 0;
   }
   #liveStudio .hovering-slide .studio-img-wrap picture::after{
-    display: none;
+    // display: none;
+    opacity: 0;
 }
 .hovering-slide .studio-slide-text{
-    display: none;
+    // display: none;
+    transform: translateY(100%);
+    opacity: 0;
 }
 
 #liveStudio .livestudio-sec2{
@@ -322,6 +331,12 @@
     font-size: 40px;
 }
 
+#studioCarousel .room-slide{
+    width: 100%;
+    height: 559px;
+    margin: 0 auto;
+}
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
 
@@ -343,11 +358,11 @@
     #liveStudio .livestudio-sec1{
         margin: auto;
     }
-    #liveStudio .live-slide-wrap{
-        width: 1200px;
-        margin: auto;
-        padding: 8rem 0;
-    }
+    // #liveStudio .live-slide-wrap{
+    //     width: 1200px;
+    //     margin: auto;
+    //     padding: 8rem 0;
+    // }
     #liveStudio .livestudio-hightlight-wrap .cert-wrap{
         width: 700px;
         .cert-bottom {
@@ -394,6 +409,10 @@
         height: 700px;
     }
     
+    #studioCarousel .room-slide{
+        width: 295px;
+        height: 559px;
+    }
 }   
 
 // Large devices (desktops, 992px and up)
@@ -413,7 +432,9 @@
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-
+    #liveStudio #studioCarousel{
+        padding-left: 20vw;
+    }
 }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 2000px) {
