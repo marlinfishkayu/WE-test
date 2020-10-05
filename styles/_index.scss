@@ -81,25 +81,45 @@
     .more-button{
         transform: translateX(-30%);
     }
-    .disable-col{
-        .disable-img{
+    
+    // .disable-img{
             
-            position: relative;
-        }
+    //     position: relative;
+    // }
+    // h4{
+    //     font-family: $fontFuturaMediu;
+    //     font-size: 18px;
+    //     letter-spacing: 3px;
+    //     text-transform: uppercase;
+    // }
+    // .disable-text{
+    //     position: absolute;
+    //     top: 38%;
+    //     left: 50%;
+    //     transform: translate(-50%, -50%);
+    // }
+}
+.coming{
+    position: relative;
+    .disable-img{
+        filter: opacity(10%);
+    }
+    .disable-text{
         h4{
-            font-family: $fontFuturaMediu;
+            font-family: $fontFuturaMedium;
             font-size: 18px;
             letter-spacing: 3px;
             text-transform: uppercase;
+            font-weight: 100;
+            white-space: nowrap;
         }
-        .disable-text{
-            position: absolute;
-            top: 38%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
+        position: absolute;
+        
+        
+        top: 38%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
-    
 }
 .active .expand-deco{
     transform: translate(-50%, -30%);
