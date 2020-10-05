@@ -107,10 +107,9 @@ select.form-control::-ms-expand {
         margin: 20px;
         background-repeat: no-repeat;
         background-position: right center;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-        background-image: url('/images/icon/mail-icon.svg');
+        // -webkit-appearance: none;
+        // -moz-appearance: none;
+        // appearance: none;
     }
     .contact-method{
         padding-top: 5rem;
