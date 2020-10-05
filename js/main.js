@@ -163,7 +163,7 @@ $('#slider-area').owlCarousel({
             items:1
         },
         600:{
-            items:2
+            items:1
         },
         1000:{
             items:1

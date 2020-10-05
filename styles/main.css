@@ -830,7 +830,7 @@ button:focus {
   top: 13%;
   left: 0;
   width: 100%;
-  height: 60px;
+  height: 500px;
   overflow: hidden;
 }
 
@@ -907,7 +907,6 @@ button:focus {
 }
 
 .lang-dropdown {
-  display: none;
   position: absolute;
   width: 200px;
   height: 140px;
@@ -956,6 +955,10 @@ button:focus {
   background-repeat: no-repeat;
 }
 
+.menu-lang {
+  cursor: pointer;
+}
+
 .menu-lang h6 {
   font-size: 16px;
   font-weight: 100;
@@ -970,15 +973,13 @@ button:focus {
   color: #D8D8D8;
 }
 
-.menu-lang h6:before {
-  content: '';
+.menu-lang #icon-lang {
   position: absolute;
-  width: 30px;
-  height: 30px;
-  top: -8px;
-  left: -27px;
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  left: 18px;
   background-repeat: no-repeat;
-  background-image: url(/images/icon/lang.svg);
 }
 
 .nav-item button {
@@ -1460,9 +1461,6 @@ button:focus {
   .sidebar {
     display: none;
   }
-  .lang-dropdown {
-    display: block;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -1824,7 +1822,7 @@ footer {
 }
 
 #slider-area .slide {
-  height: 300px;
+  height: 100vh;
 }
 
 #slider-area .slide img {
@@ -1874,10 +1872,10 @@ footer {
   position: absolute;
   left: 50%;
   z-index: 2;
-  top: 130px;
+  top: 50%;
   width: 100%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   text-align: center;
   background-color: transparent;
 }
@@ -2363,7 +2361,7 @@ footer {
 
 @media (min-width: 576px) {
   #slider-area .slide {
-    height: 400px;
+    height: 100vh;
   }
   #intdexWhatsNews .news-item {
     width: 600px;
@@ -2375,12 +2373,6 @@ footer {
     width: 100%;
     height: 100%;
     background-position: 50% 10%;
-    background-size: contain;
-    -o-object-fit: contain;
-       object-fit: contain;
-  }
-  #wrapper .owl-carousel .owl-item img {
-    height: auto;
   }
   .header-wrapper .slider-text {
     width: 500px;
@@ -2456,9 +2448,6 @@ footer {
 }
 
 @media (min-width: 992px) {
-  #slider-area .slide {
-    height: 600px;
-  }
   #slider-area .owl-dots button {
     width: 63px;
   }
@@ -2469,9 +2458,6 @@ footer {
   #intdexWhatsNews .news-item-img {
     width: 358px;
     height: inherit;
-  }
-  .header-wrapper .slider-text {
-    top: 320px;
   }
   .header-wrapper .slider-text h2 {
     font-size: 40px;
@@ -2490,12 +2476,10 @@ footer {
 
 @media (min-width: 1200px) {
   #slider-area .slide {
-    height: 700px;
     overflow: hidden;
   }
   .header-wrapper .slider-text {
-    width: 700px;
-    top: 320px;
+    width: 100%;
   }
   .header-wrapper .slider-text h2 {
     font-size: 60px;
@@ -2520,12 +2504,6 @@ footer {
   }
   #diamondCarousel .h2 {
     font-size: 36px;
-  }
-}
-
-@media (min-width: 1500px) {
-  #slider-area .slide {
-    height: 880px;
   }
 }
 

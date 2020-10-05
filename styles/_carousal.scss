@@ -8,7 +8,7 @@
     background-position: 50% 50%;
 }
 #slider-area .slide {
-    height: 300px;
+    height: 100vh;
     img{
         background-size: cover;
         -o-object-fit: cover;
@@ -49,9 +49,9 @@
     position: absolute;
     left: 50%;
     z-index: 2;
-    top: 130px;
+    top: 50%;
     width: 100%;
-    transform: translate(-50%);
+    transform: translate(-50%,-50%);
     text-align: center;
     background-color: transparent;
     h2 {
@@ -458,7 +458,7 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
     #slider-area .slide {
-        height: 400px;
+        height: 100vh;
     }
     #intdexWhatsNews .news-item {
         width: 600px;
@@ -472,13 +472,11 @@
             width: 100%; 
             height: 100%; 
             background-position: 50% 10%; 
-            background-size: contain; 
-            object-fit: contain;
         }
     }
-    #wrapper .owl-carousel .owl-item img {
-        height: auto;
-    }
+    // #wrapper .owl-carousel .owl-item img {
+    //     height: auto;
+    // }
     .header-wrapper .slider-text {
         width: 500px;
         a {
@@ -553,9 +551,9 @@
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-    #slider-area .slide {
-        height: 600px;
-    }
+    // #slider-area .slide {
+    //     height: 600px;
+    // }
     #slider-area .owl-dots button {
         width: 63px;
     }
@@ -569,7 +567,6 @@
     }
 
     .header-wrapper .slider-text {
-        top: 320px;
         h2 {
             font-size: 40px;
         }
@@ -589,12 +586,11 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
     #slider-area .slide {
-        height: 700px;
+        // height: 700px;
         overflow: hidden;
     }
     .header-wrapper .slider-text {
-        width: 700px;
-        top: 320px;
+        width: 100%;
         h2 {
             font-size: 60px;
         }
@@ -622,7 +618,7 @@
     }
 }
 @media (min-width: 1500px) {
-    #slider-area .slide {
-        height: 880px;
-    }
+    // #slider-area .slide {
+    //     height: 880px;
+    // }
 }
