@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="156px" height="154px" viewBox="0 0 156 154" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>game_icon</title>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>game_icon_win 3 card</title>
     <defs>
         <linearGradient x1="50%" y1="3.41005068%" x2="50%" y2="100%" id="linearGradient-1">
             <stop stop-color="#000F24" stop-opacity="0.9" offset="0%"></stop>
@@ -42,21 +42,15 @@
             <stop stop-color="#AFA286" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="Game" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="WE_games_win-3-cards" transform="translate(-643.000000, -389.000000)">
-            <g id="Group" transform="translate(635.000000, 381.000000)">
-                <g id="Group" transform="translate(6.538462, 6.538462)">
-                    <g id="Group-46" transform="translate(5.230769, 3.923077)">
-                        <path d="M15.157,56.129 L19.038,70.615 L0,70.6153846 L15.157,56.129 Z M132.287,55.818 L147.769231,70.6153846 L128.323,70.615 L132.287,55.818 Z M73.8846154,0 L95.365,20.53 L52.404,20.53 L73.8846154,0 Z" id="Combined-Shape" stroke="#B0936D" stroke-width="2.99260355" fill="url(#linearGradient-1)"></path>
-                        <path d="M18.1052308,64.6132308 L19.4912308,70.6152308 L11.7692308,70.6153846 L18.1052308,64.6132308 Z M129.330231,64.2972308 L136,70.6153846 L127.871231,70.6152308 L129.330231,64.2972308 Z M73.8846154,11.7692308 L83.1322308,20.5302308 L64.6362308,20.5302308 L73.8846154,11.7692308 Z" id="Combined-Shape" stroke="#B0936D" stroke-width="2.99260355" fill="url(#linearGradient-2)"></path>
-                        <path d="M73.6806308,117.648769 L99.522,124.572995 L73.8846154,149.076923 L48.157,124.487995 L73.6806308,117.648769 Z M147.769231,78.4615385 L118.802,106.145995 L126.22,78.4609955 L147.769231,78.4615385 Z M21.141,78.4609955 L28.418,105.621995 L0,78.4615385 L21.141,78.4609955 Z" id="Combined-Shape" stroke="#B0936D" stroke-width="2.99260355" fill="url(#linearGradient-3)"></path>
-                        <path d="M73.6806308,117.648769 L90.0152308,122.025538 L73.8846154,137.307692 L57.6632308,121.940538 L73.6806308,117.648769 Z M126.220231,78.4615385 L136,78.4626282 L123.277231,90.5145385 L125.062231,82.7835385 L126.220231,78.4615385 Z M21.1412308,78.4615385 L22.3012308,82.7915385 L23.9702308,90.0205385 L11.7692308,78.4626282 L21.1412308,78.4615385 Z" id="Combined-Shape" stroke="#B0936D" stroke-width="2.99260355" fill="url(#linearGradient-2)"></path>
-                        <path d="M108.987868,30.8709231 L135.627321,37.0217002 L114.741481,127.488213 L98.933868,123.837923 L108.988787,123.838462 L108.987868,30.8709231 Z M39.680868,30.5699231 L39.6810947,123.838462 L48.427868,123.837923 L32.6207082,127.488213 L11.734868,37.0217002 L39.680868,30.5699231 Z" id="Combined-Shape" stroke="url(#linearGradient-5)" stroke-width="2.56508876" fill="url(#linearGradient-4)"></path>
-                        <rect id="Rectangle-Copy-36" stroke="url(#linearGradient-7)" stroke-width="2.42345482" fill="url(#linearGradient-6)" x="39.6810947" y="20.5307692" width="69.3076923" height="103.307692"></rect>
-                        <polygon id="Rectangle-Copy-56" stroke="url(#linearGradient-9)" stroke-width="2.49203512" fill="url(#linearGradient-8)" transform="translate(75.192308, 72.576923) rotate(-315.000000) translate(-75.192308, -72.576923) " points="68 65.3846154 82.3846154 65.3846154 82.3846154 79.7692308 68 79.7692308"></polygon>
-                    </g>
-                </g>
-            </g>
+    <g id="game_icon_win-3-card" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-46" transform="translate(4.000000, 3.000000)">
+            <path d="M11.591,42.922 L14.559,54 L0,54 L11.591,42.922 Z M101.161,42.685 L113,54 L98.129,54 L101.161,42.685 Z M56.5,0 L72.926,15.699 L40.074,15.699 L56.5,0 Z" id="Combined-Shape" stroke="#B0936D" stroke-width="1.75" fill="url(#linearGradient-1)"></path>
+            <path d="M13.845,49.41 L14.905,54 L9,54 L13.845,49.41 Z M98.9,49.168 L104,54 L97.784,54 L98.9,49.168 Z M56.5,9 L63.571,15.699 L49.429,15.699 L56.5,9 Z" id="Combined-Shape" stroke="#B0936D" stroke-width="1.75" fill="url(#linearGradient-2)"></path>
+            <path d="M56.3440706,89.967 L76.105,95.262 L56.5,114 L36.827,95.196 L56.3440706,89.967 Z M113,60 L90.849,81.17 L96.521,59.999 L113,60 Z M16.167,59.999 L21.732,80.769 L0,60 L16.167,59.999 Z" id="Combined-Shape" stroke="#B0936D" stroke-width="1.75" fill="url(#linearGradient-3)"></path>
+            <path d="M56.3440706,89.967 L68.834,93.314 L56.5,105 L44.096,93.249 L56.3440706,89.967 Z M104,60.0008333 L94.271,69.215 L95.637,63.299 L96.521,60 L104,60.0008333 Z M16.167,60 L17.053,63.307 L18.33,68.839 L9,60.0008333 L16.167,60 Z" id="Combined-Shape" stroke="#B0936D" stroke-width="1.75" fill="url(#linearGradient-2)"></path>
+            <path d="M83.3437226,23.608 L103.715011,28.3107119 L87.7434857,97.4909865 L75.6577226,94.7 L83.3443666,94.7 L83.3437226,23.608 Z M30.3437226,23.377 L30.3443666,94.7 L37.0297226,94.7 L24.9452474,97.4909865 L8.97372258,28.3107119 L30.3437226,23.377 Z" id="Combined-Shape" stroke="url(#linearGradient-5)" stroke-width="1.5" fill="url(#linearGradient-4)"></path>
+            <rect id="Rectangle-Copy-36" stroke="url(#linearGradient-7)" stroke-width="1.417176" fill="url(#linearGradient-6)" x="30.3443666" y="15.7" width="53" height="79"></rect>
+            <rect id="Rectangle-Copy-56" stroke="url(#linearGradient-9)" stroke-width="1.45728005" fill="url(#linearGradient-8)" transform="translate(57.500000, 55.500000) rotate(-315.000000) translate(-57.500000, -55.500000) " x="52" y="50" width="11" height="11"></rect>
         </g>
     </g>
 </svg>

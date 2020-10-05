@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="90px" height="128px" viewBox="0 0 90 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>game_icon</title>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>game_icon_sequeeze baccart </title>
     <defs>
         <linearGradient x1="50%" y1="3.41005068%" x2="50%" y2="100%" id="linearGradient-1">
             <stop stop-color="#000F24" stop-opacity="0.9" offset="0%"></stop>
@@ -35,21 +35,17 @@
             <stop stop-color="#AFA286" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="Game" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="WE_games_squeeze-ba" transform="translate(-678.000000, -395.000000)">
-            <g id="Group" transform="translate(638.000000, 373.000000)">
-                <g id="Group-42-Copy" transform="translate(42.250000, 23.941667)">
-                    <g id="Group-51-Copy-2">
-                        <path d="M74.6416667,0 L74.641,12.674 L11.2666667,12.675 L11.266,111.258 L0,111.258333 L0,0 L74.6416667,0 Z" id="Combined-Shape" stroke="url(#linearGradient-2)" stroke-width="2.8829034" fill="url(#linearGradient-1)"></path>
-                        <path d="M11.2666667,123.933333 L11.2666667,12.675 L85.9083333,12.675 L85.9083333,99.8548412 L79.9579875,105.874464 L79.9579875,105.874464 L74.0076416,111.894087 C70.0407444,115.907169 66.0738471,119.920251 62.1069499,123.933333 L62.1069499,123.933333 L11.2666667,123.933333 Z" id="Combined-Shape" stroke="url(#linearGradient-2)" stroke-width="2.87440833" fill="url(#linearGradient-1)"></path>
-                        <line x1="74.6416667" y1="12.675" x2="74.6416667" y2="99.8548412" id="Path-12" stroke="url(#linearGradient-4)" stroke-width="2.87440833" fill="url(#linearGradient-3)" stroke-linejoin="round"></line>
-                        <line x1="11.2666667" y1="111.258333" x2="62.1069499" y2="111.258333" id="Path-13" stroke="url(#linearGradient-6)" stroke-width="2.87440833" fill="url(#linearGradient-5)" stroke-linejoin="round"></line>
-                        <polyline id="Path-14" stroke="url(#linearGradient-7)" stroke-width="2.87440833" points="62.1069499 123.933333 62.1069499 99.8548412 85.9083333 99.8548412"></polyline>
-                    </g>
-                    <g id="Group-Copy-8" transform="translate(28.448333, 40.278333)" fill="#B0936D" fill-rule="nonzero">
-                        <path d="M14.2412987,1.07947839e-14 C22.111046,1.07947839e-14 28.4899721,6.37892604 28.4899721,14.244986 C28.4899721,16.7326043 27.8525605,19.0713634 26.7321014,21.1067806 L26.7723342,21.1303004 L14.452253,42.2500642 L11.487253,42.2500642 L20.2997077,27.145417 C18.4612487,28.0102452 16.4078051,28.4936594 14.2412987,28.4936594 C6.37704629,28.4936594 -1.02714418e-12,22.1128538 -1.02714418e-12,14.244986 C-1.02714418e-12,6.3801791 6.37767265,1.07947839e-14 14.2412987,1.07947839e-14 Z M14.2412987,2.56064778 C7.79210465,2.56064778 2.56064778,7.79416064 2.56064778,14.244986 C2.56064778,20.6989848 7.79159093,25.9330116 14.2412987,25.9330116 C20.6973533,25.9330116 25.9293243,20.7000129 25.9293243,14.244986 C25.9293243,7.79313276 20.6968393,2.56064778 14.2412987,2.56064778 Z" id="Combined-Shape"></path>
-                    </g>
-                </g>
+    <g id="game_icon_sequeeze-baccart-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-42-Copy" transform="translate(30.000000, 17.000000)">
+            <g id="Group-51-Copy-2">
+                <path d="M53,0 L53,9 L8,9 L8,79 L0,79 L0,0 L53,0 Z" id="Combined-Shape" stroke="url(#linearGradient-2)" stroke-width="1.57464" fill="url(#linearGradient-1)"></path>
+                <path d="M8,88 L8,9 L61,9 L61,70.9028459 L56.7749023,75.1771344 L56.7749023,75.1771344 L48.324707,83.7257115 L48.324707,83.7257115 L44.0996094,88 L8,88 Z" id="Combined-Shape" stroke="url(#linearGradient-2)" stroke-width="1.57" fill="url(#linearGradient-1)"></path>
+                <line x1="53" y1="9" x2="53" y2="70.9028459" id="Path-12" stroke="url(#linearGradient-4)" stroke-width="1.57" fill="url(#linearGradient-3)" stroke-linejoin="round"></line>
+                <line x1="8" y1="79" x2="44.0996094" y2="79" id="Path-13" stroke="url(#linearGradient-6)" stroke-width="1.57" fill="url(#linearGradient-5)" stroke-linejoin="round"></line>
+                <polyline id="Path-14" stroke="url(#linearGradient-7)" stroke-width="1.57" points="44.0996094 88 44.0996094 70.9028459 61 70.9028459"></polyline>
+            </g>
+            <g id="Group-Copy-8" transform="translate(20.200000, 28.600000)" fill="#B0936D" fill-rule="nonzero">
+                <path d="M10.1121648,3.55271368e-15 C15.700151,3.55271368e-15 20.229566,4.52941494 20.229566,10.114783 C20.229566,11.8813369 19.7768647,13.5421683 18.9811066,14.9875485 L19.0099415,15.0037636 L10.2613394,29.9996195 L8.15733938,29.9996195 L14.4136024,19.2750363 C13.1082877,19.8890001 11.6503588,20.2321842 10.1121648,20.2321842 C4.5280802,20.2321842 -3.64153152e-13,15.7014347 -3.64153152e-13,10.114783 C-3.64153152e-13,4.53030469 4.52852496,3.55271368e-15 10.1121648,3.55271368e-15 Z M10.1121648,1.81821144 C5.53285537,1.81821144 1.81821144,5.53431524 1.81821144,10.114783 C1.81821144,14.697504 5.5324906,18.4139728 10.1121648,18.4139728 C14.6963455,18.4139728 18.4113545,14.698234 18.4113545,10.114783 C18.4113545,5.53358539 14.6959806,1.81821144 10.1121648,1.81821144 Z" id="Combined-Shape"></path>
             </g>
         </g>
     </g>

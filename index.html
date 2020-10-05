@@ -69,7 +69,7 @@
                                                     <!-- Live game tab -->
                                                     <div class="tab-pane fade show active" id="pills-livegame" role="tabpanel" aria-labelledby="pills-livegame-tab">
                                                         <div class="d-flex justify-content-center">
-                                                            <div class="game-icon-wrap p-2" id="gameMenu-baccarat">
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-baccarat" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.4s; --sal-delay: 0;">
                                                                 <a href="Game_LiveGame_Baccarat.html">
                                                                     <div class="game-icon-container">
                                                                         <h4>BACCARAT</h4>
@@ -86,7 +86,7 @@
                                                                     </div>
                                                                 </a>
                                                             </div>
-                                                            <div class="game-icon-wrap p-2" id="gameMenu-roulette">
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-roulette" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.4s; --sal-delay: 0.2s;">
                                                                 <a href="Game_LiveGame_Roulette.html">
                                                                     <div class="game-icon-container">
                                                                         <h4>ROULETTE</h4>
@@ -103,7 +103,7 @@
                                                                     </div>
                                                                 </a>
                                                             </div>
-                                                            <div class="game-icon-wrap p-2" id="gameMenu-SicBo">
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-SicBo" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.4s; --sal-delay: 0.4s;">
                                                                 <a href="Game_LiveGame_SicBo.html">
                                                                     <div class="game-icon-container">
                                                                         <h4>SIC BO</h4>
@@ -116,7 +116,7 @@
                                                                     </div>
                                                                 </a>
                                                             </div>
-                                                            <div class="game-icon-wrap p-2" id="gameMenu-Dragon">
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-Dragon" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.4s; --sal-delay: 0.6s;">
                                                                 <a href="Game_LiveGame_DragonTiger.html">
                                                                     <div class="game-icon-container">
                                                                         <h4>DRAGON TIGER</h4>
@@ -129,7 +129,7 @@
                                                                     </div>
                                                                 </a>
                                                             </div>
-                                                            <div class="game-icon-wrap p-2" id="gameMenu-Mahjong">
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-Mahjong" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.4s; --sal-delay: 0.8s;">
                                                                 <a href="Game_LiveGame_MahjongLuckyWheel.html">
                                                                     <div class="game-icon-container">
                                                                         <h4>MAHJONG LUCKY WHEEL</h4>
@@ -336,49 +336,55 @@
                     <div class="container our-gamaes">
                         <div class="row">
                             <!-- live game start-->
-                            <div class="col-12 col-md-6 col-lg-3">
+                            <div class="our-gamaes-column col-12 col-md-6 col-lg-3">
                                 <div class="ourgames-img">
-                                    <img src="images/index/index_ourGames_col1_livegame_x1.png" srcset="images/index/index_ourGames_col1_livegame_x1.png 500w, images/index/index_ourGames_col1_livegame_x2.png 1000w" alt="" />
+                                    <img src="images/index/index_ourGames_col1_livegame_x1.png" 
+                                    srcset="images/index/index_ourGames_col1_livegame_x1.png 500w, 
+                                    images/index/index_ourGames_col1_livegame_x2.png 1000w" alt="" />
                                 </div>
                                 <a href="#" class="expand-deco">
-                                    <h4 class="more-deco-h4">MORE DETAILS</h4>
-                                    <div class="more-deco-wrap">
-                                        <div class="more-deco"></div>
+                                    <div class="expand-icon">
+                                        <img src="images/index/col1_expand-icon_x1.png" 
+                                        srcset="images/index/col1_expand-icon_x1.png 500w, 
+                                        images/index/col1_expand-icon_x2.png 1000w" alt="" />
+                                    </div>
+                                    <div class="hover-for-more">
+                                        <h4 class="more-deco-h4">MORE DETAILS</h4>
+                                        <div class="more-deco-wrap">
+                                            <div class="more-deco"></div>
+                                        </div>
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-3">
+                            <div class="our-gamaes-column col-12 col-md-6 col-lg-3">
                                 <div class="ourgames-img">
                                     <img src="images/index/index_ourGames_col2_livegame_x1.png" srcset="images/index/index_ourGames_col2_livegame_x1.png 500w, images/index/index_ourGames_col2_livegame_x2.png 1000w" alt="" />
                                 </div>
                                 <a href="#" class="expand-deco">
-                                    <h4 class="more-deco-h4">MORE DETAILS</h4>
-                                    <div class="more-deco-wrap">
-                                        <div class="more-deco"></div>
+                                    <div class="expand-icon">
+                                        <img src="images/index/col2_expand-icon_x1.png" 
+                                        srcset="images/index/col2_expand-icon_x1.png 500w, 
+                                        images/index/col2_expand-icon_x2.png 1000w" alt="" />
+                                    </div>
+                                    <div class="hover-for-more">
+                                        <h4 class="more-deco-h4">MORE DETAILS</h4>
+                                        <div class="more-deco-wrap">
+                                            <div class="more-deco"></div>
+                                        </div>
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-3">
-                                <div class="ourgames-img">
+                            <div class="disable-col col-12 col-md-6 col-lg-3">
+                                <div class="disable-img ourgames-img">
                                     <img src="images/index/index_ourGames_col3_livegame_x1.png" srcset="images/index/index_ourGames_col3_livegame_x1.png 500w, images/index/index_ourGames_col3_livegame_x2.png 1000w" alt="" />
                                 </div>
-                                <a href="#" class="expand-deco">
-                                    <h4 class="more-deco-h4">MORE DETAILS</h4>
-                                    <div class="more-deco-wrap">
-                                        <div class="more-deco"></div>
-                                    </div>
-                                </a>
+                                <h4 class="disable-text">Coming Soon</h4>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-3">
-                                <div class="ourgames-img">
+                            <div class="disable-col col-12 col-md-6 col-lg-3">
+                                <div class="disable-img ourgames-img">
                                     <img src="images/index/index_ourGames_col4_livegame_x1.png" srcset="images/index/index_ourGames_col4_livegame_x1.png 500w, images/index/index_ourGames_col4_livegame_x2.png 1000w" alt="" />
                                 </div>
-                                <a href="#" class="expand-deco">
-                                    <h4 class="more-deco-h4">MORE DETAILS</h4>
-                                    <div class="more-deco-wrap">
-                                        <div class="more-deco"></div>
-                                    </div>
-                                </a>
+                                <h4 class="disable-text">Coming Soon</h4>
                             </div>
                             <!-- live game end -->
                         </div>
@@ -995,6 +1001,14 @@
         <script src="./js/sal.js"></script>
         <script>
             sal();
+            const fadeAnimations = sal();
+
+            // Provide new options
+            fadeAnimations.reset({
+                selector: 'game-icon-wrap',
+                once: false,
+            });
+            
         </script>
         <!-- External JS  -->
         <script src="OwlCarousel2/owl.carousel.min.js"></script>

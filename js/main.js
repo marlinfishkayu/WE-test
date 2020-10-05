@@ -122,7 +122,16 @@ $(document).on("click", function(event){
    $('.lang-dropdown').removeClass("show");
 });
 
+/*-- hover index our games diamond --*/
 
+$('.our-gamaes-column').mouseover(function(){
+  $('.our-gamaes-column').removeClass("active");
+  $(this).addClass('active');
+  return false;
+});
+$('.our-gamaes-column').mouseleave(function(){
+  $(this).removeClass("active");
+});
 
 // diamond slider effect
 $(document).ready(function(){

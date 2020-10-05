@@ -205,7 +205,8 @@
 }
 // Diamond carousel
 #diamondCarousel {
-    
+    max-width: 1400px;
+    margin: auto;
     .owl-stage {
         transition: all 0s ease 0s;
         width: 2940px;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="123px" height="134px" viewBox="0 0 123 134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>game_icon</title>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>game_icon_lucky</title>
     <defs>
         <linearGradient x1="-17.240767%" y1="-56.3587536%" x2="50%" y2="100%" id="linearGradient-1">
             <stop stop-color="#000F24" stop-opacity="0.9" offset="0%"></stop>
@@ -10,7 +10,7 @@
             <stop stop-color="#000F24" stop-opacity="0.9" offset="0%"></stop>
             <stop stop-color="#011B3E" offset="100%"></stop>
         </linearGradient>
-        <circle id="path-3" cx="59.774" cy="59.774" r="59.774"></circle>
+        <circle id="path-3" cx="45.98" cy="45.98" r="45.98"></circle>
         <linearGradient x1="39.6243687%" y1="0%" x2="176.664605%" y2="178.388672%" id="linearGradient-5">
             <stop stop-color="#C8AA82" offset="0%"></stop>
             <stop stop-color="#7C6341" offset="79.6659393%"></stop>
@@ -26,35 +26,29 @@
             <stop stop-color="#AFA286" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="Game" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="WE_games_lw" transform="translate(-661.000000, -384.000000)">
-            <g id="Group" transform="translate(638.000000, 373.000000)">
-                <g id="Group" transform="translate(6.500000, 6.500000)">
-                    <g id="Group" transform="translate(18.200000, 6.500000)">
-                        <g id="icon" transform="translate(0.000000, 10.868000)">
-                            <circle id="Oval" stroke="#B0936D" stroke-width="2.377375" fill="url(#linearGradient-1)" cx="59.774" cy="59.774" r="59.774"></circle>
-                            <line x1="17.5073993" y1="17.5073993" x2="102.040601" y2="102.040601" id="Path-4" stroke="#B0936D" stroke-width="2.377375"></line>
-                            <line x1="102.040601" y1="17.5073993" x2="17.5073993" y2="102.040601" id="Path-4" stroke="#B0936D" stroke-width="2.377375"></line>
-                            <line x1="119.548" y1="62.5343362" x2="2.46868392e-12" y2="62.5343362" id="Path-5" stroke="#B0936D" stroke-width="2.377375"></line>
-                            <line x1="59.774" y1="119.548" x2="59.774" y2="0" id="Path-5" stroke="#B0936D" stroke-width="2.377375"></line>
-                            <circle id="Oval" stroke="#B0936D" stroke-width="2.377375" fill="url(#linearGradient-2)" cx="59.774" cy="59.774" r="43.472"></circle>
-                            <circle id="Oval" stroke="#B0936D" stroke-width="2.377375" cx="59.774" cy="59.774" r="28.5285"></circle>
-                            <circle id="Oval" stroke="#B0936D" stroke-width="2.377375" cx="59.774" cy="59.774" r="5.434"></circle>
-                            <path d="" id="Path-7" stroke="#979797" stroke-width="1.3585"></path>
-                            <g id="mark" transform="translate(0.000000, 0.000000)">
-                                <mask id="mask-4" fill="white">
-                                    <use xlink:href="#path-3"></use>
-                                </mask>
-                                <g id="Mask"></g>
-                            </g>
-                            <circle id="Oval" stroke="#B0936D" stroke-width="2.377375" cx="59.774" cy="59.774" r="59.774"></circle>
-                        </g>
-                        <polygon id="Path-8" stroke="url(#linearGradient-5)" stroke-width="2.377375" fill="#001127" points="60.45325 40.755 73.359 11.533859 60.45325 -5.69124175e-15 47.5475 11.533859"></polygon>
-                        <rect id="Rectangle" stroke="url(#linearGradient-7)" stroke-width="2.377375" fill="url(#linearGradient-6)" transform="translate(59.774000, 70.642000) rotate(-315.000000) translate(-59.774000, -70.642000) " x="54.34" y="65.208" width="10.868" height="10.868"></rect>
-                        <polygon id="Path-8" stroke="#B0936D" stroke-width="2.377375" fill="#001127" points="60.45325 27.17 65.208 12.3863843 60.45325 8.151 55.6985 12.3863843"></polygon>
-                    </g>
+    <g id="game_icon_lucky" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(14.000000, 5.000000)">
+            <g id="icon" transform="translate(0.000000, 8.360000)">
+                <circle id="Oval" stroke="#B0936D" stroke-width="1.82875" fill="url(#linearGradient-1)" cx="45.98" cy="45.98" r="45.98"></circle>
+                <line x1="13.4672302" y1="13.4672302" x2="78.4927698" y2="78.4927698" id="Path-4" stroke="#B0936D" stroke-width="1.82875"></line>
+                <line x1="78.4927698" y1="13.4672302" x2="13.4672302" y2="78.4927698" id="Path-4" stroke="#B0936D" stroke-width="1.82875"></line>
+                <line x1="91.96" y1="48.1033355" x2="1.89898763e-12" y2="48.1033355" id="Path-5" stroke="#B0936D" stroke-width="1.82875"></line>
+                <line x1="45.98" y1="91.96" x2="45.98" y2="0" id="Path-5" stroke="#B0936D" stroke-width="1.82875"></line>
+                <circle id="Oval" stroke="#B0936D" stroke-width="1.82875" fill="url(#linearGradient-2)" cx="45.98" cy="45.98" r="33.44"></circle>
+                <circle id="Oval" stroke="#B0936D" stroke-width="1.82875" cx="45.98" cy="45.98" r="21.945"></circle>
+                <circle id="Oval" stroke="#B0936D" stroke-width="1.82875" cx="45.98" cy="45.98" r="4.18"></circle>
+                <path d="" id="Path-7" stroke="#979797" stroke-width="1.045"></path>
+                <g id="mark" transform="translate(0.000000, 0.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Mask"></g>
                 </g>
+                <circle id="Oval" stroke="#B0936D" stroke-width="1.82875" cx="45.98" cy="45.98" r="45.98"></circle>
             </g>
+            <polygon id="Path-8" stroke="url(#linearGradient-5)" stroke-width="1.82875" fill="#001127" points="46.5025 31.35 56.43 8.87219925 46.5025 -4.37787827e-15 36.575 8.87219925"></polygon>
+            <rect id="Rectangle" stroke="url(#linearGradient-7)" stroke-width="1.82875" fill="url(#linearGradient-6)" transform="translate(45.980000, 54.340000) rotate(-315.000000) translate(-45.980000, -54.340000) " x="41.8" y="50.16" width="8.36" height="8.36"></rect>
+            <polygon id="Path-8" stroke="#B0936D" stroke-width="1.82875" fill="#001127" points="46.5025 20.9 50.16 9.52798792 46.5025 6.27 42.845 9.52798792"></polygon>
         </g>
     </g>
 </svg>
