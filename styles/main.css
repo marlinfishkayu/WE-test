@@ -2227,8 +2227,8 @@ footer {
 }
 
 #diamondCarousel .dia-btn {
-  -webkit-transform: scaleY(0);
-          transform: scaleY(0);
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
   opacity: 1;
   -webkit-transition: -webkit-transform 200ms ease-in;
   transition: -webkit-transform 200ms ease-in;
@@ -2306,8 +2306,7 @@ footer {
 #diamondCarousel .diamond-item .dia-btn {
   -webkit-transform: translate3d(-50%, 100%, 100px);
           transform: translate3d(-50%, 100%, 100px);
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
 }
 
 #diamondCarousel .hovering .dia-btn {
@@ -2940,6 +2939,24 @@ footer {
   margin-top: 1.5rem;
 }
 
+.live-game-main .game-UI {
+  width: 100%;
+  height: 100%;
+  max-width: 902px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  padding: 10px 20px;
+}
+
+.live-game-main .game-UI img {
+  width: 100%;
+  background-position: 50% 10%;
+  background-size: cover;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .live-game-main .feature-header {
   color: #E1E1E1;
   font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
@@ -3097,7 +3114,6 @@ footer {
 }
 
 .live-game-bottom {
-  border-top: 1px solid #89663D;
   border-bottom: 1px solid #89663D;
   background: #000f24;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 15, 36, 0.9)), to(#011b3e));
@@ -3208,6 +3224,36 @@ footer {
 
 .live-game-bottom .bottom-icon-left h3 {
   line-height: 45px;
+}
+
+#BaccaratType {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+
+#BaccaratType .baccarat-type {
+  max-width: 293px;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+
+#BaccaratType h4 {
+  margin-top: 2rem;
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#BaccaratType p {
+  margin-top: 1rem;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 1px;
 }
 
 @media (min-width: 768px) {
@@ -3387,6 +3433,20 @@ footer {
   }
   #SqueezeBaccarat .hero-header, .live-game-main {
     margin-bottom: 1rem;
+  }
+  .live-game-main .game-UI {
+    width: 100%;
+    height: 100%;
+    max-width: 902px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 0;
+  }
+  #BaccaratType {
+    text-align: left;
+  }
+  #BaccaratType .baccarat-type {
+    width: 100%;
   }
 }
 
