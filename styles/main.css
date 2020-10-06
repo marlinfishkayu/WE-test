@@ -4881,6 +4881,8 @@ select.form-control::-ms-expand {
 }
 
 .studio-card .studio-slide-text {
+  max-width: 230px;
+  overflow: hidden;
   padding: 2rem;
   position: absolute;
   opacity: 1;
@@ -4895,14 +4897,14 @@ select.form-control::-ms-expand {
 #liveStudio .room-num {
   color: #89663D;
   font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 3px;
 }
 
 #liveStudio .room-name {
   color: #D8D8D8;
   font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 100;
   letter-spacing: 3px;
   padding-top: 1rem;
@@ -4912,7 +4914,7 @@ select.form-control::-ms-expand {
 #liveStudio .room-des {
   color: #979797;
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 100;
   letter-spacing: 1px;
   padding-top: 16rem;
@@ -4927,6 +4929,10 @@ select.form-control::-ms-expand {
   width: 43px;
   height: 1px;
   background-color: #979797;
+}
+
+#liveStudio .owl-theme .owl-nav.disabled + .owl-dots {
+  display: none;
 }
 
 .studio-card {
@@ -5160,18 +5166,37 @@ select.form-control::-ms-expand {
   background: linear-gradient(180deg, rgba(6, 11, 26, 0) 0%, black 100%);
 }
 
-.lg-actions .lg-next, .lg-actions .lg-prev {
-  color: #B0936D;
-}
-
-.lg-actions .lg-next, .lg-actions .lg-prev {
-  border-radius: 50px;
-}
-
-.lg-toolbar .lg-icon,
-.lg-actions .lg-next,
-.lg-actions .lg-prev {
+.lg-toolbar .lg-icon {
   font-size: 40px;
+}
+
+.lg-actions .lg-next, .lg-actions .lg-prev {
+  width: 72px;
+  height: 72px;
+}
+
+.lg-actions .lg-prev:after,
+.lg-actions .lg-next:before {
+  content: "";
+}
+
+.lg-actions .lg-next, .lg-actions .lg-prev {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.lg-actions .lg-icon {
+  width: 72px;
+  height: 72px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/images/livestudio/lg-arrow.svg);
+}
+
+.lg-actions .lg-next {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
 }
 
 #studioCarousel .room-slide {
@@ -5245,6 +5270,18 @@ select.form-control::-ms-expand {
     width: 295px;
     height: 559px;
   }
+  .studio-card .studio-slide-text {
+    max-width: inherit;
+  }
+  #liveStudio .room-num {
+    font-size: 18px;
+  }
+  #liveStudio .room-name {
+    font-size: 26px;
+  }
+  #liveStudio .room-des {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -5264,7 +5301,8 @@ select.form-control::-ms-expand {
 
 @media (min-width: 1200px) {
   #liveStudio #studioCarousel {
-    padding-left: 20vw;
+    margin: 0 auto;
+    width: 1500px;
   }
 }
 

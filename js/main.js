@@ -456,31 +456,29 @@ $(function(){
 $('#studioCarousel').owlCarousel({
   loop:false,
   margin:10,
-  nav:true,
   center: true,
-  navigation : true,
   responsive:{
       0:{
         items:2,
-        navigation: true,
-        nav: true,
+        center: true,
+        nav:false,
         slideBy: 1 // <!-- HERE
       },
       600:{
         items:3,
-        navigation: true,
-        nav: true,
+        center: true,
+        nav:false,
         slideBy: 1 // <!-- HERE
       },
       1000:{
         center: false,
-        items:4,
-        navigation:false,
-        nav: false,
+        items:5,
+        navigation : false,
+        nav:false,
         autoWidth:true,
         slideBy: 1 // <!-- HERE
       }
-  },navigation : true
+  }
 });
 
 
