@@ -8,7 +8,10 @@
 #services .hero-header-bkg {
     height: 400px;
 }
-
+#services .hero-header::after{
+    background: rgb(6,11,26);
+    background: linear-gradient(180deg, rgba(6,11,26,0.6) 0%, rgba(7,10,27,1) 100%);
+}
 #services .hero-intro2{
     padding: 0 3rem
 }
@@ -51,7 +54,7 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     #services .services-main {
-        padding-top: 200px;
+        padding-top: 100px;
     }
     #services .services-main{
         max-width: 800px;
@@ -81,6 +84,12 @@
     }
     .service-item {
         padding: 5px 4rem;
+    }
+    #services .hero-header {
+        height: 500px;
+    }
+    #services .hero-header-bkg {
+        height: 500px;
     }
 }
 // Extra large devices (large desktops, 1200px and up)
