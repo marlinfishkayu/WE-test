@@ -112,7 +112,7 @@
     max-width: 902px;
     margin: 0 auto;
     margin-top: 5rem;
-    padding: 10px 20px;
+    padding: 0 2rem;
     img{
         width: 100%; 
         background-position: 50% 10%; 
@@ -356,6 +356,20 @@
 .live-game-bottom .bottom-icon-left h3{
     line-height: 45px;
 }
+#GodofFortuneSicBo .hero-header .GOF-series , 
+#GodofFortuneRoulette .hero-header .GOF-series {
+    font-family: $fontBarlowCondensed;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #D8D8D8;
+    text-transform: uppercase;
+}
+#GodofFortuneSicBo .hero-header , 
+#GodofFortuneRoulette .hero-header {
+    height: 460px;
+}
+
 //Baccarat Type section
 #BaccaratType{
     text-align: center;
@@ -380,6 +394,8 @@
         font-family: $fontBarlowLight;
         font-size: 16px;
         font-weight: 100;
+        color: #979797;
+        line-height: 1.5;
         letter-spacing: 1px;
     }
 }
@@ -408,7 +424,12 @@
         padding-bottom: 0rem;
     }
     #liveGame .hero-header h1{
-        font-size: 80px;
+        font-size: 90px;
+    }
+    #GodofFortuneSicBo .hero-header .GOF-series , 
+    #GodofFortuneRoulette .hero-header .GOF-series {
+        font-size: 52px;
+        padding-top: 30px;
     }
     #liveGame .header-deco{
         margin-top: 13rem; 
@@ -558,7 +579,7 @@
             left: 22px;
             width: 373px;
             z-index: 10;
-            height: 232px;
+            height: 236px;
             z-index: -1;
         }
     }
@@ -585,6 +606,7 @@
     #BaccaratType .baccarat-type{
         width: 100%;
     }
+    
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
@@ -613,4 +635,5 @@
             height: 118px;
         }
     }
+    
 }
