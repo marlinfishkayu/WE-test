@@ -1,10 +1,12 @@
 #NewsDetail{
+    position: relative;
     .hero-float{
         text-align: left;
         padding-left: 2rem;
         padding-right: 2rem;
-        padding-top: 8rem;
+        padding-top: 0rem;
         max-width: 770px;
+        position: relative;
     }
     .hero-title{
         font-size: 40px;
@@ -41,9 +43,7 @@
             width: 30px;
             height: 30px;
             margin-right: 20px;
-            
         } 
-        
     }
     #Event-slider{
         position: relative;
@@ -134,6 +134,58 @@
            padding-top: 8rem;
        }
    }
+   .hero-header::after {
+        background: transparent;
+    }
+    // .event-slider-bkg{
+    //     position: absolute;
+    //     z-index: -1;
+    //     top: 0;
+    //     height: 50vh;
+    //     overflow: hidden;
+    // }
+    .hero-header-bkg, .live-game-main-bkg{
+        position: inherit;
+        height: auto;
+        top: 70px;
+    }
+    #NewsDetail .hero-header-bkg,
+    .hero-header {
+        height: inherit;
+    }
+
+    .event-slider-bkg-D{
+        display: none;
+    }
+//    .hero-header{
+//         width: 100%;
+//         height: 100%;
+//         background-position: 50% 10%;
+//         object-fit: contain;
+//         background-size: contain;
+//         background-repeat: no-repeat;
+//         border: 1px solid red;
+//         background-image: url(/images/news/news-slider-bkg-D_x1.jpg);
+//    }
+//    .event-slider-bkg{
+//        height: 700px;
+//        width:100%;
+//        position: absolute;
+//        top: 0;
+//    }
+//    .hero-header-bkg{
+//         height: 700px;
+//         position: relative;
+//    }
+    // .event-slider-bkg-M{
+    //     display: block;
+    // }
+    // .event-slider-bkg-D{
+    //     display: block;
+    // }
+    // .hero-header-bkg{
+    //     position: relative;
+    // }
 }
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
@@ -154,6 +206,27 @@
         padding-left: 2rem;
         padding-right: 2rem;
     } 
+
+    #NewsDetail .event-slider-bkg{
+        margin: 0 auto;
+        width: 100%;
+    }
+    #NewsDetail .event-slider-bkg-D{
+        display: block;
+    }
+    #NewsDetail .event-hightlight{
+        width: 802px;
+        height: 491px;
+        
+    }
+    // #NewsDetail .event-slider-bkg{
+    //     position: relative;
+    // }
+    // #NewsDetail .event-hightlight{
+    //     position: absolute;
+    //     top: 0;
+    //     left: 50%;
+    // }
 }
 
 // Large devices (desktops, 992px and up)
