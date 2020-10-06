@@ -27,7 +27,7 @@
     width: 100%;
     height: 100%;
     background: rgb(6,11,26);
-    background: linear-gradient(180deg, rgba(6,11,26,0.65 ) 0%, rgba(7,10,27,1) 100%);
+    background: linear-gradient(180deg, rgba(6,11,26,0.3) 30%, rgba(7,10,27,1) 100%);
 }
 .game-hero-M,
 .game-hero-D{
@@ -356,6 +356,7 @@
 .live-game-bottom .bottom-icon-left h3{
     line-height: 45px;
 }
+#MahjongLuckyWheel .hero-header .GOF-series , 
 #GodofFortuneSicBo .hero-header .GOF-series , 
 #GodofFortuneRoulette .hero-header .GOF-series {
     font-family: $fontBarlowCondensed;
@@ -368,6 +369,12 @@
 #GodofFortuneSicBo .hero-header , 
 #GodofFortuneRoulette .hero-header {
     height: 460px;
+}
+
+//Gradient adjust
+#WinThreeCards .hero-header::after{
+    background: rgb(6,11,26);
+    background: linear-gradient(180deg, rgba(6,11,26,0.3) 90%, rgba(7,10,27,1) 100%);
 }
 
 //Baccarat Type section
@@ -426,6 +433,7 @@
     #liveGame .hero-header h1{
         font-size: 90px;
     }
+    #MahjongLuckyWheel .hero-header .GOF-series , 
     #GodofFortuneSicBo .hero-header .GOF-series , 
     #GodofFortuneRoulette .hero-header .GOF-series {
         font-size: 52px;
