@@ -2838,6 +2838,10 @@ footer {
   width: 100%;
 }
 
+#liveGame .main-button a:after {
+  height: 47px;
+}
+
 .hero-header::after {
   content: '';
   position: absolute;
@@ -3145,56 +3149,56 @@ footer {
   padding: 5rem 0;
 }
 
-.live-game-bottom .bottom-icon-left,
-.live-game-bottom .bottom-icon-right {
+.live-game-bottom .game-bottom {
   text-align: center;
-}
-
-.live-game-bottom .bottom-icon-left .game-icon {
-  width: 120px;
-  height: 120px;
-  padding-bottom: 11px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
-.live-game-bottom .bottom-icon-left h6 {
-  font-family: "Barlow Medium", sans-serif, Arial, Helvetica;
-  font-size: 16;
-  letter-spacing: 2px;
-  padding: 15px 0;
-}
-
-.live-game-bottom .bottom-icon-left .line-icon-img {
-  width: 62px;
-  margin: 0 auto;
-}
-
-.live-game-bottom .bottom-icon-left .line-icon-img img {
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.live-game-bottom .bottom-icon-left h3 {
+.live-game-bottom .game-bottom h4 {
   font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
-  font-size: 36px;
-  letter-spacing: 3px;
+  font-size: 20px;
   font-weight: 100;
+  letter-spacing: 1px;
   text-transform: uppercase;
-  padding-top: 10px;
 }
 
-.live-game-bottom .bottom-icon-right {
-  margin: 3rem 0;
+.live-game-bottom .game-bottom .back-ALG {
+  position: relative;
+  padding-top: 1rem;
 }
 
-.live-game-bottom .bottom-icon-right h4 {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+.live-game-bottom .game-bottom .back-ALG h4 {
   font-size: 13px;
+  color: #B0936D;
   letter-spacing: 3px;
-  font-weight: 100;
-  padding: 1rem 0rem;
+}
+
+.live-game-bottom .game-bottom .back-ALG h4:hover {
+  color: #fff;
+  -webkit-transition: 300ms all ease;
+  transition: 300ms all ease;
+}
+
+.live-game-bottom .game-bottom .back-ALG h4:after {
+  content: '';
+  position: absolute;
+  top: 19px;
+  margin: 5px 9px;
+  width: 10px;
+  height: 14px;
+  background-repeat: no-repeat;
+  background-image: url(/images/game/mini-arrow.svg);
+}
+
+.live-game-bottom .game-bottom a:hover {
+  text-decoration: none;
+}
+
+.live-game-bottom .game-bottom-deco {
+  width: 176px;
+  padding: 1.5rem 0;
+  margin: 0 auto;
 }
 
 #liveGame .main-button {
@@ -3400,6 +3404,9 @@ footer {
   #WinThreeCards .hero-header::after {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(6, 11, 26, 0.35)), to(#070a1b));
     background: linear-gradient(180deg, rgba(6, 11, 26, 0.35) 0%, #070a1b 100%);
+  }
+  .live-game-bottom .game-bottom h4 {
+    font-size: 26px;
   }
 }
 

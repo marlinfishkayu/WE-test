@@ -15,6 +15,9 @@
 #liveGame .hero-header-bkg{
     width: 100%;
 }
+#liveGame .main-button a:after {
+    height: 47px;
+}
 .hero-header::after{
     content: '';
     position: absolute;
@@ -282,53 +285,52 @@
     .bottom-container{
         padding: 5rem 0;
     }
-    .bottom-icon-left, 
-    .bottom-icon-right{
+    .game-bottom{
         text-align: center;
-    }
-    .bottom-icon-left{
-        .game-icon{
-            width: 120px;
-            height: 120px;
-            padding-bottom: 11px;
-            margin: 0 auto;
-        }
-        h6{
-            font-family: $fontBarlowMedium;
-            font-size: 16;
-            letter-spacing: 2px;
-            padding: 15px 0;
-        }
-        .line-icon-img{
-            width: 62px;
-            margin: 0 auto;
-            img{
-                width: 100%;
-                background-repeat: no-repeat;
-                -webkit-background-size: cover;
-                background-size: cover;
-                background-position: 50% 50%;
-            }
-        }
-        h3{
-            font-family: $fontFuturaMedium;
-            font-size: 36px;
-            letter-spacing: 3px;
-            font-weight: 100;
-            text-transform: uppercase;
-            padding-top: 10px;
-        }
-    }
-    .bottom-icon-right {
-        margin: 3rem 0;
+        max-width: 700px;
+        margin: 0 auto;
         h4{
             font-family: $fontFuturaMedium;
-            font-size: 13px;
-            letter-spacing: 3px;
+            font-size: 20px;
             font-weight: 100;
-            padding: 1rem 0rem; 
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .back-ALG {
+            position: relative;
+            padding-top: 1rem;
+            h4{
+                font-size: 13px;
+                color: #B0936D;
+                letter-spacing: 3px;
+                &:hover{
+                    color: #fff;
+                    transition: 300ms all ease;
+                }
+                &:after{
+                    content: '';
+                    position: absolute;
+                    top: 19px;
+                    margin: 5px 9px;
+                    width: 10px;
+                    height: 14px;
+                    background-repeat: no-repeat;
+                    background-image:url(/images/game/mini-arrow.svg);
+                }
+            }
+            
+            
+        }
+        a:hover{
+            text-decoration: none;
         }
     }
+    .game-bottom-deco{
+        width: 176px;
+        padding: 1.5rem 0;
+        margin: 0 auto;
+    }
+    
 }
 #liveGame .main-button{
     padding-bottom: 10px;
@@ -531,6 +533,9 @@
     }
     #WinThreeCards .hero-header::after {
         background: linear-gradient(180deg, rgba(6, 11, 26, 0.35) 0%, #070a1b 100%);
+    }
+    .live-game-bottom .game-bottom h4{
+        font-size: 26px;
     }
 }
 

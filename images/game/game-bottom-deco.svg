@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="165px" height="17px" viewBox="0 0 165 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 35</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="129.15335%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#D8C5A6" offset="0%"></stop>
+            <stop stop-color="#B0936D" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="129.15335%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#B0936D" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#D8C5A6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="All-Game" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-35" transform="translate(0.000000, 0.198434)" fill-rule="nonzero">
+            <path d="M80.9073749,3 L80.8579348,13.5636915 L70.2942433,13.6131316 L70.3436834,3.04944005 L80.9073749,3 Z M79.903,4.0045656 L71.339,4.0435656 L71.3,12.6075656 L79.863,12.5685656 L79.903,4.0045656 Z" id="Rectangle" fill="#B0936D" transform="translate(75.600809, 8.306566) rotate(-315.000000) translate(-75.600809, -8.306566) "></path>
+            <path d="M88.3246827,3 L88.2752427,13.5636915 L77.7115511,13.6131316 L77.7609912,3.04944005 L88.3246827,3 Z M87.32,4.0045656 L78.756,4.0435656 L78.717,12.6075656 L87.281,12.5685656 L87.32,4.0045656 Z" id="Rectangle-Copy-2" fill="#B0936D" transform="translate(83.018117, 8.306566) rotate(-315.000000) translate(-83.018117, -8.306566) "></path>
+            <path d="M95.7419906,3 L95.6925505,13.5636915 L85.128859,13.6131316 L85.178299,3.04944005 L95.7419906,3 Z M94.738,4.0045656 L86.174,4.0435656 L86.134,12.6075656 L94.698,12.5685656 L94.738,4.0045656 Z" id="Rectangle-Copy-3" fill="#B0936D" transform="translate(90.435425, 8.306566) rotate(-315.000000) translate(-90.435425, -8.306566) "></path>
+            <polygon id="Rectangle-Copy" fill="url(#linearGradient-1)" points="165 7.8015656 165 8.8015656 99 8.8015656 99 7.8015656"></polygon>
+            <polygon id="Rectangle-Copy-7" fill="url(#linearGradient-2)" points="66 7.8015656 66 8.59156562 0 8.59156562 0 7.8015656"></polygon>
+        </g>
+    </g>
+</svg>
