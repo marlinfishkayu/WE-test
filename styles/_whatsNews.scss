@@ -8,6 +8,13 @@
         background-size: contain;
         object-fit: contain;
     }
+    .owl-dots span{
+        display: inline-block;     
+        position: relative;    
+        z-index: 1;     
+        padding: 2em;     
+        margin: -2em; 
+    }
     .news-slide{
         position: relative;
     }

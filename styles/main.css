@@ -1849,6 +1849,18 @@ footer {
           box-shadow: transparent !important;
 }
 
+.index-carousel .slide .main-button {
+  margin-top: 10px;
+}
+
+.index-carousel .owl-dots span {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 2em;
+  margin: -2em;
+}
+
 #slider-area .owl-dots {
   position: absolute;
   bottom: 5%;
@@ -2078,8 +2090,6 @@ footer {
   height: 800px;
   margin-right: 10px;
   padding-top: 0px;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
 }
 
 #diamondCarousel .diamond-wrap {
@@ -2102,8 +2112,6 @@ footer {
   -webkit-transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
           transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
   position: relative;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
 }
 
 #diamondCarousel .active-img:after {
@@ -2161,19 +2169,38 @@ footer {
 }
 
 #diamondCarousel .dia-3d-layer {
-  -webkit-transform: translateZ(30px);
-          transform: translateZ(30px);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, 19%);
+          transform: translate(-50%, 19%);
+  z-index: 1;
+  pointer-events: none;
+  -webkit-transition: 800ms all;
+  transition: 800ms all;
+  -webkit-transition-timing-function: cubic-bezier(0.05, 0.77, 0.32, 1);
+          transition-timing-function: cubic-bezier(0.05, 0.77, 0.32, 1);
+}
+
+#diamondCarousel .hovering .dia-3d-layer {
+  -webkit-transform: translate(-50%, -60%);
+          transform: translate(-50%, -60%);
 }
 
 #diamondCarousel .dia-icon {
+  pointer-events: none;
+  opacity: 0;
   width: 80px;
   height: 80px;
   margin: 0 auto;
-  -webkit-transform: translateZ(20px);
-          transform: translateZ(20px);
+  -webkit-transition: 800ms all;
+  transition: 800ms all;
+  -webkit-transition-timing-function: cubic-bezier(0.05, 0.77, 0.32, 1);
+          transition-timing-function: cubic-bezier(0.05, 0.77, 0.32, 1);
 }
 
 #diamondCarousel .dia-icon .dia-icon-img {
+  pointer-events: none;
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -2181,7 +2208,31 @@ footer {
   background-position: 50% 50%;
 }
 
+#diamondCarousel .hovering .dia-icon {
+  opacity: 1;
+}
+
+#diamondCarousel h5 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  color: #D8D8D8;
+}
+
+#diamondCarousel h3 {
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
+  font-size: 14px;
+  font-weight: 100;
+  color: #979797;
+  opacity: 0;
+  -webkit-transition: 800ms all;
+  transition: 800ms all;
+  -webkit-transition-timing-function: cubic-bezier(0.05, 0.77, 0.32, 1);
+          transition-timing-function: cubic-bezier(0.05, 0.77, 0.32, 1);
+}
+
 #diamondCarousel .dia-cat h5 {
+  pointer-events: none;
   font-family: "Barlow Medium", sans-serif, Arial, Helvetica;
   font-size: 16px;
   font-weight: 100;
@@ -2191,6 +2242,7 @@ footer {
 }
 
 #diamondCarousel .deco-main {
+  pointer-events: none;
   width: 62px;
   height: auto;
   margin: 0 auto;
@@ -2206,6 +2258,7 @@ footer {
 }
 
 #diamondCarousel h2 {
+  white-space: nowrap;
   font-size: 25px;
   letter-spacing: 3px;
   font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
@@ -2224,18 +2277,6 @@ footer {
   max-width: 230px;
   text-align: center;
   margin: 0 auto;
-}
-
-#diamondCarousel .dia-btn {
-  -webkit-transform: scaleY(1);
-          transform: scaleY(1);
-  opacity: 1;
-  -webkit-transition: -webkit-transform 200ms ease-in;
-  transition: -webkit-transform 200ms ease-in;
-  transition: transform 200ms ease-in;
-  transition: transform 200ms ease-in, -webkit-transform 200ms ease-in;
-  -webkit-transition-timing-function: cubic-bezier(0.05, 0.77, 0.32, 1);
-          transition-timing-function: cubic-bezier(0.05, 0.77, 0.32, 1);
 }
 
 #diamondCarousel .main-button {
@@ -2304,30 +2345,41 @@ footer {
 }
 
 #diamondCarousel .diamond-item .dia-btn {
-  -webkit-transform: translate3d(-50%, 100%, 100px);
-          transform: translate3d(-50%, 100%, 100px);
+  opacity: 0;
+  padding-top: 6rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-decoration: none;
+  -webkit-transform: translate(-50%, 100%);
+          transform: translate(-50%, 100%);
+  z-index: 1;
+  -webkit-transition: 800ms all;
+  transition: 800ms all;
+  -webkit-transition-timing-function: cubic-bezier(0.05, 0.77, 0.32, 1);
+          transition-timing-function: cubic-bezier(0.05, 0.77, 0.32, 1);
+}
+
+#diamondCarousel .diamond-item .dia-btn .more-deco-h4 {
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  color: #FFFFFF;
+  letter-spacing: 3px;
+  font-size: 13px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+#filterBlue {
+  display: none;
+}
+
+#diamondCarousel .hovering h3 {
   opacity: 1;
 }
 
-#diamondCarousel .hovering .dia-btn {
-  -webkit-transform: scaleY(1);
-          transform: scaleY(1);
-  opacity: 1;
-  position: absolute;
-  z-index: 10;
-  top: 67%;
-  left: 50%;
-  z-index: 100;
-  -webkit-transform: translate3d(-50%, 0, 100px);
-          transform: translate3d(-50%, 0, 100px);
-  opacity: 1;
-  visibility: visible;
-  -webkit-transition: all 400ms ease-out;
-  transition: all 400ms ease-out;
-  -webkit-transition-delay: 500ms;
-  transition-delay: 300ms;
-  -webkit-transition-timing-function: cubic-bezier(0.76, 0.14, 0.32, 1);
-          transition-timing-function: cubic-bezier(0.76, 0.14, 0.32, 1);
+#diamondCarousel .hovering .active-img {
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
 }
 
 #diamondCarousel #diaDragonTiger .dia-icon .dia-icon-img {
@@ -2354,16 +2406,28 @@ footer {
   background-image: url(/images/icon/game_icon/game_icon_SicBo.svg);
 }
 
-#diamondCarousel #diaLotto5 .dia-icon .dia-icon-img {
-  background-image: url(/images/icon/game_icon/game_icon_Lotto5.svg);
-}
-
 #diamondCarousel #diaGodofFortuneSicBo .dia-icon .dia-icon-img {
   background-image: url(/images/icon/game_icon/game_icon_GodofFortuneSicBo.svg);
 }
 
 #diamondCarousel #diaGodofFortuneRoulette .dia-icon .dia-icon-img {
   background-image: url(/images/icon/game_icon/game_icon_GodofFoutuneRoulette.svg);
+}
+
+#diamondCarousel #diaWinThreeCards .dia-icon .dia-icon-img {
+  background-image: url(/images/icon/game_icon/game_icon_WinThreeCards.svg);
+}
+
+#diamondCarousel #diaMahjongLuckyWheel h5,
+#diamondCarousel #diaGodofFortuneSicBo h5,
+#diamondCarousel #diaGodofFortuneSicBo h5 {
+  padding-top: 1rem;
+}
+
+#diamondCarousel #diaMahjongLuckyWheel h2,
+#diamondCarousel #diaGodofFortuneSicBo h2,
+#diamondCarousel #diaGodofFortuneSicBo h2 {
+  padding-top: 0rem;
 }
 
 #introCarousel button:focus {
@@ -2410,6 +2474,9 @@ footer {
     padding-top: 22px;
     margin-right: 150px;
   }
+  #diamondCarousel a:hover {
+    text-decoration: none;
+  }
   #diamondCarousel .active-img {
     width: 430px;
     height: auto;
@@ -2420,6 +2487,12 @@ footer {
     padding: 30px;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
+    -webkit-filter: brightness(1);
+            filter: brightness(1);
+    -webkit-transition: 800ms all;
+    transition: 800ms all;
+    -webkit-transition-timing-function: cubic-bezier(0.05, 0.77, 0.32, 1);
+            transition-timing-function: cubic-bezier(0.05, 0.77, 0.32, 1);
   }
   #diamondCarousel .active-img img {
     width: 100%;
@@ -2447,6 +2520,24 @@ footer {
   }
   #diamondCarousel .main-button {
     width: 200px;
+  }
+  #diamondCarousel .more-deco-wrap {
+    width: 200px;
+    height: 21px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+  }
+  #diamondCarousel .more-deco-wrap .more-deco {
+    width: 100%;
+    height: 100%;
+    background-position: 50% 10%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/images/icon/more-deco.svg);
   }
   #diamondCarousel .hovering-slide .inactive-img {
     -webkit-transform: translate(-51%, -8%);
@@ -2482,6 +2573,34 @@ footer {
   }
   #intdexWhatsNews .news-item-text {
     padding-top: 6rem;
+  }
+  #diamondCarousel .diamond-item .dia-btn {
+    opacity: 0;
+    padding-top: 6rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-decoration: none;
+    -webkit-transform: translate(-50%, 100%);
+            transform: translate(-50%, 100%);
+    z-index: 1;
+    -webkit-transition: 800ms all;
+    transition: 800ms all;
+    -webkit-transition-timing-function: cubic-bezier(0.05, 0.77, 0.32, 1);
+            transition-timing-function: cubic-bezier(0.05, 0.77, 0.32, 1);
+  }
+  #diamondCarousel .diamond-item .dia-btn .more-deco-h4 {
+    font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+  #diamondCarousel .hovering .dia-btn {
+    opacity: 1;
+    -webkit-transform: translate(-50%, 50%);
+            transform: translate(-50%, 50%);
   }
 }
 
@@ -3785,6 +3904,14 @@ select.form-control::-ms-expand {
   background-size: contain;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+#news-carousel .owl-dots span {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 2em;
+  margin: -2em;
 }
 
 #news-carousel .news-slide {
