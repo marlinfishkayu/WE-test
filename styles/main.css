@@ -7056,6 +7056,139 @@ select.form-control::-ms-expand {
   }
 }
 
+#privacyPolicy {
+  position: relative;
+}
+
+#privacyPolicy button {
+  background-color: transparent;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#privacyPolicy .close-btn {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 20px;
+}
+
+#privacyPolicy .privacy-wrap {
+  margin: 0 auto;
+  width: 100%;
+  padding: 3rem 2rem;
+}
+
+#privacyPolicy .privacy-wrap .privacy-h1 {
+  text-align: center;
+  color: #B0936D;
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+
+#privacyPolicy .privacy-wrap .terms {
+  padding-bottom: 4rem;
+}
+
+#privacyPolicy .privacy-wrap .privacy-h2 {
+  color: #FFFFFF;
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#privacyPolicy .privacy-wrap .privacy-p {
+  padding-top: 1rem;
+}
+
+#privacyPolicy .privacy-wrap p,
+#privacyPolicy .privacy-wrap ul li {
+  color: #979797;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
+  font-weight: 100;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+#privacyPolicy #myBtn {
+  display: none;
+  margin: 0 auto;
+  z-index: 99;
+  width: 72px;
+  height: 72px;
+  border: none;
+  outline: none;
+  opacity: 0.5;
+  color: white;
+  cursor: pointer;
+  padding-bottom: 0rem;
+  -webkit-transform: scaleY(-1);
+          transform: scaleY(-1);
+  -webkit-transition: 200ms all ease;
+  transition: 200ms all ease;
+}
+
+#privacyPolicy #myBtn:hover {
+  opacity: 1;
+}
+
+#privacyPolicy .deco-frame {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  #privacyPolicy .close-btn {
+    width: 72px;
+    height: 72px;
+  }
+  #privacyPolicy .privacy-wrap .privacy-h1 {
+    font-size: 44px;
+    padding-bottom: 5rem;
+  }
+  #privacyPolicy .privacy-wrap {
+    max-width: 700px;
+    padding-top: 5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #privacyPolicy .close-btn {
+    margin: 0;
+  }
+  #privacyPolicy .privacy-wrap {
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    position: relative;
+  }
+  #privacyPolicy .close-btn {
+    position: absolute;
+    left: -45%;
+    top: 0%;
+  }
+}
+
+@media (min-width: 1500px) {
+  #privacyPolicy .deco-frame {
+    display: block;
+    position: absolute;
+    top: -71px;
+    left: 50%;
+    width: 1329px;
+    height: 3300px;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+}
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   #nav-area .search-form {
     top: 0px;
