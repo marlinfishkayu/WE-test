@@ -320,8 +320,9 @@ button:focus {
   margin: 0 auto;
   width: 230px;
   padding: 0.5rem 0;
+  -webkit-transition: 500ms all ease;
+  transition: 500ms all ease;
   /* helpers */
-  /* motion */
 }
 
 .main-button a {
@@ -368,7 +369,7 @@ button:focus {
   margin-top: 0;
   color: #fff;
   background: #004383;
-  background: linear-gradient(333deg, rgba(0, 67, 131, 0.3) 1%, rgba(0, 32, 76, 0.8) 39%, rgba(0, 32, 76, 0.8) 72%, rgba(0, 32, 76, 0.3) 100%);
+  background: linear-gradient(135deg, rgba(0, 67, 131, 0.3) 0%, #00204c 30%, #00204c 70%, rgba(0, 67, 131, 0.3) 100%);
   background-size: 100%;
 }
 
@@ -378,6 +379,12 @@ button:focus {
   right: 0;
   top: 0;
   margin: auto;
+}
+
+.main-button:hover a > span {
+  opacity: 1;
+  background: #004383;
+  background: linear-gradient(225deg, #004383 0%, #00204c 30%, #00204c 70%, #004383 100%);
 }
 
 .lg-break-only {
@@ -916,7 +923,7 @@ button:focus {
 .lang-dropdown {
   position: absolute;
   width: 200px;
-  height: 140px;
+  height: 100px;
   top: -20px;
   right: -10px;
   z-index: 10;
@@ -2711,6 +2718,7 @@ footer {
   letter-spacing: 2px;
   color: #FFFFFF;
   padding-bottom: 5px;
+  text-transform: uppercase;
 }
 
 .our-gamaes .expand-deco .hover-for-more {
@@ -5979,6 +5987,7 @@ select.form-control::-ms-expand {
   max-width: 712px;
   margin: 0 auto;
   padding: 13px 1.5rem;
+  letter-spacing: 1px;
 }
 
 #AboutWE .line-deco {
