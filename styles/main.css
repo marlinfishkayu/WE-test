@@ -5799,7 +5799,7 @@ select.form-control::-ms-expand {
 }
 
 #allLiveGame .allLiveGame-main .hovering .inner-stroke {
-  outline-offset: 1px;
+  outline-offset: -2px;
 }
 
 #allLiveGame .allLiveGame-main .hovering picture:before {
