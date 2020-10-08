@@ -506,6 +506,30 @@ button:focus {
   margin: auto;
 }
 
+.WE-diamond-bkg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat;
+  background-size: 90px 80px;
+  background-image: url("/images/background/we_diamond_pattern_x2.jpg");
+}
+
+.WE-diamond-bkg:after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: #011b3e;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 27, 62, 0)), to(rgba(0, 15, 36, 0.9)));
+  background: linear-gradient(180deg, rgba(1, 27, 62, 0) 0%, rgba(0, 15, 36, 0.9) 100%);
+}
+
 @media (min-width: 768px) {
   .hero-intro1 {
     font-size: 22px;
@@ -2809,7 +2833,7 @@ footer {
   position: relative;
 }
 
-.intdexHotPick-bkg, .intdexWhatsNews-bkg {
+#intdexWhatsNews .intdexWhatsNews-bkg {
   position: absolute;
   top: 0;
   left: 0;
@@ -5921,6 +5945,18 @@ select.form-control::-ms-expand {
      object-fit: cover;
 }
 
+#AboutWE .about-bkg:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: #011b3e;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(1, 27, 62, 0)), to(#060b1a));
+  background: linear-gradient(0deg, rgba(1, 27, 62, 0) 0%, #060b1a 100%);
+}
+
 #AboutWE .about-brandStory {
   margin: 0 auto;
   text-align: center;
@@ -6348,7 +6384,7 @@ select.form-control::-ms-expand {
     height: 531px;
   }
   #AboutWE .about-brandStory .about-h2 {
-    padding-top: 33px;
+    padding-top: 50px;
     margin-bottom: 0;
   }
   #AboutWE .about-brandStory .line-deco {
