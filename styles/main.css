@@ -202,10 +202,9 @@ img {
   text-decoration: none;
   color: white;
   width: 200px;
-  height: 40px;
+  height: 46px;
   padding: 0;
   display: inline-block;
-  margin: 4px 2px;
   position: relative;
   cursor: pointer;
   -webkit-box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
@@ -540,9 +539,7 @@ button:focus {
   }
   .secondaryBtn {
     width: 200px;
-    height: 46px;
     font-size: 13px;
-    padding: 12px 19px;
   }
   .lg-break {
     display: none;
@@ -1984,6 +1981,7 @@ footer {
 #intdexWhatsNews .text-gold-btn {
   text-decoration: none;
   color: #89663d;
+  padding-top: 30px;
 }
 
 #intdexWhatsNews .news-item-text a:hover {
@@ -4534,10 +4532,6 @@ select.form-control::-ms-expand {
   #newsFeed .event-photo picture {
     position: relative;
   }
-  #newsFeed .event-photo picture:hover {
-    -webkit-filter: grayscale(70%);
-            filter: grayscale(70%);
-  }
   #newsFeed .left-frame picture:after {
     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzODMiIGhlaWdodD0iMzgzIiB2aWV3Qm94PSIwIDAgMzgzIDM4MyI+CiAgPHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjODk2NjNEIiBzdHJva2Utd2lkdGg9IjEuNSIgZD0iTTM4Mi4yNSwwLjc1IEw1OC43Mzg3MDgsMC43NSBMMC43NSw1OC43Mzg3MDggTDAuNzUsMzgyLjI1IEwzMjQuMjYxMjkyLDM4Mi4yNSBMMzgyLjI1LDMyNC4yNjEyOTIgTDM4Mi4yNSwwLjc1IFoiLz4KPC9zdmc+Cg==");
   }
@@ -6887,20 +6881,28 @@ select.form-control::-ms-expand {
   background: #011b3e;
   background: linear-gradient(310deg, #011b3e 0%, rgba(0, 15, 36, 0.9) 100%);
   color: #979797;
-  padding: 20px 20px;
+  padding: 2rem 2rem;
+  width: 100%;
   text-align: center;
   -webkit-transition: 400ms;
   transition: 400ms;
   margin: 0 auto;
 }
 
+.cookie-container .cookie-deco {
+  width: 165px;
+  height: 16px;
+  margin: 0 auto;
+}
+
 .cookie-container p {
-  width: 700px;
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   font-size: 16px;
   font-weight: 100;
   letter-spacing: 0.5px;
   margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .cookie-container.active {
@@ -6912,12 +6914,12 @@ select.form-control::-ms-expand {
 }
 
 .cookie-btn {
-  background: #89663D;
-  border: 0;
-  color: #fff;
-  padding: 12px 48px;
-  font-size: 18px;
-  border-radius: 0;
+  -webkit-box-shadow: 1px 1000px 1px #89663D inset;
+          box-shadow: 1px 1000px 1px #89663D inset;
+  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
   cursor: pointer;
   margin-top: 20px;
   position: relative;
@@ -6943,6 +6945,28 @@ select.form-control::-ms-expand {
 .cookie-btn:hover::after {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
+}
+
+@media (min-width: 768px) {
+  .cookie-container p {
+    width: 700px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cookie-container .accept-btn {
+    position: absolute;
+    left: 60%;
+    right: -10%;
+    top: 40%;
+  }
+  .cookie-container {
+    height: 160px;
+    padding: 30px 20px;
+  }
+  .cookie-container .cookie-btn {
+    margin: 0;
+  }
 }
 
 #thankyou-popup {

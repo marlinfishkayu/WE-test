@@ -35,7 +35,8 @@ function hasScrolled() {
     if (st > lastScrollTop && st > navbarHeight){
         // Scroll Down
         $('.nav-item').removeClass('show').addClass('hidden');
-        $('.nav-wrap').removeClass("nav-fixed")
+        $('.nav-wrap').removeClass("nav-fixed");
+        console.log("running")
     } else {
         // Scroll Up
         if(st + $(window).height() < $(document).height()) {
@@ -507,7 +508,7 @@ setTimeout(() => {
   if (!localStorage.getItem("cookieBannerDisplayed")) {
     cookieContainer.classList.add("active");
   }
-}, 2000);
+}, 1000);
 
 
 /*-- Add live game column when hover in All Live Game page --*/

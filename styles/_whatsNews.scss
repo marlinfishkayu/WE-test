@@ -549,9 +549,6 @@
     }
     #newsFeed .event-photo picture {
         position: relative;
-        &:hover{
-            filter: grayscale(70%);
-        }
     }
     
     #newsFeed .left-frame picture:after {

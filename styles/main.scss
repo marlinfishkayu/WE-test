@@ -126,10 +126,10 @@ img{
   text-decoration: none;
   color: white;
   width: 200px;
-  height: 40px;
+  height: 46px;
   padding: 0;
   display: inline-block;
-  margin: 4px 2px;
+  // margin: 4px 2px;
   position: relative;
   cursor: pointer;
   box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
@@ -456,9 +456,9 @@ button:focus {
   }
   .secondaryBtn{
       width: 200px;
-      height: 46px;
+      // height: 46px;
       font-size: 13px;
-      padding: 12px 19px
+      // padding: 12px 19px;
   }
   .lg-break{
     display: none;
