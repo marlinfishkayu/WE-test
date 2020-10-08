@@ -36,7 +36,6 @@ function hasScrolled() {
         // Scroll Down
         $('.nav-item').removeClass('show').addClass('hidden');
         $('.nav-wrap').removeClass("nav-fixed");
-        console.log("running")
     } else {
         // Scroll Up
         if(st + $(window).height() < $(document).height()) {
