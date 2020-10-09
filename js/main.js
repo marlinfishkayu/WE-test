@@ -534,17 +534,35 @@ $('#signUp').click(function(){
 
 
 /*--  cookie popup --*/
-const cookieContainer = document.querySelector(".cookie-container");
-const cookieButton = document.querySelector(".cookie-btn");
+// const cookieContainer = document.querySelector(".cookie-container");
+// const cookieButton = document.querySelector(".cookie-btn");
 
 
-cookieButton.addEventListener("click", () => {
-  cookieContainer.classList.remove("active");
-  localStorage.setItem("cookieBannerDisplayed", "true");
-});
+// cookieButton.addEventListener("click", () => {
+//   cookieContainer.classList.remove("active");
+//   localStorage.setItem("cookieBannerDisplayed", "true");
+// });
 
-setTimeout(() => {
-  if (!localStorage.getItem("cookieBannerDisplayed")) {
-    cookieContainer.classList.add("active");
-  };
-}, 1000);
+// setTimeout(() => {
+//   if (!localStorage.getItem("cookieBannerDisplayed")) {
+//     cookieContainer.classList.add("active");
+//   };
+// }, 1000);
+
+
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:5
+      }
+  }
+})

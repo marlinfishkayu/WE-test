@@ -7250,8 +7250,8 @@ select.form-control::-ms-expand {
   #nav-area .search-form {
     top: 0px;
   }
-  #nav-area .closeBtn {
-    top: 17px;
+  #nav-ara .closeBtn {
+    top: 10px;
   }
   .nav-item button {
     padding: 0.5rem 1em;
@@ -7262,17 +7262,11 @@ select.form-control::-ms-expand {
   .nav-wrap {
     height: 60px;
   }
-  #slider-area {
-    display: block;
-  }
   #wrapper .owl-carousel .owl-item img {
     height: auto;
   }
   #wrapper #nav-area {
     top: 5px;
-  }
-  #nav-ara .closeBtn {
-    top: 10px;
   }
   #searchForm input::-ms-clear {
     width: 0;
@@ -7294,6 +7288,9 @@ select.form-control::-ms-expand {
   }
   .owl-carousel.owl-drag .owl-item {
     height: 400px;
+  }
+  #slider-area {
+    display: block;
   }
   #slider-area .owl-carousel .owl-stage {
     display: -webkit-box;
