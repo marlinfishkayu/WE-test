@@ -7262,6 +7262,9 @@ select.form-control::-ms-expand {
   .nav-wrap {
     height: 60px;
   }
+  #slider-area {
+    display: block;
+  }
   #wrapper .owl-carousel .owl-item img {
     height: auto;
   }
