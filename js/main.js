@@ -252,16 +252,16 @@ $('#diamondCarousel').on('initialized.owl.carousel changed.owl.carousel', functi
   });
 
 /*--  tilt.js for diamond carousal --*/
-$(document).ready(function(){
-    $('.diamond-wrap').tilt({
-        maxTilt: 10,
-        easing: "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
-        transition: true,   // Set a transition on enter/exit.
-        glare: false,  // Enables glare effect
-        gyroscopeMaxAngleY:  5,
+// $(document).ready(function(){
+//     $('.diamond-wrap').tilt({
+//         maxTilt: 10,
+//         easing: "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
+//         transition: true,   // Set a transition on enter/exit.
+//         glare: false,  // Enables glare effect
+//         gyroscopeMaxAngleY:  5,
        
-    })
-})
+//     })
+// })
 
 
 
