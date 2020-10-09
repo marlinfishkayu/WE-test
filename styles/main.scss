@@ -379,41 +379,7 @@ button:focus {
     margin: auto;
   }
 
-  /* motion */
-  
-  // @-moz-keyframes gradient {
-  //   0% {
-  //     background-position: 14% 0%;
-  //   }
-  //   50% {
-  //     background-position: 87% 100%;
-  //   }
-  //   100% {
-  //     background-position: 14% 0%;
-  //   }
-  // }
-  // @-webkit-keyframes gradient {
-  //   0% {
-  //     background-position: 14% 0%;
-  //   }
-  //   50% {
-  //     background-position: 87% 100%;
-  //   }
-  //   100% {
-  //     background-position: 14% 0%;
-  //   }
-  // }
-  // @keyframes gradient {
-  //   0% {
-  //     background-position: 14% 0%;
-  //   }
-  //   50% {
-  //     background-position: 87% 100%;
-  //   }
-  //   100% {
-  //     background-position: 14% 0%;
-  //   }
-  // }
+
 }
 .WE-diamond-bkg{
   position: absolute;
@@ -517,5 +483,6 @@ button:focus {
 @import "./cookie";
 @import "./thankyouPopup";
 @import "./privacyTerms";
+@import "./svgIcon";
 
 @import "./forIE";
