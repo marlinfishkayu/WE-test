@@ -5,6 +5,12 @@
         background-size: contain;
         object-fit: contain;
     }
+    #slider-area .slide:after{
+        display: none;
+    }
+    #slider-area .owl-dots {
+        bottom: 2%;
+    }
     .owl-dots span{
         display: inline-block;     
         position: relative;    
@@ -745,12 +751,6 @@
         left: 57px;
         width: 154px;
     }
-    // #news-carousel #slider-area .news-slide {
-    //     height: inherit;
-    // }
-    // #news-carousel .owl-carousel .owl-item {
-    //     height: 500px;
-    // }
     #newsFeed .timeline-wrap .timeline ul li .left-frame .frame-right {
         right: -24px;
         top: 281px;

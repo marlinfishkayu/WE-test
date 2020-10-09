@@ -3861,6 +3861,14 @@ select.form-control::-ms-expand {
      object-fit: contain;
 }
 
+#news-carousel #slider-area .slide:after {
+  display: none;
+}
+
+#news-carousel #slider-area .owl-dots {
+  bottom: 2%;
+}
+
 #news-carousel .owl-dots span {
   display: inline-block;
   position: relative;
