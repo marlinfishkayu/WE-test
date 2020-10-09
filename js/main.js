@@ -512,6 +512,7 @@ cookieButton.addEventListener("click", () => {
 setTimeout(() => {
   if (!localStorage.getItem("cookieBannerDisplayed")) {
     cookieContainer.classList.add("active");
+    console.log("working!!!")
   }
 }, 1000);
 
