@@ -245,6 +245,12 @@ $('#diamondCarousel').on('initialized.owl.carousel changed.owl.carousel', functi
           navigation: true,
           nav: true,
           slideBy: 3 // <!-- HERE
+        },
+       1800: {
+          items: 5,
+          navigation: true,
+          nav: true,
+          slideBy: 5 // <!-- HERE
         }
       },
       scrollPerPage: true,
