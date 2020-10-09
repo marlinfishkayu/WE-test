@@ -2222,13 +2222,11 @@ footer {
           transform-style: preserve-3d;
   -webkit-transform: perspective(1000px);
           transform: perspective(1000px);
-  -webkit-transform: translateZ(50px);
-          transform: translateZ(50px);
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, 19%);
-          transform: translate(-50%, 19%);
+  -webkit-transform: translate(-50%, 19%, 10%);
+          transform: translate(-50%, 19%, 10%);
   z-index: 1;
   pointer-events: none;
   -webkit-transition: 800ms all;
@@ -2238,8 +2236,8 @@ footer {
 }
 
 #diamondCarousel .hovering .dia-3d-layer {
-  -webkit-transform: translate(-50%, -60%);
-          transform: translate(-50%, -60%);
+  -webkit-transform: translate(-50%, -60%, 10%);
+          transform: translate(-50%, -60%, 10%);
 }
 
 #diamondCarousel .dia-icon {
@@ -2410,8 +2408,8 @@ footer {
   left: 50%;
   top: 50%;
   text-decoration: none;
-  -webkit-transform: translate(-50%, 100%);
-          transform: translate(-50%, 100%);
+  -webkit-transform: translate(-50%, 100%, 50px);
+          transform: translate(-50%, 100%, 50px);
   z-index: 1;
   -webkit-transition: 800ms all;
   transition: 800ms all;
