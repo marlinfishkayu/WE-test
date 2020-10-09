@@ -312,7 +312,9 @@
     }
     
     .dia-3d-layer{
-        // transform: translateZ(30px);
+        transform-style: preserve-3d;
+        transform: perspective(1000px);
+        transform: translateZ(50px);
         position: absolute;
         left: 50%;
         top: 50%;
@@ -326,6 +328,7 @@
         transform: translate(-50%,-60%);
     }
     .dia-icon {
+        transform: translateZ(50px);
         pointer-events: none;
         opacity: 0;
         width: 80px;
@@ -458,6 +461,7 @@
     color: #979797;
 }
 #diamondCarousel .diamond-item .dia-btn {
+    transform: translateZ(50px);
     opacity: 0;
     padding-top: 6rem;
     position: absolute;
