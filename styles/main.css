@@ -2145,6 +2145,8 @@ footer {
   padding-top: 14rem;
   height: inherit;
   position: relative;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
 }
 
 #diamondCarousel .active-img {
@@ -2218,15 +2220,11 @@ footer {
 }
 
 #diamondCarousel .dia-3d-layer {
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  -webkit-transform: perspective(1000px);
-          transform: perspective(1000px);
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, 19%, 10%);
-          transform: translate(-50%, 19%, 10%);
+  -webkit-transform: translate(-50%, 19%);
+          transform: translate(-50%, 19%);
   z-index: 1;
   pointer-events: none;
   -webkit-transition: 800ms all;
@@ -2236,8 +2234,8 @@ footer {
 }
 
 #diamondCarousel .hovering .dia-3d-layer {
-  -webkit-transform: translate(-50%, -60%, 10%);
-          transform: translate(-50%, -60%, 10%);
+  -webkit-transform: translate(-50%, -60%);
+          transform: translate(-50%, -60%);
 }
 
 #diamondCarousel .dia-icon {
@@ -2400,8 +2398,6 @@ footer {
 }
 
 #diamondCarousel .diamond-item .dia-btn {
-  -webkit-transform: translateZ(50px);
-          transform: translateZ(50px);
   opacity: 0;
   padding-top: 6rem;
   position: absolute;
@@ -2544,6 +2540,8 @@ footer {
     padding: 30px;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
+    -webkit-transform: translateZ(-50%);
+            transform: translateZ(-50%);
     -webkit-filter: brightness(1);
             filter: brightness(1);
     -webkit-transition: 800ms all;
