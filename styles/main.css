@@ -2145,8 +2145,6 @@ footer {
   padding-top: 14rem;
   height: inherit;
   position: relative;
-  -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
 }
 
 #diamondCarousel .active-img {
@@ -2540,8 +2538,6 @@ footer {
     padding: 30px;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
-    -webkit-transform: translateZ(-50%);
-            transform: translateZ(-50%);
     -webkit-filter: brightness(1);
             filter: brightness(1);
     -webkit-transition: 800ms all;
