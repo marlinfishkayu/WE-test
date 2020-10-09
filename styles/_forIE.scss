@@ -157,24 +157,24 @@
         .subnav-arrow{
             left: 38.5%;
         }
-        #slider-area .slide{
-            height: 100%;
-        }
+        // #slider-area .slide{
+        //     height: 100%;
+        // }
         .owl-carousel.owl-drag .owl-item{
             height: 880px;
         }
-        #news-carousel .owl-carousel.owl-drag .owl-item{
-            height: 500px;
-        }
+        // #news-carousel .owl-carousel.owl-drag .owl-item{
+        //     height: 500px;
+        // }
     }
     @media (min-width: 1500px) {
-        #news-carousel .owl-carousel .owl-item {
-            height: 600px;
-        }
+        // #news-carousel .owl-carousel .owl-item {
+        //     height: 600px;
+        // }
     }
     @media (min-width: 2000px) {
-        #news-carousel .owl-carousel .owl-item {
-            height: 800px;
-        }
+        // #news-carousel .owl-carousel .owl-item {
+        //     height: 800px;
+        // }
     }
 }
