@@ -499,22 +499,6 @@ $('#studioCarousel').owlCarousel({
 
 
 
-/*--  cookie popup --*/
-const cookieContainer = document.querySelector(".cookie-container");
-const cookieButton = document.querySelector(".cookie-btn");
-
-
-cookieButton.addEventListener("click", () => {
-  cookieContainer.classList.remove("active");
-  localStorage.setItem("cookieBannerDisplayed", "true");
-});
-
-setTimeout(() => {
-  if (!localStorage.getItem("cookieBannerDisplayed")) {
-    cookieContainer.classList.add("active");
-    console.log("working!!!")
-  }
-}, 1000);
 
 
 /*-- Add live game column when hover in All Live Game page --*/
@@ -547,3 +531,20 @@ $('#signUp').click(function(){
   }
 
 );
+
+
+/*--  cookie popup --*/
+const cookieContainer = document.querySelector(".cookie-container");
+const cookieButton = document.querySelector(".cookie-btn");
+
+
+cookieButton.addEventListener("click", () => {
+  cookieContainer.classList.remove("active");
+  localStorage.setItem("cookieBannerDisplayed", "true");
+});
+
+setTimeout(() => {
+  if (!localStorage.getItem("cookieBannerDisplayed")) {
+    cookieContainer.classList.add("active");
+  };
+}, 1000);
