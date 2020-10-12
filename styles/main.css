@@ -7445,8 +7445,11 @@ select.form-control::-ms-expand {
   #slider-area .news-slide {
     height: 450px;
   }
+  #news-carousel #slider-area {
+    height: 900px;
+  }
   #news-carousel .owl-carousel.owl-drag .owl-item {
-    height: 880px;
+    height: 900px;
   }
   #liveStudio .livestudio-hightlight-wrap {
     padding-bottom: 0;
@@ -7492,9 +7495,6 @@ select.form-control::-ms-expand {
   }
   #introCarousel .owl-carousel.owl-drag .owl-item {
     height: inherit;
-  }
-  #news-carousel #slider-area {
-    height: 700px;
   }
   #news-carousel .update-wrapper {
     left: 40%;
