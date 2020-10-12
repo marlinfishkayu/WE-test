@@ -13,6 +13,8 @@
     }
     .nav-wrap {
         height: 60px;
+        left: inherit;
+        transform: inherit;
     }
     .nav-item button{
         padding: 0.5rem 2.2em;
@@ -81,9 +83,6 @@
     }
     select::-ms-expand {
         display: none;
-    }
-    .menu-logo {
-        margin-left: 1.5rem;
     }
     // Small devices (landscape phones, 576px and up)
     @media (min-width: 576px) {     

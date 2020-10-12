@@ -7291,6 +7291,9 @@ select.form-control::-ms-expand {
   }
   .nav-wrap {
     height: 60px;
+    left: inherit;
+    -webkit-transform: inherit;
+            transform: inherit;
   }
   .nav-item button {
     padding: 0.5rem 2.2em;
@@ -7362,9 +7365,6 @@ select.form-control::-ms-expand {
   }
   select::-ms-expand {
     display: none;
-  }
-  .menu-logo {
-    margin-left: 1.5rem;
   }
 }
 
