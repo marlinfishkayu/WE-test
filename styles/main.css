@@ -4884,6 +4884,11 @@ select.form-control::-ms-expand {
   position: relative;
 }
 
+#liveStudio .livestudio-sec1 {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
 #liveStudio .showless_btn .active {
   height: auto;
 }
@@ -4939,7 +4944,7 @@ select.form-control::-ms-expand {
   top: 0;
   left: 0;
   z-index: 1;
-  width: 100%;
+  width: 101%;
   height: 100%;
   -webkit-transition: all 500ms;
   transition: all 500ms;
@@ -4969,8 +4974,8 @@ select.form-control::-ms-expand {
 
 #liveStudio .hero-header::after {
   background: #060b1a;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(6, 11, 26, 0)), color-stop(92%, #060b1a), to(#091129));
-  background: linear-gradient(180deg, rgba(6, 11, 26, 0) 0%, #060b1a 92%, #091129 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(6, 11, 26, 0.6)), color-stop(92%, #060b1a), to(#091129));
+  background: linear-gradient(180deg, rgba(6, 11, 26, 0.6) 0%, #060b1a 92%, #091129 100%);
 }
 
 .studio-card .studio-slide-text {
@@ -5395,7 +5400,7 @@ select.form-control::-ms-expand {
 @media (min-width: 1200px) {
   #liveStudio #studioCarousel {
     margin: 0 auto;
-    width: 1500px;
+    width: 1550px;
   }
 }
 
@@ -5438,6 +5443,12 @@ select.form-control::-ms-expand {
 
 #allLiveGame .hero-header-bkg {
   height: 586px;
+}
+
+#allLiveGame .hero-header::after {
+  background: #060b1a;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(6, 11, 26, 0.6)), to(#070a1b));
+  background: linear-gradient(180deg, rgba(6, 11, 26, 0.6) 0%, #070a1b 100%);
 }
 
 #allLiveGame .hero-float {

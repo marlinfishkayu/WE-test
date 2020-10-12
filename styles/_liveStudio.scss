@@ -7,6 +7,10 @@
 #liveStudio .livestudio-sec3{
     position: relative;
 }
+#liveStudio .livestudio-sec1{
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
 #liveStudio .showless_btn .active{
     height: auto;
 }
@@ -46,7 +50,6 @@
 }
 #liveStudio .studio-img-wrap picture::after{
     content: '';
-    // display: block;
     opacity: 1;
     position: absolute;
     background-color: #060B1A;
@@ -54,7 +57,7 @@
     top: 0;
     left: 0;
     z-index: 1;
-    width: 100%;
+    width: 101%;
     height: 100%;
     transition: all 500ms;
     transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
@@ -78,7 +81,7 @@
 }
 #liveStudio .hero-header::after{
     background: rgb(6,11,26);
-    background: linear-gradient(180deg, rgba(6,11,26,0) 0%, rgba(6,11,26,1) 92%, rgba(9,17,41,1) 100%);    
+    background: linear-gradient(180deg, rgba(6,11,26,0.6) 0%, rgba(6,11,26,1) 92%, rgba(9,17,41,1) 100%);    
 }
 .studio-card .studio-slide-text{
     max-width: 230px;
@@ -355,6 +358,7 @@
     margin: 0 auto;
 }
 
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
 
@@ -461,7 +465,7 @@
 @media (min-width: 1200px) {
     #liveStudio #studioCarousel{
         margin: 0 auto;
-        width: 1500px;
+        width: 1550px;
     }
 }
 // Extra large devices (large desktops, 1200px and up)
