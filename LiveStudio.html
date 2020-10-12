@@ -73,7 +73,7 @@
                                                     <!-- Live game tab -->
                                                     <div class="tab-pane fade show active" id="pills-livegame" role="tabpanel" aria-labelledby="pills-livegame-tab">
                                                         <div class="d-flex justify-content-center">
-                                                            <div class="game-icon-wrap p-2" id="gameMenu-baccarat">
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-baccarat" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.4s; --sal-delay: 0;">
                                                                 <a href="Game_LiveGame_Baccarat.html">
                                                                     <div class="game-icon-container">
                                                                         <h4>BACCARAT</h4>
@@ -90,7 +90,7 @@
                                                                     </div>
                                                                 </a>
                                                             </div>
-                                                            <div class="game-icon-wrap p-2" id="gameMenu-roulette">
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-roulette" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.4s; --sal-delay: 0.2s;">
                                                                 <a href="Game_LiveGame_Roulette.html">
                                                                     <div class="game-icon-container">
                                                                         <h4>ROULETTE</h4>
@@ -107,7 +107,7 @@
                                                                     </div>
                                                                 </a>
                                                             </div>
-                                                            <div class="game-icon-wrap p-2" id="gameMenu-SicBo">
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-SicBo" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.4s; --sal-delay: 0.4s;">
                                                                 <a href="Game_LiveGame_SicBo.html">
                                                                     <div class="game-icon-container">
                                                                         <h4>SIC BO</h4>
@@ -120,7 +120,7 @@
                                                                     </div>
                                                                 </a>
                                                             </div>
-                                                            <div class="game-icon-wrap p-2" id="gameMenu-Dragon">
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-Dragon" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.4s; --sal-delay: 0.6s;">
                                                                 <a href="Game_LiveGame_DragonTiger.html">
                                                                     <div class="game-icon-container">
                                                                         <h4>DRAGON TIGER</h4>
@@ -133,7 +133,7 @@
                                                                     </div>
                                                                 </a>
                                                             </div>
-                                                            <div class="game-icon-wrap p-2" id="gameMenu-Mahjong">
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-Mahjong" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.4s; --sal-delay: 0.8s;">
                                                                 <a href="Game_LiveGame_MahjongLuckyWheel.html">
                                                                     <div class="game-icon-container">
                                                                         <h4>MAHJONG LUCKY WHEEL</h4>
@@ -165,7 +165,7 @@
                                         </div>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link menu-item menu-liveStudio" href="LiveStudio.html">Live Studio</a>
+                                        <a class="nav-link menu-item menu-liveStudio active-tap" href="LiveStudio.html">Live Studio</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link menu-item menu-services" href="Services.html">Services</a>
@@ -804,6 +804,14 @@
         <script src="./js/sal.js"></script>
         <script>
             sal();
+            const fadeAnimations = sal();
+
+            // Provide new options
+            fadeAnimations.reset({
+                selector: 'game-icon-wrap',
+                once: false,
+            });
+            
         </script>
         <!-- light slider gallery (lg)-->
         <script type="text/javascript">

@@ -997,6 +997,10 @@ button:focus {
   position: relative;
 }
 
+#wrapper .nav_links .active-tap {
+  color: #fff;
+}
+
 .language-tap.active::after {
   content: "";
   position: absolute;
