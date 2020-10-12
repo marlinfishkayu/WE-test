@@ -603,8 +603,8 @@ button:focus {
   top: 36px;
   z-index: -1;
   left: 50%;
-  -webkit-transform: translate(-50%, 0%);
-          transform: translate(-50%, 0%);
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
   width: 100%;
   margin-top: 27px;
   padding: 3rem 0;
@@ -7446,6 +7446,9 @@ select.form-control::-ms-expand {
   }
   #slider-area .slide {
     height: 800px;
+  }
+  #introCarousel .owl-dots, #diamondCarousel .owl-dots, #slider-area .owl-dots {
+    bottom: 25%;
   }
 }
 /*# sourceMappingURL=main.css.map */

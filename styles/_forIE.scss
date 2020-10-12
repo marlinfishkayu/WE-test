@@ -14,7 +14,6 @@
     .nav-wrap {
         height: 60px;
     }
-    
     #wrapper .owl-carousel .owl-item img {
         height: auto;
     }
@@ -168,6 +167,10 @@
         #slider-area .slide{
             height: 800px;
         }
+        #introCarousel .owl-dots, #diamondCarousel .owl-dots, #slider-area .owl-dots{
+            bottom:25%;
+        }
+        
     }
     @media (min-width: 1500px) {
     }
