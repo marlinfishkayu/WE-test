@@ -166,16 +166,19 @@
             top: 10px;
         }
         #news-carousel{
-            height: 600px;
+            height: 700px;
         }
     }
     // Extra large devices (large desktops, 1200px and up)
     @media (min-width: 1200px) {
+        .nav-wrap {
+            height: 70px;
+        }
         #wrapper .search-black #nav-area{
             top: 1%;
         }
         .subnav-arrow{
-            left: 38.5%;
+            left: 37.5%;
         }
         .owl-carousel.owl-drag .owl-item{
             height: 880px;
