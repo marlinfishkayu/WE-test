@@ -548,6 +548,37 @@ $('#signUp').click(function(){
 //     cookieContainer.classList.add("active");
 //   };
 // }, 1000);
+// const cookieContainer = document.querySelector(".cookie-container");
+// const cookieButton = document.querySelector(".cookie-btn");
+
+
+// cookieButton.addEventListener("click", () => {
+//   cookieContainer.classList.remove("active");
+//   localStorage.setItem("cookieBannerDisplayed", "true");
+// });
+
+// setTimeout(() => {
+//   if (!localStorage.getItem("cookieBannerDisplayed")) {
+//     cookieContainer.classList.add("active");
+//   };
+// }, 1000);
+
+
+/*--  cookie popup test 1 --*/
+// $(document).ready(function() {
+//   if (window.localStorage.getItem('cookies-accepted') === '1') {
+//     $('#CookieBanner').hide();
+//   } else {
+//     $("#Accept").click(function() {
+//       $('#CookieBanner').hide();
+//       window.localStorage.setItem('cookies-accepted', '1');
+//     });
+//   }
+// });
+
+
+
+
 
 
 $('.owl-carousel').owlCarousel({
