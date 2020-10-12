@@ -7322,6 +7322,10 @@ select.form-control::-ms-expand {
   #slider-area {
     display: block;
   }
+  #slider-area .header-wrapper .slider-text {
+    -webkit-transform: translate(-50%, 100%);
+            transform: translate(-50%, 100%);
+  }
   #slider-area .owl-carousel .owl-stage {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -7360,7 +7364,7 @@ select.form-control::-ms-expand {
     top: 10px;
   }
   #slider-area .slide {
-    height: auto;
+    height: 500px;
   }
 }
 
@@ -7388,6 +7392,9 @@ select.form-control::-ms-expand {
   }
   #liveStudio .studio-slide-bkg-2 {
     height: 2500px;
+  }
+  #slider-area .owl-dots {
+    bottom: 5%;
   }
 }
 
@@ -7436,6 +7443,9 @@ select.form-control::-ms-expand {
   }
   .owl-carousel.owl-drag .owl-item {
     height: 880px;
+  }
+  #slider-area .slide {
+    height: 800px;
   }
 }
 /*# sourceMappingURL=main.css.map */
