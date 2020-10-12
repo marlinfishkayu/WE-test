@@ -7329,6 +7329,9 @@ select.form-control::-ms-expand {
   .owl-carousel.owl-drag .owl-item {
     height: 400px;
   }
+  #intdexWhatsNews .owl-carousel.owl-drag .owl-item {
+    height: inherit;
+  }
   #slider-area {
     display: block;
   }
@@ -7470,7 +7473,7 @@ select.form-control::-ms-expand {
     height: 800px;
   }
   #introCarousel .owl-dots, #diamondCarousel .owl-dots, #slider-area .owl-dots {
-    bottom: 25%;
+    bottom: 0%;
   }
 }
 /*# sourceMappingURL=main.css.map */
