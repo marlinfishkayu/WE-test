@@ -189,8 +189,17 @@
         #slider-area .slide{
             height: 800px;
         }
-        #introCarousel .owl-dots, #diamondCarousel .owl-dots, #slider-area .owl-dots{
+        #slider-area .owl-dots{
             bottom: 0%;
+        }
+        #introCarousel .owl-dots{
+            bottom: 0%;
+        }
+        #diamondCarousel .owl-dots{
+            bottom: 0%;
+        }
+        #introCarousel .owl-carousel.owl-drag .owl-item{
+            height: inherit;
         }
 
     }
