@@ -7290,13 +7290,16 @@ select.form-control::-ms-expand {
     top: 3px;
   }
   .nav-wrap {
-    height: 60px;
+    height: 70px;
     left: inherit;
     -webkit-transform: inherit;
             transform: inherit;
   }
   .nav-item button {
     padding: 0.5rem 2.2em;
+  }
+  .nav-wrap li.dropdown .game-menu {
+    top: 41px;
   }
   #wrapper .owl-carousel .owl-item img {
     height: auto;
@@ -7365,6 +7368,9 @@ select.form-control::-ms-expand {
   }
   select::-ms-expand {
     display: none;
+  }
+  #news-carousel {
+    height: 400px;
   }
 }
 
@@ -7440,6 +7446,9 @@ select.form-control::-ms-expand {
   }
   .nav-icon-wrapper {
     top: 10px;
+  }
+  #news-carousel {
+    height: 600px;
   }
 }
 
