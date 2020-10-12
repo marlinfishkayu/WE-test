@@ -93,6 +93,12 @@
     #news-carousel{
         height: 400px;
     }
+    #allLiveGame .allLiveGame-main .game-item-wrap .outline-stroke{
+        top: -11px;
+        left: -18px;
+        width: 309px;
+        height: 404px;
+    }
     // Small devices (landscape phones, 576px and up)
     @media (min-width: 576px) {     
         #nav-ara .closeBtn{
@@ -126,6 +132,9 @@
         #news-carousel .owl-carousel.owl-drag .owl-item{
             height: 350px;
         }
+        #news-carousel #slider-area .owl-dots{
+            bottom: 10%;
+        }
         #liveStudio .studio-slide-bkg-2{
             height: 2500px;
         }
@@ -154,7 +163,7 @@
             height: 450px;
         }
         #news-carousel .owl-carousel.owl-drag .owl-item{
-            height: 500px;
+            height: 880px;
         }
         #liveStudio .livestudio-hightlight-wrap{
             padding-bottom: 0;
@@ -201,7 +210,12 @@
         #introCarousel .owl-carousel.owl-drag .owl-item{
             height: inherit;
         }
-
+        #news-carousel #slider-area {
+            height: 700px;
+        }
+        #news-carousel .update-wrapper{
+            left: 40%;
+        }
     }
     @media (min-width: 1500px) {
 
