@@ -78,7 +78,12 @@
     }
     #liveStudio .studio-slide-bkg-2 img{
         height: auto; 
-        
+    }
+    select::-ms-expand {
+        display: none;
+    }
+    .menu-logo {
+        margin-left: 1.5rem;
     }
     // Small devices (landscape phones, 576px and up)
     @media (min-width: 576px) {     

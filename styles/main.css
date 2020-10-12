@@ -7360,6 +7360,12 @@ select.form-control::-ms-expand {
   #liveStudio .studio-slide-bkg-2 img {
     height: auto;
   }
+  select::-ms-expand {
+    display: none;
+  }
+  .menu-logo {
+    margin-left: 1.5rem;
+  }
 }
 
 @media all and (-ms-high-contrast: none) and (min-width: 576px), (-ms-high-contrast: active) and (min-width: 576px) {
