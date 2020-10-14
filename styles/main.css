@@ -1852,7 +1852,7 @@ footer {
 #diamondCarousel .owl-dots,
 #slider-area .owl-dots {
   position: absolute;
-  bottom: 5%;
+  bottom: 15%;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
@@ -1867,6 +1867,11 @@ footer {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   margin: 0 15px;
+}
+
+#diamondCarousel .owl-dots,
+#introCarousel .owl-dots {
+  width: 100%;
 }
 
 #introCarousel button.owl-dot.active,
@@ -2092,13 +2097,13 @@ footer {
 }
 
 #diamondCarousel .diamond-wrap {
-  padding-top: 14rem;
+  padding-top: 18rem;
   height: inherit;
   position: relative;
 }
 
 #diamondCarousel .active-img {
-  width: 400px;
+  width: 300px;
   height: auto;
   position: absolute;
   z-index: -1;
@@ -2119,7 +2124,7 @@ footer {
           transform: scale(0.85);
   position: absolute;
   top: 0px;
-  left: 3%;
+  left: 0%;
   width: 100%;
   height: 100%;
   z-index: 2;
@@ -2172,11 +2177,11 @@ footer {
 #diamondCarousel .dia-3d-layer {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 40%;
   -webkit-transform: translate(-50%, 19%);
           transform: translate(-50%, 19%);
   z-index: 1;
-  pointer-events: none;
+  pointer-events: inherit;
   -webkit-transition: 800ms all;
   transition: 800ms all;
   -webkit-transition-timing-function: cubic-bezier(0.05, 0.77, 0.32, 1);
@@ -2184,8 +2189,8 @@ footer {
 }
 
 #diamondCarousel .hovering .dia-3d-layer {
-  -webkit-transform: translate(-50%, -60%);
-          transform: translate(-50%, -60%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 #diamondCarousel .dia-icon {
@@ -2303,6 +2308,10 @@ footer {
   margin: 0 10px;
 }
 
+#diamondCarousel a {
+  color: #fff;
+}
+
 #diamondCarousel .diamond-item .dia-btn {
   opacity: 0;
   padding-top: 6rem;
@@ -2392,6 +2401,28 @@ footer {
 }
 
 @media (min-width: 768px) {
+  #diamondCarousel .active-img {
+    width: 400px;
+  }
+  #diamondCarousel .active-img:after {
+    left: 3%;
+  }
+  #diamondCarousel .hovering .dia-3d-layer {
+    -webkit-transform: translate(-50%, -60%);
+    transform: translate(-50%, -60%);
+  }
+  #diamondCarousel .dia-3d-layer {
+    top: 50%;
+  }
+  #diamondCarousel .dia-3d-layer {
+    pointer-events: none;
+  }
+  #introCarousel .owl-dots, #diamondCarousel .owl-dots, #slider-area .owl-dots {
+    bottom: 5%;
+  }
+  #diamondCarousel .diamond-wrap {
+    padding-top: 14rem;
+  }
   #slider-area .slide img {
     width: 100%;
     height: 100%;
