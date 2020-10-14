@@ -1990,6 +1990,7 @@ footer {
   margin: auto;
   text-transform: uppercase;
   padding-bottom: 3rem;
+  padding-top: 4rem;
 }
 
 #intdexWhatsNews .news-item-text .text-gold {
@@ -2401,6 +2402,10 @@ footer {
   outline: transparent;
 }
 
+#intdexWhatsNews .intdexWhatsNews-bkg {
+  height: 100%;
+}
+
 @media (min-width: 576px) {
   #slider-area .slide {
     height: 100vh;
@@ -2448,7 +2453,7 @@ footer {
     text-align: left;
     width: inherit;
     padding-top: 2rem;
-    padding-left: 2rem;
+    padding-left: 4rem;
   }
   #intdexWhatsNews .news-item-header {
     font-size: 26px;
@@ -2587,6 +2592,13 @@ footer {
   }
   #diamondCarousel .owl-dots {
     bottom: 0%;
+  }
+  #introCarousel .owl-dots {
+    bottom: 0%;
+  }
+  #intdexWhatsNews .section-container {
+    padding-bottom: 5rem;
+    padding-top: 3rem;
   }
   .index-carousel .owl-dots span {
     padding: 2em;
@@ -2906,10 +2918,17 @@ footer {
   position: relative;
 }
 
+#introCarousel .news-column img {
+  -webkit-box-shadow: 10px 10px 38px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 38px -10px rgba(0, 0, 0, 0.75);
+}
+
 #introCarousel .news-outer {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: 295px;
   height: 295px;
   background-repeat: no-repeat;
@@ -2930,9 +2949,8 @@ footer {
   #intdexHotPick {
     height: 1200px;
   }
-  #introCarousel .news-column {
-    width: 358px;
-    height: 358px;
+  #introCarousel .news-outer {
+    left: 56%;
   }
 }
 
@@ -2960,6 +2978,15 @@ footer {
   .main-button a:after {
     content: '';
     height: 48px;
+  }
+  #introCarousel .news-column {
+    width: 358px;
+    height: 358px;
+  }
+  #introCarousel .news-outer {
+    left: 55%;
+    width: 382px;
+    height: 382px;
   }
 }
 

@@ -150,6 +150,7 @@
     margin: auto;
     text-transform: uppercase;
     padding-bottom: 3rem;
+    padding-top: 4rem;
 }
 #intdexWhatsNews .news-item-text .text-gold {
     font-family: $fontFuturaMedium;
@@ -494,6 +495,9 @@
 #introCarousel button:focus {
     outline: transparent;
 }
+#intdexWhatsNews .intdexWhatsNews-bkg{
+    height: 100%;
+}
 
 
 // Small devices (landscape phones, 576px and up)
@@ -549,7 +553,7 @@
         text-align: left;
         width: inherit;
         padding-top: 2rem;
-        padding-left: 2rem;
+        padding-left: 4rem;
     }
     #intdexWhatsNews .news-item-header {
         font-size: 26px;
@@ -684,7 +688,13 @@
     #diamondCarousel .owl-dots{
         bottom: 0%;
     }
-    
+    #introCarousel .owl-dots{
+        bottom: 0%;
+    }
+    #intdexWhatsNews .section-container {
+        padding-bottom: 5rem;
+        padding-top: 3rem;
+    }
     .index-carousel .owl-dots span{
        padding: 2em;     
        margin: 2em; 

@@ -226,11 +226,17 @@
         height: 300px;
         box-shadow: #A1A1A1;
         position: relative;
+        img{
+            -webkit-box-shadow: 10px 10px 38px -10px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 38px -10px rgba(0,0,0,0.75);
+            box-shadow: 10px 10px 38px -10px rgba(0,0,0,0.75);
+        }
     }
     .news-outer{
         position: absolute;
-        top: 0px;
-        left: 0px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
         width: 295px;
         height: 295px;
         background-repeat: no-repeat;
@@ -260,9 +266,9 @@
     #intdexHotPick{
         height: 1200px;
     }
-    #introCarousel .news-column{
-        width: 358px;
-        height: 358px;
+    
+    #introCarousel .news-outer{
+        left: 56%;
     }
 }
 
@@ -291,6 +297,15 @@
     .main-button a:after {
         content: '';
         height: 48px;
+    }
+    #introCarousel .news-column{
+        width: 358px;
+        height: 358px;
+    }
+    #introCarousel .news-outer{
+        left: 55%;
+        width: 382px;
+        height: 382px;
     }
  }
 // Extra large devices (large desktops, 1200px and up)
