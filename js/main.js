@@ -245,7 +245,7 @@ $('#diamondCarousel').on('initialized.owl.carousel changed.owl.carousel', functi
           items: 2,
           navigation: true,
           nav: true,
-          slideBy: 3 // <!-- HERE
+          slideBy: 2 // <!-- HERE
         },
        992: {
           items: 3,

@@ -48,6 +48,9 @@
         margin: 0 15px;
     }
 }
+#slider-area .owl-dots {
+    bottom: 5%
+}
 #diamondCarousel .owl-dots,
 #introCarousel .owl-dots{
     width: 100%;
@@ -224,6 +227,10 @@
     background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMzBweCIgaGVpZ2h0PSIzNnB4IiB2aWV3Qm94PSIwIDAgMzAgMzYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+R3JvdXAgMzYgQ29weTwvdGl0bGU+CiAgICA8ZyBpZD0iU3ltYm9sIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iR3JvdXAtMzYtQ29weSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTQuMDAwMDAwLCAxOC4wMDAwMDApIHNjYWxlKC0xLCAxKSB0cmFuc2xhdGUoLTE0LjAwMDAwMCwgLTE4LjAwMDAwMCkgdHJhbnNsYXRlKDAuMDAwMDAwLCAxLjAwMDAwMCkiIHN0cm9rZT0iI0IwOTM2RCI+CiAgICAgICAgICAgIDxwb2x5bGluZSBpZD0iQ29tYmluZWQtU2hhcGUtQ29weS02IiBwb2ludHM9IjAgMTMuMzA0MzQ3OCAyOCAxMy4zMDQzNDc4IDE0IC00LjM0MzE5MjQ3ZS0xMyI+PC9wb2x5bGluZT4KICAgICAgICAgICAgPHBvbHlsaW5lIGlkPSJDb21iaW5lZC1TaGFwZS1Db3B5LTciIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE0LjAwMDAwMCwgMjYuNjA4Njk2KSBzY2FsZSgxLCAtMSkgdHJhbnNsYXRlKC0xNC4wMDAwMDAsIC0yNi42MDg2OTYpICIgcG9pbnRzPSIwIDM0IDI4IDM0IDE0IDE5LjIxNzM5MTMiPjwvcG9seWxpbmU+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=");
     transform: scaleX(-1);
 }
+#intdexWhatsNews  .section-container{
+    padding-bottom: 0;
+    padding-top: 3rem;
+} 
 // Diamond carousel
 #diamondCarousel {
     margin: auto;
@@ -497,6 +504,7 @@
     #intdexWhatsNews .news-item {
         width: 600px;
     }
+    
 }
 
 // Medium devices (tablets, 768px and up)
@@ -536,13 +544,13 @@
             padding: 0px;
         }
     }
+    
     #intdexWhatsNews .news-item-text {
         text-align: left;
         width: inherit;
         padding-top: 2rem;
         padding-left: 2rem;
     }
-
     #intdexWhatsNews .news-item-header {
         font-size: 26px;
     }
@@ -550,7 +558,7 @@
         display: block;
     }
     #diamondCarousel {
-        margin-top: 40px;
+        margin-top: 0px;
         .diamond-item {
             padding-top: 22px;
             margin-right: 150px;
@@ -617,7 +625,12 @@
     #slider-area .owl-dots {
         bottom: -7%;
     }
-
+    #introCarousel .owl-dots{
+        bottom: 15%;
+    }
+    #diamondCarousel .owl-dots {
+        bottom: 0;
+    }
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
@@ -639,6 +652,9 @@
     }
     #intdexWhatsNews .news-item-text {
         padding-top: 6rem;
+    }
+    #diamondCarousel {
+        margin-top: 20px;
     }
     #diamondCarousel .diamond-item .dia-btn {
         opacity: 0;
@@ -665,6 +681,10 @@
         transform: translate(-50%,50%);
     
     }
+    #diamondCarousel .owl-dots{
+        bottom: 0%;
+    }
+    
     .index-carousel .owl-dots span{
        padding: 2em;     
        margin: 2em; 
@@ -674,7 +694,6 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
     #slider-area .slide {
-        // height: 700px;
         overflow: hidden;
     }
     .header-wrapper .slider-text {
