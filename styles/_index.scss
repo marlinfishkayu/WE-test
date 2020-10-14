@@ -269,6 +269,15 @@
     #introCarousel .news-outer{
         left: 56%;
     }
+    #introCarousel .news-column{
+        width: 328px;
+        height: 328px;
+    }
+    #introCarousel .news-outer{
+        left: 56%;
+        width: 300px;
+        height: 300px;
+    }
 }
 
 // Large devices (desktops, 992px and up)
@@ -297,6 +306,9 @@
         content: '';
         height: 48px;
     }
+    #intdexWhatsNews .news-item-text {
+        padding-top: inherit;
+    }
     #introCarousel .news-column{
         width: 358px;
         height: 358px;
@@ -305,6 +317,9 @@
         left: 55%;
         width: 382px;
         height: 382px;
+    }
+    #intdexWhatsNews .news-item-text .text-gold {
+        margin-top: 6rem;
     }
  }
 // Extra large devices (large desktops, 1200px and up)
