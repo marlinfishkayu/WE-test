@@ -145,6 +145,7 @@ select.form-control::-ms-expand {
 #ContactUs{
     select {
         -webkit-appearance: menulist-button;
+        -webkit-text-fill-color: #fff;
         color: #fff;
         background-color: #060B1A;
         border-radius: 0;
@@ -189,6 +190,7 @@ select.form-control::-ms-expand {
       }
       select:invalid {
         color: #76787d;
+        -webkit-text-fill-color: #76787d;
       }
 }
 

@@ -2994,6 +2994,12 @@ footer {
   .our-gamaes {
     margin-top: 7rem;
   }
+  #introCarousel .news-outer {
+    left: 55%;
+    width: 108%;
+    height: 108%;
+    background-size: contain;
+  }
 }
 
 .hero-header {
@@ -3865,6 +3871,7 @@ select.form-control::-ms-expand {
 
 #ContactUs select {
   -webkit-appearance: menulist-button;
+  -webkit-text-fill-color: #fff;
   color: #fff;
   background-color: #060B1A;
   border-radius: 0;
@@ -3905,6 +3912,7 @@ select.form-control::-ms-expand {
 
 #ContactUs select:invalid {
   color: #76787d;
+  -webkit-text-fill-color: #76787d;
 }
 
 @media (min-width: 576px) {

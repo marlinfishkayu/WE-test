@@ -266,7 +266,6 @@
     #intdexHotPick{
         height: 1200px;
     }
-    
     #introCarousel .news-outer{
         left: 56%;
     }
@@ -312,5 +311,11 @@
 @media (min-width: 1200px) {
     .our-gamaes{
         margin-top: 7rem;
+    }
+    #introCarousel .news-outer {
+        left: 55%;
+        width: 108%;
+        height: 108%;
+        background-size: contain;
     }
 }
