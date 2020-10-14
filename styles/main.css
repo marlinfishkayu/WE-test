@@ -7093,6 +7093,7 @@ select.form-control::-ms-expand {
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-bottom: 1rem;
+  color: #fff;
 }
 
 #thankyou-popup .wrap {
