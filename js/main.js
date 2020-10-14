@@ -404,47 +404,8 @@ $('#Event-slider').owlCarousel({
 
 // event slider
 
-// $(function(){
-//     var owl = $('#EventSlider');
-//     owl.owlCarousel({
-//       items:1,
-//       loop: false,
-//       responsive: {
-//         0: {
-//           items: 1,
-//           navigation: true,
-//           nav: true,
-//           slideBy: 1 // <!-- HERE
-//         },
-//        768: {
-//         items: 1,
-//         navigation: true,
-//         nav: true,
-//         slideBy: 1 // <!-- HEREE
-//         }
-//       },
-//       scrollPerPage: true,
-//       navigation: true,
-//       onInitialized  : counter, //When the plugin has initialized.
-//       onTranslated : counter //When the translation of the stage has finished.
-//     });
-    
-//     function counter(event) {
-//        var element   = event.target;         // DOM element, in this example .owl-carousel
-//         var items     = event.item.count;     // Number of items
-//         var item      = event.item.index + 1;     // Position of the current item
-      
-//       // it loop is true then reset counter from 1
-//       if(item > items) {
-//         item = item - items
-//       }
-//       $('#evnet-page').html(item+" / "+items)
-//     }
-//     console.log("wroking!");
-//     });
-
 $(function(){
-    var owl = $('.NewsContent-Carousel');
+    var owl = $('#EventSlider');
     owl.owlCarousel({
       items:1,
       loop: false,
@@ -481,6 +442,8 @@ $(function(){
     }
     console.log("wroking!");
     });
+
+
 
 
  /*-- studioCarousel --*/
