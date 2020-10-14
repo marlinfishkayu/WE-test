@@ -404,65 +404,60 @@ $('#Event-slider').owlCarousel({
 
 // event slider
 
-$(function(){
-    var owl = $('#EventSlider');
-    owl.owlCarousel({
-      items:1,
-      loop: false,
-      responsive: {
-        0: {
-          items: 1,
-          navigation: true,
-          nav: true,
-          slideBy: 1 // <!-- HERE
-        },
-       768: {
-        items: 1,
-        navigation: true,
-        nav: true,
-        slideBy: 1 // <!-- HEREE
-        }
-      },
-      scrollPerPage: true,
-      navigation: true,
-      onInitialized  : counter, //When the plugin has initialized.
-      onTranslated : counter //When the translation of the stage has finished.
-    });
+// $(function(){
+//     var owl = $('#EventSlider');
+//     owl.owlCarousel({
+//       items:1,
+//       loop: false,
+//       responsive: {
+//         0: {
+//           items: 1,
+//           navigation: true,
+//           nav: true,
+//           slideBy: 1 // <!-- HERE
+//         },
+//        768: {
+//         items: 1,
+//         navigation: true,
+//         nav: true,
+//         slideBy: 1 // <!-- HEREE
+//         }
+//       },
+//       scrollPerPage: true,
+//       navigation: true,
+//       onInitialized  : counter, //When the plugin has initialized.
+//       onTranslated : counter //When the translation of the stage has finished.
+//     });
     
-    function counter(event) {
-       var element   = event.target;         // DOM element, in this example .owl-carousel
-        var items     = event.item.count;     // Number of items
-        var item      = event.item.index + 1;     // Position of the current item
+//     function counter(event) {
+//        var element   = event.target;         // DOM element, in this example .owl-carousel
+//         var items     = event.item.count;     // Number of items
+//         var item      = event.item.index + 1;     // Position of the current item
       
-      // it loop is true then reset counter from 1
-      if(item > items) {
-        item = item - items
-      }
-      $('#evnet-page').html(item+" / "+items)
-    }
-    });
-
- /*-- Number counting animation --*/
-// const counters = document.querySelectorAll('.counter');
-// const speed = 500;
-
-// counters.forEach(counter =>{
-//   const updateCount = () =>{
-//     const target = +counter.getAttribute('data-target');
-//     const count = +counter.innerText;
-
-//     const inc = target / speed;
-
-//     if(count < target){
-//       counter.innerText = Math.ceil(count + inc);
-//       setTimeout(updateCount,1);
-//     } else{
-//       count.innerText = target;
+//       // it loop is true then reset counter from 1
+//       if(item > items) {
+//         item = item - items
+//       }
+//       $('#evnet-page').html(item+" / "+items)
 //     }
-//   }
-
-//   updateCount();
-// })
+//     console.log("wroking!");
+//     });
+$('#EventSlider').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:5
+      }
+  }
+})
 
  /*-- studioCarousel --*/
  
