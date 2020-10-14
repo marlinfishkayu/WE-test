@@ -67,6 +67,7 @@ $(document).ready(function(){
 
 $("#gamesHover").hover(
     function () {
+      $('.nav-wrap').removeClass("pointer");
         $('.game-menu').addClass('show');
         $('.nav-wrap').addClass("pointer");
     }, 
