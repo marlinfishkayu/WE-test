@@ -7202,6 +7202,7 @@ select.form-control::-ms-expand {
 
 #privacyPolicy {
   position: relative;
+  scroll-behavior: smooth;
 }
 
 #privacyPolicy button {
