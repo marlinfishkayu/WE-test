@@ -2360,16 +2360,10 @@ footer {
           filter: brightness(0.5) blur(5px) grayscale(0);
 }
 
-#diamondCarousel #diaMahjongLuckyWheel h5,
-#diamondCarousel #diaGodofFortuneSicBo h5,
-#diamondCarousel #diaGodofFortuneSicBo h5 {
-  padding-top: 1rem;
-}
-
 #diamondCarousel #diaMahjongLuckyWheel h2,
 #diamondCarousel #diaGodofFortuneSicBo h2,
 #diamondCarousel #diaGodofFortuneSicBo h2 {
-  padding-top: 0rem;
+  padding-top: 1rem;
 }
 
 #introCarousel .owl-dot span {
