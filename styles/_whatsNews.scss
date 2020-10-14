@@ -113,6 +113,15 @@
     width: 100%;
 }
 #newsFeed {
+    .timeline-container{
+        height: 2500px;
+    }
+    .tab-pane {
+        width: 100%;
+    }
+    .tab-content .active{
+        opacity: 1;
+    }
     .event-photo {
         width: 250px;
         height: 250px;
@@ -210,11 +219,19 @@
                 &:hover{
                     text-decoration: none;
                     color: #fff;
+                .active{
+                    color: #fff;
                 }
+                }
+
+                
             }
-            .active a{
+            .filter-item a.active{
                 color: #ffffff;
             }
+            // .active a{
+            //     color: #ffffff;
+            // }
         }
         .news-filter .active{
             position: relative;

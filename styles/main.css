@@ -1072,7 +1072,7 @@ button:focus {
 #nav-area .search-form:before {
   content: "";
   position: absolute;
-  top: 16px;
+  top: 14px;
   left: -26px;
   width: 20px;
   height: 20px;
@@ -3990,6 +3990,18 @@ select.form-control::-ms-expand {
   width: 100%;
 }
 
+#newsFeed .timeline-container {
+  height: 2500px;
+}
+
+#newsFeed .tab-pane {
+  width: 100%;
+}
+
+#newsFeed .tab-content .active {
+  opacity: 1;
+}
+
 #newsFeed .event-photo {
   width: 250px;
   height: 250px;
@@ -4106,7 +4118,11 @@ select.form-control::-ms-expand {
   color: #fff;
 }
 
-#newsFeed .news-filter-wrap .news-filter .active a {
+#newsFeed .news-filter-wrap .news-filter .filter-item a:hover .active {
+  color: #fff;
+}
+
+#newsFeed .news-filter-wrap .news-filter .filter-item a.active {
   color: #ffffff;
 }
 
