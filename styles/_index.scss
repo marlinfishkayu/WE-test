@@ -176,7 +176,6 @@
 #intdexWhatsNews .deco-cat{
     width: 222px;
 }
-
 .more-button{
     margin: 0 auto;
     width: 200px;
@@ -221,6 +220,25 @@
       background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(6,11,26,1) 100%);
     }
 }
+#introCarousel {
+    .news-column{
+        width: 300px;
+        height: 300px;
+        box-shadow: #A1A1A1;
+        position: relative;
+    }
+    .news-outer{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 295px;
+        height: 295px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url(../images/index/introCarousel/frame.svg);
+    }
+}
+
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
@@ -241,6 +259,10 @@
     }
     #intdexHotPick{
         height: 1200px;
+    }
+    #introCarousel .news-column{
+        width: 358px;
+        height: 358px;
     }
 }
 

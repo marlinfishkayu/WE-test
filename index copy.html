@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <!-- external font-->
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.typekit.net/mlx7mqk.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap" rel="stylesheet">
+        <!-- Outdated Browser v1.1.5 -->
+        <link rel="stylesheet" href="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.css" />
+        <!-- Owl CSS -->
+        <link rel="stylesheet" href="OwlCarousel2/owl.carousel.min.css" />
+        <link rel="stylesheet" href="OwlCarousel2/owl.theme.default.min.css" />
+        <!-- Sal CSS -->
+        <link rel="stylesheet" href="./styles/sal.css" />
+        <!-- main CSS -->
+        <link rel="stylesheet" href="./styles/main.css" />
+        <title>World Entertainment</title>
+        <link rel="shortcut icon" type="image/svg" href="./images/icon/favicon.svg" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <section class="section-header" id="nav">
+                <div class="header-wrapper">
+                    <!-- navigation bar -->
+                    <div class="nav-wrap">
+                        <div id="nav-area">
+                            <div class="main-nav">
+                                <!-- nav links -->
+                                <li class="nav-item logo-wrap">
+                                    <a class="navbar-brand menu-item menu-logo" href="index.html">
+                                        <div class="nav-logo"><img src="./images/icon/logo.svg" alt="" loading="lazy" /></div>
+                                    </a>
+                                </li>
+                                <ul class="nav_links">
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-about" href="AboutWE.html">About WE</a>
+                                    </li>
+                                    <li class="nav-item dropdown" id="gamesHover">
+                                        <a class="nav-link menu-item menu-games" href="All_Live_Game.html">Games</a>
+                                        <div class="game-menu" style="margin: 0; width: 100%;">
+                                            <div class="subnav-arrow"></div>
+                                            <div class="game-menu-wrapper">
+                                                <!-- game menu tab -->
+                                                <ul class="nav justify-content-center" id="gameSubtab" role="tablist">
+                                                    <li class="nav-game-item">
+                                                        <a class="nav-game-link fancy-link active" id="pills-livegame-tab" data-toggle="pill" href="#pills-livegame" role="tab" aria-controls="pills-livegame" aria-selected="true">
+                                                            LIVE GAME
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-game-item">
+                                                        <a class="nav-game-link fancy-link" id="pills-lottery-tab" data-toggle="pill" href="#pills-lottery" role="tab" aria-controls="pills-lottery" aria-selected="false">LOTTERY</a>
+                                                    </li>
+                                                    <li class="nav-game-item">
+                                                        <a class="nav-game-link fancy-link" id="pills-sportsbook-tab" data-toggle="pill" href="#pills-sportsbook" role="tab" aria-controls="pills-sportsbook" aria-selected="false">
+                                                            SPORTSBOOK
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-game-item">
+                                                        <a class="nav-game-link fancy-link" id="pills-slots-tab" data-toggle="pill" href="#pills-slots" role="tab" aria-controls="pills-slots" aria-selected="false">SLOTS</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="game-tab-content" id="pills-tabContent">
+                                                    <!-- Live game tab -->
+                                                    <div class="tab-pane fade show active" id="pills-livegame" role="tabpanel" aria-labelledby="pills-livegame-tab">
+                                                        <div class="d-flex justify-content-center">
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-baccarat" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.4s; --sal-delay: 0;">
+                                                                <a href="Game_LiveGame_Baccarat.html">
+                                                                    <div class="game-icon-container">
+                                                                        <h4>BACCARAT</h4>
+                                                                        <div class="game-icon-front">
+                                                                            <div class="icon-img"></div>
+                                                                        </div>
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img
+                                                                                src="images/icon/gameMenu_icon1_Baccarat_1x.png"
+                                                                                srcset="images/icon/gameMenu_icon1_Baccarat_1x.png 500w, images/icon/gameMenu_icon1_Baccarat_2x.png 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-roulette" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.4s; --sal-delay: 0.2s;">
+                                                                <a href="Game_LiveGame_Roulette.html">
+                                                                    <div class="game-icon-container">
+                                                                        <h4>ROULETTE</h4>
+                                                                        <div class="game-icon-front">
+                                                                            <div class="icon-img"></div>
+                                                                        </div>
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img
+                                                                                src="images/icon/gameMenu_icon2_Roulette_1x.png"
+                                                                                srcset="images/icon/gameMenu_icon2_Roulette_1x.png 500w, images/icon/gameMenu_icon2_Roulette_2x.png 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-SicBo" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.4s; --sal-delay: 0.4s;">
+                                                                <a href="Game_LiveGame_SicBo.html">
+                                                                    <div class="game-icon-container">
+                                                                        <h4>SIC BO</h4>
+                                                                        <div class="game-icon-front">
+                                                                            <div class="icon-img"></div>
+                                                                        </div>
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img src="images/icon/gameMenu_icon3_SicBo_1x.png" srcset="images/icon/gameMenu_icon3_SicBo_1x.png 500w, images/icon/gameMenu_icon3_SicBo_2x.png 1000w" alt="" />
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-Dragon" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.4s; --sal-delay: 0.6s;">
+                                                                <a href="Game_LiveGame_DragonTiger.html">
+                                                                    <div class="game-icon-container">
+                                                                        <h4>DRAGON TIGER</h4>
+                                                                        <div class="game-icon-front">
+                                                                            <div class="icon-img"></div>
+                                                                        </div>
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img src="images/icon/gameMenu_icon4_Dragon_1x.png" srcset="images/icon/gameMenu_icon4_Dragon_1x.png 500w, images/icon/gameMenu_icon4_Dragon_2x.png 1000w" alt="" />
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-Mahjong" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.4s; --sal-delay: 0.8s;">
+                                                                <a href="Game_LiveGame_MahjongLuckyWheel.html">
+                                                                    <div class="game-icon-container">
+                                                                        <h4>MAHJONG LUCKY WHEEL</h4>
+                                                                        <div class="game-icon-front">
+                                                                            <div class="icon-img"></div>
+                                                                        </div>
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img
+                                                                                src="images/icon/gameMenu_icon5_Mahjong_1x.png"
+                                                                                srcset="images/icon/gameMenu_icon5_Mahjong_1x.png 500w, images/icon/gameMenu_icon5_Mahjong_2x.png 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="all-games" id="allGameBtn">
+                                                            <a href="All_Live_Game.html"><button class="secondaryBtn" type="button">ALL LIVE GAME</button></a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Live game tab -->
+                                                    <div class="tab-pane fade" id="pills-lottery" role="tabpanel" aria-labelledby="pills-lottery-tab">lottery</div>
+                                                    <div class="tab-pane fade" id="pills-sportsbook" role="tabpanel" aria-labelledby="pills-sportsbook-tab">sportsbook</div>
+                                                    <div class="tab-pane fade" id="pills-slots" role="tabpanel" aria-labelledby="pills-slots-tab">slots</div>
+                                                </div>
+                                                <!-- game menu tab -->
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-liveStudio" href="LiveStudio.html">Live Studio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-services" href="Services.html">Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-whatsNew" href="WhatsNew.html">What's New</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link menu-item menu-contactUs" href="ContactUs.html">Contact Us</a>
+                                    </li>
+                                </ul>
+                                <li class="nav-item nav-icon">
+                                    <div class="nav-icon-wrapper">
+                                        <div>
+                                            <a class="icon-search menu-item search" id="navSearch" href="#search">
+                                                <img src="images/icon/search.svg" />
+                                            </a>
+                                        </div>
+                                        <div class="search-wrapper menu-item menu-lang">
+                                            <a id="icon-lang">
+                                                <img src="images/icon/lang.svg" />
+                                            </a>
+                                            <button class="icon-lang">
+                                                <h6>En</h6>
+                                            </button>
+                                            <ul class="lang-dropdown" id="languageDropdown">
+                                                <li class="language-tap active"><a href="#">English</a></li>
+                                                <li class="language-tap"><a href="#">繁體中文</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-wrapper menu-item">
+                                        <div class="menu-btn">
+                                            <div class="menu-btn__burger"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <div class="search-container">
+                                    <div class="search-form" id="searchForm">
+                                        <form>
+                                            <input type="text" name="" placeholder="Search our website" />
+                                        </form>
+                                    </div>
+                                </div>
+                                <a class="closeBtn"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- side menu start  -->
+                    <nav class="sidebar">
+                        <a class="navbar-brand menu-item menu-logo" href="index.html" id="logoMobile">
+                            <div class="nav-logo"><img src="./images/icon/logo.svg" alt="" loading="lazy" /></div>
+                        </a>
+                        <div class="menu-wrapper menu-item" id="menuMobile">
+                            <div class="menu-btn">
+                                <div class="menu-btn__burger"></div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li class="side-item">
+                                <a href="AboutWE.html">About WE</a>
+                            </li>
+                            <li class="side-item">
+                                <a href="#" class="game-btn">
+                                    Games
+                                    <span class="fa-arrow">
+                                        <img src="./images/icon/dropdown.svg" />
+                                    </span>
+                                </a>
+                                <ul class="game-show">
+                                    <li class="game-item">
+                                        <a href="#" class="livegame-btn">
+                                            LIVE GAME
+                                            <span class="fa-arrow">
+                                                <img src="./images/icon/dropdown.svg" />
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <ul class="game-sub-item livegame-show">
+                                        <li><a href="All_Live_Game.html">ALL LIVE GAME</a></li>
+                                        <li><a href="Game_LiveGame_Baccarat.html">BACCARAT</a></li>
+                                        <li><a href="Game_LiveGame_Roulette.html">ROULETTE</a></li>
+                                        <li><a href="Game_LiveGame_SicBo.html">SIC BO</a></li>
+                                        <li><a href="Game_LiveGame_DragonTiger.html">DRAGON TIGER</a></li>
+                                        <li><a href="Game_LiveGame_SqueezeBaccarat.html">Squeeze Baccarat</a></li>
+                                        <li><a href="Game_LiveGame_MahjongLuckyWheel.html">MAHJONG LUCKY WHEEL</a></li>
+                                        <li><a href="Game_LiveGame_GodofFortuneSicBo.html">God of Fortune Sic Bo</a></li>
+                                        <li><a href="Game_LiveGame_GodofFortuneRoulette.html">God of Fortune Roulette</a></li>
+                                        <li><a href="Game_LiveGame_WinThreeCards.html">Win Three Cards</a></li>
+                                    </ul>
+                                    <li class="game-item">
+                                        <a href="#">
+                                            LOTTERY
+                                            <span class="fa-arrow">
+                                                <img src="./images/icon/dropdown.svg" />
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="game-item">
+                                        <a href="#">
+                                            SPORTSBOOK
+                                            <span class="fa-arrow">
+                                                <img src="./images/icon/dropdown.svg" />
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="side-item">
+                                <a href="LiveStudio.html">Live Studio</a>
+                            </li>
+                            <li class="side-item">
+                                <a href="Services.html">Services</a>
+                            </li>
+                            <li class="side-item">
+                                <a href="WhatsNew.html">What’s New</a>
+                            </li>
+                            <li class="side-item">
+                                <a href="ContactUs.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- side menu end  -->
+
+                    <!-- navigation bar end -->
+                    <!-- Slider start -->
+                    <div id="slider-area" class="owl-carousel index-carousel">
+                        <div class="slide">
+                            <img src="./images/hero_1_x1.png" srcset="./images/hero_1_x1.png 500w, ./images/hero_1_x2.png 1000w" alt="" />
+                            <div class="slider-text">
+                                <h2>WE are more than fun</h2>
+                                <p>Way to go, lit the sparkle of innovation.</p>
+                                <div class="main-button">
+                                    <button type="submit" id="submit" class="mainBtn btn" type="button">
+                                        <a href="#"><span>try now</span></a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="./images/hero_2_x1.png" srcset="./images/hero_2_x1.png 500w, ./images/hero_2_x2.png 1000w" alt="" />
+                            <div class="slider-text">
+                                <h2>This game is fire, check it out!</h2>
+                                <p>Way to go, lit the sparkle of innovation.</p>
+                                <div class="main-button">
+                                    <button type="submit" id="submit" class="mainBtn btn" type="button">
+                                        <a href="#"><span>try now</span></a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="./images/hero_1_x1.png" srcset="./images/hero_1_x1.png 500w, ./images/hero_1_x2.png 1000w" alt="" />
+                            <div class="slider-text">
+                                <h2>Dare to be the next winner!</h2>
+                                <p>Way to go, lit the sparkle of innovation.</p>
+                                <div class="main-button">
+                                    <button type="submit" id="submit" class="mainBtn btn" type="button">
+                                        <a href="#"><span>try now</span></a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slider end -->
+                </div>
+            </section>
+            <!-- our game start-->
+            <section class="text-center" id="intdexOurGames">
+                <div class="section-container">
+                    <h4 class="deco-cat">OUR GAMES</h4>
+                    <h2 class="deco-header">Leading the way, play new.</h2>
+                    <p class="deco-content">Inspiring new excitement and tension for gaming, while presenting an excellent user experience.</p>
+                    <div class="container our-gamaes">
+                        <div class="row">
+                            <!-- live game start-->
+                            <div class="our-gamaes-column col-12 col-md-6 col-lg-3">
+                                <div class="ourgames-img">
+                                    <img src="images/index/index_ourGames_col1_livegame_x1.png" 
+                                    srcset="images/index/index_ourGames_col1_livegame_x1.png 500w, 
+                                    images/index/index_ourGames_col1_livegame_x2.png 1000w" alt="" />
+                                </div>
+                                <a href="All_Live_Game.html" class="expand-deco">
+                                    <div class="expand-icon">
+                                        <img src="images/index/col1_expand-icon_x1.png" 
+                                        srcset="images/index/col1_expand-icon_x1.png 500w, 
+                                        images/index/col1_expand-icon_x2.png 1000w" alt="" />
+                                    </div>
+                                    <div class="hover-for-more">
+                                        <h4 class="more-deco-h4">learn more</h4>
+                                        <div class="more-deco-wrap">
+                                            <div class="more-deco"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="our-gamaes-column col-12 col-md-6 col-lg-3">
+                                <div class="ourgames-img">
+                                    <img src="images/index/index_ourGames_col2_livegame_x1.png" srcset="images/index/index_ourGames_col2_livegame_x1.png 500w, images/index/index_ourGames_col2_livegame_x2.png 1000w" alt="" />
+                                </div>
+                                <a href="#" class="expand-deco">
+                                    <div class="expand-icon">
+                                        <img src="images/index/col2_expand-icon_x1.png" 
+                                        srcset="images/index/col2_expand-icon_x1.png 500w, 
+                                        images/index/col2_expand-icon_x2.png 1000w" alt="" />
+                                    </div>
+                                    <div class="hover-for-more">
+                                        <h4 class="more-deco-h4">learn more</h4>
+                                        <div class="more-deco-wrap">
+                                            <div class="more-deco"></div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="coming col-12 col-md-6 col-lg-3">
+                                <div class="disable-img ourgames-img">
+                                    <img src="images/index/index_ourGames_col3_livegame_x1.png" srcset="images/index/index_ourGames_col3_livegame_x1.png 500w, images/index/index_ourGames_col3_livegame_x2.png 1000w" alt="" />
+                                </div>
+                                <div class="disable-text">
+                                    <h4 >Coming Soon</h4>
+                                </div>
+                            </div>
+                            <div class="coming col-12 col-md-6 col-lg-3">
+                                <div class="disable-img ourgames-img">
+                                    <img src="images/index/index_ourGames_col4_livegame_x1.png" srcset="images/index/index_ourGames_col4_livegame_x1.png 500w, images/index/index_ourGames_col4_livegame_x2.png 1000w" alt="" />
+                                </div>
+                                <div class="disable-text">
+                                    <h4 >Coming Soon</h4>
+                                </div>
+                            </div>
+                            <!-- live game end -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- our game end-->
+            <!-- Hot pick start-->
+            <section class="text-center" id="intdexHotPick">
+                <div class="WE-diamond-bkg"></div>
+                <div class="section-container">
+                    <h4 class="deco-cat">HOT PICKS</h4>
+                    <h2 class="deco-header">The most popular games online.</h2>
+                    <p class="deco-content">Your time is precious, so WE pick our most popular selection for you.</p>
+                    <div id="app"></div>
+                    <div class="diamond-carousel owl-carousel owl-loaded owl-drag owl-theme" id="diamondCarousel">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage">
+                                <div class="owl-item diamond-item" id="diaBaccarat" style="margin-right: 150px;">
+                                    <div class="diamond-wrap">
+                                        <div class="active-img">
+                                            <img src="./images/index/diamond/diamond_bkg_item5_x1.png" srcset="./images/index/diamond/diamond_bkg_item5_x1.png 500w, ./images/index/diamond/diamond_bkg_item5_x2.png 1000w" alt="" />
+                                        </div>
+                                    </div>
+                                    <a href="Game_LiveGame_Baccarat.html">
+                                        <div class="dia-3d-layer">
+                                            <div class="dia-icon">
+                                                <div class="dia-icon-img"></div>
+                                            </div>
+                                            <div class="dia-cat"><h5>LIVE GAME</h5></div>
+                                            <div class="deco-main">
+                                                <img
+                                                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNjFweCIgaGVpZ2h0PSIxMXB4IiB2aWV3Qm94PSIwIDAgNjEgMTEiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDY0ICg5MzUzNykgLSBodHRwczovL3NrZXRjaC5jb20gLS0+CiAgICA8dGl0bGU+R3JvdXAgMzg8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZyBpZD0iU3ltYm9sIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iZmVhdHVyZS1nYW1lcy0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTA4OS4wMDAwMDAsIC01NTAuMDAwMDAwKSIgc3Ryb2tlPSIjODk2NjNEIj4KICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDkzOS4wMDAwMDAsIDM1Ny4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjk2OTE2OSwgMC4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAtMzgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE0OC41ODM3MDgsIDE5Mi4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTkuMjU2MjEwOTUsMi44NDY5MjQyMSBMMi44NDc4MjkxMiwyLjg0NjkyNDIxIEwyLjg0NzgyOTEyLDkuMjU1MzA2MDUgTDkuMjU2MjEwOTUsOS4yNTUzMDYwNSBMOS4yNTYyMTA5NSwyLjg0NjkyNDIxIFoiIGlkPSJSZWN0YW5nbGUiIHN0cm9rZS13aWR0aD0iMC44IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2LjA1MjAyMCwgNi4wNTExMTUpIHJvdGF0ZSgtMzE1LjAwMDAwMCkgdHJhbnNsYXRlKC02LjA1MjAyMCwgLTYuMDUxMTE1KSAiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTU5LjQyNTY1ODYsMi44NDY5MjQyMSBMNTMuMDE3Mjc2OCwyLjg0NjkyNDIxIEw1My4wMTcyNzY4LDkuMjU1MzA2MDUgTDU5LjQyNTY1ODYsOS4yNTUzMDYwNSBMNTkuNDI1NjU4NiwyLjg0NjkyNDIxIFoiIGlkPSJSZWN0YW5nbGUtQ29weS05IiBzdHJva2Utd2lkdGg9IjAuOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTYuMjIxNDY4LCA2LjA1MTExNSkgcm90YXRlKC0zMTUuMDAwMDAwKSB0cmFuc2xhdGUoLTU2LjIyMTQ2OCwgLTYuMDUxMTE1KSAiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPGxpbmUgeDE9IjEwLjkxMjY4OTIiIHkxPSI1LjkxNDg4NjU4IiB4Mj0iNTEuMjkyOTc2MyIgeTI9IjUuOTE0ODg2NTgiIGlkPSJMaW5lLTUiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPjwvbGluZT4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <h2>BACCARAT</h2>
+                                            <h3>WE play beyond classic.</h3>
+                                        </div>
+                                    </a>
+                                    <div class="dia-btn">
+                                        <a href="Game_LiveGame_Baccarat.html" class="expand-deco">
+                                            <div class="hover-for-more">
+                                                <h4 class="more-deco-h4">learn more</h4>
+                                                <div class="more-deco-wrap">
+                                                    <div class="more-deco"></div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="owl-item diamond-item" id="diaRoulette" style="margin-right: 150px;">
+                                    <div class="diamond-wrap">
+                                        <div class="active-img">
+                                            <img src="./images/index/diamond/diamond_bkg_item4_x1.png" srcset="./images/index/diamond/diamond_bkg_item4_x1.png 500w, ./images/index/diamond/diamond_bkg_item4_x2.png 1000w" alt="" />
+                                        </div>
+                                    </div>
+                                    <a href="Game_LiveGame_Roulette.html">
+                                        <div class="dia-3d-layer">
+                                            <div class="dia-icon">
+                                                <div class="dia-icon-img"></div>
+                                            </div>
+                                            <div class="dia-cat"><h5>LIVE GAME</h5></div>
+                                            <div class="deco-main">
+                                                <img
+                                                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNjFweCIgaGVpZ2h0PSIxMXB4IiB2aWV3Qm94PSIwIDAgNjEgMTEiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDY0ICg5MzUzNykgLSBodHRwczovL3NrZXRjaC5jb20gLS0+CiAgICA8dGl0bGU+R3JvdXAgMzg8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZyBpZD0iU3ltYm9sIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iZmVhdHVyZS1nYW1lcy0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTA4OS4wMDAwMDAsIC01NTAuMDAwMDAwKSIgc3Ryb2tlPSIjODk2NjNEIj4KICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDkzOS4wMDAwMDAsIDM1Ny4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjk2OTE2OSwgMC4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAtMzgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE0OC41ODM3MDgsIDE5Mi4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTkuMjU2MjEwOTUsMi44NDY5MjQyMSBMMi44NDc4MjkxMiwyLjg0NjkyNDIxIEwyLjg0NzgyOTEyLDkuMjU1MzA2MDUgTDkuMjU2MjEwOTUsOS4yNTUzMDYwNSBMOS4yNTYyMTA5NSwyLjg0NjkyNDIxIFoiIGlkPSJSZWN0YW5nbGUiIHN0cm9rZS13aWR0aD0iMC44IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2LjA1MjAyMCwgNi4wNTExMTUpIHJvdGF0ZSgtMzE1LjAwMDAwMCkgdHJhbnNsYXRlKC02LjA1MjAyMCwgLTYuMDUxMTE1KSAiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTU5LjQyNTY1ODYsMi44NDY5MjQyMSBMNTMuMDE3Mjc2OCwyLjg0NjkyNDIxIEw1My4wMTcyNzY4LDkuMjU1MzA2MDUgTDU5LjQyNTY1ODYsOS4yNTUzMDYwNSBMNTkuNDI1NjU4NiwyLjg0NjkyNDIxIFoiIGlkPSJSZWN0YW5nbGUtQ29weS05IiBzdHJva2Utd2lkdGg9IjAuOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTYuMjIxNDY4LCA2LjA1MTExNSkgcm90YXRlKC0zMTUuMDAwMDAwKSB0cmFuc2xhdGUoLTU2LjIyMTQ2OCwgLTYuMDUxMTE1KSAiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPGxpbmUgeDE9IjEwLjkxMjY4OTIiIHkxPSI1LjkxNDg4NjU4IiB4Mj0iNTEuMjkyOTc2MyIgeTI9IjUuOTE0ODg2NTgiIGlkPSJMaW5lLTUiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPjwvbGluZT4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <h2>Roulette</h2>
+                                            <h3>Big win on European classic.</h3>
+                                        </div>
+                                    </a>
+                                    <div class="dia-btn">
+                                        <a href="Game_LiveGame_Roulette.html" class="expand-deco">
+                                            <div class="hover-for-more">
+                                                <h4 class="more-deco-h4">learn more</h4>
+                                                <div class="more-deco-wrap">
+                                                    <div class="more-deco"></div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="owl-item diamond-item" id="diaSicBo" style="margin-right: 150px;">
+                                    <div class="diamond-wrap">
+                                        <div class="active-img">
+                                            <img src="./images/index/diamond/diamond_bkg_item6_x1.png" srcset="./images/index/diamond/diamond_bkg_item6_x1.png 500w, ./images/index/diamond/diamond_bkg_item6_x2.png 1000w" alt="" />
+                                        </div>
+                                    </div>
+                                    <a href="Game_LiveGame_SicBo.html">
+                                        <div class="dia-3d-layer">
+                                            <div class="dia-icon">
+                                                <div class="dia-icon-img"></div>
+                                            </div>
+                                            <div class="dia-cat"><h5>LIVE GAME</h5></div>
+                                            <div class="deco-main">
+                                                <img
+                                                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNjFweCIgaGVpZ2h0PSIxMXB4IiB2aWV3Qm94PSIwIDAgNjEgMTEiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDY0ICg5MzUzNykgLSBodHRwczovL3NrZXRjaC5jb20gLS0+CiAgICA8dGl0bGU+R3JvdXAgMzg8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZyBpZD0iU3ltYm9sIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iZmVhdHVyZS1nYW1lcy0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTA4OS4wMDAwMDAsIC01NTAuMDAwMDAwKSIgc3Ryb2tlPSIjODk2NjNEIj4KICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDkzOS4wMDAwMDAsIDM1Ny4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjk2OTE2OSwgMC4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAtMzgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE0OC41ODM3MDgsIDE5Mi4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTkuMjU2MjEwOTUsMi44NDY5MjQyMSBMMi44NDc4MjkxMiwyLjg0NjkyNDIxIEwyLjg0NzgyOTEyLDkuMjU1MzA2MDUgTDkuMjU2MjEwOTUsOS4yNTUzMDYwNSBMOS4yNTYyMTA5NSwyLjg0NjkyNDIxIFoiIGlkPSJSZWN0YW5nbGUiIHN0cm9rZS13aWR0aD0iMC44IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2LjA1MjAyMCwgNi4wNTExMTUpIHJvdGF0ZSgtMzE1LjAwMDAwMCkgdHJhbnNsYXRlKC02LjA1MjAyMCwgLTYuMDUxMTE1KSAiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTU5LjQyNTY1ODYsMi44NDY5MjQyMSBMNTMuMDE3Mjc2OCwyLjg0NjkyNDIxIEw1My4wMTcyNzY4LDkuMjU1MzA2MDUgTDU5LjQyNTY1ODYsOS4yNTUzMDYwNSBMNTkuNDI1NjU4NiwyLjg0NjkyNDIxIFoiIGlkPSJSZWN0YW5nbGUtQ29weS05IiBzdHJva2Utd2lkdGg9IjAuOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTYuMjIxNDY4LCA2LjA1MTExNSkgcm90YXRlKC0zMTUuMDAwMDAwKSB0cmFuc2xhdGUoLTU2LjIyMTQ2OCwgLTYuMDUxMTE1KSAiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPGxpbmUgeDE9IjEwLjkxMjY4OTIiIHkxPSI1LjkxNDg4NjU4IiB4Mj0iNTEuMjkyOTc2MyIgeTI9IjUuOTE0ODg2NTgiIGlkPSJMaW5lLTUiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPjwvbGluZT4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <h2>
+                                                Sic bo
+                                            </h2>
+                                            <h3>An unparalleled game of chance.</h3>
+                                        </div>
+                                    </a>
+                                    <div class="dia-btn">
+                                        <a href="Game_LiveGame_SicBo.html" class="expand-deco">
+                                            <div class="hover-for-more">
+                                                <h4 class="more-deco-h4">learn more</h4>
+                                                <div class="more-deco-wrap">
+                                                    <div class="more-deco"></div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="owl-item diamond-item" id="diaDragonTiger" style="margin-right: 150px;">
+                                    <div class="diamond-wrap">
+                                        <div class="active-img">
+                                            <img src="./images/index/diamond/diamond_bkg_item1_x1.png" srcset="./images/index/diamond/diamond_bkg_item1_x1.png 500w, ./images/index/diamond/diamond_bkg_item1_x2.png 1000w" alt="" />
+                                        </div>
+                                    </div>
+                                    <a href="Game_LiveGame_DragonTiger.html">
+                                        <div class="dia-3d-layer">
+                                            <div class="dia-icon">
+                                                <div class="dia-icon-img"></div>
+                                            </div>
+                                            <div class="dia-cat"><h5>LIVE GAME</h5></div>
+                                            <div class="deco-main">
+                                                <img
+                                                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNjFweCIgaGVpZ2h0PSIxMXB4IiB2aWV3Qm94PSIwIDAgNjEgMTEiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDY0ICg5MzUzNykgLSBodHRwczovL3NrZXRjaC5jb20gLS0+CiAgICA8dGl0bGU+R3JvdXAgMzg8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZyBpZD0iU3ltYm9sIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iZmVhdHVyZS1nYW1lcy0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTA4OS4wMDAwMDAsIC01NTAuMDAwMDAwKSIgc3Ryb2tlPSIjODk2NjNEIj4KICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDkzOS4wMDAwMDAsIDM1Ny4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjk2OTE2OSwgMC4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAtMzgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE0OC41ODM3MDgsIDE5Mi4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTkuMjU2MjEwOTUsMi44NDY5MjQyMSBMMi44NDc4MjkxMiwyLjg0NjkyNDIxIEwyLjg0NzgyOTEyLDkuMjU1MzA2MDUgTDkuMjU2MjEwOTUsOS4yNTUzMDYwNSBMOS4yNTYyMTA5NSwyLjg0NjkyNDIxIFoiIGlkPSJSZWN0YW5nbGUiIHN0cm9rZS13aWR0aD0iMC44IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2LjA1MjAyMCwgNi4wNTExMTUpIHJvdGF0ZSgtMzE1LjAwMDAwMCkgdHJhbnNsYXRlKC02LjA1MjAyMCwgLTYuMDUxMTE1KSAiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTU5LjQyNTY1ODYsMi44NDY5MjQyMSBMNTMuMDE3Mjc2OCwyLjg0NjkyNDIxIEw1My4wMTcyNzY4LDkuMjU1MzA2MDUgTDU5LjQyNTY1ODYsOS4yNTUzMDYwNSBMNTkuNDI1NjU4NiwyLjg0NjkyNDIxIFoiIGlkPSJSZWN0YW5nbGUtQ29weS05IiBzdHJva2Utd2lkdGg9IjAuOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTYuMjIxNDY4LCA2LjA1MTExNSkgcm90YXRlKC0zMTUuMDAwMDAwKSB0cmFuc2xhdGUoLTU2LjIyMTQ2OCwgLTYuMDUxMTE1KSAiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPGxpbmUgeDE9IjEwLjkxMjY4OTIiIHkxPSI1LjkxNDg4NjU4IiB4Mj0iNTEuMjkyOTc2MyIgeTI9IjUuOTE0ODg2NTgiIGlkPSJMaW5lLTUiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPjwvbGluZT4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <h2>
+                                                DRAGON<br />
+                                                TIGER
+                                            </h2>
+                                            <h3>The perfect game for quick Players.</h3>
+                                        </div>
+                                    </a>
+                                    <div class="dia-btn">
+                                        <a href="Game_LiveGame_DragonTiger.html" class="expand-deco">
+                                            <div class="hover-for-more">
+                                                <h4 class="more-deco-h4">learn more</h4>
+                                                <div class="more-deco-wrap">
+                                                    <div class="more-deco"></div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="owl-item diamond-item" id="diaSqueezeBaccarat" style="margin-right: 150px;">
+                                    <div class="diamond-wrap">
+                                        <div class="active-img">
+                                            <img src="./images/index/diamond/diamond_bkg_item2_x1.png" srcset="./images/index/diamond/diamond_bkg_item2_x1.png 500w, ./images/index/diamond/diamond_bkg_item2_x2.png 1000w" alt="" />
+                                        </div>
+                                    </div>
+                                    <a href="Game_LiveGame_SqueezeBaccarat.html">
+                                        <div class="dia-3d-layer">
+                                            <div class="dia-icon">
+                                                <div class="dia-icon-img"></div>
+                                            </div>
+                                            <div class="dia-cat"><h5>LIVE GAME</h5></div>
+                                            <div class="deco-main">
+                                                <img
+                                                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNjFweCIgaGVpZ2h0PSIxMXB4IiB2aWV3Qm94PSIwIDAgNjEgMTEiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDY0ICg5MzUzNykgLSBodHRwczovL3NrZXRjaC5jb20gLS0+CiAgICA8dGl0bGU+R3JvdXAgMzg8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZyBpZD0iU3ltYm9sIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iZmVhdHVyZS1nYW1lcy0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTA4OS4wMDAwMDAsIC01NTAuMDAwMDAwKSIgc3Ryb2tlPSIjODk2NjNEIj4KICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDkzOS4wMDAwMDAsIDM1Ny4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjk2OTE2OSwgMC4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAtMzgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE0OC41ODM3MDgsIDE5Mi4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTkuMjU2MjEwOTUsMi44NDY5MjQyMSBMMi44NDc4MjkxMiwyLjg0NjkyNDIxIEwyLjg0NzgyOTEyLDkuMjU1MzA2MDUgTDkuMjU2MjEwOTUsOS4yNTUzMDYwNSBMOS4yNTYyMTA5NSwyLjg0NjkyNDIxIFoiIGlkPSJSZWN0YW5nbGUiIHN0cm9rZS13aWR0aD0iMC44IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2LjA1MjAyMCwgNi4wNTExMTUpIHJvdGF0ZSgtMzE1LjAwMDAwMCkgdHJhbnNsYXRlKC02LjA1MjAyMCwgLTYuMDUxMTE1KSAiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTU5LjQyNTY1ODYsMi44NDY5MjQyMSBMNTMuMDE3Mjc2OCwyLjg0NjkyNDIxIEw1My4wMTcyNzY4LDkuMjU1MzA2MDUgTDU5LjQyNTY1ODYsOS4yNTUzMDYwNSBMNTkuNDI1NjU4NiwyLjg0NjkyNDIxIFoiIGlkPSJSZWN0YW5nbGUtQ29weS05IiBzdHJva2Utd2lkdGg9IjAuOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTYuMjIxNDY4LCA2LjA1MTExNSkgcm90YXRlKC0zMTUuMDAwMDAwKSB0cmFuc2xhdGUoLTU2LjIyMTQ2OCwgLTYuMDUxMTE1KSAiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPGxpbmUgeDE9IjEwLjkxMjY4OTIiIHkxPSI1LjkxNDg4NjU4IiB4Mj0iNTEuMjkyOTc2MyIgeTI9IjUuOTE0ODg2NTgiIGlkPSJMaW5lLTUiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPjwvbGluZT4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <h2>Squeeze <br/>BACCARAT</h2>
+                                            <h3>Prolong the excitement and tension.</h3>
+                                        </div>
+                                    </a>
+                                    <div class="dia-btn">
+                                        <a href="Game_LiveGame_SqueezeBaccarat.html" class="expand-deco">
+                                            <div class="hover-for-more">
+                                                <h4 class="more-deco-h4">learn more</h4>
+                                                <div class="more-deco-wrap">
+                                                    <div class="more-deco"></div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="owl-item diamond-item" id="diaMahjongLuckyWheel" style="margin-right: 150px;">
+                                    <div class="diamond-wrap">
+                                        <div class="active-img">
+                                            <img src="./images/index/diamond/diamond_bkg_item3_x1.png" srcset="./images/index/diamond/diamond_bkg_item3_x1.png 500w, ./images/index/diamond/diamond_bkg_item3_x2.png 1000w" alt="" />
+                                        </div>
+                                    </div>
+                                    <a href="Game_LiveGame_MahjongLuckyWheel.html">
+                                        <div class="dia-3d-layer">
+                                            <div class="dia-icon">
+                                                <div class="dia-icon-img"></div>
+                                            </div>
+                                            <div class="dia-cat"><h5>LIVE GAME</h5></div>
+                                            <div class="deco-main">
+                                                <img
+                                                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNjFweCIgaGVpZ2h0PSIxMXB4IiB2aWV3Qm94PSIwIDAgNjEgMTEiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDY0ICg5MzUzNykgLSBodHRwczovL3NrZXRjaC5jb20gLS0+CiAgICA8dGl0bGU+R3JvdXAgMzg8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZyBpZD0iU3ltYm9sIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iZmVhdHVyZS1nYW1lcy0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTA4OS4wMDAwMDAsIC01NTAuMDAwMDAwKSIgc3Ryb2tlPSIjODk2NjNEIj4KICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDkzOS4wMDAwMDAsIDM1Ny4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjk2OTE2OSwgMC4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAtMzgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE0OC41ODM3MDgsIDE5Mi4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTkuMjU2MjEwOTUsMi44NDY5MjQyMSBMMi44NDc4MjkxMiwyLjg0NjkyNDIxIEwyLjg0NzgyOTEyLDkuMjU1MzA2MDUgTDkuMjU2MjEwOTUsOS4yNTUzMDYwNSBMOS4yNTYyMTA5NSwyLjg0NjkyNDIxIFoiIGlkPSJSZWN0YW5nbGUiIHN0cm9rZS13aWR0aD0iMC44IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2LjA1MjAyMCwgNi4wNTExMTUpIHJvdGF0ZSgtMzE1LjAwMDAwMCkgdHJhbnNsYXRlKC02LjA1MjAyMCwgLTYuMDUxMTE1KSAiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTU5LjQyNTY1ODYsMi44NDY5MjQyMSBMNTMuMDE3Mjc2OCwyLjg0NjkyNDIxIEw1My4wMTcyNzY4LDkuMjU1MzA2MDUgTDU5LjQyNTY1ODYsOS4yNTUzMDYwNSBMNTkuNDI1NjU4NiwyLjg0NjkyNDIxIFoiIGlkPSJSZWN0YW5nbGUtQ29weS05IiBzdHJva2Utd2lkdGg9IjAuOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTYuMjIxNDY4LCA2LjA1MTExNSkgcm90YXRlKC0zMTUuMDAwMDAwKSB0cmFuc2xhdGUoLTU2LjIyMTQ2OCwgLTYuMDUxMTE1KSAiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPGxpbmUgeDE9IjEwLjkxMjY4OTIiIHkxPSI1LjkxNDg4NjU4IiB4Mj0iNTEuMjkyOTc2MyIgeTI9IjUuOTE0ODg2NTgiIGlkPSJMaW5lLTUiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPjwvbGluZT4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <h2>Mahjong</h2>
+                                            <h5>Lucky Wheel</h5>
+                                            <h3>Double fun! Triple excitement! </h3>
+                                        </div>
+                                    </a>
+                                    <div class="dia-btn">
+                                        <a href="Game_LiveGame_MahjongLuckyWheel.html" class="expand-deco">
+                                            <div class="hover-for-more">
+                                                <h4 class="more-deco-h4">learn more</h4>
+                                                <div class="more-deco-wrap">
+                                                    <div class="more-deco"></div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="owl-item diamond-item" id="diaGodofFortuneSicBo" style="margin-right: 150px;">
+                                    <div class="diamond-wrap">
+                                        <div class="active-img">
+                                            <img src="./images/index/diamond/diamond_bkg_item8_x1.png" srcset="./images/index/diamond/diamond_bkg_item8_x1.png 500w, ./images/index/diamond/diamond_bkg_item8_x2.png 1000w" alt="" />
+                                        </div>
+                                    </div>
+                                    <a href="Game_LiveGame_GodofFortuneSicBo.html">
+                                        <div class="dia-3d-layer">
+                                            <div class="dia-icon">
+                                                <div class="dia-icon-img"></div>
+                                            </div>
+                                            <div class="dia-cat"><h5>LIVE GAME</h5></div>
+                                            <div class="deco-main">
+                                                <img
+                                                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNjFweCIgaGVpZ2h0PSIxMXB4IiB2aWV3Qm94PSIwIDAgNjEgMTEiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDY0ICg5MzUzNykgLSBodHRwczovL3NrZXRjaC5jb20gLS0+CiAgICA8dGl0bGU+R3JvdXAgMzg8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZyBpZD0iU3ltYm9sIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iZmVhdHVyZS1nYW1lcy0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTA4OS4wMDAwMDAsIC01NTAuMDAwMDAwKSIgc3Ryb2tlPSIjODk2NjNEIj4KICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDkzOS4wMDAwMDAsIDM1Ny4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjk2OTE2OSwgMC4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAtMzgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE0OC41ODM3MDgsIDE5Mi4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTkuMjU2MjEwOTUsMi44NDY5MjQyMSBMMi44NDc4MjkxMiwyLjg0NjkyNDIxIEwyLjg0NzgyOTEyLDkuMjU1MzA2MDUgTDkuMjU2MjEwOTUsOS4yNTUzMDYwNSBMOS4yNTYyMTA5NSwyLjg0NjkyNDIxIFoiIGlkPSJSZWN0YW5nbGUiIHN0cm9rZS13aWR0aD0iMC44IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2LjA1MjAyMCwgNi4wNTExMTUpIHJvdGF0ZSgtMzE1LjAwMDAwMCkgdHJhbnNsYXRlKC02LjA1MjAyMCwgLTYuMDUxMTE1KSAiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTU5LjQyNTY1ODYsMi44NDY5MjQyMSBMNTMuMDE3Mjc2OCwyLjg0NjkyNDIxIEw1My4wMTcyNzY4LDkuMjU1MzA2MDUgTDU5LjQyNTY1ODYsOS4yNTUzMDYwNSBMNTkuNDI1NjU4NiwyLjg0NjkyNDIxIFoiIGlkPSJSZWN0YW5nbGUtQ29weS05IiBzdHJva2Utd2lkdGg9IjAuOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTYuMjIxNDY4LCA2LjA1MTExNSkgcm90YXRlKC0zMTUuMDAwMDAwKSB0cmFuc2xhdGUoLTU2LjIyMTQ2OCwgLTYuMDUxMTE1KSAiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPGxpbmUgeDE9IjEwLjkxMjY4OTIiIHkxPSI1LjkxNDg4NjU4IiB4Mj0iNTEuMjkyOTc2MyIgeTI9IjUuOTE0ODg2NTgiIGlkPSJMaW5lLTUiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPjwvbGluZT4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <h2>God of Fortune</h2>
+                                            <h5>Sic Bo</h5>
+                                            <h3>Prizing you unexceptionally.</h3>
+                                        </div>
+                                    </a>
+                                    <div class="dia-btn">
+                                        <a href="Game_LiveGame_GodofFortuneSicBo.html" class="expand-deco">
+                                            <div class="hover-for-more">
+                                                <h4 class="more-deco-h4">learn more</h4>
+                                                <div class="more-deco-wrap">
+                                                    <div class="more-deco"></div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="owl-item diamond-item" id="diaGodofFortuneRoulette" style="margin-right: 150px;">
+                                    <div class="diamond-wrap">
+                                        <div class="active-img">
+                                            <img src="./images/index/diamond/diamond_bkg_item9_x1.png" srcset="./images/index/diamond/diamond_bkg_item9_x1.png 500w, ./images/index/diamond/diamond_bkg_item9_x2.png 1000w" alt="" />
+                                        </div>
+                                    </div>
+                                    <a href="Game_LiveGame_GodofFortuneRoulette.html">
+                                        <div class="dia-3d-layer">
+                                            <div class="dia-icon">
+                                                <div class="dia-icon-img"></div>
+                                            </div>
+                                            <div class="dia-cat"><h5>LIVE GAME</h5></div>
+                                            <div class="deco-main">
+                                                <img
+                                                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNjFweCIgaGVpZ2h0PSIxMXB4IiB2aWV3Qm94PSIwIDAgNjEgMTEiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDY0ICg5MzUzNykgLSBodHRwczovL3NrZXRjaC5jb20gLS0+CiAgICA8dGl0bGU+R3JvdXAgMzg8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZyBpZD0iU3ltYm9sIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iZmVhdHVyZS1nYW1lcy0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTA4OS4wMDAwMDAsIC01NTAuMDAwMDAwKSIgc3Ryb2tlPSIjODk2NjNEIj4KICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDkzOS4wMDAwMDAsIDM1Ny4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjk2OTE2OSwgMC4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAtMzgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE0OC41ODM3MDgsIDE5Mi4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTkuMjU2MjEwOTUsMi44NDY5MjQyMSBMMi44NDc4MjkxMiwyLjg0NjkyNDIxIEwyLjg0NzgyOTEyLDkuMjU1MzA2MDUgTDkuMjU2MjEwOTUsOS4yNTUzMDYwNSBMOS4yNTYyMTA5NSwyLjg0NjkyNDIxIFoiIGlkPSJSZWN0YW5nbGUiIHN0cm9rZS13aWR0aD0iMC44IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2LjA1MjAyMCwgNi4wNTExMTUpIHJvdGF0ZSgtMzE1LjAwMDAwMCkgdHJhbnNsYXRlKC02LjA1MjAyMCwgLTYuMDUxMTE1KSAiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTU5LjQyNTY1ODYsMi44NDY5MjQyMSBMNTMuMDE3Mjc2OCwyLjg0NjkyNDIxIEw1My4wMTcyNzY4LDkuMjU1MzA2MDUgTDU5LjQyNTY1ODYsOS4yNTUzMDYwNSBMNTkuNDI1NjU4NiwyLjg0NjkyNDIxIFoiIGlkPSJSZWN0YW5nbGUtQ29weS05IiBzdHJva2Utd2lkdGg9IjAuOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTYuMjIxNDY4LCA2LjA1MTExNSkgcm90YXRlKC0zMTUuMDAwMDAwKSB0cmFuc2xhdGUoLTU2LjIyMTQ2OCwgLTYuMDUxMTE1KSAiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPGxpbmUgeDE9IjEwLjkxMjY4OTIiIHkxPSI1LjkxNDg4NjU4IiB4Mj0iNTEuMjkyOTc2MyIgeTI9IjUuOTE0ODg2NTgiIGlkPSJMaW5lLTUiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPjwvbGluZT4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <h2>God of Fortune</h2>
+                                            <h5>Roulette</h5>
+                                            <h3>Spin beyond the classic.</h3>
+                                        </div>
+                                    </a>
+                                    <div class="dia-btn">
+                                        <a href="Game_LiveGame_GodofFortuneRoulette.html" class="expand-deco">
+                                            <div class="hover-for-more">
+                                                <h4 class="more-deco-h4">learn more</h4>
+                                                <div class="more-deco-wrap">
+                                                    <div class="more-deco"></div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="owl-item diamond-item" id="diaWinThreeCards" style="margin-right: 150px;">
+                                    <div class="diamond-wrap">
+                                        <div class="active-img">
+                                            <img src="./images/index/diamond/diamond_bkg_item11_x1.png" srcset="./images/index/diamond/diamond_bkg_item11_x1.png 500w, ./images/index/diamond/diamond_bkg_item11_x2.png 1000w" alt="" />
+                                        </div>
+                                    </div>
+                                    <a href="Game_LiveGame_WinThreeCards.html">
+                                        <div class="dia-3d-layer">
+                                            <div class="dia-icon">
+                                                <div class="dia-icon-img"></div>
+                                            </div>
+                                            <div class="dia-cat"><h5>LIVE GAME</h5></div>
+                                            <div class="deco-main">
+                                                <img
+                                                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNjFweCIgaGVpZ2h0PSIxMXB4IiB2aWV3Qm94PSIwIDAgNjEgMTEiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDY0ICg5MzUzNykgLSBodHRwczovL3NrZXRjaC5jb20gLS0+CiAgICA8dGl0bGU+R3JvdXAgMzg8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZyBpZD0iU3ltYm9sIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iZmVhdHVyZS1nYW1lcy0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTA4OS4wMDAwMDAsIC01NTAuMDAwMDAwKSIgc3Ryb2tlPSIjODk2NjNEIj4KICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDkzOS4wMDAwMDAsIDM1Ny4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjk2OTE2OSwgMC4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAtMzgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE0OC41ODM3MDgsIDE5Mi4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTkuMjU2MjEwOTUsMi44NDY5MjQyMSBMMi44NDc4MjkxMiwyLjg0NjkyNDIxIEwyLjg0NzgyOTEyLDkuMjU1MzA2MDUgTDkuMjU2MjEwOTUsOS4yNTUzMDYwNSBMOS4yNTYyMTA5NSwyLjg0NjkyNDIxIFoiIGlkPSJSZWN0YW5nbGUiIHN0cm9rZS13aWR0aD0iMC44IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2LjA1MjAyMCwgNi4wNTExMTUpIHJvdGF0ZSgtMzE1LjAwMDAwMCkgdHJhbnNsYXRlKC02LjA1MjAyMCwgLTYuMDUxMTE1KSAiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTU5LjQyNTY1ODYsMi44NDY5MjQyMSBMNTMuMDE3Mjc2OCwyLjg0NjkyNDIxIEw1My4wMTcyNzY4LDkuMjU1MzA2MDUgTDU5LjQyNTY1ODYsOS4yNTUzMDYwNSBMNTkuNDI1NjU4NiwyLjg0NjkyNDIxIFoiIGlkPSJSZWN0YW5nbGUtQ29weS05IiBzdHJva2Utd2lkdGg9IjAuOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTYuMjIxNDY4LCA2LjA1MTExNSkgcm90YXRlKC0zMTUuMDAwMDAwKSB0cmFuc2xhdGUoLTU2LjIyMTQ2OCwgLTYuMDUxMTE1KSAiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPGxpbmUgeDE9IjEwLjkxMjY4OTIiIHkxPSI1LjkxNDg4NjU4IiB4Mj0iNTEuMjkyOTc2MyIgeTI9IjUuOTE0ODg2NTgiIGlkPSJMaW5lLTUiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPjwvbGluZT4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg=="
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <h2>
+                                                Win Three <br />
+                                                Cards
+                                            </h2>
+                                            <h3>A game to challenge your intelligence.</h3>
+                                        </div>
+                                    </a>
+                                    <div class="dia-btn">
+                                        <a href="Game_LiveGame_WinThreeCards.html" class="expand-deco">
+                                            <div class="hover-for-more">
+                                                <h4 class="more-deco-h4">learn more</h4>
+                                                <div class="more-deco-wrap">
+                                                    <div class="more-deco"></div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <!-- <div class="dia-pagedot-counter"></div> -->
+                    </div>
+                </div>
+            </section>
+            <!-- Hot pick end-->
+
+            <!-- whats'new start-->
+            <section id="intdexWhatsNews">
+                <div class="intdexWhatsNews-bkg">
+                    <img
+                        src="images/index/index_whatsNews_bkg_x1.png"
+                        style="width: 100%; background-position: 50% 10%; background-size: cover; height: 100%; object-fit: cover;"
+                        srcset="images/index/index_whatsNews_bkg_x1.png 500w, images/index/index_whatsNews_bkg_x2.png 1000w"
+                        alt=""
+                    />
+                </div>
+                <div class="section-container">
+                    <h4 class="deco-cat">WHAT'S NEWS</h4>
+                    <p class="deco-content text-center">Be the first to catch up on our updated information.</p>
+                    <!-- carousel with page indicator -->
+                    <div class="news-slider owl-carousel owl-theme" id="introCarousel">
+                        <div class="news-item container">
+                            <div class="news-flexbox row">
+                                <div class="col-12 col-md-6">
+                                    <div class="news-item-img">
+                                        <a href="WhatsNew_details_event.html">
+                                            <picture class="news-column">
+                                                <img src="images/index/introCarousel/index_whatsNews_newItem1_x1.jpg" 
+                                                srcset="images/index/introCarousel/index_whatsNews_newItem1_x1.jpg 500w, 
+                                                images/index/introCarousel/index_whatsNews_newItem1_x2.jpg 1000w" alt="" />
+                                            </picture>
+                                            <div class="news-outer"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="news-item-text">
+                                        <h6 class="text-gold">07 JAN 2021</h6>
+                                        <h3 class="news-item-header">The Phil-Asia Gaming Expo (PAGE)</h3>
+                                        <a href="WhatsNew_details_event.html">
+                                            <h6 class="text-gold-btn">read more</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-item container">
+                            <div class="news-flexbox row">
+                                <div class="col-12 col-md-6">
+                                    <div class="news-item-img">
+                                        <a href="WhatsNew_details_game_release.html"></a>
+                                            <picture>
+                                                <img
+                                                    src="images/index/index_whatsNews_newItem2_x1.png"
+                                                    srcset="images/index/index_whatsNews_newItem2_x1.png 500w, 
+                                                    images/index/index_whatsNews_newItem2_x2.png 1000w"
+                                                    alt=""
+                                                />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="news-item-text">
+                                        <h6 class="text-gold">07-09 JAN 2021</h6>
+                                        <h3 class="news-item-header">World Trade Center (#3110) & SMX Convention Center (#1100)Manila, Philippines</h3>
+                                        <a href="WhatsNew_details_game_release.html">
+                                            <h6 class="text-gold-btn">read more</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-item container">
+                            <div class="news-flexbox row">
+                                <div class="col-12 col-md-6">
+                                    <div class="news-item-img">
+                                        <a href="WhatsNew_details_event.html">
+                                            <picture>
+                                                <img src="images/index/index_whatsNews_newItem1_x1.png" 
+                                                srcset="images/index/index_whatsNews_newItem1_x1.png 500w, 
+                                                images/index/index_whatsNews_newItem1_x2.png 1000w" alt="" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="news-item-text">
+                                        <h6 class="text-gold">01 JAN 2021</h6>
+                                        <h3 class="news-item-header">2021 Welcoming Lottery</h3>
+                                        <a href="WhatsNew_details_event.html">
+                                            <h6 class="text-gold-btn">read more</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-item container">
+                            <div class="news-flexbox row">
+                                <div class="col-12 col-md-6">
+                                    <div class="news-item-img">
+                                        <a href="WhatsNew_details_event.html">
+                                            <picture>
+                                                <img src="images/index/index_whatsNews_newItem1_x1.png" 
+                                                srcset="images/index/index_whatsNews_newItem1_x1.png 500w, 
+                                                images/index/index_whatsNews_newItem1_x2.png 1000w" alt="" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="news-item-text">
+                                        <h6 class="text-gold">25 DEC 2020</h6>
+                                        <h3 class="news-item-header">XMAS X Dealers</h3>
+                                        <a href="WhatsNew_details_event.html">
+                                            <h6 class="text-gold-btn">read more</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-item container">
+                            <div class="news-flexbox row">
+                                <div class="col-12 col-md-6">
+                                    <div class="news-item-img">
+                                        <a href="WhatsNew_details_event.html">
+                                            <picture>
+                                                <img src="images/index/index_whatsNews_newItem1_x1.png" 
+                                                srcset="images/index/index_whatsNews_newItem1_x1.png 500w, 
+                                                images/index/index_whatsNews_newItem1_x2.png 1000w" alt="" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="news-item-text">
+                                        <h6 class="text-gold">07 JAN 2021</h6>
+                                        <h3 class="news-item-header">The Phil-Asia Gaming Expo (PAGE)</h3>
+                                        <a href="WhatsNew_details_event.html">
+                                            <h6 class="text-gold-btn">read more</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-item container">
+                            <div class="news-flexbox row">
+                                <div class="col-12 col-md-6">
+                                    <div class="news-item-img">
+                                        <a href="WhatsNew_details_event.html">
+                                            <picture>
+                                                <img src="images/index/index_whatsNews_newItem1_x1.png" 
+                                                srcset="images/index/index_whatsNews_newItem1_x1.png 500w, 
+                                                images/index/index_whatsNews_newItem1_x2.png 1000w" alt="" />
+                                            </picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="news-item-text">
+                                        <h6 class="text-gold">07 JAN 2021</h6>
+                                        <h3 class="news-item-header">The Phil-Asia Gaming Expo (PAGE)</h3>
+                                        <a href="WhatsNew_details_event.html">
+                                            <h6 class="text-gold-btn">read more</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="pagedot-counter"></div> -->
+                    <!-- carousel with page indicator end-->
+                </div>
+            </section>
+            <!-- whats'new end-->
+
+            <!-- Cookie popup start-->
+            <div class="cookie-container">
+                <div class="cookie-deco">
+                    <img src="./images/icon/thankyou-deco.svg">
+                </div>
+                <p>WE use cookies to ensure you get the best experience on our website. WE will assume you have agreed to our <a href="PrivacyTerms.html">Privacy Policy</a> by continuing to use our website henceforth.
+                </p>
+                <div class="accept-btn">
+                    <button class="secondaryBtn cookie-btn">Accept</button>
+                </div>
+            </div>
+            <!-- Cookie popup end-->
+
+            <!-- Footer start -->
+            <footer>
+                <div class="main-footer">
+                    <div class="footer-subscribe">
+                        <div class="d-lg-flex justify-content-md-between flex-lg-row-reverse">
+                            <div class="d-md-flex flex-column">
+                                <h6>Subscribe</h6>
+                                <br />
+                                <p>
+                                    Be the first to know about the latest news and <br class="footer-break" />
+                                    exclusive offers from WE.
+                                </p>
+                                <div class="d-sm-flex">
+                                    <form class="subscribe-form">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Please enter your email here" />
+                                        </div>
+                                    </form>
+                                    <button type="button" class="btn" id="signUp">SIGN UP</button>
+                                </div>
+                            </div>
+                            <div class="footer-licens">
+                                <div class="footer-logo">
+                                    <img alt="" src="images/icon/logo.svg" />
+                                </div>
+                                <div class="d-sm-flex flex-sm-row licens-list">
+                                    <div class="d-sm-flex flex-sm-row tag-left">
+                                        <h6>Licences & Certifications</h6>
+                                        <div class="d-flex flex-row">
+                                            <div class="licens-icon">
+                                                <img id="iso-2" src="./images/icon/GLC.svg" alt="" />
+                                            </div>
+                                            <div class="licens-icon" id="licensIcon2">
+                                                <img id="iso-3" src="./images/icon/pagcor_1.svg"  alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="underline">
+                        <div class="footer-logo">
+                            <img alt="" src="images/icon/logo.svg" />
+                        </div>
+                        <div class="d-sm-flex justify-content-md-between">
+                            <div class="d-sm-flex flex-sm-row footer-TC">
+                                <h6>©2020 WORLD ENTERTAINMENT.</h6>
+                                <div class="d-sm-flex flex-sm-row TC">
+                                    <a href="PrivacyTerms.html"><h6>Privacy Policy</h6></a>
+                                </div>
+                            </div>
+                            <div class="footer-social">
+                                <div class="d-flex justify-content-sm-end justify-content-center">
+                                    <a href="https://www.facebook.com/World-Entertainment-103485598040783" class="footer-icon">
+                                        <img alt="" src="images/icon/fb_f.svg" />
+                                    </a>
+                                    <a href="mailto:hello@wordent.com" class="footer-icon">
+                                        <img alt="" src="images/icon/mail_f.svg" />
+                                    </a>
+                                    <a href="https://www.instagram.com/worldent.official/?hl=zh-hk" class="footer-icon">
+                                        <img alt="" src="images/icon/ig_f.svg" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer end -->
+            
+            <!-- Thank you for subscribe popup start-->
+            <div id="thankyou-popup">
+                <div class="thankyou-bkg">
+                    <div id="thankyou-bkg-m">
+                        <img
+                            src="./images/thankyou/thankyou_bkg_m_x1.png"
+                            srcset="./images/thankyou/thankyou_bkg_m_x1.png 500w, ./images/thankyou/thankyou_bkg_m_x2.png 1000w"
+                            alt=""
+                        />
+                    </div>
+                    <div id="thankyou-bkg-d">
+                        <img
+                            src="./images/thankyou/thankyou-bkg_x1.png"
+                            srcset="./images/thankyou/thankyou-bkg_x1.png 500w, ./images/thankyou/thankyou-bkg_x2.png 1000w"
+                            alt=""
+                        />
+                    </div>
+                </div>
+                <div class="wrap">
+                    <h1>Hello There! </h1>
+                    <div class="thankyou-deco">
+                        <img src="./images/icon/thankyou-deco.svg"  alt="" />
+                    </div>
+                    
+                    <p class="hero-intro">You’re on our mailing list now and will be among the first to hear about the latest news and exclusive offers from WE.</p>
+                    <div class="back-btn">
+                        <button class="secondaryBtn thanyou-close-btn" type="button">BACK TO HOME</button>
+                    </div>
+                </div>
+                <div class="close-btn thanyou-close-btn" >
+                    <div class="closeBtn" type="button"></div>
+                </div>
+            </div>
+            <!-- Thank you for subscribe popup end-->
+            
+        </div>
+        <!-- ============= Outdated Browser ============= -->
+        <div id="outdated"></div>
+        <!-- Outdated javascript includes -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
+
+        <!-- Outdated plugin call -->
+        <script>
+            // Plain Javascript
+            //event listener: DOM ready
+            function addLoadEvent(func) {
+                var oldonload = window.onload;
+                if (typeof window.onload != "function") {
+                    window.onload = func;
+                } else {
+                    window.onload = function () {
+                        if (oldonload) {
+                            oldonload();
+                        }
+                        func();
+                    };
+                }
+            }
+            //call plugin function after DOM ready
+            addLoadEvent(function () {
+                outdatedBrowser({
+                    bgColor: "#f25648",
+                    color: "#ffffff",
+                    lowerThan: "transform",
+                    languagePath: "your_path/outdatedbrowser/lang/en.html",
+                });
+            });
+            // Using jQuery (version that supports IE < 9)
+            $(document).ready(function () {
+                outdatedBrowser({
+                    bgColor: "#f25648",
+                    color: "#ffffff",
+                    lowerThan: "transform",
+                    languagePath: "your_path/outdatedbrowser/lang/en.html",
+                });
+            });
+        </script>
+
+        <!-- Sal JS  -->
+        <script src="./js/sal.js"></script>
+        <script>
+            sal();
+        </script>
+        <!-- External JS  -->
+        <script src="OwlCarousel2/owl.carousel.min.js"></script>
+        <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <!-- Main JS  -->
+        <!-- <script src="./js/tilt.jquery.js" type="text/javascript"></script> -->
+        <script src="./js/main.js" type="text/javascript"></script>
+    </body>
+</html>
