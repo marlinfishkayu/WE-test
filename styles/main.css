@@ -7727,7 +7727,10 @@ select.form-control::-ms-expand {
     width: 101%;
   }
   .nav-icon-wrapper {
-    top: 10px;
+    top: 9px;
+  }
+  .menu-wrapper {
+    top: 15px;
   }
   #news-carousel {
     height: 700px;
