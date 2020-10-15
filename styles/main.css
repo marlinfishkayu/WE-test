@@ -7598,6 +7598,9 @@ select.form-control::-ms-expand {
   #liveStudio .studio-slide-bkg-2 img {
     height: auto;
   }
+  #liveStudio .livestudio-sec1 {
+    padding-top: 100px;
+  }
   select::-ms-expand {
     display: none;
   }
