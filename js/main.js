@@ -48,6 +48,18 @@ function hasScrolled() {
 }
 
 
+/*-- hover menu area--*/
+$(document).ready(function(){
+    $('.nav-wrap').mouseover(function(){
+        $('.nav-wrap').addClass("nav-fixed");
+        return false;
+    });
+    $('.nav-wrap').mouseleave(function(){
+        $('.nav-wrap').removeClass("nav-fixed");
+    });
+ });
+
+
 /*-- hover games menu --*/
 $(document).ready(function(){
     $('.main-nav').mouseover(function(){
