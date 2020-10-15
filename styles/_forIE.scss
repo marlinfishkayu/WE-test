@@ -33,6 +33,13 @@
         top: 0;
         transform: translateX(-50%);
     }
+    .hero-header::after{
+        background: rgb(7,10,27);
+        background: -moz-linear-gradient(0deg, rgba(7,10,27,1) 0%, rgba(6,11,26,0.6) 46%, rgba(6,11,26,0) 92%);
+        background: -webkit-linear-gradient(0deg, rgba(7,10,27,1) 0%, rgba(6,11,26,0.6) 46%, rgba(6,11,26,0) 92%);
+        background: linear-gradient(0deg, rgba(7,10,27,1) 0%, rgba(6,11,26,0.6) 46%, rgba(6,11,26,0) 92%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#070a1b",endColorstr="#060b1a",GradientType=1);
+    }
     #wrapper #slider-area .owl-item img {
         height: 400px;
         width: 655px;
@@ -138,7 +145,7 @@
         height: 500px;
         overflow: hidden;
     }
-
+    
 
     // Small devices (landscape phones, 576px and up)
     @media (min-width: 576px) {     
@@ -297,7 +304,9 @@
         #news-carousel .update-wrapper{
             left: 40%;
         }
-
+        #allLiveGame .hero-header{
+            height: 400px;
+        }
     }
     @media (min-width: 1500px) {
 

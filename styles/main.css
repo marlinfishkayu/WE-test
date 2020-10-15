@@ -7502,6 +7502,12 @@ select.form-control::-ms-expand {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
+  .hero-header::after {
+    background: #070a1b;
+    background: -webkit-gradient(linear, left bottom, left top, from(#070a1b), color-stop(46%, rgba(6, 11, 26, 0.6)), color-stop(92%, rgba(6, 11, 26, 0)));
+    background: linear-gradient(0deg, #070a1b 0%, rgba(6, 11, 26, 0.6) 46%, rgba(6, 11, 26, 0) 92%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#070a1b",endColorstr="#060b1a",GradientType=1);
+  }
   #wrapper #slider-area .owl-item img {
     height: 400px;
     width: 655px;
@@ -7770,6 +7776,9 @@ select.form-control::-ms-expand {
   }
   #news-carousel .update-wrapper {
     left: 40%;
+  }
+  #allLiveGame .hero-header {
+    height: 400px;
   }
 }
 /*# sourceMappingURL=main.css.map */
