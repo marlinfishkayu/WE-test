@@ -7647,7 +7647,7 @@ select.form-control::-ms-expand {
     height: 508px;
   }
   #slider-area .owl-dots {
-    bottom: 15%;
+    bottom: 5%;
   }
   #nav-area .closeBtn {
     top: 15px;
