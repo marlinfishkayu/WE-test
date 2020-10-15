@@ -24,6 +24,10 @@
     }
     #wrapper .owl-carousel .owl-item img {
         height: auto;
+        width: 100%;
+        background-position: 50% 10%;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
     #wrapper #nav-area{
         top: 5px;
@@ -45,6 +49,7 @@
     .hero-header-bkg, .live-game-main-bkg{
         width: 100%;
         height: auto;
+        
     }
     .owl-carousel.owl-drag .owl-item{
         height: 400px;
@@ -64,6 +69,9 @@
     #slider-area .owl-carousel .owl-item img {
         width: auto;
         height: 100%;
+        background-position: 50% 10%;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
     #slider-area .news-slide{
         height: 300px;
