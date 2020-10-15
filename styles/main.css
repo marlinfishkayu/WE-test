@@ -7628,7 +7628,7 @@ select.form-control::-ms-expand {
   .feature-photo picture {
     padding-top: 13px;
   }
-  .owl-carousel.owl-drag .owl-item {
+  #slider-area .owl-drag .owl-item {
     height: 500px;
   }
   #slider-area .news-slide {
@@ -7667,7 +7667,7 @@ select.form-control::-ms-expand {
   .feature-photo picture {
     padding-top: 0px;
   }
-  #slider-area .owl-carousel.owl-drag .owl-item {
+  #slider-area .owl-drag .owl-item {
     height: 640px;
   }
   #slider-area .slide {
