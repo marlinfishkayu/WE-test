@@ -7650,6 +7650,15 @@ select.form-control::-ms-expand {
     -webkit-transform: inherit;
             transform: inherit;
   }
+  .hero-header {
+    height: 542px;
+  }
+  #liveGame .hero-icon {
+    padding-top: 8rem;
+  }
+  #liveGame .header-deco {
+    margin-top: 12rem;
+  }
   #nav-ara .closeBtn {
     top: 18px;
   }
