@@ -60,6 +60,10 @@
     #slider-area{
         display: block;
     }
+    #slider-area .slide{
+        height: 320px;
+        overflow: hidden;
+    }
     #slider-area .header-wrapper .slider-text{
         transform: translate(-50%, 100%);
     }
@@ -113,7 +117,7 @@
             top: 10px;
         }
         #slider-area .slide{
-            height: 500px;
+            height: 420px;
         }
         
     }
@@ -149,6 +153,7 @@
         #slider-area .owl-dots{
             bottom: 5%;
         }
+        
     }
     // Large devices (desktops, 992px and up)
     @media (min-width: 992px) {
@@ -164,8 +169,11 @@
         .feature-photo picture{
             padding-top: 0px;
         }
-        .owl-carousel.owl-drag .owl-item{
-            height: 600px;
+        #slider-area .owl-carousel.owl-drag .owl-item{
+            height: 660px;
+        }
+        #slider-area .slide{
+            height: 700px;
         }
         #slider-area .news-slide{
             height: 450px;
