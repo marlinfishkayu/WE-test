@@ -7604,6 +7604,13 @@ select.form-control::-ms-expand {
     width: 309px;
     height: 404px;
   }
+  #studioCarousel .owl-item {
+    height: inherit;
+  }
+  #studioCarousel .room-des {
+    height: 500px;
+    overflow: hidden;
+  }
 }
 
 @media all and (-ms-high-contrast: none) and (min-width: 576px), (-ms-high-contrast: active) and (min-width: 576px) {

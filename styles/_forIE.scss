@@ -25,22 +25,6 @@
     .header-wrapper .slider-text h2{
         font-family: Futura-pt, "Trebuchet MS", Arial, Helvetica, sans-serif;
     }
-    // .hero-header-bkg {
-    //     // position: relative;
-    //     &:after{
-    //         content: '';
-    //         position: absolute;
-    //         bottom: 0;
-    //         left: 0;
-    //         width: 100%;
-    //         height: 100%;
-    //         background: rgb(7,10,27);
-    //         background: -moz-linear-gradient(0deg, rgba(7,10,27,1) 0%, rgba(6,11,26,0.6) 39%, rgba(6,11,26,0) 99%);
-    //         background: -webkit-linear-gradient(0deg, rgba(7,10,27,1) 0%, rgba(6,11,26,0.6) 39%, rgba(6,11,26,0) 99%);
-    //         background: linear-gradient(0deg, rgba(7,10,27,1) 0%, rgba(6,11,26,0.6) 39%, rgba(6,11,26,0) 99%);
-    //         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#070a1b",endColorstr="#060b1a",GradientType=1);
-    //     }
-    // }
     .hero-header-bkg img{
         height: 400px;
         width: 1152px;
@@ -147,6 +131,15 @@
         width: 309px;
         height: 404px;
     }
+    #studioCarousel .owl-item{
+        height: inherit;
+    }
+    #studioCarousel .room-des{
+        height: 500px;
+        overflow: hidden;
+    }
+
+
     // Small devices (landscape phones, 576px and up)
     @media (min-width: 576px) {     
         #nav-ara .closeBtn{
