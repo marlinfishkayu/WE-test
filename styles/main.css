@@ -2926,7 +2926,7 @@ footer {
 #introCarousel .news-outer {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 56%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 295px;
@@ -2934,6 +2934,18 @@ footer {
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url(../images/index/introCarousel/frame.svg);
+}
+
+@media (max-width: 376px) {
+  #introCarousel .news-outer {
+    left: 56%;
+  }
+}
+
+@media (min-width: 377px) {
+  #introCarousel .news-outer {
+    left: 50%;
+  }
 }
 
 @media (min-width: 768px) {

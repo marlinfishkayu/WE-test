@@ -235,7 +235,7 @@
     .news-outer{
         position: absolute;
         top: 50%;
-        left: 50%;
+        left: 56%;
         transform: translate(-50%,-50%);
         width: 295px;
         height: 295px;
@@ -247,8 +247,17 @@
 
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
-
+@media (max-width: 376px) { 
+    #introCarousel .news-outer{
+        left: 56%;
+    }
+    
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 377px) { 
+    #introCarousel .news-outer{
+        left: 50%;
+    }
     
 }
 // Medium devices (tablets, 768px and up)
