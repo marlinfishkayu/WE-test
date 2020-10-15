@@ -7506,6 +7506,7 @@ select.form-control::-ms-expand {
     position: relative;
   }
   .hero-header-bkg .game-hero-D:after {
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;

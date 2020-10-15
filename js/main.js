@@ -177,7 +177,7 @@ $(document).ready(function(){
 
 //Hero carousal
 $('#slider-area').owlCarousel({
-	loop:false,
+	loop: true,
 	autoplay:true,
 	margin:10,
     responsive:{

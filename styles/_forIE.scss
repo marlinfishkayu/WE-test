@@ -33,16 +33,10 @@
         top: 0;
         transform: translateX(-50%);
     }
-    // .hero-header::after{
-    //     background: rgb(7,10,27);
-    //     background: -moz-linear-gradient(0deg, rgba(7,10,27,1) 0%, rgba(6,11,26,0.6) 46%, rgba(6,11,26,0) 92%);
-    //     background: -webkit-linear-gradient(0deg, rgba(7,10,27,1) 0%, rgba(6,11,26,0.6) 46%, rgba(6,11,26,0) 92%);
-    //     background: linear-gradient(0deg, rgba(7,10,27,1) 0%, rgba(6,11,26,0.6) 46%, rgba(6,11,26,0) 92%);
-    //     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#070a1b",endColorstr="#060b1a",GradientType=1);
-    // }
     .hero-header-bkg .game-hero-D{
         position: relative;
         &:after{
+            content:"";
             position: absolute;
             bottom: 0;
             left: 0;
