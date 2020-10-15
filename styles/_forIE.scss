@@ -70,6 +70,9 @@
         height: 320px;
         overflow: hidden;
     }
+    #slider-area .owl-dots{
+        bottom: 25%;
+    }
     #slider-area .header-wrapper .slider-text{
         transform: translate(-50%, 100%);
     }
@@ -133,7 +136,9 @@
             transform: inherit;
             -ms-transform: inherit;
         }
-        
+        #slider-area .owl-dots{
+            bottom: 5%;
+        }
     }
     // Medium devices (tablets, 768px and up)
     @media (min-width: 768px) {
@@ -164,8 +169,11 @@
         #liveStudio .studio-slide-bkg-2{
             height: 2500px;
         }
+        #slider-area .slide{
+            height: 500px;
+        }
         #slider-area .owl-dots{
-            bottom: 5%;
+            bottom: 25%;
         }
         #nav-area .closeBtn{
             top: 15px;

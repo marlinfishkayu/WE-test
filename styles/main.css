@@ -7539,6 +7539,9 @@ select.form-control::-ms-expand {
     height: 320px;
     overflow: hidden;
   }
+  #slider-area .owl-dots {
+    bottom: 25%;
+  }
   #slider-area .header-wrapper .slider-text {
     -webkit-transform: translate(-50%, 100%);
             transform: translate(-50%, 100%);
@@ -7607,6 +7610,9 @@ select.form-control::-ms-expand {
             transform: inherit;
     -ms-transform: inherit;
   }
+  #slider-area .owl-dots {
+    bottom: 5%;
+  }
 }
 
 @media all and (-ms-high-contrast: none) and (min-width: 768px), (-ms-high-contrast: active) and (min-width: 768px) {
@@ -7637,8 +7643,11 @@ select.form-control::-ms-expand {
   #liveStudio .studio-slide-bkg-2 {
     height: 2500px;
   }
+  #slider-area .slide {
+    height: 500px;
+  }
   #slider-area .owl-dots {
-    bottom: 5%;
+    bottom: 25%;
   }
   #nav-area .closeBtn {
     top: 15px;
