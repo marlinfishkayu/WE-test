@@ -23,8 +23,12 @@
         top: 41px;
     }
     #wrapper .owl-carousel .owl-item img {
-        height: auto;
-        width: 100%;
+        height: 400px;
+        width: 655px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
         background-position: 50% 10%;
         -o-object-fit: cover;
         object-fit: cover;
@@ -120,6 +124,14 @@
         }
         #slider-area .slide{
             height: 420px;
+        }
+        #wrapper .owl-carousel .owl-item img {
+            height: auto;
+            width: 100%;
+            position: inherit;
+            left: inherit;
+            transform: inherit;
+            -ms-transform: inherit;
         }
         
     }
