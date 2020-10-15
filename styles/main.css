@@ -7719,7 +7719,7 @@ select.form-control::-ms-expand {
   #news-carousel {
     height: 700px;
   }
-  #news-carousel .news-slider-bkg-D {
+  #news-carousel .news-slider-bkg-D img {
     width: 612px;
     height: 1440px;
   }
