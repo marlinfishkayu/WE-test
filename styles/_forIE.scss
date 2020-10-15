@@ -172,14 +172,6 @@
     }
     // Medium devices (tablets, 768px and up)
     @media (min-width: 768px) {
-        // .hero-header-bkg img{
-        //     height: auto;
-        //     width: inherit;
-        //     position: inherit;
-        //     left: inherit;
-        //     top:inherit;
-        //     transform: inherit;
-        // }
         .hero-header-bkg img{
             height: 500px;
             width: 1440px;
@@ -227,6 +219,21 @@
         }
         #nav-area .closeBtn{
             top: 15px;
+        }
+        .hero-header{
+            height: 542px;
+        }
+        #liveGame .hero-icon{
+            padding-top: 8rem;
+        }
+        #liveGame .header-deco{
+            margin-top: 10rem;
+        }
+        #GodofFortuneSicBo .hero-header, 
+        #GodofFortuneRoulette .hero-header, 
+        #SqueezeBaccarat .hero-header, 
+        #MahjongLuckyWheel .hero-header {
+            height: 500px;
         }
     }
     // Large devices (desktops, 992px and up)
@@ -324,15 +331,6 @@
         }
         #news-carousel .update-wrapper{
             left: 40%;
-        }
-        .hero-header{
-            height: 542px;
-        }
-        #liveGame .hero-icon{
-            padding-top: 8rem;
-        }
-        #liveGame .header-deco{
-            margin-top: 12rem;
         }
         
     }
