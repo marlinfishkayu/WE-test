@@ -7493,21 +7493,6 @@ select.form-control::-ms-expand {
   .header-wrapper .slider-text h2 {
     font-family: Futura-pt, "Trebuchet MS", Arial, Helvetica, sans-serif;
   }
-  .hero-header-bkg {
-    position: relative;
-  }
-  .hero-header-bkg:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #070a1b;
-    background: -webkit-gradient(linear, left bottom, left top, from(#070a1b), color-stop(39%, rgba(6, 11, 26, 0.6)), color-stop(99%, rgba(6, 11, 26, 0)));
-    background: linear-gradient(0deg, #070a1b 0%, rgba(6, 11, 26, 0.6) 39%, rgba(6, 11, 26, 0) 99%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#070a1b",endColorstr="#060b1a",GradientType=1);
-  }
   .hero-header-bkg img {
     height: auto;
   }
