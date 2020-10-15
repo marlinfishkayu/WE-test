@@ -7490,7 +7490,7 @@ select.form-control::-ms-expand {
   .nav-wrap li.dropdown .game-menu {
     top: 41px;
   }
-  #wrapper #slider-area .owl-carousel .owl-item img {
+  #wrapper #slider-area .owl-item img {
     height: 400px;
     width: 655px;
     position: absolute;
@@ -7601,7 +7601,7 @@ select.form-control::-ms-expand {
   #slider-area .slide {
     height: 420px;
   }
-  #wrapper .owl-carousel .owl-item img {
+  #wrapper #slider-area .owl-item img {
     height: auto;
     width: 100%;
     position: inherit;
