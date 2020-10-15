@@ -7494,7 +7494,13 @@ select.form-control::-ms-expand {
     font-family: Futura-pt, "Trebuchet MS", Arial, Helvetica, sans-serif;
   }
   .hero-header-bkg img {
-    height: auto;
+    height: 400px;
+    width: 1152px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
   #wrapper #slider-area .owl-item img {
     height: 400px;
@@ -7622,6 +7628,15 @@ select.form-control::-ms-expand {
 }
 
 @media all and (-ms-high-contrast: none) and (min-width: 768px), (-ms-high-contrast: active) and (min-width: 768px) {
+  .hero-header-bkg img {
+    height: auto;
+    width: inherit;
+    position: inherit;
+    left: inherit;
+    top: inherit;
+    -webkit-transform: inherit;
+            transform: inherit;
+  }
   #nav-ara .closeBtn {
     top: 18px;
   }

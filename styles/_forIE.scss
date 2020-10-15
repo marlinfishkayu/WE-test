@@ -42,7 +42,12 @@
     //     }
     // }
     .hero-header-bkg img{
-        height: auto;
+        height: 400px;
+        width: 1152px;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
     }
     #wrapper #slider-area .owl-item img {
         height: 400px;
@@ -164,6 +169,14 @@
     }
     // Medium devices (tablets, 768px and up)
     @media (min-width: 768px) {
+        .hero-header-bkg img{
+            height: auto;
+            width: inherit;
+            position: inherit;
+            left: inherit;
+            top:inherit;
+            transform: inherit;
+        }
         #nav-ara .closeBtn{
             top: 18px;
         }
