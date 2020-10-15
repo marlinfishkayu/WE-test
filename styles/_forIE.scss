@@ -214,14 +214,14 @@
         .subnav-arrow{
             left: 37.5%;
         }
-        .owl-carousel.owl-drag .owl-item{
-            height: 880px;
+        #slider-area .owl-carousel.owl-drag .owl-item{
+            height: 770px;
         }
         #slider-area .slide{
             height: 800px;
         }
         #slider-area .owl-dots{
-            bottom: 0%;
+            bottom: 5%;
         }
         #introCarousel .owl-dots{
             bottom: 0%;
@@ -235,6 +235,7 @@
         #news-carousel .update-wrapper{
             left: 40%;
         }
+
     }
     @media (min-width: 1500px) {
 
