@@ -47,9 +47,11 @@
     }
     .intdexHotPick-bkg, .intdexWhatsNews-bkg, 
     .hero-header-bkg, .live-game-main-bkg{
-        width: 100%;
         height: auto;
-        
+        width: 100%;
+        background-position: 50% 10%;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
     .owl-carousel.owl-drag .owl-item{
         height: 400px;
@@ -153,7 +155,9 @@
         #slider-area .owl-dots{
             bottom: 5%;
         }
-        
+        #nav-area .closeBtn{
+            top: 15px;
+        }
     }
     // Large devices (desktops, 992px and up)
     @media (min-width: 992px) {
