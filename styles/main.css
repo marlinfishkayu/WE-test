@@ -7490,6 +7490,9 @@ select.form-control::-ms-expand {
   .nav-wrap li.dropdown .game-menu {
     top: 41px;
   }
+  .header-wrapper .slider-text h2 {
+    font-family: Futura-pt, "Trebuchet MS", Arial, Helvetica, sans-serif;
+  }
   #wrapper #slider-area .owl-item img {
     height: 400px;
     width: 655px;
