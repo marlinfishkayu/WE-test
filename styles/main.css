@@ -7536,11 +7536,11 @@ select.form-control::-ms-expand {
     display: block;
   }
   #slider-area .slide {
-    height: 320px;
+    height: 400px;
     overflow: hidden;
   }
   #slider-area .owl-dots {
-    bottom: 25%;
+    bottom: 5%;
   }
   #slider-area .header-wrapper .slider-text {
     -webkit-transform: translate(-50%, 100%);
@@ -7644,10 +7644,10 @@ select.form-control::-ms-expand {
     height: 2500px;
   }
   #slider-area .slide {
-    height: 500px;
+    height: 508px;
   }
   #slider-area .owl-dots {
-    bottom: 25%;
+    bottom: 15%;
   }
   #nav-area .closeBtn {
     top: 15px;
