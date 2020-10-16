@@ -134,6 +134,15 @@
     #newsFeed .timeline-wrap .timeline::before{
         width: 2px;
     }
+    #NewsDetail .Event-Detail-main{
+        margin-top: 25rem;
+    }
+    #NewsDetail .owl-nav{
+        bottom: -10%;
+    }
+    #EventSlider{
+        margin-top: 5rem;
+    }
     #liveStudio .studio-slide-bkg-2 img{
         height: auto; 
     }
@@ -262,6 +271,9 @@
         #NewsDetail .hero-header-bkg .event-slider-bkkg-D img{
             width: inherit;
             height: inherit;
+        }
+        #NewsDetail .Event-Detail-main{
+            margin-top: -5rem;
         }
     }
     // Large devices (desktops, 992px and up)
