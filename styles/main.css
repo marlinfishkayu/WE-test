@@ -4021,6 +4021,7 @@ select.form-control::-ms-expand {
 
 #news-carousel #slider-area .owl-dots {
   bottom: 2%;
+  white-space: nowrap;
 }
 
 #news-carousel .owl-dots span {
@@ -4232,7 +4233,7 @@ select.form-control::-ms-expand {
 
 #newsFeed .news-filter-wrap {
   margin: auto;
-  padding: 3rem 2rem;
+  padding: 1rem 0;
 }
 
 #newsFeed .news-filter-wrap .news-filter {
@@ -4543,6 +4544,13 @@ select.form-control::-ms-expand {
 
 #day31::after {
   content: '31';
+}
+
+@media (min-width: 576px) {
+  #newsFeed .news-filter-wrap {
+    margin: auto;
+    padding: 3rem 2rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -6759,6 +6767,7 @@ select.form-control::-ms-expand {
   bottom: -30%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  white-space: nowrap;
 }
 
 #NewsDetail #evnet-page {

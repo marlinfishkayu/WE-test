@@ -13,6 +13,7 @@
     }
     #slider-area .owl-dots {
         bottom: 2%;
+        white-space: nowrap;
     }
     .owl-dots span{
         display: inline-block;     
@@ -196,7 +197,7 @@
     }
     .news-filter-wrap {
         margin: auto;
-        padding: 3rem 2rem;
+        padding: 1rem 0;
         .news-filter {
             text-transform: uppercase;
             font-family: $fontFuturaMedium;
@@ -451,7 +452,10 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-    
+    #newsFeed .news-filter-wrap {
+        margin: auto;
+        padding: 3rem 2rem;
+    }
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
