@@ -374,7 +374,7 @@
 //Gradient adjust
 #WinThreeCards .hero-header::after{
     background: rgb(6,11,26);
-    background: linear-gradient(180deg, rgba(6,11,26,0.3) 90%, rgba(7,10,27,1) 100%);
+    background: linear-gradient(180deg, rgba(6,11,26,0.5) 30%, rgba(7,10,27,1) 100%);
 }
 
 //Baccarat Type section
@@ -554,7 +554,7 @@
     #GodofFortuneRoulette .hero-header,
     #SqueezeBaccarat .hero-header ,
     #MahjongLuckyWheel .hero-header {
-        height: 600px;
+        height: 650px;
     }
     #liveGame #SqueezeBaccarat .hero-header .game-icon {
         width: 169px;
@@ -565,6 +565,11 @@
     }
     .live-game-bottom .game-bottom h4{
         font-size: 26px;
+    }
+    //Gradient adjust
+    #WinThreeCards .hero-header::after{
+        background: rgb(6,11,26);
+        background: linear-gradient(180deg, rgba(6,11,26,0.3) 90%, rgba(7,10,27,1) 100%);
     }
 }
 

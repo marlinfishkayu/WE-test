@@ -13,10 +13,20 @@
 #liveStudio .showless_btn .active{
     height: auto;
 }
+#liveStudio .hero-header {
+    height: 600px;
+}
+#liveStudio .hero-header-bkg {
+    height: 600px;
+}
 #liveStudio .studio-slide-bkg{
     height: 300px;
     position: absolute;
     top: 0;
+}
+#liveStudio .hero-float{
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 #liveStudio .studio-slide-bkg-2{
     height: 3600px;
@@ -191,12 +201,12 @@
     padding-bottom: 3rem;
     .bottom-deco{
         line-height: 160%;
-        width: 280px;
+        width: 237px;
         letter-spacing: 1px;
         text-transform: uppercase;
     }
     .large-text{
-        padding: 1rem 4rem;
+        padding: 0 2rem;
         text-align: center;
         h1{
             padding-top: 3rem;
@@ -228,7 +238,6 @@
         position: relative;
         text-align: center;
         margin: auto;
-        width: 500px;
         .cert-bottom{
             line-height: 90%;
         }
@@ -453,6 +462,12 @@
         .room-des{
             font-size: 18px;
         }
+    }
+    #liveStudio .livestudio-hightlight-wrap .bottom-deco{
+        width: 280px;
+    }
+    #liveStudio .livestudio-hightlight-wrap .cert-wrap {
+        width: 500px;
     }
 }   
 

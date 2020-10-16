@@ -8,7 +8,7 @@
         padding: 5rem 3rem;
     }
     .bottom-deco{
-        margin-top: 8rem;
+        margin-top: 18rem;
     }
     .allLiveGame-bkg{
         position: absolute;
@@ -239,15 +239,9 @@
             transform: scale(1);
         }
         .game-column{
-            // overflow: hidden;
-            // padding-top: 38px;
-            // padding-left: 10px;
-            // padding-bottom: 38px;
-            // height: 458px;
             position: relative;
             .col-12{
                 margin-bottom: 8rem;
-                
             }
         }
         .game-item{
@@ -327,6 +321,9 @@
 }
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
+    #allLiveGame  .bottom-deco{
+        margin-top: 5rem;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
