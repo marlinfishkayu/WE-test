@@ -148,7 +148,9 @@
         height: 500px;
         overflow: hidden;
     }
-    
+    #ContactUs select:invalid {
+        color: inherit;
+    }
 
     // Small devices (landscape phones, 576px and up)
     @media (min-width: 576px) {     
