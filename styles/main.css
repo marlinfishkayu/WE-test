@@ -7663,6 +7663,9 @@ select.form-control::-ms-expand {
   #EventSlider {
     margin-top: 5rem;
   }
+  #EventSlider .owl-item {
+    height: 350px;
+  }
   #liveStudio .studio-slide-bkg-2 img {
     height: auto;
   }
@@ -7796,6 +7799,9 @@ select.form-control::-ms-expand {
   }
   #NewsDetail .Event-Detail-main {
     margin-top: -5rem;
+  }
+  #EventSlider .owl-item {
+    height: inherit;
   }
 }
 

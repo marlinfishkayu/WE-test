@@ -147,6 +147,9 @@
     #EventSlider{
         margin-top: 5rem;
     }
+    #EventSlider .owl-item{
+        height: 350px;
+    }
     #liveStudio .studio-slide-bkg-2 img{
         height: auto; 
     }
@@ -279,7 +282,9 @@
         #NewsDetail .Event-Detail-main{
             margin-top: -5rem;
         }
-        
+        #EventSlider .owl-item{
+            height: inherit;
+        }
     }
     // Large devices (desktops, 992px and up)
     @media (min-width: 992px) {
