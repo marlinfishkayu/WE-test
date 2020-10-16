@@ -4176,6 +4176,7 @@ select.form-control::-ms-expand {
   display: flex;
   margin: auto;
   text-transform: uppercase;
+  padding-top: 15px;
 }
 
 #newsFeed .frame-detail .frame-date {
@@ -7757,7 +7758,7 @@ select.form-control::-ms-expand {
   #news-carousel {
     height: 700px;
   }
-  #news-carousel .news-slider-bkg-D img {
+  #wrapper #news-carousel #slider-area .owl-item .news-slider-bkg-D img {
     width: 612px;
     height: 1440px;
   }
