@@ -7661,7 +7661,7 @@ select.form-control::-ms-expand {
     overflow: hidden;
   }
   #ContactUs select:invalid {
-    color: inherit;
+    color: #fff;
   }
 }
 
