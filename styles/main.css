@@ -7518,13 +7518,16 @@ select.form-control::-ms-expand {
     padding: 0.5rem 1em;
   }
   .nav-icon-wrapper {
-    top: 3px;
+    top: 6px;
   }
   .nav-wrap {
     height: 70px;
     left: inherit;
     -webkit-transform: inherit;
             transform: inherit;
+  }
+  .menu-wrapper {
+    top: 12px;
   }
   .nav-item button {
     padding: 0.5rem 2.2em;
@@ -7571,7 +7574,7 @@ select.form-control::-ms-expand {
     object-fit: cover;
   }
   #wrapper #nav-area {
-    top: 5px;
+    top: 8px;
   }
   #searchForm input::-ms-clear {
     width: 0;
@@ -7716,6 +7719,13 @@ select.form-control::-ms-expand {
   #wrapper #nav-area {
     top: 10px;
   }
+  .nav-icon-wrapper {
+    top: 0px;
+    right: 6%;
+  }
+  .menu-wrapper {
+    top: 4px;
+  }
   .deco-cat {
     width: 230px;
   }
@@ -7771,6 +7781,13 @@ select.form-control::-ms-expand {
   #wrapper #nav-area {
     top: 0px;
   }
+  .menu-wrapper {
+    top: 15px;
+  }
+  .nav-icon-wrapper {
+    top: 12px;
+    right: 0%;
+  }
   .subnav-arrow {
     left: 39.5%;
   }
@@ -7800,12 +7817,6 @@ select.form-control::-ms-expand {
   }
   #newsFeed .loadmore-deco-wrap .more-round-btn {
     width: 101%;
-  }
-  .nav-icon-wrapper {
-    top: 9px;
-  }
-  .menu-wrapper {
-    top: 15px;
   }
   #news-carousel {
     height: 700px;
