@@ -177,6 +177,13 @@ img {
      object-fit: cover;
 }
 
+.hero-header .hero-intro1,
+.hero-header .hero-intro2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 0 auto;
+}
+
 .hero-intro1 {
   font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   font-size: 16px;
@@ -3777,7 +3784,7 @@ footer {
 }
 
 #ContactUs .bottom-deco {
-  width: 290px;
+  width: 220px;
 }
 
 #msgSubmit {
@@ -3992,7 +3999,7 @@ select.form-control::-ms-expand {
 
 @media (min-width: 992px) {
   #ContactUs .contact-main {
-    padding-top: 50px;
+    padding-top: 130px;
   }
   .bottom-deco {
     width: 320px;
@@ -4994,10 +5001,6 @@ select.form-control::-ms-expand {
   background: linear-gradient(180deg, rgba(6, 11, 26, 0.6) 0%, #070a1b 100%);
 }
 
-#services .hero-intro2 {
-  padding: 0 3rem;
-}
-
 .services-row {
   width: 100%;
   margin: 0 auto;
@@ -5110,11 +5113,6 @@ select.form-control::-ms-expand {
   height: 300px;
   position: absolute;
   top: 0;
-}
-
-#liveStudio .hero-float {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 #liveStudio .studio-slide-bkg-2 {
@@ -6701,8 +6699,6 @@ select.form-control::-ms-expand {
 
 #NewsDetail .hero-float {
   text-align: left;
-  padding-left: 2rem;
-  padding-right: 2rem;
   padding-top: 0rem;
   max-width: 770px;
   position: relative;
@@ -6888,7 +6884,7 @@ select.form-control::-ms-expand {
     height: 600px;
   }
   #NewsDetail .hero-float {
-    padding-top: 18rem;
+    padding-top: 10rem;
   }
   #NewsDetail .Event-Detail-main {
     margin-top: 1rem;
@@ -6947,8 +6943,6 @@ select.form-control::-ms-expand {
   }
   #NewsDetail .hero-float {
     padding-top: 0rem;
-    padding-left: 0;
-    padding-right: 0;
   }
   #NewsDetail .hero-title {
     font-size: 60px;

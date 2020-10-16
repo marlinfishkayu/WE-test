@@ -2,8 +2,6 @@
     position: relative;
     .hero-float{
         text-align: left;
-        padding-left: 2rem;
-        padding-right: 2rem;
         padding-top: 0rem;
         max-width: 770px;
         position: relative;
@@ -165,7 +163,7 @@
         height: 600px;
     }
     #NewsDetail .hero-float {
-        padding-top: 18rem;
+        padding-top: 10rem;
     }
     #NewsDetail .Event-Detail-main {
         margin-top: 1rem;
@@ -224,10 +222,8 @@
         .hero-header-bkg {
             height: 600px;
         }
-        .hero-float{
+        .hero-float {
             padding-top: 0rem;
-            padding-left: 0;
-            padding-right: 0;
         }
         .hero-title {
             font-size: 60px;
