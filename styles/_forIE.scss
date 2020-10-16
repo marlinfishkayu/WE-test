@@ -33,6 +33,10 @@
         top: 0;
         transform: translateX(-50%);
     }
+    #liveGame .hero-header-bkg img{
+        height: auto;
+        width: inherit;
+    }
     .hero-header::after{
         background: rgb(7,10,27);
         background: -moz-linear-gradient(0deg, rgba(7,10,27,1) 0%, rgba(6,11,26,0.6) 46%, rgba(6,11,26,0) 92%);

@@ -6084,6 +6084,7 @@ select.form-control::-ms-expand {
 
 #AboutWE .hero-header .hero-header-bkg {
   height: 600px;
+  width: 100%;
 }
 
 #AboutWE .hero-header::after {
@@ -7541,6 +7542,10 @@ select.form-control::-ms-expand {
     top: 0;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
+  }
+  #liveGame .hero-header-bkg img {
+    height: auto;
+    width: inherit;
   }
   .hero-header::after {
     background: #070a1b;
