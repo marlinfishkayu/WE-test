@@ -7742,6 +7742,10 @@ select.form-control::-ms-expand {
   #MahjongLuckyWheel .hero-header {
     height: 500px;
   }
+  #NewsDetail .hero-header-bkg .event-slider-bkkg-D img {
+    width: inherit;
+    height: inherit;
+  }
 }
 
 @media all and (-ms-high-contrast: none) and (min-width: 992px), (-ms-high-contrast: active) and (min-width: 992px) {

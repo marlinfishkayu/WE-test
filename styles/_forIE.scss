@@ -235,6 +235,10 @@
         #MahjongLuckyWheel .hero-header {
             height: 500px;
         }
+        #NewsDetail .hero-header-bkg .event-slider-bkkg-D img{
+            width: inherit;
+            height: inherit;
+        }
     }
     // Large devices (desktops, 992px and up)
     @media (min-width: 992px) {
