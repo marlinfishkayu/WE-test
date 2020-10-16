@@ -627,7 +627,7 @@
         height: 100px;
     }
     #slider-area .owl-dots {
-        bottom: -7%;
+        bottom: 0%;
     }
     #introCarousel .owl-dots{
         bottom: 15%;
@@ -698,6 +698,9 @@
     .index-carousel .owl-dots span{
        padding: 2em;     
        margin: 2em; 
+    }
+    #slider-area .owl-dots {
+        bottom: -7%;
     }
 }
 
