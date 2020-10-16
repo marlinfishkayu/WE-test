@@ -6085,6 +6085,7 @@ select.form-control::-ms-expand {
 #AboutWE .hero-header .hero-header-bkg {
   height: 600px;
   width: 100%;
+  overflow: hidden;
 }
 
 #AboutWE .hero-header::after {
