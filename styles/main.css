@@ -6895,6 +6895,15 @@ select.form-control::-ms-expand {
   display: none;
 }
 
+#NewsDetail #EventSlider .event-item img {
+  width: 100%;
+  background-position: 50% 10%;
+  background-size: cover;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media (min-width: 768px) {
   #NewsDetail .hero-header-bkg {
     height: 600px;
@@ -7705,6 +7714,9 @@ select.form-control::-ms-expand {
   #liveGame .feature-photo picture::after {
     height: 180px;
     top: -129px;
+  }
+  #NewsDetail #EventSlider .event-item img {
+    height: auto;
   }
 }
 

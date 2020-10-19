@@ -182,7 +182,9 @@
         height: 180px;
         top: -129px;
     }
-
+    #NewsDetail #EventSlider .event-item img{
+        height: auto; 
+    }
     // Small devices (landscape phones, 576px and up)
     @media (min-width: 576px) {     
         #nav-ara .closeBtn{
