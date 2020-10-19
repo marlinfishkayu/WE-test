@@ -291,7 +291,12 @@
             overflow: hidden;
             top: 22%;
         }
-        
+        #NewsDetail #EventSlider .owl-nav{
+            bottom: -15%;
+        }
+        #NewsDetail .event-page{
+            padding-top: 50px;
+        }
     }
     // Large devices (desktops, 992px and up)
     @media (min-width: 992px) {
