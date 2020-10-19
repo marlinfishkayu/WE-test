@@ -285,6 +285,12 @@
         #EventSlider .owl-item{
             height: inherit;
         }
+        #NewsDetail .hero-header-bkg .event-hightlight{
+            width: 834px;
+            height: 502px;
+            overflow: hidden;
+            top: 22%;
+        }
     }
     // Large devices (desktops, 992px and up)
     @media (min-width: 992px) {
@@ -360,10 +366,8 @@
         #NewsDetail .hero-header-bkg .event-hightlight{
             width: 952px;
             height: 515px;
-            overflow: hidden;
             top: 21.5%;
         }
-
         #NewsDetail .hero-header-bkg .frame-hightlight img{
             height: 546px;
             width: 1002px;
