@@ -7880,6 +7880,10 @@ select.form-control::-ms-expand {
     height: auto;
     width: 100%;
   }
+  #NewsDetail .hero-header-bkg .frame-hightlight img {
+    height: 546px;
+    width: 1002px;
+  }
 }
 
 @media all and (-ms-high-contrast: none) and (min-width: 1200px), (-ms-high-contrast: active) and (min-width: 1200px) {
