@@ -7663,7 +7663,7 @@ select.form-control::-ms-expand {
     margin-top: 25rem;
   }
   #NewsDetail .owl-nav {
-    bottom: -10%;
+    bottom: -12%;
   }
   #NewsDetail #evnet-page {
     padding-top: 0;
@@ -7818,10 +7818,10 @@ select.form-control::-ms-expand {
     top: 22%;
   }
   #NewsDetail #EventSlider .owl-nav {
-    bottom: -15%;
+    bottom: -31%;
   }
   #NewsDetail .event-page {
-    padding-top: 50px;
+    padding-top: 40px;
   }
 }
 
@@ -7905,10 +7905,10 @@ select.form-control::-ms-expand {
     width: 1002px;
   }
   #NewsDetail #EventSlider .owl-nav {
-    bottom: -15%;
+    bottom: -20%;
   }
   #NewsDetail .event-page {
-    padding-top: 50px;
+    padding-top: 78px;
   }
 }
 
