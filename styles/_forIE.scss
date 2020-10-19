@@ -291,6 +291,12 @@
             overflow: hidden;
             top: 22%;
         }
+        #NewsDetail #EventSlider .owl-nav{
+            bottom: -15%;
+        }
+        #NewsDetail .event-page{
+            padding-top: 50px;
+        }
     }
     // Large devices (desktops, 992px and up)
     @media (min-width: 992px) {
@@ -371,6 +377,12 @@
         #NewsDetail .hero-header-bkg .frame-hightlight img{
             height: 546px;
             width: 1002px;
+        }
+        #NewsDetail #EventSlider .owl-nav{
+            bottom: -20%;
+        }
+        #NewsDetail .event-page{
+            padding-top: 70px;
         }
     }
     // Extra large devices (large desktops, 1200px and up)
