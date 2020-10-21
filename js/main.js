@@ -133,6 +133,7 @@ $('.menu-lang').click(function(){
 })
 $(document).on("click", function(event){
    $('.lang-dropdown').removeClass("show");
+   $('.nav-wrap').removeClass("pointer");
 });
 
 /*-- hover index our games diamond --*/
