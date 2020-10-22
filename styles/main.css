@@ -7890,7 +7890,8 @@ select.form-control::-ms-expand {
     bottom: -31%;
   }
   #NewsDetail .event-page {
-    padding-top: 40px;
+    padding-top: 0px;
+    bottom: -26%;
   }
 }
 
@@ -7976,9 +7977,6 @@ select.form-control::-ms-expand {
   #NewsDetail #EventSlider .owl-nav {
     bottom: -20%;
   }
-  #NewsDetail .event-page {
-    padding-top: 78px;
-  }
 }
 
 @media all and (-ms-high-contrast: none) and (min-width: 1200px), (-ms-high-contrast: active) and (min-width: 1200px) {
@@ -8014,9 +8012,6 @@ select.form-control::-ms-expand {
   }
   #NewsDetail #EventSlider .owl-nav {
     bottom: -20%;
-  }
-  #NewsDetail .event-page {
-    padding-top: 70px;
   }
 }
 /*# sourceMappingURL=main.css.map */
