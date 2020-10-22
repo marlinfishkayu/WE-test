@@ -7899,9 +7899,6 @@ select.form-control::-ms-expand {
     overflow: hidden;
     top: 22%;
   }
-  #NewsDetail #EventSlider .owl-nav {
-    bottom: -31%;
-  }
   #NewsDetail .event-page {
     padding-top: 0px;
     bottom: -26%;
@@ -7987,9 +7984,6 @@ select.form-control::-ms-expand {
     height: 546px;
     width: 1002px;
   }
-  #NewsDetail #EventSlider .owl-nav {
-    bottom: -20%;
-  }
   #NewsDetail .event-page {
     bottom: -17%;
   }
@@ -8025,9 +8019,6 @@ select.form-control::-ms-expand {
   }
   #news-carousel .update-wrapper {
     left: 40%;
-  }
-  #NewsDetail #EventSlider .owl-nav {
-    bottom: -20%;
   }
 }
 /*# sourceMappingURL=main.css.map */
