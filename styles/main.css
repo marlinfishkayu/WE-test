@@ -7940,10 +7940,10 @@ select.form-control::-ms-expand {
     height: 612px;
   }
   #news-carousel #slider-area {
-    height: 900px;
+    height: 700px;
   }
   #news-carousel .owl-carousel.owl-drag .owl-item {
-    height: 900px;
+    height: 700px;
   }
   #news-carousel #slider-area .slide .update-img {
     margin-top: -50px;
@@ -7952,7 +7952,7 @@ select.form-control::-ms-expand {
     left: 35%;
   }
   #news-carousel #slider-area .owl-dots {
-    bottom: 25%;
+    bottom: 5%;
   }
   #NewsDetail .hero-header-bkg .event-hightlight img {
     height: auto;

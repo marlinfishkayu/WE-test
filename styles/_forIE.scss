@@ -350,10 +350,10 @@
             height: 612px;
         }
         #news-carousel #slider-area {
-            height: 900px;
+            height: 700px;
         }
         #news-carousel .owl-carousel.owl-drag .owl-item{
-            height: 900px;
+            height: 700px;
         }
         #news-carousel #slider-area .slide .update-img{
             margin-top: -50px;
@@ -362,7 +362,7 @@
             left: 35%;
         }
         #news-carousel #slider-area .owl-dots{
-            bottom: 25%;
+            bottom: 5%;
         }
         #NewsDetail .hero-header-bkg .event-hightlight img{
             height: auto;
@@ -386,6 +386,7 @@
         #NewsDetail .event-page{
             padding-top: 78px;
         }
+
     }
     // Extra large devices (large desktops, 1200px and up)
     @media (min-width: 1200px) {
