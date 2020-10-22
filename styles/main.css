@@ -6836,12 +6836,21 @@ select.form-control::-ms-expand {
   white-space: nowrap;
 }
 
+#NewsDetail #event-owl-nav {
+  position: relative;
+  left: 50%;
+  bottom: -30%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  white-space: nowrap;
+}
+
 #NewsDetail #evnet-page {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  padding-top: 45px;
+  padding-top: 38px;
 }
 
 #NewsDetail .owl-prev, #NewsDetail .owl-next {
@@ -6949,6 +6958,10 @@ select.form-control::-ms-expand {
   display: none;
 }
 
+#NewsDetail #EventSlider {
+  padding-top: 1rem;
+}
+
 #NewsDetail #EventSlider .event-item img {
   width: 100%;
   background-position: 50% 10%;
@@ -7042,7 +7055,7 @@ select.form-control::-ms-expand {
     bottom: -20%;
   }
   #NewsDetail #evnet-page {
-    padding-top: 83px;
+    padding-top: 74px;
   }
   #NewsDetail .Event-Detail-main {
     padding-top: 0rem;

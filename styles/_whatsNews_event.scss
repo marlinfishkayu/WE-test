@@ -51,8 +51,15 @@
         margin: 0 auto;
         height: 270px;
     }
-    .owl-nav {
+    .owl-nav{
         position: absolute;
+        left: 50%;
+        bottom: -30%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+    }
+    #event-owl-nav {
+        position: relative;
         left: 50%;
         bottom: -30%;
         transform: translateX(-50%);
@@ -62,7 +69,7 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        padding-top: 45px;
+        padding-top: 38px;
     }
      .owl-prev,  .owl-next {
         width: 34px;
@@ -151,6 +158,9 @@
     }
     .frame-hightlight{
         display: none;
+    }
+    #EventSlider{
+        padding-top: 1rem;
     }
     #EventSlider .event-item img{
         width: 100%; 
@@ -251,7 +261,7 @@
             bottom: -20%;
         }
         #evnet-page{
-            padding-top: 83px;
+            padding-top: 74px;
         }
         .Event-Detail-main {
             padding-top: 0rem;
