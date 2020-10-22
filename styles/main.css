@@ -7977,6 +7977,9 @@ select.form-control::-ms-expand {
   #NewsDetail #EventSlider .owl-nav {
     bottom: -20%;
   }
+  #NewsDetail .event-page {
+    bottom: -17%;
+  }
 }
 
 @media all and (-ms-high-contrast: none) and (min-width: 1200px), (-ms-high-contrast: active) and (min-width: 1200px) {
