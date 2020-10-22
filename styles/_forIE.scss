@@ -135,13 +135,6 @@
     #newsFeed .timeline-wrap .timeline::before{
         width: 2px;
     }
-    #NewsDetail .Event-Detail-main{
-        margin-top: 25rem;
-    }
-    #NewsDetail #event-page{
-        padding-top: inherit;
-        margin-top: -8px;
-    }
     #EventSlider{
         margin-top: 5rem;
     }
@@ -185,6 +178,16 @@
     }
     #NewsDetail .event-item{
         height: auto;
+    }
+    #NewsDetail .Event-Detail-main{
+        margin-top: 25rem;
+    }
+    #NewsDetail #event-page{
+        padding-top: inherit;
+        margin-top: -8px;
+    }
+    #NewsDetail .owl-nav{
+        bottom: -12%;
     }
     // Small devices (landscape phones, 576px and up)
     @media (min-width: 576px) {     
@@ -293,6 +296,12 @@
             height: 502px;
             overflow: hidden;
             top: 22%;
+        }
+        #NewsDetail .owl-nav{
+            bottom: -20%;
+        }
+        #NewsDetail #event-page{
+            margin-top: 64px;
         }
     }
     // Large devices (desktops, 992px and up)

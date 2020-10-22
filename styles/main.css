@@ -7735,13 +7735,6 @@ select.form-control::-ms-expand {
   #newsFeed .timeline-wrap .timeline::before {
     width: 2px;
   }
-  #NewsDetail .Event-Detail-main {
-    margin-top: 25rem;
-  }
-  #NewsDetail #event-page {
-    padding-top: inherit;
-    margin-top: -8px;
-  }
   #EventSlider {
     margin-top: 5rem;
   }
@@ -7785,6 +7778,16 @@ select.form-control::-ms-expand {
   }
   #NewsDetail .event-item {
     height: auto;
+  }
+  #NewsDetail .Event-Detail-main {
+    margin-top: 25rem;
+  }
+  #NewsDetail #event-page {
+    padding-top: inherit;
+    margin-top: -8px;
+  }
+  #NewsDetail .owl-nav {
+    bottom: -12%;
   }
 }
 
@@ -7896,6 +7899,12 @@ select.form-control::-ms-expand {
     height: 502px;
     overflow: hidden;
     top: 22%;
+  }
+  #NewsDetail .owl-nav {
+    bottom: -20%;
+  }
+  #NewsDetail #event-page {
+    margin-top: 64px;
   }
 }
 
