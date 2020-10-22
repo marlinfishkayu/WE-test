@@ -128,14 +128,13 @@ $('.livegame-btn').click(function(){
 $('.menu-lang').click(function(){
     $('.lang-dropdown').toggleClass("show");
     $('.game-show').addClass("show");
-    $('.nav-wrap').addClass("pointer");
+    $('.nav-wrap').toggleClass("pointer");
         return false;
 })
 $(document).on("click", function(event){
    $('.lang-dropdown').removeClass("show");
-   $('.nav-wrap').removeClass("pointer");
+   
 });
-
 /*-- hover index our games diamond --*/
 
 $('.our-gamaes-column').mouseover(function(){
