@@ -7784,7 +7784,7 @@ select.form-control::-ms-expand {
   }
   #NewsDetail #event-page {
     padding-top: inherit;
-    margin-top: -8px;
+    margin-top: 24px;
   }
   #NewsDetail .owl-nav {
     bottom: -12%;
