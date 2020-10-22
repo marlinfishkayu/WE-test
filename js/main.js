@@ -422,7 +422,7 @@ $('#EventSlider').on('initialized.owl.carousel changed.owl.carousel', function(e
     return;
   }
   var carousel = e.relatedTarget;
-  $('#evnet-page').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
+  $('#event-page').text(carousel.relative(carousel.current()) + 1 + '/' + carousel.items().length);
 }).owlCarousel({
   center: true,
   loop: false,

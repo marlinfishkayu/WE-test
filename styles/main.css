@@ -6845,7 +6845,7 @@ select.form-control::-ms-expand {
   white-space: nowrap;
 }
 
-#NewsDetail #evnet-page {
+#NewsDetail #event-page {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -7054,7 +7054,7 @@ select.form-control::-ms-expand {
   #NewsDetail .owl-nav {
     bottom: -20%;
   }
-  #NewsDetail #evnet-page {
+  #NewsDetail #event-page {
     padding-top: 74px;
   }
   #NewsDetail .Event-Detail-main {
@@ -7741,7 +7741,7 @@ select.form-control::-ms-expand {
   #NewsDetail .owl-nav {
     bottom: -12%;
   }
-  #NewsDetail #evnet-page {
+  #NewsDetail #event-page {
     padding-top: 0;
   }
   #EventSlider {
