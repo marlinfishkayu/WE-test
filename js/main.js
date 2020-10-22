@@ -436,16 +436,19 @@ $('#EventSlider').on('initialized.owl.carousel changed.owl.carousel', function(e
       slideBy: 1 // <!-- HERE
     },
    1400: {
-      items: 2,
+      items: 1,
       navigation: true,
       nav: true,
-      slideBy: 2 // <!-- HERE
+      slideBy: 1 ,// <!-- HERE
+      center: false
+
     },
   2100: {
-      items: 3,
+      items: 1,
       navigation: true,
       nav: true,
-      slideBy: 3 // <!-- HERE
+      slideBy: 1, // <!-- HERE
+      center: false
     }
   },
   scrollPerPage: true,
@@ -552,19 +555,4 @@ setTimeout(function() {
 
 
 
-$('.owl-carousel').owlCarousel({
-  loop:true,
-  margin:10,
-  nav:true,
-  responsive:{
-      0:{
-          items:1
-      },
-      600:{
-          items:3
-      },
-      1000:{
-          items:5
-      }
-  }
-})
+

@@ -6997,7 +6997,7 @@ select.form-control::-ms-expand {
     top: 20%;
     left: 50%;
     width: 1043px;
-    height: 575px;
+    height: 576px;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     -o-object-fit: contain;
@@ -7770,6 +7770,9 @@ select.form-control::-ms-expand {
     top: -129px;
   }
   #NewsDetail #EventSlider .event-item img {
+    height: auto;
+  }
+  #NewsDetail .event-item {
     height: auto;
   }
 }
