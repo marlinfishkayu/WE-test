@@ -138,11 +138,9 @@
     #NewsDetail .Event-Detail-main{
         margin-top: 25rem;
     }
-    #NewsDetail .owl-nav{
-        bottom: -12%;
-    }
     #NewsDetail #event-page{
-        padding-top: 0;
+        padding-top: inherit;
+        margin-top: -8px;
     }
     #EventSlider{
         margin-top: 5rem;
@@ -296,10 +294,6 @@
             overflow: hidden;
             top: 22%;
         }
-        #NewsDetail .event-page{
-            padding-top: 0px;
-            bottom: -26%;
-        }
     }
     // Large devices (desktops, 992px and up)
     @media (min-width: 992px) {
@@ -380,9 +374,6 @@
         #NewsDetail .hero-header-bkg .frame-hightlight img{
             height: 546px;
             width: 1002px;
-        }
-        #NewsDetail .event-page{
-            bottom: -17%;
         }
 
     }
