@@ -187,12 +187,15 @@
     height: 300px;
 }
 #intdexWhatsNews .news-item-text {
-    width: 200px;
+    width: 270px;
+    height: 327px;
+    overflow: hidden;
     margin: auto;
     text-transform: uppercase;
     padding-bottom: 3rem;
     padding-top: 4rem;
 }
+
 #intdexWhatsNews .news-item-text .text-gold {
     font-family: $fontFuturaMedium;
     font-size: 14px;
@@ -270,8 +273,8 @@
     transform: scaleX(-1);
 }
 #intdexWhatsNews  .section-container{
-    padding-bottom: 0;
-    padding-top: 3rem;
+    padding-bottom: 0rem;
+    padding-top: 2.5rem;
 } 
 // Diamond carousel
 #diamondCarousel {
@@ -595,9 +598,10 @@
         width: inherit;
         padding-top: 2rem;
         padding-left: 4rem;
+        height: 275px;
     }
     #intdexWhatsNews .news-item-header {
-        font-size: 26px;
+        font-size: 20px;
     }
     #intdexWhatsNews .text-gold-btn {
         display: block;
@@ -671,7 +675,7 @@
         bottom: 0%;
     }
     #introCarousel .owl-dots{
-        bottom: 15%;
+        bottom: 5%;
     }
     #diamondCarousel .owl-dots {
         bottom: 0;
@@ -697,6 +701,8 @@
     }
     #intdexWhatsNews .news-item-text {
         padding-top: 6rem;
+        padding-bottom: 5rem;
+        height: inherit;
     }
     #diamondCarousel {
         margin-top: 20px;
@@ -735,6 +741,7 @@
     #intdexWhatsNews .section-container {
         padding-bottom: 5rem;
         padding-top: 3rem;
+        margin-bottom: inherit;
     }
     .index-carousel .owl-dots span{
        padding: 2em;     
@@ -746,6 +753,9 @@
     #slider-area .owl-nav .owl-prev, #slider-area .owl-nav .owl-next {
         width: 72px;
         height: 72px;
+    }
+    #intdexWhatsNews .news-item-header {
+        font-size: 26px;
     }
 }
 

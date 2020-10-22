@@ -59,8 +59,8 @@ var arrLang = {
       'WinThreeCards': '炸金花',
 
       //index_hero_slider
-      'index_slider1_h2': '這裡，讓你心花怒放',
-      'index_slider1_p': '比好玩 · 更好玩',
+      'index_slider1_h2': '比好玩 · 更好玩',
+      'index_slider1_p': '這裡，讓你心花怒放',
       'tryNow': '試玩',
       
     }
