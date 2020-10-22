@@ -300,7 +300,8 @@
             bottom: -31%;
         }
         #NewsDetail .event-page{
-            padding-top: 40px;
+            padding-top: 0px;
+            bottom: -26%;
         }
     }
     // Large devices (desktops, 992px and up)
@@ -386,9 +387,7 @@
         #NewsDetail #EventSlider .owl-nav{
             bottom: -20%;
         }
-        #NewsDetail .event-page{
-            padding-top: 78px;
-        }
+
 
     }
     // Extra large devices (large desktops, 1200px and up)
@@ -426,9 +425,7 @@
         #NewsDetail #EventSlider .owl-nav{
             bottom: -20%;
         }
-        #NewsDetail .event-page{
-            padding-top: 70px;
-        }
+
     }
     @media (min-width: 1500px) {
 
