@@ -98,9 +98,7 @@
             white-space: nowrap;
         }
         position: absolute;
-        
-        
-        top: 38%;
+        top:48%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -265,7 +263,6 @@
     .deco-cat{
         padding-top: 2.8rem;
         padding-bottom: 1.8rem;
-        
     }
     #slider-area .main-button a > span {
         display: block;
@@ -294,6 +291,9 @@
         display: block;
         position: absolute;
         bottom: 28%;
+    }
+    .coming .disable-text {
+        top: 38%;
     }
 }
 

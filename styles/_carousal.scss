@@ -360,7 +360,7 @@
     .dia-3d-layer{
         position: absolute;
         left: 50%;
-        top: 40%;
+        top: 37%;
         transform: translate(-50%,19%);
         z-index: 1;
         pointer-events: inherit;
@@ -368,7 +368,7 @@
         transition-timing-function: cubic-bezier(.05,.77,.32,1);
     }
     .hovering .dia-3d-layer{
-        transform: translate(-50%,-50%,);
+        transform: translate(-50%,-32%,);
     }
     .dia-icon {
         transform: translateZ(50px);
@@ -680,6 +680,10 @@
     }
     #diamondCarousel .owl-dots {
         bottom: 0;
+    }
+    #diamondCarousel .hovering .dia-3d-layer {
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
     }
 }
 // Large devices (desktops, 992px and up)

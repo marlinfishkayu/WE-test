@@ -2240,7 +2240,7 @@ footer {
 #diamondCarousel .dia-3d-layer {
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 37%;
   -webkit-transform: translate(-50%, 19%);
           transform: translate(-50%, 19%);
   z-index: 1;
@@ -2252,8 +2252,8 @@ footer {
 }
 
 #diamondCarousel .hovering .dia-3d-layer {
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -32%);
+          transform: translate(-50%, -32%);
 }
 
 #diamondCarousel .dia-icon {
@@ -2592,6 +2592,10 @@ footer {
   #diamondCarousel .owl-dots {
     bottom: 0;
   }
+  #diamondCarousel .hovering .dia-3d-layer {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
 }
 
 @media (min-width: 992px) {
@@ -2825,7 +2829,7 @@ footer {
 
 .coming .disable-text {
   position: absolute;
-  top: 38%;
+  top: 48%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -3048,6 +3052,9 @@ footer {
     display: block;
     position: absolute;
     bottom: 28%;
+  }
+  .coming .disable-text {
+    top: 38%;
   }
 }
 
@@ -4311,7 +4318,7 @@ select.form-control::-ms-expand {
 
 #newsFeed .news-filter-wrap {
   margin: auto;
-  padding: 12.5rem 0;
+  padding: 2.5rem 0;
 }
 
 #newsFeed .news-filter-wrap .news-filter {
