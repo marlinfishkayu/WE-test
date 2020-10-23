@@ -955,6 +955,7 @@ button:focus {
 
 .menu-lang {
   cursor: pointer;
+  display: none;
 }
 
 .menu-lang h6 {
@@ -1983,12 +1984,13 @@ footer {
   line-height: 50px;
   color: white;
   font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  padding-bottom: 1rem;
 }
 
 .header-wrapper .slider-text p {
   font-size: 16px;
   color: #d8d8d8;
-  padding: 0.5rem 0;
+  padding-bottom: 1rem;
 }
 
 .header-wrapper .slider-text a {
@@ -2609,10 +2611,11 @@ footer {
   }
   .header-wrapper .slider-text h2 {
     font-size: 40px;
+    padding-bottom: 1rem;
   }
   .header-wrapper .slider-text p {
     font-size: 20px;
-    padding: 1rem 0;
+    padding-bottom: 1rem;
   }
   #intdexWhatsNews .news-item {
     width: 770px;
@@ -2689,10 +2692,11 @@ footer {
   }
   .header-wrapper .slider-text h2 {
     font-size: 60px;
+    padding-bottom: 3rem;
   }
   .header-wrapper .slider-text p {
     font-size: 26px;
-    padding: 3rem 0;
+    padding-bottom: 3rem;
   }
   #intdexWhatsNews .news-slider .news-item {
     width: 800px;

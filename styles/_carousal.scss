@@ -134,11 +134,12 @@
         line-height: 50px;
         color: $mainText;
         font-family: Futura, Trebuchet MS, Arial, sans-serif;
+        padding-bottom: 1rem;
     }
     p {
         font-size: 16px;
         color: $primaryText;
-        padding: 0.5rem 0;
+        padding-bottom: 1rem;
     }
     a {
         text-decoration: none;
@@ -690,10 +691,11 @@
     .header-wrapper .slider-text {
         h2 {
             font-size: 40px;
+            padding-bottom: 1rem;
         }
         p {
             font-size: 20px;
-            padding: 1rem 0;
+            padding-bottom: 1rem;
         }
     }
     #intdexWhatsNews .news-item {
@@ -768,10 +770,11 @@
         width: 100%;
         h2 {
             font-size: 60px;
+            padding-bottom: 3rem;
         }
         p {
             font-size: 26px;
-            padding: 3rem 0;
+            padding-bottom: 3rem;
         }
     }
     #intdexWhatsNews .news-slider .news-item {
