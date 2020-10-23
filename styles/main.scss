@@ -1,16 +1,6 @@
 @import "./reset";
 @import "./variables";
 @font-face {
-  font-family: "TrebuchetMS";
-  src: url("./fonts/TrebuchetMS.eot"); /* IE9 Compat Modes */
-  src: url("./fonts/TrebuchetMS.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("./fonts/TrebuchetMS.otf") format("opentype"), /* Open Type Font */
-    url("./fonts/TrebuchetMS.svg") format("svg"), /* Legacy iOS */
-    url("./fonts/TrebuchetMS.woff") format("woff"); /* Modern Browsers */
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: "Futura-Medium";
   src: url("./fonts/FuturaMedium.eot"); /* IE9 Compat Modes */
   src: url("./fonts/FuturaMedium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */

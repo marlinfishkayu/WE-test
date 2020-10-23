@@ -53,16 +53,6 @@ table {
 }
 
 @font-face {
-  font-family: "TrebuchetMS";
-  src: url("./fonts/TrebuchetMS.eot");
-  /* IE9 Compat Modes */
-  src: url("./fonts/TrebuchetMS.eot?#iefix") format("embedded-opentype"), url("./fonts/TrebuchetMS.otf") format("opentype"), url("./fonts/TrebuchetMS.svg") format("svg"), url("./fonts/TrebuchetMS.woff") format("woff");
-  /* Modern Browsers */
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "Futura-Medium";
   src: url("./fonts/FuturaMedium.eot");
   /* IE9 Compat Modes */
@@ -108,7 +98,7 @@ img {
 }
 
 h1 {
-  font-family: Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: Futura-pt, Arial, sans-serif;
   font-size: 60px;
   font-style: normal;
   font-variant: normal;
@@ -117,7 +107,7 @@ h1 {
 }
 
 h2 {
-  font-family: Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: Futura-pt, Arial, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-variant: normal;
@@ -126,7 +116,7 @@ h2 {
 }
 
 h3 {
-  font-family: Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: Futura-pt, Arial, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-variant: normal;
@@ -144,7 +134,7 @@ h4 {
 }
 
 h6 {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-variant: normal;
@@ -297,7 +287,7 @@ button:focus {
 
 .showless_btn .toggle_text {
   color: #fff;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 12px;
   font-weight: 100;
   letter-spacing: 2.5px;
@@ -341,7 +331,7 @@ button:focus {
   text-align: center;
   letter-spacing: 3px;
   line-height: 46px;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 13px;
 }
 
@@ -424,7 +414,7 @@ button:focus {
 
 .showless_btn .toggle_text {
   color: #fff;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 12px;
   font-weight: 100;
   letter-spacing: 2.5px;
@@ -466,7 +456,7 @@ button:focus {
   text-align: center;
   letter-spacing: 3px;
   line-height: 46px;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 13px;
 }
 
@@ -1241,7 +1231,7 @@ button:focus {
 }
 
 .sidebar .side-item .game-item a {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   letter-spacing: 3px;
 }
 
@@ -1250,7 +1240,7 @@ button:focus {
 }
 
 .sidebar .side-item .game-sub-item a {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 1px;
@@ -1526,7 +1516,7 @@ footer {
 }
 
 .main-footer .footer-subscribe h6 {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 14px;
   font-weight: 100;
   letter-spacing: 1px;
@@ -1598,7 +1588,7 @@ footer {
   color: #fff;
   width: 100%;
   height: 40px;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 13px;
   font-weight: 100;
   letter-spacing: 3px;
@@ -2056,7 +2046,7 @@ footer {
 }
 
 #intdexWhatsNews .news-item-text .text-gold {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 14px;
   color: #89663d;
   letter-spacing: 2px;
@@ -2074,7 +2064,7 @@ footer {
 }
 
 #intdexWhatsNews .news-item-header {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   color: #ffffff;
   font-size: 20px;
   font-weight: 100;
@@ -2342,7 +2332,7 @@ footer {
   white-space: nowrap;
   font-size: 25px;
   letter-spacing: 3px;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   padding-top: 1rem;
   line-height: 1.2;
   text-transform: uppercase;
@@ -2402,7 +2392,7 @@ footer {
 }
 
 #diamondCarousel .diamond-item .dia-btn .more-deco-h4 {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   color: #FFFFFF;
   letter-spacing: 3px;
   font-size: 13px;
@@ -2644,7 +2634,7 @@ footer {
             transition-timing-function: cubic-bezier(0.05, 0.77, 0.32, 1);
   }
   #diamondCarousel .diamond-item .dia-btn .more-deco-h4 {
-    font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+    font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
     color: #FFFFFF;
     letter-spacing: 3px;
     font-size: 13px;
@@ -2778,7 +2768,7 @@ footer {
 
 .our-gamaes .expand-deco .more-deco-h4 {
   margin-top: 20px;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 12px;
   font-weight: 100;
   letter-spacing: 2px;
@@ -2842,7 +2832,7 @@ footer {
 }
 
 .coming .disable-text h4 {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 18px;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -2919,7 +2909,7 @@ footer {
 }
 
 .deco-header {
-  font-family: Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: Futura-pt, Arial, sans-serif;
   font-size: 22px;
   color: #DDDDDD;
   padding-bottom: 0.25rem;
@@ -3216,7 +3206,7 @@ footer {
 
 #liveGame .hero-header h1 {
   color: #d8d8d8;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 40px;
   padding-top: 10px;
@@ -3261,7 +3251,7 @@ footer {
 
 .live-game-main .feature-header {
   color: #E1E1E1;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 16px;
   letter-spacing: 1;
   margin-top: 3rem;
@@ -3316,7 +3306,7 @@ footer {
 }
 
 .feature-flexbox .feature-flexbox-h2 {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 30px;
   letter-spacing: 1.5;
   line-height: 1.5;
@@ -3374,7 +3364,7 @@ footer {
 }
 
 .game-platform h3 {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 20px;
   letter-spacing: 1;
   font-weight: 100;
@@ -3454,7 +3444,7 @@ footer {
 }
 
 .live-game-bottom .game-bottom h4 {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 20px;
   font-weight: 100;
   letter-spacing: 1px;
@@ -3478,7 +3468,7 @@ footer {
   transition: 300ms all ease;
 }
 
-.live-game-bottom .game-bottom .back-ALG h4::after {
+.live-game-bottom .game-bottom .back-ALG h4:after {
   content: '';
   position: absolute;
   top: 19px;
@@ -3565,7 +3555,7 @@ footer {
 
 #BaccaratType h4 {
   margin-top: 2rem;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 20px;
   font-weight: 100;
   letter-spacing: 1px;
@@ -4326,7 +4316,7 @@ select.form-control::-ms-expand {
 
 #newsFeed .news-filter-wrap .news-filter {
   text-transform: uppercase;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 16px;
   font-weight: 100;
   color: #ffffff;
@@ -4341,7 +4331,7 @@ select.form-control::-ms-expand {
 
 #newsFeed .news-filter-wrap .news-filter .filter-item a {
   text-transform: uppercase;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 16px;
   font-weight: 100;
   color: rgba(216, 216, 216, 0.4);
@@ -4458,7 +4448,7 @@ select.form-control::-ms-expand {
 
 #newsFeed .loadmore-deco-wrap h5 {
   text-align: center;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 13px;
   text-transform: uppercase;
   margin-bottom: 1rem;
@@ -4804,7 +4794,7 @@ select.form-control::-ms-expand {
     color: #89663d;
   }
   #newsFeed .frame-detail h2 {
-    font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+    font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
     font-size: 14px;
   }
   #newsFeed .frame-detail .frame-date {
@@ -5100,7 +5090,7 @@ select.form-control::-ms-expand {
 }
 
 .service-title {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 20px;
   letter-spacing: 2px;
   font-weight: 100;
@@ -5291,14 +5281,14 @@ select.form-control::-ms-expand {
 
 #liveStudio .room-num {
   color: #89663D;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 16px;
   letter-spacing: 3px;
 }
 
 #liveStudio .room-name {
   color: #D8D8D8;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 20px;
   font-weight: 100;
   letter-spacing: 3px;
@@ -5800,7 +5790,7 @@ select.form-control::-ms-expand {
 
 #allLiveGame .allLiveGame-main .livegame-scroll-title {
   padding-top: 5rem;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 26px;
   letter-spacing: 1px;
   font-weight: 100;
@@ -5913,7 +5903,7 @@ select.form-control::-ms-expand {
 }
 
 #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2 {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 26px;
   letter-spacing: 1px;
   font-weight: 100;
@@ -6257,7 +6247,7 @@ select.form-control::-ms-expand {
 }
 
 #AboutWE .about-h2 {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 20px;
   font-weight: 100;
   letter-spacing: 1px;
@@ -6270,7 +6260,7 @@ select.form-control::-ms-expand {
 }
 
 #AboutWE .about-h4 {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 18px;
   font-weight: 100;
   letter-spacing: 1px;
@@ -6790,7 +6780,7 @@ select.form-control::-ms-expand {
 
 #NewsDetail .hero-title {
   font-size: 40px;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   line-height: 1.3;
 }
 
@@ -6940,7 +6930,7 @@ select.form-control::-ms-expand {
   text-transform: uppercase;
   color: #FFFFFF;
   font-size: 16px;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-weight: 100;
 }
 
@@ -7141,7 +7131,7 @@ select.form-control::-ms-expand {
 }
 
 #searchResult .result-header h2 {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 26px;
   color: #D8D8D8;
   text-transform: uppercase;
@@ -7244,7 +7234,7 @@ select.form-control::-ms-expand {
 .cookie-btn {
   -webkit-box-shadow: 1px 1000px 1px #89663D inset;
           box-shadow: 1px 1000px 1px #89663D inset;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -7316,7 +7306,7 @@ select.form-control::-ms-expand {
 }
 
 #thankyou-popup h1 {
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 24px;
   font-weight: 100;
   letter-spacing: 1px;
@@ -7459,7 +7449,7 @@ select.form-control::-ms-expand {
 #privacyPolicy .privacy-wrap .privacy-h1 {
   text-align: center;
   color: #B0936D;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 30px;
   font-weight: 100;
   text-transform: uppercase;
@@ -7472,7 +7462,7 @@ select.form-control::-ms-expand {
 
 #privacyPolicy .privacy-wrap .privacy-h2 {
   color: #FFFFFF;
-  font-family: "Futura-Medium", Futura-pt, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 16px;
   font-weight: 100;
   text-transform: uppercase;
