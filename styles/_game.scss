@@ -256,6 +256,7 @@
         }
         
     }
+
 }
 .live-game-bottom{
     border-bottom: 1px solid #89663D;
@@ -570,6 +571,9 @@
     #WinThreeCards .hero-header::after{
         background: rgb(6,11,26);
         background: linear-gradient(180deg, rgba(6,11,26,0.3) 90%, rgba(7,10,27,1) 100%);
+    }
+    .live-game-main .game-platform .hero-intro2 {
+        margin-top: 0rem;
     }
 }
 

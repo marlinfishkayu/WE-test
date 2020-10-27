@@ -3749,6 +3749,9 @@ footer {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(90%, rgba(6, 11, 26, 0.3)), to(#070a1b));
     background: linear-gradient(180deg, rgba(6, 11, 26, 0.3) 90%, #070a1b 100%);
   }
+  .live-game-main .game-platform .hero-intro2 {
+    margin-top: 0rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -4354,7 +4357,7 @@ select.form-control::-ms-expand {
 #newsFeed .news-filter-wrap .news-filter .filter-item a {
   text-transform: uppercase;
   font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 100;
   color: rgba(216, 216, 216, 0.4);
   letter-spacing: 1px;
@@ -4849,6 +4852,9 @@ select.form-control::-ms-expand {
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
+  }
+  #newsFeed .news-filter-wrap .news-filter .filter-item a {
+    font-size: 16px;
   }
 }
 

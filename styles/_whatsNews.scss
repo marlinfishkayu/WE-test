@@ -217,7 +217,7 @@
             .filter-item a{
                 text-transform: uppercase;
                 font-family: $fontFuturaMedium;
-                font-size: 16px;
+                font-size: 14px;
                 font-weight: 100;
                 color: rgba(216, 216, 216, 0.4);
                 letter-spacing: 1px;
@@ -656,6 +656,9 @@
                 -webkit-text-fill-color: transparent;
             }
         }
+    }
+    #newsFeed .news-filter-wrap .news-filter .filter-item a {
+        font-size: 16px;
     }
 }
 // Large devices (desktops, 992px and up)
