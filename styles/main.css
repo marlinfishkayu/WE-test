@@ -4109,6 +4109,10 @@ select.form-control::-ms-expand {
   white-space: nowrap;
 }
 
+#news-carousel .owl-nav {
+  display: none;
+}
+
 #news-carousel .owl-dots span {
   display: inline-block;
   position: relative;
@@ -6826,6 +6830,11 @@ select.form-control::-ms-expand {
   width: 30px;
   height: 30px;
   margin-right: 20px;
+}
+
+#NewsDetail .hero-icon .icon-link a:hover {
+  -webkit-filter: invert(75%);
+          filter: invert(75%);
 }
 
 #NewsDetail #Event-slider {
