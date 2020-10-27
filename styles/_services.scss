@@ -63,8 +63,8 @@
         padding-bottom: 3rem;
     }
     .service-img{
-        width: 165px;
-        height: 165px;
+        width: 132px;
+        height: 132px;
     }
 }
 
@@ -72,6 +72,9 @@
 @media (min-width: 992px) {
     #services .services-main{
         max-width: 900px;
+    }
+    .service-title {
+        padding-top: 2.3rem;
     }
  }
 // Extra large devices (large desktops, 1200px and up)
