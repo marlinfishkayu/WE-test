@@ -2294,6 +2294,7 @@ footer {
   font-size: 18px;
   font-weight: 100;
   color: #D8D8D8;
+  letter-spacing: 2px;
 }
 
 #diamondCarousel h3 {
@@ -5525,6 +5526,7 @@ select.form-control::-ms-expand {
 
 #liveStudio .studio-bottom-main .bottom-deco {
   text-transform: uppercase;
+  line-height: 1.2;
 }
 
 #liveStudio .studio-bottom-main .hero-intro2 {
