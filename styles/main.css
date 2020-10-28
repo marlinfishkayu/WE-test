@@ -7481,6 +7481,7 @@ select.form-control::-ms-expand {
   margin: 0 auto;
   max-width: 300px;
   margin-top: 1rem;
+  font-weight: 100;
 }
 
 #thankyou-popup .back-btn {
@@ -7817,6 +7818,9 @@ select.form-control::-ms-expand {
   #AboutWE .hero-header-bkg img {
     height: auto;
     width: 100%;
+  }
+  #indexOurGames .disable-img {
+    opacity: 0.2;
   }
   .hero-header::after {
     background: #070a1b;
