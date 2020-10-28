@@ -68,8 +68,7 @@
         width: 25px;
     }
     .form-check-label{
-        margin-left: 40px;
-        margin-top: 5px;
+        margin-left: 45px;
         color: #494949;
         font-family: "Barlow Light", sans-serif, Arial, Helvetica;
         font-weight: 100;
@@ -149,11 +148,10 @@
       
       /* Style the checkmark/indicator */
       .form-group .checkmark::after {
-          content: "";
         left: 7px;
-        top: 5px;
+        top: 2px;
         width: 10px;
-        height: 10px;
+        height: 15px;
         border: 1px solid white;
         border-width: 0 3px 3px 0;
         -webkit-transform: rotate(45deg);

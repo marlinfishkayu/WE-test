@@ -2405,6 +2405,14 @@ footer {
   font-size: 13px;
   font-weight: 100;
   text-transform: uppercase;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  -webkit-transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
+          transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
+}
+
+#diamondCarousel .diamond-item .dia-btn .more-deco-h4:hover {
+  color: #B0936D;
 }
 
 #diamondCarousel .more-deco-wrap {
@@ -2790,6 +2798,14 @@ footer {
   color: #FFFFFF;
   padding-bottom: 5px;
   text-transform: uppercase;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  -webkit-transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
+          transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
+}
+
+.our-gamaes .expand-deco .more-deco-h4:hover {
+  color: #B0936D;
 }
 
 .our-gamaes .expand-deco .hover-for-more {
@@ -3919,8 +3935,7 @@ footer {
 }
 
 #ContactUs .form-check-label {
-  margin-left: 40px;
-  margin-top: 5px;
+  margin-left: 45px;
   color: #494949;
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   font-weight: 100;
@@ -3994,11 +4009,10 @@ footer {
 }
 
 #ContactUs .form-group .checkmark::after {
-  content: "";
   left: 7px;
-  top: 5px;
+  top: 2px;
   width: 10px;
-  height: 10px;
+  height: 15px;
   border: 1px solid white;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
