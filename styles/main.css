@@ -7828,6 +7828,7 @@ select.form-control::-ms-expand {
 #error404 .error-header p {
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   padding-top: 30px;
+  font-size: 16px;
 }
 
 #error404 .error-content {
@@ -7835,7 +7836,7 @@ select.form-control::-ms-expand {
   width: 100%;
   margin: 0 auto;
   padding: 2rem 0;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 #error404 .error-content h4 {
