@@ -7771,33 +7771,31 @@ select.form-control::-ms-expand {
 #error404 .error-wrap {
   text-align: center;
   color: #a1a1a1;
-  position: absolute;
-  left: 50%;
-  top: 20%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  padding: 8rem 0;
+  overflow: scroll;
+  height: 100%;
 }
 
 #error404 .error-header {
-  max-width: 300px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
-#error404 .error-header h2 {
-  font-size: 80px;
+#error404 .error-header .err-header {
+  font-size: 64px;
   line-height: 100px;
-  color: #89663d;
+  color: #8A6C52;
   font-weight: normal;
-  font-size: 6em;
   text-align: center;
   margin-bottom: 0;
   margin-bottom: -0.25em;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
 }
 
 #error404 .error-header .gradient-text {
   background-color: #7C6341;
   /* Create the gradient. */
-  background-image: linear-gradient(45deg, #C8AA82, #7C6341, #AFA286);
+  background-image: linear-gradient(45deg, #C8AA82, #E6B183, #997657);
   /* Set the background size and repeat properties. */
   background-size: 100%;
   background-repeat: repeat;
@@ -7809,13 +7807,26 @@ select.form-control::-ms-expand {
   -moz-text-fill-color: transparent;
 }
 
+#error404 .error-header .line-deco {
+  width: 80px;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
 #error404 .error-header .deco-cat {
   padding-top: 30px;
-  width: 300px;
+  width: 450px;
+}
+
+#error404 .error-header h3 {
   color: #89663d;
+  font-size: 24px;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
+  font-weight: normal;
 }
 
 #error404 .error-header p {
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   padding-top: 30px;
 }
 
@@ -7823,17 +7834,22 @@ select.form-control::-ms-expand {
   font-size: 16px;
   width: 100%;
   margin: 0 auto;
+  padding: 2rem 0;
   padding-top: 100px;
 }
 
 #error404 .error-content h4 {
-  font-size: 23px;
+  font-size: 13px;
   font-weight: 100;
   padding-bottom: 10px;
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 #error404 .error-content p {
-  font-size: 15px;
+  font-size: 16px;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
 }
 
 #error404 .error-content .error-col {
@@ -7842,12 +7858,24 @@ select.form-control::-ms-expand {
   margin: 0 auto;
 }
 
+#error404 .error-header .deco-cat:after,
+#error404 .error-header .deco-cat:before {
+  display: none;
+}
+
 @media (min-width: 992px) {
   #error404 .error-content {
     max-width: 800px;
   }
   #error404 .error-content .error-col {
     text-align: left;
+  }
+  #error404 .error-header .err-header {
+    font-size: 130px;
+  }
+  #error404 .error-header .deco-cat:after,
+  #error404 .error-header .deco-cat:before {
+    display: block;
   }
 }
 
