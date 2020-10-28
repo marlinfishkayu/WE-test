@@ -56,6 +56,116 @@
     color: #494949;
     border: 1px solid #545454;
 }
+// checkbox style
+#ContactUs{
+    .checkbox{
+        width: 20px;
+        position: absolute;
+        z-index: 1;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        width: 25px;
+    }
+    .form-check-label{
+        margin-left: 40px;
+        margin-top: 5px;
+        color: #494949;
+        font-family: "Barlow Light", sans-serif, Arial, Helvetica;
+        font-weight: 100;
+        color: #979797;
+        line-height: 1.5;
+        font-size: 18px;
+        letter-spacing: 1px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .form-group .check-parent{
+        position: relative;
+    }
+    .form-check {
+        display: block;
+        position: relative;
+        padding-left: 25px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-family: "Barlow Light", sans-serif, Arial, Helvetica;
+        font-weight: 100;
+        color: #979797;
+        line-height: 1.5;
+        font-size: 20px;
+        letter-spacing: 1px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      
+      /* Hide the browser's default checkbox */
+      .form-check input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+      }
+      
+      /* Create a custom checkbox */
+      .form-group .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: transparent;
+        border: 1px solid #545454;
+      }
+      
+      /* On mouse-over, add a grey background color */
+      .form-group:hover input ~ .checkmark {
+        border: 1px solid #89663D;
+      }
+      
+      /* When the checkbox is checked, add a blue background */
+      .form-group input:checked ~ .checkmark {
+        background-color: transparent;
+        border: 1px solid #545454;
+      }
+      
+      /* Create the checkmark/indicator (hidden when not checked) */
+      .form-group .checkmark::after {
+        content: "";
+        position: absolute;
+        display: none;
+      }
+      
+      /* Show the checkmark when checked */
+      .form-group input:checked ~ .checkmark:after {
+        display: block;
+      }
+      
+      /* Style the checkmark/indicator */
+      .form-group .checkmark::after {
+          content: "";
+        left: 7px;
+        top: 5px;
+        width: 10px;
+        height: 10px;
+        border: 1px solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+}
+#ContactUs .form-check .form-check-label{
+    color: #76787d;
+}
+
+
 select.form-control{
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20fill%3D%22%23555555%22%20%0A%09%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%22-261%20145.2%2024%2024%22%20style%3D%22enable-background%3Anew%20-261%20145.2%2024%2024%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cpath%20d%3D%22M-245.3%2C156.1l-3.6-6.5l-3.7%2C6.5%20M-252.7%2C159l3.7%2C6.5l3.6-6.5%22%2F%3E%0A%3C%2Fsvg%3E");
     padding-right: 25px;
