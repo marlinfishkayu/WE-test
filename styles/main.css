@@ -377,6 +377,10 @@ button:focus {
   margin: auto;
 }
 
+.main-button:hover span {
+  color: #B0936D;
+}
+
 .lg-break-only {
   display: none;
 }

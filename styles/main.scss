@@ -260,7 +260,7 @@ button:focus {
     background: linear-gradient(135deg, rgba(0,67,131,0.3) 0%, rgba(0,32,76,1) 30%, rgba(0,32,76,1) 70%, rgba(0,67,131,0.3) 100%);
     background-size: 100%; 
   }
-
+  
   /* helpers */
   .absolute-centering, body:after, a, a:after {
     position: absolute;
@@ -271,7 +271,9 @@ button:focus {
   }
 
 }
-
+.main-button:hover span{
+  color: #B0936D;
+}
 
 .lg-break-only{
   display: none;
