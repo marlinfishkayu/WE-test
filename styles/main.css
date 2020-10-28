@@ -7751,8 +7751,7 @@ select.form-control::-ms-expand {
 #error404 {
   height: 100vh;
   width: 100vw;
-  text-align: center;
-  margin: 8rem 1rem;
+  margin: 8rem 0;
 }
 
 #error404 .error-main-bkg {
@@ -7769,6 +7768,38 @@ select.form-control::-ms-expand {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+#error404 .error-wrap {
+  text-align: center;
+}
+
+#error404 .error-header {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+#error404 .error-header h2 {
+  font-size: 80px;
+  line-height: 40px;
+}
+
+#error404 .error-header .deco-cat {
+  padding-top: 30px;
+  width: 300px;
+}
+
+#error404 .error-header p {
+  padding-top: 30px;
+}
+
+#error404 .error-content {
+  margin-top: 30px;
+}
+
+#error404 .error-content h4 {
+  font-size: 20px;
+  font-weight: 100;
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {

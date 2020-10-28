@@ -8,7 +8,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
         <!-- external font-->
-        <link href="https://fonts.googleapis.com/css2?f amily=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://use.typekit.net/mlx7mqk.css" />
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap" rel="stylesheet">
         <!-- Outdated Browser v1.1.5 -->
@@ -24,14 +24,30 @@
         <link rel="shortcut icon" type="image/svg" href="./images/icon/favicon.svg" />
     </head>
     <body>
-        <div id="wrapper" style="overflow: inherit;">
+        <div id="wrapper" style="overflow: hidden;">
             <div id="error404">
                 <div class="WE-diamond-bkg"></div>
-                <div class="error-wrap">
+                <div class="error-wrap container">
                     <div class="error-main-bkg">
                         <img src="images/bkg/slash-bkg_x1.png"  srcset="images/bkg/slash-bkg_x1.png 500w, images/bkg/slash-bkg_x2.png 1000w" alt="">
                     </div>
-                    <h2>404</h2>
+                    <div class="error-header">
+                        <h2>404</h2>
+                        <h3 class="deco-cat">content here content here</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, eveniet reprehenderit enim atque aliquid sint magni numquam beatae soluta possimus tenetur omnis sed, voluptate eum veniam consectetur nisi totam dolorem.</p>
+                    </div>
+                    <div class="row error-content">
+                        <div class="error-col col-12 col-md-6">
+                            <h4>dolor sit amet consectetur adipisicing elit</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque culpa laboriosam eveniet dignissimos nam maiores ipsum?</p>
+                        </div>
+                        <div class="error-col col-12 col-md-6">
+                            <h4>dolor sit amet consectetur adipisicing elit</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque culpa laboriosam eveniet dignissimos nam maiores ipsum?</p>
+                        </div>
+                    </div>
+                   
+                    
                 </div>
             </div>
         </div>
@@ -79,47 +95,12 @@
         </script>
         <!-- Lax JS  -->
         <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
-        <script>
-            window.onload = function() {
-            lax.setup() // init
-
-            const updateLax = () => {
-                lax.update(window.scrollY)
-                window.requestAnimationFrame(updateLax)
-            }
-
-            window.requestAnimationFrame(updateLax)
-        }
-        </script>
         <!-- Sal JS  -->
         <script src="./js/sal.js"></script>
         <script>
             sal();
         </script>
-        <!-- go back JS  -->
-        <script>
-            function goBack() {
-              window.history.back();
-            }
-            var mybutton = document.getElementById("myBtn");
 
-            // When the user scrolls down 20px from the top of the document, show the button
-            window.onscroll = function() {scrollFunction()};
-
-            function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
-            }
-
-            // When the user clicks on the button, scroll to the top of the document
-            function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-            }
-            </script>
         <!-- External JS  -->
         <script src="OwlCarousel2/owl.carousel.min.js"></script>
         <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>

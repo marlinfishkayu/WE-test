@@ -1,8 +1,7 @@
 #error404{
     height: 100vh;
     width: 100vw;
-    text-align: center;
-    margin: 8rem 1rem;
+    margin: 8rem 0;
     .error-main-bkg{
         position: absolute;
         top: 0%;
@@ -16,6 +15,33 @@
             object-fit: cover;
         }
         
+    }
+    .error-wrap{
+        text-align: center;
+        
+    }
+    .error-header{
+        max-width: 300px;
+        margin: 0 auto;
+        
+        h2{
+            font-size: 80px;
+            line-height: 40px;
+        }
+        .deco-cat{
+            padding-top: 30px;
+            width: 300px;
+        }
+        p{
+            padding-top: 30px;
+        }
+    }
+    .error-content{
+        margin-top: 30px;
+        h4{
+            font-size: 20px;
+            font-weight: 100;
+        }
     }
     
 }
