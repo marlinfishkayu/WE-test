@@ -74,7 +74,7 @@
         font-weight: 100;
         color: #979797;
         line-height: 1.5;
-        font-size: 18px;
+        font-size: 16px;
         letter-spacing: 1px;
         -webkit-user-select: none;
         -moz-user-select: none;
@@ -84,33 +84,6 @@
     .form-group .check-parent{
         position: relative;
     }
-    .form-check {
-        display: block;
-        position: relative;
-        padding-left: 25px;
-        margin-bottom: 12px;
-        cursor: pointer;
-        font-family: "Barlow Light", sans-serif, Arial, Helvetica;
-        font-weight: 100;
-        color: #979797;
-        line-height: 1.5;
-        font-size: 20px;
-        letter-spacing: 1px;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      
-      /* Hide the browser's default checkbox */
-      .form-check input {
-        position: absolute;
-        opacity: 0;
-        cursor: pointer;
-        height: 0;
-        width: 0;
-      }
       
       /* Create a custom checkbox */
       .form-group .checkmark {

@@ -3923,7 +3923,6 @@ footer {
 }
 
 #ContactUs {
-  /* Hide the browser's default checkbox */
   /* Create a custom checkbox */
   /* On mouse-over, add a grey background color */
   /* When the checkbox is checked, add a blue background */
@@ -3949,7 +3948,7 @@ footer {
   font-weight: 100;
   color: #979797;
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -3959,32 +3958,6 @@ footer {
 
 #ContactUs .form-group .check-parent {
   position: relative;
-}
-
-#ContactUs .form-check {
-  display: block;
-  position: relative;
-  padding-left: 25px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
-  font-weight: 100;
-  color: #979797;
-  line-height: 1.5;
-  font-size: 20px;
-  letter-spacing: 1px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-#ContactUs .form-check input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
 }
 
 #ContactUs .form-group .checkmark {
