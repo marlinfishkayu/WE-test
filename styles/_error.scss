@@ -120,8 +120,16 @@
     .main-button a:before {
         top: 10%;
     }
-    #errorAccRes .error-header .err-header{
-        font-size: 40px;
+    #errorAccRes {
+        .error-header .err-header{
+            font-size: 40px;
+        }
+        .error-header {
+            max-width: inherit;
+        }
+        .error-header p{
+            max-width: 300px;
+        }
     }
 }
 // Small devices (landscape phones, 576px and up)
@@ -173,6 +181,9 @@
     }
     #error #errorAccRes .error-header .err-header {
         font-size: 80px;
+    }
+    #error #errorAccRes .error-header p {
+        max-width: 500px;
     }
  }
 // Extra large devices (large desktops, 1200px and up)

@@ -7893,6 +7893,14 @@ select.form-control::-ms-expand {
   font-size: 40px;
 }
 
+#error #errorAccRes .error-header {
+  max-width: inherit;
+}
+
+#error #errorAccRes .error-header p {
+  max-width: 300px;
+}
+
 @media (min-width: 992px) {
   #error .error-content {
     max-width: 800px;
@@ -7932,6 +7940,9 @@ select.form-control::-ms-expand {
   }
   #error #errorAccRes .error-header .err-header {
     font-size: 80px;
+  }
+  #error #errorAccRes .error-header p {
+    max-width: 500px;
   }
 }
 
