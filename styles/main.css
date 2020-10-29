@@ -7894,6 +7894,10 @@ select.form-control::-ms-expand {
   max-width: 300px;
 }
 
+#error #errorAccRes .error-header .deco-cat {
+  width: 400px;
+}
+
 @media (min-width: 992px) {
   #error .error-content {
     max-width: 800px;
@@ -8148,6 +8152,9 @@ select.form-control::-ms-expand {
   }
   #error .error-header .deco-cat {
     background: none;
+  }
+  #error .error-main-bkg img {
+    height: auto;
   }
 }
 
