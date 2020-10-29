@@ -135,7 +135,11 @@
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    
+    #error  .error-main-bkg{
+        display: block;
+        height: 100vh;
+        overflow: hidden;
+    }
 }
 
 // Large devices (desktops, 992px and up)
@@ -165,9 +169,6 @@
     }
     #error .error-header .deco-cat:after,
     #error .error-header .deco-cat:before{
-        display: block;
-    }
-    #error  .error-main-bkg{
         display: block;
     }
     #error .error-main-bkg img {

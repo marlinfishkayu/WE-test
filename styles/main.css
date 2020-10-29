@@ -7899,6 +7899,14 @@ select.form-control::-ms-expand {
   width: 400px;
 }
 
+@media (min-width: 768px) {
+  #error .error-main-bkg {
+    display: block;
+    height: 100vh;
+    overflow: hidden;
+  }
+}
+
 @media (min-width: 992px) {
   #error .error-content {
     max-width: 800px;
@@ -7925,9 +7933,6 @@ select.form-control::-ms-expand {
   }
   #error .error-header .deco-cat:after,
   #error .error-header .deco-cat:before {
-    display: block;
-  }
-  #error .error-main-bkg {
     display: block;
   }
   #error .error-main-bkg img {
