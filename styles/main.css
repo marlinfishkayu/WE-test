@@ -3622,7 +3622,7 @@ footer {
 #MahjongLuckyWheel .hero-header::after,
 #GodofFortuneSicBo .hero-header::after,
 #GodofFortuneRoulette .hero-header::after {
-  bottom: 15px;
+  bottom: 0px;
   top: inherit;
 }
 
@@ -3645,6 +3645,7 @@ footer {
   }
   #liveGame .hero-header h1 {
     font-size: 90px;
+    line-height: 90px;
   }
   #MahjongLuckyWheel .hero-header .GOF-series,
   #GodofFortuneSicBo .hero-header .GOF-series,
@@ -3659,7 +3660,7 @@ footer {
     margin-top: 1.5rem;
   }
   #liveGame .hero-intro1 {
-    margin-top: 0rem;
+    margin-top: -4rem;
     padding-top: 0;
     padding-bottom: 0rem;
   }
