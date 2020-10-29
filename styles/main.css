@@ -1402,6 +1402,10 @@ button:focus {
   .sidebar #logoMobile .nav-logo {
     top: -39px;
   }
+  .search-block {
+    position: absolute;
+    left: 15%;
+  }
 }
 
 @media (min-width: 992px) {

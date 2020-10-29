@@ -199,6 +199,7 @@
 .search-black{
 	background-color: #060B1A;
 }
+
 .main-nav{
 	display: flex;
     -ms-flex-wrap: wrap;
@@ -693,6 +694,10 @@
 	}
 	.sidebar #logoMobile .nav-logo {
 		top: -39px;
+	}
+	.search-block{
+		position: absolute;
+		left: 15%;
 	}
 }
 

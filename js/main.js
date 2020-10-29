@@ -164,15 +164,16 @@ $(document).ready(function(){
         $('#searchForm').addClass('active')
         $('.closeBtn').addClass('active')
         $('.nav-wrap').addClass('search-black');
+        $('.search-container').addClass('search-block');
     })
     $('.closeBtn').click(function(){
         $('.menu-item').removeClass('hide-item')
         $('#searchForm').removeClass('active')
         $('.closeBtn').removeClass('active')
         $('.nav-wrap').removeClass('search-black')
+        $('.search-container').removeClass('search-block');
     })
-
-})
+});
 
 
 //Hero carousal
