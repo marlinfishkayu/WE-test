@@ -8170,6 +8170,9 @@ select.form-control::-ms-expand {
   #error .error-main-bkg img {
     height: auto;
   }
+  #error .error-wrap {
+    overflow: inherit;
+  }
 }
 
 @media all and (-ms-high-contrast: none) and (min-width: 576px), (-ms-high-contrast: active) and (min-width: 576px) {
