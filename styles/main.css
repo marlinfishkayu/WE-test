@@ -7768,6 +7768,15 @@ select.form-control::-ms-expand {
      object-fit: cover;
 }
 
+#error404 .WE-diamond-bkg::after {
+  content: "";
+  background: #052749;
+  background: -webkit-gradient(linear, left top, left bottom, from(#052749), to(#060b1a));
+  background: linear-gradient(180deg, #052749 0%, #060b1a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#052749",endColorstr="#060b1a",GradientType=1);
+  opacity: 0.1;
+}
+
 #error404 .error-wrap {
   text-align: center;
   color: #a1a1a1;
@@ -7793,9 +7802,11 @@ select.form-control::-ms-expand {
 }
 
 #error404 .error-header .gradient-text {
-  background-color: #7C6341;
   /* Create the gradient. */
-  background-image: linear-gradient(45deg, #C8AA82, #E6B183, #997657);
+  background: #e6b183;
+  background: -webkit-gradient(linear, left top, right top, from(#e6b183), to(#997657));
+  background: linear-gradient(90deg, #e6b183 0%, #997657 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e6b183",endColorstr="#997657",GradientType=1);
   /* Set the background size and repeat properties. */
   background-size: 100%;
   background-repeat: repeat;
@@ -7810,11 +7821,11 @@ select.form-control::-ms-expand {
 #error404 .error-header .line-deco {
   width: 80px;
   margin: 0 auto;
-  padding-top: 2rem;
+  padding-top: 1.5rem;
 }
 
 #error404 .error-header .deco-cat {
-  padding-top: 30px;
+  padding-top: 20px;
   width: 450px;
 }
 
@@ -7829,6 +7840,8 @@ select.form-control::-ms-expand {
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   padding-top: 30px;
   font-size: 16px;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 #error404 .error-content {
@@ -7842,10 +7855,10 @@ select.form-control::-ms-expand {
 #error404 .error-content h4 {
   font-size: 13px;
   font-weight: 100;
-  padding-bottom: 10px;
   font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   letter-spacing: 3px;
   text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 #error404 .error-content p {
@@ -7862,6 +7875,10 @@ select.form-control::-ms-expand {
 #error404 .error-header .deco-cat:after,
 #error404 .error-header .deco-cat:before {
   display: none;
+}
+
+#error404 .main-button a:before {
+  top: 10%;
 }
 
 @media (min-width: 992px) {

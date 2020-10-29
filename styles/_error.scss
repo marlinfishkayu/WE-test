@@ -1,6 +1,7 @@
 #error404{
     height: 100vh;
     width: 100%;
+    
     .error-main-bkg{
         position: absolute;
         top: 0%;
@@ -13,6 +14,17 @@
             object-fit: cover;
         }
     }
+    .WE-diamond-bkg::after{
+        content:"";
+        background: rgb(5,39,73);
+        background: -moz-linear-gradient(180deg, rgba(5,39,73,1) 0%, rgba(6,11,26,1) 100%);
+        background: -webkit-linear-gradient(180deg, rgba(5,39,73,1) 0%, rgba(6,11,26,1) 100%);
+        background: linear-gradient(180deg, rgba(5,39,73,1) 0%, rgba(6,11,26,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#052749",endColorstr="#060b1a",GradientType=1);
+        opacity: 0.1;
+    }
+    
+    
     .error-wrap{
         text-align: center;
         color: rgb(161,161,161);
@@ -38,9 +50,12 @@
             font-family: $fontFuturaMedium;
         }
         .gradient-text{
-            background-color: #7C6341;
             /* Create the gradient. */
-            background-image: linear-gradient(45deg, #C8AA82, #E6B183, #997657);
+            background: rgb(230,177,131);
+            background: -moz-linear-gradient(90deg, rgba(230,177,131,1) 0%, rgba(153,118,87,1) 100%);
+            background: -webkit-linear-gradient(90deg, rgba(230,177,131,1) 0%, rgba(153,118,87,1) 100%);
+            background: linear-gradient(90deg, rgba(230,177,131,1) 0%, rgba(153,118,87,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e6b183",endColorstr="#997657",GradientType=1);
             /* Set the background size and repeat properties. */
             background-size: 100%;
             background-repeat: repeat;
@@ -54,14 +69,12 @@
         .line-deco {
             width: 80px;
             margin: 0 auto;
-            padding-top: 2rem;
+            padding-top: 1.5rem;
         }
         .deco-cat{
-            padding-top: 30px;
+            padding-top: 20px;
             width: 450px;
-
         }
-        
         h3{
             color: #89663d;
             font-size: 24px;
@@ -72,6 +85,8 @@
             font-family: $fontBarlowLight;
             padding-top: 30px;
             font-size: 16px;
+            max-width: 300px;
+            margin: 0 auto;
         }
     }
     .error-content{
@@ -84,10 +99,10 @@
         h4{
             font-size: 13px;
             font-weight: 100;
-            padding-bottom: 10px;
             font-family: $fontFuturaMedium;
             letter-spacing: 3px;
             text-transform: uppercase;
+            color: #FFFFFF;
         }
         p{
             font-size: 16px;
@@ -102,6 +117,9 @@
      .error-header .deco-cat:after,
      .error-header .deco-cat:before{
         display: none;
+    }
+    .main-button a:before {
+        top: 10%;
     }
 }
 // Small devices (landscape phones, 576px and up)
