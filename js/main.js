@@ -378,11 +378,11 @@ $('#newReleaseCarousel').owlCarousel({
 
 /*-- Add class to popular-game-carousel slider when hover --*/
 $(document).ready(function(){
-    $(".pg-slide").hover(
-        function () {
-            $(this).toggleClass('hovering');
-        });
-    });
+  $(".pg-slide").hover(
+      function () {
+          $(this).toggleClass('hovering');
+      });
+  });
     
 /*-- Add class to about content list --*/
 $('.about-list-wrap a').click(function(){
@@ -540,10 +540,15 @@ const cookieContainer = document.querySelector(".cookie-container");
 const cookieButton = document.querySelector(".cookie-btn");
 
 
-cookieButton.addEventListener("click", function() {
-  cookieContainer.classList.remove("active");
+$('.cookie-btn').click(function(){
+  $('.cookie-container').classList.remove("active");
   localStorage.setItem("cookieBannerDisplayed", "true");
 });
+
+// cookieButton.addEventListener("click", function() {
+//   cookieContainer.classList.remove("active");
+//   localStorage.setItem("cookieBannerDisplayed", "true");
+// });
 
 setTimeout(function() {
   if (!localStorage.getItem("cookieBannerDisplayed")) {
