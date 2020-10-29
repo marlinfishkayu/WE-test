@@ -7754,9 +7754,12 @@ select.form-control::-ms-expand {
 }
 
 #error404 .error-main-bkg {
+  display: none;
   position: absolute;
   top: 0%;
-  left: 0%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
   z-index: -1;
 }
 
@@ -7766,15 +7769,20 @@ select.form-control::-ms-expand {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100vw;
+}
+
+#error404 .WE-diamond-bkg {
+  background-image: url(../images/bkg/square_bkg_x2.png);
 }
 
 #error404 .WE-diamond-bkg::after {
   content: "";
   background: #052749;
-  background: -webkit-gradient(linear, left top, left bottom, from(#052749), to(#060b1a));
-  background: linear-gradient(180deg, #052749 0%, #060b1a 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 39, 73, 0.8)), to(rgba(6, 11, 26, 0.9)));
+  background: linear-gradient(180deg, rgba(5, 39, 73, 0.8) 0%, rgba(6, 11, 26, 0.9) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#052749",endColorstr="#060b1a",GradientType=1);
-  opacity: 0.1;
+  opacity: 0.9;
 }
 
 #error404 .error-wrap {
@@ -7890,10 +7898,39 @@ select.form-control::-ms-expand {
   }
   #error404 .error-header .err-header {
     font-size: 130px;
+    padding-bottom: 40px;
+  }
+  #error404 .error-header .deco-cat {
+    padding-top: 42px;
+  }
+  #error404 .error-header .line-deco {
+    display: none;
+  }
+  #error404 .error-header p {
+    padding-top: 5px;
+    max-width: inherit;
+  }
+  #error404 .error-content {
+    padding-bottom: 6rem;
   }
   #error404 .error-header .deco-cat:after,
   #error404 .error-header .deco-cat:before {
     display: block;
+  }
+  #error404 .error-main-bkg {
+    display: block;
+  }
+  #error404 .error-main-bkg img {
+    height: 200vh;
+  }
+  #error404 .error-wrap {
+    padding-top: 20vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  #error404 .error-main-bkg img {
+    height: 150vh;
   }
 }
 

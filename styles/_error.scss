@@ -1,27 +1,33 @@
 #error404{
     height: 100vh;
     width: 100%;
-    
     .error-main-bkg{
+        display: none;
         position: absolute;
         top: 0%;
-        left: 0%;
+        left: 50%;
+        transform: translate(-50%,0);
         z-index: -1;
         img{
             background-position: 50% 10%; 
             background-size: cover; 
             height: 100%; 
             object-fit: cover;
+            width: 100vw;
         }
+    }
+    .WE-diamond-bkg{
+        background-image: url(../images/bkg/square_bkg_x2.png);
+        
     }
     .WE-diamond-bkg::after{
         content:"";
         background: rgb(5,39,73);
-        background: -moz-linear-gradient(180deg, rgba(5,39,73,1) 0%, rgba(6,11,26,1) 100%);
-        background: -webkit-linear-gradient(180deg, rgba(5,39,73,1) 0%, rgba(6,11,26,1) 100%);
-        background: linear-gradient(180deg, rgba(5,39,73,1) 0%, rgba(6,11,26,1) 100%);
+        background: -moz-linear-gradient(180deg, rgba(5,39,73,0.8) 0%, rgba(6,11,26,0.9) 100%);
+        background: -webkit-linear-gradient(180deg, rgba(5,39,73,0.8) 0%, rgba(6,11,26,0.9) 100%);
+        background: linear-gradient(180deg, rgba(5,39,73,0.8) 0%, rgba(6,11,26,0.9) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#052749",endColorstr="#060b1a",GradientType=1);
-        opacity: 0.1;
+        opacity: 0.9;
     }
     
     
@@ -141,14 +147,39 @@
     }
     #error404 .error-header .err-header {
         font-size: 130px;
+        padding-bottom: 40px;
+    }
+    #error404 .error-header .deco-cat {
+        padding-top: 42px;
+    }
+    #error404 .error-header .line-deco{
+        display: none;
+    }
+    #error404 .error-header p {
+        padding-top: 5px;
+        max-width: inherit;
+    }
+    #error404 .error-content {
+        padding-bottom: 6rem;
     }
     #error404 .error-header .deco-cat:after,
     #error404 .error-header .deco-cat:before{
         display: block;
     }
+    #error404  .error-main-bkg{
+        display: block;
+    }
+    #error404 .error-main-bkg img {
+        height: 200vh;
+    }
+    #error404 .error-wrap {
+        padding-top: 20vh;
+    }
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-    
+    #error404 .error-main-bkg img {
+        height: 150vh;
+    }
     
 }
