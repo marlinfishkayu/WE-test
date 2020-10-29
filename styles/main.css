@@ -7751,6 +7751,7 @@ select.form-control::-ms-expand {
 #error {
   height: 100vh;
   width: 100%;
+  overflow: inherit;
 }
 
 #error .error-main-bkg {
