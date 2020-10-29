@@ -13,21 +13,13 @@
             background-size: cover; 
             height: 100%; 
             object-fit: cover;
-            width: 100vw;
+            width: 130vw;
         }
     }
     .WE-diamond-bkg{
-        background-image: url(../images/bkg/square_bkg_x2.png);
-    }
-    .WE-diamond-bkg:after{
-        content:"";
-        // opacity: 1;
-        // background: rgb(5,39,73);
-        // background: -moz-linear-gradient(180deg, rgba(5,39,73,0.8) 0%, rgba(6,11,26,0.9) 100%);
-        // background: -webkit-linear-gradient(180deg, rgba(5,39,73,0.8) 0%, rgba(6,11,26,0.9) 100%);
-        // background: linear-gradient(180deg, rgba(5,39,73,0.8) 0%, rgba(6,11,26,0.9) 100%);
-        // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#052749",endColorstr="#060b1a",GradientType=1);
-        
+        background-image: url(../images/bkg/error-bkg_x2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .error-wrap{
         text-align: center;
@@ -185,6 +177,9 @@
     }
     #error #errorAccRes .error-header p {
         max-width: 500px;
+    }
+    #error .main-button a:after {
+        height: 47px;
     }
  }
 // Extra large devices (large desktops, 1200px and up)
