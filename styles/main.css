@@ -7748,12 +7748,12 @@ select.form-control::-ms-expand {
   background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTI5cHgiIGhlaWdodD0iMjNweCIgdmlld0JveD0iMCAwIDEyOSAyMyIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDx0aXRsZT5Hcm91cCAyODwvdGl0bGU+CiAgICA8ZGVmcz4KICAgICAgICA8bGluZWFyR3JhZGllbnQgeDE9IjYuNzE4ODI2MjklIiB5MT0iNDAuNzk4NDc1NSUiIHgyPSI5Ni4zMzQxMzQ2JSIgeTI9IjYyLjUzMTI2OTUlIiBpZD0ibGluZWFyR3JhZGllbnQtMSI+CiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiMwMDQzODMiIHN0b3Atb3BhY2l0eT0iMC4zIiBvZmZzZXQ9IjAlIj48L3N0b3A+CiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiMwMDIwNEMiIHN0b3Atb3BhY2l0eT0iMC44IiBvZmZzZXQ9IjM3LjcxMTE0ODYlIj48L3N0b3A+CiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiMwMDIwNEMiIHN0b3Atb3BhY2l0eT0iMC44IiBvZmZzZXQ9Ijc1LjU2NTExODElIj48L3N0b3A+CiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiMwMDIwNEMiIHN0b3Atb3BhY2l0eT0iMC4zIiBvZmZzZXQ9IjEwMCUiPjwvc3RvcD4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPGcgaWQ9IkhvbWUiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJHcm91cC0yOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuMDAwMTg0LCAwLjYyNTAwMCkiPgogICAgICAgICAgICA8cG9seWdvbiBpZD0iUGF0aC0yIiBzdHJva2U9IiNCMDkzNkQiIHN0cm9rZS13aWR0aD0iMC44IiBmaWxsPSJ1cmwoI2xpbmVhckdyYWRpZW50LTEpIiBwb2ludHM9IjQ1LjAwMDE4NCAwLjQwMTI0OTk1NSA2NS41MDAxODQgMjAuOTI2ODc1IDg2LjAwMDE4NCAwLjQwMTI0OTk1NSA3Ni45OTgyMzA5IDAuNDAxMjQ5OTU1IDY1LjI0OTIwNzQgMTIuMTY0OTU5NyA1My41MDAxODQgMC40MDEyNDk5NTUiPjwvcG9seWdvbj4KICAgICAgICAgICAgPHBvbHlnb24gaWQ9IlBhdGgtOCIgZmlsbD0iI0IwOTM2RCIgZmlsbC1ydWxlPSJub256ZXJvIiBwb2ludHM9IjEyOC45OTk5OTUgMi42Mzc5ODkzOGUtMDkgMTI5LjAwMDM3MyAwLjc0OTk5OTkwNyA3Ny4xNTQxODQgMC43NzU5OTk5NTUgNjUuMjQ5MjA3NCAxMi42OTU2MjEzIDUzLjM0NTE4NCAwLjc3NTk5OTk1NSAwIDAuNzQ5OTk5OTEgMC4wMDAzNjc5OTA2MTEgMCA1My42NTU3Mjc1IDAuMDI2MzI2MjI3OCA2NS4yNDkxODQgMTEuNjMzIDc2Ljg0MjY4NTIgMC4wMjYzMjg0MjQ4Ij48L3BvbHlnb24+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=");
 }
 
-#error404 {
+#error {
   height: 100vh;
   width: 100%;
 }
 
-#error404 .error-main-bkg {
+#error .error-main-bkg {
   display: none;
   position: absolute;
   top: 0%;
@@ -7763,7 +7763,7 @@ select.form-control::-ms-expand {
   z-index: -1;
 }
 
-#error404 .error-main-bkg img {
+#error .error-main-bkg img {
   background-position: 50% 10%;
   background-size: cover;
   height: 100%;
@@ -7772,11 +7772,11 @@ select.form-control::-ms-expand {
   width: 100vw;
 }
 
-#error404 .WE-diamond-bkg {
+#error .WE-diamond-bkg {
   background-image: url(../images/bkg/square_bkg_x2.png);
 }
 
-#error404 .WE-diamond-bkg::after {
+#error .WE-diamond-bkg::after {
   content: "";
   background: #052749;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 39, 73, 0.8)), to(rgba(6, 11, 26, 0.9)));
@@ -7785,7 +7785,7 @@ select.form-control::-ms-expand {
   opacity: 0.9;
 }
 
-#error404 .error-wrap {
+#error .error-wrap {
   text-align: center;
   color: #a1a1a1;
   padding: 8rem 0;
@@ -7793,12 +7793,12 @@ select.form-control::-ms-expand {
   height: 100%;
 }
 
-#error404 .error-header {
+#error .error-header {
   max-width: 500px;
   margin: 0 auto;
 }
 
-#error404 .error-header .err-header {
+#error .error-header .err-header {
   font-size: 64px;
   line-height: 100px;
   color: #8A6C52;
@@ -7809,7 +7809,7 @@ select.form-control::-ms-expand {
   font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
 }
 
-#error404 .error-header .gradient-text {
+#error .error-header .gradient-text {
   /* Create the gradient. */
   background: #e6b183;
   background: -webkit-gradient(linear, left top, right top, from(#e6b183), to(#997657));
@@ -7826,25 +7826,25 @@ select.form-control::-ms-expand {
   -moz-text-fill-color: transparent;
 }
 
-#error404 .error-header .line-deco {
+#error .error-header .line-deco {
   width: 80px;
   margin: 0 auto;
   padding-top: 1.5rem;
 }
 
-#error404 .error-header .deco-cat {
+#error .error-header .deco-cat {
   padding-top: 20px;
   width: 450px;
 }
 
-#error404 .error-header h3 {
+#error .error-header h3 {
   color: #89663d;
   font-size: 24px;
   font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-weight: normal;
 }
 
-#error404 .error-header p {
+#error .error-header p {
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   padding-top: 30px;
   font-size: 16px;
@@ -7852,7 +7852,7 @@ select.form-control::-ms-expand {
   margin: 0 auto;
 }
 
-#error404 .error-content {
+#error .error-content {
   font-size: 16px;
   width: 100%;
   margin: 0 auto;
@@ -7860,7 +7860,7 @@ select.form-control::-ms-expand {
   padding-top: 60px;
 }
 
-#error404 .error-content h4 {
+#error .error-content h4 {
   font-size: 13px;
   font-weight: 100;
   font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
@@ -7869,67 +7869,74 @@ select.form-control::-ms-expand {
   color: #FFFFFF;
 }
 
-#error404 .error-content p {
+#error .error-content p {
   font-size: 16px;
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
 }
 
-#error404 .error-content .error-col {
+#error .error-content .error-col {
   padding-bottom: 30px;
   width: 300px;
   margin: 0 auto;
 }
 
-#error404 .error-header .deco-cat:after,
-#error404 .error-header .deco-cat:before {
+#error .error-header .deco-cat:after,
+#error .error-header .deco-cat:before {
   display: none;
 }
 
-#error404 .main-button a:before {
+#error .main-button a:before {
   top: 10%;
 }
 
+#error #errorAccRes .error-header .err-header {
+  font-size: 40px;
+}
+
 @media (min-width: 992px) {
-  #error404 .error-content {
+  #error .error-content {
     max-width: 800px;
   }
-  #error404 .error-content .error-col {
+  #error .error-content .error-col {
     text-align: left;
   }
-  #error404 .error-header .err-header {
+  #error .error-header .err-header {
     font-size: 130px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
   }
-  #error404 .error-header .deco-cat {
+  #error .error-header .deco-cat {
     padding-top: 42px;
   }
-  #error404 .error-header .line-deco {
+  #error .error-header .line-deco {
     display: none;
   }
-  #error404 .error-header p {
+  #error .error-header p {
     padding-top: 5px;
     max-width: inherit;
   }
-  #error404 .error-content {
+  #error .error-content {
     padding-bottom: 6rem;
   }
-  #error404 .error-header .deco-cat:after,
-  #error404 .error-header .deco-cat:before {
+  #error .error-header .deco-cat:after,
+  #error .error-header .deco-cat:before {
     display: block;
   }
-  #error404 .error-main-bkg {
+  #error .error-main-bkg {
     display: block;
   }
-  #error404 .error-main-bkg img {
+  #error .error-main-bkg img {
     height: 200vh;
   }
-  #error404 .error-wrap {
+  #error .error-wrap {
     padding-top: 20vh;
+  }
+  #error #errorAccRes .error-header .err-header {
+    font-size: 80px;
   }
 }
 
 @media (min-width: 1200px) {
-  #error404 .error-main-bkg img {
+  #error .error-main-bkg img {
     height: 150vh;
   }
 }

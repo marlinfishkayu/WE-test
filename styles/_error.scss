@@ -1,4 +1,4 @@
-#error404{
+#error{
     height: 100vh;
     width: 100%;
     .error-main-bkg{
@@ -18,7 +18,6 @@
     }
     .WE-diamond-bkg{
         background-image: url(../images/bkg/square_bkg_x2.png);
-        
     }
     .WE-diamond-bkg::after{
         content:"";
@@ -29,18 +28,12 @@
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#052749",endColorstr="#060b1a",GradientType=1);
         opacity: 0.9;
     }
-    
-    
     .error-wrap{
         text-align: center;
         color: rgb(161,161,161);
         padding: 8rem 0; 
         overflow: scroll;
         height: 100%;
-        // position: absolute;
-        // left: 50%;
-        // top: 20%;
-        // transform: translateX(-50% );
     }
     .error-header{
         max-width: 500px;
@@ -127,6 +120,9 @@
     .main-button a:before {
         top: 10%;
     }
+    #errorAccRes .error-header .err-header{
+        font-size: 40px;
+    }
 }
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
@@ -139,46 +135,49 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-    #error404 .error-content {
+    #error .error-content {
         max-width: 800px;
     }
-    #error404 .error-content .error-col {
+    #error .error-content .error-col {
         text-align: left;
     }
-    #error404 .error-header .err-header {
+    #error .error-header .err-header {
         font-size: 130px;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
     }
-    #error404 .error-header .deco-cat {
+    #error .error-header .deco-cat {
         padding-top: 42px;
     }
-    #error404 .error-header .line-deco{
+    #error .error-header .line-deco{
         display: none;
     }
-    #error404 .error-header p {
+    #error .error-header p {
         padding-top: 5px;
         max-width: inherit;
     }
-    #error404 .error-content {
+    #error .error-content {
         padding-bottom: 6rem;
     }
-    #error404 .error-header .deco-cat:after,
-    #error404 .error-header .deco-cat:before{
+    #error .error-header .deco-cat:after,
+    #error .error-header .deco-cat:before{
         display: block;
     }
-    #error404  .error-main-bkg{
+    #error  .error-main-bkg{
         display: block;
     }
-    #error404 .error-main-bkg img {
+    #error .error-main-bkg img {
         height: 200vh;
     }
-    #error404 .error-wrap {
+    #error .error-wrap {
         padding-top: 20vh;
+    }
+    #error #errorAccRes .error-header .err-header {
+        font-size: 80px;
     }
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-    #error404 .error-main-bkg img {
+    #error .error-main-bkg img {
         height: 150vh;
     }
     
