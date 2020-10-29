@@ -3618,6 +3618,14 @@ footer {
   letter-spacing: 1px;
 }
 
+#SqueezeBaccarat .hero-header::after,
+#MahjongLuckyWheel .hero-header::after,
+#GodofFortuneSicBo .hero-header::after,
+#GodofFortuneRoulette .hero-header::after {
+  bottom: 15px;
+  top: inherit;
+}
+
 @media (min-width: 768px) {
   .hero-header {
     height: 600px;
@@ -3759,7 +3767,7 @@ footer {
   #GodofFortuneRoulette .hero-header,
   #SqueezeBaccarat .hero-header,
   #MahjongLuckyWheel .hero-header {
-    height: 650px;
+    height: 670px;
   }
   #liveGame #SqueezeBaccarat .hero-header .game-icon {
     width: 169px;
