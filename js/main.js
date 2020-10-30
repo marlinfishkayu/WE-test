@@ -172,6 +172,7 @@ $(document).ready(function(){
         $('.closeBtn').removeClass('active')
         $('.nav-wrap').removeClass('search-black')
         $('.search-container').removeClass('search-block');
+        $('.search-input').val("");
     })
 });
 
