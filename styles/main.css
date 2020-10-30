@@ -3592,6 +3592,10 @@ footer {
   height: 460px;
 }
 
+#GodofFortuneSicBo .hero-header, #GodofFortuneSicBo .live-game-main {
+  padding-bottom: 0;
+}
+
 #WinThreeCards .hero-header::after {
   background: #060b1a;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, rgba(6, 11, 26, 0.5)), to(#070a1b));
@@ -3798,15 +3802,15 @@ footer {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(90%, rgba(6, 11, 26, 0.3)), to(#070a1b));
     background: linear-gradient(180deg, rgba(6, 11, 26, 0.3) 90%, #070a1b 100%);
   }
-  .live-game-main .game-platform .hero-intro2 {
-    margin-top: 0rem;
-  }
   #liveGame #GodofFortuneSicBo .hero-header, .live-game-main {
     margin-top: 4rem !important;
     margin-bottom: -5rem !important;
   }
   .game-platform {
     margin-bottom: 6rem;
+  }
+  #GodofFortuneSicBo .hero-header, #GodofFortuneSicBo .live-game-main {
+    padding-bottom: 5rem;
   }
 }
 
