@@ -7833,7 +7833,6 @@ select.form-control::-ms-expand {
   text-align: center;
   color: #a1a1a1;
   padding: 8rem 0;
-  overflow: scroll;
   height: 100%;
 }
 
@@ -8218,9 +8217,6 @@ select.form-control::-ms-expand {
   }
   #error .error-main-bkg img {
     height: auto;
-  }
-  #error .error-wrap {
-    overflow: inherit;
   }
 }
 
