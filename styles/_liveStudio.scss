@@ -7,8 +7,8 @@
     position: relative;
 }
 #liveStudio .livestudio-sec1{
-    padding-top: 140px;
-    padding-bottom: 140px;
+    padding-top: 0px;
+    padding-bottom: 180px;
 }
 #liveStudio .showless_btn .active{
     height: auto;
@@ -23,6 +23,13 @@
     height: 300px;
     position: absolute;
     top: 0;
+    img{
+        width: auto; 
+        background-position: 50% 10%; 
+        background-size: cover; 
+        height: auto; 
+        object-fit: cover;
+    }
 }
 #liveStudio .studio-slide-bkg-2{
     height: 3600px;
@@ -35,7 +42,7 @@
     }
 }
 #liveStudio .livestudio-sec3 .studio-bottom-bkg{
-    height: 600px;
+    height: 634px;
     position: absolute;
     top: 0;
     left: 0;
@@ -442,7 +449,6 @@
     #liveStudio .showless-wrap{
         height: 700px;
     }
-    
     #studioCarousel .room-slide{
         width: 295px;
         height: 559px;
@@ -489,12 +495,16 @@
     #liveStudio .studio-bottom-main .studio-bottom-btn-wrap {
         padding-top: 4rem;
     }
+    
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
     #liveStudio #studioCarousel{
         margin: 0 auto;
         width: 1550px;
+    }
+    #liveStudio .studio-slide-bkg img{
+        width: 100%; 
     }
 }
 // Extra large devices (large desktops, 1200px and up)

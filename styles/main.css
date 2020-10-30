@@ -5339,8 +5339,8 @@ select.form-control::-ms-expand {
 }
 
 #liveStudio .livestudio-sec1 {
-  padding-top: 140px;
-  padding-bottom: 140px;
+  padding-top: 0px;
+  padding-bottom: 180px;
 }
 
 #liveStudio .showless_btn .active {
@@ -5361,6 +5361,15 @@ select.form-control::-ms-expand {
   top: 0;
 }
 
+#liveStudio .studio-slide-bkg img {
+  width: auto;
+  background-position: 50% 10%;
+  background-size: cover;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 #liveStudio .studio-slide-bkg-2 {
   height: 3600px;
 }
@@ -5375,7 +5384,7 @@ select.form-control::-ms-expand {
 }
 
 #liveStudio .livestudio-sec3 .studio-bottom-bkg {
-  height: 600px;
+  height: 634px;
   position: absolute;
   top: 0;
   left: 0;
@@ -5890,6 +5899,9 @@ select.form-control::-ms-expand {
   #liveStudio #studioCarousel {
     margin: 0 auto;
     width: 1550px;
+  }
+  #liveStudio .studio-slide-bkg img {
+    width: 100%;
   }
 }
 
