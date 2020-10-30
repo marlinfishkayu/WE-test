@@ -7933,10 +7933,6 @@ select.form-control::-ms-expand {
   top: 10%;
 }
 
-#error .error-pl {
-  padding-left: 90px;
-}
-
 #error #errorAccRes .error-header .err-header {
   font-size: 40px;
 }
@@ -7962,6 +7958,9 @@ select.form-control::-ms-expand {
     display: block;
     height: 100vh;
     overflow: hidden;
+  }
+  .error-pl {
+    padding-left: 90px;
   }
 }
 

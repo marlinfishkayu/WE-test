@@ -114,9 +114,7 @@
     .main-button a:before {
         top: 10%;
     }
-    .error-pl{
-        padding-left: 90px;
-    }
+    
     #errorAccRes {
         .error-header .err-header{
             font-size: 40px;
@@ -148,6 +146,9 @@
         display: block;
         height: 100vh;
         overflow: hidden;
+    }
+    .error-pl{
+        padding-left: 90px;
     }
 }
 
