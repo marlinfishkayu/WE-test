@@ -7923,6 +7923,10 @@ select.form-control::-ms-expand {
   width: 430px;
 }
 
+#error .email-link {
+  color: #BCBCBC;
+}
+
 @media (min-width: 768px) {
   #error .error-main-bkg {
     display: block;
