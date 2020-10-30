@@ -512,6 +512,18 @@ button:focus {
   margin: auto;
 }
 
+.email-link {
+  color: #BCBCBC;
+  text-decoration: none;
+  -webkit-transition: 200ms all ease;
+  transition: 200ms all ease;
+}
+
+.email-link:hover {
+  color: #89663D;
+  text-decoration: none;
+}
+
 @media (min-width: 768px) {
   .hero-intro1 {
     font-size: 22px;
@@ -7921,10 +7933,6 @@ select.form-control::-ms-expand {
 
 #error #error502 .error-header .deco-cat {
   width: 430px;
-}
-
-#error .email-link {
-  color: #BCBCBC;
 }
 
 @media (min-width: 768px) {

@@ -541,15 +541,15 @@ const cookieContainer = document.querySelector(".cookie-container");
 const cookieButton = document.querySelector(".cookie-btn");
 
 
-$('.cookie-btn').click(function(){
-  $('.cookie-container').classList.remove("active");
-  localStorage.setItem("cookieBannerDisplayed", "true");
-});
-
-// cookieButton.addEventListener("click", function() {
-//   cookieContainer.classList.remove("active");
+// $('.cookie-btn').click(function(){
+//   $('.cookie-container').classList.remove("active");
 //   localStorage.setItem("cookieBannerDisplayed", "true");
 // });
+
+cookieButton.addEventListener("click", function() {
+  cookieContainer.classList.remove("active");
+  localStorage.setItem("cookieBannerDisplayed", "true");
+});
 
 setTimeout(function() {
   if (!localStorage.getItem("cookieBannerDisplayed")) {
