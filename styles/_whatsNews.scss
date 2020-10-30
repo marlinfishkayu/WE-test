@@ -249,9 +249,6 @@
                     background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjZweCIgaGVpZ2h0PSIxM3B4IiB2aWV3Qm94PSIwIDAgMjYgMTMiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+UGF0aCAyPC90aXRsZT4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCB4MT0iNi43MTg4MjYyOSUiIHkxPSI0MC44MjE0MzYzJSIgeDI9Ijk2LjMzNDEzNDYlIiB5Mj0iNjIuNSUiIGlkPSJsaW5lYXJHcmFkaWVudC0xIj4KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzAwNDM4MyIgc3RvcC1vcGFjaXR5PSIwLjMiIG9mZnNldD0iMCUiPjwvc3RvcD4KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzAwMjA0QyIgc3RvcC1vcGFjaXR5PSIwLjgiIG9mZnNldD0iMzcuNzExMTQ4NiUiPjwvc3RvcD4KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzAwMjA0QyIgc3RvcC1vcGFjaXR5PSIwLjMiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8L2RlZnM+CiAgICA8ZyBpZD0iV2hhdCdzLU5ldyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IndoYXQncy0tbmV3XzItY29weSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTQ5NS4wMDAwMDAsIC04MjkuMDAwMDAwKSIgZmlsbD0idXJsKCNsaW5lYXJHcmFkaWVudC0xKSIgc3Ryb2tlPSIjN0Q2ODREIiBzdHJva2Utd2lkdGg9IjAuNzUiPgogICAgICAgICAgICA8ZyBpZD0iR3JvdXAtMTUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE3My4wMDAwMDAsIDc4MS4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJQYXRoLTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMzNS4wMDAwMDAsIDU0LjAwMDAwMCkgc2NhbGUoMSwgLTEpIHJvdGF0ZSgtMzYwLjAwMDAwMCkgdHJhbnNsYXRlKC0zMzUuMDAwMDAwLCAtNTQuMDAwMDAwKSAiIHBvaW50cz0iMzIzIDQ4IDMzNSA2MCAzNDcgNDggMzQxLjczMDU2NCA0OCAzMzQuODUzMDg3IDU0Ljg3NzQ3NzEgMzI3Ljk3NTYxIDQ4Ij48L3BvbHlnb24+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==");
                 }
             }
-            // .active a{
-            //     color: #ffffff;
-            // }
         }
         .news-filter .active{
             position: relative;
@@ -684,8 +681,8 @@
         padding-top: 2rem;
     }
     #news-carousel #slider-area .slide .update-img{
-        width: 561px;
-        height: 306px;
+        width: 480px;
+        height: 291px;
         margin-top: 3rem;
     }
     #news-carousel .update-content{
@@ -843,6 +840,9 @@
     #newsFeed .news-filter-wrap .news-filter .filter-item a.active:after {
         bottom: -21px;
     }
+    #news-carousel  #slider-area .owl-dots {
+        bottom: 7%;
+    }
 }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
@@ -884,6 +884,9 @@
     }
     #news-carousel .update-content .update-detail-btn h6:after {
         top: 45px;
+    }
+    #news-carousel  #slider-area .owl-dots {
+        bottom: 2%;
     }
 }
 @media (min-width: 1500px) {
