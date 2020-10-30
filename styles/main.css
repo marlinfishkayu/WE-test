@@ -6893,7 +6893,7 @@ select.form-control::-ms-expand {
     line-height: 30px;
   }
   #AboutWE .about-mission .line-deco-vertical {
-    top: -81%;
+    top: -68%;
     left: 50%;
   }
   #AboutWE .about-cert {
@@ -6925,7 +6925,7 @@ select.form-control::-ms-expand {
     display: block;
   }
   #AboutWE .about-brandStory .line-deco-vertical {
-    bottom: 0;
+    bottom: 41px;
   }
   #AboutWE .about-brandStory, #AboutWE .about-mission, #AboutWE .about-slogan {
     margin-top: 8rem;
