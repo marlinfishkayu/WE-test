@@ -47,6 +47,9 @@
     top: 0;
     left: 0;
 }
+#liveStudio .livestudio-sec3 .bottom-deco{
+    width: 247px;
+}
 #liveStudio .img-hover{
     height: 300px;
     position: absolute;
@@ -407,7 +410,7 @@
     #liveStudio .livestudio-hightlight-wrap .cert-wrap{
         width: 700px;
         .cert-bottom {
-            width: 361px;
+            width: 400px;
             line-height: 120%;
         }
         .hero-intro2{
@@ -468,10 +471,13 @@
         }
     }
     #liveStudio .livestudio-hightlight-wrap .bottom-deco{
-        width: 280px;
+        width: 389px;
     }
     #liveStudio .livestudio-hightlight-wrap .cert-wrap {
         width: 500px;
+    }
+    #liveStudio .livestudio-sec3 .bottom-deco{
+        width: 313px;
     }
 }   
 

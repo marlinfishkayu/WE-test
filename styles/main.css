@@ -5390,6 +5390,10 @@ select.form-control::-ms-expand {
   left: 0;
 }
 
+#liveStudio .livestudio-sec3 .bottom-deco {
+  width: 247px;
+}
+
 #liveStudio .img-hover {
   height: 300px;
   position: absolute;
@@ -5809,7 +5813,7 @@ select.form-control::-ms-expand {
     width: 700px;
   }
   #liveStudio .livestudio-hightlight-wrap .cert-wrap .cert-bottom {
-    width: 361px;
+    width: 400px;
     line-height: 120%;
   }
   #liveStudio .livestudio-hightlight-wrap .cert-wrap .hero-intro2 {
@@ -5867,10 +5871,13 @@ select.form-control::-ms-expand {
     font-size: 18px;
   }
   #liveStudio .livestudio-hightlight-wrap .bottom-deco {
-    width: 280px;
+    width: 389px;
   }
   #liveStudio .livestudio-hightlight-wrap .cert-wrap {
     width: 500px;
+  }
+  #liveStudio .livestudio-sec3 .bottom-deco {
+    width: 313px;
   }
 }
 
