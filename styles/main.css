@@ -7915,6 +7915,10 @@ select.form-control::-ms-expand {
   top: 10%;
 }
 
+#error .error-pl {
+  padding-left: 90px;
+}
+
 #error #errorAccRes .error-header .err-header {
   font-size: 40px;
 }
@@ -7928,7 +7932,7 @@ select.form-control::-ms-expand {
 }
 
 #error #errorAccRes .error-header .deco-cat {
-  width: 400px;
+  width: 450px;
 }
 
 #error #error502 .error-header .deco-cat {
@@ -7945,7 +7949,7 @@ select.form-control::-ms-expand {
 
 @media (min-width: 992px) {
   #error .error-content {
-    max-width: 800px;
+    max-width: 600px;
   }
   #error .error-content .error-col {
     text-align: left;

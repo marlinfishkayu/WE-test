@@ -114,6 +114,9 @@
     .main-button a:before {
         top: 10%;
     }
+    .error-pl{
+        padding-left: 90px;
+    }
     #errorAccRes {
         .error-header .err-header{
             font-size: 40px;
@@ -125,7 +128,7 @@
             max-width: 300px;
         }
         .error-header .deco-cat{
-            width: 400px;
+            width: 450px;
         }
     }
     #error502 {
@@ -151,7 +154,7 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
     #error .error-content {
-        max-width: 800px;
+        max-width: 600px;
     }
     #error .error-content .error-col {
         text-align: left;
